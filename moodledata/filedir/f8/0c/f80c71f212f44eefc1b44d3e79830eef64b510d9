@@ -1,0 +1,21 @@
+//PROYECTO FINAL CURSO GEE
+//DESCARGAR UN DEM BASADO EN LA EXTENSION DE UN AREA ESPEFICICA
+var dataset = ee.Image('WWF/HydroSHEDS/03VFDEM');
+var elevation = dataset.select('b1');
+var elevationVis = {
+  min: -50.0,
+  max: 8000.0,
+  gamma: 3.0,
+};
+Map.setCenter(-68.40, -14.73, 10);
+Map.addLayer(elevation, elevationVis, 'Elevation');
+
+var geometry = ee.Geometry.Rectangle([-68.40,-14.73,-69.36,-13.95]);
+
+Export.image.toDrive({
+  image : elevation,
+  region : geometry,
+  description : 'DEM_Franz_Tamayo',
+  scale: 90 
+  
+})

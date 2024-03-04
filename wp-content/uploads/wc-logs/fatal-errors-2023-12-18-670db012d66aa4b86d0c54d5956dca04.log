@@ -1,0 +1,10 @@
+2023-12-18T01:10:37+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + int in /www/wwwroot/astrogeomatics.com/wp-content/plugins/wp-tab-widget/wp-tab-widget.php:665
+Stack trace:
+#0 /www/wwwroot/astrogeomatics.com/wp-content/plugins/wp-tab-widget/wp-tab-widget.php(658): wpt_update_view_count()
+#1 /www/wwwroot/astrogeomatics.com/wp-includes/class-wp-hook.php(324): ajax_wpt_view_count()
+#2 /www/wwwroot/astrogeomatics.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /www/wwwroot/astrogeomatics.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /www/wwwroot/astrogeomatics.com/wp-admin/admin-ajax.php(203): do_action()
+#5 {main}
+  thrown en /www/wwwroot/astrogeomatics.com/wp-content/plugins/wp-tab-widget/wp-tab-widget.php en la línea 665
+
