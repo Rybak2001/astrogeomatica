@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_metalink', language 'es_mx', version '4.2'.
+ * Strings for component 'block_metalink', language 'es_mx', version '3.10'.
  *
  * @package     block_metalink
  * @category    string
@@ -30,11 +30,11 @@ $string['cantreadcsv'] = 'No pudo leerse el archivo CSV';
 $string['cantremoveold'] = 'El archivo antiguo de cron $a no pudo eliminarse. Por favor revise los permisos para el archivo.';
 $string['childisparent'] = '{$a->child} es un padre de  {$a->parent}, por lo que no puede ser añadido como su hijo.';
 $string['childnotfound'] = 'Línea {$a->line}: No se encontró al Curso Hijo';
-$string['cronfile'] = 'Ubicación del archivo para el procesamiento automático';
-$string['cronfiledesc'] = 'Si Usted escribe aquí una ubicación de un archivo, esa ruta será revisada periódicamente para buscar un archivo y procesarlo automáticamente';
+$string['cronfile'] = 'Localización del archivo para el procesamiento automático';
+$string['cronfiledesc'] = 'Si Usted escribe aquí una localización de un archivo, esa ruta será revisada periódicamente para buscar un archivo y procesarlo automáticamente';
 $string['cronmoved'] = '{$a->old} se movió a {$a->new}';
 $string['cronnotmoved'] = '{$a->old} no pudo moverse a {$a->new}. Por favor revise los permisos de la carpeta.';
-$string['cronprocessed'] = 'Ubicación del archivo procesado';
+$string['cronprocessed'] = 'Localización del archivo procesado';
 $string['csv'] = 'Archivo CSV';
 $string['csv_help'] = 'El archivo debe estar en formato CSV (valores separados por coma). Cada tarea debe estar en una fila, con 3 columnas: operación add o del (add=añadir o del=eliminar) , idnumber del curso padre, idnumber del curso hijo).
 Por ejemplo, para añadir el curso hijo con idnumber 1234 al curso padre con idnumber 4321, la línea se leería: add, 4321, 1234';
@@ -42,7 +42,7 @@ $string['csvfile'] = 'Elegir archivo CSV';
 $string['invalidop'] = 'Línea {$a->line}: Oeración no válida {$a->op}';
 $string['keepprocessed'] = 'Conservar archivos procesados';
 $string['keepprocessedfor'] = 'Días que se conservarán los archivos procesados';
-$string['keepprocessedlong'] = 'Si se elige, los archivos procesados se guardarán en la ubicación abajo indicada.';
+$string['keepprocessedlong'] = 'Si se elige, los archivos procesados se guardarán en la localización abajo indicada.';
 $string['metadisabled'] = 'El plugin de inscripción de Metacurso está deshabilitado. Habilítelo para usar este bloque.';
 $string['metalink:addinstance'] = 'Añadir un nuevo bloque de MetaEnlace';
 $string['metalink:myaddinstance'] = 'Añadir un nuevo bloque de MetaEnlace a la Página de Mi Hogar';

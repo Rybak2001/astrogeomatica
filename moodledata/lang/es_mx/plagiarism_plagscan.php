@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_plagscan', language 'es_mx', version '4.2'.
+ * Strings for component 'plagiarism_plagscan', language 'es_mx', version '3.10'.
  *
  * @package     plagiarism_plagscan
  * @category    string
@@ -37,11 +37,11 @@ $string['autodescription'] = 'Analizar documentos automáticamente cuando se hay
 $string['autodescriptionsubmitted'] = 'Los archivos fueron subidos automáticamente a Plagscan en {$a} - cambia al modo  \'manual\' para re-enviar documentos individuales';
 $string['autostart'] = 'Auto-iniciar revisiones de Plagio';
 $string['badcredentials'] = 'PlagScan no reconoció los detalles de la cuenta - por favor confirme que URL del servidor, nombre_de_usuario ({$a->user}), clave API y número de versión ({$a->version}) sean correctos';
-$string['callback_check'] = 'Revisar la configuración de retrollamada';
-$string['callback_help'] = 'La configuración de retrollamada es importante para obtener los resultados de reportes cuando se generaron y sincronizarlos con la Base de Datos de Moodle';
-$string['callback_notchecked'] = 'No se ha revisado la configuración de retrollamada';
-$string['callback_setup'] = 'La retrollamada se ha configurado';
-$string['callback_working'] = 'La configuración de retrollamada es aceptada';
+$string['callback_check'] = 'Revisar la configuración de callback (llamada de retorno)';
+$string['callback_help'] = 'La configuración de callback (llamada de retorno) es importante para obtener los resultados de reportes cuando se generaron y sincronizarlos con la Base de Datos de Moodle';
+$string['callback_notchecked'] = 'No se ha revisado la configuración de callback (llamada de retorno)';
+$string['callback_setup'] = 'Se ha configurado callback (llamada de retorno)';
+$string['callback_working'] = 'La configuración de callback (llamada de retorno) es aceptada';
 $string['check'] = 'Revisar';
 $string['checkallfilestatus'] = 'Actualizar estado de todos los archivos enviados';
 $string['checkalltextstatus'] = 'Actualizar estado de todos los contenidos de texto enviados';
@@ -54,7 +54,6 @@ $string['connectionfailed'] = 'No pudo conectarse al servidor PlagScan';
 $string['cron_help'] = 'Si Usted reinicia cron, se podrían enviar archivos duplicados a PlagScan';
 $string['cron_normal'] = 'La configuración del trabajo de cron es aceptada';
 $string['cron_reset'] = 'El trabajo de cron ha sido reiniciado';
-$string['cron_reset_link'] = 'REINICIAR CRON';
 $string['cron_running1'] = 'El trabajo de cron está corriendo desde';
 $string['cron_running2'] = 'Hacer clic para reiniciar';
 $string['data_policy'] = 'Política de Datos';
@@ -73,7 +72,6 @@ $string['email_policy_notification_account'] = 'Notificación para nuevas creden
 $string['email_policy_notification_account_help'] = 'Al <b>activar la casilla</b> todas las <b>credenciales de cuenta</b> nuevas generadas serán enviadas inmediatamente a Usted.';
 $string['english'] = 'Inglés';
 $string['error_involving_assistant'] = 'Error al tratar de involucrar al asistente dentro del envío';
-$string['event_callback_received'] = 'Retrollamada de PlagScan recibida.';
 $string['filechecked'] = 'Estatus del documento revisado en el servidor PlagScan';
 $string['filesassociated'] = 'Documento será subido a cuenta \'{$a}\\';
 $string['filesubmitted'] = 'Documento \'{$a}\' es enviado a Plagscan';
@@ -146,7 +144,6 @@ $string['plagscanserver'] = 'Servidor PlagScan';
 $string['plagscanserver_help'] = 'La configuración inicial es "<b>ssl://api.plagscan.com/v3/</b>" o "<b>https://api.plagscan.com/v3/</b>" si es que Moodle usa un servidor proxy.';
 $string['plagscanversion'] = '2.3';
 $string['pluginname'] = 'PlagScan';
-$string['privacy:metadata:plagiarism_plagscan_config:show_students_links'] = 'Indica si los estudiantes tienen acceso al enlace del reporte.';
 $string['process_checking'] = 'El archivo está siendo analizado';
 $string['psreport'] = 'Reporte PS';
 $string['red'] = 'Nivel_de_Plagio rojo comienza en';
@@ -203,6 +200,7 @@ $string['textunsupported'] = 'Error desconocido en el envío del texto';
 $string['unsupportedfiletype'] = 'Este tipo de archivo no está soportado por PlagScan';
 $string['updateyoursettings'] = 'A sus configuraciones de PlagScan';
 $string['useplagscan'] = 'Habilitar Plagscan';
+$string['useplagscan_help'] = '';
 $string['useroptedout'] = 'Optó por excluirse de la detección de plagio';
 $string['viewmatches'] = 'Ver coincidencias';
 $string['viewreport'] = 'Ver reporte';
@@ -212,5 +210,4 @@ $string['week'] = 'Después de una semana';
 $string['weeks'] = 'Después de tres meses';
 $string['windowsize'] = 'Tamaño de ventana';
 $string['windowsize_help'] = 'El tamaño de ventana representa que tan granular será la búsqueda técnica. El valor recomendado es 60.';
-$string['wipe_plagscan_user_cache_link'] = 'Limpiar Caché del Usuario de PlagScan';
 $string['yellow'] = 'El nivel_de_Plagio amarillo comienza en';

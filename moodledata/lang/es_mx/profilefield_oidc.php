@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_oidc', language 'es_mx', version '4.2'.
+ * Strings for component 'profilefield_oidc', language 'es_mx', version '3.10'.
  *
  * @package     profilefield_oidc
  * @category    string
@@ -26,7 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['connected'] = 'El usuario está usando {$a} para ingresar.';
-$string['connected_link'] = 'Gestionar';
 $string['notconnected'] = 'El usuario NO está usando {$a} para ingresar.';
-$string['notconnected_link'] = 'Comenzar usando {$a} para ingresarn.';
 $string['pluginname'] = 'Gestión de OpenIDConnect';

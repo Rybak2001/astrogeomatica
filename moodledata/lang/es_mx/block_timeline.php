@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_timeline', language 'es_mx', version '4.2'.
+ * Strings for component 'block_timeline', language 'es_mx', version '3.10'.
  *
  * @package     block_timeline
  * @category    string
@@ -26,29 +26,27 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['all'] = 'Todo';
-$string['ariadayfilter'] = 'Filtrar línea del tiempo por fecha';
+$string['ariadayfilter'] = 'Ítems de filtro de línea del tiempo';
 $string['ariadayfilteroption'] = '{$a} opción de filtro';
 $string['ariaeventlistitem'] = '{$a->name} actividad en {$a->course} está pendiente para {$a->date}';
 $string['ariaeventlistpagelimit'] = 'Mostrar {$a} actividades por página';
 $string['ariaeventlistpaginationnavcourses'] = 'Actividades en línea de tiempo para paginación del curso {$a}';
 $string['ariaeventlistpaginationnavdates'] = 'Paginación de actividades en línea del tiempo';
-$string['ariaviewselector'] = 'Ordenar elementos en línea del tiempo';
+$string['ariaviewselector'] = 'Ordenar ítems en línea del tiempo';
 $string['ariaviewselectoroption'] = 'Opción de ordenamiento {$a}';
-$string['duedate'] = 'Fecha de entrega';
-$string['moreactivities'] = 'Mostrar más actividades';
-$string['morecourses'] = 'Mostrar más cursos';
+$string['duedate'] = 'Fecha esperada';
+$string['morecourses'] = 'Más cursos';
 $string['next30days'] = 'Próximos 30 días';
 $string['next3months'] = 'Próximos 3 meses';
 $string['next6months'] = 'Próximos 6 meses';
 $string['next7days'] = 'Próximos 7 días';
 $string['nocoursesinprogress'] = 'Sin cursos en progreso';
-$string['noevents'] = 'Sin actividades que requieran acción';
+$string['noevents'] = 'Sin actividades próximas pendientes';
 $string['overdue'] = 'Atrasados';
 $string['pluginname'] = 'Línea de tiempo';
 $string['privacy:metadata:timelinefilterpreference'] = 'La preferencia del filtro de día del usuario para el bloque de línea de tiempo.';
 $string['privacy:metadata:timelinelimitpreference'] = 'La preferencia de límite de página del usuario para el bloque de línea de tiempo.';
 $string['privacy:metadata:timelinesortpreference'] = 'La preferencia de ordenamiento del usuario para el bloque de tínea de tiempo.';
-$string['searchevents'] = 'Buscar por nombre o tipo de actividad';
 $string['sortbycourses'] = 'Ordenar por cursos';
 $string['sortbydates'] = 'Ordenar por fechas';
 $string['timeline'] = 'Línea de tiempo';

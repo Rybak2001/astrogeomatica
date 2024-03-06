@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_loglive', language 'es_mx', version '4.2'.
+ * Strings for component 'report_loglive', language 'es_mx', version '3.10'.
  *
  * @package     report_loglive
  * @category    string
@@ -32,7 +32,6 @@ $string['eventorigin'] = 'Origen';
 $string['eventrelatedfullnameuser'] = 'Usuario afectado';
 $string['eventreportviewed'] = 'Reporte de bitácora viva visto';
 $string['livelogs'] = 'Bitácoras en vivo de la última hora';
-$string['livelogswithupdate'] = 'Bitácoras en vivo de la hora pasada ({$a})';
 $string['loglive:view'] = 'Ver bitácoras en vivo';
 $string['nologreaderenabled'] = 'Sin lector de bitácora habilitado';
 $string['pause'] = 'Pausar actualizaciones en vivo';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_menu', language 'es_mx', version '4.2'.
+ * Strings for component 'block_course_menu', language 'es_mx', version '3.10'.
  *
  * @package     block_course_menu
  * @category    string
@@ -87,7 +87,7 @@ $string['sections'] = 'Secciones';
 $string['show'] = 'Mostrar';
 $string['showallsections'] = 'Mostrar Todas las Secciones';
 $string['showdirectorylinks'] = 'Mostrar los enlaces del directorio';
-$string['showlocationbar'] = 'Mostrar la barra de ubicación';
+$string['showlocationbar'] = 'Mostrar la barra de localización';
 $string['showmenubar'] = 'Mostrar barra de menú';
 $string['showstatusbar'] = 'Mostrar barra de status';
 $string['showtoolbar'] = 'Mostrar barra de herramientas';

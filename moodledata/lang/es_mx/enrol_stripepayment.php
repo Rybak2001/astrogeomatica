@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_stripepayment', language 'es_mx', version '4.2'.
+ * Strings for component 'enrol_stripepayment', language 'es_mx', version '3.10'.
  *
  * @package     enrol_stripepayment
  * @category    string
@@ -34,7 +34,6 @@ $string['cost'] = 'Costo de inscripción';
 $string['costerror'] = 'El costo de inscripción no es numérico';
 $string['costorkey'] = 'Por favor elija uno de los siguientes métodos de inscripción:';
 $string['couponcode'] = 'Código del Cupón';
-$string['create_user_token'] = 'REQUERIDO: Para hacer que funcione la retrollamada de Stripe, usted debe habilitar el protocolo Moodle REST en sus sitio.';
 $string['currency'] = 'Divisa';
 $string['defaultrole'] = 'Asignación de rol por defecto';
 $string['defaultrole_desc'] = 'Seleccionar cual rol deberá ser asignado a los usuarios durante la inscripción por Stripe';

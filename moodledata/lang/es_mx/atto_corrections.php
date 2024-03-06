@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_corrections', language 'es_mx', version '4.2'.
+ * Strings for component 'atto_corrections', language 'es_mx', version '3.10'.
  *
  * @package     atto_corrections
  * @category    string
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addcomment'] = 'Añadir';
 $string['addmark'] = 'Añadir una marca de corrección';
-$string['corrections:canmarkup'] = 'Usar marcado';
 $string['corrtext'] = 'Comentario';
 $string['corrtype'] = 'Tipo de corrección';
 $string['corrtypes'] = 'Tipos de correcciones';

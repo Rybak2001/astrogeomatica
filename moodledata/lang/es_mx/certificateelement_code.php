@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'certificateelement_code', language 'es_mx', version '4.2'.
+ * Strings for component 'certificateelement_code', language 'es_mx', version '3.10'.
  *
  * @package     certificateelement_code
  * @category    string
@@ -33,7 +33,6 @@ $string['display_help'] = 'Como mostrar el código:
 * URL: mostrará la URL para verificación como texto (usualmente para certificados impresos  en donde no es posible hacer clic hacia un enlace)';
 $string['displaycode'] = 'Código solamente';
 $string['displaycodelink'] = 'Código con enlace';
-$string['displayqrcode'] = 'Código QR';
 $string['displayurl'] = 'URL de verificación';
 $string['pluginname'] = 'Código';
 $string['privacy:metadata'] = 'El plugin de Código no almacena ningún dato personal';

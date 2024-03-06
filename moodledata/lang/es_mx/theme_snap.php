@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_snap', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_snap', language 'es_mx', version '3.10'.
  *
  * @package     theme_snap
  * @category    string
@@ -36,13 +36,12 @@ $string['action:duplicateasset'] = 'duplicar activo';
 $string['action:highlightsectionvisibility'] = 'resaltar visibilidad de sección';
 $string['action:sectiontoc'] = 'obtener tabla de contenido de sección';
 $string['activity'] = 'Actividad';
-$string['activityedit'] = 'Editar actividad';
 $string['activityrestriction'] = 'Restricción de actividad';
 $string['addanewsection'] = 'Crear una sección nueva';
 $string['addresourceoractivity'] = 'Crear actividad de aprendizaje';
 $string['admin'] = 'Admin';
 $string['admineventwarning'] = 'Ver eventos de todos los cursos.';
-$string['advancedbrandingheading'] = 'Marcado personalizado avanzado';
+$string['advancedbrandingheading'] = 'Aspecto de la marca avanzado';
 $string['advancedbrandingheadingdesc'] = '';
 $string['ago'] = 'tiempo atrás';
 $string['alternativelogin'] = 'Mostrar solamente opciones de ingreso alternativo';
@@ -50,14 +49,13 @@ $string['alternativeloginfirst'] = 'Mostrar primeramente opciones de ingreso alt
 $string['alternativeloginoptions'] = 'Opciones de ingreso alternativo';
 $string['answered'] = 'Contestada';
 $string['appendices'] = 'Herramientas';
-$string['arialabelnewsarticle'] = 'artículo de noticias';
 $string['assigndraft'] = 'Borrador necesita su confirmación';
 $string['assignreopened'] = 'Re-abierto';
 $string['at'] = 'en';
 $string['attempted'] = 'Intentado';
 $string['basics'] = 'Básicos';
 $string['bothlogin'] = 'Mostrar ambas opciones de ingreso';
-$string['brandingheading'] = 'Marcado personalizado';
+$string['brandingheading'] = 'Personalización de la marca';
 $string['brandingheadingdesc'] = '';
 $string['browse'] = 'Mirar';
 $string['browseallcourses'] = 'Mirar todos los cursos';
@@ -68,7 +66,7 @@ $string['cachedef_course_card_teacher_avatar_index'] = 'Caché para índice de a
 $string['cachedef_course_completion_progress'] = 'Esto es usado para cachear datos de finalización por curso / usuario.';
 $string['cachedef_course_completion_progress_ts'] = 'Esto es usado de tal forma que nosotros podamos invalidar cachés de nivel sesión si las configuraciones de finalización del curso para un curso o para un módulo cambiaran.';
 $string['cachedef_generalstaticappcache'] = 'Caché de nivel de aplicación estática general de Snap';
-$string['cachedef_profile_based_branding'] = 'Caché para personalización de marca basada en Perfil.';
+$string['cachedef_profile_based_branding'] = 'Caché para personalización de mara basada en Perfil.';
 $string['cachedef_webservicedefinitions'] = 'Cacheando definiciones de servicio web auto generadas.';
 $string['card'] = 'Tarjeta';
 $string['category_color'] = 'Color de categoría';
@@ -83,14 +81,11 @@ $string['changecoverimage'] = 'Cambiar imagen de portada';
 $string['changefullname'] = 'Cambiar nombre del sitio';
 $string['chapters'] = 'Capítulos';
 $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot"><h2>Snap</h2><img class=img-polaroid src="snap/pix/screenshot.jpg" /></div></div>';
-$string['classic_template'] = 'Plantilla clásica';
 $string['close'] = 'Cerrar';
 $string['comingsoon'] = '¡Muy Pronto!';
 $string['conditional'] = 'Condicional';
 $string['contents'] = 'Contenidos';
 $string['contributed'] = 'Contribuído';
-$string['courseactionslabel'] = 'acciones';
-$string['courseactivitieslabel'] = 'Actividades de sección';
 $string['coursecontacts'] = 'Contactos del Curso';
 $string['coursedisplay'] = 'Visualización Curso';
 $string['coursefixydefaulttext'] = 'Actualmente Usted no está inscrito en ningun cursos.<br>Los cursos en los que esté inscrito se mostrarán aquí.';
@@ -109,11 +104,7 @@ $string['coursetools'] = 'Tablero del curso';
 $string['covercarousel'] = 'Carrusel de cubierta';
 $string['covercarouseldescription'] = '<p>El carrusel es un conjunto de banners rotatorios, o una presentación con imágenes, que se muestra en la página inicial de su sitio en sustitución de la imagen de cubierta.</p>
 <p>Añada hasta 3 imágenes, un título para cada imagen, y un subtítulo optativo. Las imágenes de 1200 por 600 pixeles funcionan mejor.</p>';
-$string['covercarousellabel'] = 'Carrusel';
 $string['covercarouselon'] = 'Usar Carrusel de cubierta';
-$string['covercarouselpausebutton'] = 'Pausar auto-rotación de imágenes para el carrusel.';
-$string['covercarouselplaybutton'] = 'Reanudar auto-rotación de imágenes para el carrusel.';
-$string['covercarouselsronly'] = 'Este es un carrusel con imágenes auto-rotantes. Active cualquiera de los botones para deshabilitar la rotación. Use los botones de Siguiente y Anterior para navegar, o salte a una imagen usando los puntos,';
 $string['coverdisplay'] = 'Muestrario de cubierta';
 $string['coverimage'] = 'Imagen de cubierta';
 $string['covervideo'] = 'Video de cubierta';
@@ -139,11 +130,13 @@ $string['deletesectionconfirm'] = 'Eliminar Sección';
 $string['deletingasset'] = 'Eliminando {$a}';
 $string['deletingassetname'] = 'Eliminando {$a->type} "{$a->name}"';
 $string['deletingsection'] = 'Eliminando sección "{$a}"';
+$string['design_activity_chooser'] = 'Regresar al diseño original para el selector de actividad';
+$string['design_activity_chooser_description'] = 'Si se habilita, el selector de actividad será mostrado con el diseño original. Esto  afectará las páginas del curso y la portada.';
 $string['design_mod_page'] = 'Habilitar el diseño anterior para recursos de página';
-$string['design_mod_page_description'] = 'Si se habilita, el contenido del recurso página será mostrado dentro de la misma página, curso o portada. Si el contenido de la página incluye videos, esta configuración disminuirá significativamente los tiempos de carga de página del curso.';
+$string['design_mod_page_description'] = 'Si se habilita, el contenido del recurso página será mostrado dentro de la misma página, curso o portada.';
 $string['disabled'] = 'Deshabilitado';
 $string['displaydescription'] = 'Mostrar descripción';
-$string['displaydescriptionhelp'] = 'Seleccionar para mostrar una descripción de recurso y actividades en una nueva página primeramente. Los estudiantes accederán al  contenido desde la descripción.';
+$string['displaydescriptionhelp'] = 'Seleccionar para mostrar una descripción de recurso y actividades URL en una nueva página primeramente. Los estudiantes accederán al  contenido desde la descripción.';
 $string['draft'] = 'No publicado a estudiantes';
 $string['dropzonelabel'] = 'Arrastre archivos para anexarlos, o <span class="fake-link">mirarlos</span>';
 $string['due'] = 'Esperado para {$a}';
@@ -153,7 +146,6 @@ $string['editcoursesettings'] = 'Configuraciones del curso';
 $string['editcoursetopic'] = 'Editar sección';
 $string['editcustomfooter'] = 'Editar pie de página';
 $string['editcustommenu'] = 'Editar menú personalizado';
-$string['editmodetiles'] = 'Editar contenido';
 $string['enabledlogin'] = 'Opciones para ingreso mostradas';
 $string['enabledlogindesc'] = 'Seleccionar las opciones para  ingreso que deberían ser mostradas.';
 $string['enabledloginorder'] = 'Orden de opciones para ingreso';
@@ -180,11 +172,6 @@ $string['favicon'] = 'Favicon';
 $string['favicondesc'] = 'El favicon se mostrará junto con el título de la página en la barra de la pestaña del navegador, en los marcapáginas (bookmarks)y atajos de Mobile.';
 $string['favorite'] = 'Favorito {$a}';
 $string['favorited'] = 'Favorito {$a}';
-$string['feature_spot_background_color'] = 'Color del fondo';
-$string['feature_spot_description_color'] = 'Color del texto de descripción';
-$string['feature_spot_description_color_lower'] = 'color del texto de descripción';
-$string['feature_spot_title_color'] = 'Color del texto del título';
-$string['feature_spot_title_color_lower'] = 'color del texto del título';
 $string['featuredcourseeight'] = 'Curso destacado 8';
 $string['featuredcoursefive'] = 'Curso destacado 5';
 $string['featuredcoursefour'] = 'Curso destacado 4';
@@ -208,15 +195,13 @@ $string['featurespots'] = 'Puntos de Características Destacadas';
 $string['featurespotsedit'] = 'Editar puntos destacados';
 $string['featurespotsheading'] = 'Encabezado de Punto de Características Destacadas';
 $string['featurespotshelp'] = '<p>Añada hasta 3 puntos destacados a su Portada del sitio para resaltar los principales beneficios para usuarios actuales y potenciales..</p>
-<p>Usted puede añadir una imagen, un título y una descripción del  contenido a cada característica. Las imágenes y las secciones de descripción del contenido son opcionales.</p>
-<p>El tamaño recomendado de imagen es de un  cuadrado no mayor de 200px por200px.</p>';
+<p>Añada un título, contenido y una imagen opcional para cada característica destacada. Las imágenes deben ser no mayores de 200 pixeles por 200 pixeles..</p>';
 $string['featurethreeimage'] = 'Imagen destacada 3';
 $string['featurethreetext'] = 'Contenido destacado 3';
 $string['featurethreetitle'] = 'Título destacado 3';
 $string['featurethreetitlecb'] = 'Característica 3 abre en una nueva ventana';
 $string['featurethreetitlelink'] = 'Enlace al título de Característica 3';
 $string['featuretitlecbdesc'] = 'Si se habilita, el enlace añadido al punto destacado será abierto en una ventana nueva';
-$string['featuretitlelinkdesc'] = 'Escriba la UR a donde usted quiere enlazar directamente esta característica. Usted puede añadir enlaces externos o internos dentro de sus sitio. Para añadir un enlace interno, por favor cópielo desde la URL del sitio incluyendo la  /. Por ejemplo, para tener un enlace hacia un curso, sería  "/course/view.php?id=160". Para añadir un enlace externo comience el enlace con  https://';
 $string['featuretwoimage'] = 'Imagen destacada 2';
 $string['featuretwotext'] = 'Contenido destacado 2';
 $string['featuretwotitle'] = 'Título destacado 2';
@@ -242,7 +227,7 @@ $string['gotocalendarsnap'] = 'ir al calendario del sitio.';
 $string['graderadviseuserreport'] = 'El "reporte del calificador" no funciona bien en dispositivos móviles. En su lugar se le recomienda el "reporte del usuario"';
 $string['grading'] = 'Calificar';
 $string['headingfont'] = 'Tipo de letra (font) del encabezado';
-$string['headingfont_desc'] = 'Este font se usa en los encabezados (elementos h1 - h6) en todo el sitio. Si Usted está incluyendo un font web personalizado, recuerde añadirlo al formato Moodle de HTML extra. Si desea modificar fonts de otros elementos, por favor haga uso de la opción de CSS personalizado; para  ejemplos de  cómo hacer esto, por  favor vea esta <a href="https://help.openlms.net/en/administrator/manage-a-site/snap-font-family-with-custom-css/" target="_blank">documentación</a>.';
+$string['headingfont_desc'] = 'Este font se usa en los encabezados (elementos h1 - h6) en todo el sitio. Si Usted está incluyendo un font web personalizado, recuerde añadirlo al formato Moodle de HTML extra.';
 $string['help'] = 'Ayuda';
 $string['helpguide'] = 'Guía de ayuda';
 $string['helpwithlogin'] = 'Ayuda con el ingreso';
@@ -286,13 +271,7 @@ $string['loggedinasguest'] = 'Usted está ingresado como invitado';
 $string['loggedoutfailmsg'] = 'Usted debe estar ingresado para {$a}.';
 $string['loggedoutmsg'] = 'Usted actualmente está afuera del sitio, Si desea continuar usando este sitio, por favor vuelva a ingresar.';
 $string['loggedoutmsgtitle'] = 'Usted ha salido del sitio';
-$string['loginbgimg'] = 'Imagen del fondo para ingreso';
-$string['loginbgimgdesc'] = 'Seleccione la imagen que aparecerá en el fondo de la página para ingreso. Para tener una mejor experiencia con las imágenes mostradas, por favor suba archivos con una proporción de aspecto de 16:9 (resolución de 720p o dimensiones de 1280x720 pixeles). Las imágenes subidas necesitan tener las mismas dimensiones para una correcta visualización.';
-$string['loginbgimgheading'] = 'Plantilla de página para ingreso';
-$string['loginbgimgheadingdesc'] = 'Snap le permite cambiar entre diferentes plantillas a ser mostradas en la página para ingreso. Por favor seleccione entre diferentes opciones en el menú desplegable debajo.';
 $string['loginform'] = 'Ingreso';
-$string['loginpagetemplate'] = 'Seleccionar plantilla de página para ingreso a usar';
-$string['loginsetting'] = 'Página para ingreso';
 $string['logo'] = 'Logo';
 $string['logodesc'] = 'Su logo es mostrado en el encabezado en todo el sitio.';
 $string['menu'] = 'Mis Cursos';
@@ -304,7 +283,6 @@ $string['moodlelogin'] = 'Mostrar solamente ingreso Moodle';
 $string['moodleloginfirst'] = 'Mostrar primero ingreso Moodle';
 $string['more'] = 'Más';
 $string['morenews'] = 'Más noticias';
-$string['moreoptionslabel'] = 'Más Opciones';
 $string['move'] = 'Mover "{$a}"';
 $string['movefailed'] = 'Falló mover para "{$a}"';
 $string['movehere'] = 'Mover aquí';
@@ -331,16 +309,8 @@ $string['notpublished'] = 'No publicado a estudiantes';
 $string['notsubmitted'] = 'No Enviado';
 $string['openmessagedrawer'] = 'Abrir cajón de mensajería';
 $string['overdue'] = 'Retrasado';
-$string['pausegraphicsanim'] = 'Pausar animación de GIF';
-$string['pbb'] = 'Personalización de la marca basada en Perfil';
-$string['pbb_description'] = 'Al habilitar <strong>Marcado basado en el perfil</strong>, usted podrá personalizar la experiencia del marcado para un grupo específico de usuarios basándose en el campo elegido del perfil del usuario .
-<ul><li>El valor del campo del usuario estará <em>slugified</em>; convertidos todos los caracteres a minúsculas y separados con un guión (-)</li>
-<li>La cadena de caracteres <code>snap-pbb-</code> estará prepended</li>
-<li>ESta clase será añadida al <code>body</code> Html tag</li></ul>
-Por ejemplo, el valor del campo del usuario <em>Blueberry Extravaganza</em> será slugified para ser <code>snap-pbb-blueberry-extravaganza</code><br /><br />
-Esta característica es usada en combinación con CSS personalizado; usted necesitará añadir selectores CSS usando las nuevas clases en la sección
-his feature is used in conjunction with Custom CSS, you\'ll need to add CSS selectors using the new classes in the <a class="snap-settings-tab-link" n+h la sección <a class="snap-settings-tab-link" href="#themesnapbranding">Basics</a> .';
-$string['pbb_enable'] = 'Habilitar marcado personalizado basado en Perfil';
+$string['pbb'] = 'Personalización basada en Perfil';
+$string['pbb_enable'] = 'Habilitar personalización basada en Perfil';
 $string['pbb_enable_description'] = 'Solamente añade la clase a la marca del cuerpo si está activo.';
 $string['pbb_field'] = 'Campo del usuario a utilizar';
 $string['pbb_field_description'] = 'Este valor del campo será \'slugified\' y usado como un nombre de clase CSS prefijado por  <code>snap-pbb-</code>.';
@@ -348,23 +318,21 @@ $string['personalmenu'] = 'Menú personal';
 $string['personalmenuadvancedfeedsenable'] = 'Habilitar canales Avanzados';
 $string['personalmenuadvancedfeedsenabledesc'] = 'Canales avanzados carga algunos ítems de menú personal que permiten tiempos de carga más rápidos y refrescan contenidos bajo demanda.';
 $string['personalmenuadvancedfeedslifetime'] = 'Tiempo de vida de canales avanzados';
-$string['personalmenuadvancedfeedslifetimedesc'] = 'Elegir la cantidad de tiempo que serán cacheadas las alimentaciones en el navegador después de ingresar al sitio. Configurar el valor a 0 no cacheará las alimentaciones en el navegador.';
 $string['personalmenuadvancedfeedsperpage'] = 'Número de items a mostrar en canales avanzados';
 $string['personalmenuadvancedfeedsperpagedesc'] = 'Elija el número de items a ser mostrados en el canal.Los usuarios pueden seleccionar. <strong>Ver más</strong> para mostrar ítems adicionales.';
 $string['personalmenufeatures'] = 'Características del menú personal';
 $string['personalmenulogintoggle'] = 'Mostra menú personal al ingresar';
 $string['personalmenulogintoggledesc'] = 'Abrir el menú personal inmediatamente después de ingresar';
 $string['personalmenurefreshdeadlines'] = 'Refrescar fechas límite usando trabajos agendados';
-$string['personalmenurefreshdeadlinesdesc'] = 'Cuando el trabajo se ejecuta, los datos de fecha límite serán refrescados para tiempos de carga más rápidos.';
 $string['pld'] = 'PLD = Personalized Learning Designer';
 $string['pluginname'] = 'Snap';
 $string['pmadvancedfeed_reload'] = 'Refrescar';
 $string['pmadvancedfeed_viewmore'] = 'Ver más';
 $string['poster'] = 'Imagen de portada';
 $string['posterdesc'] = 'Una imagen de encabezado grande para la Portada de su sitio. Las imágenes de 1200 pixeles de ancho por 600 pixeles de alto, o mayores, en estilo apaisado (acostado), funcionan mejor.';
-$string['poweredbyrunby'] = 'Hecho con <a href="https://{$a->subdomain}.openlms.net/" target="_blank" rel="noopener">Open LMS</a>,
+$string['poweredbyrunby'] = 'Hecho con <a href="https://www.openlms.net/" target="_blank" rel="noopener">Open LMS</a>,
     a <a href="https://moodle.com/" target="_blank" rel="noopener">Moodle</a>-based product.<br>
-    Copyright © {$a->year} Open LMS, All Rights Reserved.';
+    Copyright © {$a} Open LMS, All Rights Reserved.';
 $string['previoussection'] = 'sección anterior';
 $string['privacy:metadata:theme_snap_course_favorites'] = 'Almacena los favoritos del curso del usuario para Snap';
 $string['privacy:metadata:theme_snap_course_favorites:courseid'] = 'La ID del curso que el usuario marcó como favorito';
@@ -378,7 +346,6 @@ $string['readmore'] = 'Lea máse&nbsp;»';
 $string['recentactivity'] = 'Actividad Reciente';
 $string['recentfeedback'] = 'Retroalimentación';
 $string['refreshdeadlinestask'] = 'Refrescar datos cacheados de fechas límite. Esto debería ejecutarse antes de que ingresen todos los usuarios.';
-$string['refreshdeadlinestaskoff'] = 'No se buscaron datos para poblar. Por favor active la configuración "Refrescar fechas límite usando trabajo agendado" en las configuraciones del Menú personal de Snap para permitirle a este trabajo que pueble los datos cacheados de fechas límite.';
 $string['region-main'] = 'Principal';
 $string['region-side-main-box'] = 'Principal';
 $string['region-side-post'] = 'Derecha';
@@ -389,26 +356,21 @@ $string['reopened'] = 'Re-abierto';
 $string['resetdeadlinesquerycounttask'] = 'Reiniciar número de consultas de fechas límites';
 $string['resourcedisplay'] = 'Mostrar recurso';
 $string['resourcedisplayhelp'] = 'Seleccionar como aparecerán anexos y enlaces en su curso. El tema Snap no soporta archivos multimedia en la pequeña descripción de tarjetas de actividad y recurso.';
-$string['resumegraphicsanim'] = 'Reanudar animación GIF.';
 $string['retryfeed'] = 'Este canal actualmente no está disponible; por favor compruebe más tarde. Canal: {$a}';
 $string['search'] = 'Buscar contenidos';
+$string['seriffont'] = 'Tipo de letra (font) Serif';
+$string['seriffont_desc'] = 'Este tipo de letra (font) es usado para la mayoría de los contenidos generados por el usuario. El usar un font Serif hace que los contenidos generados por el usuario sean más legibles, y se siente como que son escritos por un humano.';
 $string['showallsectionsdisabled'] = 'Debido al lenguaje en el cual está diseñado, "Mostrar todas las secciones en una  página" no está disponible en Snap.';
 $string['showappearancedisabled'] = 'El lenguaje en el que está diseñado Snap impide cambios a las configuraciones de "Apariencia",';
 $string['showcoursegradepersonalmenu'] = 'Calificaciones';
 $string['showcoursegradepersonalmenudesc'] = 'Mostrarle a usuarios las calificaciones del curso en las tarjetas de curso en el menú personal';
 $string['sitedescription'] = 'Descripción del sitio';
 $string['socialmedia'] = 'Redes sociales';
-$string['spotinvalidratio'] = 'El color del fondo no cumple con
-<a href="https://www.w3.org/TR/WCAG20-TECHS/G18.html" target="_blank">WCAG 2.0 valor mínimo de proporción 4.5:1</a>.
-Contra valor actual {$a->name}: {$a->value}.';
-$string['stylish_template'] = 'Plantilla estilizada';
 $string['submitted'] = 'Enviado';
 $string['subtitle'] = 'Subtítulo';
 $string['subtitle_desc'] = 'Describa brevemente su sitio para los usuarios.';
-$string['summarylabel'] = 'Resumen de sección';
 $string['themecolor'] = 'Color del sitio';
 $string['themecolordesc'] = 'Los colores brillantes funcionan mejor y le darán a su sitio un aspecto moderno.';
-$string['tilesformatcoursehomealttext'] = 'Página inicial del curso';
 $string['title'] = 'Título';
 $string['togglenavigation'] = 'Alternar navegación';
 $string['top'] = 'Superior';
@@ -416,7 +378,6 @@ $string['topbarbgcolor'] = 'Color de Barra de Navegación';
 $string['topbarbuttoncolor'] = 'Fondo de Mis Cursos';
 $string['topbarlinkcolor'] = 'Color del ícono y de  Barra de Navegación';
 $string['topicactions'] = 'Acciones sobre tópicos';
-$string['totop'] = 'Ir a superior';
 $string['twitter'] = 'Twitter';
 $string['twitterdesc'] = 'La URL de su cuenta de Twitter';
 $string['unenrolme'] = 'Des-inscribirme';

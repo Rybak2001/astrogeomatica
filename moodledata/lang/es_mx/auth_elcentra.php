@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_elcentra', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_elcentra', language 'es_mx', version '3.10'.
  *
  * @package     auth_elcentra
  * @category    string
@@ -25,11 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['facebookclient_redirecturl'] = 'Retrollamadas Autorizadas OAuth (Redirect URI):';
 $string['facebookclientid_description'] = 'Escriba la ID del cliente de Facebook obtenida del tablero de control de su app';
 $string['facebookclientsecret_description'] = 'Escriba el secreto del cliente de Facebook obtenido del tablero de control de su app';
-$string['googleclient_redirecturl'] = 'Retrollamadas Autorizadas OAuth (Redirect URI):';
-$string['linkedinclient_redirecturl'] = 'Retrollamadas Autorizadas OAuth (Redirect URI):';
 $string['linkedinclientsecret_description'] = 'Escriba el secreto del cliente de Linkedln obtenido del tablero de control de su app';
-$string['twitterclient_redirecturl'] = 'Retrollamadas Autorizadas OAuth (Redirect URI):';
 $string['twitterclientsecret_description'] = 'Escriba su secreto del consumidor  de Twitter obtenido del tablero de control de su app';

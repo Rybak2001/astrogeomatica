@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_outline', language 'es_mx', version '4.2'.
+ * Strings for component 'report_outline', language 'es_mx', version '3.10'.
  *
  * @package     report_outline
  * @category    string
@@ -26,15 +26,15 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['eventactivityreportviewed'] = 'Reporte de actividad visto';
-$string['eventoutlinereportviewed'] = 'Informe preliminar visto';
+$string['eventoutlinereportviewed'] = 'Reporte de descripción visto';
 $string['neverseen'] = 'Nunca visto';
-$string['nocapability'] = 'No puede accederse al Informe preliminar del usuario';
+$string['nocapability'] = 'No puede accederse al reporte de descripción del usuario';
 $string['nologreaderenabled'] = 'No hay lector de bitácora habilitado';
 $string['numviews'] = '{$a->numviews} vistas por {$a->distinctusers} usuarios';
 $string['outline:view'] = 'Ver reporte actividad';
 $string['outline:viewuserreport'] = 'Ver reporte de actividad del usuario';
-$string['page-report-outline-index'] = 'Informe preliminar del curso';
-$string['page-report-outline-user'] = 'Informe preliminar del curso para usuario';
-$string['page-report-outline-x'] = 'Cualquier Informe preliminar';
+$string['page-report-outline-index'] = 'Reporte de visión general del curso';
+$string['page-report-outline-user'] = 'Reporte de visión general del curso para usuario';
+$string['page-report-outline-x'] = 'Cualquier reporte de visión general';
 $string['pluginname'] = 'Reporte de Actividad';
 $string['privacy:metadata'] = 'El plugin de Reporte de actividad no almacena ningún dato personal.';

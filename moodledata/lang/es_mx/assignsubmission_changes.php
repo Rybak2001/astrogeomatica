@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_changes', language 'es_mx', version '4.2'.
+ * Strings for component 'assignsubmission_changes', language 'es_mx', version '3.10'.
  *
  * @package     assignsubmission_changes
  * @category    string
@@ -41,7 +41,6 @@ $string['edit_form_changes_help'] = 'Describa las partes cambiadas en su envío.
 $string['edit_form_error_empty'] = 'La entrada de bitácora_de_cambios no debe estar vacía.';
 $string['edit_form_error_too_long'] = 'Usted no puede usar más de {$a->max} caracteres como texto descriptivo. Usted envió {$a->used} caracteres.';
 $string['edit_form_headline'] = 'Edtar el texto de bitácora_de_cambios mostrada para su envío en {$a}.';
-$string['edit_form_link'] = 'editar';
 $string['enabled'] = 'Bitácora_de_cambios';
 $string['enabled_help'] = 'Habilitar la detección de cambios';
 $string['is_an_update'] = 'es una actualización de';

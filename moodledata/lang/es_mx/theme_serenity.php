@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_serenity', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_serenity', language 'es_mx', version '3.10'.
  *
  * @package     theme_serenity
  * @category    string

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_inactive_user_cleanup', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_inactive_user_cleanup', language 'es_mx', version '3.10'.
  *
  * @package     tool_inactive_user_cleanup
  * @category    string
@@ -27,18 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['daysbeforedeletion'] = 'Días antes de eliminación';
 $string['daysofinactivity'] = 'Días de inactividad';
-$string['deleteduser'] = 'Usuario eliminado';
-$string['deletiondescription'] = 'Ponga "0" para deshabilitar la opción de limpieza';
-$string['detetsuccess'] = 'Éxito al Eliminar Usuario';
 $string['emailbody'] = 'Cuerpo';
-$string['emailsent'] = 'E-mail enviado';
 $string['emailsetting'] = 'Configuración del Email';
 $string['emailsubject'] = 'Asunto';
-$string['invalaliddayofinactivity'] = 'tool_inactive_user_cleanup deshabilitado por ponerle valor inválido en "Días de Inactividad"; el valor debería ser mayor de "0"';
 $string['pluginname'] = 'Limpieza de Usuario Inactivo';
 $string['runcron'] = 'Correr Cron Manualmente';
 $string['setting'] = 'Panel de Configuración';
-$string['taskend'] = 'trabajo tool_inactive_user_cleanup terminado';
-$string['taskstart'] = 'Oiga; está ejecutándose la limpieza de usuarios inactivos';
-$string['userid'] = 'ID USUARIO';
-$string['userinactivtime'] = 'Usuario está inactivo para día anterior';

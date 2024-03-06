@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_advnotifications', language 'es_mx', version '4.2'.
+ * Strings for component 'block_advnotifications', language 'es_mx', version '3.10'.
  *
  * @package     block_advnotifications
  * @category    string
@@ -96,14 +96,7 @@ $string['advnotifications_times_label'] = 'Número de veces a mostrar la notific
 $string['advnotifications_title'] = 'Título';
 $string['advnotifications_type'] = 'Tipo';
 $string['advnotifications_update'] = 'Actualizar';
-$string['event_notification_created'] = 'Notificación avanzada creada';
-$string['event_notification_deleted'] = 'Notificación avanzada eliminada';
-$string['event_notification_updated'] = 'Notificación avanzada actualizada';
 $string['pluginname'] = 'Notificaciones Avanzadas';
-$string['privacy:metadata:block_advnotifications:message'] = 'El curtpo/mensaje de la notificación.';
-$string['privacy:metadata:block_advnotifications:title'] = 'El título de la notificación.';
-$string['privacy:metadata:block_advnotificationsdissed:not_id'] = 'La ID de la notificación asociada.';
-$string['privacy:metadata:block_advnotificationsdissed:user_id'] = 'La ID del usuario que ha visto/descartado la notificación.';
 $string['setting/auto_delete'] = 'Auto eliminar:';
 $string['setting/auto_delete_default'] = '';
 $string['setting/auto_delete_desc'] = 'Alterna si es que una notificación que está más allá de la fecha de término es eliminada automáticamente - pero puede ser restaurada nuevamente.<br>(Ayuda con mantenimineto/gestión)';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_coursecompleted', language 'es_mx', version '4.2'.
+ * Strings for component 'enrol_coursecompleted', language 'es_mx', version '3.10'.
  *
  * @package     enrol_coursecompleted
  * @category    string
@@ -60,7 +60,6 @@ $string['processexpirationstask'] = 'Trabajo de expiración de inscripción por 
 $string['status'] = 'Habilitada';
 $string['status_desc'] = 'Permitir por defecto inscripción por curso completado';
 $string['status_help'] = 'Esta configuración determina si es habilitada la inscripción por curso completado.';
-$string['status_link'] = 'enrol/coursecompleted';
 $string['svglearnpath'] = 'Mostrar ruta de aprendizaje';
 $string['svglearnpath_help'] = 'Mostrar (posible) ruta de aprendizaje usando íconos SVG.';
 $string['unenrolusers'] = 'Des-inscribir usuarios';

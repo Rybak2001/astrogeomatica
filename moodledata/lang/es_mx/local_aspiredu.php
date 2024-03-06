@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_aspiredu', language 'es_mx', version '4.2'.
+ * Strings for component 'local_aspiredu', language 'es_mx', version '3.10'.
  *
  * @package     local_aspiredu
  * @category    string
@@ -46,15 +46,5 @@ $string['instructorinsightlinks'] = 'Enlaces para Percepción del Instructor';
 $string['instructorinsighturl'] = 'URL para Percepción del Instructor';
 $string['key'] = 'Clave';
 $string['pluginname'] = 'AspirEDU';
-$string['privacy:metadata:aspiredu_provider'] = 'El plugin AspirEDU proporciona información del usuario y contexto a los servidores AspirEDU.';
-$string['privacy:metadata:aspiredu_provider:courseid'] = 'La ID del curso en el que está inscrito el usuario.';
-$string['privacy:metadata:aspiredu_provider:discussionid'] = 'La ID de la discusión en que ha participado el usuario.';
-$string['privacy:metadata:aspiredu_provider:edulevel'] = 'El nivel educativo del usuario.';
-$string['privacy:metadata:aspiredu_provider:email'] = 'La dirección E-mail del usuario.';
-$string['privacy:metadata:aspiredu_provider:firstname'] = 'El nombre del usuario.';
-$string['privacy:metadata:aspiredu_provider:forumid'] = 'La ID del foro en que ha participado el usuario.';
-$string['privacy:metadata:aspiredu_provider:fullname'] = 'El nombre completo del usuario.';
-$string['privacy:metadata:aspiredu_provider:lastname'] = 'Los apellidos del usuario';
-$string['privacy:metadata:aspiredu_provider:userid'] = 'La ID del usuario.';
-$string['privacy:metadata:aspiredu_provider:username'] = 'El nombre de usuario del usuario.';
 $string['secret'] = 'Secreto';
+$string['showcoursesettings'] = '¿Mostrar configuraciones de curso específicas de AspirEDU?';

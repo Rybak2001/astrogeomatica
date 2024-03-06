@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'certificateelement_digitalsignature', language 'es_mx', version '4.2'.
+ * Strings for component 'certificateelement_digitalsignature', language 'es_mx', version '3.10'.
  *
  * @package     certificateelement_digitalsignature
  * @category    string
@@ -26,9 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['digitalsignature'] = 'Firma digital';
-$string['errormultipleimages'] = 'Usted solamente puede seleccionar una imagen (ya sea subida o compartida)';
 $string['height'] = 'Altura';
-$string['height_help'] = 'Altura del elemento en mm. El valor puede ser  calculado automáticamente par imágenes subidas/compartidas si se configura a 0; en caso contrario debe ser especificado.';
 $string['pluginname'] = 'Firma digital';
 $string['privacy:metadata'] = 'El plugin de firma digital no almacena ningún dato personal.';
 $string['signaturecontactinfo'] = 'Información de contacto de firma';
@@ -37,4 +35,3 @@ $string['signaturename'] = 'Nombre de firma';
 $string['signaturepassword'] = 'Contraseña de firma';
 $string['signaturereason'] = 'Razón de firma';
 $string['width'] = 'Ancho';
-$string['width_help'] = 'Ancho del elemento en mm. El valor puede ser  calculado automáticamente par imágenes subidas/compartidas si se configura a 0; en caso contrario debe ser especificado.';

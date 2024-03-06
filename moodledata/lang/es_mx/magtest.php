@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'magtest', language 'es_mx', version '4.2'.
+ * Strings for component 'magtest', language 'es_mx', version '3.10'.
  *
  * @package     magtest
  * @category    string
@@ -91,7 +91,6 @@ Si se activan las opciones de opción-única (singlechoice) , las siguientes col
 Si está desactivada opción-única (singlechoice) las siguientes columnas deben proporcionar en orden : texto de respuesta, ponderación (1 sin ponderación), y texto-de-ayuda para cada categoría en orden.';
 $string['importquestions'] = 'Importar preguntas en test_magazine';
 $string['intro'] = 'Introducción';
-$string['leftarrow'] = '<<';
 $string['magtest:addinstance'] = 'Añadir una instancia';
 $string['magtest:doit'] = 'Hacer el test';
 $string['magtest:manage'] = 'Configurar el test';
@@ -153,7 +152,6 @@ $string['results'] = 'Resultados';
 $string['resultsbycats'] = 'Resultados por categoría';
 $string['resultsbyusers'] = 'Resultados por usuario';
 $string['resulttext'] = 'Texto de conclusión global';
-$string['rightarrow'] = '>>';
 $string['save'] = 'Guardar';
 $string['score'] = 'Puntaje';
 $string['selections'] = 'Selecciones';

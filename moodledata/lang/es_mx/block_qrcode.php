@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_qrcode', language 'es_mx', version '4.2'.
+ * Strings for component 'block_qrcode', language 'es_mx', version '3.10'.
  *
  * @package     block_qrcode
  * @category    string
@@ -25,12 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['allow_customlogo'] = 'Permitir logo personalizado';
-$string['allow_customlogo_help'] = 'Si se activa la casilla, le permite a los profesores el subir un logo personalizado para ser mostrado en el código QR';
 $string['button'] = 'Descargar';
 $string['cachedef_qrcodes'] = 'Caché para los códigos QR';
-$string['customfilepng'] = 'Archivo .png personalizado';
-$string['customfilesvg'] = 'Archivo .svg personalizado';
 $string['editblock'] = 'Editar bloque de código QR';
 $string['filename'] = 'curso';
 $string['formats'] = 'Formato';
@@ -45,7 +41,6 @@ $string['qrcode:download'] = 'Mostrar botón para Descargar';
 $string['settings'] = 'Configuraciones de código QR';
 $string['sizes'] = 'Tamaño';
 $string['submit'] = 'Guardar cambios';
-$string['uploadpng'] = 'Subir logo personalizado también como .png';
 $string['use_logo'] = 'Usar logo';
 $string['use_logo_help'] = 'Si la casilla es activada, un logo es mostrado en el código QR. Por defcto el logo de Moodle es mostrado, pero Usted puede subir un logo personalizado.';
 $string['usedefault'] = 'Usar configuraciones por defecto';

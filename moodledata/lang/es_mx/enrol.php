@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol', language 'es_mx', version '4.2'.
+ * Strings for component 'enrol', language 'es_mx', version '3.10'.
  *
  * @package     enrol
  * @category    string
@@ -57,7 +57,6 @@ $string['enrollednewusers'] = 'Nuevos usuarios {$a} inscritos con éxito';
 $string['enrolledusers'] = 'Usuarios inscritos';
 $string['enrolledusersmatching'] = 'Usuarios inscritos que coinciden';
 $string['enrolme'] = 'Inscribirme en este curso';
-$string['enrolment'] = 'Inscripción';
 $string['enrolmentinstances'] = 'Métodos de inscripción';
 $string['enrolmentmethod'] = 'Método de inscripción';
 $string['enrolmentnew'] = 'Nueva inscripción en {$a}';
@@ -86,7 +85,7 @@ $string['eventenrolinstancedeleted'] = 'Instancia de inscripción eliminada';
 $string['eventenrolinstanceupdated'] = 'Instancia de inscripción actualizada';
 $string['eventuserenrolmentcreated'] = 'Usuario inscrito en curso';
 $string['eventuserenrolmentdeleted'] = 'Usuario des-inscrito (dado de baja) del curso';
-$string['eventuserenrolmentupdated'] = 'Inscripción de usuario actualizada';
+$string['eventuserenrolmentupdated'] = 'Des-Inscripción (baja) de usuario actualizada';
 $string['expirynotify'] = 'Notificar antes de que caduque la inscripción';
 $string['expirynotify_help'] = 'Esta configuración determina si es que se mandan mensajes de notificación respecto a caducidad de inscripción.';
 $string['expirynotifyall'] = 'Persona que inscribe y usuario inscrito';
@@ -111,12 +110,11 @@ $string['invalidrequest'] = 'Solicitud inválida';
 $string['invalidrole'] = 'Rol no válido';
 $string['manageenrols'] = 'Gestionar plugins de inscripción';
 $string['manageinstance'] = 'Gestionar';
-$string['method'] = 'Método';
 $string['migratetomanual'] = 'Migrar hacia inscripciones manuales';
 $string['nochange'] = 'Sin cambios';
 $string['noexistingparticipants'] = 'No existen participantes';
 $string['nogroup'] = 'Sin grupo';
-$string['noguestaccess'] = 'Los invitados no pueden acceder a este curso. Por favor inicie sesión .';
+$string['noguestaccess'] = 'Los invitados no pueden acceder a este curso. Por favor ingrese.';
 $string['none'] = 'Ninguno(a)';
 $string['notenrollable'] = 'Usted no se puede inscribir a usted mismo en este curso.';
 $string['notenrolledusers'] = 'Otros usuarios';
@@ -152,10 +150,6 @@ $string['startdatetoday'] = 'Hoy';
 $string['synced'] = 'Sincronizado';
 $string['testsettings'] = 'Probar configuraciones';
 $string['testsettingsheading'] = 'Probar configuraciones de inscripción - {$a}';
-$string['timeended'] = 'Se acabó el tiempo';
-$string['timeenrolled'] = 'Tiempo inscrito';
-$string['timereaggregated'] = 'Tiempo re-agregado';
-$string['timestarted'] = 'Hora de iniciado';
 $string['totalenrolledusers'] = '{$a} usuarios inscritos';
 $string['totalotherusers'] = '{$a} otros usuarios';
 $string['totalunenrolledusers'] = '{$a} usuarios des-inscritos';
@@ -163,7 +157,7 @@ $string['unassignnotpermitted'] = 'No tiene permiso para retirar roles en este c
 $string['unenrol'] = 'Dar de baja (des-inscribir)';
 $string['unenrolconfirm'] = '¿Realmente desea dar de baja (des-inscribir) al usuario "{$a->user}"  (previamente inscrito via "{$a->enrolinstancename}") de "{$a->course}"?';
 $string['unenrolleduser'] = 'El usuario "{$a->fullname}" fue des-inscrito del curso';
-$string['unenrolme'] = 'Darme de baja (des-inscribir) de este curso';
+$string['unenrolme'] = 'Darme de baja (des-inscribir) en {$a}';
 $string['unenrolnotpermitted'] = 'Usted no tiene permiso para des-inscribir (dar de baja) a este usuario del curso.';
 $string['unenrolroleusers'] = 'Des-inscribir (dar de baja) a usuarios';
 $string['uninstallmigrating'] = 'Migrando "{$a}" inscripciones';

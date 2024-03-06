@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_pchkorg', language 'es_mx', version '4.2'.
+ * Strings for component 'plagiarism_pchkorg', language 'es_mx', version '3.10'.
  *
  * @package     plagiarism_pchkorg
  * @category    string
@@ -29,7 +29,6 @@ $string['pchkorg'] = 'Plugin PlagiarismCheck.org';
 $string['pchkorg:enable'] = 'Habilitar o deshabilitar plugin';
 $string['pchkorg_check_for_plagiarism'] = 'Revisar para plagio';
 $string['pchkorg_check_for_plagiarism_report'] = 'Ver reporte';
-$string['pchkorg_debug_student_not_allowed_see_widget'] = 'Los estudiantes no pueden ver un puntaje de similitud';
 $string['pchkorg_description'] = 'Usted puede recibir su token al contactarnos';
 $string['pchkorg_label_queued'] = 'En cola';
 $string['pchkorg_label_result'] = 'ID: %s Similitud: %s%%';
@@ -37,7 +36,6 @@ $string['pchkorg_label_sent'] = 'ID: %s Enviado';
 $string['pchkorg_label_title'] = 'PlagiarismCheck.org ID: %s; Puntaje de Similitud: %s%%';
 $string['pchkorg_module_use'] = 'Habilitar plugin en este módulo';
 $string['pchkorg_module_use_help'] = 'Habilitar plugin en este módulo';
-$string['pchkorg_student_can_see_widget'] = 'Los estudiantes pueden ver un puntaje de similitud';
 $string['pchkorg_submit'] = 'Enviar';
 $string['pchkorg_token'] = 'Token API';
 $string['pchkorg_token_help'] = 'Usted puede recibir su token al contactarnos';

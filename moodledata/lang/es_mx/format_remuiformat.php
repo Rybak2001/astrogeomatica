@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_remuiformat', language 'es_mx', version '4.2'.
+ * Strings for component 'format_remuiformat', language 'es_mx', version '3.10'.
  *
  * @package     format_remuiformat
  * @category    string
@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['Complete'] = 'completo';
 $string['activitiescompleted'] = 'actividades completadas';
 $string['activitiesremaining'] = 'actividades restantes';
 $string['activitycompleted'] = 'actividad completada';
@@ -34,19 +33,13 @@ $string['activitystart'] = 'Empecemos';
 $string['addnewsection'] = 'Añadir sección';
 $string['addsections'] = 'Añadir secciones';
 $string['allactivitiescompleted'] = 'Todas las actividades completadas';
-$string['auto'] = 'auto';
-$string['bottom'] = 'fondo';
 $string['cardbackgroundcolor'] = 'Seleccionar el color del fondo en formato tarjeta.';
 $string['cardbackgroundcolor_help'] = 'Ayuda para color del fondo de tarjeta.';
-$string['center'] = 'centro';
 $string['changelayoutnotify'] = 'Refrescar página para ver cambios.';
 $string['collapsed'] = 'Colapsar Todo';
 $string['completed'] = 'Completado';
-$string['contain'] = 'contiene';
 $string['coursecompletionprogress'] = 'Progreso del Curso';
 $string['coursedisplay_error'] = 'Por fevor elija la combinación correcta de diseños.';
-$string['courseinformation'] = 'Información del curso';
-$string['cover'] = 'cubierta';
 $string['currentsection'] = 'Esta sección';
 $string['dark'] = 'Oscuro';
 $string['defaultbuttoncolour'] = 'Color del botón del tópico Vista Predeterminada';
@@ -55,7 +48,6 @@ $string['defaultcardbackgroundcolor'] = 'Configurar el color del fondo de secci�
 $string['defaultcardbackgroundcolordesc'] = 'Descripción del color del fondo de tarjeta';
 $string['defaultcoursedisplay'] = 'Vista curso prederminada';
 $string['defaultcoursedisplay_desc'] = 'Si es que se muestran o no todas las secciones en una sola página o sección cero y la sección elegida en la página.';
-$string['defaultheader'] = 'Predeterminado';
 $string['defaultnumberofactivities'] = 'Número predeterminado de actividades por página';
 $string['defaultnumberofactivities_desc'] = 'El número de actividades a ser mostradas en una página';
 $string['defaultnumberoftopics'] = 'Número predeterminado de tópicos por página';
@@ -71,10 +63,6 @@ $string['defaultshowsectiontitlesummary_desc'] = 'Mostrar el resumen del título
 $string['disablecardbackgroundimg'] = 'Ocultar imagen del fondo a sección en tarjeta.';
 $string['editsection'] = 'Editar sección';
 $string['editsectionname'] = 'Editar nombre de sección';
-$string['edw_format_hd_bgpos'] = 'Posición de imagen de fondo de encabezado del curso';
-$string['edw_format_hd_bgpos_help'] = 'Elegir posición de imagen del fondo';
-$string['edw_format_hd_bgsize'] = 'Tamaño de imagen de fondo de encabezado del curso';
-$string['edw_format_hd_bgsize_help'] = 'Seleccionar tamaño de imagen de fondo del encabezado del curso';
 $string['enablecardbackgroundimg'] = 'Mostrar imagen del fondo a sección en tarjeta.';
 $string['enablepagination'] = 'Habilitar paginación';
 $string['enablepagination_desc'] = 'Esto habilitará vista de varias páginas cuando el número de secciones/actividades sea muy grande.';
@@ -93,12 +81,9 @@ $string['enableusagetrackingdesc'] = '<strong>AVISO DEL MONITOREO DEL USO</stron
 $string['expanded'] = 'Expandir Todo';
 $string['generalactivities'] = 'Actividades';
 $string['grade'] = 'Calificación';
-$string['headereditingbutton'] = 'Seleccionar posición de botón de editar';
-$string['headereditingbutton_help'] = 'Seleccionar posición del botón para editar. esta configuración no funcionará en remui; compuebe la configuración del curso';
 $string['hidefromothers'] = 'Ocultar sección';
 $string['hidegeneralsectionwhenempty'] = 'Ocultar sección general cuando está vacía';
 $string['hidegeneralsectionwhenempty_help'] = 'Cuando la sección general no tiene ninguna actividad ni resumen entonces usted puede ocultarla.';
-$string['left'] = 'izquierda';
 $string['light'] = 'Claro';
 $string['markcomplete'] = 'Calificación Completada';
 $string['moveresource'] = 'Mover recurso';
@@ -119,20 +104,18 @@ $string['remuicourseformat'] = 'Elegir diseño';
 $string['remuicourseformat_card'] = 'Diseño de Tarjeta';
 $string['remuicourseformat_help'] = 'Elegir un diseño de curso';
 $string['remuicourseformat_list'] = 'Diseño de Lista';
-$string['remuicourseimage_filemanager'] = 'Imagen de encabezado del curso';
-$string['remuicourseimage_filemanager_help'] = 'Esta imagen será mostrada en la tarjeta de Sección general en el diseño de la tarjeta y como un fondo de la Sección general en el diseño de lista. <strong>Tamaño recomendado de imagen 1272x288.<strong>';
+$string['remuicourseimage_filemanager'] = 'Imagen de formato de curso';
+$string['remuicourseimage_filemanager_help'] = 'Esta imagen será mostrada en la tarjeta de Sección general en el diseño de la tarjeta y como un fondo de la Sección general en el diseño de lista. <strong>Tamaño recomendado de imagen 16:9.<strong>';
 $string['remuidefaultsectiontheme'] = 'Elegir tema de secciones predeterminado';
 $string['remuidefaultsectiontheme_help'] = 'Elegir un tema predeterminado para las secciones del curso.';
 $string['remuidefaultsectionview'] = 'Elegir vista predeterminada para secciones';
 $string['remuidefaultsectionview_help'] = 'Elegir una vista predeterminada para las secciones del curso.';
 $string['remuienablecardbackgroundimg'] = 'Imagen del fondo de sección';
 $string['remuienablecardbackgroundimg_help'] = 'Habilitar imagen del fondo de sección. Por defecto está deshabilitado. Obtiene la imagen del resumen de la sección.';
-$string['remuiheader'] = 'Encabezado';
 $string['remuiteacherdisplay'] = 'Mostrar Imagen del Profesor';
 $string['remuiteacherdisplay_help'] = 'Mostrar Imagen del Profesor en el encabezado del curso.';
 $string['resumetoactivity'] = 'Resumen';
-$string['right'] = 'derecha';
-$string['section0name'] = 'Introducción';
+$string['section0name'] = 'General';
 $string['sectionname'] = 'Sección';
 $string['sectionnamecaps'] = 'SECCIÓN';
 $string['sectiontitlesummarymaxlength'] = 'Configurar la longitud máxima del resumen de secciones/actividades.';
@@ -142,11 +125,9 @@ $string['showfromothers'] = 'Mostrar sección';
 $string['showfullsummary'] = '+ Mostrar resumen completo';
 $string['showincard'] = 'Hacer Tarjeta';
 $string['showinrow'] = 'Hacer Fila';
-$string['showless'] = 'Mostrar Menos';
-$string['showmore'] = 'Mostrar Más';
+$string['showless'] = 'Mostrar menos';
 $string['subscribed'] = 'Suscrito';
 $string['teacher'] = 'Profesor';
 $string['teachers'] = 'Profesres';
-$string['top'] = 'superior';
 $string['viewactivity'] = 'Ver Actividad';
 $string['viewtopic'] = 'Vista';

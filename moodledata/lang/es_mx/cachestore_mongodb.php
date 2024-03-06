@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cachestore_mongodb', language 'es_mx', version '4.2'.
+ * Strings for component 'cachestore_mongodb', language 'es_mx', version '3.10'.
  *
  * @package     cachestore_mongodb
  * @category    string
@@ -42,8 +42,8 @@ $string['server_help'] = 'Esta es la cadena de conexión para el servidor que Us
 $string['testserver'] = 'Servidores de prueba';
 $string['testserver_desc'] = 'La cadena de caracteres de conexión para un servidor, usada para prueba. Si se ha especificado un servidor de prueba, entonces puede probarse el desempeño de MongoDB usando la página de desempeño del caché en el bloque de administración.
 Como ejemplo: mongodb://127.0.0.1:27017';
-$string['username'] = 'Nombre de usuario';
-$string['username_help'] = 'El nombre de usuario a usar al hacer una conexión';
+$string['username'] = 'Nombre_de_usuario';
+$string['username_help'] = 'El nombre_de_usuario a usar al hacer una conexión';
 $string['usesafe'] = 'Usar seguro';
 $string['usesafe_help'] = 'Si se habilita, la opción usar-seguro se usará durantelas operaciones de  inserción (insert), obtención (get) y remoción (remove). Si ha especificado un conjunto réplica, este será forzado de cualquier forma.';
 $string['usesafevalue'] = 'Usar valor seguro';

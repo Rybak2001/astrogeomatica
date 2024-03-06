@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_panoptobutton', language 'es_mx', version '4.2'.
+ * Strings for component 'tinymce_panoptobutton', language 'es_mx', version '3.10'.
  *
  * @package     tinymce_panoptobutton
  * @category    string
@@ -29,4 +29,3 @@ $string['panopto_button_description'] = 'Añadir Panopto Video';
 $string['panopto_button_long_description'] = 'Añadir Contenido Panopto Video a TinyMCE';
 $string['panopto_button_unprovisioned_error'] = 'Error: Por favor use el bloque Panopto para aprovisionar este curso antes de usar esta herramienta';
 $string['pluginname'] = 'Añadir Panopto Video';
-$string['privacy:metadata'] = 'No se almacenan datos de usuario por este plugin';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'unilabeltype_grid', language 'es_mx', version '4.2'.
+ * Strings for component 'unilabeltype_grid', language 'es_mx', version '3.10'.
  *
  * @package     unilabeltype_grid
  * @category    string
@@ -29,8 +29,6 @@ $string['addmoretiles'] = 'Añadir más mosaicos';
 $string['autoheight'] = 'Auto altura';
 $string['background'] = 'Fondo';
 $string['columns'] = 'Columnas';
-$string['columnsmiddle'] = 'Columnas medianas';
-$string['columnssmall'] = 'Columnas pequeñas';
 $string['content'] = 'Contenido';
 $string['content_help'] = 'El contenido será mostrado como un diálogo modal solamente si no se configura URL';
 $string['default_columns'] = 'Columnas por defecto';

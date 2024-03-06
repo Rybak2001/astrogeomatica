@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr_public', language 'es_mx', version '4.2'.
+ * Strings for component 'repository_flickr_public', language 'es_mx', version '3.10'.
  *
  * @package     repository_flickr_public
  * @category    string
@@ -34,7 +34,7 @@ $string['by-nc-nd'] = 'Licencia de Atribución-No-Comercial-NoDerivs';
 $string['by-nc-sa'] = 'Licencia de Atribución-No-Comercial-ShareAlike';
 $string['by-nd'] = 'Licencia de Atribución-No-dDrivs';
 $string['by-sa'] = 'Licencia de Atribución-ShareAlike';
-$string['callbackurl'] = 'URL de retrollamada';
+$string['callbackurl'] = 'URL de callback (llamada de retorno)';
 $string['commercialuse'] = 'Yo deseo usar las imágenes de forma comercial';
 $string['configplugin'] = 'Configuración pública Flickr';
 $string['creativecommonscommercial'] = 'Solamente comercial Creative commons';

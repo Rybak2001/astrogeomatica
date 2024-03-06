@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_httpsreplace', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_httpsreplace', language 'es_mx', version '3.10'.
  *
  * @package     tool_httpsreplace
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['complete'] = 'Completado';
-$string['count'] = 'Número de elementos de contenido incrustados';
+$string['count'] = 'Número de ítems de contenido incrustados';
 $string['disclaimer'] = 'Yo entiendo los riesgos de esta operación';
 $string['doclink'] = 'Herramienta para conversión a HTTPS';
 $string['doit'] = 'Realizar conversión';

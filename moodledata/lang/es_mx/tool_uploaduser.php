@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploaduser', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_uploaduser', language 'es_mx', version '3.10'.
  *
  * @package     tool_uploaduser
  * @category    string
@@ -37,10 +37,9 @@ $string['clihelp'] = 'Imprimir esta ayuda.';
 $string['climissingargument'] = 'Argumento --{$a} es necesario';
 $string['clititle'] = 'Herramienta Subir usuario por línea de comando.';
 $string['clivalidationerror'] = 'Error de validación:';
-$string['csvdelimiter'] = 'Separador CSV';
+$string['csvdelimiter'] = 'Delimitador CVS';
 $string['defaultvalues'] = 'Valores por defecto';
 $string['deleteerrors'] = 'Eliminar errores';
-$string['duplicateemail'] = 'Múltiples usuarios con Email {$a} detectados';
 $string['encoding'] = 'Codificación';
 $string['errormnetadd'] = 'No se pueden añadir usuarios remotos';
 $string['errorprefix'] = 'Error:';
@@ -54,7 +53,6 @@ $string['invalidtheme'] = 'El tema "{$a}" no está instalado y será ignorado.';
 $string['invalidupdatetype'] = 'Esta opción no puede ser seleccionada con el \'Tipo de subida\' elegido';
 $string['invaliduserdata'] = 'Dato inválido detectado para usuario {$a} y han sido limpiados automáticamente.';
 $string['linex'] = 'Línea {$a}';
-$string['matchemail'] = 'Coincidencia en direcciones Email';
 $string['nochanges'] = 'Sin cambios';
 $string['notheme'] = 'No está definido ningún tema para este usuario.';
 $string['pluginname'] = 'Subir usuarios';
@@ -75,17 +73,16 @@ $string['uploadpicture_usernotfound'] = 'El usuario con \'{$a->userfield}\' valo
 $string['uploadpicture_userskipped'] = 'Se ha omitido el usuario {$a} (ya tiene imagen).';
 $string['uploadpicture_userupdated'] = 'Imagen actualizada para el usuario {$a}.';
 $string['uploadpictures'] = 'Subir imágenes de los usuarios';
-$string['uploadpictures_help'] = 'Las imágenes de los usuarios se pueden cargar masivamente mediante un archivo zip. Estos archivos debe ser nombrados en atención al "atributo del usuario" elegido (username, idnumber, id) por ejemplo user1234.jpg para un usuario con nombre de usuario (username) user1234.
+$string['uploadpictures_help'] = 'Las imágenes de los usuarios se pueden cargar masivamente mediante un archivo zip. Estos archivos debe ser nombrados en atención al "atributo del usuario" elegido (username, idnumber, id) por ejemplo user1234.jpg para un usuario con nombre_de_usuario (username) user1234.
 Tenga en cuenta que el tamaño del archivo zip no puede superar el límite establecido en la configuración "políticas de sitio" de su sitio Moodle. En cualquier caso, siempre podrá preparar varios paquetes de imágenes comprimidas y subirlas por partes.';
 $string['uploaduser:uploaduserpictures'] = 'Subir imágenes de usuario';
 $string['uploadusers'] = 'Subir usuarios';
-$string['uploadusers_help'] = 'Los usuarios pueden subirse (y, opcionalmente, inscribirse en cursos) por medio de un archivo de texto. El formato del archivo debe ser el siguiente:
+$string['uploadusers_help'] = 'Los usuarios pueden subirse (y, opcionalmente, inscribirse en cursos) por medio de un archivo de texto simple con terminación .CVS codificado en UTF-8 para permitir eñes y vocales acentuadas en nombre y apellidos - pero NO en el nombre_de_usuario (username) -. El formato del archivo debe ser el siguiente:
 
 * Cada línea del archivo contiene solo un registro.
-* Cada registro es una serie de datos separados por el separador seleccionado
+* Cada registro es una serie de datos separados por comas (o por otro delimitador)
 * El primer registro contiene una lista de nombres de campo que definen el formato del resto del archivo
 * Los nombres de campo necesarios son (así escritos en inglés)  username, password, firstname, lastname, email (nombre-de-usuario, contraseña, nombre, apellidos, correo)';
-$string['uploadusers_link'] = 'admin/tool/uploaduser/index';
 $string['uploaduserspreview'] = 'Previsualizar subida de usuarios';
 $string['uploadusersresult'] = 'Resultados de subida de usuarios';
 $string['useraccountupdated'] = 'Usuario actualizado';
@@ -106,20 +103,20 @@ $string['uubulkupdated'] = 'Usuarios actualizados';
 $string['uucsvline'] = 'Línea CVS';
 $string['uulegacy1role'] = '(Estudiante original) tipo N=1';
 $string['uulegacy2role'] = '(Profesor original) tipo N=2';
-$string['uulegacy3role'] = '(Profesor sin permiso de edición original) tipo N=3';
+$string['uulegacy3role'] = '(Profesor no editor original) tipo N=3';
 $string['uunoemailduplicates'] = 'Prevenir duplicados de dirección email';
 $string['uuoptype'] = 'Tipo de subida';
-$string['uuoptype_addinc'] = 'Agregar todo, añadir contador a nombres de usuarios si fuera necesario.';
-$string['uuoptype_addnew'] = 'Agregar sólo nuevos, saltarse usuarios existentes';
+$string['uuoptype_addinc'] = 'Agregar todo, añadir contador a nombres_de_usuarios si fuera necesario.';
+$string['uuoptype_addnew'] = 'Agregar sólo nuevos, pasar por alto usuarios existentes';
 $string['uuoptype_addupdate'] = 'Agregar nuevos y actualizar usuarios existentes';
 $string['uuoptype_update'] = 'Actualizar sólo usuarios existentes';
 $string['uupasswordcron'] = 'Generado en cron';
 $string['uupasswordnew'] = 'Contraseña de nuevo usuario';
 $string['uupasswordold'] = 'Contraseña de usuario existente';
-$string['uustandardusernames'] = 'Estandarizar nombres de usuario';
+$string['uustandardusernames'] = 'Estandarizar nombres_de_usuario';
 $string['uuupdateall'] = 'Sobrescribir con archivo y valores por defecto';
 $string['uuupdatefromfile'] = 'Sobrescribir con archivo';
 $string['uuupdatemissing'] = 'Rellenar datos faltantes a partir del archivo y valores por defecto';
 $string['uuupdatetype'] = 'Detalles del usuario existente';
-$string['uuusernametemplate'] = 'Plantilla de nombre de usuario';
+$string['uuusernametemplate'] = 'Plantilla de nombre_de_usuario';
 $string['warningprefix'] = 'Advertencia';

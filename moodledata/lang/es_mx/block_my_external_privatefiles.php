@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_my_external_privatefiles', language 'es_mx', version '4.2'.
+ * Strings for component 'block_my_external_privatefiles', language 'es_mx', version '3.10'.
  *
  * @package     block_my_external_privatefiles
  * @category    string
@@ -35,10 +35,8 @@ $string['my_external_privatefiles:addinstance'] = 'añadir instancia de obtener 
 $string['my_external_privatefiles:can_create_draftuserfiles_for_other_users'] = 'Crear archivos de usuario borrador para otros usuarios';
 $string['my_external_privatefiles:can_retrieve_files_from_other_users'] = 'obtener archivo a partir de otros usuarios';
 $string['my_external_privatefiles:myaddinstance'] = 'añadir instancia de obtener archivos privados desde Moodle externo hacia Tablero';
-$string['my_external_privatefiles_cron_task'] = 'mi trabajo de cron de archivos privados externos : eliminar archivos borrador generados';
 $string['nofilefound'] = 'No se encontró archivo en su área de archivos privados';
 $string['pluginname'] = 'Descargar archivos privados desde otras plataformas Moodle';
-$string['privacy:metadata'] = 'el bloque \'Download provate files from other moodle platform\' no almacena ningún dato personal.';
 $string['retrieve_external_privatesfiles'] = 'Obtener archivos';
 $string['retrieve_external_privatesfiles_directive'] = 'Obtener archivosdesde plataforma al hacer click en botón';
 $string['retrieve_external_privatesfiles_serverx'] = '{$a}';

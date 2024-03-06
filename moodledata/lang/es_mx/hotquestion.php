@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotquestion', language 'es_mx', version '4.2'.
+ * Strings for component 'hotquestion', language 'es_mx', version '3.10'.
  *
  * @package     hotquestion
  * @category    string
@@ -32,8 +32,6 @@ $string['allowanonymouspost_help'] = 'Si se habilita, las preguntas pueden ser p
 $string['allowauthorinfohide'] = 'Permitir que el nombre del autor esté oculto';
 $string['allowauthorinfohide_descr'] = 'Si se habilita, los nombres del autor de preguntas puede ser visible para los profesores pero ocultos para los estudiantes.';
 $string['allowauthorinfohide_help'] = 'Si se habilita, los nombres del autor de preguntas puede ser visible para los profesores pero ocultos para los estudiantes.';
-$string['allowcomments'] = 'Permitir comentarios en entradas';
-$string['allowcomments_help'] = 'Si se habilita, todos los participantes con permiso para crear comentarios podrán añadir comentarios a las entradas de Pregunta caliente.';
 $string['alwaysshowdescription'] = 'Siempre mostrar descripción';
 $string['alwaysshowdescription_help'] = 'Si se deshabilita, la Descripción de Pregunta Caliente no será visible para los estudiantes.';
 $string['anonymous'] = 'Anónima';
@@ -45,19 +43,6 @@ $string['authorinfo'] = 'Publicada por {$a->user} en {$a->time}';
 $string['authorinfohide'] = 'Poublicado {$a->time}';
 $string['calendarend'] = '{$a} cierra';
 $string['calendarstart'] = '{$a} abre';
-$string['cnfallowcomments'] = 'Definir si es que una pregunta caliente aceptará comentarios en entradas de forma predeterminada.';
-$string['completiondetail:pass'] = 'Calificación aprobatoria: {$a}';
-$string['completiondetail:post'] = 'Publicar preguntas: {$a}';
-$string['completiondetail:vote'] = 'Da calor: {$a}';
-$string['completionpass'] = 'Estudiante deb pasar';
-$string['completionpassdesc'] = 'Estudiante debe recibir calificación aprobatoria de {$a}';
-$string['completionpassgroup'] = 'Requerir pasar:';
-$string['completionpost'] = 'Estudiante debe añadir preguntas:';
-$string['completionpostdesc'] = 'Estudiane debe crear al menos  {$a} pregunta(s)';
-$string['completionpostgroup'] = 'Requerir preguntas';
-$string['completionvote'] = 'Estudiante debe añadir calor:';
-$string['completionvotedesc'] = 'Estudiante debe votar/dar calor a {$a} pregunta(s) o publicación(es)';
-$string['completionvotegroup'] = 'Requerir calor:';
 $string['connectionerror'] = 'Error de conexión';
 $string['content'] = 'Contenido';
 $string['csvexport'] = 'Exportar a .CSV';
@@ -74,52 +59,24 @@ $string['eventremoveround'] = 'Quitar ronda';
 $string['eventremovevote'] = 'Quitar voto';
 $string['eventupdatevote'] = 'Voto actualizado';
 $string['exportfilename'] = 'preguntas.csv';
-$string['exportfilenamep1'] = 'Sitio_Completo_';
+$string['exportfilenamep1'] = 'Sitio_Completo';
 $string['exportfilenamep2'] = '_HQ_Preguntas_Exportadas_En_';
-$string['factorheat'] = 'Factor de calor recibido';
-$string['factorheat_help'] = 'Un factor a aplicar a las preguntas para calificarlas basándose en su calor de la pregunta.
-Mientras más caliente esté una pregunta, mayor peso para calificar.
-Una pregunta por un estudiante cuenta 1 crédito adicional más.
-
-    crédito = (votos) · factor/100.
-
-Normalmente un factor de calor del 5% es adecuado, lo que significa que si 20 personas votan por una pregunta, su valor se duplica.
-Usted podría necesitar ajustar esto dependiendo del número de participantes y su participación.';
-$string['factorpriority'] = 'Factor de prioridad del profesor';
-$string['factorpriority_help'] = 'Un factor para contar preguntas sin prioridad configurada por el profesor.
-Cada pregunta cuenta en la suma de preguntas preguntadas por un estudiante como su valor de prioridad (1, 2...).
-Para aquellas preguntas sin prioridad (0), el valor especificado (como un %) es contado. <br /> Un factor de 100% significa que una pregunta sin prioridad cuenta igual que una pregunta con prioridad 1.';
-$string['factorvote'] = 'Factor de calor dado';
-$string['factorvote_help'] = 'Un factor a aplicar a las preguntas de los estudiantes al calcular calificaciones.
-Además de escribir nuevas preguntas, un estudiante puede recibir crédito de participación por votar en preguntas de otros estudiantes.
-Este crédito es el número de votos emitidos multiplicado por este factor/100
-
-    crédito = (votos) · factor/100.
-
-El factor necesita ser ajustado dependiendo del número total de votos que un estudiante puede emitir y la ponderación deseada para este tipo de participación.
-Por ejemplo, si un estudiante puede emitir 5 votos de calor, un factor de 20% significa que votar por otras 5 preguntas cuenta como una pregunta escrita por este estudiante. Un factor de 100% significa que votar por otras preguntas cuenta lo mismo que escribir una nueva pregunta.';
-$string['finalgrade'] = 'Calificación final';
 $string['for'] = 'para sitio:';
-$string['grading'] = 'Calificación cruda';
 $string['heat'] = 'Calor';
 $string['heaterror'] = 'Demasiados votos';
-$string['heatgiven'] = 'Calor dado';
 $string['heatlabel'] = 'Etiqueta de columna Calor';
 $string['heatlabel_descr'] = 'Escriba una etiqueta predeterminada para la columna de Calor';
 $string['heatlimit'] = 'Límte predeterminado del Calor';
 $string['heatlimit_descr'] = 'Ingresar un valor predeterminado para el número de veces que los usuarios pueden aplicar calor/voto, por ronda. Cero oculta la columna de calor..';
 $string['heatlimit_help'] = 'Ingresar un valor predeterminado para el número de veces que Usted puede aplicar calor/voto, por ronda. Cero oculta la columna de calor.';
-$string['heatreceived'] = 'Calor recibido';
 $string['heatvisibility'] = 'Visibilidad de Columna de Calor';
 $string['heatvisibility_descr'] = 'Si se habilita, la Columna de Calor es visible, en caso contrario está oculta.';
 $string['heatvisibility_help'] = 'Si se habilita, la columna de Calor es visible.';
 $string['hotquestion'] = 'Hotquestion (PreguntaCaliente)';
 $string['hotquestion:addinstance'] = 'Puede añadir nueva Pregunta Caliente';
 $string['hotquestion:ask'] = 'Hacer preguntas';
-$string['hotquestion:comment'] = 'Escribir comentarios';
 $string['hotquestion:manage'] = 'Gestionar preguntas';
 $string['hotquestion:manageentries'] = 'Ver lista de actividades';
-$string['hotquestion:rate'] = 'Valorar preguntas';
 $string['hotquestion:view'] = 'Ver preguntas';
 $string['hotquestion:vote'] = 'Votar sobre preguntas';
 $string['hotquestionclosed'] = 'Esta actividad se cerró en {$a}.';
@@ -129,8 +86,6 @@ $string['hotquestionname'] = 'Nombre de actividad';
 $string['hotquestionopen'] = 'Esta actividad se abrirá en {$a}.';
 $string['hotquestionopentime'] = 'Hora de apertura';
 $string['id'] = 'ID';
-$string['improperuseviewgradesclass'] = 'Uso inapropiado de la clase viewgrades. No se puede cargar el elemento de calificación.';
-$string['incorrectmodule'] = 'ID de Módulo de Curso era incorrecto';
 $string['inputapprovallabel'] = 'Aprobado';
 $string['inputapprovallabel_descr'] = 'Cambie el nombre de la columna de Aprobadas a lo que Usted quiera.';
 $string['inputapprovallabel_help'] = 'Cambie el nombre de la columna de Aprobadas para que se ajuste mejor al uso de esta actividad.';
@@ -152,7 +107,6 @@ $string['inputteacherprioritylabel_help'] = 'Cambie el nombre de la columna de P
 $string['invalidquestion'] = 'Preguntas vacías son ignoradas.';
 $string['modulename'] = 'Pregunta Caliente';
 $string['modulename_help'] = 'Una actividad de Pregunta Caliente les permite a los estudiantes publicar/votar preguntas, en respuesta a solicitudes hechas por sus profesores del curso.';
-$string['modulename_link'] = 'mod/hotquestion/view';
 $string['modulenameplural'] = 'Preguntas Calientes';
 $string['newround'] = 'Abrir una nueva ronda';
 $string['newroundconfirm'] = '¿Está seguro que quiere iniciar una nueva ronda? (¡las preguntas y votos existentes serán archivadas y no podrán ser añadidas!)';
@@ -164,10 +118,6 @@ $string['notavailable'] = '<b>¡Actualmente no disponible!<br></b>';
 $string['pluginadministration'] = 'Administración de Preguntas Calientes';
 $string['pluginname'] = 'Pregunta Caliente';
 $string['postbutton'] = 'Clic para publicar';
-$string['postmaxgrade'] = 'Preguntas para calificación máxima';
-$string['postmaxgrade_help'] = 'El número de preguntas requeridas para obtener la calificación máxima.
-
-Esto es nominalmente un número de preguntas, pero el valor obtenido por un usuario puede ser mejorado por el factor de calor (las preguntas con más calor cuentan más) y por votar en otras preguntas (un usuario puede mejorar la calificación por participar al votar por preguntas de otros estudiantes.';
 $string['previousround'] = 'Ronda anterior';
 $string['privacy:metadata:hotquestion_questions'] = 'Información acerca de las entradas del usuario para una actividad Pregunta Caliente dada.';
 $string['privacy:metadata:hotquestion_questions:anonymous'] = '¿Está publicada la entrada como anónima?';
@@ -189,7 +139,6 @@ $string['questionremove'] = 'Quitar';
 $string['questionremovesuccess'] = 'Usted ha quitado exitosamente esa pregunta.';
 $string['questions'] = 'Preguntas';
 $string['questionsubmitted'] = 'Su publicación ha sido enviada exitosamente.';
-$string['rawgrade'] = 'Calificación cruda {$a->rawgrade} / {$a->max}';
 $string['removedround'] = 'Usted ha quitado exitosamente esta ronda';
 $string['removelabel'] = 'Etiqueta de columna de Quitar';
 $string['removelabel_descr'] = 'Escriba una etiqueta predeterminada para la columna de Quitar.';
@@ -210,20 +159,8 @@ $string['teacherpriorityvisibility'] = 'Visibilidad de columna de prioridad del 
 $string['teacherpriorityvisibility_descr'] = 'Si se habilita, la columna de Prioridad de profesor es visible, en caso contrario está oculta.';
 $string['teacherpriorityvisibility_help'] = 'Si se habilita, la columna de Prioridad de profesor es visible.';
 $string['time'] = 'Hora';
-$string['totalcomments'] = 'Comentarios totales';
-$string['unapprovedquestionhide'] = 'Ocultar preguntas no aprobadas';
-$string['unapprovedquestionnotset'] = 'Preferencia no configurada';
-$string['unapprovedquestionsee'] = 'Ver preguntas no aprobadas';
-$string['unapprovedquestionvisibility'] = 'Visibilidad de preguntas no aprobadas';
 $string['userid'] = 'Userid';
-$string['valueinterror'] = 'El factor debe ser un número entero positivo';
-$string['viewaftertimeclose'] = 'Ver después de hora de cierre';
-$string['viewaftertimeclose_descr'] = 'Si se habilita, los estudiantes podrán ver, pero no alterar, preguntas y calor después de la hora de cierre; en caso contrario, estarán ocultos.';
-$string['viewaftertimeclose_help'] = 'Si se habilita, los estudiantes podrán ver, pero no alterar, preguntas y calor después de la hora de cierre; en caso contrario estarán ocultas.';
-$string['viewaftertimeclosevalidation'] = 'Si no está seleccionada fecha de cierre, entonces Ver después de hora de cierre debería ser No.';
 $string['viewallentries'] = '{$a->ucount} usuario(s) publicó/publicaron {$a->qcount} pregunta(s).';
-$string['viewallhotquestions'] = 'Ver todas las Preguntas Calientes del curso';
 $string['viewentries'] = 'Participación en la ronda actual';
-$string['viewgrades'] = 'Ver calificaciones';
 $string['vote'] = 'Votar';
 $string['xofn'] = 'de';

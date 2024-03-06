@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'antivirus_mimeblocker', language 'es_mx', version '4.2'.
+ * Strings for component 'antivirus_mimeblocker', language 'es_mx', version '3.10'.
  *
  * @package     antivirus_mimeblocker
  * @category    string
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['allowedmimetypes'] = 'Tipos mime permitidos';
 $string['allowedmimetypesdesc'] = 'Proporcione una lista de mimetypes (tipos mime) separados por ";". Por ejemplo: "text/xml;image/png;application/pdf"';
-$string['invalidtypes'] = 'La lista proporcionada contiene tipos no válidos';
 $string['pluginname'] = 'Antivirus Bloqueador Mime';
 $string['privacy:metadata'] = 'El plugin de Antivirus Bloqueador Mime no almacena ningún dato personal.';
 $string['quarantinedir'] = 'Directorio de cuarentena';

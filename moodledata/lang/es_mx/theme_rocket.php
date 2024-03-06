@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_rocket', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_rocket', language 'es_mx', version '3.10'.
  *
  * @package     theme_rocket
  * @category    string
@@ -32,7 +32,7 @@ $string['allunits'] = 'Todas las Unidades';
 $string['autohide'] = 'Funcionalidad de Auto-ocultar';
 $string['autohidedesc'] = 'Al habilitar esta característica cambiará la forma en la que se ve Moodle cuando se activa el modo de edición. Los íconos de edición solamente aparecerán al pasarles el cursor encima de un item o bloque particular. Esto hace que la interfaz sea más limpia y menos intimidante.';
 $string['bannerheight'] = 'Altura de Banner de Página Principal';
-$string['bannerheightdesc'] = 'Si Usted está usando la ubicación del banner en la página principal, Usted puede cambiar su altura por defecto aquí. El máximo es de 250 pixeles.';
+$string['bannerheightdesc'] = 'Si Usted está usando la localización del banner en la página principal, Usted puede cambiar su altura por defecto aquí. El máximo es de 250 pixeles.';
 $string['bannerimage'] = 'Banner';
 $string['bannerimagedesc'] = 'Cambie el banner en la portada del sitio al escribir la URL hacia uno nuevo (ejemplo: http://www.algunsitio/banner.png). Como referencia, el banner por defecto mide 750 pixeles por 250  pixeles.';
 $string['blocklinkcolor'] = 'Color de Liga en Bloque';
@@ -58,7 +58,7 @@ $string['configtitle'] = 'tema rocket (cohete)';
 $string['contentlinkcolor'] = 'Color de Liga a Contenido';
 $string['contentlinkcolordesc'] = 'Cambiar el color de las ligas a áreas de contenido';
 $string['copyright'] = 'Aviso de Derechos de Autor (copyright)';
-$string['copyrightdesc'] = 'Esta ubicación es donde Usted puede poner su aviso sobre Derechos de Autor si lo tuviera.';
+$string['copyrightdesc'] = 'Esta localización es donde Usted puede poner su aviso sobre Derechos de Autor si lo tuviera.';
 $string['customcss'] = 'CSS personalizado';
 $string['customcssdesc'] = 'Para usuarios avanzados, Usted puede escribir su propio código CSS aquí para anular cualquiera de las características por defecto del tema.';
 $string['disable'] = 'Desabilitada';

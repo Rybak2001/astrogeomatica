@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_pluginskel', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_pluginskel', language 'es_mx', version '3.10'.
  *
  * @package     tool_pluginskel
  * @category    string
@@ -241,8 +241,8 @@ $string['mod_features_navigation_help'] = 'Crear la función extend_navigation()
 $string['name'] = 'Nombre';
 $string['name_help'] = 'Nombre legible por el humano para el plugin. Esto representa el valor del texto para la cadena_de_caracteres de idioma de "pluginname".';
 $string['observers'] = 'Observadores';
-$string['observers_callback'] = 'Retrollamada';
-$string['observers_callback_help'] = 'Nombre de función de retrollamada.';
+$string['observers_callback'] = 'Callback (llamada de retorno)';
+$string['observers_callback_help'] = 'Nombre de función callback (llamada de retorno).';
 $string['observers_eventname'] = 'Nombre del evento';
 $string['observers_eventname_help'] = 'Nombre de clase del evento completamente calificado.';
 $string['observers_includefile'] = 'Includefile';

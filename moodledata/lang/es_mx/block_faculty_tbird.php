@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_faculty_tbird', language 'es_mx', version '4.2'.
+ * Strings for component 'block_faculty_tbird', language 'es_mx', version '3.10'.
  *
  * @package     block_faculty_tbird
  * @category    string
@@ -53,12 +53,12 @@ $string['facultyroles'] = 'Roles del Profesorado';
 $string['facultyrolesdescription'] = 'Seleccione los roles que se mostrarán dentro del bloque de Contactos del Profesorado.';
 $string['facultytitledescr'] = '<p>Se muestra como \'encabezado\' en la parte superior del bloque de Profesorado.</p><p>Por Ejemplo "Profesor Luis Pasteur"</p><p>Si no se configura se usarán Nombre y Apellidos</p>';
 $string['facultytitlename'] = 'Título del Profesorado';
-$string['officedescr'] = '<p>Ubicación de la oficina, tal como se muestra en el bloque del Profesorado.</p>';
+$string['officedescr'] = '<p>Localización de la oficina, tal como se muestra en el bloque del Profesorado.</p>';
 $string['officehoursdescr'] = '<p>Horario de oficina del Profesorado</p>';
 $string['officehourslabel'] = 'Horario de Oficina';
 $string['officehoursname'] = 'Horario de Oficina';
 $string['officelabel'] = 'Oficina';
-$string['officename'] = 'Ubicación de la Oficina';
+$string['officename'] = 'Localización de la Oficina';
 $string['phonelabel'] = 'Teléfono';
 $string['pluginname'] = 'Contacto del Profesorado';
 $string['profileclicktitle'] = 'Elija aquí para ver el perfil de';

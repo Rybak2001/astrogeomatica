@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_glossary_wordimport', language 'es_mx', version '4.2'.
+ * Strings for component 'local_glossary_wordimport', language 'es_mx', version '3.10'.
  *
  * @package     local_glossary_wordimport
  * @category    string
@@ -26,8 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['cannotopentempfile'] = 'No se puede abrir archivo temporal <b>{$a}</b>';
-$string['convertgifs'] = 'Convertir imágenes GIF a PNG.';
-$string['convertgifs_help'] = 'Convertir imágenes GIF permite que el glosario sea exportado de regreso a Word para edición de viaje redondo.';
 $string['filetoimport'] = 'Archivo a importar.';
 $string['filetoimport_help'] = 'Subir archivo <i>.docx</i>guardado desde Microsoft Word o LibreOffice';
 $string['pluginname'] = 'Importar/Exportar archivo de Microsoft Word (Glossario)';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiziq', language 'es_mx', version '4.2'.
+ * Strings for component 'wiziq', language 'es_mx', version '3.10'.
  *
  * @package     wiziq
  * @category    string
@@ -109,7 +109,6 @@ $string['presenter_name'] = 'Maestro';
 $string['presenter_required'] = 'Se requiere presentador';
 $string['recmsg'] = '<b>La grabación estará disponible en algún momento</b>';
 $string['record'] = 'Si';
-$string['recording_link'] = 'Descargar Grabación';
 $string['recording_option'] = 'Grabar esta clase';
 $string['recording_value'] = 'Grabación elegida';
 $string['recordingtype'] = 'Opciones de Grabación';

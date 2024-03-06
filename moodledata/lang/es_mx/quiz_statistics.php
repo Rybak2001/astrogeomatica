@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_statistics', language 'es_mx', version '4.2'.
+ * Strings for component 'quiz_statistics', language 'es_mx', version '3.10'.
  *
  * @package     quiz_statistics
  * @category    string
@@ -65,9 +65,6 @@ $string['firstattempts'] = 'primeros intentos';
 $string['firstattemptsavg'] = 'Calificación promedio de primeros intentos';
 $string['firstattemptscount'] = 'Número de primeros intentos completos calificados';
 $string['frequency'] = 'Frecuencia';
-$string['getstatslockprogress'] = 'Esperando por un trabajo agendado en progreso. Por favor espere o inténtelo de nuevo más tarde.';
-$string['getstatslocktimeout'] = 'Bloqueo de tiempo por cálculo de estadíaticas';
-$string['getstatslocktimeoutdesc'] = 'Cuantos segundos esperar por un bloqueo mientras se intenta realizar un cálculo estadístico para un examen. Esta configuración existe primariamente para pruebas; NO la modifique, a menos que sepa exactamente lo que hace.';
 $string['highestattempts'] = 'intento con máxima calificación';
 $string['highestattemptsavg'] = 'Calificación promedio de los intentos con mayores calificaciones';
 $string['intended_weight'] = 'Ponderación deseada';
@@ -88,7 +85,6 @@ Nuestra ecuación para la ponderación efectiva de la pregunta no puede calcular
 
 Si edita un examen y les pone a estas preguntas con covarianza negativa una calificación máxima de cero, entonces  la ponderación efectiva de estas preguntas será cero y la ponderación efectiva real de las otras  preguntas será como se calcule ahora.';
 $string['nogradedattempts'] = 'No se han hecho intentos de resolver este examen; o bien, todos los intentos tienen preguntas que necesitan calificación manual.';
-$string['nostats'] = 'No se pudo completar el cálculo estadístico. Podría existir un cálculo de larga duración en progreso. Por favor inténtelo de nuevo más tarde.';
 $string['nostudentsingroup'] = 'Aún no hay estudiantes en este grupo';
 $string['optiongrade'] = 'Crédito parcial';
 $string['partofquestion'] = 'Parte de pregunta';
@@ -105,12 +101,12 @@ $string['questiontype'] = 'Tipo de pregunta';
 $string['quizinformation'] = 'Información del examen';
 $string['quizname'] = 'Nombre del examen';
 $string['quizoverallstatistics'] = 'Estadísticas globales del examen';
+$string['quizstatisticscleanuptask'] = 'Limpiar los registros de la caché de estadísticas del examen';
 $string['quizstructureanalysis'] = 'Análisis de la estructura del examen';
 $string['random_guess_score'] = 'Calificación aleatoria estimada';
 $string['rangebetween'] = '{$a->min} − {$a->max}';
 $string['rangeofvalues'] = 'Rango de estadísticas para estas preguntas';
 $string['recalculatenow'] = 'Recalcular ahora';
-$string['recalculatetask'] = 'Re-calcular estadísticas de pregunta';
 $string['reportsettings'] = 'Configuraciones de cálculos estadísticos';
 $string['response'] = 'Respuesta';
 $string['skewness'] = 'Sesgo de la distribución de puntuaciones (para {$a})';

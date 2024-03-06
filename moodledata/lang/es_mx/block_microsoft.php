@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_microsoft', language 'es_mx', version '4.2'.
+ * Strings for component 'block_microsoft', language 'es_mx', version '3.10'.
  *
  * @package     block_microsoft
  * @category    string
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['cachedef_groups'] = 'Cachea información de grupo de Microsoft 365.';
 $string['configure_sync'] = 'Configurar sincronización del curso';
 $string['connecttoo365'] = 'Conectar a Microsoft 365';
 $string['contactadmin'] = 'Contactar al administrador para mayor información.';
@@ -33,8 +34,14 @@ $string['course_feature_conversations'] = 'Conversaciones en Outlook';
 $string['course_feature_onedrive'] = 'Archivos OneDrive';
 $string['course_feature_team'] = 'Equipo';
 $string['course_sync_option'] = 'Opción de Sincronización';
+$string['course_sync_option_groups'] = 'Solamente Grupos Microsoft 365';
+$string['course_sync_option_not_synced'] = 'No sincronizado';
+$string['course_sync_option_teams'] = 'Equipos Microsoft 365';
 $string['defaultprofile'] = 'Imagen del Perfil';
 $string['error_site_course_sync_disabled'] = 'Sincronización del curso no está habilitada';
+$string['geto365'] = 'Instalar Office';
+$string['groupsnotenabledforcourse'] = 'Los grupos de Office no están habilitados para este curso.';
+$string['linkcoursegroup'] = 'Grupo del Curso';
 $string['linkemail'] = 'Mi Email';
 $string['linkmyforms'] = 'Mis Formatos';
 $string['linkonedrive'] = 'Mi OneDrive';
@@ -44,7 +51,9 @@ $string['linkprefs'] = 'Editar preferencias';
 $string['logintoo365'] = 'Ingresar a Microsoft 365';
 $string['microsoft'] = 'Microsoft';
 $string['microsoft:addinstance'] = 'Añadir un nuevo bloque de Microsoft';
+$string['microsoft:managegroups'] = 'Permitir la habilidad para gestionar grupos';
 $string['microsoft:myaddinstance'] = 'Añadir un nuevo bloque de Microsoft a la página de Mi Moodle';
+$string['microsoft:viewgroups'] = 'Permitir la habilidad para ver el panel de control de grupos';
 $string['msalogin'] = 'Ingresar con cuenta Microsoft';
 $string['o365connected'] = '{$a->firstname} Usted está actualmente <span class="notifysuccess">conectado</span> a microsoft 365';
 $string['o365matched_complete_authreq'] = 'Para completar la conexión, por favor haga clic en el enlace inferior e ingrese a esta cuenta de Microsoft 365.';
@@ -54,6 +63,7 @@ $string['o365matched_title'] = 'Usted está <span style="color: #960">casi, casi
 $string['pluginname'] = 'Bloque Microsoft';
 $string['settings_geto365link'] = 'URL para Descargar Office';
 $string['settings_geto365link_desc'] = 'La URL a usar para el enlace a "Instalar Office".';
+$string['settings_showcoursegroup'] = 'Mostrar "Grupo del Curso"';
 $string['settings_showemail'] = 'Mostrar "Mi Email"';
 $string['settings_showmyforms'] = 'Mostrar "Mis Formatos"';
 $string['settings_showo365connect'] = 'Mostrar "Conectar a Microsoft 365"';

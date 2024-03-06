@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'taskchain', language 'es_mx', version '4.2'.
+ * Strings for component 'taskchain', language 'es_mx', version '3.10'.
  *
  * @package     taskchain
  * @category    string
@@ -688,7 +688,6 @@ Una actividad de TaskChain puede contener tareas creadas con los siguientes prog
 * Xerte
 * iSpring
 * cualquier editor HTML';
-$string['modulename_link'] = 'mod/taskchain/view';
 $string['modulenameplural'] = 'TaskChains';
 $string['movetasks'] = 'Mover tareas seleccionadas';
 $string['myattempts'] = 'Mis intentos';
@@ -964,9 +963,9 @@ $string['status'] = 'Status';
 $string['stopbutton'] = 'Mostrar botón para detener';
 $string['stopbutton_help'] = 'Si se habilita esta configuración, se insertará un botón para \'detener\' dentro de la tarea.
 
-Si un alumno elige el botón para detener, los resultados hasta ese momento se regresarán a Moodle y el estado del intento de la tarea se pondrá en \'abandonada\'.
+Si un alumno elige el botón para detener, los resultados hasta ese momento se regresarán a Moodle y el status del intento de la tarea se pondrá en \'abandonada\'.
 
-El texto que se muestra en el botón para detener puede ser una de las frases pre-hechas de los paquetes de idioma de Moodle, formateada como componene_stringname (ejemplo portfolio_returntowhereyouwere), o el profesor puede especificar su propio texto específico para el botón.';
+El texto que se muestra en el botón para detener puede ser una de las frases pre-hechas de los paquetes de idioma de Moodle, o el profesor puede especificar su propio texto para el botón.';
 $string['stopbuttonlangpack'] = 'Del paquete de idioma';
 $string['stopbuttonspecific'] = 'Usar texto específico';
 $string['stoptext'] = 'Texto del botón de detener';

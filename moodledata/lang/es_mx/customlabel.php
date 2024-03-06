@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabel', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabel', language 'es_mx', version '3.10'.
  *
  * @package     customlabel
  * @category    string
@@ -25,13 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addatype'] = 'Añadir un tipo';
-$string['addvalue'] = 'Añadir un valor';
 $string['adminmetadata'] = 'Configuración de clasificadores';
 $string['apparence'] = 'Apariencia';
 $string['category'] = 'Categoría';
 $string['changetypeadvice'] = 'Usted está a punto de cambiar la estructura interna de datos de este elemento. El contenido antiguo no puede mantenerse. ¿Desea continuar?';
-$string['choose'] = 'Elegir';
 $string['classification'] = 'Clasificación';
 $string['classificationconstrainttable'] = 'Tabla de Limitantes';
 $string['classificationconstrainttable_help'] = 'Esta tabla es capaz de mapear las parejas de valores que no son compatibles.';
@@ -47,7 +44,6 @@ $string['classifiers'] = 'Clasificadores';
 $string['classifierstypes'] = 'Tipo de clasificadores';
 $string['cleararea'] = 'Limpiar esta área de archivo';
 $string['code'] = 'Código';
-$string['coloredstyle'] = 'Títulos coloreados';
 $string['commands'] = 'Comandos';
 $string['configclassificationconstrainttable'] = 'Tabla de limitantes';
 $string['configclassificationconstrainttable_desc'] = 'Esta tabla tiene las limitantes entre los diferentes tipos involucrados en la clasificación.';
@@ -57,8 +53,6 @@ $string['configclassificationvaluetable'] = 'Tabla de valores de clasificación'
 $string['configclassificationvaluetable_desc'] = 'Esta es la tabla en donde se encuentran los valores de metadatos';
 $string['configclassificationvaluetypekey'] = 'Nombre clave del tipo en tabla de valor';
 $string['configclassificationvaluetypekey_desc'] = 'Este es el nombre del campo  que sirve como clave extranjera de tipo_de_datos para calificar el valor';
-$string['configcoursemetadatacmidkey'] = 'Nombre de clave ID de módulo de curso en binder de metadatos';
-$string['configcoursemetadatacmidkey_desc'] = 'Este es el nombre del campo que sirve como clave foránea de módulo del curso en la tabla de metadatos.';
 $string['configcoursemetadatacoursekey'] = 'Nombre clave del curso en ligando de metadatos';
 $string['configcoursemetadatacoursekey_desc'] = 'Este es el nombre del campo que sirve como la clave extranjera del curso en la tabla de metadatoss. el contenido de este campo debería de ser una id de COURSE válida.';
 $string['configcoursemetadatatable'] = 'Tabla para ligadura de metadatos';
@@ -66,38 +60,33 @@ $string['configcoursemetadatatable_desc'] = 'Esta tabla liga la relación entre 
 $string['configcoursemetadatavaluekey'] = 'Valor clave en ligadura de metadatos';
 $string['configcoursemetadatavaluekey_desc'] = 'Este es el nombre del campo que sirve como clave extranjera de valor de datos en la tabla de metadatos.';
 $string['configmetadatabinding'] = 'Ligadura de esquema de metadatos';
+$string['configusesafestorage'] = 'Si se habilita, cualquier almacenamiento antiguo será convertido cuando se edite. Se usará nuevo almacenamiento para los ítems convertidos.';
 $string['constraints'] = 'Restricciones';
 $string['content'] = 'Contenido';
 $string['coursefilter'] = 'Filtro de curso';
-$string['coursemetadatacmidkey'] = 'Campo de marcado para ID de módulo del curso (metadatos a binding de valor)';
-$string['coursemetadatacmidkey_help'] = 'Esto debe definir un nombre de columna en la base de datos que mapea un registro a una instancia de módulo de curso.';
 $string['coursemetadatacoursekey'] = 'Clave de marca para curso (enlazado de curso a metadatos)';
 $string['coursemetadatacoursekey_help'] = 'Esto debe definir un nombre de columna en la base de datos, que mapea un registro hacia una ID del curso.';
 $string['coursemetadatatable'] = 'Tabla de marcas de Metadatos del Curso';
 $string['coursemetadatatable_help'] = 'Esta tabla proporciona curso a las ligaduras de metadatos.';
 $string['coursemetadatavaluekey'] = 'Campo de marcado para Valores (metadatos a enlace de valor)';
 $string['coursemetadatavaluekey_help'] = 'Esto debe definir un nombre de columna en la base de datos, que mapea un registro hacia un valor de metadatos.';
+$string['cssoverrides'] = 'Anulaciones CSS';
+$string['cssoverridesdesc'] = 'Si se usa este campo, las reglas de estilo aquí escritas se añadirán a la hoja_de_estilo global para alterar la apariencia de customlabel (etiqueta_personalizada). Esto necesita que su tema haya sido afinado para definir el punto de inserción. Lea README.txt.';
 $string['customlabel:addinstance'] = 'Puede añadirse una instancia';
 $string['customlabel:fullaccess'] = 'Acceso completo a todos los campos';
 $string['customlabel:managemetadata'] = 'Gestionar metadatos';
 $string['customlabelplugins'] = 'Plugins';
 $string['customlabeltools'] = 'Herramientas masivas para etiquetas personalizadas';
-$string['customlabeltypepluginname'] = 'Nombre de tipo de Customlabel';
-$string['defaultskin'] = 'Piel predeterminada para etiquetas';
-$string['defaultskin_desc'] = 'Elegir una plantilla CSS base para todas las etiquetas';
-$string['defaultstyle'] = 'Conjunto de íconos predeterminados';
 $string['disabledsubtypes'] = 'Subtipos deshabilitados';
-$string['disabledsubtypes_desc'] = 'Cualquier subtipo mencionado en este campo será deshabilitado globalmente para todo el sitio.';
+$string['disabledsubtypesdesc'] = 'Cualquier subtipo mencionado en este campo será deshabilitado globalmente para todo el sitio.';
 $string['doupdate'] = '¡¡Actualizar!!';
 $string['down'] = 'Abajo';
 $string['editclass'] = 'Actualizar clase clasificadora&ensp;';
 $string['editvalues'] = 'Editar valores';
-$string['elementtitle'] = 'Identificador de elemento';
-$string['elementtitle_help'] = 'Este identificador sirve para identificar de forma única este elemento de contenido. No es mostrado para los usuarios usuales.';
+$string['enabletype'] = 'Habilitar subtipos';
 $string['errorclassloading'] = 'Error al cargar : Clase nula';
 $string['errorfailedloading'] = 'Falló al cargar la clase para la etiqueta personalizada {$a}. Revirtiendo a etiqueta personalizada de "texto".';
 $string['errorinsertvalue'] = 'No pudo insertarse un valor nuevo';
-$string['errorreservedname'] = '"TYPE" es un nombre reservado y no se puede usar como código.';
 $string['errorupdatevalue'] = 'No pudo actualizarse un valor nuevo';
 $string['exclude'] = 'Excluir';
 $string['exportdata'] = 'Exportar datos a XML';
@@ -107,8 +96,7 @@ $string['familypedagogic'] = 'elementos Pedagógicos';
 $string['familyspecial'] = 'Elementos Especiales';
 $string['familystructure'] = 'Elementos Estructurales';
 $string['filter'] = 'Filtro';
-$string['flatcoloredstyle'] = 'Mosaicos planos y coloreados';
-$string['flatstyle'] = 'Estilo plano';
+$string['hiddenrolesfor'] = 'Roles que NO PUEDEN USAR';
 $string['hideshow'] = 'Ocultar/Mostrar';
 $string['include'] = 'Incluir';
 $string['labelclass'] = 'Tipo de etiqueta';
@@ -116,7 +104,6 @@ $string['labelclasses'] = 'Clases de elementos';
 $string['labelupdater'] = 'Herramienta de regeneración {$a}';
 $string['languages'] = 'Idioma';
 $string['lockedsample'] = 'Ejemplo de campo bloqueado';
-$string['lpclassificationhdr'] = 'Cursos clasificados';
 $string['managecustomlabeltypeplugins'] = 'Gestionar plugins customlabel (etiqueta_personalizada)';
 $string['metadata'] = 'Valores de metadatos';
 $string['metadataset'] = 'Valores de clasificación';
@@ -127,30 +114,19 @@ $string['modulename_help'] = 'Los elementos de curso le proporcionan a Usted mó
 $string['modulenameplural'] = 'Elementos de curso';
 $string['name'] = 'Etiqueta';
 $string['noclassifiers'] = 'Sin clasificador';
-$string['noclassifiersdefined'] = 'La clasificación no tiene clasificador definido. Comprobar configuraciones globales.';
 $string['nocontentforthislanguage'] = 'No hay contenido disponible para este idioma <br/>';
 $string['none'] = 'Indefinido';
 $string['notypes'] = 'Sin tipo clasificador';
 $string['novalues'] = 'Sin valor registrado';
 $string['pluginadministration'] = 'Administración de elemento de curso';
-$string['plugindefault'] = 'Piel predeterminada de Customlabel';
 $string['pluginname'] = 'Elemento de curso';
-$string['privacy:metadata:customlabel_user_data'] = 'Tabla donde son almacenadas las condiciones iniciales de finalización dle usuario';
-$string['privacy:metadata:customlabel_user_data:completion1'] = 'Valor de finalización para regla 1 (dependiendo de uso de etiqueta de finalización)';
-$string['privacy:metadata:customlabel_user_data:completion2'] = 'Valor de finalización para regla 2 (dependiendo de uso de etiqueta de finalización)';
-$string['privacy:metadata:customlabel_user_data:completion3'] = 'Valor de finalización para regla 3 (dependiendo de uso de etiqueta de finalización)';
-$string['privacy:metadata:customlabel_user_data:customlabelid'] = 'ID de las finalizaciones de grabaciones de instancias de Customlabel';
-$string['privacy:metadata:customlabel_user_data:userid'] = 'ID del usuario para quien las finalizaciones son almacenadas';
 $string['qualifiers'] = 'Calificadores';
 $string['regenerate'] = 'Regenerar';
 $string['regeneration'] = 'Regeneración en masa de contenido';
-$string['resetall'] = 'Reiniciar todo';
-$string['resetlabeltypes'] = 'Reiniciar tipos de etiqueta';
 $string['resourcetypecustomlabel'] = 'Elemento de curso';
 $string['roleaccesstoelements'] = 'Acceso por rol';
 $string['sametypes'] = 'Usted no puede limitar dos veces al mismo tipo';
-$string['save'] = 'Guardar configuraciones';
-$string['settings'] = 'Configuraciones de Customlabels';
+$string['settings'] = 'Configuraciones';
 $string['show'] = 'Mostrar&ensp;';
 $string['specifics'] = 'Específico del tipo';
 $string['storage'] = 'Modelo de almacenamiento';
@@ -171,10 +147,5 @@ $string['updateall'] = 'Actualizar todas las instancias';
 $string['updatelabels'] = 'Regenerar instancias de {$a}';
 $string['updatescope'] = 'Actualizando el alcance';
 $string['usedas'] = 'Usar como&ensp;';
-$string['userstatesreset'] = 'Los estados del usuario han sido reiniciados';
 $string['usesafestorage'] = 'Usar almacenamiento seguro para contenido (base64)';
 $string['value'] = 'Valor';
-$string['withcompletions'] = 'Reiniciar finalizaciones de etiquetas';
-$string['wsattributekey'] = '<span class="lighttext">Clave de atributo a usar en  WS : {$a}</span>';
-$string['wsfieldkey'] = 'Clave de atributo para servicios webs: {$a}';
-$string['wsurl'] = 'Servicios web: <br/><span class="customlabel-form-static-content">usan tipo {$a} en llamada de webservice customlabel_add_instance().<br/>Vea la documentación de WS moodle API en la administración del plugin.</span>';

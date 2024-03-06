@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_staticpage', language 'es_mx', version '4.2'.
+ * Strings for component 'local_staticpage', language 'es_mx', version '3.10'.
  *
  * @package     local_staticpage
  * @category    string
@@ -45,6 +45,8 @@ $string['cleanhtmlno'] = 'No, no limpiar código HTML.';
 $string['cleanhtmlyes'] = 'Si, limpiar código HTML';
 $string['documentheadingsource'] = 'Orígen de datos del encabezado del documento';
 $string['documentheadingsource_desc'] = 'El orígen de los datos del encabezado de la página estática del documento';
+$string['documentnavbarsource'] = 'Origen de los datos del ítem del título de la ruta de navegación';
+$string['documentnavbarsource_desc'] = 'El origen de los datos del ítem del título de la ruta de navegación de la página estática (usada en la Barra de Navegación de Moodle)';
 $string['documents'] = 'Documentos';
 $string['documents_desc'] = 'Los archivos .html con el código HTML de las páginas estáticas. Vea README para los detalles.';
 $string['documenttitlesource'] = 'Orígen de los datos del título del documento';
@@ -75,5 +77,4 @@ $string['settingspagelistentrystandardfail'] = 'La página estática debería de
 $string['settingspagelistentrystandardsuccess'] = 'La página estática está disponible y puede ser enlazada a la siguiente URL estándar:<br /><strong>{$a}</strong>';
 $string['settingspagelistinstruction'] = 'Esta lista muestra todas las páginas estáticas que han sido subidas al <a href="{$a}">área de documento de páginas estáticas</a> y sus URLs';
 $string['settingspagelistnofiles'] = 'No hay archivos .html files en el <a href="{$a}">área de documento de páginas estáticas</a>, por lo que no hay páginas estáticas para ser proporcionadas. Vea el archivo README para los detalles.';
-$string['staticpage:managedocuments'] = 'Gestionar documentos de página estática';
 $string['upgrade_notice_2016020307'] = '<strong>AVISO DE ACTUALIZACIÓN:</strong> Los archivos de documentos de páginas estáticas fueron movidos a la nueva área-de-archivo dentro de Moodle. Usted puede eliminar el antiguo directorio de documentos {$a} ahorita. Para más instrucciones sobre actualización, especialmente si Usted ha estado usando las características de multi-idioma de este plugin, vea el archivo README.';

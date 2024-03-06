@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_completion_progress', language 'es_mx', version '4.2'.
+ * Strings for component 'block_completion_progress', language 'es_mx', version '3.10'.
  *
  * @package     block_completion_progress
  * @category    string
@@ -68,7 +68,6 @@ $string['how_ordering_works'] = 'Como funciona ordenamiento';
 $string['how_ordering_works_help'] = '<p>Hay dos maneras de ordenar actividades en el bloque de Progreso de Finalización.</p><ul><li><em>Fecha-hora usando la fecha de "Finalización esperada en" </em> (por defecto)<br />Las fechas esperadas de finalización de actividades/recursos son usadas para ordenar la barra. En donde las actividades/recursos no tengan una fecha de finalización esperada, en su lugar se usará el orden en el curso. Cuando se usa esta opción, las fechas de finalización esperadas son ignoradas. Cuando se usa esta opción, no se muestra el indicador AHORITA.</li></ul>';
 $string['how_selectactivities_works'] = 'Como funciona incluyendo actividades';
 $string['how_selectactivities_works_help'] = '<p>Para seleccionar manualmente actividades a ser incluidas en la barra, asegúrese de que  "Actividades incluidas" esté configurado a "actividades seleccionadas".</p><p>Solamente pueden ser incluidas actividades con finalización de actividad configurada.</p><p>Mantenga presionada la tecla CTRL para seleccionar varias actividades.</p>';
-$string['indeterminate'] = '?';
 $string['lastonline'] = 'Último en el curso';
 $string['mouse_over_prompt'] = 'Pasar ratón encima o tocar barra para información.';
 $string['no_activities_config_message'] = 'No hay actividades ni recursos con finalización de actividad configurada, o no se han seleccionado actividades ni recursos. Configure la finalización de la actividad para las actividades y recursos y después configure este bloque.';

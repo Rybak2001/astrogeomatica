@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mcae', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_mcae', language 'es_mx', version '3.10'.
  *
  * @package     auth_mcae
  * @category    string
@@ -38,7 +38,6 @@ $string['auth_donttouchusers_help'] = 'Nombres_de_usuarios separados por comas.'
 $string['auth_emptycohort'] = 'Vaciar cohorte';
 $string['auth_enableunenrol'] = 'Habilitar / Deshabilitar des-incripción automática';
 $string['auth_fieldlocks_help'] = '';
-$string['auth_link'] = 'Enlace';
 $string['auth_mainrule_fld'] = 'Plantilla principal. 1 plantilla por línea.';
 $string['auth_mcaedescription'] = 'Este método proporciona una manera de inscribir automáticamente usuarios dentro decohorte.';
 $string['auth_profile_help'] = 'Machotes disponibles';

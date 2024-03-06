@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tracker', language 'es_mx', version '4.2'.
+ * Strings for component 'tracker', language 'es_mx', version '3.10'.
  *
  * @package     tracker
  * @category    string
@@ -83,6 +83,7 @@ $string['emptydefinition'] = 'El rastreador de destino no tiene definición.';
 $string['enablecomments'] = 'Permitir comentarios';
 $string['enablecomments_help'] = 'Cuando se habilita esta opción, los lectores de registros de asuntos pueden añadir comentarios en el rastreador.';
 $string['erroralreadyinuse'] = 'Elemento ya está en uso';
+$string['errorannotdeletequeryid'] = 'Cannot delete query id: {$a}';
 $string['errorcannotaddelementtouse'] = 'No puede añadirse elemento a lista de elementos a usar para este rastreador';
 $string['errorcannotcreateelementoption'] = 'No puede crearse opción de elemento';
 $string['errorcannotdeletecc'] = 'No puede eliminarse copia al carbón';

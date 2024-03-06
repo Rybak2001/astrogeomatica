@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_profile', language 'es_mx', version '4.2'.
+ * Strings for component 'availability_profile', language 'es_mx', version '3.10'.
  *
  * @package     availability_profile
  * @category    string
@@ -31,7 +31,7 @@ $string['error_selectfield'] = 'Usted debe seleccionar un campo del perfil.';
 $string['error_setvalue'] = 'Usted debe escribir un valor';
 $string['label_operator'] = 'Método de comparación';
 $string['label_value'] = 'Valor a comparar en contra de';
-$string['missing'] = '(Campo faltante: {$a})';
+$string['missing'] = '(Campo personalizado faltante: {$a})';
 $string['op_contains'] = 'contiene';
 $string['op_doesnotcontain'] = 'no contiene';
 $string['op_endswith'] = 'termina en';

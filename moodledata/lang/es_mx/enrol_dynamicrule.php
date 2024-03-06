@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_dynamicrule', language 'es_mx', version '4.2'.
+ * Strings for component 'enrol_dynamicrule', language 'es_mx', version '3.10'.
  *
  * @package     enrol_dynamicrule
  * @category    string
@@ -44,5 +44,8 @@ $string['outcomecourseenroldescription'] = 'Inscribir en curso \'{$a->coursename
 Rol: {$a->role}<br />
 Grupo: {$a->groupname}';
 $string['outcomecourseunenrol'] = 'Des-inscribir usuarios de un curso';
+$string['outcomecourseunenroldescription'] = 'Des-inscribir del curso  \'{$a->coursename}\'<br />
+Acción: \'{$a->action}\'';
 $string['pluginname'] = 'Reglas dinámicas';
 $string['privacy:metadata'] = 'El plugin de reglas dinámicas no almacena ningún dato personal acerca de ningún usuario.';
+$string['selectcourse'] = 'Seleccionar curso';

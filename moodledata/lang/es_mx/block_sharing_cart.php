@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_sharing_cart', language 'es_mx', version '4.2'.
+ * Strings for component 'block_sharing_cart', language 'es_mx', version '3.10'.
  *
  * @package     block_sharing_cart
  * @category    string
@@ -49,7 +49,6 @@ $string['copy_section_title'] = 'Copiar sección seleccionada';
 $string['copyhere'] = 'Copiar aquí';
 $string['define_required_capabilities'] = 'Por favor defina las capacidades requeridas';
 $string['delete_folder'] = 'y todo su contenido';
-$string['drop_here'] = 'Soltar aquí...';
 $string['folder_string'] = 'Carpeta:';
 $string['forbidden'] = 'Usted no tiene permisos para acceder a este ítem compartido';
 $string['inprogess_pleasewait'] = 'Espere por favor...';
@@ -84,15 +83,6 @@ $string['requirejs'] = 'El carrito para compartir requiere JavaScript habilitado
 $string['restore'] = 'Copiar al curso';
 $string['restore_heavy_load_warning_message'] = 'El tiempo de carga es más tardado, porque están siendo procesados más de 10 actividades/recursos.';
 $string['section_name_conflict'] = 'Conflicto en sección';
-$string['settings:add_to_sharing_cart'] = 'Añadir al carrito para compartir';
-$string['settings:add_to_sharing_cart_desc'] = 'Elegir entre arrastrar y soltar o clic para método añadir para añadir módulos y secciones al carrito para compartir. -
-El método de \'Clic para añadir\' es el estándar en el carrito para compartir, donde usted necesita hacer clic en el ícono de la canasta, antes de ser añadido al carrito  para compartir. -
-El método de \'Arrastrar y soltar\' le permite a usted arrastrar y soltar módulos/actividades y secciones adentro del bloque del carrito para compartir o adentro del ícono de la canasta en el pie de página.
-Por favor tenga en cuenta que esto solamente está soportado para Moodle 4.0+';
-$string['settings:click_to_add'] = 'Clic para añadir';
-$string['settings:drag_and_drop'] = 'Arrastrar y soltar';
-$string['settings:show_copy_section_in_block'] = 'Mostrar el "Copiar sección" en bloque';
-$string['settings:show_copy_section_in_block_desc'] = 'Mostrar a "Sección copiar" en el bloque del carrito para compartir, debajo de todos los módulos/actividades';
 $string['settings:userdata_copyable_modtypes'] = 'Tipos de módulos copiables con datos de usuarios';
 $string['settings:userdata_copyable_modtypes_desc'] = 'Al copiar una actividad al Carrito para Compartir, un diálogo muestra una opción para decidir si es que una copia de una actividad incluye o no sus datos del usuario, si este tipo de módulo es seleccionado en el caso de arriba y un operador tiene las capacidades <strong>moodle/backup:userinfo</strong>,
 <strong>moodle/backup:anonymise</strong> y <strong>moodle/restore:userinfo</strong>.
@@ -101,20 +91,21 @@ $string['settings:workaround_qtypes'] = 'Parche para tipos de preguntas';
 $string['settings:workaround_qtypes_desc'] = 'El parche para el problema de la restauración de pregunta será realizado si se selecciona su tipo de pregunta. Sin embargo, cuando la pregunta a restaurarse ya existe, estos datos se verán como inconsistentes; este parche tratará de hacer otros duplicados en lugar de re-utilizar los datos existentes. Podría ser útil para evitar algunos errores en la restauración, tales como <i>error_question_match_sub_missing_in_db</i>.';
 $string['sharing_cart'] = 'Carrito para Compartir';
 $string['sharing_cart:addinstance'] = 'Añadir un nuevo bloque de carrito para compartir';
-$string['sharing_cart_help'] = '<div>
-    <strong>Copiar desde el curso hacia el Carrito para Compartir</strong>
-        <p>Usted notará un pequeño ícono de "Copiar al Carrito para Compartir" que aparece después de cada recurso o actividad en un curso.
+$string['sharing_cart_help'] = '<h2 class="helpheading">Operación</h2>
+<dl style="margin-left:0.5em;">
+<dt>Copiar desde el curso hacia el Carrito para Compartir</dt>
+<dd>Usted notará un pequeño ícono de "Copiar al Carrito para Compartir" que aparece después de cada recurso o actividad en un curso.
 Haga clic en ese ícono para mandar una copia de ese recurso/actividad al Carrito para Compartir.
-Solamente la actividad misma, sin datos del usuario, será clonada..</p>
-    <strong>Copiar desde el Carrito para Compartir al curso</strong>
-        <p>Haga clic en un ícono para "Copiar al curso" en el Carrito para Compartir y seleccione uno de los marcadores para destino en cada sección.
-O haga clic en el ícono para "Cancelar" que está arriba de éstos.</p>
-    <strong>Hacer carpetas adentro del Carrito para Compartir</strong>
-        <p>Haga clic en un ícono para "Mover hacia adentro de una carpeta" en un ítem del Carrito para Compartir.
+Solamente la actividad misma, sin datos del usuario, será clonada.</dd>
+<dt>Copiar desde el Carrito para Compartir al curso</dt>
+<dd>Haga clic en un ícono para "Copiar al curso" en el Carrito para Compartir y seleccione uno de los marcadores para destino en cada sección.
+O haga clic en el ícono para "Cancelar" que está arriba de éstos.</dd>
+<dt>Hacer carpetas adentro del Carrito para Compartir</dt>
+<dd>Haga clic en un ícono para "Mover hacia adentro de una carpeta" en un ítem del Carrito para Compartir.
 Aparecerá una caja para escritura para el nuevo nombre de la carpeta en caso de que no hubiera carpeta.
 O Usted puede seleccionar una carpeta existente en la lista desplegable.
-La cual será remplazada con una caja para ingresar texto si Usted hace clic en el ícono para "Editar".</p>
-</div>';
+La cual será remplazada con una caja para ingresar texto si Usted hace clic en el ícono para "Editar".</dd>
+</dl>';
 $string['unexpectederror'] = 'Ocurrió un error inesperado';
 $string['uninstalled_plugin_warning_title'] = 'Este plugin está des-instalado. El intentar recuperar esto sin re-instalar el plugin: {$a} causará errores. La restauración está deshabilitada';
 $string['variouscourse'] = 'de varios cursos';

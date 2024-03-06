@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_relativedate', language 'es_mx', version '4.2'.
+ * Strings for component 'availability_relativedate', language 'es_mx', version '3.10'.
  *
  * @package     availability_relativedate
  * @category    string
@@ -27,22 +27,16 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['after'] = 'después de';
 $string['before'] = 'antes de';
-$string['datecompletion'] = 'después de finalizar la actividad';
 $string['dateend'] = 'fecha de término del curso anterior';
-$string['dateendafter'] = 'después de la fecha de fin del curso';
 $string['dateendenrol'] = 'fecha de fin después de método de inscripción';
 $string['dateenrol'] = 'fecha de inscripción del curso posterior';
 $string['datestart'] = 'fecha de inicio del curso posterior';
-$string['datestartbefore'] = 'antes de la fecha de inicio del curso';
 $string['day'] = 'día';
 $string['days'] = 'días';
 $string['description'] = 'Impedir el acceso hasta que se alcance una fecha relativa antes de/después de un curso o una fecha del usuario.';
 $string['from'] = 'Desde {$a->rnumber} {$a->rtime} {$a->rela}';
 $string['hour'] = 'hora';
 $string['hours'] = 'horas';
-$string['minute'] = 'minuto';
-$string['minutes'] = 'minutos';
-$string['missing'] = '(faltante)';
 $string['month'] = 'mes';
 $string['months'] = 'meses';
 $string['noenddate'] = 'Este curso no tiene fecha de terminación';

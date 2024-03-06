@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_theorema', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabeltype_theorema', language 'es_mx', version '3.10'.
  *
  * @package     customlabeltype_theorema
  * @category    string
@@ -37,16 +37,12 @@ $string['corollary6'] = 'Corolario 7';
 $string['corollary7'] = 'Corolario 8';
 $string['corollary8'] = 'Corolario 9';
 $string['corollarynum'] = 'Número de corolarios';
-$string['demoinitiallyvisible'] = 'Demostración inicialmente visible';
+$string['definition'] = 'Texto del teorema';
 $string['demonstration'] = 'Demostración';
 $string['family'] = 'pedagógico';
-$string['notavailableyet'] = 'Aun no disponible';
 $string['pluginname'] = 'Elemento de Curso : Teorema';
 $string['showdemonstration'] = 'Mostrar demostración';
-$string['showdemonstrationon'] = 'Mostrar demostración en';
 $string['theorema'] = 'Texto del teorema';
 $string['theorema:addinstance'] = 'Puede añadir una instancia';
 $string['theorema:view'] = 'Puede ver el contenido';
-$string['theoremaname'] = 'Nombre de teorema';
 $string['typename'] = 'teorema';
-$string['willopenon'] = 'Abrirá en';

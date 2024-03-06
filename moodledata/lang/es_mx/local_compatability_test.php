@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_compatability_test', language 'es_mx', version '4.2'.
+ * Strings for component 'local_compatability_test', language 'es_mx', version '3.10'.
  *
  * @package     local_compatability_test
  * @category    string
@@ -29,7 +29,6 @@ $string['admin_feedback'] = 'Administración de la Retroalimentación';
 $string['admin_feedback_def'] = 'Escriba aquí su retroalimentación';
 $string['admin_feedback_desc'] = 'Añade retroalimentación para el usuario en la página view.php cuando falle la prueba de compatibilidad.';
 $string['banner_failure'] = 'Su navegador o sus plugins no están actualizados';
-$string['banner_link'] = 'Hacer clic aquí para más información';
 $string['browser_section'] = 'Configuraciones del Navegador';
 $string['compatability_test:forceredirect'] = 'Forzar ver página de estatus';
 $string['enable_browser_check'] = 'Habilitar Revisión del Navegador';

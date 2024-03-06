@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'offlinequiz', language 'es_mx', version '4.2'.
+ * Strings for component 'offlinequiz', language 'es_mx', version '3.10'.
  *
  * @package     offlinequiz
  * @category    string
@@ -29,7 +29,7 @@ $string['add'] = 'Añadir';
 $string['addarandomquestion'] = 'preguntas aleatoriamente';
 $string['addarandomquestion_help'] = 'Moodle añade una selección aleatoria de preguntas de opción múltiple (o preguntas de opción múltiple todo-o-nada) al grupo del examen fuera-de-línea actual. El número de preguntas añadidas puede configurarse. Las preguntas son elegidas de la categoría de preguntas actual (y, si estuviera seleccionada, de la sub-categoría).';
 $string['addarandomselectedquestion'] = 'Añadir una pregunta seleccionada aleatoriamente...';
-$string['addlist'] = 'Añadir lista de asistencia';
+$string['addlist'] = 'Añadir lista';
 $string['addnewpagesafterselected'] = 'Añadir saltos de página después de las preguntas seleccionadas';
 $string['addnewquestion'] = 'una pregunta nueva';
 $string['addnewquestionsqbank'] = 'Añadir preguntas a la categoría {$a->catname}: {$a->link}';
@@ -62,10 +62,7 @@ $string['attemptexists'] = 'Existen intentos';
 $string['attemptsexist'] = 'Usted ya no puede añadir o quitar preguntas';
 $string['attemptsnum'] = 'Resultados: {$a}';
 $string['attemptsonly'] = 'Mostrar solamente estudiantes con resultados';
-$string['attendanceoverview'] = 'Asistencias';
 $string['attendances'] = 'Asistencias';
-$string['attendancesheadline'] = 'Asistencias';
-$string['backtopreview'] = 'Mostrar previsualización';
 $string['basicideasofofflinequiz'] = 'Las ideas básicas de hacer preguntas fuera-de-línea';
 $string['blackwhitethreshold'] = 'Umbral negro/blanco.';
 $string['bulksavegrades'] = 'Guardar Calificaciones';
@@ -81,9 +78,6 @@ $string['closebeforeopen'] = 'No pudo actualizarse el examen fuera-de-línea. Us
 $string['closestudentview'] = 'Cerrar Vista de Estudiante';
 $string['closewindow'] = 'Cerrar Ventana';
 $string['cmmissing'] = 'Falta el módulo del curso para el examen fuera-de-línea con ID {$a}';
-$string['completiondetail:passgrade'] = 'Recibir una calificación aprobatoria';
-$string['completionpass'] = 'Pasar para completar';
-$string['completionpass_help'] = 'Los estudiantes solamente completan este offlinequiz si alcanzan una calificación mayor o igual a la calificación aprobatoria configurada bajo las opciones de calificación.';
 $string['configblackwhitethreshold'] = 'Configurar el umbral para la conversión blanco/negro entre 1 y 99 - Mientras más alto, tiene que haber más pixeles blancos importados  para que sea reconocido como blanco. Cualquier otro valor causará que no se haga ninguna conversión negro/blanco en lo absoluto.';
 $string['configdecimalplaces'] = 'Número de dígitos que deberían mostrarse después del punto decimal al mostrar calificaciones para el examen fuera-de-línea.';
 $string['configdisableimgnewlines'] = 'Esta opción deshabilita nuevas líneas antes y después de imágenes en las hojas PDF de preguntas. Advertencia: Esto podría causar problemas de formato.';
@@ -105,8 +99,6 @@ $string['copytogroup'] = 'Añadir todas las preguntas al grupo: {$a}';
 $string['correct'] = 'correcto';
 $string['correcterror'] = 'resolver';
 $string['correctforgroup'] = 'Respuestas correctas para el Grupo {$a}';
-$string['correctheader'] = 'Corrección necesaria:';
-$string['correctionerrors'] = 'Formatos con errores de corrección';
 $string['correctionform'] = 'Corrección';
 $string['correctionforms'] = 'Formatos para corrección';
 $string['correctionoptionsheading'] = 'Opciones de corrección';
@@ -121,8 +113,8 @@ $string['createpdf'] = 'Formato';
 $string['createpdferror'] = 'No pudo crearse el formato para el grupo {$a} . Posiblemente no haya preguntas en el grupo.';
 $string['createpdffirst'] = 'Crear primeramente lista PDF';
 $string['createpdfforms'] = 'Crear formatos';
-$string['createpdfs'] = 'Formatos';
-$string['createpdfsparticipants'] = 'Formatos';
+$string['createpdfs'] = 'Descargar formatos';
+$string['createpdfsparticipants'] = 'Formatos PDF para listas de participantes';
 $string['createquestionandadd'] = 'Crear una pregunta nueva y añadirla al examen.';
 $string['createquiz'] = 'Crear formatos';
 $string['csvfile'] = 'Archivo CSV';
@@ -133,8 +125,6 @@ $string['darkgray'] = 'Gris oscuro';
 $string['datanotsaved'] = 'No se pudieron guardar las configuraciones';
 $string['decimalplaces'] = 'Número de decimales';
 $string['decimalplaces_help'] = 'Número de dígitos que deberían mostrarse después del punto decimal al mostrar calificaciones para el examen fuera-de-línea.';
-$string['defaultparticipantsusage'] = 'Grabar asistencias';
-$string['defaultparticipantsusagedesc'] = 'Determina si las  asistencias deberían ser grabadas con listas de asistencia de forma  predeterminada.';
 $string['deletelistcheck'] = '¿Realmente desea eliminar la lista seleccionada y a todos sus participantes?';
 $string['deletepagecheck'] = '¿Realmente desea eliminar las páginas seleccionadas?';
 $string['deletepagesafterselected'] = 'Remover saltos de página después de las preguntas seleccionadas';
@@ -156,7 +146,7 @@ $string['displayoptions'] = 'Mostrar opciones';
 $string['done'] = 'hecho';
 $string['downloadallzip'] = 'Descargar todos los archivos como ZIP';
 $string['downloadpartpdf'] = 'Descargar archivo PDF para la lista \'{$a}\'';
-$string['downloadpdfs'] = 'Formatos';
+$string['downloadpdfs'] = 'Descargar documentos';
 $string['downloadresultsas'] = 'Descargar resultados como:';
 $string['dragtoafter'] = 'Después de {$a}';
 $string['dragtostart'] = 'Al inicio';
@@ -166,25 +156,22 @@ $string['editingofflinequiz'] = 'Editando preguntas del grupo';
 $string['editingofflinequiz_help'] = 'Al crear un examen fuera-de-línea, los conceptos principales son:
 <ul><li> El examen fuera-de-línea, que contiene preguntas en una o más páginas</li>
 <li> El banco de preguntas, que almacena copias de todas las preguntas organizadas dentro de categorías</li></ul>';
-$string['editingofflinequizx'] = 'Preguntas';
+$string['editingofflinequizx'] = 'Editar examen fuera-de-línea: {$a}';
 $string['editlist'] = 'Editar lista';
-$string['editlists'] = 'Listas de asistencia';
+$string['editlists'] = 'Editar listas';
 $string['editmaxmark'] = 'Editar puntuación máxima';
 $string['editofflinequiz'] = 'Editar examen fuera-de-línea';
 $string['editofflinesettings'] = 'Editar configuraciones fuera-de-línea';
 $string['editorder'] = 'Editar orden';
 $string['editparticipants'] = 'Editar participantes';
 $string['editquestion'] = 'Editar pregunta';
-$string['editquestionlistitem'] = '{$a}';
-$string['editquestions'] = 'Preguntas';
+$string['editquestions'] = 'Editar preguntas';
 $string['editscannedform'] = 'Editar formato escaneado';
 $string['editthislist'] = 'Editar esta lista';
 $string['emptygroups'] = 'Algunos grupos de exámenes fuera-de-línea están vacíos. Por favor, añada algunas preguntas.';
 $string['enroluser'] = 'Inscribir usuario';
 $string['erroraccessingreport'] = 'Usted no tiene permitido ver este reporte.';
 $string['errorreport'] = 'Reporte de errores de importación';
-$string['evaluated'] = 'Evaluado(s):';
-$string['evaluation'] = '2. Evaluación';
 $string['eventattemptdeleted'] = 'Intento de examen fuera-de-línea eliminado';
 $string['eventattemptpreviewstarted'] = 'Vista previa de intento de examen fuera-de-línea iniciada';
 $string['eventattemptreviewed'] = 'Intento de examen fuera-de-línea  revisado';
@@ -219,11 +206,10 @@ $string['formforcorrection'] = 'Formato para corrección del grupo {$a}';
 $string['formforgroup'] = 'Formato de preguntas para grupo {$a}';
 $string['formforgroupdocx'] = 'Formato de preguntas para grupo {$a} (DOCX)';
 $string['formforgrouplatex'] = 'Formato de pregunta para grupo {$a} (LATEX)';
-$string['forms'] = 'Formatos';
 $string['formsexist'] = 'Los formatos ya fueron creados.';
 $string['formsexistx'] = 'Formatos ya creados (<a href="{$a}">Descargar formatos</a>)';
 $string['formsheetsettings'] = 'Configuraciones del formato';
-$string['formspreview'] = 'Vista previa';
+$string['formspreview'] = 'Vista previa para formatos';
 $string['formwarning'] = 'No hay un formato de respuesta definido. Por favor, contacte a su administrador.';
 $string['fromquestionbank'] = 'del banco de preguntas';
 $string['functiondisabledbysecuremode'] = 'Esta fucionalidad actualmente está deshabilitada';
@@ -237,21 +223,22 @@ $string['gradeiszero'] = 'Nota: ¡ La calificación máxima para este examen es 
 $string['gradeswarning'] = '¡ Las calificaciones de preguntas deben de ser números !';
 $string['gradewarning'] = '¡ La calificaciones de pregunta debe de ser un número !';
 $string['gradingofflinequiz'] = 'Calificaciones';
-$string['gradingofflinequizx'] = 'Calificaciones';
+$string['gradingofflinequizx'] = 'Calificaciones: {$a}';
 $string['gradingoptionsheading'] = 'Opciones para calificar';
 $string['greeniscross'] = 'contada como una cruz';
 $string['group'] = 'Grupo';
 $string['groupoutofrange'] = 'El grupo estaba fuera del rango y se remplazó con grupo A.';
+$string['groupquestions'] = 'Preguntas del Grupo';
 $string['hasresult'] = 'Existe resultado';
 $string['hotspotdeletiontask'] = 'Eliminación de puntos calientes';
 $string['html'] = 'HTML';
-$string['idnumber'] = 'Número ID (# cuenta)';
+$string['idnumber'] = 'Número ID';
 $string['imagefile'] = 'Archivo de imagen';
 $string['imagenotfound'] = '¡Archivo de imagen: {$a} no encontrado!';
 $string['imagenotjpg'] = 'La imagen no es .JPG ni .PNG: {$a}';
 $string['imagickwarning'] = 'Falta imagemagick: Pídale a su administrador del sistema que instale la biblioteca de imagemagick y que revise la ruta hacia el binario del convertidor en sus configuraciones del filtro de notación TeX. ¡Usted no puede importar archivos TIF sin imagemagick!';
-$string['import'] = 'Evaluar';
-$string['importedon'] = 'Evaluado en';
+$string['import'] = 'Importar';
+$string['importedon'] = 'Importado en';
 $string['importerror11'] = 'Existen otros resultados';
 $string['importerror12'] = 'Usuario no registrado';
 $string['importerror13'] = 'Sin datos del grupo';
@@ -263,16 +250,15 @@ $string['importerror21'] = 'No pudo obtenerse';
 $string['importerror22'] = 'Marcas inseguras';
 $string['importerror23'] = 'Usuario no está en lista';
 $string['importerror24'] = 'Lista no detectada';
-$string['importforms'] = 'Subir formatos de respuesta';
-$string['importfromto'] = 'Evaluando de {$a->from} a {$a->to} de {$a->total}.';
-$string['importisfinished'] = 'La evaluación del examen fuera-de-línea {$a} está terminada.';
+$string['importforms'] = 'Importar formatos de respuesta';
+$string['importfromto'] = 'Importando de {$a->from} a {$a->to} de {$a->total}.';
+$string['importisfinished'] = 'La importación del examen fuera-de-línea {$a} está terminada.';
 $string['importlinkresults'] = 'Enlace hacia resultados: {$a}';
 $string['importlinkverify'] = 'Enlace hacia verificación: {$a}';
 $string['importmailsubject'] = 'Notificación de importación de examen fuera-de-línea';
-$string['importnew'] = 'Evaluar';
+$string['importnew'] = 'Importar';
 $string['importnew_help'] = '<p>
-Usted puede importar archivos únicos de imágenes escaneadas o varias imágenes escaneadas incluidas dentro de un archivo-ZIP. El módulo de exámenes fuera-de-línea procesará en segundo plano los archivos de imágenes.
-Los nombres de los archivos no son relevantes  pero no deben de contener caracteres especiales como eñe ni vocales acentuadas. Las imágenes deben de ser GIFs, PNGs o TIFs. Se recomienda una resolución de entre 200 y 300 puntos por pulgada (dpi).</p>';
+Usted puede importar archivos únicos de imágenes escaneadas o varias imágenes escaneadas incluidas dentro de un archivo-ZIP. El módulo de exámenes fuera-de-línea procesará en segundo plano los archivos de imágenes. Los nombres de los archivos no son relevantes  pero no deben de contener caracteres especiales como eñe ni vocales acentuadas. Las imágenes deben de ser GIFs, PNGs o TIFs. Se recomienda una resolución de entre 200 y 300 puntos por pulgada (dpi).</p>';
 $string['importnumberexisting'] = 'Número de formatos dobles: {$a}';
 $string['importnumberpages'] = 'Número de páginas importadas exitosamente: {$a}';
 $string['importnumberresults'] = 'Número de importadas : {$a}';
@@ -285,7 +271,7 @@ $string['infoshort'] = 'i';
 $string['insecuremarkings'] = 'Las marcas inseguras necesitan corrección manual';
 $string['insecuremarkingsforquestion'] = 'Las marcas inseguras necesitan corrección manual para preguntas';
 $string['insertnumber'] = 'Por favor, inserte el número de identificación correcto enmarcado por el marco azul.';
-$string['instruction1'] = 'El formato de respuesta será escaneado automáticamente. Por favor, no lo doble ni lo arrugue. Use una pluma negra o azul para marcar los campos de esta forma:';
+$string['instruction1'] = 'El formato de respuesta será escaneado automáticamente. Por favor, no lo doble ni lo arrugue. Use una pluma negra o azul para marcar los campos.';
 $string['instruction2'] = '¡Solamente las anotaciones de respuestas claras pueden interpretarse correctamente! Si Usted quiere corregir una anotación, llene completamente la casilla con color y ese campo será entonces interpretado como una caja vacía:';
 $string['instruction3'] = 'Las cajas corregidas no pueden volverse a marcar. Por favor, no escriba nada afuera de las cajas.';
 $string['introduction'] = 'Introducción';
@@ -297,11 +283,6 @@ $string['ischecked'] = 'La participación está verificada';
 $string['isnotchecked'] = 'La participación no está verificada';
 $string['itemdata'] = 'Itemdata';
 $string['keepfilesfordays'] = 'Conservar archivos por días';
-$string['legend'] = 'Leyenda';
-$string['legenddone'] = 'Paso realizado exitosamente (no se requiere más acciones).';
-$string['legendnextitem'] = 'Acción requerida en el flujograma futuro (posible dependencia en pasos anteriors).';
-$string['legendnoaction'] = 'No se requieren acciones.';
-$string['legendwarning'] = 'Acción inmediata requerida.';
 $string['letter'] = 'Carta';
 $string['lightgray'] = 'Gris claro';
 $string['linktoscannedform'] = 'Ver formato escaneado';
@@ -328,7 +309,7 @@ $string['modulename'] = 'Examen Fuera-de-línea';
 $string['modulename_help'] = 'Este módulo le permite al profesor diseñar exámenes fuera-de-línea, que constan de varias preguntas de opción múltiple.
 Estas preguntas están mantenidas adentro del banco de preguntas de Moodle y pueden ser re-utilizadas en cursos e inclusive compartirse entre cursos.
 Los exámenes fuera-de-línea pueden ser descargados como archivos PDF, DOCX o LaTeX.
-El estudiante marca sus respuestas en hojas de formato. Las hojas con el formato son escaneadas y las respuestas son importadas al sistema.';
+El estudiante marca sus respuestas en hojas de repuesta. Las hojas con el formato son escaneadas y las respuestas son importadas al sistema.';
 $string['modulenameplural'] = 'Exámenes Fuera-de-línea';
 $string['moodleprocessing'] = 'Permitir que Moodle procese los datos';
 $string['movecorners'] = 'Cambie primeramente las posiciones de las marcas de esquina. Use arrastrar y soltar.';
@@ -361,7 +342,6 @@ $string['noreview'] = 'Usted no tiene permitido revisar este examen fuera-de-lí
 $string['noscannedpage'] = '¡No hay página escaneada con ID {$a}!';
 $string['notagselected'] = 'Sin marcas seleccionadas';
 $string['nothingtodo'] = '¡Nada para hacer!';
-$string['notonattendancelist'] = 'No en lista de asistencia:';
 $string['notxtfile'] = 'No hay archivo TXT';
 $string['notyetgraded'] = 'Todavía sin calificar';
 $string['nozipfile'] = 'No hay archivo ZIP';
@@ -387,7 +367,6 @@ $string['offlinequiz:view'] = 'Ver información sobre Exámenes fuera-de-línea'
 $string['offlinequiz:viewreports'] = 'Ver reportes de Exámenes fuera-de-línea';
 $string['offlinequizcloses'] = 'El examen fuera-de-línea se cierra en';
 $string['offlinequizcloseson'] = 'La revisión para este examen fuera-de-línea se cierra en {$a}';
-$string['offlinequizcontent'] = 'Contenido del   examen fuera-de-línea';
 $string['offlinequizisclosed'] = 'Examen fuera-de-línea cerrado';
 $string['offlinequizisclosedwillopen'] = 'Examen fuera-de-línea cerrado (se abre en {$a})';
 $string['offlinequizisopen'] = 'Este examen fuera-de-línea está abierto';
@@ -396,10 +375,10 @@ $string['offlinequizopenedon'] = 'Este examen fuera-de-línea se abrió en {$a}'
 $string['offlinequizopens'] = 'Examen fuera-de-línea se abre';
 $string['offlinequizsettings'] = 'Configuraciones de Examen fuera-de-línea';
 $string['offlinequizwillopen'] = 'El examen fuera-de-línea se abre a {$a}';
-$string['oneclickenrol'] = 'Inscripción de 1-Clic';
-$string['oneclickenroldesc'] = 'Si se activa esta opción, los profesores tienen la posibilidad de inscribir usuarios con un clic al corregir los formatos de respuesta (error de "Usuario no está en el curso").';
-$string['oneclickrole'] = 'Rol para Inscripción de 1-Clic';
-$string['oneclickroledesc'] = 'Elija el rol usado para la inscripción de 1-Clic. Solamente pueden seleccionarse roles que tengan el arquetipo "estudiante".';
+$string['oneclickenrol'] = 'Inscripción de 1-Click';
+$string['oneclickenroldesc'] = 'Si se activa esta opción, los profesores tienen la posibilidad de inscribir usuarios con un click al corregir los formatos de respuesta (error de "Usuario no está en el curso").';
+$string['oneclickrole'] = 'Rol para Inscripción de 1-Click';
+$string['oneclickroledesc'] = 'Elija el rol usado para la inscripción de 1-Click. Solamente pueden seleccionarse roles que tengan el arquetipo "estudiante".';
 $string['onlylocalcategories'] = 'Solamente categorías locales de preguntas';
 $string['orderandpaging'] = 'Orden y Paginación';
 $string['orderandpaging_help'] = 'Los números 10, 20, 30, ... opuestos a cada pregunta indican el orden de las preguntas. Los números aumentan en escalones de 10 en 10 para dejarle espacio para insertar preguntas adicionales. Para reordenar las preguntas, cambie  los números y después elija el botón para "Reordenar preguntas".
@@ -412,7 +391,7 @@ $string['otherresultexists'] = '¡Ya existen resultados diferentes para {$a}, im
 $string['outof'] = '{$a->grade} de un máximo de {$a->maxgrade}';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Retroalimentación global';
-$string['overview'] = 'Información del  examen';
+$string['overview'] = 'Vista general';
 $string['overviewdownload_help'] = 'Descargar Vista General';
 $string['page-mod-offlinequiz-edit'] = 'Editar página de examen fuera-de-línea';
 $string['page-mod-offlinequiz-x'] = 'Cualquier página de examen fuera-de-línea';
@@ -422,7 +401,6 @@ $string['pageimported'] = 'Hoja de lista de participantes importada';
 $string['pagenotdetected'] = '¡No pudo detectarse código de barras para la página!';
 $string['pagenumberimported'] = 'Hoja {$a} de lista de participantes importada';
 $string['pagenumberupdate'] = 'Actualización de número de página';
-$string['pagesinprocessing'] = 'En proceso:';
 $string['pagesizeparts'] = 'Participantes mostrados por página';
 $string['papergray'] = 'Valor de blancura del papel';
 $string['papergray_help'] = 'Si las partes blancas de sus formatos de respuestas escaneados están muy oscuras, Usted puede corregirlas al configurar este valor a gris oscuro.';
@@ -433,15 +411,12 @@ $string['participants'] = 'Participantes';
 $string['participants_help'] = '<p>Las listas de participantes están diseñadas para exámenes fuera-de-línea grandes, con muchos participantes. Las listas le ayudan al profesor para verificar cuales estudiantes participaron en el examen y ver si los resultados se importaron correctamente.
 Usted puede añadirle usuarios a listas diferentes. Cada lista podría, por ejemplo, tener a los participantes de un salón particular. Los participantes pueden ser miembros de un grupo especial. Puede usarse una herramienta para registro de grupo para crear estos grupos.
 Las listas de participantes pueden descargarse como documentos PDF, imprimirse y marcarse con cruces de la misma manera que los formatos de respuesta de los exámenes fuera-de-línea. Después, se pueden subir a Moodle y los estudiantes marcados serán marcados como presentes en la BasedeDatos. Por favor evite las manchas en los códigos de barras, ya que se usan para identificar a los estudiantes.</p>';
-$string['participantsinlists'] = 'Participantes';
+$string['participantsinlists'] = 'Participantes en listas';
 $string['participantslist'] = 'Lista de participantes';
 $string['participantslists'] = 'Participantes';
-$string['participantsusage'] = 'Grabar asistencia';
-$string['participantsusage_help'] = 'Esta opción determina si es que usted puede grabar  la  asistencia de participantes con listas de asistencia. Las listas de asistencia están diseñadas para grandes exámenes fuera-de-línea con muchos participantes. Pueden ser usadas para comprobar cuáles estudiantes participaron el el examen y si es que los resultados fueron evaluados correctamente.';
 $string['partimportnew'] = 'Subiendo lista de participantes';
 $string['partimportnew_help'] = '<p>
-En esta pestaña Usted puede subir las listas llenadas de participantes. Usted puede subir imágenes únicas escaneadas o varias imágenes escaneadas metidas dentro de un archivo ZIP.  El módulo de exámenes fuera-de-línea procesará en segundo plano los archivos de imágenes.
-Los nombres de los archivos no son relevantes  pero no deben de contener caracteres especiales como eñe ni vocales acentuadas. Las imágenes deben de ser GIFs, PNGs o TIFs. Se recomienda una resolución de entre 200 y 300 puntos por pulgada (dpi).</p>';
+En esta pestaña Usted puede subir la lista llenada de participantes. Usted puede subir imágenes únicas escaneadas o varias imágenes escaneadas metidas dentro de un archivo-ZIP.  El módulo de exámenes fuera-de-línea procesará en segundo plano los archivos de imágenes. Los nombres de los archivos no son relevantes  pero no deben de contener caracteres especiales como eñe ni vocales acentuadas. Las imágenes deben de ser GIFs, PNGs o TIFs. Se recomienda una resolución de entre 200 y 300 puntos por pulgada (dpi).</p>';
 $string['partuncheckedwithoutresult'] = '{$a} participantes no-verificados sin  resultados';
 $string['partuncheckedwithresult'] = '<a href="{$a->url}">{$a->count} participantes no-verificados con  resultados</a>';
 $string['pdfdeletedforgroup'] = 'Formato para grupo {$a} eliminado';
@@ -455,11 +430,10 @@ $string['pearlywhite'] = 'Blanco perlado';
 $string['pluginadministration'] = 'Administración del examen fuera-de-línea';
 $string['pluginname'] = 'Examen Fuera_de_línea';
 $string['point'] = 'punto';
-$string['preparation'] = '1. Preparación';
 $string['present'] = 'presente';
 $string['preventsamequestion'] = 'Impedir uso múltiple de la misma pregunta en diferentes grupos';
 $string['preview'] = 'Vista previa';
-$string['previewforgroup'] = 'Grupo {$a}';
+$string['previewforgroup'] = 'Vista previa para grupo {$a}';
 $string['previewquestion'] = 'Previsualizar pregunta';
 $string['printstudycodefield'] = 'Imprimir campo de código de estudio en hoja de respuestas';
 $string['printstudycodefield_help'] = 'Si se selecciona, el campo de código de estudio se imprimirá en la primera página de la hoja para respuestas.';
@@ -580,9 +554,8 @@ $string['privacy:metadata:offlinequiz_scanned_pages:status'] = 'El estado de est
 $string['privacy:metadata:offlinequiz_scanned_pages:time'] = 'La hora de cuando fue procesada la página.';
 $string['privacy:metadata:offlinequiz_scanned_pages:userkey'] = 'El userkey (no es el userid) del usuario tachado en la página.';
 $string['privacy:metadata:offlinequiz_scanned_pages:warningfilename'] = 'El nombre de archivo del archivo que es creado cuando es corregido un llenado equivocado en offlinequiz y al usuario se le proporciona una advertencia a ese respecto.';
-$string['questionanalysis'] = 'Análisis de pregunta';
-$string['questionanalysistitle'] = 'Tabla de Análisis de pregunta';
-$string['questionandansweranalysis'] = 'Análisis de preguntas y respuestas';
+$string['questionanalysis'] = 'Análisis de dificultad';
+$string['questionanalysistitle'] = 'Tabla de Análisis de Dificultad';
 $string['questionbankcontents'] = 'Contenidos del banco de preguntas';
 $string['questionforms'] = 'Formatos de preguntas';
 $string['questioninfoanswers'] = 'Número de respuestas correctas';
@@ -614,7 +587,7 @@ $string['questionsheetlatextemplate'] = '% !TEX encoding = UTF-8 Unicode
 \\usepackage{lastpage}
 \\usepackage{fancyhdr}
 \\pagestyle{fancy}
-\\chead{\\sc \\TestTitle, Group \\Group}
+\\chead{\\sc \\Title, Group \\Group}
 \\cfoot{Seite \\thepage/\\pageref{LastPage}}
 \\makeatletter %%% disable pagebreaks between answers
 \\@beginparpenalty=10000
@@ -629,8 +602,7 @@ $string['questionsheetlatextemplate'] = '% !TEX encoding = UTF-8 Unicode
 % ===========================================================================================================
 %%% Datos del curso:
 \\newcommand{\\Group}{{$a->groupname}}
-\\newcommand{\\Title}{{$a->activityname}}
-%%% Or use {{$a->coursename} as course name instead
+\\newcommand{\\Title}{{$a->coursename}}
 \\newcommand{\\Date}
 
 \\newcommand{\\TestTitle}{%
@@ -674,34 +646,24 @@ ID number: & $\\underline{\\hspace*{8cm}}$\\\\[5mm]
 
 \\end{document}';
 $string['questionsin'] = 'Preguntas en';
-$string['questionsingroup'] = 'Grupo';
+$string['questionsingroup'] = 'Preguntas en el grupo';
 $string['questionsinthisofflinequiz'] = 'Preguntas en este examen fuera-de-línea';
 $string['questiontextisempty'] = '[Texto de pregunta vacía]';
 $string['quizdate'] = 'Fecha del examen fuera-de-línea';
 $string['quizopenclose'] = 'Fechas de apertura y cierre';
-$string['quizopenclose_help'] = 'La revisión en línea puede estar restringida a un período de tiempo  específico. Haga clic en "Mostrar" para cambiar las configuraciones de fecha y hora.
-
-**Precaución** Si no está activado un período de tiempo para la revisión del examen fuera-de-línea, la revisión es sin restricciones en tanto que el examen fuera-de-línea sea visible para los  participantes.
-
-En todos los casos, solamente las  opciones activadas debajo de "Revisión incluye" son   mostradas.';
-$string['qversioncannotupdate'] = 'La versión de pregunta no  puede ser actualizada';
-$string['qversionnumbersdiffer'] = 'El número de respuestas difiere entre la versión antigua y la  nueva. Esto conduciría a inconsistencias.';
-$string['qversionupdated'] = 'Versión de pregunta actualizada';
-$string['qversionupdatedwarning'] = 'Los formatos ya fueron creados con otra versión de esta pregunta. Por favor revise si es que hubo algunos cambios.';
-$string['qversionupdateerror'] = 'Hubo un error al actualizar la versión de pregunta.';
+$string['quizopenclose_help'] = 'Los estudiantes solamente pueden ver su(s) intento(s) después de la fecha de apertura y antes de la fecha de cierre.';
+$string['quizquestions'] = 'Preguntas del Examen';
 $string['randomfromexistingcategory'] = 'Pregunta aleatoria de una categoría existente';
 $string['randomnumber'] = 'Número de preguntas aleatorias';
 $string['randomquestionusinganewcategory'] = 'Pregunta aleatoria usando una categoría nueva';
 $string['readjust'] = 'Reajustar';
 $string['reallydeletepdfs'] = '¿Realmente desea eliminar los archivos de formato?';
 $string['reallydeleteupdatepdf'] = '¿Realmente desea eliminar y atualizar la lista de participantes?';
-$string['recordupdateanddocscreated'] = 'Las preguntas fueron actualizadas, pero debido a que los formatos ya estaban creados, la  versión anterior de la  pregunta sigue activa. Para cambiar a la versión más nueva, por favor  elimine los formatos y cambie la versión manualmente.';
-$string['recordupdateanddocscreatedversion'] = 'Las preguntas fueron actualizadas, pero los formatos ya estaban creados. Por favor compruebe si los cambios no introdujeron cambios que afecten la calificación.';
 $string['recreatepdfs'] = 'Re-crear PDFs';
 $string['recurse'] = 'Incluir también preguntas de subcategorías';
 $string['rediswrong'] = 'cruz equivocada o falta cruz';
 $string['refreshpreview'] = 'Refrescar vista previa';
-$string['regrade'] = 'Recalificando';
+$string['regrade'] = 'Recalificar';
 $string['regradedisplayexplanation'] = '<b>Atención:</b> ¡Re-calificar no cambiará las puntuaciones que hayan sido sobrescritas manualmente!';
 $string['regradinginfo'] = 'Si Usted cambia el puntaje para una pregunta, Usted debe re-calificar el offlinequiz para actualizar los resultados de los participantes.';
 $string['regradingquiz'] = 'Recalificando';
@@ -723,9 +685,8 @@ $string['reportoverview'] = 'Vista general';
 $string['reportstarts'] = 'Revisión de resultados inicia';
 $string['resetofflinequizzes'] = 'Reiniciar datos de Examen Fuera-de-línea';
 $string['resultexists'] = 'Ya existen los mismos resultados para {$a} , importación ignorada';
-$string['resultimport'] = 'Subir';
+$string['resultimport'] = 'Importar resultados';
 $string['results'] = 'Resultados';
-$string['resultsavailable'] = 'Cantidad de resultados disponibles:';
 $string['review'] = 'Revisión';
 $string['reviewbefore'] = 'Permitir revisión mientras el examen fuera-de-línea esté abierto';
 $string['reviewclosed'] = 'Después de que cierre el examen fuera-de-líinea';
@@ -736,27 +697,39 @@ $string['reviewofresult'] = 'Revisión del resultado';
 $string['reviewopens'] = 'Se abre para revisión';
 $string['reviewoptions'] = 'Los estudiantes pueden ver';
 $string['reviewoptions_help'] = 'Con estas opciones Usted puede controlar lo que los estudiantes pueden ver después de que los resultados fueron importados.
-Usted también puede definir las horas de inicio y fin para el reporte de resultados.
-
-Las casillas de selección significan:
-
-**El intento** - El texto de las preguntas y respuestas será mostrado a los estudiantes. Ellos verán cuales respuestas eligieron, pero no serán indicadas las respuestas correctas.
-
-**Si es que es correcta** - Esta opción solamente puede ser activada si la opción "El intento" está activada. Si está activada, los estudiantes pueden ver cuales de las respuestas elegidas son correctas (fondo verde) o incorrectas (fondo rojo).
-
-**Puntos** - Los puntajes del grupo (por ejemplo, B), (calificación lograda, calificación total para preguntas, obtenidas en porcentaje, por ejemplo 40/80 (50)) y la calificación (por ejemplo 50 de un máximo de 100) son mostradas.
-
-**Retroalimentación específica** - La retroalimentación que depende de cual respuesta dio el estudiante.
-
-**Retroalimentación general ** - La retroalimentación general es mostrada al estudiante después de que los resultados fueron importados. A diferencia de la retroalimentación específica, la cual depende del tipo de pregunta y la respuesta que dio el estudiante, la misma retroalimentación general es mostrada a todos los estudiantes. Usted puede usar la retroalimentación general para darle a los estudiantes una respuesta completamente trabajada y probablemente un enlace a mayor información que ellos puedan usar si no entendieron las preguntas.
-
-**Respuestas Correctas** - Se muestran cuales respuestas son correctas o incorrectas. Esta opción solamente está disponible si está configurado "El intento" .
-
-**Formato escaneado** - Los formatos de respuesta escaneados son mostrados. Las casillas seleccionadas están marcadas con cuadros verdes.
-
-**Formato escaneado con calificaciones** - Los formatos de respuesta escaneados son mostrados. Las casillas seleccionadas están marcadas con cuadros verdes. Las marcaciones incorrectas y marcaciones faltantes están resaltadas. Adicionalmente, una tabla muestra la calificación máxima y la calificación lograda para cada pregunta.';
+Usted también puede definir las horas de inicio y fin para el reporte de resultados. Las casillas de selección significan:
+<table>
+<tr><td style="vertical-align: top;"><b>El intento</b></td><td>
+El texto de las preguntas y respuestas será mostrado a los estudiantes. Ellos verán cuales respuestas eligieron, pero no serán indicadas las respuestas correctas.</td>
+</td></tr>
+<tr><td style="vertical-align: top;"><b>Si es que es correcta</b></td><td>
+Esta opción solamente puede ser activada si la opción "El intento" está activada. Si está activada, los estudiantes pueden ver cual de las respuestas elegidas son correctas (fondo verde) o incorrectas (fondo rojo).
+</td></tr>
+<tr><td style="vertical-align: top;"><b>Puntos</b></td><td>
+Los puntajes del grupo (por ejemplo, B), (calificación lograda, calificación total para preguntas, obtenidas en porcentaje, por ejemplo 40/80 (50)) y la calificación (por ejemplo 50 de un máximo de 100) son mostradas.
+Aditionalmente, si "El intento" está seleccionada, el puntaje logrado y el puntaje máximo son mostrados para cada pregunta.
+</td></tr>
+<tr><td style="vertical-align: top;"><b>Retroalimentación específica</b></td><td>
+La retroalimentación que depende de cual respuesta dio el estudiante.
+</td></tr>
+<tr><td style="vertical-align: top;"><b>Retroalimentación general </b></td><td>
+<p>La retroalimentación general es mostrada al estudiante después de que los resultados fueron importados.
+A diferencia de la retroalimentación específica, la cual depende del tipo de pregunta y la respuesta que dio el estudiante, la misma retroalimentacón general es mostrada a todos los estudiantes.</p>
+<p></p><p>Usted puede usar la retroalimentación general para darle a los estudiantes una respuesta completamente trabajada y probablemente un enlace a mayor información que ellos puedan usar si no entendieron las preguntas.</p>
+</td></tr>
+<tr><td style="vertical-align: top;"><b>Respuestas Correctas</b></td><td>
+Se muestran cuales respuestas son correctas o incorrectas. Esta opción solamente está disponible si está configurado "El intento" .
+</td></tr>
+<tr><td style="vertical-align: top;"><b>Formato escaneado</b></td><td>
+Los formatos de respuesta escaneados son mostrados. Las casillas seleccionadas están marcadas con cuadros verdes.
+</td></tr>
+<tr><td style="vertical-align: top;"><b>Formato escaneado con calificaciones</b></td><td>
+Los formatos de respuesta escaneados son mostrados. Las casillas seleccionadas están marcadas con cuadros verdes. Las marcaciones incorrectas y marcaciones faltantes están resaltadas.
+Adicionalmente, una tabla muestra la calificaciónmáxima y la calificación lograda para cada pregunta.
+</td></tr>
+</table>';
 $string['reviewoptionsheading'] = 'Opciones para revisión';
-$string['rimport'] = 'Subir';
+$string['rimport'] = 'Subir/Corregir';
 $string['rotate'] = 'Rotar';
 $string['rotatingsheet'] = 'La hoja está girada ...';
 $string['save'] = 'Guardar';
@@ -818,30 +791,8 @@ $string['standard'] = 'Estandar';
 $string['starttutorial'] = 'Iniciar tutorial acerca del examen';
 $string['statistics'] = 'Estadísticas';
 $string['statisticsplural'] = 'Estadísticas';
-$string['statisticsviewheader'] = '3. Estadísticas';
 $string['statsoverview'] = 'Vista general de Estadísticas';
 $string['studycode'] = 'Código de estudio';
-$string['tabattendances'] = 'Asistencias';
-$string['tabattendancesoverview'] = 'Asistencias';
-$string['tabdownloadparticipantsforms'] = 'Formatos';
-$string['tabdownloadquizforms'] = 'Formatos';
-$string['tabeditgrades'] = 'Calificaciones';
-$string['tabeditgroupquestions'] = 'Preguntas';
-$string['tabeditparticipants'] = 'Participantes';
-$string['tabofflinequizcontent'] = 'Preparación';
-$string['tabofflinequizcorrect'] = 'Correcto';
-$string['tabofflinequizupload'] = 'Subir';
-$string['tabparticipantlists'] = 'Listas de asistencia';
-$string['tabparticipantscorrect'] = 'Correcto';
-$string['tabparticipantsupload'] = 'Subir';
-$string['tabpreview'] = 'Formatos';
-$string['tabquestionandanswerstats'] = 'Análisis de pregunta y respuesta';
-$string['tabquestionstats'] = 'Análisis de pregunta';
-$string['tabregrade'] = 'Re-calificando';
-$string['tabresults'] = 'Resultados';
-$string['tabresultsoverview'] = 'Resultados';
-$string['tabstatistics'] = 'Estadísticas';
-$string['tabstatsoverview'] = 'Información del  examen';
 $string['temporaryfiledeletiontask'] = 'Eliminar archivos temporales';
 $string['theattempt'] = 'El Intento';
 $string['timesup'] = '¡Se agotó el tiempo!';
@@ -856,15 +807,15 @@ $string['updatedsumgrades'] = 'La suma de todas las calificaciones del grupo {$a
 $string['upgradingfilenames'] = 'Actualizando los nombres de los archivos de los documentos: examen fuera-de-línea {$a->done}/{$a->outof} (ID del Examen fuera-de-línea {$a->info})';
 $string['upgradingilogs'] = 'Actualizando páginas escaneadas: página escaneada {$a->done}/{$a->outof} <br/>(ID del Examen Fuera-de-línea {$a->info})';
 $string['upgradingofflinequizattempts'] = 'Actualizando intentos de resolver examen fuera-de-línea: offline quiz {$a->done}/{$a->outof} <br/>(ID del Examen Fuera-de-línea {$a->info})';
-$string['upload'] = 'Subir';
-$string['uploadpart'] = 'Subir';
+$string['upload'] = 'Subir/Corregir';
+$string['uploadpart'] = 'Subir/Corregir listas de participantes';
 $string['uppertrigger'] = 'Segundo límite superior';
 $string['uppertriggerzero'] = 'El Segundo límite superior es cero';
 $string['upperwarning'] = 'Primer límite superior';
 $string['upperwarningzero'] = 'El Primer límite superior es cero';
 $string['useradded'] = 'Usuario {$a} añadido';
 $string['userdoesnotexist'] = 'Usuario {$a} no existe en el sistema';
-$string['useridentification'] = 'Identificación del usuario';
+$string['useridentification'] = 'Identificación del examen';
 $string['useridviolation'] = 'Se encontraron varios usuarios';
 $string['userimported'] = 'Usuario {$a} importado y calificado';
 $string['usernotincourse'] = 'Usuario {$a} no está en el curso';

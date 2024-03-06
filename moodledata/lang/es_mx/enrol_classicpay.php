@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_classicpay', language 'es_mx', version '4.2'.
+ * Strings for component 'enrol_classicpay', language 'es_mx', version '3.10'.
  *
  * @package     enrol_classicpay
  * @category    string
@@ -230,8 +230,6 @@ $string['expirymessageenrollerbody'] = 'Enrolment in the course \'{$a->course}\'
 To extend their enrolment, go to {$a->extendurl}';
 $string['expirymessageenrollersubject'] = 'Enrolment expiry notification';
 $string['gettokentime'] = 'Time on remote API: {$a}';
-$string['htmlonthankyoupage'] = 'Fragmento de código HTML en página de agradecimiento';
-$string['htmlonthankyoupage_desc'] = 'Fragmento de código HTML que aparece en página de agradecimiento para permitirle darle a los clientes una bienvenida más cálida a su entorno.';
 $string['invoice:requested'] = 'Your request to process the invoice has succesfully been processed';
 $string['mailadmins'] = 'Notificar a administradores';
 $string['mailstudents'] = 'Notificar a estudiantes';

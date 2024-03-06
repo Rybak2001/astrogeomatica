@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'reengagement', language 'es_mx', version '4.2'.
+ * Strings for component 'reengagement', language 'es_mx', version '3.10'.
  *
  * @package     reengagement
  * @category    string
@@ -34,7 +34,7 @@ $string['completiondatesupdated'] = 'Fechas de finalización actualizadas.';
 $string['completiontime'] = 'Tiempo de finalización';
 $string['completionwillturnon'] = 'Tenga en cuenta que al añadir esta actividad al curso se habilitará la finalización de actividad.';
 $string['crontask'] = 'Trabajo del cron de re-compromiso';
-$string['cronwarning'] = 'El trabajo agendado de re-compromiso no ha corrido en las últimas 8 horas - Cron debe ser configurado para permitir que Re-compromiso funcione correctamente';
+$string['cronwarning'] = 'El trabajo agendado de re-compromiso no ha corrido por al menos 60 minutos - Cron debe ser configurado para permitir que Re-compromiso funcione correctamente';
 $string['days'] = 'Días';
 $string['duration'] = 'Duración';
 $string['duration_help'] = '<p>La duración del re-compromiso es el período de tiempo entre que un usuario comienza un re-compromiso y que sea maracdo como terminado.
@@ -67,29 +67,12 @@ $string['emailuser_help'] = 'Cuando debería la actividad de notificar a usuario
 <li>Al finalizar re-compromiso: Mandar notificación al usuario ciuando  esté completada la actividad re-compromiso.</li>
 <li>Deespués del retraso: Mandar notificación al usuario un tiempo definido después de que hayan iniciado el módulo.</li>
 </ul>';
-$string['errornoid'] = 'Usted debe especificar un ID de curso_módulo o un ID de instancia';
-$string['errorreengagementnotvalid'] = 'Este módulo de re-compromiso no está habilitado para su cuenta. Por favor póngase en contacto con su administrador si siente que esto es un error.';
 $string['frequencytoohigh'] = 'El número máximo de recordatorios con el período de retraso que Usted ha configurado es {$a}.';
 $string['hours'] = 'Horas';
 $string['introdefaultvalue'] = 'Esta es una actividad de re-compromiso; su propósito es el regular un lapso de tiempo entre las actividades que la preceden, y las actividades que siguen.';
 $string['messageprovider:mod_reengagement'] = 'Notificaciones de re-compromiso';
 $string['minutes'] = 'Minutos';
 $string['modulename'] = 'Re-compromiso';
-$string['modulename_help'] = 'La actividad de Re-compromiso le proporciona una forma de enviar notificaciones oportunas a estudiantes ytercero, que pueden incluir recordatorios para regresar al curso y completar actividades.
-
-El disparador de la notificación es un período de tiempo especificado después de un evento iicial,que puede ser la inscripción al curso, completar una actividad, o alguna otra variable del curso.
-Las notificaciones pueden ser configuradas para que se repitan por una corrida limitada, o hasta que la actividad meta esté completada, y pueden tener períodos de retraso entre repeticiones.
-Si el usuario ya ha completado la actividad meta, no se mandan Emails.
-
-Usted puede usar este plugin para: <ul>
-<li>Contenido liberado por tiempo selectivamente en un curso.</li>
-<li>Recordarle repetidamente a los estudiantes que una tarea está pendiente-retrasada.</li>
-<li>Advertirle a los mánagers entrenadores que elcurso está completado.</li>
-</ul>
-
-La actividad Re-compromiso es muy flexible. Explore lo que puede hacer con ellla.
-
-<a href=https://docs.moodle.org/all/es/Actividad_Re-compromiso>Más ayuda</a>';
 $string['modulenameplural'] = 'Re-compromisos';
 $string['mustenablecompletionavailability'] = 'Deben habilitarse configuraciones de seguimiento de finalización y restricción del acceso para poder usar la actividad de reengagement.';
 $string['never'] = 'Nunca';
@@ -131,7 +114,6 @@ $string['resetbyfirstaccess'] = 'Por primer acceso al curso y una duración de: 
 $string['resetbyspecificdate'] = 'Por fecha especificada';
 $string['resetcompletion'] = 'Reiniciar fecha de finalización';
 $string['search:activity'] = 'Recompromiso - información de actividad';
-$string['seconds'] = 'Segundos';
 $string['specifydate'] = 'Configurar fecha de finalización a:';
 $string['suppressemail'] = 'Suprimir notificación si se completa la actividad meta';
 $string['suppressemail_help'] = 'Esta opción le dice a la actividad que suprima las notificaciones a usuarios cuando está completa una actividad nombrada.';

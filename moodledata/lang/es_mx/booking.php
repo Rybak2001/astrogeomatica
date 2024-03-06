@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'booking', language 'es_mx', version '4.2'.
+ * Strings for component 'booking', language 'es_mx', version '3.10'.
  *
  * @package     booking
  * @category    string
@@ -29,11 +29,15 @@ $string['active'] = 'Activo';
 $string['activitycompletionsuccess'] = 'Todos los usuarios seleccionados han sido marcados para finalización de actividad';
 $string['addastemplate'] = 'Añadir como plantilla';
 $string['addcategory'] = 'Editar categorías';
+$string['addeditbooking'] = 'Editar opción de reservaciones';
 $string['addmorebookings'] = 'Añadir más reservaciones';
+$string['addnewbookingoption'] = 'Añadir una nueva opción de reservación';
+$string['addnewbookingoptionfromtemplate'] = 'Añadir una nueva opción de reservación desde plantilla';
 $string['addnewcategory'] = 'Añadir nueva categoría';
 $string['addnewinstitution'] = 'Añadir nueva institución';
 $string['addnewtagtemplate'] = 'Añadir nueva plantilla de marcas';
 $string['address'] = 'Dirección';
+$string['addteachers'] = 'Añadir profesores';
 $string['addtocalendar'] = 'Añadir al calendario';
 $string['addtogroup'] = 'Inscribir automáticamente usuarios en grupo';
 $string['addtogroup_help'] = 'Inscribir usuarios automáticamente al grupo - el grupo será creado automáticamente con el nombre de "Bookin name - Option name"';
@@ -69,6 +73,7 @@ $string['aftercompletedtext_help'] = 'Deje esto vacío para usar el texto por de
 </ul>';
 $string['agreetobookingpolicy'] = 'He leído y estoy de acuerdo con las siguientes políticas para reservaciones';
 $string['allbookingoptions'] = 'Descargar usuarios para todas las opciones de reservaciones';
+$string['allchangessave'] = 'Todos los cambios han sido guardados.';
 $string['allcomments'] = 'Todos pueden comentar';
 $string['allmailssend'] = '¡ Se han enviado exitosamente todos los Emails a usuarios !';
 $string['allowdelete'] = 'Permitirle a los usuarios cancelar sus reservaciones ellos mismos';
@@ -200,6 +205,7 @@ $string['booking:viewanyrating'] = 'Ver todas las valoraciones que cualquiera re
 $string['booking:viewrating'] = 'Ver todas las valoraciones que Usted recibió';
 $string['bookingattachment'] = 'Anexo';
 $string['bookingcategory'] = 'Categoría';
+$string['bookingclose'] = 'Hasta';
 $string['bookingdeleted'] = 'Su reservación fue cancelada';
 $string['bookingduration'] = 'Duración';
 $string['bookingfull'] = 'No hay lugares disponibles';
@@ -255,7 +261,29 @@ $string['completionmodule_help'] = 'Mostrar botón para eliminación masiva para
 $string['conectedbooking'] = 'Reservación conectada';
 $string['conectedbooking_help'] = 'Instancia de reservación elegible para transferir usuarios reservados. Usted puede definir desde cual opción dentro de la instancia de reservación seleccionada y a cuantos usuarios aceptará.';
 $string['confirmactivtyfrom'] = 'Confirmar actividad de usuarios desde';
+$string['confirmationmessage'] = 'Su reservación ha sido registrada.
+
+
+Status: {$a->status}
+Participante:  {$a->participant}
+Curso:  {$a->title}
+Fecha:  {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
+Para ver todos sus cursos reservados, elija la liga siguiente: {$a->bookinglink}
+El curso asociado puede ser encontrado aquí: {$a->courselink}';
 $string['confirmationmessagesettings'] = 'Configuraciones de Email de confirmación';
+$string['confirmationmessagewaitinglist'] = 'Hola {$a->participant},
+
+Su solicitud de reservación ha sido registrada
+
+Estatus de reservación: {$a->status}
+Participante: {$a->participant}
+Curso: {$a->title}
+Fecha: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
+Para ver todos sus cursos reservados, elija el enlace siguiente: {$a->bookinglink}';
+$string['confirmationsubject'] = 'Confirmación de reservación para {$a->title}';
+$string['confirmationsubjectbookingmanager'] = 'Nueva reservación para {$a->title} por {$a->participant}';
+$string['confirmationsubjectwaitinglist'] = 'Estatus de reservación para {$a->title}';
+$string['confirmationsubjectwaitinglistmanager'] = 'Estatus de reservación para {$a->title}';
 $string['confirmbookingoffollowing'] = 'Por favor confirme la reservación para el siguiente curso';
 $string['confirmdeletebookingoption'] = '¿Realmente desea eliminar esta opción de reservación?';
 $string['confirmoptioncompletion'] = '(Des)confirmar estado de finalización';
@@ -269,6 +297,7 @@ $string['copytoclipboard'] = 'Copiar al portapapeles: Ctrl+C, Enter';
 $string['coursedate'] = 'Fecha';
 $string['courseendtime'] = 'Hora de fin del curso';
 $string['coursestarttime'] = 'Hora de principio del curso';
+$string['createdby'] = 'Módulo de reservaciones hecho por edulabs.org';
 $string['csvfile'] = 'Archivo CSV';
 $string['csvfile_help'] = 'El archivo CSV debe contener solamente una columna llamada Institution (Institución).';
 $string['customfield'] = 'Campo personalizado a ser configurado en las configuraciones de opción de reservación. Después será mostrado en la vista general de opción de reservación.';
@@ -292,7 +321,16 @@ $string['defaulttemplate'] = 'Plantilla predeterminada';
 $string['defaulttemplatedesc'] = 'Plantilla predeterminada de opción de reservación, al crear nueva opción de reservación.';
 $string['delcustfield'] = 'Eliminar este campo y todas las configuraciones asociadas al campo en las opciones de reservación';
 $string['deletebooking'] = '¿Realmente desea des-inscribirse del curso siguiente <br /><br /> <b>{$a} </b>';
+$string['deletebookingoption'] = 'Eliminar esta opción de reservación';
 $string['deletecategory'] = 'Eliminar';
+$string['deletedbookingmessage'] = 'Reservación eliminada para el curso siguiente: {$a->title}
+
+Usuario: {$a->participant}
+Título: {$a->title}
+Fecha: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
+Curso: {$a->courselink}
+Enlace a reservación: {$a->bookinglink}';
+$string['deletedbookingsubject'] = 'Reservación eliminada: {$a->title} por {$a->participant}';
 $string['deletedbookingusermessage'] = 'Hola {$a->participant},
 Su reservación para {$a->title} ({$a->startdate} {$a->starttime}) ha sido cancelada.';
 $string['deletedbookingusersubject'] = 'Reservación para {$a->title} cancelada';
@@ -347,6 +385,7 @@ $string['editotherbooking'] = 'Otras reglas para reservar';
 $string['editrule'] = 'Editar';
 $string['edittag'] = 'Editar';
 $string['editteachers'] = 'Editar';
+$string['editteacherslink'] = 'Editar profesores';
 $string['enablecompletion'] = 'Número de entradas';
 $string['enablecompletiongroup'] = 'Requerir entradas';
 $string['enablepresence'] = 'Habilitar presencia';
@@ -365,6 +404,8 @@ Fecha:  {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime} {$a->booki
 Liga: {$a->link}
 Curso asociado: {$a->courselink}';
 $string['errorpagination'] = 'Por favor ngrese un número mayor de 0';
+$string['eventbooking_cancelled'] = 'Reservacion cancelada';
+$string['eventbookingoption_booked'] = 'Opción de reservación reservada';
 $string['eventduration'] = 'Duración del evento';
 $string['eventpoints'] = 'Puntos';
 $string['eventreport_viewed'] = 'Reporte visto';
@@ -394,12 +435,14 @@ $string['groupexists'] = 'El grupo ya existe en el curso destino; por favor elij
 $string['groupname'] = 'Nombre del grupo';
 $string['hidedescription'] = 'Ocultar descripción';
 $string['hours'] = '{$a} horas';
+$string['howmanyusers'] = 'Número máximo de usuarios que puede reservar un profesor asignado a la opción';
+$string['howmanyusers_help'] = '';
 $string['icalcancel'] = 'Incluir evento iCal cuando la reservación sea cancelada como evento cancelado';
 $string['icalcanceldesc'] = 'Cuando un usuario cancela una reservación o es quitado de la lista de usuarios reservados, entonces añadir un anexo iCal como evento cancelado.';
 $string['icalcfg'] = 'Configuración de los anexos ical';
 $string['icalcfgdesc'] = 'Configurar los archivos ical que están anexos a mensajes Email. Estos archivos permiten añadir las fechas de reservaciones al calendario personal.';
-$string['icalfieldlocation'] = 'Texto a mostrar en la ubicación del campo iCal';
-$string['icalfieldlocationdesc'] = 'Elegir de la lista desplegable cual texto debería de usarse para el campo "ubicación" del calendario';
+$string['icalfieldlocation'] = 'Texto a mostrar en la localización del campo ical';
+$string['icalfieldlocationdesc'] = 'Elegir de la lista desplegable cual texto debería de usarse para el campo "localización" del calendario';
 $string['import_failed'] = 'La importación falló debido a la siguiente razón:';
 $string['import_partial'] = 'La importación solamente fue completada parcialmente. Hubo problemas con las líneas siguientes y no fueron importadas:';
 $string['importcsvbookingoption'] = 'Importar CSV con opciones de reservación';
@@ -469,6 +512,7 @@ $string['notconectedbooking'] = 'No conectado';
 $string['noteacherfound'] = 'El usuario especificado como profesor en la línea {$a} no existe en la plataforma.';
 $string['notemplate'] = 'No usar como plantilla';
 $string['notes'] = 'Notas de reservación';
+$string['notificationsubject'] = 'Curso próximo futuro...';
 $string['notificationtext'] = 'Texto de notificación a mostrar en finalización de actividad.';
 $string['notificationtext_help'] = 'Deje esto vacío para usar el texto por defecto. Usted puede usar (así como están, en idioma inglés) cualquiera de los siguientes remplazables (placeholders) en el texto:
 <ul>
@@ -497,6 +541,11 @@ $string['notificationtext_help'] = 'Deje esto vacío para usar el texto por defe
 <li>{times} - Horas de la sesión</li>
 <li>{shorturl} - Opción de URL corta</li>
 </ul>';
+$string['notificationtextmessage'] = 'El curso iniciarát:
+
+Curso: {$a->title}
+Fechas: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}';
+$string['notificationtextsubject'] = '¡Información acerca del inicio del curso!';
 $string['notifyemail'] = 'Notificación antes del inicio';
 $string['notifyemail_help'] = 'Deje esto vacío para usar el texto por defecto. Usted puede usar (así como están, en idioma inglés) cualquiera de los siguientes remplazables (placeholders) en el texto:
 <ul>
@@ -525,6 +574,15 @@ $string['notifyemail_help'] = 'Deje esto vacío para usar el texto por defecto. 
 <li>{times} - Horas de la sesión</li>
 <li>{shorturl} - Opción de URL corta</li>
 </ul>';
+$string['notifyemaildefaultmessage'] = 'Su reservación ha sido registrada
+
+
+Estatus de reservación: {$a->status}
+Participante: {$a->participant}
+Curso: {$a->title}
+Fecha: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
+Para ver todos sus cursos reservados, haga clic en el enlace siguiente: {$a->bookinglink}
+El curso asociado puede encontrarse aquí: {$a->courselink}';
 $string['notopenyet'] = 'Lo sentimos, esta actividad no estará disponible hasta después de {$a}';
 $string['notstarted'] = 'Aun no iniciado';
 $string['nouserfound'] = 'No se encontró usuario:';
@@ -535,6 +593,7 @@ $string['numgenerator'] = '¿Habilitar generación de número de registro?';
 $string['numrec'] = 'Núm. registro';
 $string['onlythisbookingurl'] = 'Enlazar hacia esta URL de reservación';
 $string['onwaitinglist'] = 'Usted está en la lista de espera';
+$string['optiondates'] = 'Sesión con Fechas Múltiples';
 $string['optiondatesmessage'] = 'Sesión {$a->number}: {$a->date} <br> Desde: {$a->starttime} <br> Hasta: {$a->endtime}';
 $string['optiondatessuccessfullydelete'] = 'Se eliminó la hora de sesión.';
 $string['optiondatessuccessfullysaved'] = 'Se guardó la hora de sesión.';
@@ -552,8 +611,14 @@ $string['otherbookingnumber'] = 'Número de usuarios';
 $string['otherbookingoptions'] = 'Aceptando de';
 $string['otherbookingsuccessfullysaved'] = '¡Regla guardada!';
 $string['paginationnum'] = 'N. de registros - paginación';
+$string['pdfdate'] = 'Fecha(s) de Reservación(es):';
 $string['pdflandscape'] = 'Paisaje';
+$string['pdflocation'] = 'Sitio:';
 $string['pdfportrait'] = 'Retrato';
+$string['pdfroom'] = 'Salón';
+$string['pdfsignature'] = 'Firma';
+$string['pdfstudentname'] = 'Nombre del estudiante';
+$string['pdftodaydate'] = 'Fecha:';
 $string['pluginadministration'] = 'Administración de reservaciones';
 $string['pluginname'] = 'Reservación';
 $string['pollstrftimedate'] = '%Y-%m-%d';
@@ -693,6 +758,7 @@ $string['privacy:metadata:booking_teachers:optionid'] = 'Cual versión de un eve
 $string['privacy:metadata:booking_teachers:userid'] = 'Usuario que está enseñando este evento';
 $string['question'] = 'Pregunta';
 $string['ratings'] = 'Valoraciones de Opcion_de_Reservación';
+$string['ratingsuccess'] = 'Las valoraciones fueron actualizadas exitosamente';
 $string['recreategroup'] = 'Recrear grupos en el curso destino e inscribir usuarios en el grupo';
 $string['removeafterminutes'] = 'Quitar finalización de actividad después de N minutos';
 $string['removeresponses'] = 'Quitar todas las respuestas';
@@ -717,6 +783,8 @@ $string['selectfield'] = 'Lista desplegable';
 $string['selectoptionid'] = '¡Por favor, seleccione opción!';
 $string['selectoptioninotherbooking'] = 'Opción';
 $string['selectpresencestatus'] = 'Elegir estatus de presencia';
+$string['sendconfirmmail'] = 'Mandar correo de confirmación';
+$string['sendconfirmmailtobookingmanger'] = 'Mandar correo de confirmación al mánager de reservaciones';
 $string['sendcustommessage'] = 'Mandar mensaje personalizado';
 $string['sendmailtobooker'] = 'Página para Reservar para otros usuarios: Enviar Email al usuario que reserva en vez de mandárselos a los usuarios que son reservados.';
 $string['sendmailtobooker_help'] = 'Active esta opción para mandar Emails de confirmación de reservación al usuario que reserva para otros usuarios en lugar de usuarios que han sido añadidos a una opción de reservación.
@@ -759,6 +827,17 @@ $string['status_failed'] = 'Reprobado';
 $string['status_incomplete'] = 'Incompleto';
 $string['status_noshow'] = 'No visto';
 $string['status_unknown'] = 'Desconocido';
+$string['statuschangebookedmessage'] = 'Hola {$a->participant},
+
+Su status de reservación ha cambiado. Usted está ahora registrado en {$a->title}.
+
+Status: {$a->status}
+Participante:   {$a->participant}
+Curso:   {$a->title}
+Fecha: {$a->startdate} {$a->starttime} - {$a->enddate} {$a->endtime}
+Para ver todos sus cursos reservados elija la liga siguiente: {$a->bookinglink}
+El curso asociado puede ser encontrado aquí: {$a->courselink}';
+$string['statuschangebookedsubject'] = 'Cambió el estatus de reservación para {$a->title}';
 $string['statuschangetext'] = 'Mensaje de cambio de estatus';
 $string['statuschangetext_help'] = 'Deje esto vacío para usar el texto por defecto del sitio. Usted puede usar  (así como están, en idioma inglés) cualquiera de los siguientes remplazables (\'\'placeholders\'\') en el texto:
 <ul>
@@ -805,6 +884,7 @@ $string['teachers'] = 'Profesores';
 $string['templatedeleted'] = '¡La plantilla fue eliminada!';
 $string['terminated'] = 'Terminado';
 $string['textfield'] = 'Ingreso de texto de línea única';
+$string['timecloseoption'] = 'Limitar la disponibilidad de esta opción de reservación hasta una cierta fecha';
 $string['timecreated'] = 'Hora de creación';
 $string['timerestrict'] = 'Restringir respuestas a este lapso de tiempo. Esto está deprecado y será removido. Por favor use las configuraciones de "Restringir acceso" para hacer que la actividad de reservación esté disponible por un cierto período.';
 $string['to'] = 'a';
@@ -817,6 +897,7 @@ $string['transferhelp'] = 'Transferir usuarios, que no hayan completado la activ
 $string['transferoptionsuccess'] = 'La opción de reservación y los usuarios han sido transferidos exitosamente.';
 $string['transferproblem'] = 'Lo siguiente no pudo ser transferido debido a limitación del usuario o limitación de opción de reservación: {$a}';
 $string['transfersuccess'] = 'El usuario ha sido exitosamente transferido a la nueva opción de reservación';
+$string['unlimited'] = 'El número de lugares disponibles no está limitado';
 $string['updatebooking'] = 'Editar esta opción de reservación';
 $string['usedinbooking'] = '¡Usted no puede eliminar esta categoría, porque Usted está usándola al reservar!';
 $string['usedinbookinginstances'] = 'La plantilla es utilizada en las siguientes instancias de reservación';
@@ -851,8 +932,13 @@ $string['userleave_help'] = 'Deje esto vacío para usar el texto por defecto. Us
 <li>{times} - Horas de sesión</li>
 <li>{shorturl} - Opción de URL corta</li>
 </ul>';
+$string['userleavebookedmessage'] = 'Hola {$a->participant},
+
+Usted se ha des-inscrito exitosamente de {$a->title}.';
+$string['userleavebookedsubject'] = 'Usted se ha des-inscrito exitosamente de {$a->title}';
 $string['usernameofbookingmanager'] = 'Elegir un mánager de reservaciones';
 $string['usernameofbookingmanager_help'] = 'Nombre_de_usuario del usuario que se mostrará en el campo "De" de las notificaciones de confirmación. Si está habilitada la opción para "Enviar Email de confirmación al Mánager de reservaciones", éste será el usuario quien recibe  una copia de las notificaciones de confirmación.';
+$string['users'] = '<< Gestionar respuestas';
 $string['usersonlist'] = 'Usuario en lista';
 $string['userssuccessfullenrolled'] = '¡Todos los usuarios han sido inscritos!';
 $string['userssuccessfullybooked'] = 'Todos los usuarios han sido reservados en la otra opción de reservación.';

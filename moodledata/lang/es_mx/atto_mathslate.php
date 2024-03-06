@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_mathslate', language 'es_mx', version '4.2'.
+ * Strings for component 'atto_mathslate', language 'es_mx', version '3.10'.
  *
  * @package     atto_mathslate
  * @category    string
@@ -25,20 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['cancel'] = 'Cancelar';
-$string['cancel_desc'] = 'Abandonar y no guardar el trabajo';
-$string['clear'] = 'Eliminar selección o toda la expresión';
-$string['display'] = 'Mostrar Math';
-$string['display_desc'] = 'Insertar math en una linea separada';
-$string['help'] = 'Acceder a documentación';
-$string['inline'] = 'Math enlínea';
-$string['inline_desc'] = 'Insertar math dentro de una oración o párrafo';
-$string['mathjaxurl'] = 'URL de MathJax';
 $string['mathslate'] = 'Mathslate (pizarra_matemática)';
 $string['pluginname'] = 'Mathslate (pizarra_matemática)';
 $string['privacy:metadata'] = 'El plugin Atto Mathslate no almacena ningún dato personal.';
-$string['redo'] = 'Re-hacer l acción recién dess-hecha';
-$string['requiretex'] = 'Requerir filtro TeX';
-$string['requiretex_desc'] = 'Si se habilita, el botón de MathSlate es visible solamente cuando el filtro TeX está habilitado en el contexto del editor. deshabilítelo si quiere que aparezca globalmente (normal si MathJax está incluido en encabezado en todo el sitio).';
-$string['title'] = 'Editor MathSlate';
-$string['undo'] = 'Des-hacer acción anterior';

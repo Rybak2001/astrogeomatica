@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'cohort', language 'es_mx', version '4.2'.
+ * Strings for component 'cohort', language 'es_mx', version '3.10'.
  *
  * @package     cohort
  * @category    string
@@ -36,7 +36,6 @@ $string['bulkadd'] = 'Añadir a cohorte';
 $string['bulknocohort'] = 'No se encontraron cohortes disponibles';
 $string['categorynotfound'] = 'Categoría <b>{$a}</b> no encontrada, o Usted no tiene permisos para crear allí una cohorte. Se usará el contexto por defecto.';
 $string['cohort'] = 'Cohorte';
-$string['cohortmember'] = 'Miembro de cohorte';
 $string['cohorts'] = 'Cohortes';
 $string['cohortsin'] = '{$a}: cohortes disponibles';
 $string['component'] = 'Orígen';
@@ -63,12 +62,11 @@ $string['eventcohortupdated'] = 'Cohorte actualizada';
 $string['external'] = 'Cohorte externa';
 $string['idnumber'] = 'ID de cohorte';
 $string['invalidtheme'] = 'El tema de la cohorte no existe';
-$string['memberofcohort'] = 'Miembro de cohorte';
 $string['memberscount'] = 'Tamaño de cohorte';
 $string['name'] = 'Nombre';
 $string['namecolumnmissing'] = 'Algo está mal con el formato del archivo CSV. Por favor, revise que incluya los nombres correctos de las columnas. Para añadirle usuarios a una cohorte, vaya a \'Subir usuarios\' en la Administración del sitio.';
 $string['namefieldempty'] = 'El nombre del campo no puede estar vacío.';
-$string['newidnumberfor'] = 'Nuevo número ID para cohorte {$a}';
+$string['newidnumberfor'] = 'Nuevo ID number (número_ID) para cohorte {$a}';
 $string['newnamefor'] = 'Nuevo nombre para cohorte {$a}';
 $string['nocomponent'] = 'Creada manualmente';
 $string['potusers'] = 'Usuarios potenciales';
@@ -88,10 +86,10 @@ $string['uploadcohorts'] = 'Subir cohortes';
 $string['uploadcohorts_help'] = 'Se pueden subir cohortes mediante archivos de texto. El formato del archivo es como sigue:
 
 * Cada línea del archivo contiene un registro
-* Cada registro es una serie de datos separados por el separador seleccionado
+* Cada registro es una serie de datos separados por comas (o por otros delimitadores)
 * El primer registro contiene una lista de nombres_de_campos que definen el formato del resto del archivo
 * El nombre_de_campo obligatorio es (así escrito en idioma inglés) name
-* Los nombres_de_campo opcionales son (así escritos en idioma inglés)  idnumber, description, descriptionformat, visible, context, category, category_id, category_idnumber, category_path';
+* Los nombres_de_campo opcionales (así escritos en idioma inglés) son idnumber, description, descriptionformat, visible, context, category, category_id, category_idnumber, category_path';
 $string['uploadedcohorts'] = 'Subidos {$a} cohortes';
 $string['useradded'] = 'Usuario añadido a cohorte "{$a}"';
 $string['visible'] = 'Visible';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'googlemeet', language 'es_mx', version '4.2'.
+ * Strings for component 'googlemeet', language 'es_mx', version '3.10'.
  *
  * @package     googlemeet
  * @category    string
@@ -25,12 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['at'] = 'a las';
-$string['calendareventname'] = '{$a} está programado para';
+$string['apikey'] = 'Clave API';
 $string['checkweekdays'] = 'Seleccionar los días de la semana que caen dentro del rango de fecha seleccionado.';
-$string['creatoremail'] = 'Correo electrónico del creador de la sala';
-$string['creatoremail_error'] = 'Introduzca una dirección de correo electrónico válida';
-$string['creatoremail_help'] = 'Correo electrónico del creador del evento';
+$string['clientid'] = 'ID de cliente OAuth';
+$string['clientid_desc'] = '<a href="https://github.com/ronefel/moodle-mod_googlemeet/wiki/How-to-create-the-API-key-and-OAuth-client-ID" target="_blank">Cómo crear la Clave API y el ID de cliente OAuth</a>';
 $string['date'] = 'Fecha';
 $string['duration'] = 'Duración';
 $string['earlierto'] = 'La fecha del evento no puede ser antes que la fecha de inicio del curso ({$a}).';
@@ -54,8 +52,8 @@ $string['emailcontent_help'] = 'Cuando se envía una notificación a un estudian
 </ul>';
 $string['entertheroom'] = 'Entrar a la sala';
 $string['eventdate'] = 'Fecha del evento';
-$string['eventdetails'] = 'Detalles del evento';
 $string['from'] = 'de';
+$string['generateurlroom'] = 'Generar URL de sala';
 $string['googlemeet:addinstance'] = 'Añadir un nuevo Google Meet™ para Moodle';
 $string['googlemeet:editrecording'] = 'Editar grabaciones';
 $string['googlemeet:removerecording'] = 'Quitar grabaciones';
@@ -64,11 +62,7 @@ $string['googlemeet:view'] = 'Ver contenido de Google Meet™ para Moodle';
 $string['hide'] = 'Ocultar';
 $string['invalideventenddate'] = 'La fecha no puede ser anterior a la "Fecha del evento"';
 $string['invalideventendtime'] = 'La fecha de término debe ser después de la fecha de inicio';
-$string['invalidissuerid'] = 'Google no soporta la configuración del servicio OAuth seleccionada en la configuración de "Google Meet™ for Moodle"';
 $string['invalidstoredurl'] = 'No se puede mostrar este recurso. La URL de Google Meet es inválida.';
-$string['isnotcreatoremail'] = 'Para sincronizar las grabaciones, ingrese con la cuenta del organizador o cambie el correo electrónico del organizador en la configuración.';
-$string['issuerid'] = 'Servicio OAuth';
-$string['issuerid_desc'] = '<a href="https://github.com/ronefel/moodle-mod_googlemeet/wiki/How-to-create-Client-ID-and-Client-Secret" target="_blank">Cómo configurar un Servicio OAuth</a>';
 $string['jstableinfo'] = 'Mostrando de {start} a {end} de {rows} grabaciones';
 $string['jstableinfofiltered'] = 'Mostrando de {principio} a {fin} de {filas} grabaciones (filtradas de  {rowsTotal} grabaciones)';
 $string['jstableloading'] = 'Cargando...';
@@ -77,11 +71,6 @@ $string['jstableperpage'] = '{seleccionar} grabaciones por página';
 $string['jstablesearch'] = 'Buscar...';
 $string['lastsync'] = 'Última sincronización:';
 $string['loading'] = 'Cargando';
-$string['loggedinaccount'] = 'Cuenta de Google conectada';
-$string['logintoaccount'] = 'Ingrese con su cuenta de Google';
-$string['logintoyourgoogleaccount'] = 'Ingrese con su cuenta de Google para que el URL de Google Meet pueda ser creado automáticamente';
-$string['logout'] = 'Cerrar sesión';
-$string['manage'] = 'Administrar';
 $string['messageprovider:notification'] = 'Recordatorio de inicio de evento Google Meet';
 $string['minutesbefore'] = 'Minutos antes';
 $string['minutesbefore_help'] = 'Número de minutos antes del inicio del evento cuando debería ser enviada la notificación.';
@@ -94,12 +83,15 @@ $string['multieventdateexpanded'] = 'Fecha de repetición del evento expandida';
 $string['multieventdateexpanded_desc'] = 'Mostrar las configuraciones de "Repetición de la fecha del evento" expandidas de forma predeterminada al crean una Sala nueva.';
 $string['name'] = 'Nombre';
 $string['never'] = 'Nunca';
+$string['notfoundrecordingname'] = 'No se encontraron grabaciones con el nombre';
+$string['notfoundrecordingsfolder'] = 'La carpeta "Meet Recordings" no fue encontrada en Google Drive.';
 $string['notification'] = 'Notificación';
 $string['notificationexpanded'] = 'Notificación expandida';
 $string['notify'] = 'Enviar notificación al estudiante';
 $string['notify_help'] = 'Si se activa, una notificación será enviada al estudiante acerca de la fecha de inicio del evento.';
 $string['notifycationexpanded_desc'] = 'Mostrar las configuraciones de "Notificación" como expandidas de forma predeterminada al crear una Sala nueva.';
 $string['notifytask'] = 'Trabajo de notificación de Google Meet™ for Moodle';
+$string['notpossiblesync'] = 'No es posible sincronizar con una cuenta diferente de la usada para crear la sala.';
 $string['or'] = 'o';
 $string['play'] = 'Reproducir';
 $string['pluginadministration'] = 'Administración de Google Meet™ para Moodle';
@@ -120,35 +112,17 @@ $string['repeatasfollows'] = 'Repetir la fecha del evento de arriba como sigue';
 $string['repeatevery'] = 'Repetir cada';
 $string['repeaton'] = 'Repetir en';
 $string['repeatuntil'] = 'Repetir hasta';
+$string['requirednamefield'] = 'Escribir el nombre de la sala para crearla automáticamente.';
 $string['roomcreator'] = 'Creador de la sala:';
 $string['roomname'] = 'Nombre de la sala';
 $string['roomurl'] = 'URL de la sala';
-$string['roomurl_caution'] = '<strong>¡Cuidado!</strong> si se cambia el URL de la sala o el correo electrónico del creado de la sala, las grabaciones sincronizadas anteriormente podrían ser removidas en la siguiente sincronización.';
-$string['roomurl_desc'] = 'El URL de la sala será generado automáticamente.';
 $string['roomurlexpanded'] = 'URL expandida de la sala';
 $string['roomurlexpanded_desc'] = 'Mostrar configuraciones de "URL de sala" expandidas de forma predeterminada al crear nueva Sala.';
-$string['servicenotenabled'] = 'Acceso no configurado. Asegúrese de que estén activados los servicios \'Google Drive API\' y \'Google Calendar API\'.';
-$string['sessionexpired'] = 'La sesión de su cuenta de Google expiró durante el proceso, por favor ingrese de nuevo.';
 $string['show'] = 'Mostrar';
 $string['strftimedm'] = '%a. %d %b.';
 $string['strftimedmy'] = '%a. %d %b. %Y';
 $string['strftimedmyhm'] = '%a. %d %b. %Y %H:%M';
 $string['strftimehm'] = '%H:%M';
-$string['sync_info'] = 'Espere al menos 10 minutos para que se genere el archivo de grabación y se guarde en "Mi unidad > Meet recordings" del creador de la sala.
-<p></p>
-Para eliminar una grabación, primero elimine el archivo de grabación de Google Drive y luego haga clic en el botón de sincronización de arriba.
-<p></p>
-Para grabar una reunión, asegúrese de que:
-<ul>
-    <li>No ha alcanzado su cuota personal de Drive.</li>
-    <li>Su organización no ha alcanzado su cuota de Drive.</li>
-</ul>
-Si tiene espacio en su Drive, pero su organización no tiene espacio, no podrá grabar la reunión.
-<p></p>
-Para obtener más información, consulte este artículo del Centro de ayuda:
-<br>
-<a href="https://notifications.google.com/g/p/APNL1TjJltVk6EcLPyFTJ8V_9ty1FeTAD0XSSJVLiaWPezIaQKfIPd1kGURFUMVV3I5yHgVZoOgxkl4gySV-4SCf2pZ27Vk8Iy9DnHSQBqtK51uG3Gyz" target="_blan k" rel="nofollow noopener">https://support.google.com/meet/answer/9308681 </a>';
-$string['sync_notloggedin'] = 'Ingrese a su cuenta de Google para sincronizar las grabaciones de Google Meet en Moodle';
 $string['syncwithgoogledrive'] = 'Sincronizar con Google Drive';
 $string['thereisnorecordingtoshow'] = 'No hay grabaciones para mostrar.';
 $string['timeahead'] = 'No es posible crear repeticiones múltiples de la fecha del evento que excedan un año; ajuste las fechas de inicio y fin.';
@@ -157,6 +131,5 @@ $string['to'] = 'a';
 $string['today'] = 'Hoy';
 $string['upcomingevents'] = 'Eventos próximos';
 $string['url_failed'] = 'Se necesita una URL de Google Meet válida';
-$string['url_help'] = 'Por ejemplo: https://meet.google.com/aaa-aaaa-aaa';
 $string['visible'] = 'Visible';
 $string['week'] = 'Semana(s)';

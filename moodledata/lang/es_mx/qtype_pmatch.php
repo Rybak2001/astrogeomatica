@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_pmatch', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_pmatch', language 'es_mx', version '3.10'.
  *
  * @package     qtype_pmatch
  * @category    string
@@ -102,17 +102,7 @@ $string['pluginnameediting'] = 'Editando una pregunta de coincidencia de patrón
 $string['pluginnamesummary'] = 'Permite una respuesta corta de una o varias oraciones, que se califica al compararla contra varias respuestas modelo, que se describen usando la sintaxis de coincidencia de patrón (\'\'pmatch\'\') de Open University.';
 $string['precedes'] = 'Precede';
 $string['precedesclosely'] = 'Precede cercanamente';
-$string['privacy:metadata'] = 'El plugin de tipo de pregunta coincidencia de patrón le permite a los autores de preguntas configurar opciones predeterminadas como preferencias del usuario.';
-$string['privacy:preference:allowsubscript'] = 'Si es que un subíndice es usado o no como entrada de respuesta.';
-$string['privacy:preference:allowsuperscript'] = 'Si es que un superíndice es usado o no como entrada de respuesta.';
-$string['privacy:preference:applydictionarycheck'] = 'Si es que la respuesta de los estudiantes debería ser revisada en ortografía';
-$string['privacy:preference:converttospace'] = 'Cuales caracteres están especificados para ser convertidos a espacios.';
-$string['privacy:preference:defaultmark'] = 'El puntaje configurado para una pregunta dada.';
-$string['privacy:preference:forcelength'] = 'Si es que debería o no mostrarse una advertencia cuando una respuesta sea de más de 20 palabras.';
-$string['privacy:preference:penalty'] = 'El castigo para cada intento incorrecto cuando las preguntas están ejecutadas usando comportamiento de \'Interactivo con intentos múltiples\' o \'Modo adaptativo\'.';
-$string['privacy:preference:sentencedividers'] = 'Cuales caracteres están especificados a ser tratados como puntos de fin de oración.';
-$string['privacy:preference:testquestion_pagesize'] = 'Número de intentos de pregunta de coincidencia de patrón a mostrar por página.';
-$string['privacy:preference:usecase'] = 'Si es que MAYÚSCULAS/minúsculas no tiene importancia o si deben coincidir en la respuesta del estudiante.';
+$string['privacy:metadata:preference:pagesize'] = 'Número de intentos de pregunta de coincidencia de patrón a mostrar por página.';
 $string['processingxofy'] = 'Procesaando respuesta {$a->row} de {$a->total}: {$a->response}.';
 $string['repeatedword'] = 'Esta palabra aparece más de una vez en la lista de sinónimos.';
 $string['resetrule'] = 'Reiniciar regla';
@@ -169,18 +159,17 @@ $string['testquestionformtitle'] = 'Herramienta para probar pregunta Pattern-mat
 $string['testquestionformuploadlabel'] = 'Respuestas calificadas';
 $string['testquestionheader'] = 'Probando pregunta: {$a}';
 $string['testquestionidlabel'] = '#';
-$string['testquestionincorrectlymarkedrights'] = 'negativos faltantes';
-$string['testquestionincorrectlymarkedwrong'] = 'positivos faltantes';
+$string['testquestionincorrectlymarkedrights'] = 'negativo faltante';
+$string['testquestionincorrectlymarkedwrong'] = 'positivo faltante';
 $string['testquestionmatches'] = 'coincidencias';
 $string['testquestionresponse'] = 'Respuesta';
-$string['testquestionresponsesthatare'] = 'Mostrar respuestas que son';
+$string['testquestionresponsesthatare'] = 'Respuestas que son';
 $string['testquestionresultsheader'] = 'Resultados de la prueba: {$a}';
 $string['testquestionresultssummary'] = 'Respuesta de muestra: {$a->total} <br>
      Calificada correctamente: {$a->correct} ({$a->accuracy}%)<br>
      <span>Calificación por computadora mayor que calificación por humano: {$a->misspositive} (missed positive)</span><br>
      <span>Calificación por computadora menor que calificación por humano: {$a->missnegative} (missed negative)</span>';
 $string['testquestionruleslabel'] = 'Reglas';
-$string['testquestionseletresponsex'] = 'Seleccionar respuesta {$a}';
 $string['testquestiontool'] = 'Herramienta para probar Coincidencia de patrón';
 $string['testquestionungraded'] = 'sin-calificar';
 $string['testquestionuploadanother'] = 'Subir otro archivo';
@@ -200,7 +189,6 @@ $string['tryrulegradeerror'] = 'Lo sentimos, la regla intentada solamente funcio
 $string['tryrulenogradedresponses'] = 'No hay respuestas calificadas; por favor, califique su conjunto de respuestas.';
 $string['tryrulenomatch'] = 'Esta regla no concuerda con ninguna respuesta calificada.';
 $string['tryrulenovalidrule'] = 'esta regla no es una expresión pmatch válida.';
-$string['unknownlanguagex'] = 'Lenguaje/Idioma desconocido ({$a})';
 $string['unparseable'] = 'No entendemos los caracteres o la puntuación aquí "{$a}"';
 $string['wordcontainsillegalcharacters'] = 'La palabra contiene caracteres ilegales.';
 $string['wordwithsynonym'] = 'Palabra';

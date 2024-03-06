@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_starredcourses', language 'es_mx', version '4.2'.
+ * Strings for component 'block_starredcourses', language 'es_mx', version '3.10'.
  *
  * @package     block_starredcourses
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['displaycategories'] = 'Mostrar Categorías';
-$string['displaycategories_help'] = 'Mostrar la categoría del curso en los elementos del bloque de cursos destacados.';
+$string['displaycategories_help'] = 'Mostrar la categoría del curso en los ítems del bloque de cursos destacados.';
 $string['nocourses'] = 'No hay cursos destacados';
 $string['pluginname'] = 'Cursos destacados';
 $string['privacy:metadata'] = 'El bloque de cursos destacados no almacena ningún dato personal.';

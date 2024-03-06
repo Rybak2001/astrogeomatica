@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_wq', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_wq', language 'es_mx', version '3.10'.
  *
  * @package     qtype_wq
  * @category    string
@@ -31,16 +31,11 @@ $string['addingwq'] = 'Añadiendo una pregunta de Exámenes genéricos Wiris';
 $string['auxiliar_text'] = 'Escriba un razonamiento opcional para su respuesta.';
 $string['cachedef_images'] = 'Imágenes de Exámenes Wiris';
 $string['cachedir'] = 'CACHE_DIR:';
-$string['compatibility_settings'] = 'Configuraciones de compatibilidad';
 $string['connectionsettings'] = 'Configuraciones de conexión';
 $string['connectionsettings_text'] = '';
-$string['debug_mode_enabled'] = 'Modo de depuración';
-$string['debug_mode_enabled_help'] = 'Habilita modo de depuración, que imprime información adicional que podría ayudar al equipo de WIRIS a resolver problemas. NO lo habilite a menos que se lo solicite el equipo de WIRIS.';
 $string['editingwq'] = 'Editando una pregunta de Exámenes genéricos Wiris';
 $string['error'] = 'ERROR';
 $string['failedtoloadwirisquizzesfromxml'] = 'Falló al cargar definición XML de Exámenes Wiris quizzes para pregunta con ID';
-$string['filtercodes_compatibility_enabled'] = 'Compatibilidad con filtro de Filtrar Códigos';
-$string['filtercodes_compatibility_enabled_help'] = 'El filtro Filtrar Códigos no es compatible con ciertas características de WirisQuizzes si lo opción para "Escapar marcas" está seleccionada. El habilitar esta opción resuelve el problema de compatibilidad. NO lo habilite en ninguna otra situación.';
 $string['info_disabled'] = 'DESHABILITADO';
 $string['info_enabled'] = 'HABILITADO';
 $string['info_information'] = 'Para más información, o si Usted tuviera dudas, póngase en contacto con el soporte Wiris:';
@@ -103,7 +98,6 @@ $string['quizzeswirislauncherurl_help'] = 'URL en donde obtener el archivo JNLP 
 $string['quizzeswirisurl'] = 'URL de servicio Applet Wiris CAS';
 $string['quizzeswirisurl_help'] = 'URL en donde cargar la Applet Wiris CAS';
 $string['serviceurl'] = 'SERVICE_URL:';
-$string['troubleshooting_settings'] = 'Solución de problemas';
 $string['wirisquestionincorrect'] = '¡Lo sentimos! El sistema no puede generar una de las preguntas del examen. <br />Posiblemente hay un problema temporal de conexión ahora. <br />Es posible que el algoritmo de pregunta tenga un error, y falle a veces. <br />Es posible que fallará siempre. <br />No se apanique... <br />Usted puede re-intentar el examen, sin castigos, simplemente haga clic en Continuar. <br />Usted también puede decirle a los Profesores que hay un problema con la pregunta que se titula: \'{$a->questionname}';
 $string['wirisquizzeserror'] = '¡Lo sentimos! Hubo un error en los Exámenes Wiris.';
 $string['wq'] = 'Exámenes Wiris';

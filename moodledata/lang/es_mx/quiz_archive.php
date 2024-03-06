@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_archive', language 'es_mx', version '4.2'.
+ * Strings for component 'quiz_archive', language 'es_mx', version '3.10'.
  *
  * @package     quiz_archive
  * @category    string
@@ -26,8 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['archive'] = 'Archivado';
-$string['includecorrectanswer'] = 'Incluir banner de respuesta correcta';
-$string['includehistory'] = 'Incluir tabla de historia de respuesta';
 $string['pluginname'] = 'Archivar';
 $string['privacy:metadata'] = 'El plugin de archivo del examen no almacena ningún dato personal acerca de ningún usuario.';
 $string['unknownquestion'] = 'Pregunta desconocida';

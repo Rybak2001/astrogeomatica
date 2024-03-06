@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculatedmulti', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_calculatedmulti', language 'es_mx', version '3.10'.
  *
  * @package     qtype_calculatedmulti
  * @category    string
@@ -29,7 +29,6 @@ $string['answeroptions'] = 'Opciones a elegir';
 $string['answeroptions_help'] = 'La fórmula de elección sugerida es ...<strong>{={x}+..}</strong>...';
 $string['pluginname'] = 'Calculada de opción múltiple';
 $string['pluginname_help'] = 'Las preguntas calculadas de opción múltiple se parecen a las preguntas de opción múltiple en las que se pueden incluir resultados numéricos de fórmula dentro de sus elementos de las opciones, empleando comodines en corchetes {} que son sustituidos con valores individuales cuando se presenta el examen. Por ejemplo: en la pregunta ""¿Cuál es el área de un rectángulo de largo {l} y ancho {w}?" una de las opciones es {={l}*{w}} (donde * denota multiplicación).';
-$string['pluginname_link'] = 'question/type/calculatedmulti';
 $string['pluginnameadding'] = 'Añadiendo una pregunta calculada de opción múltiple';
 $string['pluginnameediting'] = 'Editando una pregunta calculada de opción múltiple';
 $string['pluginnamesummary'] = 'Las preguntas calculadas de opción múltiple se parecen a las preguntas de opción múltiple en las que se pueden incluir resultados numéricos de fórmula a partir de valores numéricos que son elegidos aleatoriamente de un conjunto cuando se presente el examen.';

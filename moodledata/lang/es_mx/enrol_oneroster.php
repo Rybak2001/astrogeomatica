@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_oneroster', language 'es_mx', version '4.2'.
+ * Strings for component 'enrol_oneroster', language 'es_mx', version '3.10'.
  *
  * @package     enrol_oneroster
  * @category    string
@@ -38,4 +38,3 @@ $string['settings_rolemapping_parent_desc'] = 'Madre o Padre del usuario';
 $string['settings_rolemapping_student_desc'] = 'Un estudiante en una organización';
 $string['settings_rolemapping_teacher_desc'] = 'Un profesor en una organización.';
 $string['settings_testconnection'] = 'Probar conexión';
-$string['settings_testconnection_link'] = 'Probar conexión';

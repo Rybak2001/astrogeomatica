@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'group', language 'es_mx', version '4.2'.
+ * Strings for component 'group', language 'es_mx', version '3.10'.
  *
  * @package     group
  * @category    string
@@ -45,7 +45,7 @@ $string['creategrouping'] = 'Crear agrupamiento';
 $string['creategroupinselectedgrouping'] = 'Crear grupo en agrupamiento';
 $string['createingrouping'] = 'Agrupamiento de grupos auto-creados';
 $string['createorphangroup'] = 'Crear un grupo huérfano';
-$string['csvdelimiter'] = 'Separador CSV';
+$string['csvdelimiter'] = 'Delimitador CSV';
 $string['databaseupgradegroups'] = 'La versión de grupos es ahora {$a}';
 $string['defaultgrouping'] = 'Agrupamiento por defecto';
 $string['defaultgroupingname'] = 'Agrupamiento';
@@ -86,7 +86,6 @@ $string['eventgroupmemberadded'] = 'Miembro de grupo añadido';
 $string['eventgroupmemberremoved'] = 'Miembro de grupo removido';
 $string['eventgroupupdated'] = 'Grupo actualizado';
 $string['existingmembers'] = 'Miembros existentes: {$a}';
-$string['exportgroupsgroupings'] = 'Descargar grupos y agrupamientos como';
 $string['filtergroups'] = 'Filtrar grupos por:';
 $string['group'] = 'Grupo';
 $string['groupaddedsuccesfully'] = 'Grupo {$a} agregado con éxito';
@@ -112,13 +111,15 @@ $string['groupmembers'] = 'Miembros del grupo';
 $string['groupmemberssee'] = 'Ver los integrantes del grupo';
 $string['groupmembersselected'] = 'Miembros del grupo seleccionado';
 $string['groupmode'] = 'Modo de grupo';
-$string['groupmode_help'] = '* Sin grupos
-* Grupos separados - Los estudiantes están divididos en grupos y solamente pueden ver el trabajo de su grupo.
-* Grupos visible - Los estudiantes están divididos en grupos, pero pueden ver el trabajo de otros grupos.
+$string['groupmode_help'] = 'Esta configuración tiene 3 opciones:
 
-El modo de grupo definido a nivel del curso es el modo predeterminado para todas las actividades. Si se forzara el modo de grupo a nivel del curso,no puede ser cambiado en una actividad.';
+* Sin grupos
+* Grupos separados - Cada miembro del grupo solamente puede ver a su propio grupo, los demás son invisibles
+* Grupos visible - Cada miembro del grupo trabaja en su propio grupo, pero también puede ver a los otros grupos
+
+El modo de grupo definido a nivel del curso es el modo por defecto para todas las actividades dentro del curso. Cada actividad que soporta grupos también puede definir su propio modo de grupo, aunque si se forza el modo de grupo a nivel del curso, la configuración del modo de grupo para cada actividad es ignorada.';
 $string['groupmodeforce'] = 'Forzar el modo de grupo';
-$string['groupmodeforce_help'] = 'El modo de grupo es aplicado para todas las actividades y no puede ser cambiado en una actividad.';
+$string['groupmodeforce_help'] = 'Si se fuerza el modo grupo, entonces el modo de grupo en el curso se aplica a todas las actividades del curso. En ese caso se pasan por alto los ajustes del modo de grupo.';
 $string['groupmy'] = 'Mi grupo';
 $string['groupname'] = 'Nombre del grupo';
 $string['groupnameexists'] = 'El nombre de grupo \'{$a}\' ya existe en este curso; por favor, elija otro.';
@@ -139,11 +140,10 @@ $string['importgroups'] = 'Importar grupos';
 $string['importgroups_help'] = 'Los grupos pueden ser importados mediante un archivo de texto. El formato del archivo debe como sigue:
 
 * Cada línea del archivo contiene un registro
-* Cada registro es una serie de datos separados por elseparador seleccionado
+* Cada registro es una serie de datos separados por comas
 * El primer registro contiene una lista de nombres de campos que definen el formato del resto del archivo
 * Es obligatorio el campo de (así escrito en inglés) groupname
 * Son opcionales los campos (así escritos en inglés) groupidnumber, description, enrolmentkey, groupingname, enablemessaging';
-$string['importgroups_link'] = 'group/import';
 $string['includeonlyactiveenrol'] = 'Incluir solamente inscripciones activas';
 $string['includeonlyactiveenrol_help'] = 'Si se habilita, los usuarios supendidos no serán incluidos en los grupos.';
 $string['javascriptrequired'] = 'Esta página requiere que Javascript esté activado.';
@@ -174,9 +174,6 @@ $string['numgroups'] = 'Número de grupos';
 $string['nummembers'] = 'Miembros por grupo';
 $string['othergroups'] = 'Otros grupos';
 $string['overview'] = 'Visión general';
-$string['participation'] = 'Mostrar grupo en menú desplegable para actividades en modo de grupo';
-$string['participation_help'] = '¿Deberían de poder seleccionar este grupo para actividades los miembros de grupo en modos de grupos separados o visible? (Aplicable solamente si la membresía de grupo es visible para todos o solamente visible visible para miembros).';
-$string['participationshort'] = 'Participación';
 $string['potentialmembers'] = 'Miembros potenciales: {$a}';
 $string['potentialmembs'] = 'Miembros potenciales';
 $string['printerfriendly'] = 'Mostrar en formato para imprimir';
@@ -201,17 +198,3 @@ $string['toomanygroups'] = 'Usuarios insuficientes para formar este número de g
 $string['usercount'] = 'Número de usuarios';
 $string['usercounttotal'] = 'Número de usuarios ({$a})';
 $string['usergroupmembership'] = 'Afiliación del usuario seleccionado:';
-$string['visibility'] = 'Visibilidad de membresía de grupo';
-$string['visibility_help'] = '* Visible para todos - todos los participantes del curso pueden ver quién está en el grupo
-* Solamente visible para miembros - los participantes del curso que no estén en el grupo no pueden ver el grupo ni sus miembros
-* Solamente ver membresía propia - un usuario puede ver que está en el grupo pero no puede ver a otros miembros del grupo
-* Oculto - solamente profesores pueden ver el grupo y sus miembros
-
-Los usuarios con la capacidad  para ver grupos ocultos siempre pueden ver membresías de grupo.
-
-Tenga en cuenta que usted NO puede cambiar esta configuración si los grupos ya tienen miembros.';
-$string['visibilityall'] = 'Visible para todos';
-$string['visibilitymembers'] = 'Solamente visible para miembros';
-$string['visibilitynone'] = 'Oculto';
-$string['visibilityown'] = 'Solamente ver membresía propia';
-$string['visibilityshort'] = 'Visibilidad';

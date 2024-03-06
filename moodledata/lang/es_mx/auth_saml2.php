@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_saml2', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_saml2', language 'es_mx', version '3.10'.
  *
  * @package     auth_saml2
  * @category    string
@@ -125,9 +125,11 @@ $string['sspversion'] = 'Versión de SimpleSAMLphp';
 $string['stateorprovincename'] = 'Estado o Provincia';
 $string['suspendeduser'] = 'Usted ha ingresado exitosamente como \'{$a}\' pero su cuenta ha sido suspendida en Moodle.';
 $string['taskmetadatarefresh'] = 'Trabajo de refresco de metadatos';
+$string['test_auth'] = '<a href="{$a}">Probar isAuthenticated y el ingreso</a>';
 $string['test_auth_button_login'] = 'Ingreso IdP';
 $string['test_auth_button_logout'] = 'Salida IdP';
 $string['test_auth_str'] = 'Probar isAuthenticated e Ingreso';
+$string['test_passive'] = '<a href="{$a}">Probar usando isPassive</a>';
 $string['test_passive_str'] = 'Probar usando isPassive';
 $string['tolower'] = 'Minúscula';
 $string['tolower_help'] = '¿Aplicar minúsculas a atributo IdP antes de coincidir?';

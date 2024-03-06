@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customcertelement_coursename', language 'es_mx', version '4.2'.
+ * Strings for component 'customcertelement_coursename', language 'es_mx', version '3.10'.
  *
  * @package     customcertelement_coursename
  * @category    string
@@ -25,9 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['coursefullname'] = 'Nombre completo';
-$string['coursenamedisplay'] = 'Tipo';
-$string['coursenamedisplay_help'] = '¿Mostrar el nombre corto o el nombre completo del curso?';
-$string['courseshortname'] = 'Nombre corto';
 $string['pluginname'] = 'Nombre del curso';
 $string['privacy:metadata'] = 'El plugin de Nombre de curso no almacena ningún dato personal.';

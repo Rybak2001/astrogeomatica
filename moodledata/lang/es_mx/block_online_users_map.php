@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_online_users_map', language 'es_mx', version '4.2'.
+ * Strings for component 'block_online_users_map', language 'es_mx', version '3.10'.
  *
  * @package     block_online_users_map
  * @category    string
@@ -27,10 +27,10 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['centrelat'] = 'Latitud inicial';
 $string['centrelng'] = 'Longitud inicial';
-$string['centreuser'] = 'Centrar en ubicación del usuario';
+$string['centreuser'] = 'Centrar en localización de usuario';
 $string['configcentrelat'] = 'Latitud central inicial del mapa - en formato decimal simple (no usar grados/minutos)';
 $string['configcentrelng'] = 'Longitud central inicial del mapa - en formato decimal simple (no usar grados/minutos)';
-$string['configcentreuser'] = 'Centrar el mapa en la ubicación de los usuarios actuales, con el nivel de aumento del zoom desde arriba. Esta configuración tiene preferencia sobre las coordinadas de lat/lng de arriba, a menos que el usuario actual no tenga una ubicación válida';
+$string['configcentreuser'] = 'Centrar el mapa en la localización de los usuarios actuales, con el nivel de aumento del zoom desde arriba. Esta configuración tiene preferencia sobre las coordinadas de lat/lng de arriba, a menos que el usuario actual no tenga una localización válida';
 $string['configdebug'] = 'Mostrar mensajes de depuración (debug) al correr el cron';
 $string['configgeonamesurl'] = 'URL a la API de Geonames';
 $string['configgeonamesusername'] = 'Su nombredeusuario en Geonames. Usted puede obtener su propio nombredeusuario de {$a}. Si Usted le deja al bloque que siga usando el nombredeusuario de demostración por defecto, Usted podrá encontrase con que fallan sus llamadas a actualizar las localizaciones de usuarios.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forumngtype_general', language 'es_mx', version '4.2'.
+ * Strings for component 'forumngtype_general', language 'es_mx', version '3.10'.
  *
  * @package     forumngtype_general
  * @category    string

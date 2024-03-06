@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'checklist', language 'es_mx', version '4.2'.
+ * Strings for component 'checklist', language 'es_mx', version '3.10'.
  *
  * @package     checklist
  * @category    string
@@ -88,15 +88,13 @@ $string['editdatesstart'] = 'Editar fechas';
 $string['editdatesstop'] = 'Suspender fechas de edición';
 $string['edititem'] = 'Editar este item';
 $string['emailoncomplete'] = 'Mandar correo electrónico cuando la lista de cotejo esté completa:';
-$string['emailoncomplete_help'] = 'Cuando se completa una lista de cotejo, se puede mandar un correo electrónico de notificación: al estudiante que la completó, a todos los profesores en el curso, o a ambos.<br /> Un administrador puede controlar quienes reciben este correo al usar la capacidad \'mod:checklist/emailoncomplete\' - de forma predeterminada, todos los profesores y profesores no-editores tienen esta capacidad.
-Para este propósito, una lista de cotejo es considerada como \'completa\' una vez que todos los elementos han sido activados ; esto no considera ningún porcentaje de finalización definido en las configuraciones de \'Finalización de actividad\'.';
+$string['emailoncomplete_help'] = 'Cuando se completa una lista de cotejo, se puede mandar un correo electrónico de notificación: al estudiante que la completó, a todos los profesores en el curso, o a ambos.<br /> Un administrador puede controlar quienes reciben este correo al usar la capacidad \'mod:checklist/emailoncomplete\' - de forma predeterminada, todos los profesores y profesores no-editores tienen esta capacidad.';
 $string['emailoncompletebody'] = 'El usuario {$a->user} ha completado la lista de cotejo \'{$a->checklist}\'  en el curso \'{$a->coursename}\'
 Vea la lista de cotejo aquí:';
 $string['emailoncompletebodyown'] = 'Usted ha completado la lista de cotejo \'{$a->checklist}\'  en el curso \'{$a->coursename}\' Vea la lista de cotejo aquí:';
 $string['emailoncompletesubject'] = 'El usuario {$a->user} ha completado la lista de cotejo  \'{$a->checklist}\'';
 $string['emailoncompletesubjectown'] = 'Usted ha completado la lista de cotejo \'{$a->checklist}\'';
 $string['enterurl'] = 'Ingresar URL...';
-$string['errorchecklistitemnotvalid'] = '¡La ID del elemento de lista de cotejo no pertenece a este módulo de curso!';
 $string['eventchecklistcomplete'] = 'Lista de cotejo completa';
 $string['eventeditpageviewed'] = 'Editar página visible';
 $string['eventreportviewed'] = 'Reporte visto';
@@ -127,7 +125,6 @@ $string['lockteachermarks_help'] = 'Cuando se habilita esta configuración, una 
 $string['lockteachermarkswarning'] = 'Nota: Una vez que Usted haya guardado estas calificaciones, Usted ya no podrá cambiar ninguna calificación de \'Si\'';
 $string['modulename'] = 'Lista de cotejo';
 $string['modulename_help'] = 'El módulo de Lista de Cotejo (checklist) le permite al profesor crear una lista de cotejo / lista de trabajos / lista de pendientes, para que sus estudiantes trabajen al respecto.';
-$string['modulename_link'] = 'mod/checklist/view';
 $string['modulenameplural'] = 'Listas de cotejo';
 $string['moveitemdown'] = 'Mover elemento hacia abajo';
 $string['moveitemup'] = 'Mover elemento hacia arriba';
@@ -157,14 +154,6 @@ $string['privacy:metadata:checklist_comment:commentby'] = 'La ID del usuario (pr
 $string['privacy:metadata:checklist_comment:itemid'] = 'La ID del ítem de la lista de cotejo con el que se relaciona el comentario';
 $string['privacy:metadata:checklist_comment:text'] = 'El texto del comentario';
 $string['privacy:metadata:checklist_comment:userid'] = 'La ID del usuario (estudiante) con el cual se relaciona este comentario';
-$string['privacy:metadata:checklist_comment_student'] = 'Comentarios que han sido hechos por un estudiante en una lista de cotejo dada';
-$string['privacy:metadata:checklist_comment_student:itemid'] = 'La ID del elemento de la lista de cotejo con la cual se relaciona el comentario';
-$string['privacy:metadata:checklist_comment_student:text'] = 'El texto del comentario';
-$string['privacy:metadata:checklist_comment_student:usermodified'] = 'La ID del usuario (estudiante) que hizo elcomentario';
-$string['privacy:metadata:checklist_comp_notification'] = 'Monitorear cuales usuarios ya han completado todos los elementos en sus listas de cotejo, para que no se les vuelvan a enviar Email nuevamente.';
-$string['privacy:metadata:checklist_comp_notification:checklistid'] = 'La ID de la lista de cotejo';
-$string['privacy:metadata:checklist_comp_notification:iscomplete'] = '1 completada y 0 no completadas';
-$string['privacy:metadata:checklist_comp_notification:userid'] = 'La ID del usuario que completó la lista de cotejo';
 $string['privacy:metadata:checklist_item'] = 'Información acerca de ítems privados que el usuario ha añadido a la lista de cotejo dada';
 $string['privacy:metadata:checklist_item:checklist'] = 'La ID de la lista de cotejo a la que fue añadido este ítem  privado';
 $string['privacy:metadata:checklist_item:displaytext'] = 'El texto del ítem privado de la lista de cotejo';
@@ -184,10 +173,6 @@ $string['showhidechecked'] = 'Mostrar/ocultar ítems seleccionados';
 $string['showmymoodle'] = 'Mostrar las Listas de Cotejo en la página de \'Mi Moodle\'';
 $string['showprogressbars'] = 'Mostrar barras de progreso';
 $string['showupdateablemymoodle'] = 'Mostrar solamente las listas de cotejo actualizables en la página de \'Mi Moodle\'';
-$string['student_comment_created'] = 'Comentario de estudiante creado';
-$string['student_comment_updated'] = 'Comentario de estudiante actualizado';
-$string['student_comment_updated_desc'] = 'El usuario con id {$a->userid} ha actualizado un comentario en la lista de cotejo con ID del módulo de curso  {$a->cmid} para que tenga el texto \'{$a->commenttext}\'';
-$string['studentcomments'] = 'El usuario puede añadir sus propios comentarios a elementos de lista de cotejo';
 $string['teacheralongsidecheck'] = 'Estudiante y profesor';
 $string['teachercomments'] = 'Profesores pueden agregar comentarios';
 $string['teacherdate'] = 'Fecha en la que un profesor actualizó por última vez este item';
@@ -203,7 +188,6 @@ $string['togglecolumn'] = 'Alternar columna';
 $string['toggledates'] = 'Alternar nombres y fechas';
 $string['togglerow'] = 'Alternar fila';
 $string['unindentitem'] = 'Item no indentado';
-$string['update_student_comment_failed'] = 'No se pudo actualizar comentario del estudiante';
 $string['updatecompletescore'] = 'Guardar calificaciones de acompletado';
 $string['updateitem'] = 'Actualizar';
 $string['userdate'] = 'Fecha en la que se actualizó por última vez este item';

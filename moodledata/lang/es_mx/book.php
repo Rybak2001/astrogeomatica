@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'book', language 'es_mx', version '4.2'.
+ * Strings for component 'book', language 'es_mx', version '3.10'.
  *
  * @package     book
  * @category    string
@@ -55,12 +55,10 @@ $string['indicator:cognitivedepth'] = 'Libro cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en un recurso Libro.';
 $string['indicator:cognitivedepthdef'] = 'Libro cognitivo';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje de compromiso cognitivo ofrecido por las actividades de Libro durante este intervalo de análisis (Niveles = Sin ver, Ver)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Libro social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en un recurso Libro.';
 $string['indicator:socialbreadthdef'] = 'Libro social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Libro durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['modulename'] = 'Libro';
 $string['modulename_help'] = 'El módulo libro le permite a un profesor crear un recurso multi-página en un formato similar-a-libro, con capítulos y subcapítulos. Los libros pueden contener archivos multimedia y texto y son útiles para mostrar pasajes largos de información que puede dividirse en secciones.
 
@@ -69,7 +67,6 @@ Un libro puede usarse
 * Para mostrar material de lectura para módulos individuales de estudio
 * Como un manual departamental para los empleados
 * Como un portafolio demostrativo del trabajo del estudiante';
-$string['modulename_link'] = 'mod/book/view';
 $string['modulenameplural'] = 'Libros';
 $string['movechapterdown'] = 'Mover abajo capítulo"{$a}"';
 $string['movechapterup'] = 'Mover arriba capítulo"{$a}"';

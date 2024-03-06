@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'facetoface', language 'es_mx', version '4.2'.
+ * Strings for component 'facetoface', language 'es_mx', version '3.10'.
  *
  * @package     facetoface
  * @category    string
@@ -35,8 +35,6 @@ $string['addnewnoticelink'] = 'Crear un nuevo aviso del sitio';
 $string['addremoveattendees'] = 'Añadir/remover asistentes';
 $string['addsession'] = 'Añadir una nueva sesión';
 $string['addstudent'] = 'Añadir estudiante';
-$string['addtoallsessions'] = 'Añadir usuarios a todas las sesiones (próximas)';
-$string['addtoallsessions_help'] = 'Use esta opción si desea añadir usuarios a todas las sesiones próximas de Face-to-Face';
 $string['alllocations'] = 'Todos los lugares';
 $string['allowcancellations'] = 'Permitir cancelaciones apuntados';
 $string['allowcancellations_help'] = 'Si se activa, los asistentes a la sesión podrán cancelar sus pre-inscripciones';
@@ -58,7 +56,6 @@ $string['attendance'] = 'Asistencia';
 $string['attendanceinstructions'] = 'Seleccionar usuarios que asistieron a la sesión';
 $string['attendedsession'] = 'Sesión asistida';
 $string['attendees'] = 'Asistentes';
-$string['attendeesexporttofileheading'] = 'Asistentes exportados a archivo';
 $string['booked'] = 'Reservada';
 $string['bookingcancelled'] = 'Su reservación ha sido cancelada.';
 $string['bookingcompleted'] = 'Su reservación ha sido completada.';
@@ -115,9 +112,6 @@ $string['cost'] = 'Costo';
 $string['costheading'] = 'Costo de sesión';
 $string['crontask'] = 'Trabajos de mantenimiento en Cara-a-Cara';
 $string['currentstatus'] = 'Estatus actual';
-$string['customfieldid'] = 'ID campo personalizado';
-$string['customfieldnewshortname'] = 'Nombre corto nuevo de campo personalizado';
-$string['customfieldoriginalshortname'] = 'Nombre corto original de campo personalizado';
 $string['customfieldsheading'] = 'Campos personalizados de sesión';
 $string['date'] = 'Fecha';
 $string['dateadd'] = 'Añadir una nueva fecha';
@@ -324,10 +318,6 @@ Los estudiantes pueden ver e inscribirse a sesiones con su asistencia supervisad
 $string['modulenameplural'] = 'Cara-a-Cara';
 $string['moreinfo'] = 'Más información';
 $string['multidate'] = '(multi-fecha)';
-$string['multiple'] = 'Múltiple';
-$string['multiplesignupmethod'] = 'Método de apuntarse múltiple';
-$string['multiplesignupperactivity'] = 'Por actividad';
-$string['multiplesignuppersession'] = 'Por sesión';
 $string['newmanageremailaddress'] = 'Dirección Email de mánager';
 $string['noactionableunapprovedrequests'] = 'No hay solicitudes no-aprobadas sobre las que pueda actuarse';
 $string['nocustomfields'] = '<p>No hay campos personalizados definidos.</p>';
@@ -433,7 +423,6 @@ $string['seeattendees'] = 'Ver asistentes';
 $string['sentremindermanager'] = 'Se envió Email  recordatorio al mánager del usuario';
 $string['sentreminderuser'] = 'Se envió Email  recordatorio al usuario';
 $string['sessiondate'] = 'La fecha de la sesión es la fecha en la cual ocurrirá la sesión.';
-$string['sessiondateandtime'] = '{$a->startdatetime} - {$a->enddatetime} (time zone: {$a->timezone})';
 $string['sessiondatetime'] = 'Fecha/hora de sesión';
 $string['sessiondatetimeknown'] = 'Fecha/hora de sesión conocida';
 $string['sessiondatetimeknown_help'] = '**Si es que se conoce la fecha/hora de una sesión**
@@ -464,13 +453,15 @@ $string['sessions'] = 'Sesiones';
 $string['sessionsoncoursepage'] = 'Sesiones mostradas en la página del curso';
 $string['sessionsoncoursepage_help'] = 'Este es el número de sesiones para cada actividad Cara-a-Cara que se mostrarán en la página principal del curso';
 $string['sessionstartdate'] = 'Fecha de inicio de sesión';
+$string['sessionstartdateandtime'] = '{$a->startdate}, {$a->starttime} - {$a->endtime} (zona horaria: {$a->timezone})';
+$string['sessionstartdateandtimewithouttimezone'] = '{$a->startdate}, {$a->starttime} - {$a->endtime}';
+$string['sessionstartfinishdateandtime'] = '{$a->startdate} - {$a->enddate}, {$a->starttime} - {$a->endtime} (zona horaria: {$a->timezone})';
+$string['sessionstartfinishdateandtimewithouttimezone'] = '{$a->startdate} - {$a->enddate}, {$a->starttime} - {$a->endtime}';
 $string['sessionstarttime'] = 'Hora de inicio de sesión';
 $string['sessionvenue'] = 'Sitio de la sesión';
 $string['setting:addchangemanageremail'] = 'Pedirles a los usuarios las direcciones de Email de sus mánagers.';
 $string['setting:addchangemanageremail_caption'] = 'Email del mánager:';
 $string['setting:addchangemanageremaildefault'] = 'Pedirles a los usuarios las direcciones de Email de sus mánagers.';
-$string['setting:attendeesexportfields'] = 'Seleccionar los campos a ser incluidos en una lista de asistentes de sesión exportados. Esto será adicionalmente al nombre y apellidos de los asistentes.';
-$string['setting:attendeesexportfields_caption'] = 'Campos de exportación de asistentes';
 $string['setting:defaultcancellationinstrmngr'] = 'Mensaje por defecto para cancelación que se envía a los mánagers.';
 $string['setting:defaultcancellationinstrmngr_caption'] = 'Mensaje de cancelación (mánagers)';
 $string['setting:defaultcancellationinstrmngrdefault'] = '*** Aviso solamente ****
@@ -527,7 +518,6 @@ Para re-agendar su reservación Usted necesitará cancelar esta reservación y e
 [detalles]
 
 Usted recibirá un recordatorio [periodorecordatorio] días hábiles antes de que inicie el curso.';
-$string['setting:defaultconfirmationmessagedefault2'] = '<p><b>¡Gracias por apuntarse!</b></p>';
 $string['setting:defaultconfirmationsubject'] = 'Línea de asunto para Emails de confirmación';
 $string['setting:defaultconfirmationsubject_caption'] = 'Asunto de confirmación';
 $string['setting:defaultconfirmationsubjectdefault'] = 'Confirmación de reservación de Curso:
@@ -614,8 +604,6 @@ $string['setting:defaultwaitlistedsubject_caption'] = 'Asunto de lista-de-espera
 $string['setting:defaultwaitlistedsubjectdefault'] = 'Aviso de lista-de-espera para [nombrecaraacara]';
 $string['setting:disableicalcancel'] = 'Desabilitar Emails de cancelación con un archivo anexo de iCalendar';
 $string['setting:disableicalcancel_caption'] = 'Deshabilitar cancelaciones de iCalendar:';
-$string['setting:enableapprovals'] = 'Cuando está deshabilitado, la opción para añadir aprobaciones vía la configuración de la actividad ya no está disponible.';
-$string['setting:enableapprovals_caption'] = 'Habilitar aprobaciones del mánager:';
 $string['setting:fromaddress'] = 'Qué aparecerá en el campo \'De\' (remitente) de los recordatorios por Email enviados por este módulo.';
 $string['setting:fromaddress_caption'] = 'Dirección del remitente:';
 $string['setting:fromaddressdefault'] = 'moodle@ejemplo.com.mx';
@@ -624,8 +612,6 @@ $string['setting:hidecost_caption'] = 'Ocultar costo y descuento:';
 $string['setting:hidediscount'] = 'Ocultar solamente el campo del código de descuento.';
 $string['setting:hidediscount_caption'] = 'Ocultar descuento:';
 $string['setting:isfilter'] = 'Mostrar como un filtro';
-$string['setting:limit_candidates'] = 'Limitar candidatos a usuarios inscritos en cursos';
-$string['setting:limit_candidates_caption'] = 'Limitar candidatos';
 $string['setting:manageraddressformat'] = 'Sufijo que debe estar presente en la dirección del Email del mánager para que se considere válida.';
 $string['setting:manageraddressformat_caption'] = 'Sufijo requerido:';
 $string['setting:manageraddressformatdefault'] = '';
@@ -654,7 +640,6 @@ $string['signupfor'] = 'Apuntarse para {$a}';
 $string['signupforsession'] = 'Apuntarse para una sesión futura disponible';
 $string['signupforthissession'] = 'Apuntarse para esta sesión Cara-a-Cara';
 $string['signups'] = 'Apuntados';
-$string['single'] = 'Único';
 $string['sitenoticesheading'] = 'Avisos del sitio';
 $string['status'] = 'Estatus';
 $string['status_approved'] = 'Aprobado';
@@ -697,7 +682,6 @@ $string['unknowntime'] = '(hoora desconocida)';
 $string['upcomingsessions'] = 'Sesiones futuras';
 $string['upcomingsessionslist'] = 'Lista de todas las sesiones futuras para esta actividad Cara-a-Cara';
 $string['updaterequests'] = 'Actualizar solicitudes';
-$string['upgradeinfofacetoface'] = '{$a}: Información de actualización de Face to Face';
 $string['upgradeprocessinggrades'] = 'Procesando calificaciones de Cara-a-Cara; esto puede tomar un rato si hubiera muchas sesiones...';
 $string['usercalentry'] = 'Mostrar entrada en el calendario del usuario';
 $string['usercalentry_help'] = 'Cuando se active esta configuración, se añade una entrada de Evento de Usuario al calendario de un asistente a una sesión Cara-a-Cara. Cuando se desactiva, esto impide que aparezca un evento duplicado en el calendario de sesión de usuario, donde Usted tenga configurado el mostrar calendario en Curso o Sitio.';

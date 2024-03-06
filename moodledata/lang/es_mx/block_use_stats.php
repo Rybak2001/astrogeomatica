@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_use_stats', language 'es_mx', version '4.2'.
+ * Strings for component 'block_use_stats', language 'es_mx', version '3.10'.
  *
  * @package     block_use_stats
  * @category    string
@@ -61,8 +61,6 @@ $string['configkeepalivecontrolvalue'] = 'Nombre dle ítem de control';
 $string['configkeepalivecontrolvalue_desc'] = 'coincidirá la regla si la capacidad está permitida o si el campo del perfil tiene un valor que no sea nulo. La configuración por defecto excluye a los administradores.';
 $string['configkeepalivedelay'] = 'Periodo de mantener-viva la sesión';
 $string['configkeepalivedelay_desc'] = 'Retraso entre dos seguimientos de bitácora de mantenerse-vivo para usuarios conectados (segundos). Consérvela tan grande como sea posible para disminuir la carga sobre el servidor cuando están conectados varios usuarios, mientras se mantiene el seguimiento consistente.';
-$string['configkeepaliveenable'] = 'Habilitar \'keepalive\' de sesión';
-$string['configkeepaliveenable_desc'] = 'El método de mantener viva (keepalive) de la sesión enviará pulsos monitoreados constantemente a Moodle cuando un usuario esté viendo una pantalla Moodle en su terminal. Tenga en cuenta que este método debería de ser usado con cuidado, porque potencialmente puede estar midiendo un comportamiento local inconsistente.';
 $string['configkeepaliverule'] = 'Mandar mantener-viva si';
 $string['configkeepaliverule_desc'] = 'Regla para controlar enviar Ajax mantener-viva';
 $string['configlastcompiled'] = 'Fecha de registro de últimas bitácoras compiladas';
@@ -80,6 +78,8 @@ $string['denyrule'] = 'Permitir enviar a menos que coincida con regla';
 $string['dimensionitem'] = 'Clases observables';
 $string['displayactivitiestime'] = 'Solamente el tiempo asignado a actividades efectivas en el curso';
 $string['displaycoursetime'] = 'Tiempo real del curso (todo el tiempo empleado en todos los contextos del curso)';
+$string['emulatecommunity'] = 'Emular a la versión de la comunidad';
+$string['emulatecommunity_desc'] = 'Si se habilita, el plugin se comportará como la versión pública para la comunidad . ¡Esto podría hacer que se pierdan características!';
 $string['errornorecords'] = 'No hay información de seguimiento';
 $string['eventscount'] = 'Visitas';
 $string['eventusestatskeepalive'] = 'Mantener-viva sesión';
@@ -97,10 +97,14 @@ $string['noavailablelogs'] = 'Sin bitácoras disponibles';
 $string['onthismoodlefrom'] = 'aquí desde';
 $string['other'] = 'Otra presencia fuera de curso';
 $string['othershort'] = 'OTRO';
+$string['plugindist'] = 'Distribución del plugin';
+$string['plugindist_desc'] = '<p>Este plugin es la versión para la comunidad y es publicado para que todos lo usen "como es" y que revisen la aplicación del núcleo del plugin. Existe una versión "pro" de este plugin y es distribuída bajo condiciones tales que alimenten los esfuerzos en el ciclo vital, las actualizaciones, documentación y mejoras.</p>
+<p>Por favor contacte a uno de nuestros distribuidores para obtener soporte para la versión "Pro".</p>
+<ul><li><a href="http://www.activeprolearn.com/plugin.php?plugin=block_use_stats&lang=en">ActiveProLearn SAS</a></li>
+<li><a href="http://www.edunao.com">Edunao SAS</a></li></ul>';
 $string['pluginname'] = 'Estadísticas de Uso';
 $string['pluginname_desc'] = 'Un bloque que compila los tiempos de sesión';
 $string['printpdf'] = 'Imprimir PDF';
-$string['privacy:metadata'] = 'El bloque Usar Estadísticas no almacena directamente ningún dato que pertenezca a usuarios';
 $string['profilefieldcontrol'] = 'Campo de perfil';
 $string['showdetails'] = 'Mostrar detalles';
 $string['sliding'] = 'Ventana de tiempo deslizante';
@@ -123,5 +127,4 @@ $string['use_stats_description'] = 'Al publicar este servicio, Usted permite que
 $string['use_stats_name'] = 'Acceso remoto a estadísticas';
 $string['use_stats_rpc_service'] = 'Acceso remoto a estadísticas';
 $string['use_stats_rpc_service_name'] = 'Acceso remoto a estadísticas';
-$string['warningusestateenrolfilter'] = 'El comprobador de inscripción está en el bloque Usar Estadísticas. Esto puede tener efectos en reportes si la actividad de los usuarios cae antes de la fecha de inicio de la inscripción más reciente.';
 $string['youspent'] = 'Usted ya gastó;';

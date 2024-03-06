@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_embedquestion', language 'es_mx', version '4.2'.
+ * Strings for component 'report_embedquestion', language 'es_mx', version '3.10'.
  *
  * @package     report_embedquestion
  * @category    string
@@ -33,7 +33,7 @@ $string['attempts'] = 'Intentos a pregunta incrustada';
 $string['attemptsatquestion'] = 'Intentos a pregunta {$a}';
 $string['attemptsummary'] = 'Resumen del Intento';
 $string['attemptsummaryby'] = 'Intentada por: {$a}';
-$string['attemptsummarycontext'] = 'Ubicación: {$a}';
+$string['attemptsummarycontext'] = 'Localización: {$a}';
 $string['attemptsummaryembedid'] = 'ID incrustar: {$a}';
 $string['attemptsummaryfor'] = 'Resumen del intento para:';
 $string['attemptsummaryquestion'] = 'Pregunta: {$a}';
@@ -66,7 +66,7 @@ $string['eventactivityreportviewed'] = 'Reporte de actividad del progreso de pre
 $string['eventcoursereportviewed'] = 'Reporte del curso del progreso de preguntas incrustadas visto';
 $string['filtering'] = 'Filtrado';
 $string['latestattemptstatus'] = 'Estado del intento más reciente';
-$string['locationfilter'] = 'Filtro de ubicación';
+$string['locationfilter'] = 'Filtro de localización';
 $string['lookback'] = 'Intentos hechos en el/los';
 $string['nday'] = 'Último {$a} día';
 $string['ndays'] = 'Últimos {$a} días';

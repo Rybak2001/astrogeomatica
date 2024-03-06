@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshop', language 'es_mx', version '4.2'.
+ * Strings for component 'workshop', language 'es_mx', version '3.10'.
  *
  * @package     workshop
  * @category    string
@@ -25,14 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activitydate:assessmentsclose'] = 'Evaluaciones cierran:';
-$string['activitydate:assessmentsclosed'] = 'Evaluaciones cerradas:';
-$string['activitydate:assessmentsopen'] = 'Evaluaciones abren:';
-$string['activitydate:assessmentsopened'] = 'Evaluaciones abiertas:';
-$string['activitydate:submissionsclose'] = 'Envíos cierran:';
-$string['activitydate:submissionsclosed'] = 'Envíos cerrados:';
-$string['activitydate:submissionsopen'] = 'Envíos abren:';
-$string['activitydate:submissionsopened'] = 'Envíos abiertos:';
 $string['aggregategrades'] = 'Recalcular las calificaciones';
 $string['aggregation'] = 'Agregación de calificaciones';
 $string['allocate'] = 'Asignar envíos';
@@ -43,10 +35,8 @@ $string['allocationdone'] = 'Asignación hecha';
 $string['allocationerror'] = 'Error de asignación';
 $string['allowedfiletypesforoverallfeedback'] = 'Tipos de archivos permitidos como anexos a retroalimentación';
 $string['allowedfiletypesforoverallfeedback_help'] = 'Los tipos de archivos permitidos para retroalimentación pueden restringirse al proporcionar una lista de los tipos de archivo permitidos. Si el campo se deja vacío, entonces todos los tipos de archivo están permitidos.';
-$string['allowedfiletypesforoverallfeedback_link'] = 'admin/tool/filetypes/index';
 $string['allowedfiletypesforsubmission'] = 'Tipos de archivos permitidos como anexos a envíos';
 $string['allowedfiletypesforsubmission_help'] = 'Los tipos de archivos permitidos para envío pueden restringirse al proporcionar una lista de los tipos de archivo permitidos. Si el campo se deja vacío, entonces todos los tipos de archivo están permitidos.';
-$string['allowedfiletypesforsubmission_link'] = 'admin/tool/filetypes/index';
 $string['allsubmissions'] = 'Todos los envíos ({$a})';
 $string['alreadygraded'] = 'Ya calificada';
 $string['areaconclusion'] = 'Texto de conclusión';
@@ -130,7 +120,6 @@ $string['eventassessableuploaded'] = 'Un envío ha sido subido';
 $string['eventassessmentevaluated'] = 'Valoración evaluada';
 $string['eventassessmentevaluationsreset'] = 'Evaluación de valoración reiniciada';
 $string['eventassessmentreevaluated'] = 'Valoración re-evaluada';
-$string['eventphaseautomaticallyswitched'] = 'Fase cambiada automáticamente';
 $string['eventphaseswitched'] = 'Fase cambiada';
 $string['eventsubmissionassessed'] = 'Envío evaluado';
 $string['eventsubmissionassessmentsreset'] = 'Valoraciones de envío purgadas';
@@ -178,7 +167,7 @@ $string['gradegivento'] = '&gt;';
 $string['gradeinfo'] = 'Calificación: {$a->received} of {$a->max}';
 $string['gradeitemassessment'] = '{$a->workshopname} (valoración)';
 $string['gradeitemsubmission'] = '{$a->workshopname} (envío)';
-$string['gradeover'] = 'Anular calificación por  envío';
+$string['gradeover'] = 'Pasar por alto calificación del envío';
 $string['gradereceivedfrom'] = '&lt;';
 $string['gradesreport'] = 'Reporte de calificaciones del Taller';
 $string['gradetopassgrading'] = 'Calificación aprobatoria de Valoración';
@@ -195,12 +184,10 @@ $string['indicator:cognitivedepth'] = 'Taller cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Taller.';
 $string['indicator:cognitivedepthdef'] = 'Taller cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades de Taller durante este intervalo de análisis (Niveles = Sin Ver, Ver, Enviar, Ver retroalimentación, Comentar en retroalimentación, Reenviar después de ver retroalimentación)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Taller social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Taller.';
 $string['indicator:socialbreadthdef'] = 'Taller social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Taller durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = 'Info';
 $string['instructauthors'] = 'Instrucciones para el envío';
 $string['instructreviewers'] = 'Instrucciones para la valoración';
@@ -219,7 +206,6 @@ Los estudiantes pueden enviar cualquier contenido digital (archivos), tales como
 Los envíos son valorados empleando un formato de valoración de criterios múltiples definido por el profesor. El proceso de revisión por pares  y el formato para comprender cómo funciona la valoración se pueden practicar por anticipado con envíos de muestra proporcionados por el profesor, junto con una valoración de referencia. A los estudiantes se les dará la oportunidad de valorar uno o más de los envíos de sus pares estudiantes. Los que envían y los que valoran pueden permanecer anónimos si se requiere así.
 
 Los estudiantes tendrán dos calificaciones para la actividad de taller: una calificación por  enviarlo y otra por la valoración de sus pares. Ambas calificaciones se guardan en el libro de calificaciones.';
-$string['modulename_link'] = 'mod/workshop/view';
 $string['modulenameplural'] = 'Talleres';
 $string['myassessments'] = 'Mis evaluaciones';
 $string['mysubmission'] = 'Mi envío';
@@ -334,7 +320,7 @@ $string['saveandpreview'] = 'Guardar y previsualizar';
 $string['saveandshownext'] = 'Guardar y mostrar siguiente';
 $string['search:activity'] = 'Taller - información de actividad';
 $string['selfassessmentdisabled'] = 'Auto-valoración deshabilitada';
-$string['showingperpage'] = 'Mostrando {$a} elementos por página';
+$string['showingperpage'] = 'Mostrando {$a} items por página';
 $string['showingperpagechange'] = 'Cambiar ...';
 $string['someuserswosubmission'] = 'Al menos un autor aún no ha enviado su trabajo';
 $string['sortasc'] = 'Clasificacion ascendente';
@@ -370,7 +356,6 @@ $string['submissiongradeof'] = 'Calificación por el envío (de {$a})';
 $string['submissionlastmodified'] = 'Última modificación';
 $string['submissionrequiredcontent'] = 'Usted necesita ingresar texto aquí o subir un archivo';
 $string['submissionrequiredfile'] = 'Usted necesita añadir un archivo o ingresar texto.';
-$string['submissionsallocation'] = 'Asignación de envíos';
 $string['submissionsettings'] = 'Parámetros de los envíos';
 $string['submissionsreport'] = 'Reporte de envíos de taller';
 $string['submissionstart'] = 'Abierto para envíos desde';
@@ -461,4 +446,3 @@ $string['workshopname'] = 'Nombre del taller';
 $string['yourassessmentfor'] = 'Su valoración para {$a}';
 $string['yourgrades'] = 'Sus calificaciones';
 $string['yoursubmission'] = 'Su envío';
-$string['yoursubmissionwithassessments'] = 'Su envío con evaluaciones';

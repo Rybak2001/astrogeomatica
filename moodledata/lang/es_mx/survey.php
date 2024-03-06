@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'survey', language 'es_mx', version '4.2'.
+ * Strings for component 'survey', language 'es_mx', version '3.10'.
  *
  * @package     survey
  * @category    string
@@ -187,8 +187,7 @@ Sus respuestas, pensadas cuidadosamente, nos ayudarán a mejorar la manera de pr
 
 Muchas gracias por su colaboración.';
 $string['collespname'] = 'COLLES (Preferida)';
-$string['completiondetail:submit'] = 'Enviar respuestas';
-$string['completionsubmit'] = 'El estudiante debe hacer un envío';
+$string['completionsubmit'] = 'El estudiante debe de enviar a esta actividad para completarla';
 $string['customintro'] = 'Descripción';
 $string['deleteallanswers'] = 'Eliminar todas las respuestas de encuesta';
 $string['deleteanalysis'] = 'Eliminar el análisis de las respuestas';
@@ -211,12 +210,10 @@ $string['indicator:cognitivedepth'] = 'Encuesta predefinida cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Encuesta predefinida.';
 $string['indicator:cognitivedepthdef'] = 'Encuesta cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje de compromiso cognitivo ofrecido por las actividades de Encuesta durante este intervalo de análisis (Niveles = Sin ver, Ver, Enviar)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Encuesta predefinida social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Encuesta predefinida.';
 $string['indicator:socialbreadthdef'] = 'Encuesta social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Encuesta durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['introtext'] = 'Texto de introducción';
 $string['invalidsurveyid'] = 'ID de la encuesta incorrecto';
 $string['invalidtmptid'] = 'Id de plantilla no válido';
@@ -225,7 +222,6 @@ $string['modulename'] = 'Encuesta predefinida';
 $string['modulename_help'] = 'El módulo de actividad Encuesta predefinida proporciona un número de instrumentos de encuesta verificada que han demostrado utilidad para evaluar y estimular el aprendizaje en el entorno en línea. El profesor puede utilizarlos para recopilar información que le ayude a conocer mejor su clase y reflexionar sobre su propia enseñanza.
 
 Observe que estas herramientas de encuesta están pre-pobladas con preguntas. Los profesores que deseen crear sus propias encuestas deberían emplear mejor el módulo de actividad retroalimentación.';
-$string['modulename_link'] = 'mod/survey/view';
 $string['modulenameplural'] = 'Encuestas';
 $string['name'] = 'Nombre';
 $string['newsurveyresponses'] = 'Nuevas respuestas a la encuesta';
@@ -279,7 +275,6 @@ $string['surveytype_help'] = '<p>Hay disponibles tres tipos de Encuestas predefi
 crítica y argumentativa).</P>
 <p>* Critical incidents survey, o Encuesta de Incidentes Críticos</p>
 <p>* COLLES - Constructivist on line Learning Enviroment Survey, o lo que es lo mismo, Encuesta en línea sobre el Ambiente de Aprendizaje Constructivista. Sirve para hacer el seguimiento del nivel en que la capacidad interactiva de la World Wide Web puede ser explotado para los estudiantes involucrarse en prácticas educativas dinámicas.';
-$string['surveytype_link'] = 'mod/survey/mod';
 $string['thanksforanswers'] = 'Gracias por responder a esta encuesta, {$a}';
 $string['time'] = 'Tiempo';
 $string['viewsurveyresponses'] = 'Ver las respuestas a la encuesta {$a}';

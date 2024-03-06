@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_certification', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_certification', language 'es_mx', version '3.10'.
  *
  * @package     tool_certification
  * @category    string
@@ -53,16 +53,21 @@ $string['archivedon'] = 'Archivada en';
 $string['autocreategroups'] = 'Añadir a grupos del curso';
 $string['autocreategroupsasinprogram'] = 'Como está definido en el programa';
 $string['autocreategroupscertification'] = 'Crear grupos para esta certificación';
+$string['basic'] = 'Básico';
+$string['basicdetails'] = 'Detalles básicos';
 $string['calendarduedate'] = 'Fecha esperada para certificación {$a}';
 $string['calendarexpirydate'] = 'Fecha de expiración para certificación {$a}';
+$string['cannotallocateuser'] = 'No puede asignarse usuario a certificación {$a}';
 $string['certification'] = 'Certificación';
 $string['certification:allocateuser'] = 'Permiso para asignar usuario';
 $string['certification:edit'] = 'Permiso para editar';
+$string['certification:view'] = 'Permiso para ver';
 $string['certificationfullname'] = 'Nombre completo de certificación';
 $string['certificationfullname_help'] = 'Nombre completo de certificación';
 $string['certificationidnumber'] = 'Número ID de certificación';
 $string['certificationidnumber_help'] = 'El número ID de una certificación solamente es usado cuando se aparea  la certificación contra sistemas externos y no es mostrado en ninguna parte del sitio. Si la certificación tiene un nombre de código oficial podría ser ingresado; en caso contrario el campo puede dejarse vacío.';
 $string['certificationname'] = 'Nombre de certificación';
+$string['certificationnamewithlink'] = 'Nombre con enlaces de la certificación';
 $string['certificationprogress'] = 'Progreso de la certificación';
 $string['certificationrules'] = 'Reglas de certificación';
 $string['certifications'] = 'Certificaciones';
@@ -82,6 +87,9 @@ $string['conditioncertificationcertified'] = 'Certificación certificada';
 $string['conditioncertificationexpired'] = 'Certificación expirada';
 $string['conditioncertificationnotcertified'] = 'Certificación no certificada';
 $string['conditioncertificationoverdue'] = 'Certificación retrasada';
+$string['conditioncertificationstatus'] = 'Estatus de certificación';
+$string['conditioncertificationstatusdescription'] = 'Usuarios que tienen estatus \'{$a->status}\' en certificación \'{$a->fullname}\'';
+$string['conditioncertificationstatusdescriptionnegated'] = 'Usuarios que no tienen estatus \'{$a->status}\' en certificación \'{$a->fullname}\'';
 $string['conditioncertificationsuspended'] = 'Certificación suspendida';
 $string['conditionuserallocated'] = 'Usuarios asignados a certificación';
 $string['conditionuserallocateddescription'] = 'Usuarios asignados a certificación {$a}';
@@ -104,7 +112,11 @@ $string['duedate_help'] = 'Fecha de cuando es esperado este certificado';
 $string['duplicate'] = 'Duplicar';
 $string['dynamic'] = 'Dinámica';
 $string['dynamicrules'] = 'Reglas dinámicas';
+$string['editcertification'] = 'Editar certificación \'{$a}\'';
 $string['editcertificationname'] = 'Editar nombre de certificación';
+$string['editcertificationsettings'] = 'Editar configuraciones de certificación';
+$string['editcontent'] = 'Editar contenido';
+$string['editdetails'] = 'Editar detalles';
 $string['enddate'] = 'Fecha de fin';
 $string['entitycertification'] = 'Certificación';
 $string['entitycertificationusers'] = 'Certificación usa asignación y finalización';
@@ -149,6 +161,9 @@ $string['missingprogram'] = 'Falta programa';
 $string['never'] = 'Nunca';
 $string['newcertification'] = 'Nueva certificación';
 $string['newvaluefor'] = 'Nuevo valor para';
+$string['notificationmsgcertificationcompleted'] = '¡Felicitaciones! Usted completó la certificación \'{$a}\'.';
+$string['notificationmsgcertificationuserallocated'] = 'Usted ha sido asignado a la certificación \'{$a}\'.';
+$string['notificationmsgcertificationuserdeallocated'] = 'Usted ha sido des-asignado de la certificación \'{$a}\'.';
 $string['notificationsubjectcertificationcompleted'] = 'Certificación \'{$a}\' completada';
 $string['notificationsubjectcertificationuserallocated'] = 'BeinVenido a \'{$a}\'';
 $string['notificationsubjectcertificationuserdeallocated'] = '\'{$a}\' cerrado';
@@ -162,7 +177,6 @@ Conservar fecha de inicio predeterminada del certificado';
 $string['outcomedeallocation'] = 'Des-asignar usuarios de certificaciones';
 $string['outcomedeallocationdescription'] = 'Des-asignar usuarios de certificación {$a}';
 $string['overdue'] = 'Vencidas';
-$string['overduecertifications'] = 'certificaciones vencidas';
 $string['overduecertificationslink'] = '<a href="{$a->href}">Certificaciones vencidas: {$a->count}</a>';
 $string['pluginname'] = 'Certificaciones';
 $string['previouscertexpirydate'] = 'Fecha de expiración de certificaciones previas';
@@ -190,6 +204,16 @@ $string['recertificationprogram_help'] = 'Seleccionar un programa a ser usado en
 $string['recertstartdaterelative'] = 'Fecha de inicio';
 $string['recertstartdaterelative_help'] = 'Esta es la fecha de cuando el programa de re-certificación comenzará a estar disponible para el usuario.';
 $string['reg_wpcertifications'] = 'Número de certificaciones ({$a})';
+$string['reportactivecerts'] = 'Reporte del sistema para certificaciones activas';
+$string['reportarchivedcerts'] = 'Reporte del sistema para certificaciones archivadas';
+$string['reportbuilderactivecertifications'] = 'El ver la lista de certificaciones activas es imposible sin el plugin tool_reportbuilder';
+$string['reportbuilderarchivedcertifications'] = 'El ver la lista de certificaciones archivadas es imposible sin el plugin tool_reportbuilder';
+$string['reportbuilderdynamicrules'] = 'El ver la lista de reglas dinámicas es imposible sin el plugin tool_reportbuilder';
+$string['reportbuilderuserallocations'] = 'El ver la lista de asignaciones de usuarios es imposible sin el plugin tool_reportbuilder';
+$string['reportbuilderuserlist'] = 'El ver la lista de  usuarios es imposible sin el plugin tool_reportbuilder';
+$string['reportcertificationprogress'] = 'Reporte del sistema para progreso de certificación';
+$string['reportcertsusers'] = 'Reporte del sistema para usuarios de certificación';
+$string['reportusercerts'] = 'Reporte del sistema para lista de certificación de usuario';
 $string['requirerecertification'] = 'Requerir certificación';
 $string['requirerecertification_help'] = 'Seleccionar \'Si\' para habilitar re-certificación para esta certificación';
 $string['restore'] = 'Restaurar';
@@ -200,6 +224,7 @@ $string['revokednotification'] = 'Esta certificación ha sido revocada exitosame
 $string['revokewarning'] = '¿Está seguro de querer revocar la certificación de \'{$a}\'? Las distinciones o algunos otras extras que podrían haber sido dados al completar no serán revocadas.';
 $string['rolemanagerdescription'] = 'Perite crear y gestionar certificaciones dentro del inquilino actual y asignarles usuarios';
 $string['schedule'] = 'Fechas de Certificación';
+$string['scheduleupdatesuccess'] = 'Sus cambios han sido guardados exitosamente';
 $string['selectadifferentprogram'] = 'Seleccionar un programa diferente';
 $string['selectcertificationcondition'] = 'Certificación';
 $string['selectcertificationcondition_help'] = 'Seleccionar la certificación en donde será aplicada esta condición';

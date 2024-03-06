@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_attestoodle', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_attestoodle', language 'es_mx', version '3.10'.
  *
  * @package     tool_attestoodle
  * @category    string
@@ -106,6 +106,7 @@ $string['filtermodulealltype'] = 'Todos los tipos';
 $string['filtermodulebtn'] = 'Filtro';
 $string['filtermodulename'] = 'Nombre :';
 $string['filtermodulerestrict'] = 'Con disponibilidad :';
+$string['filtermoduletype'] = 'Tipo :';
 $string['filtermodulevisible'] = 'Visible :';
 $string['findlearner'] = 'Buscar estudiante';
 $string['finished'] = 'Terminado';
@@ -122,9 +123,7 @@ $string['infonostudent'] = 'Ningún estudiante en un curso con manitoreo de fina
 $string['keepselect'] = 'Conservar la selección';
 $string['learner'] = 'Nombre completo del estudiante';
 $string['learner_details_begin_date_label'] = 'Fecha de inicio :';
-$string['learner_details_download_certificate_link'] = 'Descargar certificado';
 $string['learner_details_end_date_label'] = 'Fecha de término :';
-$string['learner_details_generate_certificate_link'] = 'Generar certificado';
 $string['learner_details_main_title'] = 'Attestoodle - Hitos validados por "{$a}"';
 $string['learner_details_main_title_error'] = 'Attestoodle - Error';
 $string['learner_details_no_training_registered'] = 'El estudiante seleccionado no está registrado para ningún entrenamiento.';
@@ -133,7 +132,6 @@ $string['learner_details_notification_message_error'] = 'Ocurrió un error al in
 $string['learner_details_notification_message_new'] = 'El nuevo certificado ha sido creado en el servidor';
 $string['learner_details_notification_message_overwritten'] = 'Un nuevo certificado ha sido creado en el servidor; el antiguo ha sido sobreescrito';
 $string['learner_details_page_title'] = 'Moodle - Attestoodle - Detalles del alumno';
-$string['learner_details_regenerate_certificate_link'] = 'Generar un nuevo certificado';
 $string['learner_details_submit_button_value'] = 'Filtro';
 $string['learner_details_table_header_column_course_name'] = 'Curso';
 $string['learner_details_table_header_column_milestones'] = 'Crédito del hito';
@@ -148,7 +146,6 @@ $string['linktotraininglst'] = 'Acceder a la lista de cursos de entrenamiento';
 $string['listtemplate_title'] = 'Lista de plantillas Attestation';
 $string['literal'] = 'Etiqueta';
 $string['literaux'] = 'Marcas';
-$string['milestone_manage_link'] = 'Gestionar logros de actividad';
 $string['milestonenews'] = 'Lista de cursos de entrenamiento que han rcibido nuevas actividades';
 $string['milestoneorphan'] = 'Lista de hitos en error (sus actividades son eliminadas)';
 $string['milestones'] = 'Hitos';
@@ -218,7 +215,6 @@ $string['showcompletiondate'] = 'Ver la fecha de terminación';
 $string['size'] = 'Tamaño :';
 $string['starttraining'] = 'Fecha de inicio del entrenamiento';
 $string['stop'] = 'Detener';
-$string['student_list_link'] = 'Lista de estudiantes';
 $string['tabactivities'] = 'Tabla de actividades';
 $string['template_certificate'] = 'Plantilla del certificado';
 $string['templatename'] = 'Nombre de la plantilla';
@@ -228,9 +224,6 @@ $string['toplan'] = 'Al plan';
 $string['totalminute'] = 'Tiempo total validado sobre el período';
 $string['totaltimetraining'] = 'Tiempo total de entrenamiento :';
 $string['training'] = 'Denominación de la formación';
-$string['training_learners_list_download_zip_link'] = 'Descargar certificados existentes';
-$string['training_learners_list_edit_training_link'] = 'Gestionar logros';
-$string['training_learners_list_generate_certificates_link'] = 'Generar todos los certificados';
 $string['training_learners_list_heading'] = '{$a} estudiantes en el entrenamiento';
 $string['training_learners_list_main_title'] = 'Attestoodle - Reporte global "{$a}"';
 $string['training_learners_list_main_title_error'] = 'Attestoodle - Error';
@@ -251,20 +244,16 @@ $string['training_learners_list_table_header_column_lastname'] = 'Apellido(s)';
 $string['training_learners_list_table_header_column_total_milestones'] = 'Hitos totales en períodod';
 $string['training_learners_list_table_header_column_validated_activities'] = 'Actividades validadas';
 $string['training_learners_list_table_link_details'] = 'Detalles';
-$string['training_list_link'] = 'Lista de entrenamientos';
-$string['training_management_backto_category_link'] = 'Regresar a categoría';
 $string['training_management_checkbox_label'] = 'Esta categoría es un entrenamiento';
 $string['training_management_info_form_canceled'] = 'El formato ha sido cancelado';
 $string['training_management_main_title'] = 'Attestoodle - {$a}';
 $string['training_management_main_title_no_category'] = 'Attestoodle - Error';
-$string['training_management_manage_training_link'] = 'Gestionar logros';
 $string['training_management_no_category_id'] = 'Sin ID de categoría especificado';
 $string['training_management_page_title'] = 'Moodle - Attestoodle - Gestión del entrenamiento';
 $string['training_management_submit_added'] = 'Categoría añadida a la lista de entrenamiento Attestoodle';
 $string['training_management_submit_error'] = 'Ocurrió un error al guardar en la Base de Datos. Inténtelo nuevamente más tarde';
 $string['training_management_submit_removed'] = 'Entrenamiento eliminado de la lista de entrenamiento Attestoodle';
 $string['training_management_submit_unchanged'] = 'Sin modificacines';
-$string['training_management_training_details_link'] = 'Reporte global de entrenamiento';
 $string['training_management_unknow_category_id'] = 'ID de categoría inválido';
 $string['training_management_warning_invalid_form'] = 'El formato no es válido';
 $string['training_management_warning_no_submitted_data'] = 'Sin datos enviados';
@@ -277,12 +266,10 @@ $string['training_milestones_main_title_error'] = '¡Error!';
 $string['training_milestones_page_title'] = 'Moodle - Attestoodle - detalles del entrenamiento';
 $string['training_milestones_unknown_training_id'] = 'Sin entrenamiento con la ID';
 $string['training_milestones_warning_no_submitted_data'] = 'Sin datos enviados';
-$string['training_setting_link'] = 'configuración';
 $string['trainingcriteria'] = 'Criterio de entrenamiento';
 $string['trainingname'] = 'Nombre del entrenamiento';
 $string['trainings_list_btn_text'] = 'Regresar a la página principal de entrenamiento';
 $string['trainings_list_main_title'] = 'Entrenamientos Attestoodle';
-$string['trainings_list_manage_trainings_link'] = 'Gestionar entrenamientos';
 $string['trainings_list_page_title'] = 'Moodle - Attestoodle - Lista de entrenamientos';
 $string['trainings_list_table_header_column_description'] = 'Descripción';
 $string['trainings_list_table_header_column_hierarchy'] = 'Árbol';

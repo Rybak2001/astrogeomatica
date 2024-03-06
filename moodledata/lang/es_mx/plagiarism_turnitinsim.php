@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_turnitinsim', language 'es_mx', version '4.2'.
+ * Strings for component 'plagiarism_turnitinsim', language 'es_mx', version '3.10'.
  *
  * @package     plagiarism_turnitinsim
  * @category    string
@@ -154,7 +154,7 @@ $string['taskoutputpluginnotconfigured'] = 'No se pudo ejecutar la tarea a {$a} 
 $string['taskoutputsubmissioncreated'] = 'Entrega creada en Turnitin: {$a}';
 $string['taskoutputsubmissionnotcreatedeula'] = 'No se pudo crear la entrega en Turnitin ya que el remitente no aceptó el Acuerdo de licencia de usuario final.';
 $string['taskoutputsubmissionnotcreatedgeneral'] = 'No se pudo crear la entrega en Turnitin. Revise los registros.';
-$string['taskoutputwebhookcreated'] = 'Se creó el Webhook. Turnitin enviará retrollamadas a {$a}.';
+$string['taskoutputwebhookcreated'] = 'Se creó el Webhook. Turnitin enviará invocaciones a {$a}.';
 $string['taskoutputwebhookcreationfailure'] = 'Error en la solicitud de creación de Webhook. Revise los registros.';
 $string['taskoutputwebhookdeleted'] = 'Se eliminó el Webhook {$a}.';
 $string['taskoutputwebhookdeletefailure'] = 'No se pudo eliminar el Webhook. Revise los registros.';
@@ -194,4 +194,4 @@ $string['viewerpermissionferpa'] = 'Los siguientes permisos afectan la forma en 
 $string['viewerpermissionoptions'] = 'Permisos del visor';
 $string['viewlogs'] = 'Registros';
 $string['webhook_description'] = 'Webhook para {$a}';
-$string['webhookincorrectsignature'] = 'Error en la retrollamada  del Webhook ya que la firma es incorrecta';
+$string['webhookincorrectsignature'] = 'Error en la invocación del Webhook ya que la firma es incorrecta';

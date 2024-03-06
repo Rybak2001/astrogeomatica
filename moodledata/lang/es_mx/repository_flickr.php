@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_flickr', language 'es_mx', version '4.2'.
+ * Strings for component 'repository_flickr', language 'es_mx', version '3.10'.
  *
  * @package     repository_flickr
  * @category    string
@@ -26,9 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['apikey'] = 'clave API';
-$string['callbackurl'] = 'URL de retrollamada';
-$string['callbackurltext'] = '<ol> <li>Visite <a href="http://www.flickr.com/services/api/keys/">Flickr API Keys</a> de nuevo.</li> <li>Asegúrese de configurar la URL de retrollamada para esta clave Flickr como <strong>{$a}</strong></li></ol>';
-$string['callbackwarning'] = '<ol> <li>Get a <a href="http://www.flickr.com/services/api/keys/">Clave API y Secreto de Flickr t</a> de Flickr para este sitio Moodle.</li> <li>Introduzca los datos aquí y luego seleccione \'Save\' y después \'Settings\' para regresar a esta página. Usted verá que Moodle ha generado una URL de callback (llamada de retorno) para Usted.</li> <li>Edite sus detalles de clave <a href="http://www.flickr.com/services/api/keys/">Flickr</a> de nuevo y configure la URL para retrollamada.</li></ol>';
+$string['callbackurl'] = 'URL de callback (llamada de retorno)';
+$string['callbackurltext'] = '<ol> <li>Visite <a href="http://www.flickr.com/services/api/keys/">Flickr API Keys</a> de nuevo.</li> <li>Asegúrese de configurar la URL de callback (llamada de retorno) para esta clave Flickr como <strong>{$a}</strong></li></ol>';
+$string['callbackwarning'] = '<ol> <li>Get a <a href="http://www.flickr.com/services/api/keys/">Clave API y Secreto de Flickr t</a> de Flickr para este sitio Moodle.</li> <li>Introduzca los datos aquí y luego seleccione \'Save\' y después \'Settings\' para regresar a esta página. Usted verá que Moodle ha generado una URL de callback (llamada de retorno) para Usted.</li> <li>Edite sus detalles de clave <a href="http://www.flickr.com/services/api/keys/">Flickr</a> de nuevo y configure la URL para callback (llamada de retorno).</li></ol>';
 $string['configplugin'] = 'Configuración de Flickr';
 $string['emailaddress'] = 'Dirección de Email';
 $string['flickr:view'] = 'Ver repositorio Flickr';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_aigne', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_aigne', language 'es_mx', version '3.10'.
  *
  * @package     theme_aigne
  * @category    string
@@ -424,7 +424,7 @@ $string['logodesc'] = 'Si lo desea puede añadir un logotipo personalizado.<br /
 El logotipo debe ser una imagen JPG/PNG/GIF con 150px de largo y 55px de alto';
 $string['logohead'] = 'Configuración del logotipo';
 $string['maplink'] = 'URL de servidor de mapa';
-$string['maplinkdesc'] = 'Escriba la URL de un servidor de mapa con la ubicación de la organización (por ejemplo, google maps / bing maps).';
+$string['maplinkdesc'] = 'Escriba la URL de un servidor de mapa con la localización de la organización (por ejemplo, google maps / bing maps).';
 $string['marketinghead'] = 'Opciones de diseño en la página de presentación del sitio';
 $string['marketingheaddesc'] = 'En esta sección Usted puede personalizar los elementos mostrados en la portada, antes de que los usuarios ingresen.
 Usted puede configurar información acerca de su institución, o el lanzamiento de nuevos cursos. <br /> Esto puede resaltarse / programarse para mostrar cualquier información acerca del sitio o de los cursos, en el diseño de  "frontinfo.php" y en la carpeta themeaignepixcarroussel.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_workplace', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_workplace', language 'es_mx', version '3.10'.
  *
  * @package     theme_workplace
  * @category    string
@@ -34,6 +34,7 @@ $string['courseheaderimage'] = 'Imagen del encabezado del curso';
 $string['ends'] = 'Termina';
 $string['global'] = 'Global';
 $string['launcher_tooltip'] = 'Alternar lanzador de Workplace';
+$string['logininstructions'] = 'Instrucciones para ingresar';
 $string['nocourses'] = 'Sin cursos';
 $string['pluginname'] = 'Workplace (Lugar de trabajo)';
 $string['privacy:metadata'] = 'El tema Workplace no almacena ningún dato personal acerca de ningún usuario';
@@ -43,3 +44,9 @@ $string['recentlyaccessedcourses'] = 'Cursos recientemente accesados';
 $string['region-side-pre'] = 'Derecha';
 $string['tablabel'] = 'Más';
 $string['wpdashboard'] = 'Tablero del Workplace';
+$string['wpdashboardlearning'] = 'Habilitar Pestaña de Aprendizaje en Tablero';
+$string['wpdashboardlearningdesc'] = 'Mostrar la Pestaña de Aprendizaje en el Tablero. La Pestaña de Aprendizaje remplaza al bloque de Vista General del curso y muestra una vista combinada de los programas y cursos de los estudiantes. Es el único lugar donde los estudiantes pueden ver los programas a los cuales están asignados.';
+$string['wpdashboardteams'] = 'Habilitar Pestaña de Equipos en Tablero';
+$string['wpdashboardteamsdesc'] = 'Mostrar la Pestaña de Equipos en el Tablero. Esta pestaña solamente es mostrada a usuarios que tienen una posición de Mánager en la estructura de la organización y a otros usuarios que se reportan a ellos.';
+$string['wpmenumodal'] = 'Mostrar invocador en una ventana emergente';
+$string['wpmenumodaldesc'] = 'Mostrar el invocador de Workplace en una ventana emergente en lugar de un menú desplegable';

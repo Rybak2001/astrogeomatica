@@ -1,1 +1,0 @@
-s:273:"<strong>Trazado de la pila (stack):</strong> <ul style="text-align:left;"><li>line 2149 of /lib/filelib.php: moodle_exception thrown</li><li>line 5293 of /lib/filelib.php: call to send_file_not_found()</li><li>line 44 of /pluginfile.php: call to file_pluginfile()</li></ul>";

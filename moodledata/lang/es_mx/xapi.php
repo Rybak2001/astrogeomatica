@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'xapi', language 'es_mx', version '4.2'.
+ * Strings for component 'xapi', language 'es_mx', version '3.10'.
  *
  * @package     xapi
  * @category    string
@@ -26,16 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['eventxapipost'] = 'Declaración Post xAPI';
-$string['privacy:metadata:component'] = 'El nombre del componente en frankenstyle';
-$string['privacy:metadata:itemid'] = 'El ID del elemento del estado';
-$string['privacy:metadata:registration'] = 'El UUID del registro xAPI';
-$string['privacy:metadata:statedata'] = 'Objeto JSON con los datos del estado';
-$string['privacy:metadata:stateid'] = 'La ID del estado de xAPI';
-$string['privacy:metadata:timecreated'] = 'La hora de cuando fue creado el elemento del estado';
-$string['privacy:metadata:timemodified'] = 'La última hora de cuando el estado fue actualizado';
-$string['privacy:metadata:userid'] = 'La ID del usuario a quien pertenece el estado';
-$string['privacy:metadata:xapi_states'] = 'Los estados de xAPI almacenados';
-$string['privacy:xapistate'] = 'estado xAPI';
-$string['xapicleanup'] = 'Limpieza de los estados de xAPI almacenados';
-$string['xapicleanupperiod'] = 'Limpierestados de xAPI';
-$string['xapicleanupperiod_help'] = 'Quitar cualquier xAPI almacena que no esté actualizado en el período seleccionado.';
+$string['privacy:metadata'] = 'La biblioteca xAPI no almacena ningún dato personal.';

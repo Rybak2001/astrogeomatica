@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor', language 'es_mx', version '4.2'.
+ * Strings for component 'editor', language 'es_mx', version '3.10'.
  *
  * @package     editor
  * @category    string
@@ -58,7 +58,6 @@ $string['cutpastemozilla'] = 'Desafortunadamente, Usted no puede emplear los ata
 $string['delete'] = 'Eliminar';
 $string['editors'] = 'Editores de texto';
 $string['editorsettings'] = 'Gestionar editores';
-$string['editorxformat'] = 'formato {$a}';
 $string['enterurlfirst'] = 'Debe introducir antes una URL';
 $string['filebrowser'] = 'Navegador de archivos';
 $string['findwhat'] = 'Encontrar';
@@ -81,7 +80,7 @@ $string['insertlink'] = 'Insertar vínculo';
 $string['insertsmile'] = 'Insertar emoticono';
 $string['inserttable'] = 'Insertar tabla';
 $string['italic'] = 'Cursiva';
-$string['itemsreplaced'] = 'elementos reemplazados';
+$string['itemsreplaced'] = 'items reemplazados';
 $string['justifycenter'] = 'Centrado';
 $string['justifyfull'] = 'Justificado';
 $string['justifyleft'] = 'Izquierda';

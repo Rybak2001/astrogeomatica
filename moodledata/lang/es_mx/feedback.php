@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'feedback', language 'es_mx', version '4.2'.
+ * Strings for component 'feedback', language 'es_mx', version '3.10'.
  *
  * @package     feedback
  * @category    string
@@ -36,7 +36,7 @@ $string['anonymous_edit'] = 'Registrar nombres de usuario';
 $string['anonymous_entries'] = 'Respuestas anónimas ({$a})';
 $string['anonymous_user'] = 'Usuario anónimo';
 $string['answerquestions'] = 'Contestar las preguntas';
-$string['append_new_items'] = 'Agregar elementos nuevos';
+$string['append_new_items'] = 'Agregar ítems nuevos';
 $string['autonumbering'] = 'Auto numerar preguntas';
 $string['autonumbering_help'] = 'Activa o desactiva la numeración automática para cada pregunta';
 $string['average'] = 'Promedio';
@@ -57,9 +57,8 @@ $string['complete_the_form'] = 'Contestar las preguntas';
 $string['completed'] = 'Completado';
 $string['completed_feedbacks'] = 'Respuestas enviadas';
 $string['completedon'] = 'Completado en {$a}';
-$string['completiondetail:submit'] = 'Enviar retroalimentación';
 $string['completionsubmit'] = 'Ver como completado si se envía retroalimentación';
-$string['configallowfullanonymous'] = 'Si se configura a \'Si\', los usuarios pueden completar una actividad de retroalimentación en la página de inicio del sitio sin que se les pida  iniciar sesión.';
+$string['configallowfullanonymous'] = 'Si se establece esta opción,los usuarios pueden completar una actividad de retroalimentación en la portada sin que se les pida ingresar.';
 $string['confirmdeleteentry'] = '¿Está seguro que quiere borrar esta entrada?';
 $string['confirmdeleteitem'] = '¿Está seguro que quiere borrar este elemento?';
 $string['confirmdeletetemplate'] = '¿Está seguro que quiere utilizar esta plantilla?';
@@ -70,16 +69,16 @@ $string['courseid'] = 'ID del curso';
 $string['creating_templates'] = 'Guardar estas preguntas como plantilla nueva';
 $string['delete_entry'] = 'Eliminar entrada';
 $string['delete_item'] = 'Eliminar pregunta';
-$string['delete_old_items'] = 'Eliminar elementos antiguos';
+$string['delete_old_items'] = 'Eliminar ítems antiguos';
 $string['delete_pagebreak'] = 'Eliminar salto de página';
 $string['delete_template'] = 'Eliminar plantilla';
 $string['delete_templates'] = 'Eliminar plantilla...';
 $string['depending'] = 'Dependencias';
-$string['depending_help'] = 'Los elementos dependientes le permiten mostrar elementos que dependen de otros elementos.<br /> <strong>Por ejemplo:</strong><br /> <ul> <li>primero fabrique un elemento de cuyo valor dependerán otros elementos.</li> <li>Después ponga un salto de página.</i> <li>Después ponga los elementos que dependen de este valor<br />Elija dentro del formato de creación de elementos, el elemento de la lista "elemento dependiente" y ponga el valor necesario dentro de la caja de texto "valor dependiente".</li> </ul> <strong>La estructura debe verse así:</strong> <ol> <li>Elemento Q: ¿tienes un auto? A: si/no</li> <li>Pagebreak</li> <li>Item Q: ¿de qué color es tu auto?<br /> (esto depende de que el elemento 1 tenga valor de  = si)</li> <li>Item Q: ¿porqué no  tienes auto?<br /> (esto depende de que el elemento 1 tenga valor de = no)</li> <li> ... otros elementos</li> </ol> Eso es todo.';
+$string['depending_help'] = 'Los items dependientes le permiten mostrar items que dependen de otros items.<br /> <strong>Por ejemplo:</strong><br /> <ul> <li>primero fabrique un item de cuyo valor dependerán otros items.</li> <li>Despues ponga un salto de página.</i> <li>Despues ponga los items que dependen de este valor<br />Elija dentro del formato de creacion de items, el item de la lista "item dependiente" y ponga el valor necesario dentro de la caja de texto "valor dependiente".</li> </ul> <strong>La estructura debe verse asi:</strong> <ol> <li>Item Q: ¿tienes un auto? A: si/no</li> <li>Pagebreak</li> <li>Item Q: ¿de qué color es tu auto?<br /> (esto depende de que el item 1 tenga valor de  = si)</li> <li>Item Q: ¿porqué no  tienes auto?<br /> (esto depende de que el item 1 tenga valor de = no)</li> <li> ... otros items</li> </ol> Eso es todo.';
 $string['dependitem'] = 'Item dependiente';
 $string['dependvalue'] = 'Valor dependiente';
 $string['description'] = 'Descripción';
-$string['do_not_analyse_empty_submits'] = 'Omitir envíos vacíos en el análisis';
+$string['do_not_analyse_empty_submits'] = 'No analizar envíos vacíos';
 $string['downloadresponseas'] = 'Descargar todas las respuestas como:';
 $string['drop_feedback'] = 'Eliminar de este curso';
 $string['dropdown'] = 'Opción múltiple - respuesta única permitida (menú desplegable)';
@@ -104,7 +103,7 @@ $string['feedback:createprivatetemplate'] = 'Crear plantilla privada';
 $string['feedback:createpublictemplate'] = 'Crear plantilla pública';
 $string['feedback:deletesubmissions'] = 'Eliminar envíos completados';
 $string['feedback:deletetemplate'] = 'Eliminar plantilla';
-$string['feedback:edititems'] = 'Editar elementos';
+$string['feedback:edititems'] = 'Editar ítems';
 $string['feedback:mapcourse'] = 'Asignar cursos a retroalimentaciones globales';
 $string['feedback:receivemail'] = 'Recibir notificación por correo electrónico';
 $string['feedback:view'] = 'Ver una retroalimentación';
@@ -115,11 +114,10 @@ $string['feedback_is_not_open'] = 'La retroalimentación no está disponible';
 $string['feedbackclose'] = 'Permitir respuestas a';
 $string['feedbackcompleted'] = '{$a->username} completó {$a->feedbackname}';
 $string['feedbackopen'] = 'Permitir respuestas de';
-$string['feedbackupdated'] = 'Retroalimentación actualizada';
 $string['file'] = 'Archivo';
 $string['filter_by_course'] = 'Filtrar por curso';
 $string['handling_error'] = 'Error en la ejecución del módulo retroalimentación';
-$string['hide_no_select_option'] = 'Ocultar la opción "No seleccionado/a"';
+$string['hide_no_select_option'] = 'Ocultar la opción "No seleccionada"';
 $string['horizontal'] = 'Horizontal';
 $string['import_questions'] = 'Importar preguntas';
 $string['import_successfully'] = 'Importación exitosa';
@@ -129,12 +127,10 @@ $string['indicator:cognitivedepth'] = 'Retroalimentación cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad Retroalimentación.';
 $string['indicator:cognitivedepthdef'] = 'Retroalimentación cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades de Retroalimentación durante este intervalo de análisis (Niveles = Sin Ver, Ver, Enviar)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Retroalimentación social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad Retroalimentación.';
 $string['indicator:socialbreadthdef'] = 'Retroalimentación social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Retroalimentación durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = 'Información';
 $string['infotype'] = 'Tipo de información';
 $string['insufficient_responses'] = 'Respuestas insuficientes';
@@ -145,7 +141,7 @@ $string['item_name'] = 'Pregunta';
 $string['label'] = 'Etiqueta';
 $string['labelcontents'] = 'Contenidos';
 $string['mapcourse'] = 'Mapear retralimentación a los cursos';
-$string['mapcourse_help'] = 'De forma predeterminada, los formatos para retroalimentación creadas sobre la página de inicio del sitio están disponibles a todo lo ancho del sitio y aparecerán en todos los cursos que emplean el bloque de retroalimentación. Usted puede forzar que aparezca el formato de retroalimentación haciéndolo dentro de un bloque pegajoso o puede limitar los cursos en donde aparecerá el formato de retroalimentación mapeándolo a cursos específicos.';
+$string['mapcourse_help'] = 'Por  default, los formatos para retroalimentación creadas sobre la portada están disponibles a todo lo ancho del sitio y aparecerán en todos los cursos que emplean el bloque de retroalimentación. Usted puede forzar que aparezca el formato de retroalimentación haciéndolo dentro de un bloque pegajoso o puede limitar los cursos en donde aparecerá el formato de retroalimentación mapeándolo a cursos específicos.';
 $string['mapcourseinfo'] = 'Esta retroalimentación está disponible en todos los cursos que usan el bloque retroalimentación. Usted puede sin embargo limitar los cursos en que aparece. Busque el curso y asígnelo a esta retroalimentación.';
 $string['mapcoursenone'] = 'No hay cursos mapeados. La retroalimentación está disponible en todos los cursos';
 $string['mapcourses'] = 'Asignar retroalimentación a cursos';
@@ -157,17 +153,16 @@ $string['messageprovider:submission'] = 'Notificaciones de retroalimentaciones';
 $string['minimal'] = 'Mínimo';
 $string['mode'] = 'Modo';
 $string['modulename'] = 'Retroalimentación';
-$string['modulename_help'] = 'La actividad de Retroalimentación le permite al profesor crear una encuesta personalizada para colectar retroalimentación de los participantes, empleando una variedad de tipos de preguntas que incluyen opción múltiple, falso/verdadero, o respuesta de texto.
+$string['modulename_help'] = 'El módulo de actividad de Retroalimentación le permite al profesor crear encuestas personalizadas para colectar retroalimentación de los participantes, empleando una variedad de tipos de preguntas que incluyen opción múltiple, falso/verdadero, o respuesta de texto.
 
-Las respuestas de retroalimentación pueden ser anónimas si así se desea, y los resultados se pueden mostrar a todos los participantes o limitarse a solamente los profesores. Cualquier actividad de retroalimentación en la página de inicio del sitio puede ser completada por usuarios sin necesidad de autenticarse.
+Las respuestas de retroalimentación pueden ser anónimas si así se desea, y los resultados se pueden mostrar a todos los participantes o limitarse a solamente los profesores. Cualquier actividad de retroalimentación en la página de portada del sitio Moodle puede ser contestada por usuarios sin necesidad de autenticarse.
 
 Las actividades de retroalimentación pueden usarse
 
 * Para evaluaciones del curso, ayudando a mejorar el contenido para participantes futuros
 * Para permitirles a los participantes apuntarse a módulos y eventos del curso
-* Para encuestas de invitados sobre opciones de cursos, políticas escolares, etc.
+* Para encuestas de invitados sobre variedad de cursos, políticas escolares, etc.
 * Para encuestas anti-bullying en las que los estudiantes pueden reportar incidentes anónimamente';
-$string['modulename_link'] = 'mod/feedback/view';
 $string['modulenameplural'] = 'Retroalimentaciones';
 $string['move_item'] = 'Mover esta pregunta';
 $string['multichoice'] = 'Opción múltiple';
@@ -183,14 +178,14 @@ $string['nameandlabelformat'] = '({$a->label}) {$a->name}';
 $string['next_page'] = 'Siguiente página';
 $string['no_handler'] = 'No existe manejador de acción para';
 $string['no_itemlabel'] = 'No etiqueta';
-$string['no_itemname'] = 'Falta el nombre del elemento';
+$string['no_itemname'] = 'Falta el nombre del ítem';
 $string['no_items_available_yet'] = 'No se han planificado preguntas';
 $string['no_templates_available_yet'] = 'No hay plantillas disponibles';
 $string['non_anonymous'] = 'Los nombres de los usuarios se mostrarán y registrarán con las respuestas';
 $string['non_anonymous_entries'] = 'Entradas no anónimas ({$a})';
 $string['non_respondents_students'] = 'Estudiantes no respondientes ({$a})';
 $string['not_completed_yet'] = 'Aún no se ha finalizado';
-$string['not_selected'] = 'No seleccionado/a';
+$string['not_selected'] = 'No seleccionada';
 $string['not_started'] = 'No comenzado';
 $string['numberoutofrange'] = 'Número fuera del rango';
 $string['numeric'] = 'Respuesta numérica';
@@ -209,7 +204,6 @@ $string['pagebreak'] = 'Salto de página';
 $string['pluginadministration'] = 'Administración de la retroalimentación';
 $string['pluginname'] = 'Retroalimentación';
 $string['position'] = 'Posición';
-$string['previewquestions'] = 'Previsualizar preguntas';
 $string['previous_page'] = 'Página anterior';
 $string['privacy:metadata:completed'] = 'Un registro de los envíos a la retroalimentación';
 $string['privacy:metadata:completed:anonymousresponse'] = 'Si es que el envío será usado anónimamente.';
@@ -277,4 +271,3 @@ $string['use_one_line_for_each_value'] = '¡Use una línea para cada respuesta!'
 $string['use_this_template'] = 'Usar esta plantilla';
 $string['using_templates'] = 'Utilizar una plantilla';
 $string['vertical'] = 'Vertical';
-$string['whatfor'] = '¿Qué quiere hacer?';

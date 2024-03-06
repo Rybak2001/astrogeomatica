@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_contactpoint', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabeltype_contactpoint', language 'es_mx', version '3.10'.
  *
  * @package     customlabeltype_contactpoint
  * @category    string
@@ -29,7 +29,6 @@ $string['any'] = 'Cualquier método';
 $string['anywritten'] = 'Cualquier método excepto escrito';
 $string['chat'] = 'Chat';
 $string['configtypename'] = 'Habilitar subtipo Punto de contacto';
-$string['contactpoint'] = 'Punto de contacto';
 $string['contactpoint:addinstance'] = 'Puede añadir una instancia';
 $string['contactpoint:view'] = 'Puede ver el contenido';
 $string['contacttype'] = 'Tipo de contacto';
@@ -38,7 +37,6 @@ $string['family'] = 'especial';
 $string['instructions'] = 'Instrucciones';
 $string['mail'] = 'Correo';
 $string['meeting'] = 'Reunión en línea';
-$string['method'] = 'Método';
 $string['onlinevocal'] = 'En línea vocal';
 $string['phone'] = 'Teléfono';
 $string['pluginname'] = 'Elemento de curso : Punto de contacto';

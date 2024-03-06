@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'jazzquiz', language 'es_mx', version '4.2'.
+ * Strings for component 'jazzquiz', language 'es_mx', version '3.10'.
  *
  * @package     jazzquiz
  * @category    string
@@ -38,7 +38,6 @@ $string['anonymous'] = 'Anónima';
 $string['anonymous_answers'] = 'Respuestas anónimas (Puede verse la asistencia)';
 $string['anonymous_answers_info'] = 'Las respuestas son anonimizadas en esta sesión. Su asistencia continúa siendo grabada.';
 $string['answer'] = 'Respuesta correcta';
-$string['ask_teacher'] = 'En caso de duda, pregunte al profesor.';
 $string['attempt_started'] = 'Un intento ya ha sido iniciado por Usted; por favor revise debajo para continuar con su intento abierto';
 $string['attempts'] = 'Intentos';
 $string['attendance'] = 'Asistencia';
@@ -50,7 +49,6 @@ $string['create_new_question'] = 'Crear pregunta nueva';
 $string['default_question_time'] = 'Tiempo por defecto para pregunta';
 $string['default_question_time_help'] = 'El tiempo por defecto para mostrar cada pregunta.<br>Esto puede ser anulado por preguntas individuales.';
 $string['delete_question'] = 'Eliminar pregunta {$a}';
-$string['delete_report'] = 'Eliminar reporte';
 $string['download_attendance_list'] = 'Descargar lista de asistencia';
 $string['download_report'] = 'Descargar reporte';
 $string['download_responses'] = 'Descargar respuestas';
@@ -71,114 +69,102 @@ $string['fullscreen'] = 'Pantalla completa';
 $string['fully_anonymous'] = 'Completamente anónimo';
 $string['fully_anonymous_info'] = 'Ambas, respuestas y asistencia son anonimizadas completamente en esta sesión.';
 $string['goto_session'] = 'Ir a sesión en progreso';
-$string['guest_login'] = 'Usted no está inscrito en el curso, y no hay ninguna sesión de examen abierta a invitados en este momento.';
 $string['improvise'] = 'Improvisar';
 $string['instructions_for_instructor'] = 'h3>Por favor asegúrese de leer las instrucciones:</h3>
  <p>Hay teclas rápidas (hotkeys) disponibles que pueden usarse cuando un campo de entrada no está enfocado.</p>
-            <table>
-        <tr>
-               <th>Control</th>
-               <th>Hotkey</th>
-               <th>Descripción</th>
-        </tr>
-        <tr>
-                <td>
-                    <i class="fa fa-repeat"></i> Re-plantear
-                </td>
-                <td>r</td>
-                <td>
-                Le permite al instructor re-plantear la pregunta que recién se ha hecho.
-                Esto es lo mismo que iniciar una pregunta desde la <i class="fa fa-bars"></i> Lista desplegable de saltos.
-           </td>
+<table>
+<tr>
+<th>Control</th>
+<th>Hotkey</th>
+<th>Descripción</th>
 </tr>
 <tr>
-           <td>
-             <i class="fa fa-bar-chart"></i> Votar
-           </td>
-           <td>
-                 Permitirle a los estudiantes que voten en sus respuestas.
-                 El instructor puede hacer clic en una respuesta para alternar si es que puede o no ser incluida para votar o no-votar.
-                 El hacer clic en la barra de la respuesta comenzará un juntado desde esa respuesta .
-                 Tenga en cuenta que esta barra consumirá a la siguiente barra a la que Usted haga clic.
+<td>
+<i class="fa fa-repeat"></i> Re-poll
+</td>
+<td>r</td>
+<td>
+Le permite al instructor re-plantear la pregunta que recién se ha hecho.
+Esto es lo mismo que iniciar una pregunta desde la <i class="fa fa-bars"></i> lista desplegable de saltos.
 </td>
 </tr>
 <tr>
 <td>
-                 <i class="fa fa-edit"></i> Improvisar
+<i class="fa fa-bar-chart"></i> Votar
 </td>
 <td>
-                 Muestra una lista de preguntas hechas para improvisación.
-                 Escriba la pregunta en el pizarrón y pida respuestas para estas preguntas.
-           </td>
-       </tr>
-       <tr>
-           <td>
-                <i class="fa fa-bars"></i> Saltar
-            </td>
-            <td>
-                 Muestra una lista de todas las preguntas planeadas para el examen.
-            </td>
-        </tr>
-        <tr>
-            <td>
+Permitirle a los estudiantes que voten en sus respuestas.
+El instructor puede hacer clic en una respuesta para alternar si es que puede o no ser incluida para votar o no-votar.
+El hacer clic en la barra de la respuesta comenzará un juntado desde esa respuesta .
+Tenga en cuenta que esta barra consumirá a la siguiente barra a la que Usted haga click.
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-edit"></i> Improvisar
+</td>
+<td>
+Muestra una lista de preguntas hechas para improvisación.
+Escriba la pregunta en el pizarrón y pida respuestas para estas preguntas.
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-bars"></i> Saltar
+</td>
+<td>
+Muestra una lista de todas las preguntas planeadas para el examen.
+</td>
+</tr>
+<tr>
+<td>
 <i class="fa fa-forward"></i> Siguiente
-            </td>
-            <td>
-                 Continuar a la siguiente pregunta en la lista de preguntas planeadas.
-            </td>
-        </tr>
-                    <tr>
+</td>
 <td>
-                <i class="fa fa-random"></i> Aleatoria
-            </td>
-            <td>m</td>
-            <td>
-                Iniciar una pregunta aleatoria desde la lista de preguntas planeadas.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <i class="fa fa-close"></i> Terminar
-            </td>
-            <td>
-                 Terminar la pregunta actual.
-            </td>
-        </tr>
-        <tr>
-        <td>
-                <i class="fa fa-expand"></i> Pantalla completa
-        </td>
-        <td>
-                Mostrar los resultados en pantalla completa. Las respuestas no aparecerán durante una pregunta, para que Usted pueda conservarlo así por toda la sesión.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <i class="fa fa-square-o"></i> / <i class="fa fa-check-square-o"></i> Respuesta correcta
-            </td>
-            <td>
-                Le da al instructor una vista de la pregunta junto con la respuesta correcta seleccionada.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <i class="fa fa-square-o"></i> / <i class="fa fa-check-square-o"></i> Respuestas
-            </td>
-            <td>t (toggle)</td>
-            <td>
-                Ocultar o mostrar las respuestas de los estudiantes.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <i class="fa fa-window-close"></i> Abandonar
-            </td>
-            <td></td>
-            <td>
-                Salir de la sesión de examen actual.
-            </td>
-        </tr>
-    </table>';
+Continuar a la siguiente pregunta en la lista de preguntas planeadas.
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-close"></i> Terminar
+</td>
+<td>
+Terminar la pregunta actual.
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-expand"></i> Pantalla completa
+</td>
+<td>
+Mostrar los resultados en pantalla completa. Las respuestas no aparecerán durante una pregunta, para que Usted pueda conservarlo así por toda la sesión.
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-square-o"></i> / <i class="fa fa-check-square-o"></i> Respuesta correcta
+</td>
+<td>
+Le da al instructor una vista de la pregunta junto con la respuesta correcta seleccionada.
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-square-o"></i> / <i class="fa fa-check-square-o"></i> Respuestas
+</td>
+<td>
+Ocultar o mostrar las respuestas de estudiantes.
+</td>
+</tr>
+<tr>
+<td>
+<i class="fa fa-window-close"></i> Abandonar
+</td>
+<td>
+Salir de la sesión de examen actual.
+</td>
+</tr>
+</table>';
 $string['instructions_for_student'] = '<p>Por favor espere a que el instructor comience el examen.</p>';
 $string['instructor_sessions_going'] = 'Ya hay una sesión en progreso. Por favor haga clic en el botón inferior para ir a la sesión';
 $string['invalid_question_time'] = 'El tiempo de pregunta debe ser un número entero de 0 o superior';
@@ -205,7 +191,6 @@ $string['modulenameplural'] = 'JazzQuizzes';
 $string['multichoice_options'] = 'Opciones Múltiples';
 $string['next'] = 'Siguiente';
 $string['no_attempts_found'] = 'No se encontraron intentos.';
-$string['no_guests'] = 'Es posible que el profesor aun no haya iniciado una sesión de examen, y que usted podría intentarlo de nuevo más tarde. También es posible que usted no haya ingresado al sitio como un estudiante o no se haya inscrito en el curso para tener permitido tomar parte.';
 $string['no_session'] = 'No hay sesión abierta';
 $string['no_sessions_exist'] = 'Aun no existen sesiones.';
 $string['no_students_have_joined'] = 'No se han unido estudiantes';
@@ -234,7 +219,6 @@ $string['question_will_start_now'] = 'La pregunta iniciará ahorita';
 $string['questions'] = 'Preguntas';
 $string['quit'] = 'Abandonar';
 $string['quiz_not_running'] = '<p>Espere a aue su profesor comience el examen.</p><p>Use el botón de re-cargar para revisar si ya ha iniciado.</p>';
-$string['random'] = 'Aleatoria';
 $string['repoll'] = 'Re-plantear';
 $string['reports'] = 'Reportes';
 $string['responses'] = 'Respuestas';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_grade_me', language 'es_mx', version '4.2'.
+ * Strings for component 'block_grade_me', language 'es_mx', version '3.10'.
  *
  * @package     block_grade_me
  * @category    string
@@ -49,11 +49,7 @@ $string['quiz_update_ngrade_success'] = 'La lista de intentos de exámenes fue a
 $string['settings_adminviewall'] = 'Administradores Ven Todo';
 $string['settings_configadminviewall'] = 'Habilitar para darle a los administradores los permisos para ver todo el trabajo sin calificar - no solamente para los cursos en donde tuvieran un rol de calificador.';
 $string['settings_configenablepre'] = '¿ Debería Califica_Me mostrar actividad no evaluada del módulo  "{$a->plugin_name}"  ?';
-$string['settings_configmaxage'] = 'La edad máxima de los elementos calificables, en días, para mostrar. Los elementos más antiguos que esto serán ocultados. Ponga 0 para sin límite.';
 $string['settings_configmaxcourses'] = 'Configura el número máximo de cursos no-calificados a mostrar. El configurar esto muy alto puede impactar sobre el desempeño del servidor.';
-$string['settings_configshowhidden'] = 'Habilitar mostrar elementos a calificar dentro de cursos ocultos';
 $string['settings_enablepre'] = 'Mostrar';
-$string['settings_maxage'] = 'Edad Máxima';
 $string['settings_maxcourses'] = 'Máximo de cursos a mostrar';
-$string['settings_showhidden'] = 'Elementos de cursos ocultos mostrados';
 $string['title'] = 'Califica_Me';

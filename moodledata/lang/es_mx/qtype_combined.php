@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_combined', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_combined', language 'es_mx', version '3.10'.
  *
  * @package     qtype_combined
  * @category    string
@@ -75,6 +75,8 @@ $string['subquestiontypenotinstalled'] = 'Usted está intentando usar una pregun
 $string['subquestiontypes'] = 'Tipos de sub-pregunta';
 $string['updateform'] = 'Verificar el texto de la pregunta y actualizar el formato';
 $string['validationerror'] = 'Parte de su respuesta requiere atención : {$a}';
+$string['validationerror_multiplecontrols'] = 'Entradas {$a->controlnos} ({$a->controlname}) - {$a->error}';
+$string['validationerror_singlecontrol'] = 'Entrada {$a->controlno} ({$a->controlname}) - {$a->error}';
 $string['validationerrors'] = 'Partes de su respuesta requieren atención : {$a}';
 $string['vertical_or_horizontal_embed_code'] = '[[{$a->qid}:{$a->qtype}:v]] o [[{$a->qid}:{$a->qtype}:h]] dependiendo si es que quiere las opciones colocadas vertical u horizontalmente.';
 $string['weighting'] = 'Ponderación';

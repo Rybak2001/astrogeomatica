@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'h5plib_v124', language 'es_mx', version '4.2'.
+ * Strings for component 'h5plib_v124', language 'es_mx', version '3.10'.
  *
  * @package     h5plib_v124
  * @category    string
@@ -25,15 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['editor:a11ytitlehidelabel'] = 'Ocultar etiqueta para AT';
-$string['editor:a11ytitleshowlabel'] = 'Mostrar etiqueta para AT';
 $string['editor:add'] = 'Añadir';
 $string['editor:addauthor'] = 'Guardar autor';
 $string['editor:addentity'] = 'Añadir :entity';
 $string['editor:addfile'] = 'Añadir archivo';
 $string['editor:addnewchange'] = 'Añadir nuevo cambio';
 $string['editor:addtitle'] = 'Añadir título';
-$string['editor:addvideodescription'] = 'H5P soporta todas las fuentes de video externo formateadas como mp4, webm o ogv, tales como Vimeo Pro, y tiene soporte para enlaces hacia YouTube y Panopto.';
+$string['editor:addvideodescription'] = 'H5P soporta todas las fuentes de video externo formateadas como mp4, webm o ogv, tales como Vimeo Pro, y tiene soporte para enlaces hacia YouTube.';
 $string['editor:atoz'] = 'A a la Z';
 $string['editor:avtablistlabel'] = 'Insertar usando';
 $string['editor:belowmin'] = 'El valor de :property es inferior al mínimo de :min.';
@@ -93,7 +91,7 @@ $string['editor:enteraudiotitle'] = 'Pegar enlace u otra URL de fuente de audio'
 $string['editor:enteraudiourl'] = 'Escribir URL de fuente de audio';
 $string['editor:enterfullscreenbuttonlabel'] = 'Pasar a pantalla completa';
 $string['editor:entervideotitle'] = 'Pegar enlace hacia YouTube o alguna otra URL de fuente de video';
-$string['editor:entervideourl'] = 'Ingresar URL de video';
+$string['editor:entervideourl'] = 'Ingresar URL de fuente de video o enlace hacia YouTube';
 $string['editor:errorcalculatingmaxscore'] = 'No se pudo calcular el puntaje máximo para este contenido. Se asume que el puntaje máximo sea 0. Póngase en contacto con su administrador si esto es incorrecto.';
 $string['editor:errorcommunicatinghubcontent'] = 'Ocurrió un error. Por favor inténtelo nuevamente.';
 $string['editor:errorcommunicatinghubtitle'] = 'No se puede comunicar con hub.';
@@ -139,8 +137,8 @@ $string['editor:licensemodaltitle'] = 'Detalles de licencia';
 $string['editor:licensemustincludecopyright'] = 'Debe incluir copyright';
 $string['editor:licensemustincludelicense'] = 'Debe incluir licencia';
 $string['editor:licenseunspecified'] = 'No especificado';
-$string['editor:listbelowmin'] = 'La lista necesita al menos :min elementos para que el contenido funcione apropiadamente.';
-$string['editor:listexceedsmax'] = 'La lista excede el máximo de :max elementos .';
+$string['editor:listbelowmin'] = 'La lista necesita al menos :min ítems para que el contenido funcione apropiadamente.';
+$string['editor:listexceedsmax'] = 'La lista excede el máximo de :max ítems.';
 $string['editor:listlabel'] = 'Lista';
 $string['editor:loading'] = 'Cargando, espere por favor...';
 $string['editor:loadingimageeditor'] = 'Cargando editor de imagen, espere por favor...';
@@ -170,8 +168,8 @@ $string['editor:numresults'] = ':num resulta';
 $string['editor:ok'] = 'OK';
 $string['editor:onlynumbers'] = 'El valor de :property solamente puede contener números.';
 $string['editor:or'] = 'o';
-$string['editor:orderitemdown'] = 'Ordenar elemento hacia abajo';
-$string['editor:orderitemup'] = 'Ordenar elemento hacia arriba';
+$string['editor:orderitemdown'] = 'Ordenar ítem hacia abajo';
+$string['editor:orderitemup'] = 'Ordenar ítem hacia arriba';
 $string['editor:outofstep'] = 'El valor de :property solamente puede ser cambiado en pasos de :step.';
 $string['editor:pasteandreplacebutton'] = 'Pegar y remplazar';
 $string['editor:pasteandreplacefromclipboard'] = 'Remplazar contenido existente con contenido H5P del portapapeles';
@@ -193,7 +191,7 @@ $string['editor:recentlyusedfirst'] = 'Recientemente Usado primero';
 $string['editor:reloadbuttonlabel'] = 'Re-cargar';
 $string['editor:removefile'] = 'Quitar archivo';
 $string['editor:removeimage'] = 'Quitar imagen';
-$string['editor:removeitem'] = 'Quitar elemento';
+$string['editor:removeitem'] = 'Quitar ítem';
 $string['editor:requiredproperty'] = 'El/la :property es necesario y debe tener un valor.';
 $string['editor:resettooriginallabel'] = 'Reiniciar a original';
 $string['editor:savelabel'] = 'Guardar';

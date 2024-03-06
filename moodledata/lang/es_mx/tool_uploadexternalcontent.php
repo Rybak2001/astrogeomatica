@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadexternalcontent', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_uploadexternalcontent', language 'es_mx', version '3.10'.
  *
  * @package     tool_uploadexternalcontent
  * @category    string
@@ -30,7 +30,11 @@ $string['columnsheader'] = 'Columnas';
 $string['confirm'] = 'Confirmar';
 $string['confirmcolumnmappings'] = 'Confirmar los mapeos de columnas';
 $string['coursescreated'] = 'Cursos creados: {$a}';
+$string['coursesdeleted'] = 'Cursos eliminados: {$a}';
+$string['courseserrors'] = 'Errores en cursos: {$a}';
+$string['coursesnotupdated'] = 'Cursos no actualizados: {$a}';
 $string['coursestotal'] = 'Total de cursos: {$a}';
+$string['coursesupdated'] = 'Cursos actualizados: {$a}';
 $string['csvdelimiter'] = 'Delimitador CSV';
 $string['csvdelimiter_help'] = 'Delimitador CSV del archivo CSV.';
 $string['csvline'] = 'Línea';
@@ -50,6 +54,11 @@ $string['invalidimportrecord'] = 'Registro de importación inválido.';
 $string['invalidparentcategoryid'] = 'Categoría paterna es inválida.';
 $string['pluginname'] = 'Subir cursos de contenido externo.';
 $string['result'] = 'Resultado';
+$string['statuscoursecreated'] = 'Curso Creado.';
+$string['statuscoursenotupdated'] = 'Curso No Actualizado.';
+$string['statuscourseupdated'] = 'Curso Actualizado.';
+$string['statusextcreated'] = 'Contenido Externo Creado.';
+$string['statusextupdated'] = 'Contenido Externo Actualizado.';
 $string['thumbnaildownloaded'] = 'Miniatura descargada y añadida.';
 $string['thumbnaildownloaderror'] = 'Miniatura no pudo ser recuperada. {$a}.';
 $string['thumbnailinvalidext'] = 'Miniatura es de un tipo inválido. Extensión: {$a}.';

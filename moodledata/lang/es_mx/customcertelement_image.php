@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customcertelement_image', language 'es_mx', version '4.2'.
+ * Strings for component 'customcertelement_image', language 'es_mx', version '3.10'.
  *
  * @package     customcertelement_image
  * @category    string
@@ -28,7 +28,13 @@ defined('MOODLE_INTERNAL') || die();
 $string['alphachannel'] = 'Canal alfa';
 $string['alphachannel_help'] = 'Este valor determina que tan transparente es la imagen. Usted puede configurar el canal alfa desde 0 (completamente transparente) hasta 1 (completamente opaca).';
 $string['courseimage'] = 'Imagen del curso {$a}';
+$string['height'] = 'Altura';
+$string['height_help'] = 'Altura en mm. de la imagen. Si fuera igual a 0, será calculada automáticamente.';
 $string['image'] = 'Imagen';
+$string['invalidheight'] = 'La altura tiene qe ser un número válido mayor que o igual a 0.';
+$string['invalidwidth'] = 'El ancho tiene qe ser un número válido mayor que o igual a 0.';
 $string['pluginname'] = 'Imagen';
 $string['privacy:metadata'] = 'El plugin de Imagen no almacena ningún dato personal.';
 $string['systemimage'] = 'Imagen del sitio {$a}';
+$string['width'] = 'Ancho';
+$string['width_help'] = 'Ancho en mm. de la imagen. Si fuera igual a 0, será calculada automáticamente.';

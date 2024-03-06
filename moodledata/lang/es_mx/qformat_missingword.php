@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_missingword', language 'es_mx', version '4.2'.
+ * Strings for component 'qformat_missingword', language 'es_mx', version '3.10'.
  *
  * @package     qformat_missingword
  * @category    string
@@ -30,5 +30,4 @@ $string['endanswernotfound'] = 'No se pudo encontrar el caracter requerido "}" e
 $string['noanswerfound'] = 'No se encontraron respuestas en la pregunta';
 $string['pluginname'] = 'Formato de palabra faltante';
 $string['pluginname_help'] = 'El formato de pregunta \'palabra faltante\' permite su importación via archivo de texto';
-$string['pluginname_link'] = 'Formato palabra faltante';
 $string['privacy:metadata'] = 'El plugin de Formato de pregunta Palabra Faltante no almacena ningún dato personal.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_joomdle', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_joomdle', language 'es_mx', version '3.10'.
  *
  * @package     auth_joomdle
  * @category    string
@@ -72,8 +72,6 @@ $string['auth_joomla_use_kunena_forums'] = 'Usar foros Kunena';
 $string['auth_joomla_use_kunena_forums_description'] = 'Sincronizar foros de curso a foros Kunera en Joomla.';
 $string['auth_joomla_ws_protocol'] = 'Protocolo de servicios web';
 $string['auth_joomla_ws_protocol_description'] = 'Protocolo de servicios web para comunicaciones';
-$string['cantopencurlfile'] = 'No se puede abrir archivo CURL: {$a}';
-$string['cantwritecurlfile'] = 'No se puede escribir archivo CURL: {$a}';
 $string['joomla_sp_description'] = 'Servicios para integración  Joomla<br>';
 $string['joomla_sp_name'] = 'Joomdle';
 $string['pluginname'] = 'v';

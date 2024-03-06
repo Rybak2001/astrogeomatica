@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tag', language 'es_mx', version '4.2'.
+ * Strings for component 'tag', language 'es_mx', version '3.10'.
  *
  * @package     tag
  * @category    string
@@ -30,7 +30,7 @@ $string['addotags'] = 'Añadir marcas estándares';
 $string['addtagcoll'] = 'Añadir colección de marcas';
 $string['addtagtomyinterests'] = 'Añadir "{$a}" a mis intereses';
 $string['alltagpages'] = 'Todas las páginas con marcas';
-$string['backtoallitems'] = 'Regresar a todos los elementos marcados con "{$a}"';
+$string['backtoallitems'] = 'Regresar a todos los ítems marcados con "{$a}"';
 $string['changename'] = 'Cambiar nombre de marca';
 $string['changeshowstandard'] = 'Cambiar el mostrar marcas estándar en área {$a}';
 $string['changessaved'] = 'Cambios guardados';
@@ -60,14 +60,14 @@ $string['edittagcollection'] = 'Cambiar colección de marcas';
 $string['entertags'] = 'Escribir marcas ...';
 $string['errortagfrontpage'] = 'No se permite marcar la portada del sitio';
 $string['errorupdatingrecord'] = 'Error al actualizar registro de marca';
-$string['eventtagadded'] = 'Marca añadida a un elemento';
+$string['eventtagadded'] = 'Marcaañadida a un ítem';
 $string['eventtagcollcreated'] = 'Colección de marcas creada';
 $string['eventtagcolldeleted'] = 'Colección de marcas eliminada';
 $string['eventtagcollupdated'] = 'Colección de marcas actualizada';
 $string['eventtagcreated'] = 'Marca creada';
 $string['eventtagdeleted'] = 'Marca eliminada';
 $string['eventtagflagged'] = 'Marca señalada con bandera';
-$string['eventtagremoved'] = 'Marca removida de un elemento';
+$string['eventtagremoved'] = 'Marca removida de un ítem';
 $string['eventtagunflagged'] = 'Marca des-señalada con bandera';
 $string['eventtagupdated'] = 'Marca actualizada';
 $string['exclusivemode'] = 'Mostrar solamente marcadas {$a->tagarea}';
@@ -78,9 +78,7 @@ $string['helprelatedtags'] = 'Marcas relacionadas separadas por comas';
 $string['id'] = 'id';
 $string['inalltagcoll'] = 'En todas partes';
 $string['inputstandardtags'] = 'Escribir lista separada por comas de nuevas marcas';
-$string['itemid'] = 'ID del elemento';
 $string['itemstaggedwith'] = '{$a->tagarea} marcadas con "{$a->tag}"';
-$string['itemtype'] = 'Tipo de elemento';
 $string['lesstags'] = 'menos...';
 $string['managestandardtags'] = 'Gestionar marcas estándar';
 $string['managetagcolls'] = 'Gestionar coleccioens de marcas';
@@ -89,7 +87,6 @@ $string['moretags'] = 'más...';
 $string['name'] = 'Nombre de marca';
 $string['namesalreadybeeingused'] = 'Nombre de marca ya está en uso';
 $string['nameuseddocombine'] = 'Este nombre de marca ya ha sido usado, ¿quiere combinar estas marcas?';
-$string['namewithlink'] = 'Nombre de marca con enlace';
 $string['newcollnamefor'] = 'Nuevo nombre para la colección de marcas {$a}';
 $string['newnamefor'] = 'Nuevo nombre para marca {$a}';
 $string['nextpage'] = 'Más';
@@ -147,7 +144,6 @@ $string['standardsuggest'] = 'Sugerir';
 $string['standardtag'] = 'Estándar';
 $string['suredeletecoll'] = '¿Está Usted seguro de querer eliminar la colección de marcas "{$a}"?';
 $string['tag'] = 'Marca';
-$string['tagarea'] = 'Área de marca';
 $string['tagarea_blog_external'] = 'Publicaciones de blog externas';
 $string['tagarea_course'] = 'Cursos';
 $string['tagarea_course_modules'] = 'Actividades y recursos';
@@ -156,12 +152,10 @@ $string['tagarea_user'] = 'Intereses del usuario';
 $string['tagareaenabled'] = 'HAbilitado';
 $string['tagareaname'] = 'Nombre';
 $string['tagareas'] = 'Áreas marcadas';
-$string['tagauthor'] = 'Autor de marca';
 $string['tagcollection'] = 'Colección de marcas';
-$string['tagcollection_help'] = 'Las colecciones de marcas son conjuntos de marcas para diferentes áreas. Por ejemplo, una colección de marcas estándar puede usarse para marcar cursos con las marcas de los intereses del usuario y las marcas de publicaciones en foros mantenidas en una colección separada. Cuando un usuario hace clic sobre de una marca, la página de marcas muestra solamente elementos con la  misma marca dentro de la misma colección. Las marcas pueden añadirse automáticamente a una colección de acuerdo con el área marcada, o pueden añadirse manualmente como marcas estándar.';
+$string['tagcollection_help'] = 'Las colecciones de marcas son conjuntos de marcas para direferentes áreas. Por ejemplo, una colección de marcas estándar puede usarse para marcar cursos con las marcas de los intereses del usuario y las marcas de publicaciones en foros mantenidas en una colección separada. Cuando un usuario hace click sobre de una marca, la página de marcas muestra solamente ítems con la  misma marca dentro de la misma colección. Las marcas pueden añadirse automáticamente a una colección de acuerdo con el área marcada, o pueden añadirse manualmente como marcas estándar.';
 $string['tagcollections'] = 'Colecciones de marcas';
 $string['tagdescription'] = 'Descripción de marca';
-$string['taginstance'] = 'Instancia de marca';
 $string['tags'] = 'Marcas';
 $string['tagsaredisabled'] = 'Las marcas están deshabilitadas';
 $string['thingstaggedwith'] = '"{$a->name}" se usa {$a->count} veces';

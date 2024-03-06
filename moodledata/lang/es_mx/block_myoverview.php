@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myoverview', language 'es_mx', version '4.2'.
+ * Strings for component 'block_myoverview', language 'es_mx', version '3.10'.
  *
  * @package     block_myoverview
  * @category    string
@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addtofavourites'] = 'Destacar (marcar con estrella) este curso';
-$string['all'] = 'Todos';
-$string['allincludinghidden'] = 'Todos (incluyendo quitados de la vista)';
+$string['all'] = 'Todos (excepto quitados de la vista)';
+$string['allincludinghidden'] = 'Todos';
 $string['aria:addtofavourites'] = 'Estrella para';
 $string['aria:allcourses'] = 'Mostrar todos los cursos excepto los cursos quitados de la vista';
 $string['aria:allcoursesincludinghidden'] = 'Mostrar todos los cursos';
@@ -38,7 +38,7 @@ $string['aria:courseprogress'] = 'Progreso del curso:';
 $string['aria:coursesummary'] = 'Texto del resumen del curso:';
 $string['aria:customfield'] = 'Mostrar {$a} cursos';
 $string['aria:displaydropdown'] = 'Mostrar menú desplegable';
-$string['aria:favourites'] = 'Mostrar solamente cursos destacados';
+$string['aria:favourites'] = 'Mostrar cursos destacados';
 $string['aria:future'] = 'Mostrar cursos futuros';
 $string['aria:groupingdropdown'] = 'Agrupando menú desplegable';
 $string['aria:hiddencourses'] = 'Mostrar cursos quitados de la vista';
@@ -57,15 +57,14 @@ $string['availablegroupings'] = 'Filtros disponibles';
 $string['availablegroupings_desc'] = 'Filtros del curso que están disponibles para selección por usuarios.Si ninguno estuviera seleccionado, todos los cursos serán mostrados.';
 $string['card'] = 'Tarjeta';
 $string['cards'] = 'Tarjetas';
-$string['clearsearch'] = 'Vaciar la búsqueda';
+$string['complete'] = 'completado';
 $string['completepercent'] = '{$a}% completado';
 $string['courseprogress'] = 'Progreso del curso:';
-$string['createcourse'] = 'Crear curso';
 $string['customfield'] = 'Campo personalizado';
 $string['customfiltergrouping'] = 'Campo a usar';
 $string['customfiltergrouping_nofields'] = 'Esta opción requiere que se configure un campo de curso personalizado y que sea visible para todos.';
 $string['displaycategories'] = 'Mostrar categorías';
-$string['displaycategories_help'] = 'Mostrar la Categoría del curso en elementos del curso del Tablero incluyendo tarjetas, elementos de la lista y elementos de resumen.';
+$string['displaycategories_help'] = 'Mostrar la Categoría del curso en ítems del curso del Tablero incluyendo tarjetas, ítems de la lista e ítems de resumen.';
 $string['favourites'] = 'Destacados';
 $string['future'] = 'Futuros';
 $string['hidden'] = 'Cursos quitados de la vista';
@@ -77,6 +76,7 @@ $string['layouts'] = 'Diseños disponibles';
 $string['layouts_help'] = 'Los diseños de vista general del curso que están disponibles para seleccionar por los usuarios. Si ninguno es seleccionado, se usará el diseño de tarjeta.';
 $string['list'] = 'Lista';
 $string['myoverview:myaddinstance'] = 'Añadir un nuevo bloque de vista general del curso al Tablero';
+$string['nocourses'] = 'Ningún curso';
 $string['nocustomvalue'] = 'No {$a}';
 $string['past'] = 'Pasados';
 $string['pluginname'] = 'Vista general del curso';
@@ -86,18 +86,7 @@ $string['privacy:metadata:overviewsortpreference'] = 'La preferencia de ordenami
 $string['privacy:metadata:overviewviewpreference'] = 'La preferencia de vista del bloque Vista general del curso.';
 $string['privacy:request:preference:set'] = 'El valor de la configuración \'{$a->name}\' era \'{$a->value}\'';
 $string['removefromfavourites'] = 'Quitar estrella de este curso';
-$string['searchcourses'] = 'Buscar cursos';
 $string['shortname'] = 'Nombre corto';
-$string['show'] = 'Restaurar para vista';
-$string['sortbylastaccessed'] = 'Ordenar por último accesado';
-$string['sortbyshortname'] = 'Ordenar por nombre corto';
-$string['sortbytitle'] = 'Ordenar por nombre de curso';
+$string['show'] = 'Restaurar para verlo';
 $string['summary'] = 'Resumen';
 $string['title'] = 'Nombre del curso';
-$string['viewquickstart'] = 'Ver Guía de Inicio Rápido';
-$string['zero_default_intro'] = 'Una vez que usted esté inscrito en un curso, aparecerá aquí.';
-$string['zero_default_title'] = 'Usted no está inscrito en ningún curso';
-$string['zero_nocourses_intro'] = '¿Necesita ayuda para comenzar? Revise la <a href="{$a->dochref}" title="{$a->doctitle}" target="{$a->doctarget}">Documentación de Moodle</a> o tome sus primeros pasos con nuestra Guía de Inicio Rápido.';
-$string['zero_nocourses_title'] = 'Crear su primer curso';
-$string['zero_request_intro'] = '¿Necesita ayuda para comenzar? Revise la <a href="{$a->dochref}" title="{$a->doctitle}" target="{$a->doctarget}">Documentación de Moodle</a> o tome sus primeros pasos con nuestra <a href="{$a->quickhref}" title="{$a->quicktitle}" target="{$a->quicktarget}">Guía de Inicio Rápido</a>.';
-$string['zero_request_title'] = 'Solicite su primer curso';

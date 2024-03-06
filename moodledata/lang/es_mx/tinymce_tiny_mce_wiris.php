@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_tiny_mce_wiris', language 'es_mx', version '4.2'.
+ * Strings for component 'tinymce_tiny_mce_wiris', language 'es_mx', version '3.10'.
  *
  * @package     tinymce_tiny_mce_wiris
  * @category    string
@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['error_connection'] = 'Ocurrió un error al cargar MathType para TinyMCE';
 $string['pluginname'] = 'MathType por WIRIS';
-$string['privacy:metadata'] = 'MathType para TinyMCE no afecta ni almacena ningún dato por si mismo.';
+$string['privacy:null_reason'] = 'MathType para TinyMCE no afecta ni almacena ningún dato por si mismo.';

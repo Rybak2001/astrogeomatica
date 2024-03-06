@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'page', language 'es_mx', version '4.2'.
+ * Strings for component 'page', language 'es_mx', version '3.10'.
  *
  * @package     page
  * @category    string
@@ -36,12 +36,10 @@ $string['indicator:cognitivedepth'] = 'Página cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en un recurso Página.';
 $string['indicator:cognitivedepthdef'] = 'Página cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por los recursos Página durante este intervalo de análisis (Niveles = Sin Ver, Ver)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Página social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en un recurso Página.';
 $string['indicator:socialbreadthdef'] = 'Página social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por los recursos de Página  durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['legacyfiles'] = 'Migración de archivos de curso antiguos';
 $string['legacyfilesactive'] = 'Activo';
 $string['legacyfilesdone'] = 'Finalizado';
@@ -56,7 +54,6 @@ Una página puede emplearse
 
 * Para presentar los términos y condiciones de un curso del programa de estudios
 * Para incluir varios videos o archivos de sonido junto con un texto explicatorio';
-$string['modulename_link'] = 'mod/page/view';
 $string['modulenameplural'] = 'Páginas';
 $string['optionsheader'] = 'Mostrar opciones';
 $string['page-mod-page-x'] = 'Cualquier página del módulo Página';

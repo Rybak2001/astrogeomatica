@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_snippet', language 'es_mx', version '4.2'.
+ * Strings for component 'atto_snippet', language 'es_mx', version '3.10'.
  *
  * @package     atto_snippet
  * @category    string
@@ -35,7 +35,7 @@ $string['dialogtitle'] = 'Ingresar Preferencias';
 $string['fieldsheader'] = 'Ingresar detalles para :';
 $string['generalsettings'] = 'Configuraciones generales';
 $string['insert'] = 'Insertar';
-$string['loadfromtheme'] = 'Cargar snippets (retazos) del tema';
+$string['loadfromtheme'] = 'Cargar snippets (retazos)del tema';
 $string['loadfromtheme_desc'] = 'Algunos temas de Atto se distribuyen con sus propias pre-configuraciones de snippet (retazo). Si este ajuste se configura a "si" entonces aparecerán automáticamente retazos del tema en el diálogo de retazos de Atto. Las pre-configuraciones de retazo del tema pueden ser aplicadas desde la caja desplegable en la página de ajustes de retazo sin importar este ajuste.';
 $string['nofieldsheader'] = 'Insertar :';
 $string['nothingtoinsert'] = '¡Nada para insertar!';
@@ -46,7 +46,7 @@ $string['privacy:metadata'] = 'El plugin de Atto Snippet (Retazo Atto) no almace
 $string['settings'] = 'Snippet Atto (Retazo Atto)';
 $string['snippet'] = 'Snippet (retazo)';
 $string['snippet:visible'] = 'Puede ver Atto Snippet (retazo Atto) en barra de herramientas';
-$string['snippetcount'] = 'Número de Snippets (retazos)';
+$string['snippetcount'] = 'Número de Snippets';
 $string['snippetcount_desc'] = '';
 $string['snippetinstructions'] = 'Instrucciones de Snippet (retazo)';
 $string['snippetkey'] = 'Clave del Snippet';

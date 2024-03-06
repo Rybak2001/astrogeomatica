@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'userkey', language 'es_mx', version '4.2'.
+ * Strings for component 'userkey', language 'es_mx', version '3.10'.
  *
  * @package     userkey
  * @category    string
@@ -25,11 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['adduserkey'] = 'Añadir clave de usuario';
 $string['createnewkey'] = 'Crear nueva clave de usuario';
 $string['createuserkey'] = 'Crear clave de usuario';
 $string['deletekeyconfirm'] = '¿Realmente desea borrar esta clave de usuario?';
-$string['deleteuserkey'] = 'Eliminar clave de usuario';
 $string['edituserkey'] = 'Editar clave de usuario';
 $string['keyiprestriction'] = 'Restricción de clave por IP';
 $string['keyiprestriction_help'] = 'Escriba una dirección IP específica, o un rango de direcciones IP que serán las únicas direcciones IP permitidas para accesar estos datos. Dejar vacío para deshabilitar la restricción por IP (no recomendable).';
@@ -47,5 +45,5 @@ $string['privacy:metadata:user_private_key:userid'] = 'El usuario asociado con l
 $string['privacy:metadata:user_private_key:validuntil'] = 'La fecha hasta cuando es válida la clave privada';
 $string['privacy:metadata:user_private_key:value'] = 'El valor de la clave.';
 $string['userkey'] = 'Clave de usuario';
-$string['userkey_help'] = 'Seleccione una clave guardada que dé a los usuarios acceso a los datos publicados por este conector de exportación, sin tener que iniciar sesión en Moodle. Seleccione \'crear nueva clave de usuario\' para generar una nueva clave al remitir este formato.';
+$string['userkey_help'] = 'Seleccione una clave guardada que dé a los usuarios acceso a los datos publicados por este conector de exportación, sin tener que almacenarlos en Moodle. Seleccione \'crear nueva clave de usuario\' para generar una nueva clave al remitir este formato.';
 $string['userkeys'] = 'Claves de usuario';

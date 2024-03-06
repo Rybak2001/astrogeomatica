@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_moodlecloudsignup', language 'es_mx', version '4.2'.
+ * Strings for component 'local_moodlecloudsignup', language 'es_mx', version '3.10'.
  *
  * @package     local_moodlecloudsignup
  * @category    string
@@ -306,7 +306,7 @@ $string['portal:historical.fetchfailure.lead'] = 'Lo sentimos, no pudimos recupe
 $string['portal:historical.fetchfailure.title'] = '¡Oh no!';
 $string['portal:list.body.lead'] = '';
 $string['portal:list.body.title'] = 'Portal';
-$string['portal:list.table.titles.location'] = 'Ubicación';
+$string['portal:list.table.titles.location'] = 'Localización';
 $string['portal:list.table.titles.package'] = 'Paquete';
 $string['portal:list.table.titles.site'] = 'Sitio';
 $string['portal:list.table.titles.subdomain'] = 'Subdominio';
@@ -548,10 +548,10 @@ $string['signup:reserve.available'] = '¡Órale! Su nombre para el sitio está d
 $string['signup:reserve.body.lead'] = '¡Aquí está la parte interesante! Dele a su sitio un nombre  y un lugar para vivir. Elija sabiamente - no podrán cambiarlo después.';
 $string['signup:reserve.body.title'] = 'Darle un nombre a su sitio MoodleCloud';
 $string['signup:reserve.form.fields.continue'] = 'Siguiente';
-$string['signup:reserve.form.fields.region'] = 'Ubicación del alojamiento';
+$string['signup:reserve.form.fields.region'] = 'Localización del alojamiento';
 $string['signup:reserve.form.fields.subdomain'] = 'Nombre del sitio';
 $string['signup:reserve.form.placeholders.subdomain'] = 'susitio';
-$string['signup:reserve.form.tooltips.region'] = 'Aquí es donde será alojado su sitio. Nosotros recomendamos elegir la ubicación más cercana a Usted y sus estudiantes.';
+$string['signup:reserve.form.tooltips.region'] = 'Aquí es donde será alojado su sitio. Nosotros recomendamos elegir la localización más cercana a Usted y sus estudiantes.';
 $string['signup:signin.body.lead'] = 'Ingresar usando su nombre y contraseña del sitio MoodleCloud.';
 $string['signup:signin.body.title'] = 'Ingresar a MoodleCloud para comenzar';
 $string['signup:status.body.ariasetupcomplete'] = 'La configuración de su nuevo sitio ha sido completada. Ahora puede Usted ingresar.';

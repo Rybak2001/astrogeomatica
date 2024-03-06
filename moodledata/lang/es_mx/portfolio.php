@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio', language 'es_mx', version '4.2'.
+ * Strings for component 'portfolio', language 'es_mx', version '3.10'.
  *
  * @package     portfolio
  * @category    string
@@ -33,7 +33,7 @@ $string['addtoportfolio'] = 'Exportar al portafolios';
 $string['alreadyalt'] = 'Ya exportando: por favor, haga clic aquí para resolver esta transferencia';
 $string['alreadyexporting'] = 'Usted ya tiene una exportación de portafolio activa en esta sesión. Antes de continuar, Usted debe de completar esta exportación o cancelarla.¿Le gustaría continuar? (No la cancelará)';
 $string['availableformats'] = 'Formatos de exportación disponibles';
-$string['callbackclassinvalid'] = 'La clase de retrollamda especificada es inválida o no era parte de la jerarquía portfolio_caller';
+$string['callbackclassinvalid'] = 'La clase callback especificada es inválida o no era parte de la jerarquía portfolio_caller';
 $string['callercouldnotpackage'] = 'Error en el empaquetado de los datos para exportar: el error original fue {$a}';
 $string['cannotsetvisible'] = 'No se puede establecer este a visible - el plugin ha sido completamente deshabilitado debido a una mala configuración.';
 $string['commonportfoliosettings'] = 'Configuración común del portafolios';
@@ -127,23 +127,23 @@ $string['logsummary'] = 'Transferencias anteriores exitosas';
 $string['manageportfolios'] = 'Gestionar portafolios';
 $string['manageyourportfolios'] = 'Gestionar sus portafolios';
 $string['mimecheckfail'] = 'El plugin de portafolios {$a->plugin} no soporta ese mimetype {$a->mimetype}';
-$string['missingcallbackarg'] = 'Falta el argumento de retrollamada {$a->arg} para la clase {$a->class}';
+$string['missingcallbackarg'] = 'Falta el argumento callback {$a->arg} para la clase {$a->class}';
 $string['moderatedbsizethreshold'] = 'dbsize de transferencia moderada';
 $string['moderatedbsizethresholddesc'] = 'Número de registros db sobre los cuales serán considerados que toman un tiempo moderado para transferirse';
 $string['moderatefilesizethreshold'] = 'Tamaño de archivo de transferencia moderado';
 $string['moderatefilesizethresholddesc'] = 'Los tamaños de archivo mayores a este umbral serán considerados que toman un tiempo moderado para transferirse';
 $string['multipleinstancesdisallowed'] = 'Tratando de crear otra instancia de un plugin que ha deshabilitado instancias múltiples ({$a})';
-$string['mustsetcallbackoptions'] = 'Usted debe configurar las opciones de retrollamada en el constructor portfolio_add_button o emplear el método de set_callback_options';
+$string['mustsetcallbackoptions'] = 'Usted debe configurar las opciones de callback (llamada de retorno) en el constructor portfolio_add_button o emplear el método de set_callback_options';
 $string['noavailableplugins'] = 'Disculpe, pero no hay portafolios disponibles para ser exportados';
-$string['nocallbackclass'] = 'No se pudo encontrar la clase de retrollamada para usar ({$a})';
+$string['nocallbackclass'] = 'No se pudo encontrar la clase callback para usar ({$a})';
 $string['nocallbackcomponent'] = 'No se pudo encontrar el componente especificado {$a}.';
 $string['nocallbackfile'] = 'Algo está roto dentro del módulo que está tratando de exportar - no pudo encontrarse el archivo de portafolio necesario';
-$string['noclassbeforeformats'] = 'Debe configurar la clase de retrollamada antes de llamar a  set_formats en portfolio_button';
+$string['noclassbeforeformats'] = 'Debe configurar la clase callback antes de llamar a  set_formats en portfolio_button';
 $string['nocommonformats'] = 'No existen formatos comunes entre los plugins disponibles y el sitio que llama {$a->location} (soportados por el llamador  {$a->formats})';
 $string['noinstanceyet'] = 'No se ha seleccionado';
 $string['nologs'] = '¡No hay bitácoras para mostrar!';
 $string['nomultipleexports'] = 'Lo siento, pero el destino del portafolio ({$a->plugin}) no soporta exportaciones múltiples al mismo tiempo . Por favor <a href="{$a->link}">termine primero el actual</a> e inténtelo de nuevo';
-$string['nonprimative'] = 'Se pasó un valor no primitivo como argumento de retrollamada a portfolio_add_button. No se puede continuar. La clave era {$a->key} y el valor era {$a->value}';
+$string['nonprimative'] = 'Se pasó un valor no primitivo como argumento callback a portfolio_add_button. No se puede continuar. La clave era {$a->key} y el valor era {$a->value}';
 $string['nopermissions'] = 'Lo sentimos, pero no tiene los permisos necesarios para exportar archivos de esta zona';
 $string['notexportable'] = 'Lo sentimos, pero el tipo de contenido que está tratando de exportar no es exportable';
 $string['notimplemented'] = 'Lo sentimos, pero está tratando de exportar contenido en un formato que aún no está implementado ({$a})';

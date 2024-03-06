@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_coursebank', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_coursebank', language 'es_mx', version '3.10'.
  *
  * @package     tool_coursebank
  * @category    string
@@ -169,7 +169,7 @@ $string['settings_sessionkey_desc'] = 'La clave de sesión usada por el Banco de
 $string['settings_timeout'] = 'Caducidad de revicio web';
 $string['settings_timeout_desc'] = 'Caducidad (en segundos) para solicitudes HTTP individuales.';
 $string['settings_url'] = 'URL del destino';
-$string['settings_url_desc'] = 'Ubicación del servidor de respaldo de destino.';
+$string['settings_url_desc'] = 'Localización del servidor de respaldo destino.';
 $string['settingspage'] = 'Configuración';
 $string['speedtestbutton'] = 'Probar velocidad de transferencia';
 $string['speedtestchunk'] = 'El tamaño recomendado del pedazo para su sistema es de';

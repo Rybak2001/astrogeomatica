@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mrbs', language 'es_mx', version '4.2'.
+ * Strings for component 'block_mrbs', language 'es_mx', version '3.10'.
  *
  * @package     block_mrbs
  * @category    string
@@ -134,7 +134,6 @@ $string['config_resolution'] = 'Bloques de tiempo';
 $string['config_resolution2'] = 'Bloque sde tiempo a ser agendados. Los períodos deben deshabilitarse para usar esta opción.';
 $string['config_search_count'] = 'Resultados por página buscar';
 $string['config_search_count2'] = 'Resultados por página al buscar';
-$string['config_show_plus_link'] = 'Mostrar enlace a plus';
 $string['config_show_plus_link2'] = 'Cambiar a cierto (true) para siempre mostrar el enlace (+)';
 $string['config_timeformat'] = 'Formato del tiempo';
 $string['config_timeformat2'] = 'Formato de tiempo a usar en MRBS.';
@@ -149,8 +148,8 @@ $string['config_weekstarts2'] = 'Elija el principio de la semana';
 $string['confirmdel'] = '¿Está seguro de querer eliminar esta entrada?';
 $string['conflict'] = 'La nueva reservación tendrá conflicto con la siguiente entrada(s)';
 $string['createdby'] = 'Creada Por';
-$string['cronfile'] = 'Ubicación del archivo de importación de sesión';
-$string['cronfiledesc'] = 'Si desea emplear la característica de importación de sesión automática, escriba la ubicación del archivo aquí. El archivo debe poder ser movido por el usuario del servidor web. Al escribir una ubicación, Usted habilitará tipos de reservaciones especiales para las reservaciones importadas';
+$string['cronfile'] = 'Localización del archivo de importación de sesión';
+$string['cronfiledesc'] = 'Si desea emplear la característica de importación de sesión automática, escriba la localización del archivo aquí. El archivo debe poder ser movido por el usuario del servidor web. Al escribir una localización, Usted habilitará tipos de reservaciones especiales para las reservaciones importadas';
 $string['ctrl_click'] = 'Usar Control-Click para seleccionar más de una sala';
 $string['ctrl_click_type'] = 'Usar Control-Click para seleccionar más de un tipo';
 $string['database'] = 'Base de Datos';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_office365', language 'es_mx', version '4.2'.
+ * Strings for component 'repository_office365', language 'es_mx', version '3.10'.
  *
  * @package     repository_office365
  * @category    string
@@ -29,6 +29,7 @@ $string['cachedef_unifiedfolderids'] = 'Repositorio Microsoft 365 - IDs de Carpe
 $string['cachedef_unifiedgroupfolderids'] = 'Repositorio Microsoft 365 - IDs de Carpeta unificada para grupos';
 $string['configplugin'] = 'Configurar Repositorio Microsoft 365';
 $string['coursegroup'] = 'Deshabilitar carpeta de Grupos (Cursos) en selector de archivo';
+$string['courses'] = 'SharePoint (Cursos)';
 $string['defaultgroupsfolder'] = 'Archivos del Curso';
 $string['erroraccessdenied'] = 'Acceso denegado';
 $string['errorauthoidcnotconfig'] = 'Por favor configure el plugin de autenticación OpenID Connect antes de intentar usar el repositorio Microsoft 365.';
@@ -42,10 +43,13 @@ $string['groups'] = 'Grupos (Cursos)';
 $string['myfiles'] = 'Mi OneDrive';
 $string['notconfigured'] = '<p class="error">Para usar este plugin, Usted primeramente debe configurar los  <a href="{$a}/admin/settings.php?section=local_o365">Microsoft 365 plugins</a></p>';
 $string['office365:view'] = 'Ver Repositorio Microsoft 365';
+$string['office365video'] = 'Video Microsoft 365';
+$string['officevideo'] = 'Deshabilitar carpeta de Video de Microsoft 365 en selector de archivo';
 $string['onedrivegroup'] = 'Deshabilitar carpeta Mi OneDrive en selector de archivo';
 $string['pluginname'] = 'Microsoft 365';
 $string['pluginname_help'] = 'Un Repositorio de Microsoft 365';
 $string['privacy:metadata'] = 'Este plugin se comunica con el API de Microsoft 365 OneDrive como el usuario actual. Cualquier archivo subido será enviado al servidor remoto.';
+$string['sharepointgroup'] = 'Deshabilitar carpeta SharePoint (Cursos) en selector de archivo';
 $string['trendingaround'] = 'Archivos de Tendencia Alrededor Mío';
 $string['trendinggroup'] = 'Deshabilitar Archivos de Tendencia Alrededor Mío en selector de archivo';
 $string['upload'] = 'Subir archivo nuevo';

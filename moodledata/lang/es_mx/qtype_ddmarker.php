@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_ddmarker', language 'es_mx', version '3.10'.
  *
  * @package     qtype_ddmarker
  * @category    string
@@ -41,7 +41,7 @@ $string['dropbackground'] = 'Imagen de fondo a donde arrastrar los marcadores';
 $string['dropzone'] = 'Zona para soltar {$a}';
 $string['dropzoneheader'] = 'Zonas para soltar';
 $string['dropzones'] = 'Zonas para soltar';
-$string['dropzones_help'] = 'Las zonas para soltar pueden ser definidas por coordenadas, o arrastradas a su posición en la vista previa de arriba.
+$string['dropzones_help'] = 'Las zonas de soltar pueden ser definidas por coordenadas, o arrastradas a su posición en la vista previa de arriba.
 
 Primeramente al seleccione una forma (círculo, rectángulo o polígono) se añadirá una nueva forma de zona de descarga a la parte superior izquierda de la vista previa. Podría ser útil minimizar la sección de Marcadores para que Usted pueda ver la vista previa mientras edita las zonas de Descarga.
 
@@ -56,10 +56,8 @@ Para su información, las tres formas usan coordenadas en esta manera :<br />
 * Polígono: x1, y1; x2, y2; ...; xn, yn<br>por ejemplo: <code>20, 60; 100, 60; 20, 100</code>
 
 Al seleccionar un texto de Evaluador se añadirá ese texto a la forma en la vista previa.';
-$string['followingarewrong'] = 'Marcadores colocados en el área equivocada : {$a}.';
-$string['followingarewrongandhighlighted'] = 'Marcadores colocados equivocadamente: {$a}. Los marcadores resaltados ahora son mostrados  con la ubicación correcta. Elija el marcador para resaltar el área permitida..';
-$string['formerror_dragrequired'] = 'Usted debe definir al menos un marcador para esta pregunta.';
-$string['formerror_droprequired'] = 'Usted debe definir al menos una zona para soltar para esta pregunta.';
+$string['followingarewrong'] = 'Los siguientes marcadores han sido colocados en el área equivocada : {$a}.';
+$string['followingarewrongandhighlighted'] = 'Los siguientes marcadores fueron colocados equivocadamente: {$a}. Evaluador(es) resaltado(s) se muestra(n) con la ubicación correcta.<br /> Elija el marcador para resaltar el área permitida..';
 $string['formerror_nobgimage'] = 'Usted necesita seleccionar una imagen para usar como fondo para el área de arrastrar y colocar.';
 $string['formerror_noitemselected'] = 'Usted ha especificado una zona para soltar, pero no eligió un marcador que debe arrastrarse a esa zona.';
 $string['formerror_nosemicolons'] = 'No hay punto y coma en su cadena de coordenadas. Sus coordenadas para un(a)  {$a->shape} deberían expresarse como - {$a->coordsstring}.';
@@ -79,8 +77,7 @@ $string['nolabel'] = 'No texto de etiqueta';
 $string['noofdrags'] = 'Número';
 $string['pleasedragatleastonemarker'] = 'Su respuesta no está completa; Usted debe colocar al menos un marcador sobre la imagen.';
 $string['pluginname'] = 'Arrastrar y soltar marcadores';
-$string['pluginname_help'] = 'Arrastrar y soltar marcadores requiere que el usuario arrastre etiquetas de texto y las suelte dentro de zonas para soltar definidas sobre de una imagen de fondo.';
-$string['pluginname_link'] = 'question/type/ddmarker';
+$string['pluginname_help'] = 'Arrastrar y soltar marcadores requiere que el usuario arrastre etiquetas de texto y las suelte dentro de zonas de descarga definidas sobre de una imagen de fondo.';
 $string['pluginnameadding'] = 'Agregando arrastrar y soltar marcadores';
 $string['pluginnameediting'] = 'Editando arrastrar y soltar marcadores';
 $string['pluginnamesummary'] = 'Los marcadores se arrastran y sueltan sobre una imagen de fondo.
@@ -88,10 +85,7 @@ $string['pluginnamesummary'] = 'Los marcadores se arrastran y sueltan sobre una 
 Nota: Este tipo de pregunta no es accesible para usuarios con discapacidad visual.';
 $string['previewareaheader'] = 'Vista previa';
 $string['previewareamessage'] = 'Elija un archivo de imagen de fondo, escriba etiquetas de texto para los marcadores y defina las zonas para soltar sobre la imagen de fondo en donde deberán ser arrastradas.';
-$string['privacy:metadata'] = 'El plugin de tipo de pregunta Arrastrar y soltar marcadores les permite a los autores de pregunta configurar opciones predeterminadas como preferencias del usuario.';
-$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
-$string['privacy:preference:penalty'] = 'La penalización para cada intento incorrecto cuando las preguntas son empleadas con el comportamiento \'Interactivo con intentos múltiples\' o el \'Modo adaptativo\'.';
-$string['privacy:preference:shuffleanswers'] = 'Si es que las respuestas deberían ser barajadas automáticamente.';
+$string['privacy:metadata'] = 'El plugin de tipo de pregunta Arrastrar y soltar marcadores no almacena ningún dato personal.';
 $string['refresh'] = 'Refrescar vista previa';
 $string['shape'] = 'Forma';
 $string['shape_circle'] = 'Círculo';
@@ -104,7 +98,7 @@ $string['shape_rectangle'] = 'Rectángulo';
 $string['shape_rectangle_coords'] = 'x,y;w,h (donde x,y son las coordenadas de la esquina superior izquierda del rectángulo mientras que w y h son el ancho y alto del rectángulo)';
 $string['shape_rectangle_lowercase'] = 'rectángulo';
 $string['showmisplaced'] = 'Resaltar las zonas para soltar en donde no se han soltado los marcadores correctos';
-$string['shuffleimages'] = 'Barajar elementos arrastrables cada vez que se intente la pregunta';
+$string['shuffleimages'] = 'Barajar items para arrastrar cada vez que se intente la pregunta';
 $string['stateincorrectlyplaced'] = 'Mostrar cuales marcadores están colocados incorrectamente';
 $string['summariseplace'] = '{$a->no}. {$a->text}';
 $string['summariseplaceno'] = 'Zona para soltar {$a}';

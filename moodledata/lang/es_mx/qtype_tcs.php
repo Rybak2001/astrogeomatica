@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_tcs', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_tcs', language 'es_mx', version '3.10'.
  *
  * @package     qtype_tcs
  * @category    string
@@ -32,8 +32,6 @@ $string['correctansweris'] = 'La respuesta más popular es: {$a}';
 $string['effecttext'] = 'Información nueva';
 $string['effecttextdefault'] = 'Información nueva';
 $string['errgradesetanswerblank'] = 'El número de panelistas debería ser 0 porque la opción está vacía';
-$string['errnoanswer'] = 'Por favor seleccione una respuesta.';
-$string['errnofeedback'] = 'Por favor escriba un comentario.';
 $string['feedback'] = 'Comentarios';
 $string['fraction'] = 'Número de panelistas';
 $string['fractionshouldbenumber'] = 'El número de panelistas debería ser un número.';
@@ -43,9 +41,7 @@ $string['labeleffecttext'] = 'Campo de etiqueta de Nueva información';
 $string['labeleffecttext_help'] = 'Usted puede dejar el "Campo de etiqueta de Nueva información" y el campo de "Nueva información" vacíos si desea presentar solamente una opción y las opciones de respuestas a elegir.';
 $string['labelhypothisistext'] = 'Campo de etiqueta de "Opción"';
 $string['labelnewinformationeffect'] = 'Campo de etiqueta de "Su hipótesis u opción"';
-$string['labeloutsidefieldcompetence'] = 'Esta pregunta está fuera de mi campo de competencia';
 $string['labelquestionfeedback'] = 'Campo de etiqueta de "Comentarios"';
-$string['labelshowoutsidefieldcompetence'] = 'Mostrar el campo "Esta pregunta está fuera de mi campo de competencia"';
 $string['labelshowquestionfeedback'] = 'Mostrar el Campo de "Comentarios"';
 $string['labelsituation'] = 'Campo de etiqueta de "Situación"';
 $string['likertscale1'] = 'Severamente debilitada';
@@ -55,11 +51,11 @@ $string['likertscale4'] = 'Reforzada';
 $string['likertscale5'] = 'Fuertemente reforzada';
 $string['newinformationeffect'] = 'Su hipótesis u opción está';
 $string['notenoughanswers'] = 'Este tipo de pregunta requiere al menos {$a} opciones';
-$string['pluginname'] = 'Concordancia del razonamiento';
+$string['pluginname'] = 'Script de prueba de concordancia';
 $string['pluginname_help'] = 'En respuesta a una pregunta (que puede incluir una imagen),el respondente elige entre varias respuestas.';
-$string['pluginnameadding'] = 'Añadiendo una pregunta de Concordancia del razonamiento';
-$string['pluginnameediting'] = 'Editando una pregunta de Concordancia del razonamiento';
-$string['pluginnamesummary'] = 'La Concordancia del razonamiento es un método de entrenamiento/evaluación del razonamiento profesional en el contexto de incertidumbre por situaciones diarias o profesionales simuladas.';
-$string['privacy:metadata'] = 'El plugin del tipo de pregunta de Concordancia del razonamiento no almacena ningún dato personal.';
+$string['pluginnameadding'] = 'Añadiendo una pregunta SCT';
+$string['pluginnameediting'] = 'Editando una pregunta SCT';
+$string['pluginnamesummary'] = 'La prueba de script de concordancia (SCT) es un método de evaluación del razonamiento profesional en contexto de incertidumbre por situaciones diarias o profesionales simuladas.';
+$string['privacy:metadata'] = 'El plugin del tipo de pregunta de Script de prueba de concordancia no almacena ningún dato personal.';
 $string['showquestiontext'] = 'Mostrar la situación (texto de pregunta)';
 $string['situation'] = 'Situación';

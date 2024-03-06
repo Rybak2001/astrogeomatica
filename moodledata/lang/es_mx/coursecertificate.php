@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'coursecertificate', language 'es_mx', version '4.2'.
+ * Strings for component 'coursecertificate', language 'es_mx', version '3.10'.
  *
  * @package     coursecertificate
  * @category    string
@@ -26,18 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityhiddenwarning'] = 'La actividad actualmente está oculta. Al hacerla visible, los estudiantes que cumplan la restricción de acceso a la actividad automáticamente recibirán una copia en PDF del certificado.';
-$string['archivecertificates'] = 'Archivar certificados emitidos';
-$string['archivecertificates_help'] = 'Los certificados archivados todavía pueden ser verificados y todavía son mostrados en la página del perfil del usuario. Sin embargo, cuando un certificado de curso existente es archivado, a un usuario se le puede emitir un nuevo certificado una  vez que satisfaga las restricciones de acceso de la actividad.';
 $string['automaticsend_helptitle'] = 'Ayuda con el envío automático';
 $string['automaticsenddisabled'] = 'El envío automático de este certificado está deshabilitado.';
 $string['automaticsenddisabled_help'] = 'Al dejar esto deshabilitado, los estudiantes deben elegir el enlace a la actividad mostrado en la página del curso para recibir el certificado, una vez que hayan cumplido con las restricciones de acceso de la actividad.<br/><br/>
 Al habilitarlo, los estudiantes recibirán automáticamente una copia en PDF del certificado una vez que hayan cumplido con las restricciones de acceso de la actividad. Tenga en cuenta que todos los estudiantes que ya hubieran cumplido con las restricciones de acceso de esta actividad recibirán el certificado cuando habilite esto.';
 $string['automaticsenddisabledalert'] = 'A los estudiantes que cumplan con las  restricciones de acceso de esta actividad les serán emitidos sus certificados una vez que accedan a ellos.';
+$string['automaticsenddisabledinfo'] = 'Actualmente, {$a} estudiantes cumplen con las restricciones de acceso de esta actividad y les será emitido su certificado una vez que accedan a él..';
 $string['automaticsendenabled'] = 'El envío automático de este certificado está habilitado.';
 $string['automaticsendenabled_help'] = 'Al dejar esto habilitado, los estudiantes recibirán automáticamente una copia en PDF del certificado una vez que hayan cumplido con las restricciones de acceso de esta actividad.<br/><br/>
 Al deshabilitarlo, los estudiantes necesitarán elegir el enlace hacia la actividad mostrado en la página del curso para recibir el certificado, una vez que hayan cumplido con las restricciones de acceso de esta actividad..';
 $string['certificateissues'] = 'Emisiones de certificado';
-$string['certificatesarchived'] = 'Certificados archivados';
 $string['certifiedusers'] = 'Usuarios certificados';
 $string['chooseatemplate'] = 'Elija una plantilla...';
 $string['code'] = 'Código';
@@ -49,13 +47,13 @@ $string['coursecompletiondate'] = 'Fecha de terminación';
 $string['courseinternalid'] = 'ID interna del curso usada en URLs';
 $string['courseurl'] = 'URL del curso';
 $string['disableautomaticsend'] = 'Los estudiantes ya no recibirán automáticamente una copia en PDF del certificado tan pronto como cumplan con las restricciones de acceso a la actividad. En su lugar, ellos necesitarán elegir el enlace de la actividad mostrado en la página del curso para recibir el certificado, una vez que cumplan con las restricciones de acceso de la actividad.';
+$string['enableautomaticsend'] = 'Los estudiantes recibirán automáticamente una copia en PDF del certificado tan pronto como cumplan con las restricciones de acceso a la actividad. <br/><br/>
+Actualmente, {$a} estudiantes ya cumplen con las restricciones de acceso pero no han accedido aun a la actividad. Ellos recibirán inmediatamente su copia también.<br/><br/>
+Los estudiantes que ya hayan accedido a esta actividad no recibirán nuevamente el certificado.';
 $string['enableautomaticsendpopup'] = 'Todos los estudiantes recibirán automáticamente una copia en PDF del certificado tan pronto como cumplan las restricciones de acceso de esta actividad.<br/><br/>
 Los estudiantes que ya hayan cumplido estas restricciones de acceso pero que aun no hayan accedido a esta actividad recibirán inmediatamente su copia también.<br/><br/>
 Los estudiantes que ya hayan accedido a esta actividad no recibirán nuevamente el certificado.';
 $string['expirydate'] = 'Fecha de expiración';
-$string['filterswarning'] = 'Filtros definidos en el contexto de la actividad solamente son usados para el título y la descripción de la actividad.';
-$string['filterswarninglist'] = 'Solamente los filtros "{$a->list}" serán usados cuando se generen archivos PDF de  certificados y solamente si están habilitados en el <a href="{$a->link}">nivel del curso</a>.';
-$string['filterswarningnone'] = 'Ningún filtro será usado cuando se generen archivos PDF de certificados.';
 $string['issueddate'] = 'Fecha de emisión';
 $string['managetemplates'] = 'Gestionar plantillas de certificado';
 $string['modulename'] = 'Certificado de curso';
@@ -66,7 +64,6 @@ $string['notemplateselecteduser'] = 'El certificado no está disponible. Por fav
 $string['notemplateswarning'] = 'No hay plantillas disponibles. Por favor ´póngase en contacto con el administrador del sitio.';
 $string['notemplateswarningwithlink'] = 'No hay plantillas disponibles. Por favor vaya a <a href="{$a}">la página de gestión de plantillas de certificado</a> y seleccione una nueva.';
 $string['nouserscertified'] = 'Ningún usuario está certificado.';
-$string['open'] = 'Abrir';
 $string['page-mod-coursecertificate-x'] = 'Cualquier página del módulo certificado de curso';
 $string['pluginadministration'] = 'Administración de certificado del curso';
 $string['pluginname'] = 'Certificado de curso';

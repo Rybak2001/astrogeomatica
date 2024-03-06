@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_exacomp', language 'es_mx', version '4.2'.
+ * Strings for component 'block_exacomp', language 'es_mx', version '3.10'.
  *
  * @package     block_exacomp
  * @category    string
@@ -72,7 +72,6 @@ $string['apply_filter'] = 'aplicar filtro';
 $string['assessment_SelfEval_useVerbose'] = 'opciones de retroalimentación verbosa para estudiantes';
 $string['assessment_date'] = 'fecha de la evaluación';
 $string['assign_dakora_teacher'] = 'asignar profesor para asuntos interdisciplinarios';
-$string['assign_dakora_teacher_link'] = 'Clic aquí para asignar profesor para asuntos interdisciplinarios';
 $string['assign_descriptor_no_crosssubjects_available'] = 'Ho hay Asuntos interdisciplinarios disponibles.';
 $string['assign_descriptor_to_crosssubject'] = 'Asignar la competencia "{$a}" a los siguientes Asuntos-interdisciplinarios:';
 $string['assigndone'] = 'tarea hecha:';
@@ -88,7 +87,6 @@ $string['block_exacomp_external_trainer_assign'] = 'Asignar entrenador externo';
 $string['block_exacomp_external_trainer_assign_body'] = 'Esto es necesario para usar la App Elove.';
 $string['block_exacomp_external_trainer_assign_head'] = 'Permitir asignación de entrenadores externos para estudiantes.';
 $string['block_exacomp_external_trainer_student'] = 'Estudiante';
-$string['block_exacomp_link_to_dakora_app'] = 'a Dakora-App';
 $string['block_exacomp_logging_body'] = 'Las acciones relevantes se anotarán en bitácoras.';
 $string['block_exacomp_logging_head'] = 'Activar bitácora';
 $string['block_exacomp_notifications_body'] = 'Los usuarios serán notificados después de las acciones relevantes';
@@ -253,7 +251,6 @@ $string['hide_solution'] = 'Ocultar solución';
 $string['hide_solution_disabled'] = 'La solución ya está oculta para todos los estudiantes';
 $string['hideevaluation'] = 'Para ocultar auto-evaluación haga  click <a href="{$a}">aquí</a>';
 $string['hideevaluation_student'] = 'Para ocultar evaluación del entrenador haga  click <a href="{$a}">aquí</a>';
-$string['ics_provide_link_text'] = 'Por favor proporcione un enlace.';
 $string['import_activate_scheduled_tasks'] = 'Activar estos trabajos';
 $string['import_activities'] = 'Importar actividaddes desde un curso de plantilla hacia su curso';
 $string['import_category_mapping_column_exacomp'] = 'Título niveldificultad Exacomp';
@@ -278,7 +275,6 @@ $string['importsuccess'] = '¡Los datos fueron importados exitosamente!';
 $string['importsuccess_own'] = '¡Los datos individuales fueron importados exitosamente!';
 $string['importtask_all_subjects'] = 'Todos los asuntos';
 $string['importtask_disabled'] = 'Deshabilitado';
-$string['importtask_link'] = 'Enlace a orígen';
 $string['importtask_title'] = 'Título';
 $string['importwebservice'] = 'Es posible tener los datos actualizados vía una <a href="{$a}">Server-URL</a>.';
 $string['infolink'] = 'Información adicional:';
@@ -372,7 +368,6 @@ $string['numb'] = 'Número';
 $string['number_of_found_students'] = 'número de estudiantes encontrados';
 $string['number_of_students'] = 'número de estudiantes';
 $string['oldxmlfile'] = 'Usted está empleando un archivo XML obsoleto. Por favor cree nuevos resultados/estándares en <a href="http://www.edustandards.org">www.edustandards.org</a> o visite <a href="http://www.github.com/gtn/edustandards">github.com/gtn/edustandards</a> para descargar un archivo XML disponible al directorio de bloques XML.';
-$string['opencomps'] = 'elija sus competencias';
 $string['optional_step'] = 'Aun no hay participantes en su curso. Si Usted quiere inscribir algunos por favor use este enlace.';
 $string['output_current_assessments'] = 'salida de evaluaciones actuales';
 $string['override_notice1'] = 'Esta entrada fue editada por';
@@ -484,7 +479,6 @@ $string['settings_assessment_verbose_options_short_description'] = 'lista de Opc
 $string['settings_autotest'] = 'Calificación automática mediante actividades Moodle';
 $string['settings_autotest_description'] = 'Las Competencias o Tareas que están asociadas con actividades son ganadas automáticamente si se alcanza el requerimiento de finalización de la actividad.';
 $string['settings_configxmlserverurl'] = 'URL es un archivo XML, el cual es usado para mantener las entradas de la base de datos actualizadas';
-$string['settings_dakora_teacher_link'] = 'Clic para asignar los dakorateachers (profesoresDakora)';
 $string['settings_default_de_value'] = 'valor DE';
 $string['settings_disable_js_assign_competencies'] = 'deshabilitar JS en la selección del estudiante en la página de "Rejilla de competencia"';
 $string['settings_disable_js_assign_competencies_description'] = 'Si la "Rejilla de competencia" tiene un tiempo muy largo de generación de página, esta casilla podría resolver este problema.';
@@ -583,7 +577,6 @@ $string['teacher_assessment'] = 'evaluación del profesor';
 $string['teacher_first_configuration_step'] = 'El primer paso en la configuración del curso es ajustar configuraciones generales para su curso.';
 $string['teacher_second_configuration_step'] = 'Een el segundo paso de la configuración tienen que seleccionarse los tópicos en los cuales trabajar.';
 $string['teacher_third_configuration_step'] = 'El paso siguiente es asociar actividades de Moodle con competencias';
-$string['teacher_third_configuration_step_link'] = '(Opcional: Si no desea trabajar con actividades, desactive la configuración "Yo quiero trabajar con actividades Moodle" en la pestaña "Configuración")';
 $string['teacher_tipp'] = 'sugerencia';
 $string['teacher_tipp_1'] = 'Esta competencia ha sido asociada con';
 $string['teacher_tipp_2'] = 'Las actividades Moodle se han alcanzado con';

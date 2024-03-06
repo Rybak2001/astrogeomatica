@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth', language 'es_mx', version '4.2'.
+ * Strings for component 'auth', language 'es_mx', version '3.10'.
  *
  * @package     auth
  * @category    string
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['actauthhdr'] = 'Plugins de autenticación disponibles';
 $string['allowaccountssameemail'] = 'Permitir cuentas con el mismo Email';
 $string['allowaccountssameemail_desc'] = 'Si se habilita, más de una cuenta de usuario puede compartir la misma dirección Email. Esto puede resultar en riesgos de seguridad o privacidad; por ejemplo, con el Email para confirmación de cambio de contraseña.';
-$string['alternatelogin'] = 'Si introduce aquí una URL, se usará como página de ingreso al sitio. La página debería contener un formato cuya propiedad de acción está ajustada a <strong>\'{$a}\'</strong> y devuelve los campos <strong>nombre de usuario </strong> y <strong>contraseña</strong>.<br />Procure no introducir una URL incorrecta puesto que hacerlo supondrá su expulsión del sitio.<br />Deje el ajuste en blanco para utilizar la página de acceso por defecto.';
+$string['alternatelogin'] = 'Si introduce aquí una URL, se usará como página de ingreso al sitio. La página debería contener un formato cuya propiedad de acción está ajustada a <strong>\'{$a}\'</strong> y devuelve los campos <strong>nombre_de_usuario </strong> y <strong>contraseña</strong>.<br />Procure no introducir una URL incorrecta puesto que hacerlo supondrá su expulsión del sitio.<br />Deje el ajuste en blanco para utilizar la página de acceso por defecto.';
 $string['alternateloginurl'] = 'URL de ingreso alternativo';
 $string['auth_changepasswordhelp'] = 'Ayuda sobre cambio de contraseña';
 $string['auth_changepasswordhelp_expl'] = 'Muestra ayuda a los usuarios que han perdido su contraseña {$a}. Esta opción puede mostrarse como añadidura o en lugar de la <strong>URL de cambio de contraseña</strong> o como un cambio de contraseña interno de Moodle.';
@@ -38,7 +38,7 @@ $string['auth_changingemailaddress'] = 'Usted ha solicitado un cambio de direcci
 $string['auth_common_settings'] = 'Ajustes comunes';
 $string['auth_data_mapping'] = 'Mapeado de datos';
 $string['auth_fieldlock'] = 'Bloquear valor';
-$string['auth_fieldlock_expl'] = '<b>Bloquear valor: Si se habilita, los usuarios no podrán editar el campo. Use esta opción si usted está manteniendo estos datos en el sistema de autenticación externo. </p>';
+$string['auth_fieldlock_expl'] = '<p><b>Bloquear valor:</b> ISi se habilita, impedirá que los usuarios de Moodle y administradores editar directamente el campo. Use esta opción si Usted está manteniendo estos datos en el sistema de autenticación externo. </p>';
 $string['auth_fieldlockfield'] = 'Bloquear valor ({$a})';
 $string['auth_fieldlocks'] = 'Bloquear campos de usuario';
 $string['auth_fieldlocks_help'] = '<p>Usted puede bloquear los campos de datos del usuario. Esto es útil para sitios donde los datos del usuario son mantenidos por los administradores manualmente al editar los registros de usuarios o subir usuarios empleando la característica de "Subir usuarios". Si Usted bloquea campos que son necesarios para Moodle, asegúrese de que Usted proporciona estos datos al crear cuentas de usuarios, porque de lo contrario las cuentas serán imposibles de usar.</p><p>Considere configurar estos campos a  \'Desbloqueado si está vacío\' para evitar este problema.</p>';
@@ -66,18 +66,18 @@ $string['auth_updateremote_ldap'] = '<p><b>Note:</b> La actualización de datos 
 $string['auth_updateremotefield'] = 'Actualizar externo ({$a})';
 $string['auth_user_create'] = 'Habilitar creación por parte del usuario';
 $string['auth_user_creation'] = 'Los nuevos usuarios (anónimos) pueden crear cuentas de usuario sobre el código externo de autenticación y confirmar vía correo electrónico. Si usted habilita esto, recuerde también configurar las opciones del módulo específico para la creación de usuario.';
-$string['auth_usernameexists'] = 'El nombre de usuario seleccionado ya existe. Por favor, elija otro.';
+$string['auth_usernameexists'] = 'El nombre_de_usuario seleccionado ya existe. Por favor, elija otro.';
 $string['auth_usernotexist'] = 'No se puede actualizar un usuario no existente: {$a}';
 $string['authenticationoptions'] = 'Opciones de autenticación';
 $string['authinstructions'] = 'Déjelo vacío para que se muestren las instrucciones por defecto en la página de ingreso al sitio. Si desea proporcionar instrucciones específicas para ingresar al sitio, escríbalas aquí.';
-$string['authloginviaemail'] = 'Permitir  iniciar sesión mediante Email';
-$string['authloginviaemail_desc'] = 'Permitirles a los usuarios que usen ambos, tanto nombre de usuario como dirección de Email (si fueran únicas) para ingresar al sitio.';
+$string['authloginviaemail'] = 'Permitir ingresar mediante Email';
+$string['authloginviaemail_desc'] = 'Permitirles a los usuarios que usen nombre_de_usuario y dirección de Email (si fueran únicas) para ingresar al sitio.';
 $string['auto_add_remote_users'] = 'Añadir automáticamente usuarios remotos';
 $string['cannotmapfield'] = 'El campo "{$a->fieldname}" no puede ser mapeado porque su nombre corto "{$a->shortname}" es demasiado largo. Para permitir que sea mapeado, Usted necesita reducir el nombre corto a {$a->charlimit} caracteres. <a href="{$a->link}">Editar campos de perfil de usuario</a>';
 $string['changepassword'] = 'Cambiar contraseña URL';
 $string['changepasswordhelp'] = 'URL de la página para recuperación de contraseña, que será enviada por Email a los usuarios. Por favor tenga en cuenta que esta configuración no tendrá efecto si se configura una URL para contraseña olvidada en las configuraciones comunes de la autenticación.';
 $string['chooseauthmethod'] = 'Escoger un método de autenticación:';
-$string['chooseauthmethod_help'] = 'Esta configuración determina el método de autenticación usado cuando ingresa el usuario. Solamente deberían de elegirse plugins de autenticación habilitados, porque de otra manera el usuario podría no poder iniciar sesión . Para bloquear a un usuario y que no pueda iniciar sesión, seleccione "Sin ingreso al sistema".';
+$string['chooseauthmethod_help'] = 'Esta configuración determina el método de autenticación usado cuando ingresa el usuario. Solamente deberían de elegirse plugins de autenticación habilitados, porque de otra manera el usuario podría no poder ingresar. Para bloquear a un usuario y que no pueda ingresar, seleccione "Sin ingreso al sistema".';
 $string['createpassword'] = 'Generar contraseña y notificarle al usuario';
 $string['createpasswordifneeded'] = 'Crear contraseña si es necesario y enviarla por email';
 $string['emailchangecancel'] = 'Cancelar cambio de email';
@@ -97,12 +97,12 @@ $string['errormaxconsecutiveidentchars'] = 'Las contraseñas deben tener como m�
 $string['errorminpassworddigits'] = 'Las contraseñas deben tener al menos {$a} dígito(s).';
 $string['errorminpasswordlength'] = 'Las contraseñas deben tener al menos una longitud de {$a} caracteres.';
 $string['errorminpasswordlower'] = 'Las contraseñas deben tener al menos {$a} minúscula(s).';
-$string['errorminpasswordnonalphanum'] = 'La contraseña deben tener al menos {$a} caracter(es) especiales no-alfanumérico(s) como  *, -, o #.';
+$string['errorminpasswordnonalphanum'] = 'Las contraseñas deben tener al menos {$a} caracter(es) no-alfanumérico(s) como . $ ? / * - + # @.';
 $string['errorminpasswordupper'] = 'Las contraseñas deben tener al menos {$a} MAYÚSCULA(S).';
 $string['errorpasswordreused'] = 'Esta contraseña ha sido usada antes, y no está permitido re-utilizarla.';
 $string['errorpasswordupdate'] = 'Error actualizando contraseña, la contraseña no ha cambiado';
-$string['eventuserloggedin'] = 'El usuario ha iniciado sesión';
-$string['eventuserloggedinas'] = 'Usuario inició sesión como otro usuario';
+$string['eventuserloggedin'] = 'El usuario ha ingresado';
+$string['eventuserloggedinas'] = 'Usuario ingresado como otro usuario';
 $string['eventuserloginfailed'] = 'Falló el ingreso del usuario';
 $string['forcechangepassword'] = 'Forzar cambio de contraseña';
 $string['forcechangepassword_help'] = 'Forzar a los usuarios a cambiar la contraseña la próxima vez que ingresen a Moodle.';
@@ -116,7 +116,7 @@ $string['infilefield'] = 'Campo requerido en el archivo';
 $string['informminpassworddigits'] = 'al menos {$a} dígito(s)';
 $string['informminpasswordlength'] = 'al menos {$a} caracter(es)';
 $string['informminpasswordlower'] = 'al menos {$a} minúscula(s)';
-$string['informminpasswordnonalphanum'] = 'al menos {$a} caracter(es) especiales no-alfanumérico(s) como *, -, o #.';
+$string['informminpasswordnonalphanum'] = 'al menos {$a} caracter(es) no-alfanumérico(s) como . $ ? / * - + # @';
 $string['informminpasswordreuselimit'] = 'Las contraseñas pueden re-utilizarse después de {$a} cambios';
 $string['informminpasswordupper'] = 'al menos {$a} MAYÚSCULA(S)';
 $string['informpasswordpolicy'] = 'La contraseña debería tener {$a}';
@@ -136,10 +136,10 @@ $string['passwordhandling'] = 'Gestión del campo de contraseña';
 $string['plaintext'] = 'Texto plano';
 $string['pluginnotenabled'] = 'El Plugin de autenticación \'{$a}\' no está activado.';
 $string['pluginnotinstalled'] = 'El plugin de autenticación \'{$a}\' no está instalado.';
-$string['potentialidps'] = 'Iniciar sesión usando su cuenta en:';
+$string['potentialidps'] = 'Ingrese usando su cuenta en:';
 $string['privacy:metadata:userpref:createpassword'] = 'Indica que debería de generarse una contraseña para el usuario';
 $string['privacy:metadata:userpref:forcepasswordchange'] = 'Indica si es que el usuario debería o no de cambiar su contraseña al ingresar al sitio';
-$string['privacy:metadata:userpref:loginfailedcount'] = 'El número de veces que el usuario no pudo  iniciar sesión';
+$string['privacy:metadata:userpref:loginfailedcount'] = 'El número de veces que el usuario no pudo ingresar al sitio';
 $string['privacy:metadata:userpref:loginfailedcountsincesuccess'] = 'El número de veces que el usuario no pudo ingresar al sitio desde su último ingreso exitoso';
 $string['privacy:metadata:userpref:loginfailedlast'] = 'La fecha en la cual fue grabado el último intento fallido de ingreso';
 $string['privacy:metadata:userpref:loginlockout'] = 'Si es que la cuenta del usuario está o no bloqueada debido a intentos fallidos para ingresar al sitio, y la fecha en la cual la cuenta fue bloqueada.';
@@ -149,7 +149,6 @@ $string['recaptcha'] = 'reCAPTCHA';
 $string['recaptcha_help'] = 'El CAPTCHA se utiliza para impedir abusos de programas automáticos. Siga las instrucciones para verificar que Usted es una persona. Esto podría ser una caja para seleccionar, caracteres que se presentan adentro de una imagen y que Usted necesita ingresar, o un conjunto de imágenes de entre las cuales seleccionar.
 
 Si Usted no está seguro de qué son las imágenes, Usted puede intentar obtener otra CAPTCHA o una CAPTCHA en audio.';
-$string['recaptcha_link'] = 'auth/email';
 $string['security_question'] = 'Pregunta de seguridad';
 $string['selfregistration'] = 'Registrarse a sí mismo';
 $string['selfregistration_help'] = 'Si se emplea un plugin de autenticación, como el auto-registro basado en email, entonces se habilita a los usuarios potenciales a que se registren a sí mismos y creen cuentas. Esto resultará en la posibilidad de que los spammers puedan crear cuentas para usarlas y mandar mensajes a foros, entradas de blogs y otros riesgos de spam. Para evitar este riesgo, el auto-registro debería estar deshabilitado o limitado a los <em>dominios de correo permitidos</em> en la configuración.';
@@ -160,7 +159,7 @@ $string['stdchangepassword'] = 'Utilizar Página de cambio de contraseña están
 $string['stdchangepassword_expl'] = 'Si el sistema de autenticación externa permite cambios de contraseña en Moodle, seleccione Sí. Este ajuste pasa por alto \'Cambiar contraseña URL\'.';
 $string['stdchangepassword_explldap'] = 'NOTA: Se recomienda que utilice LDAP sobre un túnel encriptado SSL (ldaps://) si el servidor LDAP es remoto.';
 $string['suspended'] = 'Cuenta suspendida';
-$string['suspended_help'] = 'Las cuentas de usuarios suspendidos no pueden iniciar sesión ni usar servicios web, y cualquier mensaje de salida a ellas es descartado.';
+$string['suspended_help'] = 'Las cuentas de usuarios suspendidos no pueden entrar al sitio ni usar servicios web, y cualquier mensaje de salida a ellas es descartado.';
 $string['testsettings'] = 'Configuraciones de prueba';
 $string['testsettingsheading'] = 'Probar configuraciones de autenticación - {$a}';
 $string['unlocked'] = 'Desbloqueado';
@@ -171,5 +170,5 @@ $string['update_onlogin'] = 'En cada ingreso';
 $string['update_onupdate'] = 'Al actualizar';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() no admite el tipo de usuario seleccionado: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() no admite el tipo de usuario seleccionado (...aún)';
-$string['username'] = 'Usuario';
-$string['username_help'] = 'Por favor tenga en cuenta que algunos plugins de autenticación no le permitirán cambiar el nombre de usuario.';
+$string['username'] = 'Nombre_de_usuario';
+$string['username_help'] = 'Por favor tenga en cuenta que algunos plugins de autenticación no le permitirán cambiar el nombre_de_usuario.';

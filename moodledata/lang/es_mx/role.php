@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'role', language 'es_mx', version '4.2'.
+ * Strings for component 'role', language 'es_mx', version '3.10'.
  *
  * @package     role
  * @category    string
@@ -46,7 +46,7 @@ $string['archetype'] = 'Arquetipo de rol';
 $string['archetype_help'] = 'El rol arquetipo determina los permisos cuando un se restablece un rol a su valor por defecto. También determina los permisos nuevos para el papel cuando el sitio se actualiza.';
 $string['archetypecoursecreator'] = 'ARQUETIPO: Creador de cursos';
 $string['archetypeeditingteacher'] = 'ARQUETIPO: Profesor con permiso de edición';
-$string['archetypefrontpage'] = 'ARQUETIPO: Usuario autenticado en la página de inicio del sitio';
+$string['archetypefrontpage'] = 'ARQUETIPO: Usuario autenticado en la portada';
 $string['archetypeguest'] = 'ARQUETIPO: Invitado';
 $string['archetypemanager'] = 'ARQUETIPO: Mánager';
 $string['archetypestudent'] = 'ARQUETIPO: Estudiante';
@@ -93,7 +93,6 @@ Vea también
 <a href="help.php?file=permissions.html">Permisos</a> y
 <a href="help.php?file=overrides.html">Anulaciones</a>.
 </p>';
-$string['assignroles_link'] = 'admin/roles/assign';
 $string['assignrolesin'] = 'Asignar roles en {$a}';
 $string['assignrolesrelativetothisuser'] = 'Asignar roles relativos a este usuario';
 $string['backtoallroles'] = 'Regresar a la lista de todos los roles';
@@ -145,7 +144,6 @@ $string['checksystempermissionsfor'] = 'Comprobar los permisos de {$a->fullname}
 $string['checkuserspermissionshere'] = 'Comprobar los permisos que tiene {$a->fullname} in este {$a->contextlevel}';
 $string['chooseroletoassign'] = 'Por favor, seleccione un rol a asignar';
 $string['cohort:assign'] = 'Agregar y eliminar miembros de cohorte';
-$string['cohort:configurecustomfields'] = 'Configurar campos personalizados de cohorte';
 $string['cohort:manage'] = 'Crear, eliminar y mover cohortes';
 $string['cohort:view'] = 'Ver cohortes de todo el sitio';
 $string['comment:delete'] = 'Eliminar comentarios';
@@ -155,7 +153,7 @@ $string['competency:competencygrade'] = 'Configurar valoración de competencia';
 $string['competency:competencymanage'] = 'Gestionar estructuras de competencia';
 $string['competency:competencyview'] = 'Ver estructuras de competencia';
 $string['competency:coursecompetencyconfigure'] = 'Configurar configuraciones de competencia de curso';
-$string['competency:coursecompetencygradable'] = 'Recibir calificaciones de competencia';
+$string['competency:coursecompetencygradable'] = 'Recibir puntuaciones de competencia';
 $string['competency:coursecompetencymanage'] = 'Gestionar competencias del curso';
 $string['competency:coursecompetencyview'] = 'Ver competencias del curso';
 $string['competency:evidencedelete'] = 'Eliminar evidencia';
@@ -184,9 +182,7 @@ $string['competency:userevidencemanage'] = 'Gestionar evidencia sobre aprendizaj
 $string['competency:userevidencemanageown'] = 'Gestionar evidencia propia sobre aprendizaje previo';
 $string['competency:userevidenceview'] = 'Ver evidencia sobre aprendizaje previo de un usuario';
 $string['confirmaddadmin'] = '¿Realmente desea agregar al usuario <strong>{$a}</strong> como nuevo administrador del sitio?';
-$string['confirmaddadmins'] = '¿Está seguro de querer añadir los siguientes usuarios a la lista de administradores del sitio?';
 $string['confirmdeladmin'] = '¿Realmente desea eliminar al usuario <strong>{$a}</strong> de la lista de administradores del sitio?';
-$string['confirmremoveadmins'] = '¿Está seguro de querer quitar los siguientes usuarios de la lista de administradores del sitio?';
 $string['confirmroleprevent'] = '¿Realmente desea eliminar <strong>"{$a->role}"</strong> de la lista de roles con la capacidad de "{$a->cap}" en el contexto "{$a->context}"?';
 $string['confirmroleunprohibit'] = '¿Realmente desea eliminar <strong>"{$a->role}"</strong> de la lista de roles a los que se prohibe la capacidad de "{$a->cap}" en el contexto "{$a->context}"?';
 $string['confirmunassign'] = '¿Está seguro de que quiere eliminar este rol a este usuario?';
@@ -201,9 +197,7 @@ $string['contentbank:manageanycontent'] = 'Gestionar cualquier contenido desde e
 $string['contentbank:manageowncontent'] = 'Gestionar cualquier contenido desde su banco propio de contenido';
 $string['contentbank:upload'] = 'Subir nuevo contenido al banco de contenido';
 $string['contentbank:useeditor'] = 'Crear o editar contenido usando un editor de tipo de contenido';
-$string['contentbank:viewunlistedcontent'] = 'Ver contenido no-listado del banco de contenido';
 $string['context'] = 'Contexto';
-$string['contextrolenotallowed'] = 'Rol {$a} no permitido en este contexto.';
 $string['course:activityvisibility'] = 'Ocultar/mostrar actividades';
 $string['course:bulkmessaging'] = 'Enviar un mensaje a mucha gente';
 $string['course:changecategory'] = 'Cambiar la categoría del curso';
@@ -212,7 +206,7 @@ $string['course:changeidnumber'] = 'Cambiar el número ID del curso';
 $string['course:changelockedcustomfields'] = 'Modificar campos personalizados bloqueados';
 $string['course:changeshortname'] = 'Cambiar el nombre corto del curso';
 $string['course:changesummary'] = 'Cambiar el resumen del curso';
-$string['course:configurecustomfields'] = 'Configurar campos personalizados del curso';
+$string['course:configurecustomfields'] = 'Configurar campos personalizados';
 $string['course:configuredownloadcontent'] = 'Configurar descargar contenidos del curso';
 $string['course:create'] = 'Crear cursos';
 $string['course:creategroupconversations'] = 'Crear conversaciones grupales';
@@ -238,7 +232,7 @@ $string['course:reset'] = 'Reiniciar curso';
 $string['course:reviewotherusers'] = 'Revisar otros usuarios';
 $string['course:sectionvisibility'] = 'Controlar visibilidad de sección';
 $string['course:setcurrentsection'] = 'Ajustar sección actual';
-$string['course:setforcedlanguage'] = 'Forzar idioma del curso o actividad';
+$string['course:setforcedlanguage'] = 'Forzar idioma del curso';
 $string['course:tag'] = 'Cambiar marcas del curso';
 $string['course:togglecompletion'] = 'Marcar manualmente actividades como completadas';
 $string['course:update'] = 'Actualizar ajustes de curso';
@@ -247,7 +241,6 @@ $string['course:view'] = 'Ver cursos sin participación';
 $string['course:viewcoursegrades'] = 'Ver calificaciones de curso';
 $string['course:viewhiddenactivities'] = 'Ver actividades ocultas';
 $string['course:viewhiddencourses'] = 'Ver cursos ocultos';
-$string['course:viewhiddengroups'] = 'Ver grupos ocultos';
 $string['course:viewhiddensections'] = 'Ver secciones ocultas';
 $string['course:viewhiddenuserfields'] = 'Ver campos de usuario ocultos';
 $string['course:viewparticipants'] = 'Ver participantes';
@@ -265,7 +258,6 @@ $string['customrolename_help'] = 'Los nombres de los roles estándar se localiza
 $string['defaultrole'] = 'Rol por defecto';
 $string['defaultx'] = 'Valor predeterminado: {$a}';
 $string['defineroles'] = 'Definir roles';
-$string['definitionofrolex'] = 'Definición de rol \'{$a}\'';
 $string['deletecourseoverrides'] = 'Eliminar todas las anulaciones del curso';
 $string['deletelocalroles'] = 'Eliminar todas las asignaciones de rol locales';
 $string['deleterolesure'] = '<p>¿Está seguro de que quiere eliminar el rol "{$a->name} ({$a->shortname})"?</p><p>Actualmente este rol está asignado a {$a->count} usuarios.</p>';
@@ -288,7 +280,6 @@ $string['eventroleallowswitchupdated'] = 'Permitir cambio de rol';
 $string['eventroleallowviewupdated'] = 'Permitir vista a rol';
 $string['eventroleassigned'] = 'Rol asignado';
 $string['eventrolecapabilitiesupdated'] = 'Capacidad del rol actualizada';
-$string['eventrolecreated'] = 'Rol creado';
 $string['eventroledeleted'] = 'Rol eliminado';
 $string['eventroleunassigned'] = 'Rol desasignado';
 $string['eventroleupdated'] = 'Rol actualizado';
@@ -299,18 +290,18 @@ $string['export'] = 'Exportar';
 $string['extusers'] = 'Usuarios existentes';
 $string['extusersmatching'] = 'Usuarios existentes que coinciden con \'{$a}\'';
 $string['filter:manage'] = 'Gestionar configuración de filtros locales';
-$string['frontpageuser'] = 'Usuario autenticado en la página de inicio del sitio';
-$string['frontpageuserdescription'] = 'Todos los usuarios ingresados en el curso de la página de inicio del sitio.';
+$string['frontpageuser'] = 'Usuario autenticado en la portada';
+$string['frontpageuserdescription'] = 'Todos los usuarios ingresados en el curso de la portada del sitio.';
 $string['globalrole'] = 'Rol del sistema';
-$string['globalroleswarning'] = '¡ADVERTENCIA! Cualquier rol que asigne desde esta página se aplicará a los usuarios asignados en todo el sitio, incluyendo la página de inicio del sitio y todos los cursos.';
+$string['globalroleswarning'] = '¡ADVERTENCIA! Cualquier rol que asigne desde esta página se aplicará a los usuarios asignados en todo el sitio, incluyendo la portada y todos los cursos.';
 $string['gotoassignroles'] = 'Ir a Asignar roles en este {$a->contextlevel}';
 $string['gotoassignsystemroles'] = 'Ir a Asignar roles del sistema';
 $string['grade:edit'] = 'Editar calificaciones';
 $string['grade:export'] = 'Exportar calificaciones';
-$string['grade:hide'] = 'Ocultar/mostrar calificaciones de los elementos';
+$string['grade:hide'] = 'Ocultar/mostrar calificaciones de los ítems';
 $string['grade:import'] = 'Importar calificaciones';
-$string['grade:lock'] = 'Bloquear calificaciones de los elementos';
-$string['grade:manage'] = 'Gestionar elementos de calificación';
+$string['grade:lock'] = 'Bloquear calificaciones de los ítems';
+$string['grade:manage'] = 'Gestionar ítems de calificación';
 $string['grade:managegradingforms'] = 'Gestionar métodos de calificación avanzados';
 $string['grade:manageletters'] = 'Gestionar calificaciones con letra';
 $string['grade:manageoutcomes'] = 'Manejar resultados de calificación';
@@ -347,7 +338,6 @@ $string['manager'] = 'Mánager';
 $string['managerdescription'] = 'Los mánagers pueden acceder a los cursos y modificarlos, aunque generalmente no participan en los cursos.';
 $string['manageroles'] = 'Gestionar roles';
 $string['maybeassignedin'] = 'Tipos de contexto en que puede asignarse este rol';
-$string['moodlenet:shareactivity'] = 'Compartir actividades a MoodleNet';
 $string['morethan'] = 'Más de {$a}';
 $string['multipleroles'] = 'Roles múltiples';
 $string['my:configsyspages'] = 'Configurar plantillas del sistema para las páginas del Tablero';
@@ -369,7 +359,6 @@ $string['overrideanotherrole'] = 'Anular otro rol';
 $string['overridecontext'] = 'Anular contexto';
 $string['overridepermissions'] = 'Anular permisos';
 $string['overridepermissions_help'] = 'Las anulaciones de permisos posibilitan permitir o impedir las capacidades seleccionadas en un contexto específico.';
-$string['overridepermissions_link'] = 'admin/roles/override';
 $string['overridepermissionsforrole'] = 'Reemplazar los permisos del rol \'{$a->role}\' en el contexto \'{$a->context}';
 $string['overridepermissionsin'] = 'Anular permisos en {$a}';
 $string['overrideroles'] = 'Anular roles';
@@ -413,8 +402,6 @@ $string['privacy:metadata:role_cohortroles'] = 'Roles a cohorte';
 $string['prohibit'] = 'Prohibir';
 $string['prohibitedroles'] = 'Prohibido';
 $string['question:add'] = 'Agregar nuevas preguntas';
-$string['question:commentall'] = 'Comentar en todas las preguntas';
-$string['question:commentmine'] = 'Comentar en sus propias preguntas';
 $string['question:config'] = 'Configurar tipos de pregunta';
 $string['question:editall'] = 'Editar todas las preguntas';
 $string['question:editmine'] = 'Editar sus propias preguntas';
@@ -432,10 +419,6 @@ $string['rating:rate'] = 'Añadir las valuaciones (ratings) a los elementos';
 $string['rating:view'] = 'Ver la valuación (rating) total recibida';
 $string['rating:viewall'] = 'Ver todas las valuaciones (ratings) emitidas por los usuarios';
 $string['rating:viewany'] = 'Ver el total de valuaciones (ratings) que alguien recibió';
-$string['reportbuilder:edit'] = 'Editar sus propios reportes personalizados';
-$string['reportbuilder:editall'] = 'Editar todos los reportes personalizados';
-$string['reportbuilder:scheduleviewas'] = 'Agendar reportes a ser vistos como otros usuarios';
-$string['reportbuilder:view'] = 'Ver reportes personalizados';
 $string['resetrole'] = 'Reiniciar';
 $string['resettingrole'] = 'Reiniciando al rol \'{$a}\'';
 $string['restore:configure'] = 'Configurar opciones de restauración';
@@ -468,12 +451,21 @@ $string['roleresetdefaults'] = 'Valores por defecto';
 $string['roleresetrole'] = 'Usar rol o arquetipo';
 $string['rolerisks'] = 'Riesgos de roles';
 $string['roles'] = 'Roles';
-$string['roles_help'] = 'Un rol es un conjunto de permisos definidos para todo el sitio que usted puede asignar a usuarios específicos en contextos específicos.';
-$string['roles_link'] = 'roles';
+$string['roles_help'] = '<p> Un rol es un conjunto de permisos definidos para todo el sitio que usted puede asignar a usuarios específicos en contextos específicos. </p> <p> Por ejemplo, puede tener un rol denominado "Profesor" que se ajusta para permitir que los profesores (y no otros usuarios) puedan hacer ciertas cosas. Una vez que dicho rol existe, usted puede asignarlo a algún usuario del curso y convertirlo en "Profesor" de ese curso. Usted podría asimismo asignar el rol a un usuario en la categoría de cursos y convertirlo en "Profesor" de todos los cursos pertenecientes a tal categoría, o asignar el rol a un usuario simplemente en un foro, restringiendo las posibilidades a ese foro en concreto. </p> <p> Un rol debe tener un <strong>nombre</strong>.
+
+Si necesita denominar el rol en varios idiomas, puede utilizar la sintaxis multi-idioma (\'multilang\') si así lo desea, como, por ejemplo <pre>
+<span class="multilang" lang="en">Teacher</span>
+<span class="multilang" lang="es">Profesor</span>
+<span class="multilang" lang="fr">Enseignant</span>
+
+</pre>
+</p> <pre> &lt;span lang="fr" class="multilang"&gt;Enseignant&lt;/span&gt; </p> <p>&lt;span lang="de" class="multilang"&gt;Dozent&lt;/span&gt; </p> <p>&lt;span lang="en" class="multilang"&gt;Teacher&lt;</p> <p>/span&gt; &lt;span lang="es" class="multilang"&gt;Profesor&lt;/span&gt; </pre> <p>
+
+Si lo hace así, asegúrese de que el filtrado de cadenas (plugins/filtros/gestionar_filtros/contenido multi-lenguaje) está activado en su administración. </p> <p> El <strong>nombre corto</strong> es necesario para otros plugins de Moodle que puedan necesitar referirse a sus Roles (e.g., cuando se cargan usuarios desde un archivo o cuando se llevan a cabo inscripciones a través de un plugin de inscripcion), por lo que LE RECOMENDAMOS QUE NO LO CAMBIE. </p> La <strong>descripción</strong> consiste en describir el rol con sus propias palabras, de forma que cualquiera entienda en qué consiste.ciones</a>. </p>';
 $string['roleselect'] = 'Seleccionar rol';
 $string['rolesforuser'] = 'Roles para usuario {$a}';
 $string['roleshortname'] = 'Nombre corto';
-$string['roleshortname_help'] = 'El nombre corto del rol es un identificador del rol de bajo nivel, en el cual solamente están permitidos caracteres ASCII alfanuméricos.';
+$string['roleshortname_help'] = 'El nombre corto del rol es un identificador del rol de bajo nivel, en el cual solamente están permitidos caracteres ASCII alfanuméricos. No cambie los nombres cortos de los roles estándar.';
 $string['roletoassign'] = 'Rol a asignar';
 $string['roletooverride'] = 'Rol a anular';
 $string['safeoverridenotice'] = 'Nota: Los permisos con riesgo más elevado están bloqueados porque usted únicamente puede anular capacidades seguras.';

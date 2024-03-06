@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_match', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_match', language 'es_mx', version '3.10'.
  *
  * @package     qtype_match
  * @category    string
@@ -39,15 +39,9 @@ $string['notenoughquestions'] = 'Usted debe proporcionar al menos {$a->q} pareja
 $string['pleaseananswerallparts'] = 'Por favor, responda a todas las partes de la pregunta';
 $string['pluginname'] = 'Relacionar columnas';
 $string['pluginname_help'] = 'Las preguntas de relacionar (columnas  / una con otra) requieren para su resolución que se establezcan de forma correcta las relaciones entre una lista de nombres o enunciados (preguntas) y otra lista de nombres o enunciados (respuestas).';
-$string['pluginname_link'] = 'question/type/match';
 $string['pluginnameadding'] = 'Agregando una pregunta de relacionar (columnas)';
 $string['pluginnameediting'] = 'Editando una pregunta de relacionar columnas';
 $string['pluginnamesummary'] = 'La respuesta a cada una de un número de sub-preguntas debe ser seleccionada de una lista de posibilidades.';
-$string['privacy:metadata'] = 'El plugin de tipo de pregunta de Relacionar columnas les permite a los autores de pregunta configurar opciones predeterminadas como preferencias del usuario.';
-$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
-$string['privacy:preference:penalty'] = 'La penalización para cada intento incorrecto cuando las preguntas son empleadas con el comportamiento \'Interactivo con intentos múltiples\' o el \'Modo adaptativo\'.';
-$string['privacy:preference:shuffleanswers'] = 'Si es que las respuestas deberían o no ser barajadas automáticamente.';
-$string['regradeissuenumchoiceschanged'] = 'El número de opciones ha cambiado';
-$string['regradeissuenumstemschanged'] = 'El número de sub-preguntas ha cambiado.';
+$string['privacy:metadata'] = 'El plugin de tipo de pregunta de Relacionar columnas no almacena ningún dato personal.';
 $string['shuffle'] = 'Barajar';
-$string['shuffle_help'] = 'Si se habilita, el orden de las preguntas se barajeará al azar para cada intento, siempre y cuando la opción "Ordenar al azar las respuestas" en los ajustes de la actividad también estuviera habilitado. En una pregunta de relacionar columnas, solamente las preguntas son afectadas por este parámetro. Las opciones de respuestas siempre serán barajeadas.';
+$string['shuffle_help'] = '<p>Si selecciona la opción "Sí", el orden de las sub-preguntas se elaborará al azar cada vez que el estudiante intenta contestar el examen que contiene esta pregunta, suponiendo que la opcion "Ordenar al azar" en los ajustes del examen sea "Sí".</p>';

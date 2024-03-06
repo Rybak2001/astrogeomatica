@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ejsapp', language 'es_mx', version '4.2'.
+ * Strings for component 'ejsapp', language 'es_mx', version '3.10'.
  *
  * @package     ejsapp
  * @category    string
@@ -178,6 +178,6 @@ $string['xml_lab_variables'] = 'Variables';
 $string['xml_lists'] = 'Listas';
 $string['xml_logic'] = 'Lógica';
 $string['xml_loops'] = 'Bucles';
-$string['xml_maths'] = 'Matemáticas';
+$string['xml_maths'] = 'cles (loops)';
 $string['xml_text'] = 'Texto';
 $string['xml_variables'] = 'Variables';

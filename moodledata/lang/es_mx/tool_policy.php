@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_policy', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_policy', language 'es_mx', version '3.10'.
  *
  * @package     tool_policy
  * @category    string
@@ -98,7 +98,7 @@ $string['nopermissiontoagreedocs'] = 'Sin permiso para estar de acuerdo con las 
 $string['nopermissiontoagreedocs_desc'] = 'Lo sentimos; Usted no tiene los permisos requeridos para acordar a las políticas.<br />Usted no podrá usar este sitio hasta que haya acordado a las siguientes políticas:';
 $string['nopermissiontoagreedocsbehalf'] = 'Sin permiso para estar de acuerdo con las políticas a nombre de este usuario';
 $string['nopermissiontoagreedocsbehalf_desc'] = 'Lo sentimos; Usted no tiene el permiso necesario para estar de acuerdo con las políticas siguientes a nombre de  {$a}:';
-$string['nopermissiontoagreedocscontact'] = 'Para más asistencia:';
+$string['nopermissiontoagreedocscontact'] = 'Para mayor asistencia, por favor contacte';
 $string['nopermissiontoviewpolicyversion'] = 'Usted no tiene permisos para ver esta versión de política.';
 $string['nopolicies'] = 'No hay políticas para usuarios registrados con  una versión activa.';
 $string['pluginname'] = 'Políticas';

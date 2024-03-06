@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository', language 'es_mx', version '4.2'.
+ * Strings for component 'repository', language 'es_mx', version '3.10'.
  *
  * @package     repository
  * @category    string
@@ -157,13 +157,13 @@ $string['invalidplugin'] = 'Plugin {$a} de repositorio no válido';
 $string['invalidrepositoryid'] = 'ID de repositorio no válido';
 $string['isactive'] = '¿Activo?';
 $string['keyword'] = 'Clave';
-$string['lastmodified'] = 'Última modificación';
+$string['lastmodified'] = 'Última modicficación';
 $string['license'] = 'Licencia';
 $string['linkexternal'] = 'Enlace externo';
 $string['listview'] = 'Ver como lista';
 $string['loading'] = 'Cargando...';
-$string['login'] = 'Iniciar sesión con su cuenta';
-$string['logintoaccount'] = 'Inicie sesión en su cuenta de {$a}';
+$string['login'] = 'Ingresar a su cuenta';
+$string['logintoaccount'] = 'Ingrese a su cuenta de {$a}';
 $string['logout'] = 'Salir';
 $string['lostsource'] = 'Error. Falta el orígen. {$a}';
 $string['makefilecontrolledlink'] = 'Crear un enlace controlado en su acceso hacia el archivo';
@@ -205,7 +205,7 @@ $string['plugin'] = 'Plugins de repositorio';
 $string['pluginerror'] = 'Errores en el plugin del repositorio';
 $string['pluginname'] = 'Nombre del plugin del repositorio';
 $string['pluginnamehelp'] = 'Si deja esto vacío, se usará el nombre predeterminado';
-$string['popup'] = 'Haga clic sobre el botón (Ingresar) para iniciar sesión';
+$string['popup'] = 'Haga clic sobre el botón (Login) para ingresar';
 $string['popupblockeddownload'] = 'La ventana de descarga está bloqueada. Por favor, permita ventanas emergentes y vuelva a intentarlo.';
 $string['preview'] = 'Vista previa';
 $string['privacy:metadata:repository'] = 'El componente de Repositorio almacena los tipos de repositorio dentro del subsistema del núcleo.';
@@ -216,7 +216,7 @@ $string['privacy:metadata:repository_instances:timecreated'] = 'La fecha/hora de
 $string['privacy:metadata:repository_instances:timemodified'] = 'La fecha/hora de modificación para la instancia del repositorio.';
 $string['privacy:metadata:repository_instances:typeid'] = 'El tipo de ID de la instancia del repositorio.';
 $string['privacy:metadata:repository_instances:userid'] = 'La ID del usuario propietario de la intsnacia de repositorio.';
-$string['privacy:metadata:repository_instances:username'] = 'El nombre de usuario opcional configurado para la instancia del repositorio.';
+$string['privacy:metadata:repository_instances:username'] = 'El nombre_de_usuario opcional configurado para la instancia del repositorio.';
 $string['privatefilesof'] = '{$a} Archivos privados';
 $string['readonlyinstance'] = 'No puede editar ni eliminar una instancia de sólo lectura';
 $string['referencesexist'] = 'Existen {$a} enlaces a este archivo';

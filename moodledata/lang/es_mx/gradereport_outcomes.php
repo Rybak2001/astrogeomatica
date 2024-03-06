@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_outcomes', language 'es_mx', version '4.2'.
+ * Strings for component 'gradereport_outcomes', language 'es_mx', version '3.10'.
  *
  * @package     gradereport_outcomes
  * @category    string
@@ -32,4 +32,4 @@ $string['eventgradereportviewed'] = 'Reporte de resultados visto';
 $string['outcomes:view'] = 'Ver reporte de resultados';
 $string['pluginname'] = 'Reporte de resultados';
 $string['privacy:metadata'] = 'El Reporte de Resultados de calificación solamente muestra datos almacenados en otros sitios.';
-$string['usedgradeitem'] = 'Número de elementos de calificación';
+$string['usedgradeitem'] = 'Número de items de calificación';

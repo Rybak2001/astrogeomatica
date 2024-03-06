@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_uikit', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_uikit', language 'es_mx', version '3.10'.
  *
  * @package     theme_uikit
  * @category    string
@@ -79,7 +79,7 @@ $string['base_theme'] = 'Tema base';
 $string['basic'] = 'Básico';
 $string['bootstrapcdn'] = 'FontAwesome de CDN';
 $string['bootstrapcdndesc'] = 'Si se activa, carga el tipo de letra FontAwesome  del CDN online de Bootstrap. Activa esta opción si tienes problemas para mostrar los iconos de Font Awesome en tu sitio.';
-$string['breadcrumbsplacement'] = 'Ubicación de la ruta de navegación';
+$string['breadcrumbsplacement'] = 'Localización de la ruta de navegación';
 $string['breadcrumbsplacement-mainregion'] = 'región principal';
 $string['breadcrumbsplacement-pagenavbar'] = 'Barra de Navegación Superior de la página';
 $string['button-active-background'] = 'Normal - Fondo (activo)';
@@ -226,7 +226,6 @@ $string['group-global'] = 'Global';
 $string['group-layout'] = 'Disposición';
 $string['group-login-page'] = 'Página de Acceso';
 $string['group-main-region'] = 'Contenido Principal';
-$string['group-marketing-spots'] = 'Cajas de Anuncios';
 $string['group-mdl-blocks'] = 'Bloques';
 $string['group-navbar'] = 'Navegación (diseño en Cuadrícula)';
 $string['group-navbar-layout2'] = 'Navegación (diseño Flex)';

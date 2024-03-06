@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_gps', language 'es_mx', version '4.2'.
+ * Strings for component 'availability_gps', language 'es_mx', version '3.10'.
  *
  * @package     availability_gps
  * @category    string
@@ -27,11 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['accuracy'] = 'Precisión';
 $string['current_location'] = 'Ubicación Actual';
-$string['current_location_set'] = 'Configurar a ubicación actual';
 $string['description'] = 'Revisar disponibilidad contra coordenadas GPS actuales';
-$string['geolocation'] = 'Geoubicación';
-$string['geolocation_not_supported'] = 'Geoubicación  no soportada';
-$string['kilometers'] = 'Kilómetros';
+$string['geolocation'] = 'Geolocalización';
+$string['geolocation_not_supported'] = 'Geolocalización  no soportada';
 $string['latitude'] = 'Latitud';
 $string['loading'] = 'cargando';
 $string['longitude'] = 'Longitud';
@@ -39,7 +37,7 @@ $string['meters'] = 'Metros';
 $string['no'] = 'No';
 $string['notify_block'] = '¡Usted siempre puede configurar aquí la condición, pero Usted necesita añadir el bloque para que funcione este plugin';
 $string['persistent'] = 'Persistente';
-$string['pluginname'] = 'Condición de geoubicación';
+$string['pluginname'] = 'Condición de geolocalización';
 $string['privacy:metadata:block_gps_reached'] = 'Almacena si es que un usuario ha alcanzado una condición específica.';
 $string['privacy:metadata:block_gps_reached:cmid'] = 'ID de Coursemodule';
 $string['privacy:metadata:block_gps_reached:firstreach'] = 'La primera vez que Usted alcanzó esta condición';
@@ -49,5 +47,5 @@ $string['reveal'] = 'Revelar posición';
 $string['revealname'] = 'Revelar nombre';
 $string['selectfrommap'] = 'Seleccionar del mapa';
 $string['selectfrommapdrag'] = 'Arrastrar marcador para nueva ubicación';
-$string['title'] = 'Condición de geoubicación';
+$string['title'] = 'Condición de geolocalización';
 $string['yes'] = 'Si';

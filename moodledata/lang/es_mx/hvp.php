@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hvp', language 'es_mx', version '4.2'.
+ * Strings for component 'hvp', language 'es_mx', version '3.10'.
  *
  * @package     hvp
  * @category    string
@@ -250,7 +250,6 @@ $string['invalidcontenttype'] = 'El tipo de contenido elegido es inválido.';
 $string['invalidfieldtype'] = 'Tipo de campo inválido.';
 $string['invalidfile'] = 'Archivo "{$a->%filename}" no permitido. Solamente están permitidos archivos con las las siguientes extensiones: {$a->%files-allowed}.';
 $string['invalidh5ppost'] = 'No pudo obtenerse H5P publicado.';
-$string['invalidhvp'] = 'Actividad H5P inválida';
 $string['invalidimageformat'] = 'Formato de archivo de imagen inválido. Use jpg png o gif.';
 $string['invalidlanguagefile'] = 'Archivo de idioma inválido {$a->%file} en biblioteca {$a->%library}';
 $string['invalidlanguagefile2'] = 'Archivo de idioma inválido {$a->%languageFile} ha sido incluido en la biblioteca {$a->%name}';
@@ -268,7 +267,7 @@ $string['invalidselectoption'] = 'Opción inválida seleccionada en selección.'
 $string['invalidsemanticsjson'] = 'El archivo semantics.json inválido ha sido  incluido en la biblioteca {$a->%name}';
 $string['invalidsemanticstype'] = 'Error interno H5P: tipo de contenido desconocido "{$a->@type}" en semántica. ¡Quitando contenido!';
 $string['invalidstring'] = 'La cadena de caracteres proporcionada no es válida de acuerdo a regexp en semántica.  (valor: \\"{$a->%value}\\", regexp: \\"{$a->%regexp}\\")';
-$string['invalidtoken'] = 'H5P ha recibido un token inválido. Refresque la página e inténtelo de nuevo';
+$string['invalidtoken'] = 'Token de seguridad inválido.';
 $string['invalidvideoformat'] = 'Formato de archivo de video inválido. Use mp4 o webm.';
 $string['invalidxapiresult'] = 'No se encontraron resultados xAPI para la combinación del contenido dado y la ID del usuario';
 $string['isnowsubmitted'] = 'Está ahora enviado al Hub H5P';
@@ -341,7 +340,6 @@ Además de ser una herramienta de autoría para contenido enriquecido, H5P le pe
 Las interacciones con el usuario y los puntajes son monitoreados usando xAPI y están disponibles mediante el Libro de Calificaciones de Moodle. Tenga en cuenta que es actualmente posible para personas con habilidades de programación el hacer trampa en interacciones H5P y obtener el puntaje completo sin saber las respuestas correctas. H5Ps no deben usarse  para exámenes sumativos o similares.
 
 Usted añade contenido interactivo H5P al crear contenido usando la herramienta de autoría incluida o al subir archivos H5P encontrados en otros sitios con H5P.';
-$string['modulename_link'] = 'https://h5p.org/moodle-more-help';
 $string['modulenameplural'] = 'Contenido Interactivo';
 $string['next'] = 'Siguiente';
 $string['nextpage'] = 'Página siguiente';
@@ -353,7 +351,6 @@ $string['nodata'] = 'No hay datos disponibles que coincidan con su criterio.';
 $string['noexport'] = 'Falta archivo de exportación.';
 $string['noextension'] = 'El archivo que Usted subió no es un paquete HTML5 válido (No tiene la extensión .h5p)';
 $string['noh5ps'] = 'No hay contenido interactivo disponible para este curso.';
-$string['nohubregistration'] = 'No registrado con Hub H5P';
 $string['nojson'] = 'El archivo principal h5p.json  no es válido';
 $string['nombstringexteension'] = 'La extensión PHP mbstring no está cargada. H5P necesita esto para funcionar apropiadamente.';
 $string['noparameters'] = 'Sin parámetros';

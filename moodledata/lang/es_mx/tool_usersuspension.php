@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_usersuspension', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_usersuspension', language 'es_mx', version '3.10'.
  *
  * @package     tool_usersuspension
  * @category    string
@@ -38,17 +38,9 @@ $string['config:cleanup:disabled'] = 'La opción para  \'limpieza\' en la Suspen
 $string['config:fromfolder:disabled'] = 'La opción para  \'suspender de subir\' en la Suspensión de Usuario está deshabilitada en la configuración de la herramienta global';
 $string['config:smartdetect:disabled'] = 'La \'detección inteligente\' en la Suspensión de Usuario está deshabilitada en la configuración de la herramienta global';
 $string['config:tool:disabled'] = 'La utilería de Suspensión de Usuario está deshabilitada en la configuración de la herramienta global';
-$string['config:uploadfile:exists'] = 'El archivo de subir "{$a}" existe';
-$string['config:uploadfile:not-exists'] = 'El archivo de subir "{$a}" no existe';
-$string['config:uploadfolder:exists'] = 'La carpeta de subir "{$a}" existe';
-$string['config:uploadfolder:not-exists'] = 'La carpeta de subir "{$a}" no existe';
 $string['csv:delimiter'] = 'Delimitador';
 $string['csv:enclosure'] = 'Recinto';
 $string['csv:upload:continue'] = 'Continuar';
-$string['csvdelimiter'] = 'Delimitador CSV';
-$string['csvencoding'] = 'Codificación CSV';
-$string['deleteon'] = 'Eliminar activado';
-$string['download-sample-csv'] = 'Descargar archivo CSV de muestra';
 $string['email:user:delete:body'] = '<p>Estimado/a {$a->name}</p>
 <p>Su cuenta ha sido eliminada después de haber sido suspendida por {$a->timesuspended}</p>
 <p>Atentamente<br/>{$a->signature}</p>';
@@ -67,9 +59,7 @@ $string['email:user:unsuspend:body'] = '<p>Estimado/a{$a->name}</p>
 <p>Si Usted siente que esto no es lo que correspondía, o si quiere tener suspendida nuevamente su cuenta, por favor póngase en contacto con {$a->contact}</p>
 <p>Atentamente<br/>{$a->signature}</p>';
 $string['email:user:unsuspend:subject'] = 'Su cuenta ha sido reactivada';
-$string['email:user:warning:subject'] = 'Su cuenta pronto será suspendida';
 $string['err:statustable:set_sql'] = 'set_sql() está deshabilitado. Esta tabla define las suyas propias y no es personalizable';
-$string['event:user:suspended'] = 'Usuario suspendido.';
 $string['excludeuser'] = 'excluir usuario del procesamiento';
 $string['form:static:uploadfile:desc'] = 'Suba aquí su archivo para suspensión de usuario<br/>
 El archivo CSV  subido puede ser configurado como sigue:<br/>
@@ -162,23 +152,16 @@ $string['setting:enabled'] = 'Habilitar';
 $string['setting:enablefromfolder'] = 'Suspensión automática usando archivo guardado CSV';
 $string['setting:enablefromupload'] = 'Habilitar desde subida';
 $string['setting:enablesmartdetect'] = 'Habilitar detección inteligente';
-$string['setting:enablesmartdetectwarning'] = '¿Enviar E-mails de advertencia acerca de suspensión inminente?';
-$string['setting:enableunsuspendfromfolder'] = 'DEs-suspensión automática usando archivo CSV almacenado';
 $string['setting:senddeleteemail'] = '¿Enviar Email de eliminación?';
 $string['setting:sendsuspendemail'] = '¿Enviar Email de suspensión?';
 $string['setting:smartdetect_interval'] = 'Intervalo para detección inteligente';
 $string['setting:smartdetect_suspendafter'] = 'Intervalo para suspensión por inactividad';
-$string['setting:smartdetect_warninginterval'] = 'Período de advertencia';
-$string['setting:unsuspenduploadfilename'] = 'Nombre de archivo a subir para des-suspender';
 $string['setting:uploaddetect_interval'] = 'Intervalo de procesamiento de carpeta de subida';
 $string['setting:uploadfilename'] = 'nombre_de_archivo de subida suspendida';
 $string['setting:uploadfolder'] = 'Subir carpeta';
 $string['status:deleted'] = 'eliminado';
 $string['status:suspended'] = 'suspendido';
 $string['status:unsuspended'] = 'des-suspendido';
-$string['suspend'] = 'Suspender';
-$string['suspendmode'] = 'Procesando modo';
-$string['suspendon'] = 'Suspender activado';
 $string['suspensionsettings'] = 'Configuraciones de Suspensión de Usuario';
 $string['suspensionsettingscleanup'] = 'Limpieza';
 $string['suspensionsettingscleanupdesc'] = 'Configurar las opciones de limpieza inferiores.<br/>
@@ -195,7 +178,6 @@ $string['suspensionsettingssmartdetectdesc'] = 'Configurar abajo las configuraci
 Detección inteligente efectivamente significa que las cuentas de usuarios que hayan sido encontradas \'inactivas\' de acuerdo a las configuraciones inferiores, serán suspendidas automáticamente. Corriendo solamente a un intervalo configurado, la \'detección inteligente\' determinará si es que una cuenta de usuario está o no activa de acuerdo a la configuración de \'intervalo de suspensión por inactividad\', y suspenderá a todas las cuentas de usuarios que se consideren inactivas.';
 $string['suspensionsettingsupload'] = 'Suspender desde subida';
 $string['suspensionsettingsuploaddesc'] = 'Ajustar las configuraciones inferiores para \'suspender desde subida\'';
-$string['tab:notifications'] = 'Comprobación de configuración';
 $string['table:exclusions'] = 'Exclusiones';
 $string['table:log:all'] = 'Bitácora_de_suspensión histórica';
 $string['table:log:latest'] = 'Últimas bitácoras de suspensión';
@@ -209,19 +191,13 @@ $string['task:fromfolder'] = 'Tarea usersuspension: suspensión automática de u
 $string['task:logclean'] = 'Limpiar bitácoras para suspensión de usuario';
 $string['task:mark'] = 'Tarea usersuspension: suspensión automática de usuarios';
 $string['thead:action'] = 'Acción(es)';
-$string['thead:deletein'] = 'Eliminación activada';
 $string['thead:lastlogin'] = 'Último ingreso';
 $string['thead:mailedto'] = 'Email enviado a';
 $string['thead:mailsent'] = 'Email enviado';
 $string['thead:name'] = 'Nombre';
 $string['thead:status'] = 'Estatus';
-$string['thead:suspendin'] = 'Suspender en';
 $string['thead:timecreated'] = 'Hora de creación';
-$string['thead:timedetect'] = 'Detección basada en';
 $string['thead:timemodified'] = 'Hora de modificación';
 $string['thead:type'] = 'Tipo';
 $string['thead:userid'] = 'ID del usuario';
 $string['thead:username'] = 'Nombre_de_usuario';
-$string['unsuspend'] = 'Des-suspender';
-$string['usersuspension:administration'] = 'Administración de suspensión de usuario';
-$string['usersuspension:viewstatus'] = 'Ver estado de suspensión de usuario';

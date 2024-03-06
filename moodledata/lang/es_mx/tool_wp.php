@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_wp', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_wp', language 'es_mx', version '3.10'.
  *
  * @package     tool_wp
  * @category    string
@@ -36,6 +36,7 @@ $string['createdby'] = 'Creado por';
 $string['csvdefaultvalue'] = 'Valor predeterminado';
 $string['csvfieldsmapping'] = 'Mapeo de campo';
 $string['csvmappingnotspecified'] = 'No especificado';
+$string['destination'] = 'Destino';
 $string['doexport'] = 'Exportar';
 $string['doimport'] = 'Importar';
 $string['entitiescountpostfix'] = '({$a})';
@@ -87,7 +88,6 @@ $string['importunknownerror'] = 'Error desconocido {$a}';
 $string['instances'] = 'Instancias';
 $string['instancescount'] = 'Instancias ({$a}):';
 $string['loading'] = 'Cargando...';
-$string['nonproductionsitemessage'] = 'Este es un sitio que NO es de producción';
 $string['nopermissionform'] = 'Usted no tiene permisos para acceder a este formato.';
 $string['nopermissiontab'] = 'Usted no tiene permisos para acceder a esta página';
 $string['pluginname'] = 'Workplace (Lugar_de_ trabajo)';

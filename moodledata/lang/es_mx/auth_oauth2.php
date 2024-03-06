@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oauth2', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_oauth2', language 'es_mx', version '3.10'.
  *
  * @package     auth_oauth2
  * @category    string
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['accountexists'] = 'Ya existe un usuario en este sitio con este nombre de usuario. Si esta es su cuenta, inicie sesión al escribir su nombre de usuario y contraseña y añádalo como un ingreso enlazado mediante su página de preferencias.';
+$string['accountexists'] = 'Ya existe un usuario en este sitio con este nombre_de_usuario. Si esta es su cuenta, ingrese al escribir su nombre_de_usuario y contraseña y añádalo como un ingreso enlazado mediante su página de preferencias.';
 $string['alreadylinked'] = 'Esta cuenta externa ya está enlazada a una cuenta en este sitio.';
 $string['auth_oauth2description'] = 'Autenticación basada en estándares OAuth 2.';
 $string['auth_oauth2settings'] = 'Configuraciones de autenticación OAuth 2.';
@@ -70,36 +70,33 @@ $string['createaccountswarning'] = 'Este plugin de autenticación le permite a l
 $string['createnewlinkedlogin'] = 'Enlazar a una nueva cuenta ({$a})';
 $string['emailconfirmlink'] = 'Enlazar sus cuentas';
 $string['emailconfirmlinksent'] = '<p>Se encontó una cuenta existente con esta dirección Email pero todavía no está enlazada.</p>
-<p>Las cuentas deben de ser enlazadas antes de que Usted pueda  iniciar sesión.</p>
+<p>Las cuentas deben de ser enlazadas antes de que Usted pueda ingresar.</p>
 <p>Debería de haberse enviado un Email a su dirección en <b>{$a}</b></p>
-<p>Contiene instrucciones sencillas para enlazar sus cuentas.</p>
+<p>Contiene instrucciones f´sencillas para enlazar sus cuentas.</p>
 <p>Si Usted continúa teniendo dificultades, póngase en contacto con el administrador del sitio.</p>';
 $string['emailpasswordchangeinfo'] = 'Hola {$a->firstname},
 
 Alguien (probablemente Usted) ha solicitado una nueva contraseña para su cuenta en \'{$a->sitename}\'.
 
-Sin embargo, su contraseña no puede ser reiniciada porque Usted está usando su cuenta en otro sitio para iniciar sesión.
+Sin embargo, su contraseña no puede ser reiniciada porque Usted está usando su cuenta en otro sitio para ingresar.
 
-Por favor inicie sesión como antes, usando el enlace en la página para ingresar al sitio.
+Por favor ingrese como antes, usando el enlace en la página para ingresar al sitio.
 {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Cambiar información sobre la contraseña';
 $string['info'] = 'Cuenta externa';
 $string['issuer'] = 'Servicio OAuth 2';
 $string['issuernologin'] = 'El emisor no puede se rusado para ingresar';
-$string['key'] = 'Clave';
 $string['linkedlogins'] = 'Ingresos enlazados';
 $string['linkedloginshelp'] = 'Ayuda con ingresos enlazados.';
-$string['loggedin'] = 'El usuario se autenticó exitosamente con el proveedor.';
 $string['loginerror_authenticationfailed'] = 'Falló el proceso de autenticación.';
 $string['loginerror_cannotcreateaccounts'] = 'No pudo encontrase una cuenta con su dirección Email.';
 $string['loginerror_invaliddomain'] = 'La dirección Email no está permitida en este sitio.';
 $string['loginerror_nouserinfo'] = 'No se regresó información del usuario. El servicio OAuth 2 puede estar configurado incorrectamente.';
-$string['loginerror_userincomplete'] = 'La información del usuario regresada no contenía un nombre de usuario y dirección Email. El servicio OAuth 2 puede estar configurado incorrectamente.';
-$string['noconfiguredidps'] = 'No hay proveedores OAuth2 configurados.';
-$string['noissuersavailable'] = 'Ninguno de los servicios OAuth 2 configurados le permite a Usted enlazar cuentas para ingresar.';
-$string['notenabled'] = 'Lo sentimos, el plugin de autenticación OAuth 2 no está habilitado';
+$string['loginerror_userincomplete'] = 'La información del usuario regresada no contenía un nombre_de_usuario y dirección Email. El servicio OAuth 2 puede estar configurado incorrectamente.';
+$string['noissuersavailable'] = 'Ninguno de los servicios OAuth 2 configurados le permite a Usted enlazar cuentas para ingresar';
+$string['notenabled'] = 'Lo sentimos, el plugin de autenticación OAuth 2 no está habilidato';
 $string['notloggedindebug'] = 'Falló el intento de ingreso. Razón: {$a}';
-$string['notwhileloggedinas'] = 'Los ingresos enlazados no pueden ser gestionados mientras haya iniciado sesión como otro usuario.';
+$string['notwhileloggedinas'] = 'Los ingresos enlazados no pueden ser gestionados mientras esté ingresado como otro usuario.';
 $string['oauth2:managelinkedlogins'] = 'Gestionar cuentas de ingreso propio enlazado';
 $string['plugindescription'] = 'Este plugin de autenticación muestra una lista de los proveedores de identidad configurados en la página para ingresar a Moodle. El seleccionar un proveedor de identidad le permite a los usuarios el ingresar con sus credenciales desde un proveedor de OAuth 2.';
 $string['pluginname'] = 'OAuth 2';
@@ -114,7 +111,4 @@ $string['privacy:metadata:auth_oauth2:timecreated'] = 'El sello de tiempo cuando
 $string['privacy:metadata:auth_oauth2:timemodified'] = 'El sello de tiempo cuando este registro fue modificado.';
 $string['privacy:metadata:auth_oauth2:userid'] = 'La ID de la cuenta de usuario a la cual está ligada este ingreso OAuth 2.';
 $string['privacy:metadata:auth_oauth2:usermodified'] = 'La ID del usuario que modificó esta cuenta.';
-$string['privacy:metadata:auth_oauth2:username'] = 'El nombre de_ suario externo que mapea a esta cuenta.';
-$string['testidplogin'] = 'Ingreso de prueba con:';
-$string['userinfo'] = 'Datos del usuario desde el proveedor:';
-$string['value'] = 'Valor';
+$string['privacy:metadata:auth_oauth2:username'] = 'El nombre_de_usuario externo que mapea a esta cuenta.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_essayautograde', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_essayautograde', language 'es_mx', version '3.10'.
  *
  * @package     qtype_essayautograde
  * @category    string
@@ -31,10 +31,6 @@ $string['addpartialgrades'] = '¿Otorgar calificaciones parciales?';
 $string['addpartialgrades_help'] = 'Si esta opción es habilitada, las calificaciones serán añadidas para bandas de calificación parcialmente completadas.';
 $string['addsingleband'] = 'Añadir otra banda de calificación';
 $string['addsinglephrase'] = 'Añadir otra frase clave';
-$string['allowsimilarity'] = '¿Permitir similitud?';
-$string['allowsimilarity_help'] = 'El nivel máximo de similitud que es permitido entre la respuesta de un estudiante y la plantilla de respuesta o respuesta de muestra. Mientras más alto este valor, la respuesta del estudiante puede ser más similar a la plantilla o a la muestra. Al contrario, mientras más bajo este valor, la respuesta del estudiante deberá ser más diferente de la plantilla o la muestra. Ajustar este valor puede afectar el nivel de originalidad y detalle requerido de los estudiantes en sus respuestas.';
-$string['allowsimilaritypercent'] = 'Si - permitir hasta un {$a}% de similitud';
-$string['auto'] = 'Auto';
 $string['autograding'] = 'Auto-calificar';
 $string['bandcount'] = 'Para';
 $string['bandpercent'] = 'o más ítems, otorgar';
@@ -44,12 +40,7 @@ $string['commonerror'] = 'Error común';
 $string['commonerrors'] = 'Errores comunes';
 $string['commonerrors_help'] = 'Los errores comunes están definidos en el "Glosario de errores" asociado con esta pregunta.';
 $string['correctresponse'] = 'Para obtener puntaje completo para esta pregunta, Usted debe satisfacer los siguientes criterios:';
-$string['countcharslabel'] = 'Número de caracteres actual';
-$string['countfileslabel'] = 'Número de archivos actual';
-$string['countparagraphslabel'] = 'Número de párrafos actual';
-$string['countsentenceslabel'] = 'Número de oraciones actual';
 $string['countwordslabel'] = 'Número actual de palabras';
-$string['crop'] = 'Recortar';
 $string['enableautograde'] = 'Habilitar calificación automática';
 $string['enableautograde_help'] = 'Habilitar, o deshabilitar, calificación automática';
 $string['errorbehavior'] = 'Comportamiento de concordancia de error';
@@ -101,7 +92,6 @@ $string['gradeband_help'] = 'Especifica el número mínimo de ítems contables p
 $string['gradebands'] = 'Bandas de calificación';
 $string['gradecalculation'] = 'Cálculo de calificación';
 $string['gradeforthisquestion'] = 'Calificación por esta pregunta';
-$string['hidden'] = 'Oculto';
 $string['hidesample'] = 'Ocultar muestra';
 $string['itemcount'] = 'Número esperado de ítems';
 $string['itemcount_help'] = 'El número mínimo de ítems contables que deben estar en el texto del ensayo para obtener la calificación máxima para esta pregunta.
@@ -120,15 +110,12 @@ $string['longwords_help'] = '"Palabras largas" son palabras que tienen tres o m�
 $string['longwordspersentence'] = 'Palabras largas por oración';
 $string['maximumfilecount'] = 'Número máximo de archivos: {$a}';
 $string['maximumfilesize'] = 'Tamaño máximo de archivo: {$a}';
-$string['maxwordserror'] = '¡Ups; escribiste demasiadas palabras!';
 $string['maxwordslabel'] = 'Número máximo de palabras';
-$string['maxwordswarning'] = '¡Ups; has escrito demasiada palabras!';
+$string['maxwordswarning'] = '¡Órale; has escrito demasiada palabras!';
 $string['minimumfilecount'] = 'Número minimo de archivos: {$a}';
-$string['minwordserror'] = '¡Ups; no escribiste suficientes palabras!';
 $string['minwordslabel'] = 'Número mínimo de palabras';
 $string['minwordswarning'] = '¡Sigue así! Aun no has escrito suficientes palabras.';
 $string['missing'] = 'Faltante(s)';
-$string['overflow'] = 'Desbordamiento';
 $string['paragraphs'] = 'Párrafos';
 $string['percentofquestiongrade'] = '{$a}% de la calificación de la pregunta.';
 $string['phrasebehavior'] = 'Comportamiento de frase clave [{no}]';
@@ -167,8 +154,6 @@ $string['rewriteresubmitparagraphs'] = 'añada más párrafos';
 $string['rewriteresubmitphrases'] = 'añada las frases faltantes.';
 $string['rewriteresubmitsentences'] = 'añada más oraciones';
 $string['rewriteresubmitwords'] = 'añada más palabras';
-$string['rotate'] = 'Rotar';
-$string['scale'] = 'Cambiar escala';
 $string['sentences'] = 'Oraciones';
 $string['sentencesperparagraph'] = 'Oraciones por párrafo';
 $string['showcalculation'] = '¿Mostrar cálculo de la calificación?';
@@ -203,6 +188,5 @@ $string['textstatitems'] = 'Elementos estadísticos';
 $string['textstatitems_help'] = 'Seleccione cualquier elemento aquí que Usted desea que aparezcan en las estadísticas del texto que son mostradas en las páginas para calificar y revisar.';
 $string['uniquewords'] = 'Palabras únicas';
 $string['uploadfiles'] = 'Subir archivos';
-$string['visible'] = 'Visible';
 $string['words'] = 'Palabras';
 $string['wordspersentence'] = 'Palabras por oración';

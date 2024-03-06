@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_mnet', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_mnet', language 'es_mx', version '3.10'.
  *
  * @package     auth_mnet
  * @category    string
@@ -58,8 +58,8 @@ $string['privacy:metadata:mnet_external:institution'] = 'La institución de la c
 $string['privacy:metadata:mnet_external:lang'] = 'Una preferencia del usuario para el idioma mostrado.';
 $string['privacy:metadata:mnet_external:lastaccess'] = 'La hora en la cual el usuario accedió por última vez al sitio.';
 $string['privacy:metadata:mnet_external:lastlogin'] = 'El último ingreso de este usuario.';
-$string['privacy:metadata:mnet_external:lastname'] = 'El apellido (los apellidos) del usuario.';
-$string['privacy:metadata:mnet_external:lastnamephonetic'] = 'Los detalles fonéticos del apellido del usuario.';
+$string['privacy:metadata:mnet_external:lastname'] = 'El apellido (los apellidos) de este usuario';
+$string['privacy:metadata:mnet_external:lastnamephonetic'] = 'Los detalles fonéticos acerca del apellido del usuario.';
 $string['privacy:metadata:mnet_external:maildigest'] = 'Una configuración para el resumen del correo para este usuario.';
 $string['privacy:metadata:mnet_external:maildisplay'] = 'Una preferencia para el usuario acerca de mostrar su dirección Email a otros usuarios';
 $string['privacy:metadata:mnet_external:middlename'] = 'El segundo nombre (si tuviera) del usuario';
@@ -74,9 +74,9 @@ $string['privacy:metadata:mnet_external:timezone'] = 'La zona horaria del usuari
 $string['privacy:metadata:mnet_external:trackforums'] = 'Una preferencia para foros y sus seguimientos.';
 $string['privacy:metadata:mnet_external:trustbitmask'] = 'La máscara del bit de confianza';
 $string['privacy:metadata:mnet_external:url'] = 'Una URL relacionada a este usuario.';
-$string['privacy:metadata:mnet_external:username'] = 'El nombre de usuario para este usuario.';
+$string['privacy:metadata:mnet_external:username'] = 'El nombre_de_usuario para este usuario.';
 $string['privacy:metadata:mnet_external:yahoo'] = 'El identificador Yahoo del usuario';
-$string['privacy:metadata:mnet_log'] = 'Detalles de acciones remotas efectuadas por un usuario local que inició sesión en un sistema remoto.';
+$string['privacy:metadata:mnet_log'] = 'Detalles de acciones remotas efectuadas por un usuario local ingresado en un sistema remoto.';
 $string['privacy:metadata:mnet_log:action'] = 'Acción efectuada por el usuario.';
 $string['privacy:metadata:mnet_log:cmid'] = 'ID del módulo del curso.';
 $string['privacy:metadata:mnet_log:course'] = 'ID del curso del sistema remoto en donde ocurrió la acción.';
@@ -95,11 +95,11 @@ $string['privacy:metadata:mnet_session:mnethostid'] = 'ID MNet del sistema remot
 $string['privacy:metadata:mnet_session:token'] = 'Identificador único de la sesión';
 $string['privacy:metadata:mnet_session:useragent'] = 'Agente de usuario utilizado para acceder al sistema remoto.';
 $string['privacy:metadata:mnet_session:userid'] = 'ID del usuario saltando al sistema remoto.';
-$string['privacy:metadata:mnet_session:username'] = 'Nombre de usuario del usuario saltando al sistema remoto.';
+$string['privacy:metadata:mnet_session:username'] = 'Nombre_de_usuario del usuario saltando al sistema remoto.';
 $string['rpc_negotiation_timeout'] = 'Tiempo de caducidad para la negociación RPC';
 $string['sso_idp_description'] = 'Publique este servicio para permitir a sus usuarios divagar al sitio Moodle {$a} sin tener que reiniciar sesión allí. <ul><li><em>Dependencia</em>: Usted debe también <strong>suscribirse</strong> al servicio SSO (Proveedor de servicios) en {$a}.</li></ul><br />Suscríbase a este servicio para permitir a los usuarios autenticados de {$a} acceder a su sitio sin tener que reiniciar sesión. <ul><li><em>Dependencia</em>: Usted debe también <strong>publicar</strong> el servicio SSO (proveedor de servicios) a {$a}.</li></ul><br />';
 $string['sso_idp_name'] = 'SSO (Proveedor de Identidad)';
-$string['sso_mnet_login_refused'] = 'Al usuario {$a->user} no le es permitido iniciar sesión desde {$a->host}.';
+$string['sso_mnet_login_refused'] = 'Al nombre_de_usuario {$a->user} no le es permitido iniciar sesión desde {$a->host}.';
 $string['sso_sp_description'] = 'Publique este servicio para permitir a usuarios autenticados acceder a su sitio desde {$a} sin tener que re-ingresar al sitio.<ul><li><em>Dependecia</em>: Usted debe también <strong>subscribirse</strong> al servicio SSO (Proveedor de identidad) en {$a}.</li></ul><br />Suscríbase a este servicio para permitir a sus usuarios divagar al sitio Moodle {$a} sin tener que re-ingresar al sitio allí. <ul><li><em>Dependencia</em>: Usted debe también <strong>publicar</strong> el servicio SSO (Proveedor de identidad) a {$a}.</li></ul><br />';
 $string['sso_sp_name'] = 'SSO (Proveedor de Servicios)';
 $string['unknownhost'] = 'Host desconocido';

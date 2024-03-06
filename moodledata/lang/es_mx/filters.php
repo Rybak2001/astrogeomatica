@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filters', language 'es_mx', version '4.2'.
+ * Strings for component 'filters', language 'es_mx', version '3.10'.
  *
  * @package     filters
  * @category    string
@@ -83,7 +83,6 @@ $string['profilelabel'] = '{$a->label}: {$a->profile} {$a->operator} {$a->value}
 $string['profilelabelnovalue'] = '{$a->label}: {$a->profile} {$a->operator}';
 $string['removeall'] = 'Eliminar todos los filtros';
 $string['removeselected'] = 'Eliminar seleccionados';
-$string['replacefilters'] = 'Remplazar filtros';
 $string['selectlabel'] = '{$a->label} {$a->operator} {$a->value}';
 $string['startswith'] = 'comienza con';
 $string['tablenosave'] = 'Los cambios de la tabla superior se guardan automáticamente.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_wiris', language 'es_mx', version '4.2'.
+ * Strings for component 'filter_wiris', language 'es_mx', version '3.10'.
  *
  * @package     filter_wiris
  * @category    string
@@ -88,13 +88,12 @@ $string['or'] = 'o';
 $string['pluginname'] = 'Filtro MathType por WIRIS';
 $string['pluginperformance'] = 'Modo de desempeño de imagen';
 $string['pluginperformance_help'] = 'Especifica si la respuesta debería ser un JSON en lugar de un binario, lo que permite que las respuestas sean cacheadas. Habilita desempeño al usar respuesta JSON.';
-$string['privacy:metadata'] = 'El filtro MathType no afecta ni almacena ningún dato por si mismo.';
+$string['privacy:null_reason'] = 'El filtro MathType no afecta ni almacena ningún dato por si mismo.';
 $string['rendertype'] = 'Tipo de renderizado';
-$string['rendertype_help'] = 'Especifica como renderizar las fórmulas.<br>- PHP: llama al servicio de renderizado de Wiris desde el módulo del filtro.<br>- Cliente: todas las solicitudes a los servidores Wiris son hechas desde el navegador.<br><i>Es encarecidamente recomendado el dejar habilitado el renderizado (PHP) del lado del servidor, lo que está configurado de forma predeterminada. Solamente es recomendable el habilitar el renderizado del  lado del cliente (Cliente) en entornos con muy alta concurrencia, donde hay un gran número de usuarios simultáneos que necesitan representar simultáneamente varias expresiones matemáticas complejas.</i>';
+$string['rendertype_help'] = 'Especifica como renderizar las fórmulas.<br>- PHP: llama al servicio de renderizado de Wiris desde el módulo del filtro.<br>- Cliente: todas las solicitudes a los servidores Wiris son hechas desde el navegador.';
 $string['securitysettings'] = 'Configuraciones de seguridad';
 $string['securitysettings_text'] = '';
 $string['tinymce'] = 'TinyMCE';
-$string['tinymceincompatibility'] = 'MathType para TinyMCE (antiguo) no está soportado en Moodle 4.2 ni superiores; usted debe des-instalar el plugin localizado en  "./lib/editor/tinymce/plugins/tiny_mce_wiris" y usted debe instalar el plugin MathType para TinyMCE 6';
 $string['title'] = 'Página de prueba del filtro MathType';
 $string['version'] = 'versión';
 $string['versionsdontmatch'] = 'las versiones no coinciden';

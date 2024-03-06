@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'skype', language 'es_mx', version '4.2'.
+ * Strings for component 'skype', language 'es_mx', version '3.10'.
  *
  * @package     skype
  * @category    string
@@ -28,8 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['calendarchattime'] = '{$a} hora del chat';
 $string['calendarend'] = '{$a} cierra';
 $string['calendarstart'] = '{$a} abre';
-$string['crontask'] = 'Procesamiento en segundo plano para módulo Skype';
-$string['incorrectcourseid'] = 'ID del curso incorrecta';
 $string['modulename'] = 'Skype';
 $string['modulenameplural'] = 'Skypes';
 $string['nobody'] = 'Nadie está inscrito para este tipo Skype';
@@ -39,16 +37,13 @@ $string['options'] = 'Contacto';
 $string['photo'] = 'Foto';
 $string['pluginadministration'] = 'Administracón de Skype';
 $string['pluginname'] = 'Skype';
-$string['privacy:metadata'] = 'el módulo Skype no almacena datos personales.';
 $string['returnto'] = 'Regresar a {$a}';
-$string['showrecentactivity'] = 'Mostrar actividad reciente';
 $string['skype'] = 'Skype';
 $string['skype:addinstance'] = 'Puede añadir instancia';
 $string['skype:manageentries'] = 'Gestionar entradas';
 $string['skype:view'] = 'Puede ver';
 $string['skypeclosed'] = 'Este Skype cerró en {$a}.';
 $string['skypeclosetime'] = 'Hora del cierre';
-$string['skypeerror'] = 'Usted debe especificar una ID de módulo de curso o una ID de instancia';
 $string['skypefieldset'] = 'conjuntodecampo de ejemplo personalizado';
 $string['skypeid'] = 'ID de Skype';
 $string['skypename'] = 'Nombre Skype';

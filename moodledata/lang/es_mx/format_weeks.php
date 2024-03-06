@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_weeks', language 'es_mx', version '4.2'.
+ * Strings for component 'format_weeks', language 'es_mx', version '3.10'.
  *
  * @package     format_weeks
  * @category    string
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsections'] = 'Añadir semana';
+$string['addsections'] = 'Añadir semanas';
 $string['automaticenddate'] = 'Calcular la fecha final a partir del número de secciones';
 $string['automaticenddate_help'] = 'Si se habilita, la fecha final para el curso será calculada automáticamente a partir del número de secciones y la fecha inicial del curso.';
 $string['currentsection'] = 'Esta semana';
@@ -33,25 +33,11 @@ $string['deletesection'] = 'Eliminar semana';
 $string['editsection'] = 'Editar semana';
 $string['editsectionname'] = 'Editar nombre de semana';
 $string['hidefromothers'] = 'Ocultar semana';
-$string['indentation'] = 'Permitir indentación en página de curso';
-$string['indentation_help'] = 'Permitirle a profesores, y otros usuarios con la capacidad para gestionar actividades, el indentar elementos en la página de curso.';
 $string['newsectionname'] = 'Nuevo nombre para semana {$a}';
 $string['page-course-view-weeks'] = 'Página principal de cualquier curso en formato semanal';
 $string['page-course-view-weeks-x'] = 'Página de cualquier curso en formato semanal';
 $string['pluginname'] = 'Formato semanal';
 $string['privacy:metadata'] = 'El plugin del Formato semanal no almacena ningún dato personal.';
 $string['section0name'] = 'General';
-$string['sectionavailability_title'] = 'Disponibilidad de semana';
-$string['sectiondelete_title'] = '¿Eliminar semana?';
-$string['sectionmove_title'] = 'Mover semana';
 $string['sectionname'] = 'Semana';
-$string['sectionsavailability'] = 'Disponibilidad de semanas';
-$string['sectionsavailability_title'] = 'Disponibilidad de semanas';
-$string['sectionsdelete'] = 'Eliminar semanas';
-$string['sectionsdelete_info'] = 'Esto eliminará {$a->count} semanas y todas las actividades que contienen.';
-$string['sectionsdelete_title'] = '¿Eliminar semanas seleccionadas?';
-$string['sectionsmove'] = 'Mover semanas';
-$string['sectionsmove_info'] = 'Mover {$a} semanas después de';
-$string['sectionsmove_title'] = 'Mover semanas seleccionadas';
-$string['selectsection'] = 'Seleccionar semana {$a}';
 $string['showfromothers'] = 'Mostrar semana';

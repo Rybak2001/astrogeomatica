@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_flexibase', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_flexibase', language 'es_mx', version '3.10'.
  *
  * @package     theme_flexibase
  * @category    string
@@ -227,7 +227,7 @@ $string['loggedinfrom'] = 'Ingresado desde';
 $string['loginbg'] = 'Fondo de la página de ingreso al sitio';
 $string['loginbgdesc'] = 'Imagen del Fondo de la Página para Ingreso - debería de ser de alrededor de 1200 x 800 pixeles';
 $string['logo'] = 'Logo del Encabezado Principal';
-$string['mainmenulocation'] = 'Ubicación de la Barra del Menú Principal';
+$string['mainmenulocation'] = 'Localización de Barra de Menú Principal';
 $string['mainmenusheadingsub'] = 'Opciones de Barra de Menú Principal';
 $string['marketing1'] = 'Punto de Anuncio Uno';
 $string['marketing2'] = 'Punto de Anuncio Dos';
@@ -261,7 +261,7 @@ $string['minilogo'] = 'Logo de Barra Superior';
 $string['minilogodesc'] = 'Por favor suba aquí un logo personalizado para la Barra de Navegación si se requiriera.<br>
 Este debería de ser un logo pequeño - usualmente un máximo de 30 pixeles de alto, y remplazará a cualquier ícono de FontAwesome añadido en la configuración de arriba. Si no se añadiera logo ni ícono, se usará el ícono estándar de "home" (hogar).';
 $string['mmawesome'] = 'En la BarraAsombrosa (si estuviera habilitada)';
-$string['mmbranding'] = 'En la Barra de la marca personalizada (arriba del encabezado)';
+$string['mmbranding'] = 'En la Barra de la marca (arriba del encabezado)';
 $string['mmcalendar'] = 'Menú Principal - Calendario';
 $string['mmcalendardesc'] = 'Mostrar enlace hacia Calendario en Menú Principal';
 $string['mmdashboard'] = 'Menú Principal - Tablero';
@@ -291,7 +291,6 @@ $string['pagesadmincloninglistg'] = 'Instalar como normal';
 $string['pagesadmincloningtitle'] = 'Clonado del Tema';
 $string['pagesadminhelpheading'] = 'Soporte para Administradores';
 $string['pagesadmininstallationtitle'] = 'Instalación';
-$string['pagesbscsstitle'] = 'Fragmentitos útiles de código (snippets) de CSS de Bootstrap';
 $string['pagescontentbuttonsdanger'] = 'Peligro';
 $string['pagescontentbuttonsdefault'] = 'Valor por defecto';
 $string['pagescontentbuttonsinfo'] = 'Información';
@@ -310,14 +309,11 @@ $string['pagescontenttabsprofile'] = 'Perfil';
 $string['pagescontenttabssc'] = 'Contenido de Pestaña Configuraciones';
 $string['pagescontenttabssetting'] = 'Configuraciones';
 $string['pagescontenttabstitle'] = 'Añadiendo pestañas';
-$string['pagescontenttitle'] = 'Fragmentitos útiles de código (snippets)';
 $string['pagescustomblockstitle'] = 'Encabezados de Bloques';
 $string['pagescustomisationtitle'] = 'Personalización para Administradores';
 $string['pagesettingmmoptions'] = 'Usted puede elegir mostrar:';
 $string['pagesettingsalertsdesc2'] = 'Color';
 $string['pagesettingscustomsocial'] = 'Enlaces Sociales Personalizados';
-$string['pagesettingsmarketinghead'] = 'Configuraciones Generales de Cajas de Anuncios';
-$string['pagesettingsmarketinghead2'] = 'Configuraciones de Cajas de Anuncios - Caja1, Caja2, ...';
 $string['pagesettingspresetsocial'] = 'Íconos Sociales Preconfigurados';
 $string['pageshelplinks'] = 'Enlaces de Página de Ayuda:';
 $string['pageslayoutsregionshead'] = 'Regiones - para creadores de contenido';
@@ -381,16 +377,14 @@ $string['sociallinkdesc'] = 'Escriba la URL de su enlace hacia medios sociales p
 $string['sociallinkicon'] = 'ïcono del enlace';
 $string['sociallinkicondesc'] = 'Escriba el nombre del ícono de FontAwesome para su enlace<br />Puede encontrar una lista de íconos de FontAwesome en http://fontawesome.io/icons/';
 $string['socialnetworks'] = 'Redes Sociales';
-$string['stylemarketing'] = 'Estilo de de Cajas de Anuncios';
 $string['stylemarketingblocks'] = 'Estilo del Bloque';
-$string['stylemarketingdesc'] = 'Configurar si las Cajas de Anuncios son mostradas estilizadas como puntos con íconos grandes o con estilo estándar de bloque.';
 $string['thiscourse'] = 'Este curso';
 $string['togglemarketing'] = 'Mostrar Puntos de Anuncios';
 $string['togglemarketingdesc'] = 'Elija si desea ocultar o mostrar los cuatro Puntos de "Anuncios".';
 $string['toggleslideshow'] = 'Alternar el mostrar carrusel';
 $string['toggleslideshowdesc'] = 'Elija si prefiere ocultar o mostrar el carrusel.';
 $string['topbarcolour'] = 'Color de Barra de Navegación superior';
-$string['topbarcolourdesc'] = 'En lugar de configurar el color auténtico, ésto determina si se usan los colores de la marca personalizada, o sus inversos.';
+$string['topbarcolourdesc'] = 'En lugar de configurar el color auténtico, ésto determina si se usan los colores de la marca, o sus inversos.';
 $string['tumblr'] = 'URL de Tumblr';
 $string['tumblrdesc'] = 'Escriba la URL de su Tumblr. (por ejemplo http://moodleman.tumblr.com)';
 $string['twitter'] = 'URL de Twitter';

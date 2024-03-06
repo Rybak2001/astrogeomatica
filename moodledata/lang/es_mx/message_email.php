@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_email', language 'es_mx', version '4.2'.
+ * Strings for component 'message_email', language 'es_mx', version '3.10'.
  *
  * @package     message_email
  * @category    string
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['email'] = 'Enviar notificaciones email a';
+$string['emaildigestsubject'] = 'Resumen de mensajes';
 $string['emaildigestunreadmessages'] = 'Mensajes no leídos';
 $string['emaildigestviewallmessages'] = 'Ver todos los mensajes';
 $string['emailonlyfromnoreplyaddress'] = '¿Mandar siempre los Emails desde la dirección de "no-responder" ?';
@@ -46,5 +47,4 @@ $string['privacy:metadata:replyto'] = 'La dirección Email a la cual contestar.'
 $string['privacy:metadata:replytoname'] = 'Nombre del destinatario para la contestación.';
 $string['privacy:metadata:subject'] = 'La línea del asunto del mensaje.';
 $string['privacy:metadata:userfrom'] = 'El usuario que envía el mensaje.';
-$string['privacy:preference:email'] = 'Dirección Email preferida para notificación';
 $string['tasksendemail'] = 'Correos  de resúmenes de mensajes';

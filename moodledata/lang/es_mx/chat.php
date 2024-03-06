@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'chat', language 'es_mx', version '4.2'.
+ * Strings for component 'chat', language 'es_mx', version '3.10'.
  *
  * @package     chat
  * @category    string
@@ -76,12 +76,10 @@ $string['indicator:cognitivedepth'] = 'Chat cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad Chat.';
 $string['indicator:cognitivedepthdef'] = 'Chat cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades de Chat durante este intervalo de análisis (Niveles = Sin Ver, Ver, Enviar, Ver retroalimentación, Comentar en retroalimentación, Reenviar después de ver retroalimentación)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Chat social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad Chat.';
 $string['indicator:socialbreadthdef'] = 'Chat social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Chat durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['inputarea'] = 'Área de entrada';
 $string['invalidid'] = 'No se encontró esa sala de chat';
 $string['list_all_sessions'] = 'Listar todas las sesiones.';
@@ -110,10 +108,8 @@ Los chats son especialmente útiles cuando el grupo no podría juntarse para rea
 * Niños pequeños en casa por las tardes, como una introducción controlada (monitoreada) al mundo de las redes sociales
 * Una sesión de preguntas y respuestas con un orador invitado de una localidad diferente (a distancia)
 * Sesiones para ayudarles a los estudiantes a prepararse para exámenes, donde el profesor, o los estudiantes, hagan preguntas de ejemplo';
-$string['modulename_link'] = 'mod/chat/view';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Nunca borrar mensajes';
-$string['nextchattime'] = 'Hora del siguiente chat:';
 $string['nextsession'] = 'Próxima sesión programada';
 $string['no_complete_sessions_found'] = 'No se han encontrado sesiones completas.';
 $string['nochat'] = 'No se encontró chat';
@@ -124,11 +120,10 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'No hay sesión programada';
 $string['notallowenter'] = 'Usted no tiene permitido entrar en la sala de chat';
-$string['notlogged'] = '¡Usted no ha iniciado sesión!';
+$string['notlogged'] = '¡Usted no ha ingresado!';
 $string['oldping'] = 'Tiempo de espera para desconexión';
 $string['page-mod-chat-x'] = 'Cualquier página del módulo de chat';
 $string['pastchats'] = 'Sesiones de chat pasadas';
-$string['pastsessions'] = 'Sesiones anteriores';
 $string['pluginadministration'] = 'Administración del chat';
 $string['pluginname'] = 'Chat';
 $string['privacy:metadata:chat_messages_current'] = 'Sesión actual de Chat. Los datos son temporales y son eliminados después de que la sesión de chat sea eliminada';
@@ -164,7 +159,6 @@ $string['servermax'] = 'Número máximo de usuarios';
 $string['serverport'] = 'Puerto del servidor';
 $string['sessions'] = 'Sesiones';
 $string['sessionstart'] = 'La siguiente sesión de chat comenzará en {$a->date},  dentro de ({$a->fromnow} a partir de ahora)';
-$string['sessionstartsin'] = 'La siguiente sesión de chat empezará dentro de {$a}..';
 $string['strftimemessage'] = '%H:%M';
 $string['studentseereports'] = 'Todos pueden ver las sesiones pasadas';
 $string['studentseereports_help'] = 'Si se selecciona \'No\', solo los usuarios que tienen la capacidad \'mod/chat:readlog\' pueden ver las bitácoras de chat';
@@ -180,4 +174,4 @@ $string['usingchat_help'] = 'El módulo chat contiene algunas características p
 * Emociones - Usted puede empezar una oración con "/me" o ":" para emote,por ejemplo: si su nombre es Kim y Usted escribe ":laughs!" or "/me laughs!"entonces todos verán "Kim laughs!"
 * Bips - Usted puede mandar un sonido a otros participantes eligiendo el enlace de "beep"que está junto a sus nombres. Un atajo útil para mandar un sonido a todas las personas en el chat al mismo tiempo es tecleando "beep all".
 * HTML -si Usted sabe emplear código HTML, lo puede utilizar en su texto para hacer cosas como insertar imágenes, hacer que suenen ruidos o crear texto con diferentes colores.';
-$string['viewreport'] = 'Sesiones anteriores';
+$string['viewreport'] = 'Ver las sesiones anteriores';

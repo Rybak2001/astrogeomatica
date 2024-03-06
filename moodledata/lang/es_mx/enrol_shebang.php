@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_shebang', language 'es_mx', version '4.2'.
+ * Strings for component 'enrol_shebang', language 'es_mx', version '3.10'.
  *
  * @package     enrol_shebang
  * @category    string
@@ -40,8 +40,5 @@ $string['ERR_ENROL_INSERT'] = 'No se pudo crear instancia de importación en cur
 $string['ERR_METANOTENABLED'] = 'No está habilitada la lista cruzada';
 $string['ERR_UNENROLL_FAIL'] = 'No se pudo des-inscribir (dar de baja) persona de sección del curso';
 $string['LBL_PERSON_DELETE_UNENROL'] = 'Des-inscribir (dar de baja)';
-$string['LBL_TOOLS_IMPORT_LINK_DELETE'] = 'Eliminar Archivo';
-$string['LBL_TOOLS_IMPORT_LINK_IMPORT'] = 'Importar Archivo';
 $string['LBL_TOOLS_IMPORT_help'] = '<p>Importar un archivo previamente subido, o subir un archivo nuevo.</p>';
-$string['LBL_TOOLS_LINK'] = 'Admin. Utilerías: <a href="{$a}">Clic Aquí</a>';
 $string['shebang:unenrol'] = 'Des-inscribir (dar de baja)  usuarios del curso';

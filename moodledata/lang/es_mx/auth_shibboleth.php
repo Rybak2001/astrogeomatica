@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_shibboleth', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_shibboleth', language 'es_mx', version '3.10'.
  *
  * @package     auth_shibboleth
  * @category    string
@@ -38,7 +38,7 @@ $string['auth_shib_convert_data_warning'] = 'El archivo no existe o no es legibl
 $string['auth_shib_idp_list'] = 'Proveedores de Identidad';
 $string['auth_shib_idp_list_description'] = 'Proporcionar una lista de entityIDs de proveedores de identidad, para permitir que el usuario elija elegir en la página de ingreso al sitio. <br /> Cada línea debe ser una tupla separada por comas para las EntityID de los IdP (véase el archivo de metadatos Shibboleth) y el Name de los IdP como deberá figurar en la lista desplegable.<br />Como un tercer parámetro opcional puede añadir la ubicación de un iniciador de sesión de Shibboleth que se utilizará en caso de que su instalación de Moodle sea parte de una configuración de federación múltiple.';
 $string['auth_shib_instructions'] = 'Utilice el <a href="{$a}">Ingreso Shibboleth</a> para acceder vía Shibboleth si su institución lo admite. En caso contrario, utilice el formato de ingreso normal que aquí se muestra.';
-$string['auth_shib_instructions_help'] = 'Aquí debería proporcionar a sus usuarios instrucciones personalizadas para explicar Shibboleth. Deberían aparecer en la sección de instrucciones de la página de ingreso, e incluir un enlace a "<b>{$a}</b>", de modo que los usuarios de Shibboleth pudieran  iniciar sesión con facilidad. Si lo deja en blanco, se utilizarán las instrucciones estándar (no las específicas de Shibboleth)';
+$string['auth_shib_instructions_help'] = 'Aquí debería proporcionar a sus usuarios instrucciones personalizadas para explicar Shibboleth. Deberían aparecer en la sección de instrucciones de la página de ingreso, e incluir un enlace a "<b>{$a}</b>", de modo que los usuarios de Shibboleth pudieran ingresar con facilidad. Si lo deja en blanco, se utilizarán las instrucciones estándar (no las específicas de Shibboleth)';
 $string['auth_shib_instructions_key'] = 'Instrucciones para ingresar';
 $string['auth_shib_integrated_wayf'] = 'Servicio Moodle WAYF';
 $string['auth_shib_integrated_wayf_description'] = 'Si marca esta opción, Moodle utilizará su propio servicio WAYF en lugar de la configurada para Shibboleth. Moodle mostrará una lista desplegable en esta página de ingreso alternativa, en la que el usuario tiene que seleccionar su Proveedor de Identidad.';
@@ -49,7 +49,7 @@ $string['auth_shib_logout_url_description'] = 'Proporciona la URL del manejador 
 $string['auth_shib_no_organizations_warning'] = 'Si desea usar el servicio integrado WAYF, debe proporcionar una lista con valores separados por comas de las entityIDs proveedoras de identidades, sus nombres y, opcionalmente, un iniciador de sesión.';
 $string['auth_shib_only'] = 'Sólo Shibboleth';
 $string['auth_shib_only_description'] = 'Marque esta opción si desea obligar a la autenticación Shibboleth';
-$string['auth_shib_username_description'] = 'Nombre de la variable contextual del servidor Shibboleth que se utilizará como nombre de usuario en Moodle';
+$string['auth_shib_username_description'] = 'Nombre de la variable contextual del servidor Shibboleth que se utilizará como nombre_de_usuario en Moodle';
 $string['auth_shibboleth_errormsg'] = 'Por favor, seleccione la organización a la que pertenece.';
 $string['auth_shibboleth_login'] = 'Ingreso Shibboleth';
 $string['auth_shibboleth_login_long'] = 'Ingreso a Moodle vía Shibboleth';

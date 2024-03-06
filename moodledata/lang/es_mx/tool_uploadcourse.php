@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_uploadcourse', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_uploadcourse', language 'es_mx', version '3.10'.
  *
  * @package     tool_uploadcourse
  * @category    string
@@ -39,7 +39,7 @@ $string['cannotreadbackupfile'] = 'No puede leerse el archivo de respaldo';
 $string['cannotrenamecoursenotexist'] = 'No puede renombrarse un curso que no existe';
 $string['cannotrenameidnumberconflict'] = 'No puede renombrarse el curso; el número ID tiene conflicto con un curso existente';
 $string['cannotrenameshortnamealreadyinuse'] = 'No puede renombrarse el curso; el nombre corto ya está usado';
-$string['cannotupdatefrontpage'] = 'Usted no tiene permitido cambiar la página de inicio del sitio.';
+$string['cannotupdatefrontpage'] = 'Está prohibido modificar la portada';
 $string['canonlyrenameinupdatemode'] = 'Solamente puede renombrarse un curso cuando está permitida la actualización';
 $string['canonlyresetcourseinupdatemode'] = 'Solamente puede reiniciarse un curso en modo actualización';
 $string['couldnotresolvecatgorybyid'] = 'No pudo resolverse la categoría por el ID';
@@ -73,14 +73,13 @@ $string['courseupdated'] = 'Curso actualizado';
 $string['createall'] = 'Crear todos, incrementar nombre corto en caso necesario';
 $string['createnew'] = 'Solamente crear cursos nuevos, saltarse los existentes';
 $string['createorupdate'] = 'Crear cursos nuevos, o actualizar los existentes';
-$string['csvdelimiter'] = 'Separador CSV';
-$string['csvdelimiter_help'] = 'El caracter que separa las series de datos en cada registro.';
-$string['csvfileerror'] = 'Algo está mal con el formato del archivo CSV. Por favor compruebe que coincidan el número de encabezados y el número de columnas, y que estén correctos el separador y la codificación del archivo. {$a}';
+$string['csvdelimiter'] = 'Delimitador CSV';
+$string['csvdelimiter_help'] = 'Delimitador CSV del archivo CSV.';
+$string['csvfileerror'] = 'Algo está mal con el formato del archivo CSV. Por favor revise que coincidan el número de encabezados y el número de columnas, y que estén correctos el delimitador y la codificación del archivo: {$a}';
 $string['csvline'] = 'Línea';
 $string['customfieldinvalid'] = 'El campo personalizado \'{$a}\' está vacío o contiene datos inválidos';
 $string['defaultvalues'] = 'Valores por defecto del curso';
 $string['defaultvaluescustomfieldcategory'] = 'Valores predeterminados para \'{$a}\'';
-$string['downloadcontentnotallowed'] = 'Configurar descarga de contenido de curso no permitida';
 $string['encoding'] = 'Codificación';
 $string['encoding_help'] = 'Codificación del archivo CSV.';
 $string['errorcannotcreateorupdateenrolment'] = 'No se puede crear o actualizar método de inscripción \'{$a}\'';
@@ -96,7 +95,6 @@ $string['importoptions'] = 'Opciones de importación';
 $string['invalidbackupfile'] = 'Archivo de respaldo inválido';
 $string['invalidcourseformat'] = 'Formato de curso inválido';
 $string['invalidcsvfile'] = 'Archivo CVS de entrada inválido';
-$string['invaliddownloadcontent'] = 'Valor inválido de descarga de contenido de curso';
 $string['invalidencoding'] = 'Codificación inválida';
 $string['invalideupdatemode'] = 'El modo de actualización seleccionado es inválido';
 $string['invalidfullnametoolong'] = 'El campo de nombrecompleto está limitado a {$a} caracteres';
@@ -135,8 +133,8 @@ $string['uploadcourses'] = 'Subir cursos';
 $string['uploadcourses_help'] = 'Los cursos pueden subirse mediante archivo de texto. El formato del archivo debería ser como sigue:
 
 * Cada línea del archivo contiene solamente un registro
-* Cada registro es una serie de datos separados por el separador seleccionado
+* Cada registro es una serie de datos separados por comas (o por otros delimitadores)
 * El primer registro contiene una lista de los nombres_de_campos (fieldnames) que definen el formato para el resto del archivo
-* Los nombres_de_campos (fieldnames) obligatorios son (así escritos en inglés) shortname, fullname, y category';
+* Los nombres_de_campos (fieldnames) obligatorios son shortname, fullname, y category (así escritos, en inglés)';
 $string['uploadcoursespreview'] = 'Vista previa subir cursos';
 $string['uploadcoursesresult'] = 'Resultados subir cursos';

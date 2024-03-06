@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_spam_deletion', language 'es_mx', version '4.2'.
+ * Strings for component 'block_spam_deletion', language 'es_mx', version '3.10'.
  *
  * @package     block_spam_deletion
  * @category    string
@@ -42,12 +42,15 @@ $string['confirmdeletemsg'] = '¿Está Usted seguro de querer marcar a <strong>{
 $string['confirmspamreportmsg'] = '¿Está seguro de querer reportar a este contenido como spam?';
 $string['countcomment'] = 'Comentarios: {$a}';
 $string['countforum'] = 'Publicaciones de foros: {$a}';
+$string['countmessageread'] = 'Mensajes leídos: {$a}';
+$string['countmessageunread'] = 'Mensajes no leídos: {$a}';
 $string['counttags'] = 'Marcas únicas: {$a}';
 $string['deleteandreporttoakismet'] = 'Eliminar usuario y guardar contenido para reporte akismet';
 $string['deletebutton'] = 'Eliminar spammer';
 $string['eventspammerdeleted'] = 'Spammer eliminado';
 $string['invalidcharspercentage'] = 'Porcentaje de caracteres inválidos permitidos';
 $string['invalidcharspercentagedesc'] = 'Si una publicación contiene más de cierto porcentaje de caracteres inválidos (por ejemplo, caracteres coreanos en un curso de español), será bloqueada.';
+$string['messageblocked'] = 'Su publicación en foro ha sido bloqueada, porque nuestro sistema de prevención de SPAM la ha marcado como que posiblemente contenga SPAM. Si este no fuera el caso, por favor mande un Email a helen@moodle.org copiando y pegando su publicación en el Email.';
 $string['messageblockedtitle'] = '¡SPAM potencial detectado!';
 $string['messageprovider:spamreport'] = 'Reporte de SPAM';
 $string['notrecentlyaccessed'] = '¡Precaución! LA fecha del primer acceso de esta cuenta es de hace más de un mes. Asegúrese doblemente de que realmente sea un spammer.';

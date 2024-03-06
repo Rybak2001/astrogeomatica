@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'accredible', language 'es_mx', version '4.2'.
+ * Strings for component 'accredible', language 'es_mx', version '3.10'.
  *
  * @package     accredible
  * @category    string
@@ -30,6 +30,7 @@ $string['accredible:manage'] = 'Gestionar una instancia de certificado/insignia'
 $string['accredible:student'] = 'Recuperar un certificado o insignia';
 $string['accredible:view'] = 'Ver un certificado o insignia';
 $string['achievementid'] = 'ID del logro / nombre del cohorte (debe ser único)';
+$string['activitydescription'] = 'Este módulo automáticamente crea y actualiza un Grupo de Credencial en  Accredible. Cualquier certificado e insignia emitido están en este grupo y su apariencia y su información pueden actualizarse en <<a href="https://dashboard.accredible.com" target="_blank">el tablero</a>.';
 $string['activityname'] = 'Nombre de la actividad';
 $string['additionalactivitiesone'] = 'Advertencia: Se está agregando más de una actividad a un curso. <br/>Ambas actividades están visibles para los estudiantes, asegúrese de darles diferentes nombres.';
 $string['additionalactivitiesthree'] = 'Este es el nombre que aparecerá en el certificado.';

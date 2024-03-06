@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search_solr', language 'es_mx', version '4.2'.
+ * Strings for component 'search_solr', language 'es_mx', version '3.10'.
  *
  * @package     search_solr
  * @category    string
@@ -54,7 +54,7 @@ Operadores Booleanos ("AND", "OR", "NOT"pueden usarse para combinar o para exclu
 Caracteres de comodines ("*"o "?") pueden usarse para representar caracteres en la consulta de la búsqueda.';
 $string['setupok'] = 'El esquema está listo para usarse';
 $string['solrauthpassword'] = 'Contraseña de autenticación HTTP';
-$string['solrauthuser'] = 'Nombre de usuario de autenticación HTTP';
+$string['solrauthuser'] = 'Nombre_de_usuario de autenticación HTTP';
 $string['solrhttpconnectionport'] = 'Puerto';
 $string['solrhttpconnectiontimeout'] = 'Tiempo para descartar conexión (timeout)';
 $string['solrhttpconnectiontimeout_desc'] = 'El tiempo para descartar conexión HTTP es el tiempo máximo en segundos permitido para la operación de transferencia de datos HTTP.';

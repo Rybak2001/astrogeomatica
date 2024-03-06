@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_myddleware', language 'es_mx', version '4.2'.
+ * Strings for component 'local_myddleware', language 'es_mx', version '3.10'.
  *
  * @package     local_myddleware
  * @category    string
@@ -62,7 +62,6 @@ $string['return_exported'] = 'Exportado';
 $string['return_feedback'] = 'Retroalimentación';
 $string['return_feedbackformat'] = 'Formato de retroalimentación';
 $string['return_finalgrade'] = 'Calificación final';
-$string['return_fullname'] = 'Nombre completo del curso';
 $string['return_grade'] = 'Calificación';
 $string['return_hidden'] = 'Oculto';
 $string['return_id'] = 'ID';
@@ -70,7 +69,6 @@ $string['return_information'] = 'Información';
 $string['return_informationformat'] = 'Formato de información';
 $string['return_instance'] = 'Instancia';
 $string['return_itemid'] = 'ID del ítem';
-$string['return_itemname'] = 'Nombredeelemento del curso';
 $string['return_lastaccess'] = 'Último acceso';
 $string['return_locked'] = 'Bloqueado';
 $string['return_locktime'] = 'Hora del bloqueo';
@@ -86,7 +84,6 @@ $string['return_reviewerid'] = 'ID del revisor';
 $string['return_roleid'] = 'ID del rol';
 $string['return_ruleoutcome'] = 'Resultado de la regla';
 $string['return_section'] = 'Sección';
-$string['return_shortname'] = 'Nombre corto del curso';
 $string['return_sortorder'] = 'Ordenamiento';
 $string['return_status'] = 'Estado';
 $string['return_timecompleted'] = 'Hora de finalización';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_answersselect', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_answersselect', language 'es_mx', version '3.10'.
  *
  * @package     qtype_answersselect
  * @category    string
@@ -36,18 +36,11 @@ $string['correctchoicesseparator_help'] = '<p>Este separador será usado para se
 <ul><li>La coma es la opción predeterminada, para ser usada para respuestas correctas breves.</li>
 <li>Use el espacio vacío si las respuestas correctas (ordenadas) son palabras únicas que constituyen una oración.</li>
 <li>Use los saltos de línea para respuestas correctas más largas que hacen una mejor visualización en líneas separadas.</li></ul>';
-$string['hardsetamountisgreaterthanansweramount'] = 'El número de respuestas seleccionadas es mayor que la cantidad de respuestas real.';
-$string['hardsetamountofanswers'] = 'N respuestas en pregunta';
-$string['hardsetamountofanswers_help'] = 'Cantidad total de respuestas, que serán mostradas al estudiante.Este número cambia solamente después de guardar cambios a respuestas.';
-$string['hastobeoneincorrectanswer'] = 'Añada al menos una respuesta incorrecta';
-$string['hastobeoneincorrectanswer_help'] = 'Esta opción garantiza que el lote de respuestas elegidas aleatoriamente tendrá al menos una respuesta incorrecta.';
 $string['linebreak'] = 'salto de línea';
 $string['manualselection'] = 'Selección manual';
 $string['notenoughcorrectanswers'] = 'Usted debe seleccionar al menos una opción correcta';
-$string['nrandomanswersselection'] = 'Selección de N respuestas aleatorias';
 $string['pluginname'] = 'Seleccionar respuestas aleatorias';
 $string['pluginname_help'] = 'Un tipo de pregunta de Opción Múltiple que permite selección aleatoria a partir de un lote de respuestas correctas/incorrectas';
-$string['pluginname_link'] = 'question/type/answersselect';
 $string['pluginnameadding'] = 'Añadiendo una pregunta de Selección aleatoria de respuestas';
 $string['pluginnameediting'] = 'Editando una pregunta de Selección aleatoria de respuestas';
 $string['pluginnamesummary'] = '<p>Un tipo de pregunta de Opción Múltiple, respuesta múltiple con reglas de puntaje particulares.</p>

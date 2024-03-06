@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_ipaddresslist', language 'es_mx', version '4.2'.
+ * Strings for component 'quizaccess_ipaddresslist', language 'es_mx', version '3.10'.
  *
  * @package     quizaccess_ipaddresslist
  * @category    string
@@ -31,7 +31,6 @@ $string['allowedsubnets_help'] = 'El acceso a examen puede restringirse a lugare
 $string['editsubnet'] = 'Editando lugar';
 $string['managesubnets'] = 'Gestión de lugares';
 $string['pluginname'] = 'Lista de direcciones IP de la regla de acceso al examen';
-$string['privacy:metadata'] = 'Este plugin no almacena ningún dato personal.';
 $string['subnet'] = 'Sub-red de IPs';
 $string['subnet_help'] = 'Especifique una lista separada por comas de los números de direcciones IP parciales o totales.
 

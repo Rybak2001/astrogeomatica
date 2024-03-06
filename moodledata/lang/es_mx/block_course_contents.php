@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_contents', language 'es_mx', version '4.2'.
+ * Strings for component 'block_course_contents', language 'es_mx', version '3.10'.
  *
  * @package     block_course_contents
  * @category    string
@@ -38,7 +38,6 @@ $string['config_autotitle_optional_on'] = 'Opcional, habilitado por defecto';
 $string['config_blocktitle'] = 'Título del bloque';
 $string['config_blocktitle_default'] = 'Tabla de contenidos';
 $string['config_blocktitle_help'] = 'Deje este campo vacío para usar el título del bloque por defecto. Si Usted define aquí un título, se usará en lugar del título por defecto.';
-$string['config_display_course_link'] = 'Enlace a página del curso';
 $string['config_display_course_link_desc'] = 'Mostrar enlace a la página inicial del curso en la parte superior de todas las secciones.';
 $string['config_display_course_link_forced_off'] = 'Deshabilitado en todos los bloques';
 $string['config_display_course_link_forced_on'] = 'Habilitado en todos los bloques';

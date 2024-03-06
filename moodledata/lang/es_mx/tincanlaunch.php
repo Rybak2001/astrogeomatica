@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tincanlaunch', language 'es_mx', version '4.2'.
+ * Strings for component 'tincanlaunch', language 'es_mx', version '3.10'.
  *
  * @package     tincanlaunch
  * @category    string
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['badarchive'] = 'Usted debe proporcionar un archivo zip valido';
 $string['badimsmanifestlocation'] = 'Un archivo tincan.xml fue encontrado, pero no estaba en la raíz de su archivo zip, por favor vuelve a empaquetar su curso';
 $string['badmanifest'] = 'Se manifestaron algunos errores: ver el registro de errores';
+$string['behaviorheading'] = 'Comportamiento del módulo';
 $string['checkcompletion'] = 'Revisar Finalización';
 $string['completionexpiry'] = 'Caducidad';
 $string['completionexpirygroup'] = 'Finalización Caduca después de (días)';

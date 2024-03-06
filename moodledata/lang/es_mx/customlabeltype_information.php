@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_information', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabeltype_information', language 'es_mx', version '3.10'.
  *
  * @package     customlabeltype_information
  * @category    string
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configtypename'] = 'Habilitar Información del subtipo';
 $string['family'] = 'pedagógico';
-$string['information'] = 'Información';
 $string['information:addinstance'] = 'Puede añadir una instancia';
 $string['information:view'] = 'Puede ver el contenido';
 $string['informationtext'] = 'Texto de información';

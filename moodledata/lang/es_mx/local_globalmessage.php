@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_globalmessage', language 'es_mx', version '4.2'.
+ * Strings for component 'local_globalmessage', language 'es_mx', version '3.10'.
  *
  * @package     local_globalmessage
  * @category    string
@@ -114,7 +114,7 @@ $string['groove'] = 'surco';
 $string['height'] = 'Alto';
 $string['if'] = 'SI';
 $string['innerpadding'] = 'Relleno interno';
-$string['inset'] = 'Recuadro';
+$string['inset'] = 'Inserto';
 $string['install'] = 'Instalar';
 $string['invalidfiletoload'] = 'Archivo no subió.';
 $string['left'] = 'Izquierda';
@@ -137,7 +137,7 @@ $string['note'] = 'Nota';
 $string['notedetails'] = 'Se puede agendar que aparezcan mensajes múltiples en una página; sin embargo, solamente será visible un mensaje. El mensaje más recientemente modificado será el único mensaje que se muestre.';
 $string['notequal'] = 'No igual';
 $string['or'] = 'O';
-$string['outset'] = 'salido';
+$string['outset'] = 'comienzo';
 $string['padding'] = 'Relleno';
 $string['pluginname'] = 'Mensaje Global';
 $string['previewdesign'] = 'Mostrar/Ocultar diseño';

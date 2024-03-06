@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_geogebra', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_geogebra', language 'es_mx', version '3.10'.
  *
  * @package     qtype_geogebra
  * @category    string
@@ -43,15 +43,12 @@ $string['enable_right_click'] = 'Habilitar Clic Derecho y Edición del Teclado';
 $string['enable_shift_drag_zoom'] = 'Habilitar Shift-Arrastrar y Zoom';
 $string['feedback'] = 'Retroalimentación cuando la variable es cierta';
 $string['feedback_help'] = 'La retroalimentación es tomada automáticamente del subtítulo de la variable en el archivo Geogebra.';
-$string['forcedimensionsenable'] = 'Especificar alto y ancho manualmente';
 $string['geogebraapplet'] = 'Applet Geogebra';
 $string['getvars'] = 'Obtener variables que son aleatorizadas desde la applet';
 $string['ggbfilemissing'] = 'Falta la cadena-base64 en la respuesta. Probablemente JavaScript no está habilitado en el navegador, o tal vez ocurrió un error desconocido';
 $string['ggbturl'] = 'URL o ID de Hoja_de_Trabajo (\'\'worksheet\'\') de GeoGebra';
 $string['ggbturl_help'] = 'Usted puede, una de dos: Usar el botón compartir en GeogebraTube y copiar y pegar el enlace, o usar el repositorio GeoGebraTube. El Applet y los parámetros se almacenan en la BasedeDatos, el Applet no se re-cargará de GeoGebraTube a menos que lo solicite. Simplemente proporcionar la ID o la clave para compartir  del Applet también están soportadas.';
 $string['ggbxmlmissing'] = 'Falta la Cadena-XML en la respuesta. Probablemente no esté activado JavaScript en el navegador, o tal vez ocurrió un error desconocido';
-$string['height'] = 'Altura';
-$string['heightnotzero'] = 'Tiene que especificar un valor mayor de cero para la altura';
 $string['invalidinequality'] = '{$a} es inválida';
 $string['isexercise'] = 'Usar GeoGebra-Exercise para revisar la pregunta';
 $string['isexercise_help'] = 'El applet contiene herramientas definidas_por_el_usuario que pueden emplearse para revisión automática del ejercicio. \\n Precaución: ¡Todas las respuestas inferiores no son aplicables en este caso!';
@@ -67,7 +64,6 @@ $string['pluginname_help'] = 'Preguntas en donde el estudiante puede resolver la
 $string['pluginnameadding'] = 'Añadiendo una pregunta GeoGebra';
 $string['pluginnameediting'] = 'Editando una pregunta GeoGebra';
 $string['pluginnamesummary'] = 'Una versión de preguntas calculadas que usa GeoGebra para mostrar la pregunta y verificar la respuesta cuando se realiza el examen.';
-$string['privacy:metadata'] = 'El plugin del tipo de pregunta Geogebra no almacena ningún dato personal.';
 $string['randomizedbutnovars'] = 'Usted ha seleccionado que la pregunta deba aleatorizarse, pero Usted no especificó variables para ser aleatorizadas.';
 $string['randomizedvar'] = 'Variables a aleatorizar';
 $string['randomizedvar_help'] = 'Variables que deberían aleatorizarse (separadas por comas). Use las opciones para deslizable (\'\'slider\'\') en GeoGebra para declarar Min, Max e Incremento. Estas variables pueden usarse también en el texto de la pregunta al rodearlas entre paréntesis ondulados, por ejemplo;  {a}.';
@@ -81,6 +77,4 @@ $string['valuecheckedfor'] = 'Objeto Booleano en GeoGebra que es usado para revi
 $string['variablenamewrong'] = 'No se pudo encontrar una variable con ese nombre en el archivo GeoGebra.';
 $string['variableno'] = 'Variable {$a}';
 $string['variables'] = 'Variables';
-$string['width'] = 'Ancho';
-$string['widthnotzero'] = 'Tiene que especificar un valor mayor de cero para el ancho.';
 $string['willbereadfromfile'] = 'Se leerá de GeoGebra ... (vea botón de ayuda)';

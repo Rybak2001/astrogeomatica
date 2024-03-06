@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'board', language 'es_mx', version '4.2'.
+ * Strings for component 'board', language 'es_mx', version '3.10'.
  *
  * @package     board
  * @category    string
@@ -56,25 +56,16 @@ $string['boardsettings'] = 'Configuraciones del Tablero';
 $string['cancel_button_text'] = 'Cancelar';
 $string['choose_file'] = 'Elegir Archivo de Imagen';
 $string['column_colours'] = 'Colores de Columna';
-$string['column_colours_desc'] = 'Colores usados en la parte superior de cada columna. Estos son colores hexadecimales y deberían ser colocados de a uno por línea como 3 o 6 caracteres. Si cualquiera de estos valores no es igual a un color entonces serán usados los predeterminados.';
 $string['default_column_heading'] = 'Encabezado';
 $string['delete'] = 'Eliminar';
 $string['event_add_column'] = 'Columna añadida';
-$string['event_add_column_desc'] = 'El usuario con id \'{$a->userid}\' creó la columna de tablero con id \'{$a->objectid}\' y nombre \'{$a->name}\'.';
 $string['event_add_note'] = 'Publicación añadida';
-$string['event_add_note_desc'] = 'El usuario con id \'{$a->userid}\' creó publicación del tablero con id \'{$a->objectid}\', encabezado \'{$a->heading}\', contenido \'{$a->content}\', medio \'{$a->media}\' el la columna con id \'{$a->columnid}\', grupo con id \'{$a->groupid}\'.';
 $string['event_delete_column'] = 'Columna eliminada';
-$string['event_delete_column_desc'] = 'l usuario con id \'{$a->userid}\' eliminó la columna de tablero con id \'{$a->objectid}\'.';
 $string['event_delete_note'] = 'Publicación eliminada';
-$string['event_delete_note_desc'] = 'El usuario con id \'{$a->userid}\' eliminó publicación deltablero con id \'{$a->objectid}\' de la columna con id \'{$a->columnid}\'.';
 $string['event_move_note'] = 'Publicación movida';
-$string['event_move_note_desc'] = 'El usuario con id \'{$a->userid}\' movió la publicación del tablero con id \'{$a->objectid}\' a la columna con id \'{$a->columnid}\'.';
 $string['event_rate_note'] = 'Publicación valorada';
-$string['event_rate_note_desc'] = 'El usuario con id \'{$a->userid}\' valoró la publicación de tablero con id \'{$a->objectid}\' a valoración \'{$a->rating}\'.';
 $string['event_update_column'] = 'Columna actualizada';
-$string['event_update_column_desc'] = 'El usuario con id \'{$a->userid}\' actualizó la columna del tablero con id \'{$a->objectid}\' a \'{$a->name}\'.';
 $string['event_update_note'] = 'Publicación actualizada';
-$string['event_update_note_desc'] = 'El usuario con id \'{$a->userid}\' actualizó la columna del tablero con id \'{$a->objectid}\'a encabezado \'{$a->heading}\', contenido \'{$a->content}\', medio \'{$a->media}\' en columna con id \'{$a->columnid}\'.';
 $string['export_board'] = 'Exportar CSV';
 $string['export_content'] = 'Texto de publiacación';
 $string['export_email'] = 'Email';
@@ -91,10 +82,7 @@ $string['form_mediatype'] = 'Medio';
 $string['form_title'] = 'Título de publicación';
 $string['groupingid_required'] = 'Debe seleccionarse un agrupamiento de curso para este modo de grupo.';
 $string['hideheaders'] = 'Ocultarle a alumnos los encabezados de columna';
-$string['history'] = 'Historia del tablero';
 $string['history_refresh'] = 'Cronómetro de refresco del Tablero';
-$string['history_refresh_desc'] = 'Timeout en segundos entre refrescos automáticos del tablero. Si se configura a 0 o vacío, entonces el tablero solamente se refrescará durante acciones del tablero (añadir/actualizar/etc)';
-$string['historyinfo'] = 'La tabla de la Historia del tablero es usada solamente para almacenar registros temporales, los cuales son usados por procesos JavaScript para refrescar vistas del tablero, y después son eliminados inmediatamente.';
 $string['invalid_file_extension'] = 'Extensión de archivo no aceptable para subida.';
 $string['invalid_file_size_max'] = 'Archivo demasiado grande para ser aceptado.';
 $string['invalid_file_size_min'] = 'Archivo demasiado pequeño para ser aceptado.';
@@ -119,7 +107,6 @@ $string['option_empty'] = 'Ninguno';
 $string['option_image'] = 'Imagen';
 $string['option_image_info'] = 'Título de imagen';
 $string['option_image_url'] = 'URL de imagen';
-$string['option_link'] = 'Enlace';
 $string['option_link_info'] = 'Título del enlace';
 $string['option_link_url'] = 'URL del enlace';
 $string['option_youtube'] = 'Video (YouTube)';
@@ -132,27 +119,7 @@ $string['post_max_length'] = 'Longitud máxima de publicación';
 $string['post_max_length_desc'] = 'La Longitud máxima permitida del contenido. Cualquier exceso será recortado.';
 $string['postbydate'] = 'Publicación por fecha';
 $string['postbyenabled'] = 'Limitar publicaciones de estudiantes por fecha';
-$string['posts'] = 'Publicaciones';
-$string['privacy:metadata:board_history'] = 'LA historia temporal del tablero guarda información usada por procesos JavaScript para refrescar vistas del tablero, y después e eliminada inmediatamente.';
-$string['privacy:metadata:board_history:action'] = 'La acción realizada';
-$string['privacy:metadata:board_history:boardid'] = 'La ID del tablero';
-$string['privacy:metadata:board_history:content'] = 'Los datos JSON de la acción realizada';
-$string['privacy:metadata:board_history:timecreated'] = 'La hora a la cual la acción fue realizada';
-$string['privacy:metadata:board_history:userid'] = 'La ID del usuario que realizó la acción';
-$string['privacy:metadata:board_note_ratings'] = 'Información acerca de las valoraciones individuales para cada publicación del tablero.';
-$string['privacy:metadata:board_note_ratings:noteid'] = 'La ID de la publicación relacionada';
-$string['privacy:metadata:board_note_ratings:timecreated'] = 'La hora de cuando la valoración de la publicación fue creada';
-$string['privacy:metadata:board_note_ratings:userid'] = 'La ID del usuario que creó la valoración de la publicación';
-$string['privacy:metadata:board_notes'] = 'Información acerca de las publicaciones individuales para cada tablero.';
-$string['privacy:metadata:board_notes:columnid'] = 'La ubicación de la columna de la publicación';
-$string['privacy:metadata:board_notes:content'] = 'El contenido de la publicación';
-$string['privacy:metadata:board_notes:heading'] = 'El encabezado de la publicación';
-$string['privacy:metadata:board_notes:info'] = 'La información del medio de la publicación';
-$string['privacy:metadata:board_notes:timecreated'] = 'LA hora de cuando la publicación fue creada';
-$string['privacy:metadata:board_notes:url'] = 'La URL del medio de la publicación';
-$string['privacy:metadata:board_notes:userid'] = 'La ID del usuario que creó la publicación';
 $string['rate_note_text'] = '¿Está seguro de querer valorar esta publicación?';
-$string['ratings'] = 'Valoraciones';
 $string['remove_column_text'] = '¿Está seguro de querer eliminar esta columna "{$a}" y todas las publicaciones que contiene?';
 $string['remove_column_title'] = 'Confirmar';
 $string['remove_note_text'] = '¿Está seguro de querer eliminar esta publicación y todos los datos que contiene, ya que esto también afectará a todos los otros usuarios.';
@@ -161,5 +128,5 @@ $string['sortby'] = 'Ordenar por';
 $string['sortbydate'] = 'Fecha de creación';
 $string['sortbynone'] = 'Ninguno';
 $string['sortbyrating'] = 'Valoración';
-$string['userscanedit'] = 'Permitirle a todos los usuarios editar el acomodo de sus propias publicaciones.';
+$string['userscanedit'] = 'Permitirle a todos los usuarios editar la localización de sus propias publicaciones.';
 $string['warning'] = 'Notificación';

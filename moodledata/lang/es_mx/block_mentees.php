@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mentees', language 'es_mx', version '4.2'.
+ * Strings for component 'block_mentees', language 'es_mx', version '3.10'.
  *
  * @package     block_mentees
  * @category    string
@@ -25,10 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configtitle'] = 'Título del bloque Aprendices';
-$string['configtitleblankhides'] = 'Título del bloque Aprendices (sin título si está vacío)';
-$string['mentees:addinstance'] = 'Añadir un nuevo bloque de aprendices';
-$string['mentees:myaddinstance'] = 'Añadir un nuevo bloque de aprendices al Tablero';
-$string['newmenteesblock'] = '(nuevo Bloque Aprendices)';
+$string['configtitle'] = 'Título del bloque Aprendices (Mentees)';
+$string['configtitleblankhides'] = 'Título del bloque Aprendices (Mentees) (sin título si está vacío)';
+$string['mentees:addinstance'] = 'Añadir un nuevo bloque de aprendices (mentees)';
+$string['mentees:myaddinstance'] = 'Añadir un nuevo bloque de aprendices (mentees) al Tablero';
+$string['newmenteesblock'] = '(nuevo Bloque Aprendices (Mentees))';
 $string['pluginname'] = 'Aprendices (Mentees)';
-$string['privacy:metadata'] = 'El bloque Aprendices solamente muestra datos almacenados en otros lugares.';
+$string['privacy:metadata'] = 'El bloque Aprendices (Mentees) solamente muestra datos almacenados en otros lugares.';

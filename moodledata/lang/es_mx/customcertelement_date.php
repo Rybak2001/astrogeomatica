@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customcertelement_date', language 'es_mx', version '4.2'.
+ * Strings for component 'customcertelement_date', language 'es_mx', version '3.10'.
  *
  * @package     customcertelement_date
  * @category    string
@@ -36,11 +36,6 @@ $string['dateitem'] = 'Ítem de fecha';
 $string['dateitem_help'] = 'Esta será la fecha que se imprimirá en el certificado.';
 $string['enrolmentenddate'] = 'Fecha de fin de inscripción';
 $string['enrolmentstartdate'] = 'Fecha de inicio de inscripción';
-$string['expirydatefive'] = 'Fecha de expiración (5 años)';
-$string['expirydatefour'] = 'Fecha de expiración (4 años)';
-$string['expirydateone'] = 'Fecha de expiración (1 año)';
-$string['expirydatethree'] = 'Fecha de expiración (3 años)';
-$string['expirydatetwo'] = 'Fecha de expiración (2 años)';
 $string['issueddate'] = 'Fecha emitido';
 $string['numbersuffix_nd_as_in_second'] = 'ndo';
 $string['numbersuffix_rd_as_in_third'] = 'ro';

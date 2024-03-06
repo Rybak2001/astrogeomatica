@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'pdfannotator', language 'es_mx', version '4.2'.
+ * Strings for component 'pdfannotator', language 'es_mx', version '3.10'.
  *
  * @package     pdfannotator
  * @category    string
@@ -66,7 +66,6 @@ $string['colorPicker'] = 'Elegir un color';
 $string['comment'] = 'Comentario';
 $string['commentDeleted'] = 'El comentario ha sido eliminado';
 $string['comments'] = 'Comentarios';
-$string['configmaxbytes'] = 'Tamaño máximo de archivo';
 $string['correct'] = 'correcto';
 $string['count'] = 'número';
 $string['createAnnotation'] = 'Crear anotación';
@@ -96,7 +95,7 @@ $string['editAnnotationTitle'] = '¿Está seguro?';
 $string['editButton'] = 'Guardar';
 $string['editNotAllowed'] = '¡No se permite el paneo!';
 $string['editedComment'] = 'última edición';
-$string['emptypdf'] = 'No hay comentarios en este anotador actualmente.';
+$string['emptypdf'] = 'No hay comentarios en este anotador atualmente.';
 $string['enterText'] = 'Ingresar texto';
 $string['entity_helptitle'] = 'Ayuda para';
 $string['error'] = '¡Error!';
@@ -106,7 +105,6 @@ $string['error:closequestion'] = 'Ocurrió un error al cerrar/abrir la pregunta.
 $string['error:deleteAnnotation'] = 'Ocurrió un error al eliminar una anotación.';
 $string['error:editAnnotation'] = 'Ocurrió un error al editar una anotación.';
 $string['error:editcomment'] = 'Ocurrió un error al tratar de editar un comentario.';
-$string['error:findimage'] = 'Ocurrió un error al tratar de encontrar imágen {$a}.';
 $string['error:forwardquestion'] = 'Ocurrió un error al redirigir la pregunta.';
 $string['error:forwardquestionnorecipient'] = 'Ocurrió un error al redirigir la pregunta. Ninguna persona en este curso tiene la capacidad para recibir preguntas redirigidas.';
 $string['error:getAllQuestions'] = 'Ocurrió un error al buscar las preguntas de este documento.';
@@ -114,18 +112,14 @@ $string['error:getAnnotation'] = 'Ocurrió un error al obtener la anotación.';
 $string['error:getAnnotations'] = 'Ocurrió un error al obtener todas las anotaciones.';
 $string['error:getComments'] = 'Ocurrió un error al obtener los comentarios.';
 $string['error:getQuestions'] = 'Ocurrió un error al obtener las preguntas para esta página.';
-$string['error:getimageheight'] = 'Ocurrió un error al obtener la altura de la imagen de {$a}.';
-$string['error:getimagewidth'] = 'Ocurrió un error al obtener el ancho de la imagen de {$a}.';
 $string['error:hideComment'] = 'Ocurrió un error al tratar de ocultar el comentario de la vista de los participantes.';
 $string['error:markasread'] = 'El ítem no pudo marcarse como leído.';
 $string['error:markasunread'] = 'El ítem no pudo marcarse como no leído.';
 $string['error:markcorrectanswer'] = 'Ocurrió un error al marcar la respuesta como correcta.';
-$string['error:maximalsizeoffile'] = 'Su archivo {$a->filename}, debido a que excede {$a->filesize} como el tamaño máximo de archivos. Usted puede anexar archivo(s) con un máximo de {$a->maxfilesize} a un solo comentario.';
 $string['error:missingAnnotationtype'] = 'Annotationtype no existe. Posiblemente falte  la entrada en la tabla  pdfannotator_annotationtypes.';
 $string['error:openingPDF'] = 'Ocurrió un error al abrir el archivo PDF.';
 $string['error:openprintview'] = 'Ocurrió un error al tratar de abrir el PDF en Acrobat Reader.';
-$string['error:printcomments'] = 'Ocurrió un error al tratar de abrir los comentarios en un PDF.';
-$string['error:printcommentsdata'] = 'Error con datos del servisor.';
+$string['error:printcomments'] = 'Ocurrió un error al tratar de abrir el documento en un PDF.';
 $string['error:printlatex'] = 'Ocurrió un error al intentar añadir una fórmula LaTeX al PDF.';
 $string['error:redihideCommentsplayComment'] = 'Ocurrió un error al re-insertar el comentario para asistentes.';
 $string['error:redisplayComment'] = 'Ocurrió un error al revisualizar el comentario.';
@@ -133,7 +127,6 @@ $string['error:renderPage'] = 'Ocurrió un error al renderizar la página.';
 $string['error:reportComment'] = 'Ocurrió un error al guardar el reporte.';
 $string['error:subscribe'] = 'Ocurrió un error al suscribirse a la pregunta.';
 $string['error:unsubscribe'] = 'Ocurrió un error al des-suscribirse a la pregunta.';
-$string['error:unsupportedextension'] = 'La extensión de los datos enviados no está soportada. Por favor seleccione otra extensión.';
 $string['error:voteComment'] = 'Ocurrió un error al guardar el voto.';
 $string['eventreport_added'] = 'Un comentario fue reportado';
 $string['filenotfound'] = 'Archivo no encontrado; lo siento.';
@@ -156,13 +149,7 @@ $string['fullscreen'] = 'Pantalla completa';
 $string['fullscreenBack'] = 'Salir de pantalla completa';
 $string['global_setting_anonymous'] = '¿Permitir publicar anónimamente?';
 $string['global_setting_anonymous_desc'] = 'Con esta opción Usted le permite a sus usuarios el publicar comentarios anónimamente. Esta opción activa globalmente la publicación anónima.';
-$string['global_setting_attobuttons'] = 'Configuración de barra de herramientas de editor Atto';
-$string['global_setting_attobuttons_desc'] = 'La lista de plugins y el orden en el que son mostrados puede ser configurado aquí. La configuración consiste en grupos (uno por línea)seguidos por la lista ordenada de plugins para ese grupo. El grupo está separado de los plugins con un signo de igual y los plugins están separados con comas. Los nombres de grupos deben ser únicos y deberían indicar lo que los botones tienen en común. Los nombres de grupos y botones no deben repetirse y solamente pueden contener caracteres alfanuméricos.';
 $string['global_setting_latexapisetting'] = 'API LaTeX a PNG';
-$string['global_setting_latexapisetting_desc'] = 'API para convertir Latex a PNG para descargas de PDF.<br>
-        Nota: Si usted usa la  Google Chart API, Google obtendrá todas las fórmulas en el documento si alguien elige usar  LaTeX<br>
-        Si usted usa la API de Moodle, usted necesita un latex, dvips y convertir el binario instalado en su servidor.
-        (Vea  <a href="https://docs.moodle.org/all/es/Filtro_de_notaci%C3%B3n_TeX">la Documentación de Moodle</a>)';
 $string['global_setting_latexusegoogle'] = 'API Google Chart';
 $string['global_setting_latexusemoodle'] = 'API Moodle Interna';
 $string['global_setting_use_private_comments'] = '¿Permitir anotaciones personales?';
@@ -215,15 +202,13 @@ $string['markUnsolved'] = 'Reabrir pregunta';
 $string['markasread'] = 'Marcar como leído';
 $string['markasunread'] = 'Marcar como no leído';
 $string['markhidden'] = 'Ocultar';
-$string['maximumfilesize'] = 'Tamaño máximo de archivo';
-$string['maximumfilesize_help'] = 'Archivos subidos por usuarios pueden ser hasta este tamaño.';
 $string['me'] = 'yo';
 $string['messageforwardform'] = 'Su mensaje a los destinatarios';
 $string['messageprovider:forwardedquestion'] = 'Cuando una pregunta fue redirigida a Usted';
 $string['messageprovider:newanswer'] = 'Cuando fue contestada una pregunta a la cual Usted está suscrito';
 $string['messageprovider:newquestion'] = 'Cuando una pregunta nueva fue preguntada';
 $string['messageprovider:newreport'] = 'Cuando un comentario fue reportado';
-$string['min0Chars'] = 'No está permitido una pregunta o comentario vacíos.';
+$string['min2Chars'] = 'No está permitido hacer una pregunta o un comentario con menos de dos caracteres.';
 $string['minute'] = 'minuto';
 $string['minutes'] = 'minutos';
 $string['missingAnnotation'] = '¡No pudo encontrarse la anotación correspondiente!';
@@ -322,7 +307,6 @@ $string['pdfannotator:writeprotectedcomments'] = 'Escribir comentarios privados'
 $string['pdfannotatorcolumn'] = 'Documento';
 $string['pdfannotatorcontent'] = 'Archvos y subcarpetas';
 $string['pdfannotatorname'] = 'Herramienta de Anotación PDF';
-$string['pdfannotatorpost'] = 'Comentarios y preguntas';
 $string['pluginadministration'] = 'Administración de Anotación PDF';
 $string['pluginname'] = 'Anotación PDF';
 $string['point'] = 'Añadir un alfiler en el documento y escribir un comentario.';

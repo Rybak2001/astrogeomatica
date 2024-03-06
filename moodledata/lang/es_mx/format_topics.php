@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topics', language 'es_mx', version '4.2'.
+ * Strings for component 'format_topics', language 'es_mx', version '3.10'.
  *
  * @package     format_topics
  * @category    string
@@ -25,31 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsections'] = 'Añadir tópico';
+$string['addsections'] = 'Añadir tópicos';
 $string['currentsection'] = 'Este tópico/tema';
 $string['deletesection'] = 'Eliminar tópico/tema';
 $string['editsection'] = 'Editar tópico';
 $string['editsectionname'] = 'Editar nombre del tópico/tema';
 $string['hidefromothers'] = 'Ocultar tópico/tema';
-$string['indentation'] = 'Permitir indentación en página de curso';
-$string['indentation_help'] = 'Permitirle a profesores, y otros usuarios con la capacidad para gestionar actividades, el indentar elementos en la página de curso.';
 $string['newsectionname'] = 'Nuevo nombre para tópico/tema {$a}';
 $string['page-course-view-topics'] = 'Cualquier página principal de curso en formato por tópicos/temas';
 $string['page-course-view-topics-x'] = 'Cualquier página de curso en formato por tópicos/temas';
 $string['pluginname'] = 'Formato de tópicos/temas';
 $string['privacy:metadata'] = 'El plugin del Formato de tópicos no almacena ningún dato personal.';
 $string['section0name'] = 'General';
-$string['sectionavailability_title'] = 'Disponibilidad del tópico';
-$string['sectiondelete_title'] = '¿Eliminar tópico?';
-$string['sectionmove_title'] = 'Mover tópico';
 $string['sectionname'] = 'Tópico/tema';
-$string['sectionsavailability'] = 'Disponibilidad de tópicos';
-$string['sectionsavailability_title'] = 'Disponibilidad de tópicos';
-$string['sectionsdelete'] = 'Eliminar tópicos';
-$string['sectionsdelete_info'] = 'Esto eliminará {$a->count} tópicos y todas las actividades que contienen.';
-$string['sectionsdelete_title'] = '¿Eliminar tópicos seleccinados?';
-$string['sectionsmove'] = 'Mover tópicos';
-$string['sectionsmove_info'] = 'Mover {$a} tópicos después de';
-$string['sectionsmove_title'] = 'Mover tópicos seleccionados';
-$string['selectsection'] = 'Seleccionar tópico {$a}';
 $string['showfromothers'] = 'Mostrar tópico/tema';

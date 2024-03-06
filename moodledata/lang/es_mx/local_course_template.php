@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_course_template', language 'es_mx', version '4.2'.
+ * Strings for component 'local_course_template', language 'es_mx', version '3.10'.
  *
  * @package     local_course_template
  * @category    string
@@ -28,8 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['cachedef_backups'] = 'Respaldos de plantilla de curso';
 $string['cachedef_templates'] = 'IDs de curso de plantilla de curso';
 $string['cleanuptask'] = 'Limpiar respaldos de plantilla de curso';
-$string['copydates'] = 'Copiar fechas de inicio y término';
-$string['copydates_desc'] = 'Si se habilita, las fechas de inicio y término del curso de la plantilla serán copiadas al nuevo curso.';
 $string['defaulttemplate'] = 'NombreCorto predeterminado de plantilla de curso';
 $string['defaulttemplate_desc'] = 'NombreCorto de la plantilla predeterminada de curso. Los cursos que no coincidan con una plantilla usarán esta, si existiera.';
 $string['enablecaching'] = 'Habilitar caché';

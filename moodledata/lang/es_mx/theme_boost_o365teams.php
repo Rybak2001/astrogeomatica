@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost_o365teams', language 'es_mx', version '4.2'.
+ * Strings for component 'theme_boost_o365teams', language 'es_mx', version '3.10'.
  *
  * @package     theme_boost_o365teams
  * @category    string
@@ -38,7 +38,6 @@ $string['navigatereturn'] = 'Regresar al menú del examen';
 $string['open_course'] = 'Abrir curso en ventana del navegador';
 $string['placementfrontpage'] = 'Portada';
 $string['pluginname'] = 'Boost Office365 Teams';
-$string['privacy:metadata'] = 'El plugin Boost Office365 Teams no almacena ningún dato personal.';
 $string['region-side-pre'] = 'Derecha';
 $string['share_feedback'] = 'Compartir retroalimentación';
 $string['showteamfeedbacklink'] = 'Mostrar enlace de retroalimentación';

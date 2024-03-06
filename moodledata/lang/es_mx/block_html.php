@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_html', language 'es_mx', version '4.2'.
+ * Strings for component 'block_html', language 'es_mx', version '3.10'.
  *
  * @package     block_html
  * @category    string
@@ -26,14 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowadditionalcssclasses'] = 'Permitir clases CSS adicionales';
-$string['configallowadditionalcssclasses'] = 'Añadir una opción de configuración a las instancias de bloques de Texto que permita que se configuren nuevas clases CSS.';
+$string['configallowadditionalcssclasses'] = 'Añadir una opción de configuración a las instancias de bloques HTML que permita que se configuren nuevas clases CSS.';
 $string['configclasses'] = 'Clases CSS adicionales';
-$string['configclasses_help'] = 'El objetivo de esta configuración es auxiliar en los temas al ayudar a distinguir los bloques de Texto ente ellos. Cualquier clases CSS que escriba aquí (delimitadas por espacios) serán añadidas a las clases por defecto del bloque.';
+$string['configclasses_help'] = 'El objetivo de esta configuración es auxiliar en los temas al ayudar a distinguir los bloques HTML ente ellos. Cualquier clases CSS que escriba aquí (delimitadas por espacios) serán añadidas a las clases por defecto del bloque.';
 $string['configcontent'] = 'Contenido';
-$string['configtitle'] = 'Título del bloque de Texto';
-$string['html:addinstance'] = 'Añadir un nuevo bloque de Texto';
-$string['html:myaddinstance'] = 'Añadir un nuevo bloque de Texto al Tablero';
-$string['newhtmlblock'] = '(nuevo bloque de Texto)';
-$string['pluginname'] = 'Texto';
-$string['privacy:metadata:block'] = 'El Bloque de Texto almacena todos sus datos adentro del subsistema del bloque.';
-$string['search:content'] = 'Contenido de bloque de Texto';
+$string['configtitle'] = 'Título del bloque HTML';
+$string['html:addinstance'] = 'Añadir un nuevo bloque de HTML';
+$string['html:myaddinstance'] = 'Añadir un nuevo bloque de HTML al Tablero';
+$string['newhtmlblock'] = '(nuevo bloque HTML)';
+$string['pluginname'] = 'HTML';
+$string['privacy:metadata:block'] = 'El Bloque HTML almacena todos sus datos adentro del subsistema del bloque.';
+$string['search:content'] = 'Contenido de bloque HTML';

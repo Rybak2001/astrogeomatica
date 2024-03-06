@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_fbcomments', language 'es_mx', version '4.2'.
+ * Strings for component 'block_fbcomments', language 'es_mx', version '3.10'.
  *
  * @package     block_fbcomments
  * @category    string
@@ -48,8 +48,6 @@ $string['fbcomments:addinstance'] = 'Añadir un nuevo bloque de Comentarios deFa
 $string['fbcomments:manageurl'] = 'Gestionar URL del bloque de Comentarios de Facebook';
 $string['fbcomments:myaddinstance'] = 'Añadir un nuevo bloque de comenatrios de Facebook';
 $string['invalidvalue'] = 'Ese es un valor inválido';
-$string['lang'] = 'Idioma del Bloque';
-$string['lang_help'] = 'Por favor obtenga el locl correcto a usar desde <a target="_blank" href="https://developers.facebook.com/docs/plugins/comments"> Developer Docs</a>. Por ejemplo, es_LA para Español.';
 $string['leaveblanktohide'] = 'dejar vacío para ocultar el título';
 $string['lightcolor'] = 'Tema color claro';
 $string['modpage'] = 'Contenido para el módulo:{$a}';

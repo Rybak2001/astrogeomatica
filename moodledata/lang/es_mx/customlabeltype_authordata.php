@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_authordata', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabeltype_authordata', language 'es_mx', version '3.10'.
  *
  * @package     customlabeltype_authordata
  * @category    string
@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['author'] = 'Autor';
 $string['author1'] = 'Autor 1';
 $string['author2'] = 'Autor 2';
 $string['author3'] = 'Autor 3';
@@ -34,7 +33,6 @@ $string['authordata:view'] = 'Puede ver el contenido';
 $string['configtypename'] = 'Habilitar subtipo Información del Autor';
 $string['contributors'] = 'Contribuyentes';
 $string['department'] = 'Departamento';
-$string['family'] = 'meta';
 $string['institution'] = 'Institución';
 $string['pluginname'] = 'Elemento del curso: Información del autor';
 $string['showcontributors'] = 'Mostrar contribuyentes';

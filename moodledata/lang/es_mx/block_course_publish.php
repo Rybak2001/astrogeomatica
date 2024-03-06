@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_publish', language 'es_mx', version '4.2'.
+ * Strings for component 'block_course_publish', language 'es_mx', version '3.10'.
  *
  * @package     block_course_publish
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['appid'] = 'ID de App';
-$string['callbackurl'] = 'URL de RETROLLAMADA';
+$string['callbackurl'] = 'URL de retorno (callback)';
 $string['course_publish:addinstance'] = 'Añadir un bloque para publicar curso';
 $string['course_publish:myaddinstance'] = 'Añadir un bloque para publicar curso a Mi Moodle';
 $string['descconfig'] = 'Descripción de la sección de configuración';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_commentbox', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabeltype_commentbox', language 'es_mx', version '3.10'.
  *
  * @package     customlabeltype_commentbox
  * @category    string
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['comment'] = 'Comentario';
 $string['commentbox:addinstance'] = 'Puede añadir una instancia';
-$string['commentbox:view'] = 'Puede ver el contenido';
 $string['configtypename'] = 'Hbilitar subtipo Cajas de comentario';
 $string['family'] = 'genérico';
 $string['initiallyvisible'] = 'Inicialmente visible';

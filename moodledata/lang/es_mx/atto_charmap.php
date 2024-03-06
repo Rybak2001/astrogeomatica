@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_charmap', language 'es_mx', version '4.2'.
+ * Strings for component 'atto_charmap', language 'es_mx', version '3.10'.
  *
  * @package     atto_charmap
  * @category    string
@@ -93,9 +93,9 @@ $string['egrave_caps'] = 'E - grave';
 $string['elementof'] = 'elemento de';
 $string['emacron'] = 'e - macrón';
 $string['emacron_caps'] = 'E - macrón';
-$string['emdash'] = 'guion largo';
+$string['emdash'] = 'guión largo';
 $string['emspace'] = 'espacio largo';
-$string['endash'] = 'guion corto';
+$string['endash'] = 'guión corto';
 $string['enspace'] = 'espacio corto';
 $string['epsilon'] = 'épsilon';
 $string['epsilon_caps'] = 'Épsilon';
@@ -241,7 +241,7 @@ $string['singleleftpointinganglequotationmark'] = 'comilla angular simple izquie
 $string['singlelow9quotationmark'] = 'signo de comilla inferior';
 $string['singlerightpointinganglequotationmark'] = 'comilla angular simple derecha';
 $string['smalltilde'] = 'tilde pequeña';
-$string['softhyphen'] = 'guion blando';
+$string['softhyphen'] = 'guión blando';
 $string['squareroot'] = 'raíz cuadrada';
 $string['subsetof'] = 'subconjunto de';
 $string['subsetoforequalto'] = 'subconjunto de o igual a';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizgame', language 'es_mx', version '4.2'.
+ * Strings for component 'quizgame', language 'es_mx', version '3.10'.
  *
  * @package     quizgame
  * @category    string
@@ -27,9 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['achievedhighscoreof'] = 'Logró un puntaje alto de {$a}';
 $string['attempt'] = 'Intento #{$a}';
-$string['completiondetail:score'] = 'Obtener un puntaje mínimo de {$a}';
 $string['completionscore'] = 'Los estudiantes deben obtener un puntaje mínimo de:';
-$string['completionscoredesc'] = 'Los estudiantes deben lograr un puntaje mínimo de: {$a}';
 $string['completionscoregroup'] = 'Requerir puntaje';
 $string['completionscoregroup_help'] = 'Si se habilita, Usted puede pedir un puntaje mínimo antes de que la actividad se marque como completada.
 
@@ -48,7 +46,6 @@ $string['howtoplay_help'] = 'Usted puede mover la nave usando las teclas de las 
 Presione la barra espaciadora o haga clic con el botón del ratón para disparar, o toque con dos dedos, en cualquier parte del juego.
 
 Resuelva tantas preguntas como le sea posible al dispararle a la respuesta correcta. ¡Buena suerte!';
-$string['invalidcmorid'] = 'Error: Usted debe especificar una ID de módulo de curso o una ID de instancia';
 $string['modulename'] = 'Examenventura';
 $string['modulename_help'] = '¿Son sus estudiantes muy desidiosos? ¿ Se la pasan jugando en lugar de estudiar? ¡Ahora Usted puede motivarlos al permitirles hacer ambas cosas a la vez!
 
@@ -61,7 +58,7 @@ $string['playedxtimeswithhighscore'] = 'Jugó {$a->times} veces. El último jueg
 $string['playerscores'] = 'Puntajes del jugador';
 $string['pluginadministration'] = 'Administración de Examenventura';
 $string['pluginname'] = 'Examenventura';
-$string['privacy:metadata:quizgame_scores'] = 'Información acerca de las respuestas elegidas por el usuario para una actividad de quizgame dada';
+$string['privacy:metadata:quizgame_scores'] = 'Información acerca de las respuestas elegidas por el usuario para una actividad de elección dada';
 $string['privacy:metadata:quizgame_scores:quizgameid'] = 'La ID de la actividad Quizgame para la cual el usuario está proporcionando respuesta';
 $string['privacy:metadata:quizgame_scores:score'] = 'El puntaje del usuario durante ese juego.';
 $string['privacy:metadata:quizgame_scores:timecreated'] = 'El sello de tiempo que indica que el Quizgame fue jugado por el usuario';

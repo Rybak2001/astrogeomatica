@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_task', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_task', language 'es_mx', version '3.10'.
  *
  * @package     tool_task
  * @category    string
@@ -27,24 +27,16 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['adhoc'] = 'Ad-hoc';
 $string['adhocempty'] = 'La cola de trabajos ad-hoc está vacía';
-$string['adhocqueueold'] = 'El trabajo no procesado más antiguo es de {$a->age} lo cual es más de {$a->max}';
+$string['adhocqueueold'] = 'El trabajo más antiguo es de {$a->age} lo cual es más de {$a->max}';
 $string['adhocqueuesize'] = 'La cola de trabajos ad-hoc tiene {$a} trabajos';
 $string['adhoctaskid'] = 'ID de trabajo ad-hoc: {$a}';
-$string['adhoctaskrun'] = 'Ejecución de trabajo ad-hoc iniciada';
 $string['adhoctasks'] = 'Trabajos ad-hoc';
-$string['adhoctasksdue'] = 'Trabajo ad-hoc pendiente';
-$string['adhoctasksfailed'] = 'Trabajo ad-hoc falló';
-$string['adhoctasksfuture'] = 'Trabajos ad-hoc futuros';
-$string['adhoctasksrunning'] = 'Trabajos ad-hoc ejecutándose';
 $string['asap'] = 'Tan Pronto Como Sea Posible';
-$string['backtoadhoctasks'] = 'Regresar a trabajos ad-hoc';
 $string['backtoscheduledtasks'] = 'Regresar a trabajos agendados';
 $string['blocking'] = 'Bloqueando';
 $string['cannotfindthepathtothecli'] = 'No se puede encontrar la ruta al ejecutable PHP CLI por lo que se abortó el trabajo. Ajuste la configuración "Ruta hacia PHP CLI" en Administración del sitio / Servidor / Rutas del sistema.';
 $string['checkadhocqueue'] = 'Cola de trabajos ad-hoc';
 $string['checkcronrunning'] = 'Cron ejecutando';
-$string['checklongrunningtaskcount'] = 'Trabajos largos ejecutándose: {$a}';
-$string['checklongrunningtasks'] = 'Trabajos largos ejecutándose';
 $string['checkmaxfaildelay'] = 'Retraso de falla máx del trabajo';
 $string['classname'] = 'Nombre de la clase';
 $string['clearfaildelay_confirm'] = '¿Está seguro de querer borrar el retraso por fallo para el trabajo \'{$a}\'? Después de borrar el retraso, el trabajo correrá de acuerdo a su propia agenda.';
@@ -60,30 +52,18 @@ $string['edittaskschedule'] = 'Editar agenda de trabajo: {$a}';
 $string['enablerunnow'] = 'Permitir  \'Ejecutar ahora\' (Run now) para trabajos agendados';
 $string['enablerunnow_desc'] = 'Permitirle a administradores el ejecutar un solo trabajo agendado inmediatamente, en lugar de esperar para que ejecute como está agendado. La característica requiere que esté configurada \'Ruta a PHP CLI\' (pathto´php) en las Rutas del sistema. El trabajo ejecuta en el servidor web, por lo que Usted podría desear deshabilitar esta característica para evitar problemas potenciales de desempeño.';
 $string['faildelay'] = 'Retraso por falla';
-$string['failed'] = 'Falló';
 $string['fromcomponent'] = 'Del componente: {$a}';
 $string['hostname'] = 'Nombre del host';
-$string['lastcronstart'] = 'Tiempo desde la última ejecución de cron: {$a}';
 $string['lastruntime'] = 'Última corrida';
 $string['lastupdated'] = 'Última actualización {$a}.';
 $string['nextruntime'] = 'Siguiente corrida';
-$string['noclassname'] = 'Nombre de clase no especificado';
-$string['notasks'] = 'Sin trabajos para ejecutar';
-$string['payload'] = 'Carga útil';
 $string['pid'] = 'PID';
 $string['plugindisabled'] = 'Plugin deshabilitado';
 $string['pluginname'] = 'Configuración de trabajo agendado';
 $string['privacy:metadata'] = 'El plugin de Configuración de trabajo agendado no almacena ningún dato personal.';
 $string['resettasktodefaults'] = 'Reiniciar agenda de trabajo a valores por defecto';
 $string['resettasktodefaults_help'] = 'Esto descartará cualquier cambio local y revertirá la agenda para este trabajo a sus configuraciones originales';
-$string['run_adhoctasks'] = 'Ejecutar trabajos ad-hoc';
-$string['runadhoc'] = '¿Ejecutar trabajos ad-hoc ahorita?';
-$string['runadhoc_confirm'] = 'Los trabajos se ejecutarán en el servidor web y podrían tardar bastante tiempo para completarse.';
 $string['runagain'] = 'Ejecutar de nuevo';
-$string['runclassname'] = 'Ejecutar todos';
-$string['runclassnamefailedonly'] = 'Ejecutar todos falló';
-$string['runningalltasks'] = 'Ejecutando todos los trabajos';
-$string['runningfailedtasks'] = 'Ejecutando trabajos fallidos';
 $string['runningtasks'] = 'Trabajos corriendo ahorita mismo';
 $string['runnow'] = 'Ejecutar ahora';
 $string['runnow_confirm'] = '¿Está Usted seguro de querer correr este trabajo agendado ‘{$a}’ ahora? El trabajo agendado correrá en el servidor web y puede tomar bastante tiempo para completarse.';
@@ -91,19 +71,11 @@ $string['runpattern'] = 'Correr patrón';
 $string['scheduled'] = 'Agendado';
 $string['scheduledtaskchangesdisabled'] = 'Se han impedido modificaciones a la lista de trabajos (\'\'tasks\'\') agendados en la configuración de Moodle';
 $string['scheduledtasks'] = 'Trabajos agendados';
-$string['showall'] = 'Mostrar todo';
-$string['showfailedonly'] = 'Mostrar solamente fallidos';
-$string['showsummary'] = 'Mostrar resumen de trabajos ad-hoc';
-$string['slowtask'] = 'El trabajo ha estado ejecutándose por más de {$a}';
 $string['started'] = 'Iniciado';
-$string['taskage'] = 'Tiempo de ejecución';
-$string['taskdetails'] = 'Trabajo(s) ejecutándose por más de {$a->time} (max {$a->maxtime}): {$a->count}';
 $string['taskdisabled'] = 'Trabajo deshabilitado';
 $string['taskfailures'] = '{$a} trabajo(s) fallando';
-$string['taskid'] = 'ID del trabajo';
 $string['tasklogs'] = 'Bitácoras de trabajo';
 $string['tasknofailures'] = 'No hay trabajos fallando';
-$string['taskrunningtime'] = 'Trabajo se ha ejecutado por {$a}';
 $string['taskscheduleday'] = 'Día';
 $string['taskscheduleday_help'] = 'Campo de día del mes para agenda de trabajo. El campo usa el mismo formato que el cron para Unix. Algunos ejemplos son:
 

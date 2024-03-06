@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'unilabeltype_courseteaser', language 'es_mx', version '4.2'.
+ * Strings for component 'unilabeltype_courseteaser', language 'es_mx', version '3.10'.
  *
  * @package     unilabeltype_courseteaser
  * @category    string
@@ -29,8 +29,6 @@ $string['carousel'] = 'Carrusel';
 $string['carouselinterval'] = 'Intervalo';
 $string['columns'] = 'Columnas';
 $string['columns_help'] = 'Esta configuración solamente es usada si la presentación es "carrusel"';
-$string['columnsmiddle'] = 'Columnas medianas';
-$string['columnssmall'] = 'Columnas pequeñas';
 $string['courses'] = 'Cursos';
 $string['custombutton'] = 'Botón personalizado';
 $string['default_carouselinterval'] = 'Intervalo por defecto';

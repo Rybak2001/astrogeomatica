@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_myprofile', language 'es_mx', version '4.2'.
+ * Strings for component 'block_myprofile', language 'es_mx', version '3.10'.
  *
  * @package     block_myprofile
  * @category    string
@@ -34,19 +34,17 @@ $string['display_currentlogin'] = 'Mostrar \'ingreso\' actual';
 $string['display_email'] = 'Mostrar email';
 $string['display_firstaccess'] = 'Mostrar primer acceso';
 $string['display_icq'] = 'Mostrar ICQ';
-$string['display_idnumber'] = 'Mostrar número ID';
 $string['display_institution'] = 'Mostrar institución';
 $string['display_lastaccess'] = 'Mostrar último acceso';
 $string['display_lastip'] = 'Mostrar última IP';
-$string['display_lastlogin'] = 'Mostrar último ingreso al sitio';
 $string['display_msn'] = 'Mostrar MSN';
 $string['display_phone1'] = 'Mostrar teléfono';
 $string['display_phone2'] = 'Mostrar teléfono móvil';
 $string['display_picture'] = 'Mostrar imagen';
 $string['display_skype'] = 'Mostrar Skype';
 $string['display_yahoo'] = 'Mostrar Yahoo';
-$string['myprofile:addinstance'] = 'Añadir un nuevo bloque de usuarios que iniciaron sesión';
-$string['myprofile:myaddinstance'] = 'Añadir un nuevo bloque de usuarios que iniciaron sesión al Tablero';
+$string['myprofile:addinstance'] = 'Añadir un nuevo bloque de usuarios ingresados';
+$string['myprofile:myaddinstance'] = 'Añadir un nuevo bloque de usuarios ingresados al Tablero';
 $string['myprofile_settings'] = 'Información de usuario visible';
-$string['pluginname'] = 'Usuario que inició sesión';
-$string['privacy:metadata'] = 'El Bloque de Usuarios que iniciaron sesión solamente muestra información acerca de usuarios que han ingresado al sitio y no almacena datos por sí mismo.';
+$string['pluginname'] = 'Usuario ingresado';
+$string['privacy:metadata'] = 'El Bloque de Usuarios ingresados solamente muestra información acerca de usuarios que han ingresado al sitio y no almacena datos por sí mismo.';

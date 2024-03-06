@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_user_favorites', language 'es_mx', version '4.2'.
+ * Strings for component 'block_user_favorites', language 'es_mx', version '3.10'.
  *
  * @package     block_user_favorites
  * @category    string
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['btn:add'] = 'Marcar esta página como favorita';
 $string['btn:delete'] = 'Eliminar favorita';
-$string['btn:drag'] = 'Arrastrar favorito';
 $string['btn:edit'] = 'Editar favorita';
 $string['btn:remove'] = 'Eliminar favorita';
 $string['description'] = 'El Bloque de Favoritos le permite al usuario guardar sus páginas favoritas';

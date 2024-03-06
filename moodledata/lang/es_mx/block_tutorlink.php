@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tutorlink', language 'es_mx', version '4.2'.
+ * Strings for component 'block_tutorlink', language 'es_mx', version '3.10'.
  *
  * @package     block_tutorlink
  * @category    string
@@ -28,11 +28,11 @@ defined('MOODLE_INTERNAL') || die();
 $string['blocksettings'] = 'Configuraciones del bloque';
 $string['cantreadcsv'] = 'No pudo leerse archivo CSV';
 $string['cantremoveold'] = 'No pudo eliminarse el archivo antiguo del cron $a . Por favor revise los permisos.';
-$string['cronfile'] = 'Ubicación del archivo para procesamiento automático';
-$string['cronfiledesc'] = 'Si Usted escribe aquí una ubicación de un archivo, esa ruta será revisada periódicamente para buscar un archivo y procesarlo automáticamente';
+$string['cronfile'] = 'Localización del archivo para procesamiento automático';
+$string['cronfiledesc'] = 'Si Usted escribe aquí una localización de un archivo, esa ruta será revisada periódicamente para buscar un archivo y procesarlo automáticamente';
 $string['cronmoved'] = '{$a->old} se movió a {$a->new}';
 $string['cronnotmoved'] = '{$a->old} no pudo moverse a {$a->new}. Por favor revise lospermisos de la carpeta.';
-$string['cronprocessed'] = 'Ubicación del archivo procesado';
+$string['cronprocessed'] = 'Localización del archivo procesado';
 $string['csv'] = 'Archivo CSV';
 $string['csv_help'] = 'El archivo debe estar en formato CSV (valores separados por coma). Cada tarea debe estar en una fila, con 3 columnas: operación add o del (add=añadir o del=eliminar) , idnumber del curso padre, idnumber del curso hijo).
 Por ejemplo, para añadir el curso hijo con idnumber 1234 al curso padre con idnumber 4321, la línea se leería: add, 4321, 1234';
@@ -40,7 +40,7 @@ $string['csvfile'] = 'Elija archvo CSV';
 $string['invalidop'] = 'Línea {$a->line}: Operación no válida{$a->op}';
 $string['keepprocessed'] = 'Conservar archivos procesados';
 $string['keepprocessedfor'] = 'Días a conservar los archivos procesados';
-$string['keepprocessedlong'] = 'Si se activa, los archivos procesados se guardarán en la ubicación abajo indicada.';
+$string['keepprocessedlong'] = 'Si se activa, los archivos procesados se guardarán en la localización abajo indicada.';
 $string['musthavefile'] = 'Usted debe elegir un archivo';
 $string['nocronfile'] = 'No existe el archivo cron';
 $string['nodir'] = '{$a} no existe o no es visible. Por favor revise los permisos de la carpeta.';

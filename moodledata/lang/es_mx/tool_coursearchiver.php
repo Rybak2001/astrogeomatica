@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_coursearchiver', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_coursearchiver', language 'es_mx', version '3.10'.
  *
  * @package     tool_coursearchiver
  * @category    string
@@ -51,7 +51,6 @@ Esto significa que el curso será respaldado en su estado actual y después ser�
 Gracias.';
 $string['archivewarningsubject'] = 'Aviso: Cursos serán archivados pronto.';
 $string['back'] = 'Comenzar de nuevo';
-$string['backup'] = 'Respaldar Cursos';
 $string['cannotdeletecoursenotexist'] = 'No puede eliminarse un curso que no existe';
 $string['category'] = 'Categoría';
 $string['cli_cannot_continue'] = 'DETENIDO: No hay datos suficientes para continuar.\\n';
@@ -65,7 +64,6 @@ $string['confirmdelete'] = '¿Está seguro de querer eliminarlo?';
 $string['confirmmessage'] = '¿Está Usted seguro de que quiere {$a}';
 $string['confirmmessagearchive'] = 'archivar y quitar estos {$a} cursos?';
 $string['confirmmessagearchiveemail'] = 'mandarles un Email a estos  {$a} propietarios de curso?';
-$string['confirmmessagebackup'] = '¿respaldar estos {$a} cursos?';
 $string['confirmmessagedelete'] = '¿quitar completamente estos {$a} cursos?';
 $string['confirmmessagehide'] = 'ocultar estos {$a} cursos?';
 $string['confirmmessagehideemail'] = 'mandarles un Email a estos {$a} propietarios de cursos?';
@@ -86,8 +84,6 @@ $string['coursearchiverpath'] = 'Ruta a la carpeta para cursos archivados';
 $string['coursearchiverpath_help'] = 'Esta ruta es relativa al Moodle $CFG->dataroot';
 $string['coursearchiverpreview'] = 'Vista previa de subir cursos';
 $string['coursearchiverresult'] = 'Resultados de subir cursos';
-$string['coursearchiverrootpath'] = 'Ruta del sistema en donde están colocadas las carpetas del archivador';
-$string['coursearchiverrootpath_help'] = 'Usar como predeterminado CFG->dataroot';
 $string['coursedeleted'] = 'Curso eliminado';
 $string['coursedeletionnotallowed'] = 'No está permitida la eliminación del curso';
 $string['coursefullname'] = 'Nombre completo del curso';
@@ -95,13 +91,13 @@ $string['courseid'] = 'ID del curso';
 $string['courseidnum'] = 'idnumber del curso';
 $string['courseselector'] = 'Resultados de búsqueda de curso';
 $string['courseshortname'] = 'Nombre corto del curso';
-$string['courseteacher'] = 'Propietario del Curso';
+$string['courseteacher'] = 'Nombre_de_usuario/Email del profesor';
 $string['createdafter'] = 'Creado después de';
 $string['createdbefore'] = 'Creada anteriormente';
 $string['createdbeforeafter'] = 'Creado Antes de / Después de';
 $string['crontask'] = 'Trabajo de eliminación de archivo del curso';
 $string['delete'] = 'Eliminar Cursos';
-$string['deletedarchiveemails'] = 'Email del Propietario del Curso';
+$string['deletedarchiveemails'] = 'Direcciones Email del profesor';
 $string['deselectall'] = 'Des-seleccionar Todo';
 $string['email'] = 'Enviar Email';
 $string['emailselector'] = 'Usuarios seleccionados para recibir Emails.';
@@ -112,10 +108,9 @@ $string['endafter'] = 'Termina después de';
 $string['endbefore'] = 'Termina antes de';
 $string['error_key'] = 'La clave de seguridad es incorrecta';
 $string['error_nocourseid'] = 'El registro del curso no contiene una ID';
-$string['error_savepointid'] = 'Punto de guardar no encontrado';
 $string['errorarchivefile'] = 'No existe el archivo de curso archivado.';
 $string['errorarchivepath'] = 'No pudo crearse la ruta para archivar.';
-$string['errorarchivingcourse'] = 'El curso: ({$a->id}) {$a->fullname}  no pudo ser archivado ni archivado.';
+$string['errorarchivingcourse'] = 'El curso: ({$a->id}) {$a->fullname} no pudo ser archivado.';
 $string['errorbackup'] = 'Fallo al Respaldar.';
 $string['errordeletingcourse'] = 'Curso: ({$a->id}) {$a->fullname} no pudo ser eliminado.';
 $string['erroremptysearch'] = 'No se dió criterio para búsqueda.';
@@ -125,7 +120,6 @@ $string['errormissingcourses'] = 'Falta la variable %courses en la plantilla del
 $string['errormissingto'] = 'Falta la variable %toen la plantilla del Email. Este es el nombre del destinatario.';
 $string['errornoform'] = 'Formato no dado.';
 $string['errornonnumericid'] = 'La ID del curso debe ser numérica';
-$string['errornonnumerictimestamp'] = 'El sello de tiempo debe ser numérico (sello de tiempo UNIX)';
 $string['erroroptoutcourse'] = 'Curso ({$a->id}) {$a->fullname} no pudo ser excluido.';
 $string['errors'] = 'Errores';
 $string['errors_count'] = 'Errores: {$a}';
@@ -145,8 +139,6 @@ Esto significa que los estudiantes que todavía estén inscritos en el curso ya 
 
 Gracias.';
 $string['hidewarningsubject'] = 'Aviso: Pronto se ocultarán cursos.';
-$string['ignoreadmins'] = 'Ignorar Accesos de Admin';
-$string['ignoresiteroles'] = 'Ignorar Acccesos de Rol del Sitio';
 $string['includesubcat'] = 'Incluir cursos en subcategorías';
 $string['invalidmode'] = 'No se dió un modo válido para la herramiento.';
 $string['messageprovider:courseowner'] = 'Notificaciones de la herramienta para archivar/ocultar curso.';
@@ -178,12 +170,9 @@ $string['outowners'] = 'Propietarios de Cursos';
 $string['outselected'] = 'Seleccionado';
 $string['outshortname'] = 'Nombre corto';
 $string['outuse'] = 'Último Uso';
-$string['ownerroleid'] = 'Rol considerado como propietario del curso';
-$string['ownerroleid_help'] = 'Las búsquedas de E-mails de salida y de propietarios buscarán este rol en cada curso. Si ninguno estuviera seleccionado, el predeterminado será el rol de profesor editor.';
 $string['pluginname'] = 'Archivador de Cursos';
 $string['privacy:metadata'] = 'El plugin no contiene datos del usuario.';
 $string['processarchiving'] = 'Archivando los cursos seleccionados';
-$string['processbackup'] = 'Respaldando cursos seleccionados';
 $string['processcomplete'] = 'Proceso Completado';
 $string['processdeleting'] = 'Eliminando cursos seleccionados';
 $string['processemailing'] = 'Enviando Emails';
@@ -194,7 +183,6 @@ $string['recover'] = 'Recuperar cursos';
 $string['results'] = 'Resultados';
 $string['results_archive'] = 'Cursos archivados: {$a}';
 $string['results_archiveemail'] = 'Emails de advertencia de archivar curso enviados: {$a}';
-$string['results_backup'] = 'Respaldar Cursos: {$a}';
 $string['results_courselist'] = 'Cursos enlistados: {$a}';
 $string['results_delete'] = 'Cursos seleccionadoss: {$a}';
 $string['results_getemails'] = 'Direcciones Email recolectadas: {$a}';
@@ -206,11 +194,6 @@ $string['resumenone'] = 'No se encontraron guardados';
 $string['resumeselect'] = 'Elegir un punto para guardar';
 $string['save'] = 'Crear Punto para Guardar';
 $string['saved'] = 'Se ha hecho un Punto para guardar';
-$string['saveddate'] = 'Fecha de creado';
-$string['savelimitsetting'] = 'Limitar puntosguardados en lista seleccionada.';
-$string['savelimitsetting_help'] = 'Cuantos puntosguardados se mostrarán adentro de la lista desplegable.';
-$string['savepoint_removed'] = 'El punto de guardar ha sido quitado';
-$string['savestatelist'] = 'Gestionar Lista de Guardar Punto';
 $string['search'] = 'Buscar cursos';
 $string['selectall'] = 'Seleccionar todo';
 $string['startafter'] = 'Inicia después de';

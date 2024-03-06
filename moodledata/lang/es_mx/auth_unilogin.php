@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_unilogin', language 'es_mx', version '4.2'.
+ * Strings for component 'auth_unilogin', language 'es_mx', version '3.10'.
  *
  * @package     auth_unilogin
  * @category    string
@@ -25,9 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['login_behaviour_link'] = 'Enlace';
-$string['login_behaviour_link_selector'] = 'Selector de inserción de enlace';
-$string['login_behaviour_link_text'] = 'Texto del enlace';
 $string['login_behaviour_link_text_description'] = 'El texto usado para mostrar un enlace a la página de UNI•Login. La cadena de caracteres es enviada mediante
 [`format_string`](https://docs.moodle.org/dev/Output_functions#format_string.28.29) antes de que salga, por lo que soporta
 [https://docs.moodle.org/all/es/Contenido_multiling%C3%BCe cadenas Multi-idioma]';

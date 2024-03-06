@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_installaddon', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_installaddon', language 'es_mx', version '3.10'.
  *
  * @package     tool_installaddon
  * @category    string
@@ -42,7 +42,6 @@ $string['installfromziprootdir_help'] = 'Algunos paquetes ZIP, tales como los ge
 $string['installfromzipsubmit'] = 'Instalar plugin desde el archivo ZIP';
 $string['installfromziptype'] = 'Tipo de plugin';
 $string['installfromziptype_help'] = 'Para los plugins que declaran correctamente los nombres de sus componentes, el instalador puede detectar automáticamente el tipo de plugin. Si falla la auto-detección, elija manualmente el tipo correcto de plugin. Advertencia: El proceso de instalación puede fallar feamente si se especifica un tipo incorrecto de plugin.';
-$string['installfromziptype_link'] = 'Development:Plugins';
 $string['permcheck'] = 'Asegúrese de que la ubicación de la raíz del tipo de plugin sea escribible por el proceso del servidor web';
 $string['permcheckerror'] = 'Error al revisar los permisos de escritura';
 $string['permcheckprogress'] = 'Revisando los permisos de escritura ...';
@@ -56,6 +55,6 @@ $string['remoterequestconfirm'] = 'Hay una solicitud para instalar el plugin <st
 $string['remoterequestinvalid'] = 'Hay una solicitud para instalar un plugin desde el directorio de plugins de Moodle hacia este sitio. Desafortunadamente, esta solicitud no es válida, por lo que el plugin no puede ser instalado.';
 $string['remoterequestnoninstallable'] = 'Hay una solicitud para instalar el plugin {$a->name} ({$a->component}) versión {$a->version} en este sitio desde el directorio de plugins de Moodle. Sin embargo, falló la revisión previa a la instalación del plugin (código de la razón: {$a->reason}).';
 $string['remoterequestpermcheck'] = 'Hay una solicitud para instalar el plugin {$a->name} ({$a->component}) versión {$a->version} desde el directorio de plugins de Moodle hacia este sitio. Sin embargo, la ubicación del tipo de plugin <strong>{$a->typepath}</strong> es <strong>no escribible</strong>. Usted necesita darle acceso para escritura al usuario del servidor web en la ubicación del tipo del plugin. Una vez que se otorgue el acceso de escritura, presione el botón de continuar para repetir la revisión.';
-$string['remoterequestpluginfoexception'] = 'Ups...Ocurrió un error al tratar de obtener información acerca del plugin {$a->name} ({$a->component}) versión {$a->version}. El plugin no puede ser instalado. Active el modo de depuración (debugging) para ver más detalles acerca de este error.';
+$string['remoterequestpluginfoexception'] = 'Órale...Ocurrió un error al tratar de obtener información acerca del plugin {$a->name} ({$a->component}) versión {$a->version}. El plugin no puede ser instalado. Active el modo de depuración (debugging) para ver más detalles acerca de este error.';
 $string['typedetectionfailed'] = 'No puede detectarse el tipo de plugin. Por favor, elija manualmente el tipo de plugin.';
 $string['typedetectionmismatch'] = 'El tipo del plugin seleccionado no coincide con el tipo declarado por el plugin: {$a}';

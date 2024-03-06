@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'url', language 'es_mx', version '4.2'.
+ * Strings for component 'url', language 'es_mx', version '3.10'.
  *
  * @package     url
  * @category    string
@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['chooseavariable'] = 'Escoja una variable...';
-$string['clicktoopen'] = 'Haga clic en {$a} para abrir el recurso.';
+$string['clicktoopen'] = 'Haga clic en el enlace {$a} para abrir la URL.';
 $string['configdisplayoptions'] = 'Seleccione todas las opciones que deben estar disponibles; los valores existentes no se modifican. Mantenga pulsada la tecla CTRL para seleccionar varios campos.';
 $string['configframesize'] = 'Cuando una página web o un archivo subido se muestra dentro de un marco, este valor es la altura (en píxeles) del marco superior (el que contiene la barra de navegación).';
-$string['configrolesinparams'] = 'Si es que los nombres de rol personalizados (de las configuraciones del curso) deberían de estar disponibles como variables para parámetros URL?';
+$string['configrolesinparams'] = 'Activar si desea incluir los nombres de rol localizados en la lista de parámetros variables disponibles';
 $string['configsecretphrase'] = 'Esta frase secreta se utiliza para producir código cifrado válido que pueda ser enviado a algunos servidores como parámetro. El código de cifrado se produce por un valor md5 de la dirección IP del usuario actual concatenada con su frase secreta. Es decir, el código = md5 (IP.frase_secreta). Por favor tenga en cuenta que que esto no es fiable porque la dirección IP puede cambiar y a menudo es compartida por diferentes equipos.';
 $string['contentheader'] = 'Contenido';
 $string['createurl'] = 'Crear una URL';
@@ -55,12 +55,10 @@ $string['indicator:cognitivedepth'] = 'URL cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en un recurso URL.';
 $string['indicator:cognitivedepthdef'] = 'LTI cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecidos por los recursos URL durante este intervalo de análisis (Niveles = Sin ver, Ver)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'URL social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en un recurso URL.';
 $string['indicator:socialbreadthdef'] = 'URL social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por los recursos de URL durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['invalidstoredurl'] = 'No puede mostrarse este recurso, la URL no es válida';
 $string['invalidurl'] = 'La URL introducida no es válida';
 $string['modulename'] = 'URL';
@@ -69,14 +67,7 @@ $string['modulename_help'] = 'El módulo URL le permite al profesor proporcionar
 Existen varias opciones de visualización para el URL, como incrustado, abrir en ventana nueva emergente y opciones avanzadas para pasar información, como el nombre del estudiante, si la URL lo necesitara.
 
 Observe que las URLs también pueden añadirse a cualquier otro recurso o actividad mediante el editor de texto.';
-$string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URLs';
-$string['name'] = 'Nombre';
-$string['name_help'] = 'Esto  servirá como el texto del enlace para la URL.
-
-Escriba un texto sensato que describa en forma  concisa el propósito de la URL.
-
-Evite usar la  palabra "enlace". Esto  ayudará a los usuarios de lectores de pantalla porque los lectores de pantalla anuncian  los enlaces  (por ejemplo. "Moodle.org, enlace") por lo que no hay necesidad de incluir la palabra "enlace" en el campo del nombre.';
 $string['page-mod-url-x'] = 'Cualquier página del módulo URL';
 $string['parameterinfo'] = '&amp;parameter=variable';
 $string['parametersheader'] = 'Variables de URL';
@@ -90,7 +81,7 @@ $string['popupwidthexplain'] = 'Especifica la anchura por defecto de las ventana
 $string['printintro'] = 'Mostrar la descripción de la URL';
 $string['printintroexplain'] = '¿Mostrar la descripción URL debajo del contenido? Algunos tipos de visualización pueden no mostrar la descripción incluso aunque esté activada esa opción.';
 $string['privacy:metadata'] = 'El plugin de Recurso URL no almacena ningún dato personal.';
-$string['rolesinparams'] = 'Nombres de rol como variables de URL';
+$string['rolesinparams'] = 'Incluye los nombres de rol en los parámetros';
 $string['search:activity'] = 'URL';
 $string['serverurl'] = 'URL del servidor';
 $string['url:addinstance'] = 'Añadir un nuevo recurso URL';

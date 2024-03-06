@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_xml', language 'es_mx', version '4.2'.
+ * Strings for component 'gradeimport_xml', language 'es_mx', version '3.10'.
  *
  * @package     gradeimport_xml
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['errbadxmlformat'] = 'Error - formato XML malo';
-$string['errduplicategradeidnumber'] = 'Error - existen dos elementos de calificación con  idnumber \'{$a}\' en este curso. Esto debería ser imposible.';
+$string['errduplicategradeidnumber'] = 'Error - existen dos items de calificación con  idnumber \'{$a}\' en este curso. Esto debería ser imposible.';
 $string['errduplicateidnumber'] = 'Error - idnumber duplicado';
 $string['errincorrectgradeidnumber'] = 'Error - idnumber \'{$a}\' del archivo importado no coincide con el item de calificación.';
 $string['errincorrectidnumber'] = 'Error - idnumber incorrecto';
@@ -37,7 +37,6 @@ $string['fileurl'] = 'URL de archivo remoto';
 $string['fileurl_help'] = 'Este campo para URL remoto es para buscar datos de un servidor remoto, como por ejemplo de un sistema de información de estudiantes.';
 $string['importxml'] = 'Importar XML';
 $string['importxml_help'] = 'Las calificaciones pueden importarse mediante un archivo XML que contenga números ID de usuario y números ID de actividad. Para obtener el formato correcto, primeramente exporte algunas calificaciones a un archivo XML y después vea ese archivo.';
-$string['importxml_link'] = 'grade/import/direct/index';
 $string['pluginname'] = 'Archivo XML';
 $string['privacy:metadata'] = 'El plugin para Importar calificación desde XML no almacena ningún dato personal.';
 $string['xml:publish'] = 'Publicar calificaciones importadas mediante XML';

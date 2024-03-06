@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_multitopic', language 'es_mx', version '4.2'.
+ * Strings for component 'format_multitopic', language 'es_mx', version '3.10'.
  *
  * @package     format_multitopic
  * @category    string
@@ -35,11 +35,6 @@ $string['asprincipal'] = 'Página de primer nivel';
 $string['back_to_course'] = 'Regresar al curso';
 $string['bannerslice'] = 'Banner de rebanada';
 $string['bannerslice_help'] = 'La rebanada de la imagen del resumen del curso a usar en el banner del curso. Por ejemplo, configurar a  "0%" para usar la parte superior de la imagen del resumen del curso en el banner del curso, "50%" para usar la mitad, o "100%" para usar la parte inferior.';
-$string['collapsibledefault'] = 'Tópicos colapsables';
-$string['collapsibledefault_help'] = 'Si es que los tópicos son o no colapsables de forma predeterminada.';
-$string['collapsibleoverride'] = 'Anulación de tópico colapsable';
-$string['collapsibleoverride_help'] = 'Si es que este tópico es o no colapsable.
- (No aplica a páginas).';
 $string['currentsection'] = 'Esta sección';
 $string['hidefromothers'] = 'Ocultar sección';
 $string['image'] = 'Imagen';
@@ -72,7 +67,3 @@ $string['sectionname'] = 'Sección';
 $string['sectionoutline'] = 'Esbozo de la sección';
 $string['showfromothers'] = 'Mostrar sección';
 $string['weeks_capitalised'] = 'Semanas';
-$string['weeks_mindays'] = 'Días mínimo de la Primera semana del año';
-$string['weeks_mindays_desc'] = '¿La primera semana del año contiene un mínimo de cuantos días del año?';
-$string['weeks_partial'] = 'Semanas parciales';
-$string['weeks_partial_desc'] = 'Si es que hay o no semanas parciales al principio y al final del año.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_fastnav', language 'es_mx', version '4.2'.
+ * Strings for component 'block_fastnav', language 'es_mx', version '3.10'.
  *
  * @package     block_fastnav
  * @category    string
@@ -43,7 +43,6 @@ $string['form:show_sidebar'] = 'Mostrar barra lateral solamente en páginas de a
 $string['heading:overview'] = 'Vista general';
 $string['heading:table_action'] = 'Acción';
 $string['heading:table_icon'] = 'Ícono';
-$string['heading:table_link'] = 'Enlace';
 $string['heading:table_name'] = 'Nombre';
 $string['heading:table_sortorder'] = 'Ordenar';
 $string['js:confirm_delete_message'] = '¿Está seguro de querer eliminar este elemento?';

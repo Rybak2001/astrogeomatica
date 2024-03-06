@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiki', language 'es_mx', version '4.2'.
+ * Strings for component 'wiki', language 'es_mx', version '3.10'.
  *
  * @package     wiki
  * @category    string
@@ -106,7 +106,6 @@ $string['formatcreole'] = 'Formato Caló (Creole)';
 $string['formatcreole_help'] = 'Caló (Creole) es un lenguage comun para editar wiki con una barra de herramientas de edición para la inserción de las características apropiadas.
 
 Para crear una nueva página, escriba el nombre de la página nueva encerrada entre corchetes (paréntesis cuadrados) dobles, por ejemplo [[Página 2]].';
-$string['formatcreole_link'] = 'mod/wiki/creole';
 $string['formathtml'] = 'Formato HTML';
 $string['formathtml_help'] = 'El editor de HTML se pueden utilizar para dar formato a contenidos.
 
@@ -115,7 +114,6 @@ $string['formatnwiki'] = 'Formato NWIKI';
 $string['formatnwiki_help'] = 'Nwiki es el lenguaje de edición tipo Mediawiki usado en el módulo Nwiki.
 
 Para crear una página nueva, escriba el nombre de la página dentro de corchetes (paréntesis cuadrados) dobles, e.g., [[Página 2]].';
-$string['formatnwiki_link'] = 'mod/wiki/nwiki';
 $string['history'] = 'Historia';
 $string['history_help'] = 'La historia enlista los enlaces a las versiones anteriores de la página.';
 $string['html'] = 'HTML';
@@ -127,12 +125,10 @@ $string['indicator:cognitivedepth'] = 'Wiki cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Wiki.';
 $string['indicator:cognitivedepthdef'] = 'Wiki cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades de Wiki durante este intervalo de análisis (Niveles = Sin Ver, Ver, Enviar)';
-$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Wiki social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad de Wiki.';
 $string['indicator:socialbreadthdef'] = 'Wiki social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Wiki durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
-$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['individualpagedoesnotexist'] = 'La página individual wiki no existe';
 $string['insertcomment'] = 'Insertar comentario';
 $string['insertimage'] = 'Insertar una imagen...';
@@ -140,7 +136,7 @@ $string['insertimage_help'] = 'Esta lista desplegable insertará una imagen en e
 $string['invalidlock'] = 'Esta página ya está bloqueada por otro usuario.';
 $string['invalidparameters'] = 'Se han suministrado parámetros no válidos.';
 $string['invalidsection'] = 'Sección no válida.';
-$string['invalidsesskey'] = 'Su sesión muy probablemente ha caducado. Por favor tome nota de sus ediciones e inicie sesión nuevamente.';
+$string['invalidsesskey'] = 'Su sesión muy probablemente ha caducado. Por favor tome nota de sus ediciones e ingrese nuevamente.';
 $string['javascriptdisabledlocks'] = 'Javascript está desactivado en su navegador y los cierres no están funcionando. Los cambios que realice pueden no guardarse correctamente.';
 $string['links'] = 'Enlaces';
 $string['listall'] = 'Enlistar todas';
@@ -165,7 +161,6 @@ Los Wikis tienen muchos usos, tales como
 * Para estudiantes que trabajarán en equipo en un libro en línea, creando contenidos de un tema elegido por sus tutor
 * Para la narración colaborativa o creación de poesía grupal, donde cada participante escribe una línea o un verso
 * Como un diario personal para apuntes para examen o revisión (usando un wiki individual)';
-$string['modulename_link'] = 'mod/wiki/view';
 $string['modulenameplural'] = 'Wikis';
 $string['navigation'] = 'Navegación';
 $string['navigationfrom'] = 'Esta página proviene de';
@@ -300,7 +295,7 @@ $string['wiki:editpage'] = 'Editar páginas wiki';
 $string['wiki:managecomment'] = 'Gestionar comentarios wiki';
 $string['wiki:managefiles'] = 'Manejar archivos de wiki';
 $string['wiki:managewiki'] = 'Gestionar ajustes wiki';
-$string['wiki:overridelock'] = 'Anular bloqueos de wiki';
+$string['wiki:overridelock'] = 'Pasar por alto bloqueados';
 $string['wiki:viewcomment'] = 'Ver los comentarios de la página';
 $string['wiki:viewpage'] = 'Ver páginas wiki';
 $string['wikiattachments'] = 'Anexos Wiki';

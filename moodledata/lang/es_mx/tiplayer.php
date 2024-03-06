@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tiplayer', language 'es_mx', version '4.2'.
+ * Strings for component 'tiplayer', language 'es_mx', version '3.10'.
  *
  * @package     tiplayer
  * @category    string
@@ -34,4 +34,3 @@ Un archivo puede usarse:
 * Para compartir presentaciones mostradas en clase
 * Para incluir un mini sitio web como un TI-Player de curso
 * Para proporcionar borradores de archivos para ciertos programas de software (por ejemplo, archivos .PSD de Photoshop) para que los estudiantes puedan editarlo y enviarlo para su evaluación';
-$string['popup_tiplayer_link'] = 'Si no fue así, hacer clic aquí: {$a}';

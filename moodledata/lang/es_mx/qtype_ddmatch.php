@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmatch', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_ddmatch', language 'es_mx', version '3.10'.
  *
  * @package     qtype_ddmatch
  * @category    string
@@ -29,8 +29,6 @@ $string['draganswerhere'] = 'Arrastre la respuesta aquí';
 $string['editingddmatch'] = 'Editando Pregunta de Relacionar Columnas mediante Arrastrar-y-Soltar';
 $string['pluginname'] = 'Relacionar Columnas mediante Arrastrar-y-Soltar';
 $string['pluginname_help'] = 'Las preguntas de Relacionar Columnas mediante Arrastrar-y-Soltar requieren que el estudiante relacione correctamente una lista de nombres o de oraciones (preguntas) contra otra lista de nombres o de oraciones (respuestas).';
-$string['pluginname_link'] = 'question/type/ddmatch';
 $string['pluginnameadding'] = 'Añadiendo Pregunta de Relacionar Columnas mediante Arrastrar-y-Soltar';
 $string['pluginnameediting'] = 'Editando Pregunta de Relacionar Columnas mediante Arrastrar-y-Soltar';
 $string['pluginnamesummary'] = 'Una extensión de la pregunta de relacionar columnas, que le permite al usuario arrastrar y colocar ítems para que coincidan las respuestas con las subpreguntas.';
-$string['privacy:metadata'] = 'El plugin del tipo de pregunta ddmatch no almacena ningún dato personal';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mediasite', language 'es_mx', version '4.2'.
+ * Strings for component 'mediasite', language 'es_mx', version '3.10'.
  *
  * @package     mediasite
  * @category    string
@@ -52,7 +52,6 @@ $string['basiclti_in_new_window'] = 'Su actividad ha abierto en una ventana nuev
 $string['basiclti_parameters'] = 'Parámetros de Basic LTI Launch';
 $string['catalog'] = 'Catálogo';
 $string['catalog_iframe'] = 'iFrame';
-$string['catalog_link'] = 'Enlace';
 $string['course_settings'] = 'Configuraciones Mediasite';
 $string['courses7'] = 'Cursos Mediasite';
 $string['custom_integration_callback'] = 'Variable PHP';
@@ -110,7 +109,7 @@ $string['my_mediasite_header'] = 'Mi Mediasite';
 $string['my_mediasite_inpage_menu'] = 'Menú En-Página';
 $string['my_mediasite_not_enabled'] = 'Mi Mediasite requiere que sea instalado un plugin local adicional. Por favor instale el plugin local Mediasite 7 Courses.';
 $string['my_mediasite_placement'] = 'Colocación del menú';
-$string['my_mediasite_placement_hint'] = '"Menú del Curso" añade este enlace a todos los cursos para usuarios inscritos. "Página Inicial del Sitio" está en una ubicación más central. "Menú En-Página" está pensado para el tema Snap.';
+$string['my_mediasite_placement_hint'] = '"Menú del Curso" añade este enlace a todos los cursos para usuarios inscritos. "Página Inicial del Sitio" es una localización más central.';
 $string['my_mediasite_site_pages'] = 'Página Inicial del Sitio';
 $string['my_mediasite_title'] = 'Texto de Enlace Mi Mediasite';
 $string['my_mediasite_title_required'] = 'El Texto del enlace a Mi Mediasite es necesario cuando se habilita Mi Mediasite.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wooclap', language 'es_mx', version '4.2'.
+ * Strings for component 'wooclap', language 'es_mx', version '3.10'.
  *
  * @package     wooclap
  * @category    string
@@ -36,19 +36,17 @@ $string['consent-screen:explanation'] = 'Para que funcionen algunas característ
 $string['customcompletion'] = '.Estado de finalización actualizado solamente por wooclap';
 $string['customcompletiongroup'] = 'Finalización personalizada Wooclap';
 $string['error-auth-nosession'] = 'Falta sesión en autenticación';
-$string['error-callback-is-not-url'] = 'Parámetro de retrollamda no es una URL válida';
+$string['error-callback-is-not-url'] = 'Parámetro callback (llamada_de_retorno) no es una URL válida';
 $string['error-couldnotauth'] = 'No se pudo obtener usuario o curso durante la autenticación';
 $string['error-couldnotloadevents'] = 'No sepudieron cargar eventos Wooclap del usuario';
-$string['error-couldnotperformv3upgradestep1'] = 'No se pudo realizar el Paso 1 de la Actualización V3. Asegúrese de que la accesskeyid, la baseurl y la secretaccesskey estén configuradas en las configuraciones del plugin.';
-$string['error-couldnotperformv3upgradestep2'] = 'No se pudo realizar el Paso 2 de la Actualización V3';
 $string['error-couldnotredirect'] = 'se No pudo re-direccionar';
 $string['error-couldnotupdatereport'] = 'No se pudo actualizar reporte';
-$string['error-invalid-callback-url'] = 'La URL de retrollamada proporcionada no coincide con el nombre de baseurl domain definido en las configuraciones.';
 $string['error-invalidjoinurl'] = 'URL para unirse inválida';
 $string['error-invalidtoken'] = 'Token inválido';
 $string['error-missingparameters'] = 'Faltan parámetros';
 $string['error-noeventid'] = 'No pudo determinarse ID del evento';
-$string['error-reportdeprecated'] = 'report_wooclap.php está deprecada. Useen su lugar  report_wooclap_v3.php.';
+$string['gradeupdatefailed'] = 'Falló actualización de calificación';
+$string['gradeupdateok'] = 'Actualización de calificación exitosa';
 $string['modulename'] = 'Wooclap';
 $string['modulename_help'] = 'Este módulo proporciona una integración de la plataforma interactiva Wooclap a Moodle';
 $string['modulenameplural'] = 'Wooclap';
@@ -66,7 +64,6 @@ $string['secretaccesskey-description'] = 'Clave secreta de acceso usada para com
 $string['showconsentscreen'] = '¿Mostrar pantalla de consentimiento?';
 $string['showconsentscreen-description'] = 'Si se activa, Wooclap le pedirá a los participantes su consentimiento antes de colectar sus direcciones de Email.';
 $string['testconnection'] = 'Probar conexión';
-$string['warn-missing-config-during-upgrade-to-v3'] = 'Para poder ejecutar la migración,  la accesskeyid, la baseurl y la secretaccesskey deberían ser configuradas en las configuraciones. Se saltará la migración por ahora; usted puede ejecutarla después vía el script cli/v3_upgrade.php. Nota: si quiere usar el plugin, esta migración es necesaria.';
 $string['wooclap:addinstance'] = 'Añadir una actividad Wooclap a un curso';
 $string['wooclap:view'] = 'Acceder a una actividad Wooclap';
 $string['wooclapeventid'] = 'Duplicar un evento Wooclap';

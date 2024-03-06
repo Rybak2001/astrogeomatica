@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_messageinbound', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_messageinbound', language 'es_mx', version '3.10'.
  *
  * @package     tool_messageinbound
  * @category    string
@@ -63,14 +63,13 @@ $string['messageinboundenabled_desc'] = 'El procesamiento de correo entrante deb
 $string['messageinboundgeneralconfiguration'] = 'Configuración general';
 $string['messageinboundgeneralconfiguration_desc'] = 'El procesamiento de mensaje entrante le permite a Usted recibir y procesar Email dentro de Moodle. Esto tiene aplicaciones como el enviar contestaciones de Email a publicaciones en foros, o añadir archivos a los archivos privados de un usuario.';
 $string['messageinboundhost'] = 'Servidor de correo entrante';
-$string['messageinboundhostoauth_help'] = 'Servicio OAuth2 a usar para acceder al servidor iMAP, usando autenticación XOAUTH2. Si el servicio no existe aun, usted necesitará crearlo.';
 $string['messageinboundhostpass'] = 'Contraseña';
-$string['messageinboundhostpass_desc'] = 'Esta es la contraseña que el proveedor del servicio le haya proporcionado para que inicie sesión en su cuenta de correo electrónico.';
+$string['messageinboundhostpass_desc'] = 'Esta es la contraseña que su proveedor de servicio le ha proporcionado para ingresar a su cuenta de Email.';
 $string['messageinboundhostssl'] = 'Usar SSL';
 $string['messageinboundhostssl_desc'] = 'Algunos servidores de Email soportan un nivel adicional de seguridad al encriptar la comunicación entre Moodle y su servidor. Nosotros recomendamos usar esta encriptación SSL si su servidor la soporta.';
 $string['messageinboundhosttype'] = 'Tipo de servidor';
-$string['messageinboundhostuser'] = 'Usuario';
-$string['messageinboundhostuser_desc'] = 'Este es el nombre de usuario que su proveedor de servicio le ha proporcionado para iniciar sesión en su cuenta de Email.';
+$string['messageinboundhostuser'] = 'Nombre_de_usuario';
+$string['messageinboundhostuser_desc'] = 'Este es el nombre_de_usuario que su proveedor de servicio le ha proporcionado para ingresar a su cuenta de Email.';
 $string['messageinboundmailboxconfiguration_desc'] = 'Cuando se envían los mensajes, se acomodan dentro del formato dirección+datos@ejemplo.com. Para generar direcciones de manera confiable desde Moodle, por favor especifique la dirección que Usted normalmente usaría antes del signo de @, y el dominio que está después del signo de @ de forma separada. Por ejemplo, el nombre del buzón en este ejemplo sería "dirección", y el dominio de E-mail sería  "ejemplo.com". Usted debe de emplear una cuenta de correo dedicada para este propósito  (exclusivamente para esto).';
 $string['messageprocessingerror'] = 'Recientemente Usted envió un Email a Moodle con el asunto "{$a->subject}" pero desafortunadamente  Moodle no pudo procesarlo.
 

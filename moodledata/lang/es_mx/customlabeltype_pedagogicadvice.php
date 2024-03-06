@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_pedagogicadvice', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabeltype_pedagogicadvice', language 'es_mx', version '3.10'.
  *
  * @package     customlabeltype_pedagogicadvice
  * @category    string
@@ -27,11 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['advice'] = 'Consejo';
 $string['configtypename'] = 'Habilitar subtipo Consejo pedagógico';
-$string['family'] = 'meta';
 $string['initiallyvisible'] = 'Inicialmente visible';
-$string['pedagogicadvice'] = 'Recomendación pedagógica';
 $string['pedagogicadvice:addinstance'] = 'Puede añadir una instancia';
 $string['pedagogicadvice:view'] = 'Pued ever el contenido';
-$string['pedagogicnotesignal'] = 'Esta nota solamente es vista por profesores.';
 $string['pluginname'] = 'Elemento de curso : Consejo pedagógico';
 $string['typename'] = 'Consejo pedagógico';

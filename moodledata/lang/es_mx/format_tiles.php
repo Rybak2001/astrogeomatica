@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_tiles', language 'es_mx', version '4.2'.
+ * Strings for component 'format_tiles', language 'es_mx', version '3.10'.
  *
  * @package     format_tiles
  * @category    string
@@ -25,11 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addsections'] = 'Añadir mosaico';
+$string['addsections'] = 'Añadir mosaicos';
 $string['admintools'] = 'Herramientas del administrador';
 $string['all'] = 'Todo(s)';
 $string['allcomplete'] = 'Todo completo';
 $string['allcoursescomplypalette'] = 'Todos los cursos ya tienen colores de mosaico permitidos. Nada para reiniciar. Asegúrese de guardar cualquier cambio a colores permitidos antes de oprimir reiniciar.';
+$string['allowlabelconversion'] = 'Permitir conversión de etiqueta a página';
+$string['allowlabelconversion_desc'] = 'Si se activa, a los profesores editores se les dará una opción en cada desplegable para configuración de edición de etiqueta, para convertir la etiqueta a una página.';
 $string['allowphototiles'] = 'Permitir mosaicos de fotos';
 $string['allowphototiles_desc'] = 'Si se selecciona, los profesores podrán subir una foto para que sirva como fondo de mosaico. Ellos podrán seguir usando íconos de mosaico estándares también, en el mismo curso. (Si no se selecciona, solamente serán permitidos íconos de mosaico y las demás configuraciones de mosaico inferiores serán ignoradas).';
 $string['allowsubtilesview'] = 'Permitir vista de sub mosaicos';
@@ -37,13 +39,15 @@ $string['allowsubtilesview_desc'] = 'Permitir el uso de una configuración de cu
 $string['alternativelink'] = 'Enlace alternativo';
 $string['areyousure'] = '¿Está seguro?';
 $string['asfraction'] = 'Mostrar como fracción';
-$string['aspectratiotootallorwide'] = 'La imagen subida ha sido guardada, pero por favor revísela, porque podría ser <strong>{$a->tallorwide}</strong>. Si no se observa bien, por favor recórtela a las dimensiones estándar apaisadas y súbala de nuevo. Por ejemplo, 300 de ancho y 200 de alto debería encajar bien.';
+$string['aspectratiotootallorwide'] = 'La imagen subida ha sido guardada, pero por favor revísela, porque podría ser <strong>{$a->tallorwide}</strong>. Si no se observa bien, por favor recórtela a las dimensiones estándar apaisadas y súbala de nuevo. Por ejemplo, 200 de ancho y 300 de alto debería encajar bien.';
 $string['aspercentagedial'] = 'Mostrar como % en círculo';
 $string['assumedatastoreconsent'] = 'Asumir consentimiento a almacenamiento local del navegador';
 $string['assumedatastoreconsent_desc'] = 'Si se selecciona,  al usuario <b>no</b> le será mostrado un diálogo que le solicite cosentimiento para almacenar datos en almacenamiento local del navegador';
 $string['backupfailed'] = 'Restauración falló';
 $string['basecolour'] = 'Color para mosaicos';
 $string['basecolour_help'] = 'El color aquí configurado será aplicado a todos los mosaicos en el curso. Los colores disponibles están determinados por su administrador del sitio mediante la página de configuraciones del plugin Mosaicos).';
+$string['blockedpopup'] = 'Su navegador ha bloqueado una ventana emergente. Por favor, permita las ventanas emergentes de este sitio, o haga clic en el enlace inferior para visitar el sitio en esta  ventana.';
+$string['blockedpopuptitle'] = 'Ventana emergente bloqueada';
 $string['brandcolour'] = 'Color de la marca';
 $string['canceltask'] = 'Cancelar trabajo';
 $string['changedcolour'] = 'Color del mosaico se reinicia al predeterminado para curso {$a}';
@@ -61,8 +65,8 @@ $string['colournamegeneral'] = 'Mostrar nombre para color de arriba';
 $string['colourpurple'] = 'Morado';
 $string['colourred'] = 'Rojo';
 $string['colours'] = 'Colores';
-$string['complete'] = 'Completo';
-$string['complete-n-auto'] = 'Elemento incompleto. Será marcado como completo cuando Usted cumpla con todos los criterios de finalización. Usted no puede cambiar esto manualmente.';
+$string['complete'] = 'completo';
+$string['complete-n-auto'] = 'Ítem incompleto. Será marcado como completo cuando Usted cumpla con los criterios de finalización. Usted no puede cambiar esto manualmente.';
 $string['complete-y-auto'] = 'Ítem completo. Será marcado como completo cuando Usted cumpla con los criterios de finalización. Usted no puede cambiar esto manualmente.';
 $string['completion_help'] = 'Una palomita  a la derecha de una actividad puede ser usada para indicar cuando una actividad está completada (se mostrará un círculo vacío cuando no lo esté).<br><br>
 Dependiendo de la configuración, una palomita puede aparecer automáticamente cuando Usted haya completado la actividad de acuerdo a las condiciones configuradas por el profesor.<br><br>
@@ -72,14 +76,15 @@ $string['completionswitchhelp'] = '<p>Usted ha seleccionado el mostrar el seguim
 <p>Usted también puede hacer esto <b>masivamente</b> según se explica en  la <a href="https://docs.moodle.org/all/es/Configuraciones_de_finalizaci%C3%B3n_de_actividad" target="_blank">explicación detallada del seguimiento de finalización en moodle.org</a></p>';
 $string['completionwarning'] = 'Usted tiene activado el seguimiento de finalización  a nivel del curso, pero al nivel de la actividad individual ningún ítem tiene el seguimiento habilitado, por lo que no hay nada que monitorear.';
 $string['completionwarning_changeinbulk'] = 'Cambiar masivamente';
-$string['completionwarning_help'] = 'Usted necesita hacer monitoreable elementos individuales al editarlos (bajo Finalización de actividad > Seguimiento de finalización) o Usted puede hacer esto masivamente bajo Administración del curso  > Finalización del curso > Editar masivamente finalización de actividad';
+$string['completionwarning_help'] = 'Usted necesita hacer monitoreable ítems individuales al editarlos (bajo Finalización de actividad > Seguimiento de finalización) o Usted puede hacer esto masivamente bajo Administración del curso  > Finalización del curso > Editar masivamente finalización de actividad';
 $string['contact'] = 'Mantenerse en contacto';
 $string['contactdeveloper'] = 'Contactar al desarrollador';
 $string['contents'] = 'Contenidos';
+$string['converttopage'] = 'Convertir a página';
+$string['converttopage_confirm'] = '¿Está seguro? Esto no puede deshacerse (Usted tendría que crear la etiqueta de nuevo manualmente si fuera necesario).';
 $string['courseshowtileprogress'] = 'Progreso en cada mosaico';
 $string['courseshowtileprogress_error'] = 'Usted tiene \'Seguimiento de finalización > Habilitar seguimiento de finalización\' configurado a \'No\' (vea más abajo en esta página) lo que hace conflicto con esta configuración. Si Usted quiere mostrar el progreso en los mosaicos, por favor configure \'Seguimiento de finalización > Habilitar seguimiento de finalización\' a \'Si\'. En caso contrario, por favor ajuste esta configuración a \'No\'.';
 $string['courseshowtileprogress_help'] = '<p>Cuando se selecciona, el progreso del usuario con las actividades será mostrado en cada mosaico, ya sea como una <em>fracción</em> (por ejemplo \'Progreso 2/10\' significa 2 de 10 actividades completadas), o como un <em>porcentaje</em> en un círculo.</p><p>Esto solamente puede ser usado si se ha activado la  \'Finalización > Habilitar seguimiento de finalización\' .</p><p>Si no hubiera actividades monitoreables dentro de un mosaico dado, no será mostrado el indicador para ese mosaico.</p>';
-$string['courseshowtileprogress_link'] = 'Activity_completion_settings#Activity_settings';
 $string['coursetoomanysections'] = 'Advertencia a los editores: este curso tiene más mosaicos que el máximo permitido.  Un máximo de {$a->max} serán mostrados a los estudiantes (reducidos a "{$a->tilename}") los editores pueden ver más).';
 $string['courseusebarforheadings'] = 'Enfatizar encabezados con pestaña coloreada';
 $string['courseusebarforheadings_help'] = 'Mostrar una pestaña coloreada a la izquierda del encabezado en el curso en todos lados donde esté seleccionado un estilo de encabezado en el editor de texto';
@@ -90,7 +95,7 @@ $string['customcss'] = 'CSS personalizado';
 $string['customcssdesc'] = 'CSS personalizado a aplicar a la sección de contenido del curso miestras es usado el formato de curso. Esto no será validado, por lo que Usted debe tener cuidado de ingresar código válido. Por ejemplo: <p>.section { color: red; }</p><p>li.activity.subtile.resource.pdf { background-color: orange !important; }</p>';
 $string['datapref'] = 'Preferencias de datos';
 $string['datapreferror'] = 'La característica de preferencia de datos solamente está disponible si Usted tiene JavaScript disponible en su navegador. En caso contrario, el almacenamiento de datos no puede ser habilitado.';
-$string['dataprefquestion'] = '<p>Para hacer este sitio más fácil de usar, nosotros almacenamos información funcional en su navegador, como por ejemplo el número ID del último mosaico que usted abrió. Esto permanece en su máquina por un corto tiempo en caso de que Usted visite la página nuevamente. Nosotros no lo usamos para espiarlo a Usted. ¿Está de acuerdo?</p><p>Nosotros recordaremos su elección hasta que Usted limpie la historia de su navegador. Para no aceptar, elija "Cancelar".</p>';
+$string['dataprefquestion'] = '<p>Para hacer este sitio más fácil de usar, nosotros almacenamos información funcional en su navegador, como por ejemplo los contenidos del último mosaico que abrió. Esto permanece en su máquina por un corto tiempo en caso de que Usted visite la página nuevamente. Nosotros no lo usamos para espiarlo a Usted. ¿Está de acuerdo?</p><p>Nosotros recordaremos su elección hasta que Usted limpie la historia de su navegador. el decir "No" resultará en tiempos de carga de páginas más lentos.</p>';
 $string['defaultthiscourse'] = 'Ajuste por defecto para este curso';
 $string['defaulttilecolour'] = 'Color predeterminado de mosaico';
 $string['defaulttileicon'] = 'Ícono del mosaico';
@@ -105,7 +110,6 @@ $string['disabledbyadmin'] = 'Deshabilitado por el Administrador del Sitio';
 $string['displayfilterbar'] = 'Barra de filtro';
 $string['displayfilterbar_error'] = 'A menos que Usted haya configurado resultados para este curso, Usted solamente puede mostrar una barra de filtro en números de mosaico, y no basados en resultados. Cree algunos resultados  primeramente y después regrese aquí. Vea';
 $string['displayfilterbar_help'] = '<p>Cuando se selecciona, mostrará automáticamente una matriz de botones antes de la pantalla del mosaico en un curso, en donde los usuarios pueden hacer clic para filtrar mosaicos a ciertos rangos</p><p>Cuando está seleccionado \'basado en los números\', serán mostrados una serie de botones; por ejemplo, un botón para mosaicos del 1 al 4, un botón para mosaicos del 5 al 8, etc.</p><p>Cuando está seleccionado \'basado en resultados del curso\' habrá un botón por cada resultado del curso. Cada mosaico puede ser asignado a un resultado dado (y por ende a un botón dado) desde la página de configuraciones de ese mosaico.</p>';
-$string['displayfilterbar_link'] = 'Outcomes';
 $string['displaytitle_mod_doc'] = 'Documento de Word';
 $string['displaytitle_mod_html'] = 'Página web';
 $string['displaytitle_mod_jpeg'] = 'Imagen';
@@ -120,8 +124,6 @@ $string['documentation'] = 'Documentación';
 $string['documentationurl'] = 'URL de Documentación';
 $string['documentationurl_descr'] = 'URL donde puede encontrarse la documentación';
 $string['download'] = 'Descargar';
-$string['editoradvicesubtiles'] = 'En esta versión del plugin Mosaicos (Tiles), las actividades solamente aparecerán como sub-mosaicos si el modo de edición está desactivado';
-$string['editsection'] = 'Editar mosaico';
 $string['editsectionname'] = 'Editar nombre de mosaico';
 $string['embeddedurlerror'] = 'Si un sitio web externo rehúsa a conectarse en la ventana superior, use este:';
 $string['enablelinebreakfilter'] = 'Habilitar filtro de salto de línea';
@@ -151,6 +153,7 @@ $string['hidden'] = 'Oculto';
 $string['hide'] = 'Ocultar';
 $string['hidefromothers'] = 'Ocultar mosaico';
 $string['highestsectionnum'] = 'Se encontró el número más alto de sección';
+$string['highlightoff'] = 'Des-resltar';
 $string['home'] = 'Página inicial del curso';
 $string['hovercolour'] = 'Color del mosaico al pasarle el ratón encima';
 $string['hovercolour_descr'] = 'Color con el cual los mosaicos se mostrarán al pasarles el ratón encima';
@@ -213,7 +216,7 @@ $string['icontitle-lightbulb-o'] = 'Foco';
 $string['icontitle-line-chart'] = 'Gráfica de líneas';
 $string['icontitle-list'] = 'Lista (viñetas)';
 $string['icontitle-list-ol'] = 'Lista (numerada)';
-$string['icontitle-location-arrow'] = 'Flecha ubicación';
+$string['icontitle-location-arrow'] = 'Flecha localización';
 $string['icontitle-map-marker'] = 'Marcador de mapa';
 $string['icontitle-map-o'] = 'Mapa';
 $string['icontitle-map-signs'] = 'Signos de mapa';
@@ -266,11 +269,12 @@ $string['imagedeletedfrom'] = 'Imagen eliminada de "{$a}"';
 $string['imagesavedfor'] = 'Imagen guardada para mosaico "{$a}"';
 $string['imagesize'] = 'Tamaño de imagen';
 $string['items'] = 'Ítems';
-$string['jsactivate'] = 'Navegación animada - desactivar';
-$string['jsdeactivate'] = 'Navegación animada - activar';
+$string['jsactivate'] = 'Navegación animada activada';
+$string['jsdeactivate'] = 'Navegación animada desactivada';
 $string['jsdeactivated'] = 'Usted ha desactivado la navegación animada en su cuenta.';
 $string['jsnavsettings'] = 'Navegación JavaScript';
 $string['jsreactivated'] = 'Usted ha activado la navegación animada en su cuenta. Esto podría ser más rápido de usar. Se requiere JavaScript habilitado.';
+$string['labelconverted'] = 'Etiqueta convertida';
 $string['links'] = 'Enlace';
 $string['loading'] = 'Cargando';
 $string['maxcoursesectionsallowed'] = 'El número máximo de de secciones de curso permitidas en este entorno es {$a}.';
@@ -373,12 +377,12 @@ $string['tileicon_help'] = 'El ítem aquí seleccionado anulará, solamente para
 $string['tileicons'] = 'Íconos del mosaico';
 $string['tileoutcome'] = 'Resultado para este mosaico';
 $string['tileoutcome_help'] = 'Si Usted selecciona un resultado para este mosaico, Usted podrá mostrar, debajo de configuraciones del curso, un conjunto de <em>botones filtro</em>, uno para cada resultado, los cuales cuando son presionados, filtran los mosaicos mostrados de acuerdo a cuales resultados  han sido asignados';
+$string['tileoutofsequence'] = 'Este mosaico tiene números de sección fuera de orden. Por favor elija el botón para corregir, o elimine el mosaico completamente (primeramente mueva cualquier contenido a otro mosaico)';
 $string['tileselecttip'] = 'Aquí está una forma más fácil para cambiar un ícono de mosaico o foto; en el curso, con el modo de edición activado, hacer clic en el ícono o foto que desea cambiar. Aparecerá el selector de archivo.';
 $string['tilesformatregistration'] = 'Registro del formato Mosaicos';
+$string['tilesoutofsequencewarning'] = 'Advertencia para los editores: Los mosaicos siguientes tienen errores. Por favor elija el botón, o elimine uno o más de estos mosaicos para corregir los problemas:';
 $string['tip'] = 'Sugerencia';
 $string['togglecompletion'] = 'Hacer clic para alternar estado de finalización';
-$string['togglecompletioncomplete'] = 'Clic para alternar estado de finalización (completo)';
-$string['togglecompletionincomplete'] = 'Clic para alternar estado de finalización (incompleto)';
 $string['tootall'] = 'demasiado alto para el mosaico';
 $string['toowide'] = 'demasiado ancho para el mosaico';
 $string['transparenttitleadjustments'] = 'Ajustes de título transparente';
@@ -393,8 +397,7 @@ $string['usejseditingexpandcollapse_desc'] = 'Si se selecciona, en modo de edici
 $string['usejsnavforsinglesection'] = 'Usar navegación JavaScript  para página de sección única';
 $string['usejsnavforsinglesection_desc'] = 'Cuando se activa, cualquier llamada a una página de sección única  (&section=xx) será manejada usando JavaScript, al invocar la página principal del curso para abrir la sección solicitada vía JS, en lugar de llamar a la página de sección única con el estilo PHP antiguo';
 $string['usesubtilesseczero'] = 'Usar sub mosaicos en sección superior';
-$string['usesubtilesseczero_help'] = 'Si se selecciona, serán usados sub mosaicos en la sección superior del curso además de adentro de todos los mosaicos. Esto es porque los sub mosaicos usan mucho espacio en la parte más superior del curso. Sería mejor dejar esto sin seleccionar, para que, en vez de esto, cualquier elemento en la sección superior sea mostrado  en formato de lista estándar.';
+$string['usesubtilesseczero_help'] = 'Si se selecciona serán usados sub mosaicos en la sección superior del curso además de adentro de los mosaicos. Esto es porque los sub mosaicos usan mucho espacio en la parte más superior del curso. Sería mejor dejar esto sin seleccionar, para que en vez de esto, cualquier ítem en la sección superior sea mostrado  en formato de lista estándar.';
 $string['usetooltips'] = 'Usar herramientitas (tooltips) JavaScript';
 $string['usetooltips_desc'] = 'Usar herramientitas (tooltips) JavaScript cuando el usuario pasa el ratón encima de ciertos elemento, como por ejemplo cajas de finalización, mosaicos para contenidos de mosaico';
-$string['version'] = 'Versión {$a}';
 $string['width'] = 'ancho';

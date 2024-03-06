@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_offlinequizcron', language 'es_mx', version '4.2'.
+ * Strings for component 'report_offlinequizcron', language 'es_mx', version '3.10'.
  *
  * @package     report_offlinequizcron
  * @category    string
@@ -45,8 +45,7 @@ $string['offlinequizcron:view'] = 'Ver reporte de administración de cron de off
 $string['offlinequizjobdetails'] = 'Detalles del Trabajo de Evaluación {$a}';
 $string['offlinequizjobs'] = 'Lista de trabajos de evaluación de examen fuera de línea';
 $string['offlinequizjobs_help'] = 'Debajo está una lista de trabajos en la tabla de la BasedeDatos {offlinequiz_queue}.';
-$string['pagesize_details'] = 'Número de archivos por página';
-$string['pagesize_jobs'] = 'Número de trabajos por  página';
+$string['pagesize'] = 'Número de trabajos por página';
 $string['pluginname'] = 'Administración de trabajo Cron de OfflineQuiz';
 $string['privacy:metadata'] = 'El offlinequizcron solamente es usado para mostrar información de las colas del plugin mod_offlinequiz. No almacena ningún dato por sí mismo.';
 $string['processingqueue'] = 'Procesando Cola';

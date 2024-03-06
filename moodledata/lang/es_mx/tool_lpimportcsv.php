@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lpimportcsv', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_lpimportcsv', language 'es_mx', version '3.10'.
  *
  * @package     tool_lpimportcsv
  * @category    string
@@ -29,7 +29,7 @@ $string['competencyscale'] = 'Escala de Competencia: {$a}';
 $string['competencyscaledescription'] = 'Escala de Competencia creada por importación';
 $string['confirm'] = 'Confirmar';
 $string['confirmcolumnmappings'] = 'Confirmar los mapeos de columna';
-$string['csvdelimiter'] = 'Separador CSV';
+$string['csvdelimiter'] = 'Delimitador CSV';
 $string['description'] = 'Descripción';
 $string['descriptionformat'] = 'Formato de descripción';
 $string['encoding'] = 'Codificación';
@@ -40,7 +40,6 @@ $string['idnumber'] = 'Número ID';
 $string['import'] = 'Importar';
 $string['importfile'] = 'Archivo descriptivo de estructura de CSV';
 $string['importfile_help'] = 'Una estructura de competencia puede importarse mediante un archivo de texto. El formato del archivo puede ser determinado al crear una nueva competencia en el sitio y después exportarla.';
-$string['importfile_link'] = 'admin/tool/lpimportcsv';
 $string['importingfile'] = 'Importando datos de archivo';
 $string['invalidimportfile'] = 'El formato del archivo es inválido';
 $string['isframework'] = 'Es estructura';

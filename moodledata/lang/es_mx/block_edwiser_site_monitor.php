@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_edwiser_site_monitor', language 'es_mx', version '4.2'.
+ * Strings for component 'block_edwiser_site_monitor', language 'es_mx', version '3.10'.
  *
  * @package     block_edwiser_site_monitor
  * @category    string
@@ -42,7 +42,6 @@ $string['cpulowerlimit'] = 'Límite inferior de CPU';
 $string['cpulowerlimit_help'] = 'Límite inferior de uso de CPU';
 $string['cpuusage'] = 'Uso de CPU';
 $string['crontask'] = 'Monitor del Sitio Edwiser - Recolectar estadísticas de uso de 24 horas';
-$string['crontaskwarning'] = 'Para ver datos de uso en 24 horas usted necesita ejecutar el trabajo CRON cada 5 minutos. Siga este <a target="_blank" href="{$a}">enlace</a>para configurar cron.';
 $string['deletedusers'] = 'Eliminado';
 $string['edwiser_site_monitor:addinstance'] = 'Añadir un nuevo bloque de monitor del sitio';
 $string['edwiser_site_monitor:myaddinstance'] = 'Añadir un nuevo monitor del sitio al Tablero';

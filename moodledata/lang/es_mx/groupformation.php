@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'groupformation', language 'es_mx', version '4.2'.
+ * Strings for component 'groupformation', language 'es_mx', version '3.10'.
  *
  * @package     groupformation
  * @category    string
@@ -417,7 +417,15 @@ $string['statistic'] = 'Estadísticas del questionnaire';
 $string['stats_all'] = 'Usted contestó todas las preguntas en la categoría "{$a->category}".';
 $string['stats_none'] = 'Usted no contestó ninguna de las preguntas en la categoría  "{$a->category}".';
 $string['stats_partly'] = 'Usted contestó  {$a->answered} de un total de {$a->questions} preguntas en la categoría "{$a->category}".';
+$string['students_answered_multiple'] = 'los estudiantes han contestado el questionnaire.';
+$string['students_answered_single'] = 'estudiante ha contestado el questionnaire.';
+$string['students_available_multiple'] = 'estudiantes inscritos quienes pueden llenar el questionnaire.';
+$string['students_available_single'] = 'estudiante inscrito quien puede llenar el questionnaire.';
+$string['students_committed_multiple'] = 'los estudiantes ya han mandado sus respuestas.';
+$string['students_committed_single'] = 'estudiante ya ha mandado sus respuestas.';
 $string['students_enrolled_info'] = 'Estudiantes que están inscritos en este curso. Si la actividad está configurada para solamente un cierto agrupamiento, el número real podría ser más pequeño.';
+$string['students_grouping_multiple'] = 'estudiantes para formación de grupo.';
+$string['students_grouping_single'] = 'estudiantes para formación de grupo.';
 $string['students_selected'] = 'estudiantes seleccionados';
 $string['submit-modal-text'] = 'Para fines científicos y para el proceso de formación del grupo, es importante que Usted conteste todas las preguntas con la verdad y correctamente. Nosotros apreciamos su apoyo.
 

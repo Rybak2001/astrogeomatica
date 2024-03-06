@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'competency', language 'es_mx', version '4.2'.
+ * Strings for component 'competency', language 'es_mx', version '3.10'.
  *
  * @package     competency
  * @category    string
@@ -39,19 +39,19 @@ $string['coursemodulecompetencyoutcome_evidence'] = 'Anexar evidencia';
 $string['coursemodulecompetencyoutcome_none'] = 'No hacer nada';
 $string['coursemodulecompetencyoutcome_recommend'] = 'Mandar a revisar';
 $string['deletecompetencyratings'] = 'Eliminar valoraciones de competencia';
-$string['duplicateditemname'] = '{$a} (copia)';
+$string['duplicateditemname'] = '{$a} (copiar)';
 $string['enablecompetencies'] = 'Habilitar competencias';
 $string['enablecompetencies_desc'] = 'Las competencias le permiten a los usuarios que sean evaluados de acuerdo a planes de aprendizaje.';
-$string['errorcannotchangeapastduedate'] = 'La fecha de entrega ha pasado, no puede ser cambiada.';
-$string['errorcannotsetduedateinthepast'] = 'La fecha de entrega no puede configurarse en el pasado.';
-$string['errorcannotsetduedatetoosoon'] = 'La fecha de entrega es demasiado pronto.';
+$string['errorcannotchangeapastduedate'] = 'La fecha prometida ha pasado, no puede ser cambiada.';
+$string['errorcannotsetduedateinthepast'] = 'La fecha prometida no puede configurarse en el pasado.';
+$string['errorcannotsetduedatetoosoon'] = 'La fecha prometida es demasiado pronto.';
 $string['errorcompetencyrule'] = 'Regla de competencia del curso \'{$a}\' desconocida';
 $string['errorcoursecompetencyrule'] = 'Regla de competencia del curso \'{$a}\' desconocida';
 $string['errorinvalidcourse'] = 'Curso inválido.';
 $string['errornocompetency'] = 'la competencia {$a} no puede encontrarse';
 $string['errorplanstatus'] = 'Planes de aprendizaje \'{$a}\' estatus desconocido';
 $string['errorscalealreadyused'] = 'La escala no puede cambiarse, porque ya está en uso.';
-$string['errorscaleconfiguration'] = 'La escala necesita configurarse al seleccionar los elementos por defecto y dominado.';
+$string['errorscaleconfiguration'] = 'La escala necesita configurarse al seleccionar los ítems por defecto y dominado.';
 $string['errorusercomptencystatus'] = 'Estatus de competencia del usuario \'{$a}\' desconocido';
 $string['eventcompetencycreated'] = 'Competencia creada.';
 $string['eventcompetencydeleted'] = 'Competencia eliminada.';
@@ -145,7 +145,7 @@ $string['privacy:metadata:evidence:grade'] = 'La calificación asociada con la e
 $string['privacy:metadata:evidence:note'] = 'Una anotación no-localizada anexada a la evidencia';
 $string['privacy:metadata:evidence:url'] = 'Una URL asociada con la evidencia';
 $string['privacy:metadata:plan:description'] = 'La descripción del plan de aprendizaje';
-$string['privacy:metadata:plan:duedate'] = 'La fecha de entrega del plan de aprendizaje';
+$string['privacy:metadata:plan:duedate'] = 'La fecha esperada del plan de aprendizaje';
 $string['privacy:metadata:plan:name'] = 'El nombre del plan de aprendizaje';
 $string['privacy:metadata:plan:reviewerid'] = 'La ID del revisor del plan de aprendizaje';
 $string['privacy:metadata:plan:status'] = 'El estado del plan de aprendizaje';

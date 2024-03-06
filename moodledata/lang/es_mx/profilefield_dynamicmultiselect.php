@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_dynamicmultiselect', language 'es_mx', version '4.2'.
+ * Strings for component 'profilefield_dynamicmultiselect', language 'es_mx', version '3.10'.
  *
  * @package     profilefield_dynamicmultiselect
  * @category    string

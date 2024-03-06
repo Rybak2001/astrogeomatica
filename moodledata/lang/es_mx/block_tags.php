@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_tags', language 'es_mx', version '4.2'.
+ * Strings for component 'block_tags', language 'es_mx', version '3.10'.
  *
  * @package     block_tags
  * @category    string
@@ -33,11 +33,11 @@ $string['disabledtags'] = 'Las marcas están desactivadas';
 $string['pluginname'] = 'Marcas';
 $string['privacy:metadata'] = 'El Bloque de Marcas solamente muestra datos almacenados en otros lugares.';
 $string['recursivecontext'] = 'Incluir contextos hijos';
-$string['recursivecontext_help'] = 'Si se desactiva, las marcas de elementos en el contexto especificado arriba se mostrarán, pero no las marcas de elementos en contextos inferiores. Por ejemplo, se mostrarán las marcas de curso,  pero no  las marcas de actividades del curso.';
+$string['recursivecontext_help'] = 'Si se desactiva, las marcas de ítems en el contexto especificado arriba se mostrarán, pero no las marcas de ítems en contextos inferiores. Por ejemplo, se mostrarán las marcas de curso,  pero no  las marcas de actividades del curso.';
 $string['standardonly'] = 'Solamente estándar';
 $string['tagcollection'] = 'Colección de marcas';
 $string['tagcollection_help'] = 'Seleccionar colección de marcas para mostrar marcas de, si elige \'Cualquiera\', las marcas de todas las colecciones excepto aquellas marcadas con * serán mostradas.';
-$string['taggeditemscontext'] = 'Contexto de elementos marcados';
+$string['taggeditemscontext'] = 'Contexto de ítems marcados';
 $string['taggeditemscontext_help'] = 'Usted puede limitar la nube de marcas a las marcas que están presentes en la categoría de curso, el curso o el módulo actuales.';
 $string['tags:addinstance'] = 'Añadir un nuevo bloque de marcas';
 $string['tags:myaddinstance'] = 'Añadir un nuevo bloque de marcas al Tablero';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'goone', language 'es_mx', version '4.2'.
+ * Strings for component 'goone', language 'es_mx', version '3.10'.
  *
  * @package     goone
  * @category    string
@@ -85,6 +85,7 @@ $string['providers'] = 'Proveedores';
 $string['relevance'] = 'Relevancia';
 $string['reportmenu'] = 'Reporte';
 $string['results'] = 'Resultados';
+$string['scorm12datamodel'] = 'CORM_12 JS MOD';
 $string['select'] = 'Seleccionar';
 $string['selectedloid'] = 'ID de Contenido GO1 seleccionado';
 $string['selectedloname'] = 'Nombre de Contenido GO1 seleccionado';

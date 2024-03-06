@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_customlang', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_customlang', language 'es_mx', version '3.10'.
  *
  * @package     tool_customlang
  * @category    string
@@ -47,10 +47,8 @@ $string['confirmcheckin'] = 'Está a punto de guardar modificaciones a su paquet
 $string['customlang:edit'] = 'Editar traducción local';
 $string['customlang:export'] = 'Exportar traducción local';
 $string['customlang:view'] = 'Ver traducción local';
-$string['editlangpack'] = 'Editar paquete de idioma';
 $string['export'] = 'Exportar cadenas de texto personalizadas';
 $string['exportfilter'] = 'Seleccionar componente(s) a exportar';
-$string['exportzipfilename'] = 'idiomapersonalizado-export-{$a->lang}.zip';
 $string['filter'] = 'Filtrar cadenas';
 $string['filtercomponent'] = 'Mostrar cadenas de estos componentes';
 $string['filtercustomized'] = 'Sólo las personalizadas';

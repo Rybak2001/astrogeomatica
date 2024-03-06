@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_gradingstudents', language 'es_mx', version '4.2'.
+ * Strings for component 'quiz_gradingstudents', language 'es_mx', version '3.10'.
  *
  * @package     quiz_gradingstudents
  * @category    string
@@ -33,9 +33,8 @@ $string['attemptid'] = 'Intento {$a}';
 $string['attemptstograde'] = 'Intentos para calificarse';
 $string['automaticallygraded'] = 'Calificado automáticamente';
 $string['backtothelistofstudentattempts'] = 'Regresar a la lista de intentos de estudiantes';
-$string['confirmationcodeheading'] = 'Código de confirmación';
+$string['confirmationcode'] = '<strong>código de confirmación</strong> {$a}';
 $string['essayonly'] = 'Las siguientes preguntas necesitan calificarse manualmente';
-$string['fieldandvalue'] = '{$a->field}: <strong>{$a->value}</strong>';
 $string['grade'] = 'calificar';
 $string['gradeall'] = 'calificar todo';
 $string['graded'] = '(calificado)';
@@ -48,13 +47,13 @@ $string['gradingstudentx'] = 'Calificando preguntas en intento <strong>{$a}</str
 $string['gradingungraded'] = '{$a} intentos no calificados';
 $string['hideautomaticallygraded'] = 'Ocultar preguntas que hayan sido calificadas automáticamente';
 $string['nothingfound'] = 'Nada que mostrar';
+$string['personalidentifier'] = '<strong>Identificador personal</strong> {$a}';
 $string['pluginname'] = 'Calificación manual por estudiante';
 $string['privacy:metadata'] = 'El plugin para Calificación manual por estudiante no almacena ningún dato personal.';
 $string['questionsthatneedgrading'] = 'Preguntas que necesitan calificarse';
 $string['saveandgotothelistofattempts'] = 'Guardar e ir a la lista de intentos';
 $string['showstudentnames'] = 'Mostrar nombres de estudiantes';
 $string['student'] = 'Estudiante';
-$string['studentpi'] = 'Estudiante PI';
 $string['tograde'] = 'Para calificar';
 $string['total'] = 'Total';
 $string['updategrade'] = 'actualizar calificaciones';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_nextcloud', language 'es_mx', version '4.2'.
+ * Strings for component 'repository_nextcloud', language 'es_mx', version '3.10'.
  *
  * @package     repository_nextcloud
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['both'] = 'Internos y externos';
-$string['cannotconnect'] = 'El usuario no pudo ser autenticado. Por favor inicie sesión y después suba el archivo.';
+$string['cannotconnect'] = 'El usuario no pudo ser autenticado. Por favor ingrese y después suba el archivo.';
 $string['chooseissuer'] = 'Emisor';
 $string['chooseissuer_help'] = 'Para añadir un nuevo emisor, vaya a Administración del sitio / Servidor /Servicios OAuth 2.';
 $string['configplugin'] = 'Configuración del repositorio Nextcloud';
@@ -45,7 +45,7 @@ $string['foldername_help'] = 'Para asegurar que los usuarios encuentren archivos
 Esta configuración determina el nombre de la carpeta. Se recomienda elegir un nombre asociado con su instancia Moodle.';
 $string['internal'] = 'Internos (archivos almacenados en Moodle)';
 $string['invalidresponse'] = 'Respuesta de servidor inválida';
-$string['issuervalidation_invalid'] = 'Actualmente el emisor {$a} está activo; sin embargo, no implementa todos los endpoints necesarios. El repositorio no funcionará.';
+$string['issuervalidation_invalid'] = 'Actualmente el emisor {$a}está activo; sin embargo, no implementa todos los endpoints necesarios. El repositorio no funcionará.';
 $string['issuervalidation_valid'] = 'Actualmente el emisor {$a} está activo.';
 $string['issuervalidation_without'] = 'Usted aun no ha seleccionado un servidor Nextcloud como el emisor OAuth 2.';
 $string['nextcloud'] = 'Nextcloud';

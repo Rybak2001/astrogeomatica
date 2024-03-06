@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_course_checker', language 'es_mx', version '4.2'.
+ * Strings for component 'block_course_checker', language 'es_mx', version '3.10'.
  *
  * @package     block_course_checker
  * @category    string
@@ -30,7 +30,6 @@ $string['activedates_noactivedatesinactivity'] = 'No debería haber fechas habil
 $string['activedates_setting_coursesregex'] = 'Filtro regex para nombre completo del curso';
 $string['activedates_setting_coursesregex_help'] = 'Definir el regexp para permitir este revisor solamente donde coincida con los nombres completos de los cursos.';
 $string['activedates_setting_modules'] = 'Módulos habilitados';
-$string['activedates_setting_modules_help'] = 'Definir los módulos permitidos (debe estar habilitado en <a href="/admin/modules.php" target="_blank">Gestionar actividades</a>) para ser comprobada para las fechas activas.';
 $string['activedates_success'] = 'La actividad {$a} está correctamente configurada';
 $string['admin_domain_list_notvalid'] = 'La lista no es una lista válida de dominios';
 $string['admin_domain_name_default_missing'] = 'Nombrededominio faltante: {$a}';
@@ -186,7 +185,6 @@ $string['subheadings_labelignored'] = 'Esta etiqueta es ignorada debido a listab
 $string['subheadings_success'] = 'Esta etiquete tiene lindos subencabezado e ícono';
 $string['subheadings_wrongfirsthtmltag'] = 'La primera html-tag no es una {$a->htmltag}';
 $string['userdata_error'] = 'No debería de haber ningún dato del usuario en la actividad {$a}.';
-$string['userdata_help'] = 'Si desea que estos datos sean copiados a otros cursos, usted tiene que importarlos. Aquí hay algunos manuales útiles: <a href="https://docs.moodle.org/all/es/Respaldo_de_datos_del_usuario" target="_blank">Respaldo de datos del usuario</a> and <a href="https://docs.moodle.org/all/es/Reutilizando_actividades" target="_blank">Reutilizando actividades</a>.';
 $string['userdata_setting_coursesregex'] = 'Filtro regex de nombre completo del curso';
 $string['userdata_setting_coursesregex_help'] = 'Definir una expresión regular, para ejecutar este revisor solamente, cuando el nombre completo del curso coincida con ella.';
 $string['userdata_setting_modules'] = 'Módulos habilitados';

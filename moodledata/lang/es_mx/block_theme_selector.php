@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_theme_selector', language 'es_mx', version '4.2'.
+ * Strings for component 'block_theme_selector', language 'es_mx', version '3.10'.
  *
  * @package     block_theme_selector
  * @category    string
@@ -25,13 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['aliasedtheme'] = 'Alias a usar para tema {$a}';
-$string['aliasedtheme_desc'] = 'Si aquí se escribe texto, será usado en luagr del nombre del tema en el selector';
 $string['by'] = 'por';
 $string['changetheme'] = 'Cambiar tema:';
 $string['createwindow'] = 'Crear ventana';
-$string['excludedthemes'] = 'Temas excluídos';
-$string['excludedthemes_desc'] = 'Los Temas excluidos no estarán disponibles para seleccionarlos';
 $string['pluginname'] = 'Selector de tema';
 $string['resetthemecache'] = 'Reiniciar caché del tema';
 $string['siteconfigwarning'] = 'Solamente los usuarios con la capacidad \'moodle/site:config\' pueden cambiar los temas. O, pídale a un usuario con la capacidad que habilite \'Cambiar URL\' para el bloque.';

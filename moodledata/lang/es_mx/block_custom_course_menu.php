@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_custom_course_menu', language 'es_mx', version '4.2'.
+ * Strings for component 'block_custom_course_menu', language 'es_mx', version '3.10'.
  *
  * @package     block_custom_course_menu
  * @category    string
@@ -43,4 +43,5 @@ $string['lastxviewed'] = 'Último {$a} Visto';
 $string['loading'] = 'Cargando...';
 $string['nocourses'] = 'Usted no está inscrito en ningún curso.';
 $string['pluginname'] = 'Menú de Curso Personalizado';
+$string['privacy:metadata'] = 'El plugin no almacena datos del usuario';
 $string['showsearch'] = 'Mostrar Búsqueda de Curso';

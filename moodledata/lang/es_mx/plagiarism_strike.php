@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_strike', language 'es_mx', version '4.2'.
+ * Strings for component 'plagiarism_strike', language 'es_mx', version '3.10'.
  *
  * @package     plagiarism_strike
  * @category    string
@@ -25,13 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['label:analysisstatus'] = 'Coeficientes de Similitud (SC)';
 $string['similarity1'] = 'Coeficiente de Similitud 1';
 $string['similarity2'] = 'Coeficiente de Similitud 2';
 $string['similarity3'] = 'Coeficiente de Similitud 3';
 $string['similarity4'] = 'Coeficiente de Similitud 4';
 $string['similarity5'] = 'Coeficiente de Similitud 5';
-$string['strike_deletereport_method'] = 'Eliminación de Reportes de Similitud para envíos eliminados/actualizados';
-$string['strike_show_student_report'] = 'Mostrar reporte de similitud a estudiante';
-$string['strike_show_student_score'] = 'Mostrar Coeficientes de Similitud a estudiante';
+$string['strike_deletereport_method'] = 'Eliminación de reporte de similitud';
+$string['strike_show_student_report'] = 'Mostrar reporte de similitud a estudiantes';
+$string['strike_show_student_score'] = 'Mostrar puntaje de similitud a estudiante';
 $string['strike_show_student_score_help'] = 'El puntaje de similitud es el porcentaje del envío que ha sido concordado con otro contenido.';

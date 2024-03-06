@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_offline', language 'es_mx', version '4.2'.
+ * Strings for component 'gradingform_offline', language 'es_mx', version '3.10'.
  *
  * @package     gradingform_offline
  * @category    string
@@ -74,18 +74,10 @@ $string['privacy:metadata:fillingssummary'] = 'Almacena información acerca de l
 $string['privacy:metadata:instanceid'] = 'Un identificador relacionado con una calificación en una actividad.';
 $string['privacy:metadata:levelid'] = 'El nivel obtenido en la rúbrica';
 $string['privacy:metadata:remark'] = 'Comentarios relativos al criterio de la rúbrica que está siendo evaluada.';
-$string['regrademessage1'] = 'Usted está a punto de guardar cambios significativos a una rúbrica que ya ha sido usada para calificar.  Por favor indique si las calificaciones existentes necesitan ser revisadas. Si usted activa esto, entonces la rúbrica estará oculta para los estudiantes hasta que sus elementos sean re-calificados.';
-$string['regrademessage5'] = 'Usted está a punto de guardar cambios significativos a una rúbrica que ya ha sido usada para calificar. El valor del Libro de calificaciones permanecerá sin cambios, pero la rúbrica estará oculta para los estudiantes hasta que sus elementos sean re-calificados.';
 $string['regradeoption0'] = 'No marcar para re-calificar';
 $string['regradeoption1'] = 'Marcar para re-calificar';
-$string['restoredfromdraft'] = 'NOTA: el último intento para calificar a esta persona no fue guardado apropiadamente, por lo que las calificaciones en borrador fueron restauradas. Si usted quiere cancelar estos cambios use el botón inferior de \'Cancelar\'.';
 $string['rubric'] = 'Rúbrica';
 $string['rubricmapping'] = 'Reglas de mapeo de puntaje a calificar';
-$string['rubricmappingexplained'] = 'El puntaje mínimo posible para esta rúbrica es <b>{$a->minscore} puntos</b>. Será convertido a la calificación mínima disponible para la actividad (que es de 0 a menos que se emplee una escala). El puntaje máximo de <b>{$a->maxscore} puntos</b> será convertido a la calificación máxima. Los puntajes intermedios serán convertidos respectivamente.
-
-Si se usa una escala para calificar, el puntaje será redondeado y convertido a los elementos de la escala de forma similar a si fuesen números enteros consecutivos.
-
-Se puede cambiar el cálculo de calificación al editar el formato y activar la casilla \'Calcular la calificación que tenga un puntaje mínimo de la calificación mínima obtenible para la rúbrica\'.';
 $string['rubricnotcompleted'] = 'Por favor elija algo para cada criterio';
 $string['rubricoptions'] = 'Opciones de rúbrica';
 $string['rubricstatus'] = 'Estado actual de rúbrica';
@@ -103,7 +95,6 @@ $string['sortlevelsasc'] = 'Ordenar orden por niveles:';
 $string['sortlevelsasc0'] = 'Descendiente por número de puntos';
 $string['sortlevelsasc1'] = 'Ascendiente por número de puntos';
 $string['success'] = 'Se Importaron Exitosamente Datos del Archivo';
-$string['template_link'] = 'Archivo de Plantilla para Crear Rúbrica Fuera-de-línea';
 $string['unevenrows'] = 'Número disparejo de filas en archivo (Formato Incorrecto de Archivo). El archivo no fue importado.';
 $string['zerolevelsabsent'] = 'Advertencia: El puntaje mínimo posible para esta rúbrica no es 0; esto puede resultar en calificaciones inesperada para la actividad. Para evitar esto, cada criterio debería de tener un nivel con 0 puntos.<br>
 Esta advertencia puede ignorarse si se usa una escala para calificar, y los niveles mínimos en la rúbrica corresponden al valor mínimo de la escala.';

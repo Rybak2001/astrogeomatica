@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'simplecertificate', language 'es_mx', version '4.2'.
+ * Strings for component 'simplecertificate', language 'es_mx', version '3.10'.
  *
  * @package     simplecertificate
  * @category    string
@@ -108,12 +108,12 @@ $string['deleteselected'] = 'Eliminar Seleccionado';
 $string['deletissuedcertificates'] = 'Eliminar certificados emitidos';
 $string['delivery'] = 'Entrega';
 $string['delivery_help'] = 'Elija aquí cómo le gustaría que sus estudiantes obtengan su certificado:
-<ul>
-<li>Abrir en Navegador: Abre el certificado en una ventana nueva del navegador de Internet.</li>
-<li>Forzar descarga: Abre la ventana del navegador para descargar un archivo.</li>
-<li>Email certificado: Al elegir esta opción se envía el certificado al estudiante mediante un anexo de un mensaje de Email.</li>
-<li>Después de que un usuario reciba su certificado, si elige el enlace del certificado dentro de la página del curso, verán la fecha en que recibieron dicho certificado y podrán revisar el certificado recibido.</li>
-</ul>';
+
+Abrir en Navegador: Abre el certificado en una ventana nueva del navegador de Internet.
+Forzar descarga: Abre la ventana del navegador para descargar un archivo.
+Email certificado: Al elegir esta opción se envía el certificado al estudiante mediante un anexo de un mensaje de Email.
+
+Después de que un usuario reciba su certificado, si elige el enlace del certificado dentro de la página del curso, verán la fecha en que recibieron dicho certificado y podrán revisar el certificado recibido.';
 $string['designoptions'] = 'Opciones de Diseño';
 $string['download'] = 'Forzar descarga';
 $string['emailcertificate'] = 'Email';

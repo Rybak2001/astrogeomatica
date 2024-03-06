@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mediawiki_search', language 'es_mx', version '4.2'.
+ * Strings for component 'block_mediawiki_search', language 'es_mx', version '3.10'.
  *
  * @package     block_mediawiki_search
  * @category    string
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['blockaddress'] = 'Dirección Wiki';
 $string['blockaddress_help'] = 'La dirección del wiki. Debería ser algo similar a: http://www.miwiki.org.mx/index.php';
 $string['blocklogo'] = 'Logo de Wiki';
-$string['blocklogo_help'] = 'La ubicación de la imagen del logo del wiki';
+$string['blocklogo_help'] = 'La localización de la imagen del logo del wiki';
 $string['blocksettings'] = 'Configuraciones';
 $string['blocktitle'] = 'Título del bloque';
 $string['blocktitle_help'] = 'El título para esta instancia del bloque. Aparece en el encabezado del bloque';

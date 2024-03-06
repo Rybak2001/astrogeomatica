@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_moodlebox', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_moodlebox', language 'es_mx', version '3.10'.
  *
  * @package     tool_moodlebox
  * @category    string
@@ -28,11 +28,14 @@ defined('MOODLE_INTERNAL') || die();
 $string['badpowersupply'] = '<p><b>¡Advertencia: bajo-voltaje detectado!</b> El suministro de energía de la MoodleBox es inadecuado, lo cual puede causar varios problemas, como por ejemplo una limitante en el número de clientes de Wi-Fi o inclusive un repentino apagón del dispositivo.</p><p>Se le recomienda encarecidamente que  <b>cambie su adaptador de energía</b>, de preferencia por el <a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/" target="_blank">official Raspberry Foundation power supply</a>, y que use un cable de buena calidad para conectarlo al MoodleBox.</p>';
 $string['changepassworderror'] = 'La contraseña de MoodleBox no ha cambiado. Las contraseñas no coinciden.';
 $string['changepasswordmessage'] = 'La contraseña principal de la MoodleBox  (cuenta UNIX) y del servidor de la base de datos fueron exitosamente cambiadas.<br /><br />¡Advertencia! La contraseña del usuario administrador de Moodle <b>NO fue cambiada</b>. Para cambiarla, por favor use la página de preferencias de este usuario.';
+$string['changepasswordsetting'] = 'Cambio de contraseña de MoodleBox';
+$string['changewifipassword'] = 'Cambiar contraseña Wi-Fi';
 $string['changewifisettings'] = 'Cambiar configuraciones Wi-Fi';
 $string['configuration'] = 'Configuraciones de MoodleBox';
 $string['cpufrequency'] = 'Frecuencia del CPU';
 $string['cpuload'] = 'Carga del CPU';
 $string['cputemperature'] = 'Temperatura del CPU';
+$string['currentwifipassword'] = 'Contraseña Wi-Fi actual';
 $string['dashboard'] = 'Tablero de MoodleBox';
 $string['datetime'] = 'fecha y Hora';
 $string['datetime_help'] = 'Si la MoodleBox no está conectada a Internet, no tendrá su hora del reloj a tiempo. Se puede configurar manualmente usando este ajuste.';
@@ -50,7 +53,6 @@ $string['dynamicipaddress'] = 'Dirección IP (dinámica)';
 $string['ethernetdisconnected'] = 'Ethernet desconectado';
 $string['forum'] = 'Foro de soporte de MoodleBox';
 $string['forum_desc'] = '<p>Si no puede encontrar una respuesta a su pregunta en la  <a href="https://moodlebox.net/en/help/" title="MoodleBox documentation" target="_blank">MoodleBox documentation</a>, busque en el <a href="https://discuss.moodlebox.net/" title="MoodleBox forum" target="_blank">MoodleBox support forum</a> para ver si su pregunta ya ha sido contestada. En caso contrario, siéntase en libertad de abrir una nueva discusión.</p>';
-$string['hardwareinfo'] = 'Información del \'\'hardware\'\'';
 $string['hidden'] = 'Oculta';
 $string['ihavedonated'] = '¡Yo he donado! 🎉';
 $string['ihavedonated_desc'] = 'Activar esta casilla si <a href="https://moodlebox.net/en/donate/" title="Make a donation" target="_blank">Usted ha donado</a> al proyecto MoodleBox.<br />Esta configuración no tiene efecto en absoluto, smplemente le permite mostrar su orgullo al haber contribuido al <a href="https://moodlebox.net/en/" title="MoodleBox website" target="_blank">MoodleBox project</a>. ¡Muchas gracias!';
@@ -62,6 +64,9 @@ $string['ipaddress'] = 'Dirección IP';
 $string['kernelversion'] = 'Versión del kernel';
 $string['missingconfigurationerror'] = 'Esta sección no está disponible.  La instalación del plugin no está completa, por lo que la configuración no puede ser manejada por la MoodleBox. Por favor, lea la  <a href="https://github.com/moodlebox/moodle-tool_moodlebox/blob/master/README.md" target="_blank">installation documentation</a>   para corregir este error.';
 $string['moodlebox:viewbuttonsinfooter'] = 'Ver botones para reiniciar y apagar en el pie de página';
+$string['moodleboxinfo'] = 'Versión de MoodleBox';
+$string['moodleboxinfofileerror'] = 'Información no disponible';
+$string['moodleboxpluginversion'] = 'Versión del plugin de MoodleBox';
 $string['moodleboxsysteminfo'] = 'Información de MoodleBox';
 $string['moodleboxsysteminfo_help'] = 'El tablero de información de MoodleBox muestra varios datos importantes acerca de MoodleBlox. Esta información incluye:
 
@@ -71,6 +76,8 @@ $string['moodleboxsysteminfo_help'] = 'El tablero de información de MoodleBox m
 * Modelo y sistema operativo de la Raspberry Pi
 * Versión de MoodleBox y versión del plugin de MoodleBox';
 $string['networkinterface'] = 'Interfaz cableada de red';
+$string['newwifipassword'] = 'Nueva contraseña Wi-Fi';
+$string['nopassworddefined'] = 'Sin contraseña Wi-Fi definida';
 $string['parameter'] = 'Parámetro';
 $string['passwordprotected'] = 'Protegido por contraseña';
 $string['passwordsetting'] = 'Contraseña MoodleBox';
@@ -84,7 +91,7 @@ $string['pijuicestatuserror'] = 'PiJuice estado';
 $string['pluginname'] = 'MoodleBox';
 $string['pluginversion'] = 'Versión del plugin de MoodleBox';
 $string['privacy:metadata'] = 'El plugin MoodleBox muestra información desde el Raspberry Pi y permite algunos cambios de configuración, pero no afecta ni almacena datos personales por sí mismo.';
-$string['projectinfo'] = '<p>El <a href="https://moodlebox.net/en/" title="MoodleBox website" target="_blank">Proyecto MoodleBox</a> es un proyecto voluntario, no lucrativo, de código abierto, implementado por <a href="https://blog.martignoni.net/a-propos/" title="Nicolas Martignoni" target="_blank">Nicolas Martignoni</a> en su tiempo libre.</p><p> Le agradecemos por usar MoodleBox. Usted puede demostrar su aprecio y apoyar este proyecto al <a href="https://moodlebox.net/en/donate/" title="Make a donation" target="_blank">hacer un donativo</a> ❤. Su donativo ayudará a financiar el equipo necesario para desarrollar la MoodleBox y alojar su documentación.</p>';
+$string['projectinfo'] = '<p>El <a href="https://moodlebox.net/en/" title="MoodleBox website" target="_blank">Proyecto MoodleBox</a> es un proyecto voluntario, no lucrativo, de código abierto, implementado por <a href="https://blog.martignoni.net/a-propos/" title="Nicolas Martignoni" target="_blank">Nicolas Martignoni</a> en su tiempo libre.</p><p>Le agradecemos por usar MoodleBox. Usted puede demostrar su aprecio y apoyar este proyecto al <a href="https://moodlebox.net/en/donate/" title="Make a donation" target="_blank">hacer un donativo</a> ❤. Su donativo ayudará a financiar el equipo necesario para desarrollar la MoodleBox y alojar su documentación.</p>';
 $string['raspberryhardware'] = 'Modelo de Raspberry Pi';
 $string['raspbianversion'] = 'Versión de Raspbian';
 $string['resizepartition'] = 'Re-cambiar tamaño de partición de tarjeta SD';
@@ -95,30 +102,25 @@ $string['restart'] = 'Reiniciar MoodleBox';
 $string['restartmessage'] = 'La MoodleBox está reiniciando. Estará de nuevo en-línea en un momentito.';
 $string['restartstop'] = 'Reiniciar y apagar';
 $string['restartstop_help'] = 'Use estos botones para reiniciar o para desactivar la MoodleBox. Se le recomienda encarecidamente que NO desenche el cable de energía para apagar la MoodleBox.';
-$string['revision'] = 'Revisión del modelo';
-$string['revisioncode'] = 'Código de revisión del modelo';
 $string['rpi1'] = 'Raspberry Pi 1';
 $string['rpi2'] = 'Raspberry Pi 2B';
+$string['rpi3'] = 'Raspberry Pi 3B';
 $string['rpi3aplus'] = 'Raspberry Pi 3A+';
 $string['rpi3b'] = 'Raspberry Pi 3B';
 $string['rpi3bplus'] = 'Raspberry Pi 3B+';
 $string['rpi400'] = 'Raspberry Pi 400';
 $string['rpi4eightgb'] = 'Raspberry Pi 4B (8 GB RAM)';
 $string['rpi4fourgb'] = 'Raspberry Pi 4B (4 GB RAM)';
+$string['rpi4fourmb'] = 'Raspberry Pi 4B (4 MB RAM)';
 $string['rpi4onegb'] = 'Raspberry Pi 4B (1 GB RAM)';
+$string['rpi4onemb'] = 'Raspberry Pi 4B (1 MB RAM)';
 $string['rpi4twogb'] = 'Raspberry Pi 4B (2 GB RAM)';
-$string['rpi5eightgb'] = 'Raspberry Pi 5 (8GB RAM)';
-$string['rpi5fourgb'] = 'Raspberry Pi 5 (4GB RAM)';
+$string['rpi4twomb'] = 'Raspberry Pi 4B (2 MB RAM)';
 $string['rpiosversion'] = 'Versión del Sistema Operativo de Raspberry Pi';
-$string['rpizero2w'] = 'Raspberry Pi Cero 2 W';
 $string['rpizerow'] = 'Raspberry Pi Zero W';
 $string['sdcardavailablespace'] = 'Espacio libre en tarjeta SD';
-$string['showbuttonsinfooter'] = 'Mostrar botones de reinicio y apagado en pie de página';
+$string['showbuttonsinfooter'] = 'Mostrar botones en pie de página';
 $string['showbuttonsinfooter_desc'] = 'Si se habilita, los botones para reiniciar y apagar son mostrados en el pie de página de todas las páginas del sitio cuando se ha ingresado como un administrador o un mánager (gestor).';
-$string['showdatetimebuttonsinfooter'] = 'Mostrar configuración de fecha y hora en pie de página';
-$string['showdatetimebuttonsinfooter_desc'] = 'Si se habilita, la configuración de fecha y hora son mostradas en el pie de página de todas las páginas del sitio cuando esté ingresado como administrador o como mánager.';
-$string['showrestartshutdownbuttonsinfooter'] = 'Mostrar botones de reinicio y apagado en pie de página';
-$string['showrestartshutdownbuttonsinfooter_desc'] = 'Si se habilita, los botones de reinicio y apagado son mostradas en el pie de página de todas las páginas del sitio cuando esté ingresado como administrador o como mánager.';
 $string['shutdown'] = 'Apagar MoodleBox';
 $string['shutdownmessage'] = 'La MoodleBox está apagándose. Por favor espere unos cuantos segundos antes de desconectar la alimentación de energía.';
 $string['softwareversions'] = 'Versiones de software';
@@ -126,9 +128,9 @@ $string['staticipaddress'] = 'Dirección IP (estática)';
 $string['staticipaddress_help'] = 'Esta es la dirección IP estática del punto de acceso Wi-Fi de MoodleBox. También define el rango DHCP de direcciones IP dadas a clientes Wi-Fi. Debe se una dirección IP <strong>privada</strong> válida, como por ejemplo "10.10.1.1", "172.23.222.1" o "192.168.222.1". Su último segmento será forzado a 1.';
 $string['staticipaddressinvalid'] = 'La dirección IP es inválida. Debe ser una dirección IP <strong>privada</strong> válida, como por ejemplo "10.10.1.1", "172.23.222.1" o "192.168.222.1".';
 $string['systeminfo'] = 'Información del sistema';
-$string['undervoltagedetected'] = '<p><b>¡Advertencia: bajo voltaje detectado!</b> El suministro de energía de la MoodleBox es inadecuado, lo cual puede causar varios problemas, por ejemplo una limitante en el número de clientes de Wi-Fi o inclusive un apagón repentino del dispositivo.</p><p>Se recomienda encarecidamente que  <b>cambie su adaptador de energía</b>, de preferencia por la <a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/" target="_blank">Fuente de poder Micro USB 12.5W para Raspberry Pi</a> oficial para Raspberry Pi 3A+ 3B, 3B+, Zero W y Zero 2 W, o <a href="https://www.raspberrypi.com/products/type-c-power-supply/" target="_blank">Fuente de poder USB-C 15W para Raspberry Pi</a> para Raspberry Pi 4B.</p>';
-$string['undervoltageoccurred'] = '<p>Ha ocurrido una situación de bajo voltaje desde la última vez que arrancó la MoodleBox. Esto podría indicar que el suministro de energía de la MoodleBox es inadecuado, lo cual puede causar varios problemas, por ejemplo una limitante en el número de clientes de Wi-Fi o inclusive un apagón repentino del dispositivo.</p><p>Se recomienda encarecidamente que  <b>cambie su adaptador de energía</b>, de preferencia por la <a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/" target="_blank">Fuente de poder Micro USB 12.5W para Raspberry Pi</a> oficial para Raspberry Pi 3A+ 3B, 3B+, Zero W y Zero 2 W, o <a href="https://www.raspberrypi.com/products/type-c-power-supply/" target="_blank">Fuente de poder USB-C 15W para Raspberry Pi</a> para Raspberry Pi 4B.</p>';
-$string['unknownmodel'] = 'Modelo de Raspberry Pi desconocido o NO soportado';
+$string['undervoltagedetected'] = '<p><b>¡Advertencia: bajo-voltaje detectado!</b> El suministro de energía de la MoodleBox es inadecuado, lo cual puede causar varios problemas, como por ejemplo una limitante en el número de clientes de Wi-Fi o inclusive un repentino apagón del dispositivo.</p><p>Se le recomienda encarecidamente que  <b>cambie su adaptador de energía</b>, de preferencia por el <a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/" target="_blank">official Raspberry Foundation power supply</a>, y que use un cable de buena calidad para conectarlo al MoodleBox.</p>';
+$string['undervoltageoccurred'] = '<p>Ha ocurrido una situación de bajo voltaje desde la última vez que arrancó la MoodleBox. Esto podría indicar que el suministro de energía de la MoodleBox es inadecuado, lo cual puede causar varios problemas, como por ejemplo una limitante en el número de clientes de Wi-Fi o inclusive un repentino apagón del dispositivo.</p><p>Se le recomienda encarecidamente que  <b>cambie su adaptador de energía</b>, de preferencia por el <a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/" target="_blank">official Raspberry Foundation power supply</a>, y que use un cable de buena calidad para conectarlo al MoodleBox.</p>';
+$string['unknownmodel'] = 'Modelo de Raspberry Pi desconocido';
 $string['unsupportedhardware'] = '¡Hardware de servidor no-soportado detectado! Este plugin solamente funciona en Raspberry Pi';
 $string['uptime'] = 'Tiempo-arriba del sistema';
 $string['version'] = 'Versión de MoodleBox';
@@ -139,9 +141,13 @@ $string['wificountry'] = 'País regulatorio Wi-Fi';
 $string['wificountry_help'] = 'Por razones legales, se recomienda conffigurar su país como el país regulatorio del Wi-Fi.';
 $string['wifipassword'] = 'Contraseña Wi-Fi';
 $string['wifipassword_help'] = 'Si Usted ha elegido una red Wi-Fi protegida por contraseña, para impedir que los extraños usen la red Wi-Fi de MoodleBox; se recomienda cambiar su contraseña predeterminada. La contraseña de la red Wi-Fi debe tener entre 8 y 32 caracteres ASCII imprimibles (minúsculas y MAYÚSCULAS, números, signos de puntuación y algunos otros símbolos misceláneos)..';
+$string['wifipassworderror'] = 'La contraseña de red Wi-Fi debe tener entre 8 y 63 caracteres.';
 $string['wifipasswordinvalid'] = 'La contraseña de red Wi-Fii es inválida. Debe tener entre 3 y 63 caracteres imprimibles ASCII (letras MAYÚSCULAS y minúsculas, números, signos de puntuación y algunos cuantos símbolos misceláneos).';
+$string['wifipasswordmessage'] = 'La contraseña de red Wi-Fi fue cambiada. No se le olvide comunicárselo a sus estudiantes.';
 $string['wifipasswordon'] = 'Protección de contraseña de red Wi-Fi';
 $string['wifipasswordon_help'] = 'Si se habilita, los usuarios tendrán que escribir una contraseña para conectarse a la red Wi-Fi de la MoodleBox.';
+$string['wifipasswordonhelp'] = 'Si se habilita, los usuarios tienen que escribir una contraseña para comunicarse a la red  Wi-Fi de MoodleBox.';
+$string['wifipasswordsetting'] = 'Cambio de contraseña de red Wi-Fi';
 $string['wifisettings'] = 'Configuraciones Wi-Fi';
 $string['wifisettingserror'] = 'Las configuraciones de Wi-Fi no fueron cambiadas. Algunas configuraciones no son válidas.';
 $string['wifisettingsmessage'] = 'Se cambiaron las configuraciones Wi-Fi. No olvide comunicarles el nuevo SSID y la nueva contraseña a sus estudiantes.';

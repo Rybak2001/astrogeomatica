@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topicsactivitycards', language 'es_mx', version '4.2'.
+ * Strings for component 'format_topicsactivitycards', language 'es_mx', version '3.10'.
  *
  * @package     format_topicsactivitycards
  * @category    string
@@ -25,45 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activitydescription'] = 'Anular descripción de actividad';
-$string['additionalcssclasses'] = 'Clases CSS adicionales';
-$string['addsections'] = 'Añadir sección';
-$string['cardfooter'] = 'Pie de página de tarjeta';
-$string['cardimage'] = 'Imagen de tarjeta';
-$string['cardimagedescription'] = 'Una imagen de 398px por 174px';
-$string['cardvideo'] = 'Video de tarjeta';
-$string['cleanandtruncatedescription'] = 'Limpiar y truncar descripción';
-$string['collapsedefault'] = 'Colapsado de forma predeterminada';
-$string['collapsible'] = 'Colapsible';
-$string['coursedefault'] = 'Predeterminado del curso';
-$string['currentsection'] = 'Esta sección';
-$string['defaultsectionheading'] = 'Diseño predeterminado de sección';
-$string['defaultsectionlayout'] = 'Diseño predeterminado de actividades';
-$string['deletesection'] = 'Eliminar sección';
-$string['done'] = 'Hecho';
-$string['duration'] = 'Duración';
-$string['editsection'] = 'Editar sección';
-$string['editsectionname'] = 'Editar nombre de sección';
-$string['failed'] = 'Reprobado';
-$string['fixedwidth'] = 'Ancho fijo';
-$string['fullwidth'] = 'Ancho completo';
-$string['hidefromothers'] = 'Ocultar sección';
-$string['invalidcss'] = 'Clases CSS inválidas';
-$string['newsectionname'] = 'Nuevo nombre para sección {$a}';
-$string['overlaycardimage'] = 'Sobrepuesto imagen tarjeta';
-$string['overridefixedwidthcoursepage'] = 'Ancho de página del curso';
-$string['overridesectionsummary'] = 'Anular resumen de sección';
+$string['hidefromothers'] = 'Ocultar tópico';
 $string['pluginname'] = 'Formato de tarjetas de actividad para tópicos';
-$string['renderwidth'] = 'Ancho (de 12)';
-$string['returntocourse'] = 'Regresar al curso';
-$string['section0_onsectionpageslabel'] = 'Mostrar sección cero en secciones enlazadas';
-$string['sectionheading'] = 'Diseño de sección';
-$string['sectionheading_card_withcontents'] = 'Tarjeta con actividades';
-$string['sectionheading_header'] = 'Encabezado con actividades';
-$string['sectionheading_linkedcard'] = 'Tarjeta enlazada';
-$string['sectionlayout'] = 'Diseño de actividades de sección';
-$string['sectionlayout_cards'] = 'Tarjetas';
-$string['sectionlayout_list'] = 'Lista';
-$string['sectionname'] = 'Sección';
-$string['showfromothers'] = 'Mostrar sección';
-$string['todo'] = 'Por hacer';
+$string['privacy:metadata'] = 'El plugin de Formato de tarjetas de actividad para tópicos no almacena ningún dato personal.';
+$string['showfromothers'] = 'Mostrar tópico';

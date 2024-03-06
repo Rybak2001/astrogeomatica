@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mootivated', language 'es_mx', version '4.2'.
+ * Strings for component 'local_mootivated', language 'es_mx', version '3.10'.
  *
  * @package     local_mootivated
  * @category    string
@@ -45,8 +45,6 @@ $string['deleteschool'] = 'Eliminar sección';
 $string['disabled'] = 'Deshabilitado';
 $string['disableuserimages'] = 'Error: El sitio ha deshabilitado imágenes de usuario.';
 $string['doitforme'] = '¡ Si.hazlo para mí !';
-$string['enableaddon'] = 'Habilitar adicionales';
-$string['enableaddon_help'] = 'Un adicional debe estar habilitado para funcionar.';
 $string['enabled'] = 'Habilitado';
 $string['enablelocalnotifications'] = 'Habilitar notificaciones';
 $string['enablelocalnotifications_desc'] = 'Cuando se habilita, los usuarios pueden recibir notificaciones Moodle relacionadas con su experiencia Mootivated/Mootrain. Tenga en cuenta que esto requiere que sea habilitada la opción _Send username_';
@@ -148,7 +146,6 @@ $string['schoolid'] = 'ID de sección';
 $string['schoolid_help'] = 'Su ID de sección Mootivada';
 $string['schooln'] = '[Sección {$a}]';
 $string['schoolsaved'] = 'La sección fue guardada exitosamente';
-$string['schoolusersqueuedforpush'] = 'Los usuarios en esta sección serán empujados al tablero pronto.';
 $string['senduserinformation'] = 'Enviar información del usuario';
 $string['senduserinformation_help'] = 'Enviar el nombre del usuario, apellido, nombre_de_usuario y dirección Email a los servidores Motrain/Mootivated.';
 $string['sendusername'] = 'Enviar Nombre_de_usuario';
@@ -157,7 +154,7 @@ $string['serverip'] = 'Host del servidor';
 $string['serverip_desc'] = 'El host del servidor Mootrain/Mootivated. Por favor refiérase a la guía de configuración del plugin.';
 $string['settingssaved'] = 'Configuraciones guardadas';
 $string['setup'] = 'Configuración';
-$string['setupnotcomplete'] = 'Ups, hay partes faltantes que necesitan configurarse. ¿Quieres que las configure por tí?';
+$string['setupnotcomplete'] = 'Órale, hay partes faltantes que necesitan configurarse. ¿ Quieres que las configure por tí ?';
 $string['setupstatus'] = 'Estatus de configuración';
 $string['ssosecret'] = 'Secreto SSO';
 $string['ssosecret_desc'] = 'El secreto para habilitar Ingreso Único (Single Sign-On) entre Moodle y el tablero. Este secreto puede ser obtenido desde la interfaz del tablero para su  cuenta. Déjelo vacío para deshabilitar SSO por completo. Tenga en cuenta que los usuarios necesitan tener el permiso  _local/mootivated:ssodashboard_ y una dirección de Email idéntica de la cuenta de usuario en el tablero.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plugin', language 'es_mx', version '4.2'.
+ * Strings for component 'plugin', language 'es_mx', version '3.10'.
  *
  * @package     plugin
  * @category    string
@@ -67,7 +67,6 @@ $string['moodleversion'] = 'Moodle {$a}';
 $string['noneinstalled'] = 'No hay plugins instalados de este tipo';
 $string['notdownloadable'] = 'No puede descargarse el paquete';
 $string['notdownloadable_help'] = 'El paquete ZIP con la actualización no pudo descargarse automáticamente.';
-$string['notdownloadable_link'] = 'admin/mdeploy/notdownloadable';
 $string['notes'] = 'Notas';
 $string['notsupported'] = 'El plugin podría no ser compatible con Moodle versión {$a}';
 $string['notwritable'] = 'Los archivos de plugins no son escribibles';
@@ -126,8 +125,6 @@ $string['type_calendartype'] = 'Tipo de calendario';
 $string['type_calendartype_plural'] = 'Tipos de calendarios';
 $string['type_contentbank'] = 'Banco de contenido';
 $string['type_contentbank_plural'] = 'Plugins del banco de contenido';
-$string['type_contenttype'] = 'Banco de contenido';
-$string['type_contenttype_plural'] = 'Plugins del banco de contenido';
 $string['type_coursereport'] = 'Reporte de curso';
 $string['type_coursereport_plural'] = 'Resportes de curso';
 $string['type_customfield'] = 'Campo personalizado';
@@ -176,8 +173,6 @@ $string['type_portfolio'] = 'Portafolio';
 $string['type_portfolio_plural'] = 'Portafolios';
 $string['type_profilefield'] = 'Tipo de campo de perfil';
 $string['type_profilefield_plural'] = 'Tipos de campos de perfiles';
-$string['type_qbank'] = 'Plugin del banco de preguntas';
-$string['type_qbank_plural'] = 'Plugins del banco de preguntas';
 $string['type_qbehaviour'] = 'Comportamiento de preguntas';
 $string['type_qbehaviour_plural'] = 'Comportamientos de preguntas';
 $string['type_qformat'] = 'Formato para importar/exportar preguntas';
@@ -227,7 +222,6 @@ $string['validationmsg_maturity'] = 'Nivel de madurez declarado';
 $string['validationmsg_maturity_help'] = 'El plugin puede declarar su nivel de madurez. Si el mantenedor considera que el plugin es estable, el nivel de madurez declarado leerá MATURITY_STABLE. Todos los demás niveles de madurez (como alfa o beta) deberían de considerarse inestables y se levantará una advertencia.';
 $string['validationmsg_missingcomponent'] = 'El plugin no declara el nombre de su componente';
 $string['validationmsg_missingcomponent_help'] = 'Todos los plugins deben de proporcionar su nombre completo mediante la declaración de  `$plugin->component` en el archivo version.php file.';
-$string['validationmsg_missingcomponent_link'] = 'Development:version.php';
 $string['validationmsg_missingexpectedlangenfile'] = 'Discrepancia de nombre del archivo de idioma Inglés';
 $string['validationmsg_missingexpectedlangenfile_info'] = 'Al tipo de plugin dado le falta el archivo de idioma Inglés esperado {$a}.';
 $string['validationmsg_missinglangenfile'] = 'No se encontró el archivo del idioma Inglés';

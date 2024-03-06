@@ -1,0 +1,8 @@
+s:462:"<p>Existen 4 tipos de calificación:</p>
+
+<ul><li>Ninguna - No hay calificación posible</li>
+<li>Valor - Un valor numérico con máximo y mínimo</li>
+<li>Escala - Un item de una lista</li>
+<li>Texto - Solo retroalimentación.</li>
+</ul><p>Solamente pueden agregarse los tipos de calificación de valor y de escala. El tipo de calificación para un item de calificación basado en una actividad se configura en la página de configuración de la actividad.</p>
+";

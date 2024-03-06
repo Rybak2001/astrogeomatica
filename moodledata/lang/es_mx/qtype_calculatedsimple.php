@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculatedsimple', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_calculatedsimple', language 'es_mx', version '3.10'.
  *
  * @package     qtype_calculatedsimple
  * @category    string
@@ -32,7 +32,6 @@ $string['generatenewitemsset'] = 'Generar';
 $string['newsetwildcardvalues'] = 'nuevo(s) conjunto(s) de valores de comodin(es)';
 $string['pluginname'] = 'Calculada simple';
 $string['pluginname_help'] = 'Las preguntas calculadas simples permiten crear preguntas numéricas utilizando comodines que son sustituidos por valores concretos cuando se realiza el examen. Las preguntas calculadas simples ofrecen las opciones más utilizadas en las preguntas calculadas con una interfaz de creación más sencilla.';
-$string['pluginname_link'] = 'question/type/calculatedsimple';
 $string['pluginnameadding'] = 'Añadiendo una pregunta simple calculada';
 $string['pluginnameediting'] = 'Editando una pregunta simple calculada';
 $string['pluginnamesummary'] = 'Una versión más simple de preguntas calculadas, que son como las preguntas numéricas, pero con los valores seleccionados aleatoriamente de un conjunto cuando se hace el examen.';

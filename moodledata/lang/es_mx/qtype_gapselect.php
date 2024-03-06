@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_gapselect', language 'es_mx', version '4.2'.
+ * Strings for component 'qtype_gapselect', language 'es_mx', version '3.10'.
  *
  * @package     qtype_gapselect
  * @category    string
@@ -27,7 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['addmorechoiceblanks'] = 'Espacios vacíos para {no} más opciones';
 $string['answer'] = 'Respuesta';
-$string['blanknumber'] = 'Vacío {$a}';
 $string['choices'] = 'Opciones';
 $string['choicex'] = 'Opción [[{no}]]';
 $string['combinedcontrolnamegapselect'] = 'menú desplegable';
@@ -41,16 +40,10 @@ $string['group'] = 'Grupo';
 $string['pleaseputananswerineachbox'] = 'Por favor ponga una respuesta en cada caja';
 $string['pluginname'] = 'Seleccionar palabras faltantes';
 $string['pluginname_help'] = 'Las preguntas de seleccionar palabras faltantes requieren que el usuario seleccione las respuestas correctas de menús desplegables. Se usan [[1]], [[2]], [[3]], ... como reemplazables dentro del texto de la pregunta, con las respuestas correctas especificadas como opciones de respuestas 1, 2, 3, ... respectivamente. Pueden añadirse opciones de respuestas extra para hacer la pregunta más difícil. Las opciones de respuestas pueden agruparse para restringir las respuestas disponibles en cada menú desplegable.';
-$string['pluginname_link'] = 'question/type/gapselect';
 $string['pluginnameadding'] = 'Añadiendo una pregunta de seleccionar palabra faltante';
 $string['pluginnameediting'] = 'Editando una pregunta de seleccionar palabras faltantes';
 $string['pluginnamesummary'] = 'Las palabras faltantes en el texto de la pregunta son llenadas usando menús desplegables.';
-$string['privacy:metadata'] = 'El plugin de tipo de pregunta Seleccionar palabras faltantes le permite a los autores de pregunta el configurar opciones predeterminadas como preferencias del usuario.';
-$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
-$string['privacy:preference:penalty'] = 'La penalización para cada intento incorrecto cuando las preguntas son empleadas con el comportamiento \'Interactivo con intentos múltiples\' o el \'Modo adaptativo\'.';
-$string['privacy:preference:shuffleanswers'] = 'Si es que las respuestas deberían o no ser barajadas automáticamente.';
-$string['regradeissuenumchoiceschanged'] = 'El número de opciones en grupo {$a} cambió.';
-$string['regradeissuenumgroupsschanged'] = 'El número de grupos de opciones ha cambiado.';
+$string['privacy:metadata'] = 'El plugin de tipo de pregunta Seleccionar palabras faltantes no almacena ningún dato personal.';
 $string['shuffle'] = 'Barajar';
 $string['tagsnotallowed'] = '{$a->tag} no está permitido. (Sólamente {$a->allowed} están permitidos.)';
 $string['tagsnotallowedatall'] = '{$a->tag} no está permitido. (No está permitido  HTML aquí.)';

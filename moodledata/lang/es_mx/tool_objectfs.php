@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_objectfs', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_objectfs', language 'es_mx', version '3.10'.
  *
  * @package     tool_objectfs
  * @category    string
@@ -27,15 +27,16 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['delete_local_objects_task'] = 'Trabajo de asunto local eliminar sistema de archivo de objeto';
 $string['generate_status_report_task'] = 'Trabajo generador de reporte de estatus del objeto';
-$string['not_enabled'] = 'No están habilitados los trabajos en segundo plano del sistema de archivo de objeto. No se moverá ubicación de objetos hasta que Usted lo haga.';
+$string['not_enabled'] = 'No están habilitados los trabajos en segundo plano del sistema de archivo de objeto. No se moverá localización de objetos hasta que Usted lo haga.';
+$string['object_status:files'] = 'Objetos';
 $string['object_status:last_run'] = 'Este reporte fue generado en {$a}';
-$string['object_status:location'] = 'Ubicación del objeto';
+$string['object_status:location'] = 'Localización del objeto';
 $string['object_status:location:duplicated'] = 'Duplicado en directorio_de_archivos y almacenamiento externo';
 $string['object_status:location:error'] = 'Faltante en directorio_de_archivos y almacenamiento externo';
 $string['object_status:location:external'] = 'Solamente en almacenamiento externo';
 $string['object_status:location:local'] = 'Solamente en directorio_de_archiv';
 $string['object_status:location:total'] = 'Total';
-$string['object_status:location:unknown'] = 'Ubicación de objeto desconocida';
+$string['object_status:location:unknown'] = 'Localización de objeto desconocida';
 $string['object_status:never_run'] = 'El trabajo para generar este reporte no ha sido corrido.';
 $string['object_status:page'] = 'Estatus del objeto';
 $string['object_status:size'] = 'Tamaño total';
@@ -62,6 +63,7 @@ $string['settings:azure:sastoken'] = 'Firma de Acceso Compartido';
 $string['settings:azure:sastoken_help'] = 'Esta Firma de Acceso Compartido debería de tener solamente las siguientes dos capacidades: Read, write (Leer, escribir).';
 $string['settings:clientnotavailable'] = 'El cliente configurado \'{$a}\' no está disponible. or favor instale las dependencias requeridas.';
 $string['settings:clientselection:header'] = 'Selección de Sistema de Archivo de Almacenamiento';
+$string['settings:clientselection:matchfilesystem'] = 'esta configuración coincide con $CFG->alternative_file_system_class';
 $string['settings:clientselection:mismatchfilesystem'] = 'Esta configuración no coincide con $CFG->alternative_file_system_class';
 $string['settings:clientselection:title'] = 'Sistema de Archivo de Almacenamiento';
 $string['settings:clientselection:title_help'] = 'El sistema de archivos de almacenamiento. Esto es también el sistema de archivo activo para los trabajos en segundo plano.';
@@ -86,7 +88,7 @@ $string['settings:minimumage'] = 'Edad mínima';
 $string['settings:minimumage_help'] = 'Edad mínima que debe existir un objeto en el directorio_de_archivos local antes de que sea considerado';
 $string['settings:permissioncheckpassed'] = 'Revisión de permisos pasada.';
 $string['settings:preferexternal'] = 'Preferir objetos externos';
-$string['settings:preferexternal_help'] = 'Si un archivo está almacenado tanto localmente como en un almacenamiento de objeto externo, leer desde externo\\. esta configuración es principalmente para fines de prueba e introduce un overhead (exceso de trabajo) para revisar la ubicación.';
+$string['settings:preferexternal_help'] = 'Si un archivo está almacenado tanto localmente como en un almacenamiento de objeto externo, leer desde externo\\. esta configuración es principalmente para fines de pruebaa e introduce un overhead (exceso de trabajo) para revisar la localización.';
 $string['settings:readfailure'] = 'No pudo leerse objeto desde el almacenamiento de objetos externo.';
 $string['settings:sizethreshold'] = 'Umbral de tamaño mínimo (KB)';
 $string['settings:sizethreshold_help'] = 'Umbral de tamaño mínimo para transferir objetos a almacenamiento de objetos externo. Si los objetos son mayores de este tamaño, serán transferidos.';

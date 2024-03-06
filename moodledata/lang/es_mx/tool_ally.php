@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_ally', language 'es_mx', version '4.2'.
+ * Strings for component 'tool_ally', language 'es_mx', version '3.10'.
  *
  * @package     tool_ally
  * @category    string
@@ -81,7 +81,6 @@ $string['logger:cmiderraticpremoddelete_exp'] = 'El módulo no fue identificado 
 $string['logger:cmidresolutionfailure'] = 'No se pudo obtener la ID del módulo del curso';
 $string['logger:cmvisibilityresolutionfailure'] = 'No se pudo resolver la visibilidad del módulo del curso';
 $string['logger:failedtogetcoursesectionname'] = 'No se pudo obtener el nombre de sección del curso';
-$string['logger:filtersetupdebugger'] = 'Bitácora de configuración de filtro Ally';
 $string['logger:moduleidresolutionfailure'] = 'No se pudo resolver la ID del módulo';
 $string['logger:pushcontentliveskip'] = 'Falla al empujar contenido en vivo';
 $string['logger:pushcontentliveskip_exp'] = 'Saltando push de archivo(s) vivo(s) debido a problemas de comunicación. Push de archivo vivo será restaurado cuando el trabajo de actualizaciones de contenido sea exitoso. Por favor, revise su configuración.';

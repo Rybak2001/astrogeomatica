@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'vpl', language 'es_mx', version '4.2'.
+ * Strings for component 'vpl', language 'es_mx', version '3.10'.
  *
  * @package     vpl
  * @category    string
@@ -461,6 +461,7 @@ $string['uploadfile'] = 'Cargar archivo';
 $string['usevariations'] = 'Usar variaciones';
 $string['usewatermarks'] = 'Usar marcas de agua';
 $string['usewatermarks_description'] = 'Añade marcas de agua a los archivos de los estudiantes (sólo en lenguajes soportados)';
+$string['variation'] = 'Variación {$a}';
 $string['variation_options'] = 'Opciones de variación';
 $string['variations'] = 'Variaciones';
 $string['variations_help'] = '<p>Se pueden definir variaciones para las actividades. Las variaciones se asignan de forma aleatoria a los estudiantes.</p>

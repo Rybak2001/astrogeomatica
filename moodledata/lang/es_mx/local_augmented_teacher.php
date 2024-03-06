@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_augmented_teacher', language 'es_mx', version '4.2'.
+ * Strings for component 'local_augmented_teacher', language 'es_mx', version '3.10'.
  *
  * @package     local_augmented_teacher
  * @category    string

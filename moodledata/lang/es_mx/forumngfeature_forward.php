@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forumngfeature_forward', language 'es_mx', version '4.2'.
+ * Strings for component 'forumngfeature_forward', language 'es_mx', version '3.10'.
  *
  * @package     forumngfeature_forward
  * @category    string

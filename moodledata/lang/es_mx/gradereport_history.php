@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_history', language 'es_mx', version '4.2'.
+ * Strings for component 'gradereport_history', language 'es_mx', version '3.10'.
  *
  * @package     gradereport_history
  * @category    string
@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['allgradeitems'] = 'Todos los elementos de calificación';
+$string['allgradeitems'] = 'Todos los ítems de calificación';
 $string['allgraders'] = 'Todos los calificadores';
 $string['datefrom'] = 'Desde fecha';
 $string['datetime'] = 'Fecha y Hora';
 $string['dateto'] = 'Fecha a';
-$string['deleteditemid'] = 'Eliminar elemento con id {$a}';
+$string['deleteditemid'] = 'Eliminar ítem con id {$a}';
 $string['errajaxsearch'] = 'Error al buscar usuarios';
 $string['eventgradereportviewed'] = 'Reporte de historia de calificaciones visto';
 $string['excluded'] = 'Excluído de los cálculos';

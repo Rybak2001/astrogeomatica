@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_coursedata', language 'es_mx', version '4.2'.
+ * Strings for component 'customlabeltype_coursedata', language 'es_mx', version '3.10'.
  *
  * @package     customlabeltype_coursedata
  * @category    string
@@ -30,16 +30,13 @@ $string['configtypename'] = 'Habilitar subtipo Información del Curso';
 $string['coursedata:addinstance'] = 'Puede añadir una instancia';
 $string['coursedata:view'] = 'Puede ver el contenido';
 $string['duration'] = 'Duración';
-$string['family'] = 'meta';
 $string['followers'] = 'Cursos siguientes';
-$string['followingcourses'] = 'Cursos siguientes';
 $string['goals'] = 'Metas';
 $string['learningmethod'] = 'Método de aprendizaje';
 $string['leftcolumnratio'] = 'Proporción de columna izquierda';
 $string['objectives'] = 'Objetivos de aprendijaze del alumno';
 $string['pluginname'] = 'Elemento de curso : Información del curso';
 $string['prerequisites'] = 'Prerequisitos';
-$string['public'] = 'Audiencia';
 $string['showconcepts'] = 'Mostrar conceptos clave';
 $string['showduration'] = 'Mostrar duración';
 $string['showfollowers'] = 'Mostrar cursos siguientes';
@@ -51,7 +48,5 @@ $string['showtarget'] = 'Mostrar destino';
 $string['showteachingorganization'] = 'Mostrar organización pedagógica';
 $string['tablecaption'] = 'Subtítulo de tabla';
 $string['target'] = 'Destino';
-$string['teachingorg'] = 'Organización educativa';
 $string['teachingorganization'] = 'Organización pedagógica';
-$string['trainingid'] = 'ID de entrenamiento';
 $string['typename'] = 'Información del curso';
