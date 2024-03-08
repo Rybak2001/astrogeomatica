@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message', language 'es_mx', version '3.10'.
+ * Strings for component 'message', language 'es_mx', version '4.2'.
  *
  * @package     message
  * @category    string
@@ -41,7 +41,6 @@ $string['blocknoncontacts'] = 'Bloquear mensajes de usuarios que no figuren en m
 $string['blockuser'] = 'Bloquear usuario';
 $string['blockuserconfirm'] = '¿Está seguro de querer bloquear a {$a}?';
 $string['blockuserconfirmbutton'] = 'Bloque';
-$string['canceledit'] = 'Cancelar edición de mensajes';
 $string['cancelselection'] = 'Cancelar selección de mensaje';
 $string['cantblockuser'] = 'Usted no puede bloquear a {$a} porque ellos tienen un rol con permiso para mensajear a todos los usuarios.';
 $string['contactableprivacy'] = 'Aceptar mensaje de:';
@@ -67,9 +66,9 @@ $string['deleteselectedmessagesconfirm'] = '¿Está usted seguro de querer elimi
 $string['deleteselectedmessagesconfirmselfconversation'] = '¿Está seguro de querer eliminar los mensajes personales seleccionados?';
 $string['disableall'] = 'Deshabilitar notificaciones';
 $string['disabled'] = 'La mensajería está deshabilitada en este sitio';
-$string['disallowed'] = 'No permitido';
+$string['disallowed'] = 'Bloqueo desactivado';
 $string['editmessages'] = 'Editar mensajes';
-$string['emailtagline'] = 'Ésta es una copia del mensaje que se le ha enviado en "{$a->sitename}". Vaya a {$a->url} para contestar.';
+$string['emailtagline'] = 'Ésta es una copia del mensaje que se le ha enviado en el sitio {$a->sitename}. Vaya a <a href="{$a->url}">{$a->url}</a>  para contestar.';
 $string['enabled'] = 'Habilitado';
 $string['errorcallingprocessor'] = 'Error al llamar a la salida definida';
 $string['errorconversationdoesnotexist'] = 'La conversación no existe';
@@ -86,6 +85,7 @@ $string['eventmessageviewed'] = 'Mensaje visto';
 $string['eventnotificationsent'] = 'Notificación enviada';
 $string['eventnotificationviewed'] = 'Notificación vista';
 $string['forced'] = 'Bloqueado';
+$string['forcedmessage'] = 'Bloqueo activado';
 $string['groupconversations'] = 'Grupo';
 $string['groupinfo'] = 'Información del grupo';
 $string['guestnoeditmessage'] = 'Los invitados no pueden editar las opciones de mensajería';
@@ -97,16 +97,14 @@ $string['info'] = 'Información del usuario';
 $string['isnotinyourcontacts'] = '{$a} no está en sus contactos';
 $string['loadmore'] = 'Cargar más';
 $string['loggedin'] = 'En línea';
-$string['loggedin_help'] = 'Configurar el como le gustaríaa Usted recibir notificaciones cuando Usted está ingresado en Moodle';
-$string['loggedindescription'] = 'Cuando Usted está ingresado en Moodle';
+$string['loggedin_help'] = 'Configurar el como le gustaría a Usted recibir notificaciones cuando Usted haya iniciado sesión en Moodle';
+$string['loggedindescription'] = 'Cuando Usted haya iniciado sesión en Moodle';
 $string['loggedoff'] = 'Fuera de línea';
 $string['loggedoff_help'] = 'Configurar el como le gustaría a Usted recibir notificaciones cuando Usted no está ingresado en Moodle';
-$string['loggedoffdescription'] = 'Cuando Utsed no está ingresado en Moodle';
+$string['loggedoffdescription'] = 'Cuando Usted no haya iniciado sesión en Moodle';
 $string['managemessageoutputs'] = 'Configuraciones de notificación por defecto';
 $string['message'] = 'Mensaje';
 $string['messagecontactrequest'] = '{$a->user} está solicitando ser añadido como un contacto. Visite su página de <a href="{$a->url}">solicitudes de contacto</a> para responder a la solicitud';
-$string['messagecontactrequestsnotification'] = '{$a} quiere ser añadido como un contacto.';
-$string['messagecontactrequestsnotificationsubject'] = 'Solicitud de contacto de {$a}';
 $string['messagecontactrequestsubject'] = '{$a->sitename}: Solicitud de contacto de {$a->user}';
 $string['messagecontentaudio'] = 'Audio';
 $string['messagecontentimage'] = 'Imagen';
@@ -129,7 +127,7 @@ $string['muteconversation'] = 'Enmudecer';
 $string['mutedconversation'] = 'Conversación silenciada';
 $string['newmessage'] = 'Nuevo mensaje';
 $string['newmessagesearch'] = 'Seleccionar o buscar un contacto para mandarle un nuevo mensaje.';
-$string['newonlymsg'] = 'Mostrar sólo nuevos';
+$string['newonlymsg'] = 'Mostrar solamente nuevos';
 $string['nocontactrequests'] = 'Sin solicitudes de contacto';
 $string['nocontacts'] = 'Sin contactos';
 $string['nocontactsgetstarted'] = 'Sin contactos';
@@ -137,7 +135,6 @@ $string['nofavourites'] = 'Sin conversaciones destacadas';
 $string['noframesjs'] = 'Usar interfaz más accesible';
 $string['nogroupconversations'] = 'Sin conversaciones grupales';
 $string['noindividualconversations'] = 'Sin conversaciones privadas';
-$string['nomessages'] = 'No hay mensajes';
 $string['nomessagesfound'] = 'No se encontraron mensajes';
 $string['noncontacts'] = 'No-contactos';
 $string['nonotifications'] = 'Usted no tiene notificaciones';
@@ -156,11 +153,7 @@ $string['offline'] = 'Fuera de línea';
 $string['on'] = 'Sí';
 $string['online'] = 'En línea';
 $string['otherparticipants'] = 'Otros participantes';
-$string['outputdisabled'] = 'Salida deshabilitada';
-$string['outputdoesnotexist'] = 'No existe salida del mensaje';
-$string['outputenabled'] = 'Salida habilitada';
 $string['outputnotavailable'] = 'No disponible';
-$string['outputnotconfigured'] = 'No configurada';
 $string['page-message-x'] = 'Cualquier página de mensaje';
 $string['participants'] = 'Participantes';
 $string['pendingcontactrequests'] = 'Hay {$a} solicitudes de contactos  pendientes';
@@ -223,6 +216,9 @@ $string['privacy:metadata:preference:core_message_settings'] = 'Configuraciones 
 $string['privacy:request:preference:set'] = 'El valor de la configuración \'{$a->name}\' era \'{$a->value}\'';
 $string['privacy_desc'] = 'Usted puede restringir a quienes pueden mensajearle';
 $string['processorsettings'] = 'Configuraciones de procesador';
+$string['providerenabled'] = 'Enviando "{$a}" estado habilitado';
+$string['providerprocesorisdisallowed'] = '"{$a->provider}" en "{$a->processor}" tiene bloqueo desactivado';
+$string['providerprocesorislocked'] = '"{$a->provider}" en "{$a->processor}" tiene bloqueo activado';
 $string['removecontact'] = 'Eliminar contacto';
 $string['removecontactconfirm'] = '¿Está seguro de querer quitar a {$a} de sus contactos?';
 $string['removecoursefilter'] = 'Quitar filtro para el curso {$a}';
@@ -247,6 +243,8 @@ $string['sendbulkmessagesingle'] = 'Enviar mensaje a 1 persona';
 $string['sendcontactrequest'] = 'Enviar solicitud de contacto';
 $string['sender'] = '{$a}:';
 $string['sendingvia'] = 'Mandando "{$a->provider}" via "{$a->processor}"';
+$string['sendingviaenabled'] = 'Enviando "{$a->provider}" va "{$a->processor}" estado habilitado';
+$string['sendingvialocked'] = 'Enviando "{$a->provider}" vía "{$a->processor}" estado bloqueado';
 $string['sendingviawhen'] = 'Mandando "{$a->provider}" via "{$a->processor}" en cuanto {$a->state}';
 $string['sendmessage'] = 'Enviar mensaje';
 $string['sendmessageto'] = 'Enviar mensaje a {$a}';

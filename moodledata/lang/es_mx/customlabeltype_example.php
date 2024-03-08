@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_example', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_example', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_example
  * @category    string

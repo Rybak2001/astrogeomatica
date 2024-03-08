@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mobile', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_mobile', language 'es_mx', version '4.2'.
  *
  * @package     tool_mobile
  * @category    string
@@ -31,7 +31,9 @@ $string['androidappid_desc'] = 'Esta configuración puede dejarse como valor por
 $string['apppolicy'] = 'URL de política de App';
 $string['apppolicy_help'] = 'La URL de una política para usuarios de la App que está enlistada en la página de Acerca de en la App. Si el campo se deja vacío, en su lugar se usará la URL de la política del sitio.';
 $string['apprequired'] = 'Esta funcionalidad solamente está disponible cuando es accesada vía la App Moodle mobile o vía la App  de Escritorio.';
-$string['autologinkeygenerationlockout'] = 'La generación de clave de auto-ingreso está bloqueada. Usted necesita esperar 6 minutos entre solicitudes.';
+$string['autologinkeygenerationlockout'] = 'La generación de clave de auto-ingreso está bloqueada. Usted necesita esperar  {$a} minutos entre solicitudes.';
+$string['autologinmintimebetweenreq'] = 'Tiempo mínimo entre solicitudes de auto-ingreso.';
+$string['autologinmintimebetweenreq_desc'] = 'El tiempo mínimo entre solicitudes de auto-ingreso desde la App mobile. Si a los usuarios de la App mobile frecuentemente se les pide que introduzcan sus credenciales cuando visualizan contenido incrustado del sitio, entonces configure aquí un valor más bajo.';
 $string['autologinnotallowedtoadmins'] = 'El auto-ingreso no está permitido para los administradores del sitio.';
 $string['cachedef_plugininfo'] = 'Esto almacena la lista de plugins con adiciones Mobile (para móviles)';
 $string['cachedef_subscriptiondata'] = 'Esto almacena la información de la suscripción de la App Moodle.';
@@ -44,12 +46,12 @@ mm.user.student|Learner|en
 mm.user.student|Aprendiz|es_mx
 </pre>
 Para una lista completa de los identificadores_de_cadena, vea la documentación.';
-$string['custommenuitems'] = 'Ítems de menú personalizado';
-$string['custommenuitems_desc'] = 'Se pueden añadir ítems adicionales al menú principal de la App al especificarlos aquí. Ingrese cada ítem de menú personalizado en una línea nueva con el formato: texto del ítem, URL del enlace, método de apertura del enlace y código de idioma (opcional, para mostrarle el ítem solamente a usuarios del idioma especificado), separados por caracteres de barra vertical | .
+$string['custommenuitems'] = 'Elementos de menú personalizado';
+$string['custommenuitems_desc'] = 'Se pueden añadir elementos adicionales al menú principal de la App al especificarlos aquí. Ingrese cada elemento de menú personalizado en una línea nueva con el formato: texto del elemento, URL del enlace, método de apertura del enlace y código de idioma (opcional, para mostrarle el elemento solamente a usuarios del idioma especificado), separados por caracteres de barra vertical | .
 
 Los métodos para apertura del enlace son: app (para enlazar hacia una actividad soportada por la App), inappbrowser (para abrir un enlace en un navegador sin abandonar la App), browser (para abrir el enlace en el navegador por defecto del dispositivo afuera de la App) y embedded (para mostrar el enlace adentro de un iframe en una página nueva en la App).
 
-Cuando faltan ítems en una traducción para un idioma dado, se usarán otros idiomas como plan B a menos que  "_only" sea añadido al código de idioma.
+Cuando faltan elementos en una traducción para un idioma dado, se usarán otros idiomas como "plan B" a menos que  "_only" sea añadido al código de idioma.
 
 
 Por ejemplo:
@@ -74,28 +76,28 @@ $string['filetypeexclusionlistplaceholder'] = 'Lista de exclusión de tipo de ar
 $string['forcedurlscheme'] = 'Si Usted quiere permitir que solamente se abra su App personalizada con su marca mediante una ventana del navegador, entonces especifique su esquema de URL aquí. Si desea permitir solamente la App oficial, entonces configure el valor predeterminado. Deje el campo vacío si desea permitir cualquier App.';
 $string['forcedurlscheme_key'] = 'Esquema URL';
 $string['forcelogout'] = 'Forzar salida';
-$string['forcelogout_desc'] = 'Si se habilita, la opción de la App \'Cambiar sitio\' es remplazada por \'Salir\'. Esto resulta en que el usuario es sacado por completo del sitio. Los usuarios deberán entonces re-ingresar sus contraseñas la siguiente vez que deseen acceder al sitio.';
+$string['forcelogout_desc'] = 'Si se habilita, los usuarios son siempre sacados por completo del sitio aunque estén cambiando de cuentas. Los usuarios deberán entonces re-ingresar sus contraseñas la siguiente vez que deseen acceder al sitio.';
 $string['getmoodleonyourmobile'] = 'Obtener la App Mobile';
 $string['h5poffline'] = 'Ver contenido H5P fuera de línea';
 $string['httpsrequired'] = 'Se requiere HTTPS';
 $string['insecurealgorithmwarning'] = 'Parece que el certificado HTTPS usa un algoritmo inseguro para firmar (SHA-1). Por favor intente actualizar el certificado.';
-$string['invalidcertificatechainwarning'] = 'Parece que la cadena del certificado es inválida.';
+$string['invalidcertificatechainwarning'] = 'Parece que la cadena del certificado es inválida. Este certificado podría funcionar para unnavegador pero no para una App mobile.';
 $string['invalidcertificateexpiredatewarning'] = 'Parece que el certificado HTTPS para el sitio ha expirado.';
 $string['invalidcertificatestartdatewarning'] = 'Parece que el certificado HTTPS para el sitio todavía no es válido (con una fecha de inicio en eel futuro).';
 $string['invalidprivatetoken'] = 'Ficha (token) privada inválida. El token no debería de estar vacío ni pasado mediante parámetro GET.';
 $string['invaliduserquotawarning'] = 'La cuota del usuario (userquota) está configurada a un número inválido. Debería de configurarse a un número válido (un valor entero) en las Configuraciones de seguridad del sitio.';
 $string['iosappid'] = 'Identificador único de App iOS';
 $string['iosappid_desc'] = 'Esta configuración puede dejarse como está pr una App iOS personalizada';
+$string['launchviasiteinbrowser'] = 'Invocar vía sitio en navegador del sistema';
 $string['loginintheapp'] = 'Via la App';
 $string['logininthebrowser'] = 'Via una ventana de navegador (para plugins SSO)';
 $string['loginintheembeddedbrowser'] = 'Via un navegador incrustado (para plugins SSO)';
-$string['logoutconfirmation'] = '¿Está seguro de querer salir de la App Mobile en sus dispositivos móviles? Al salirse, Usted necesitará re-ingresar su nombre_de_usuario y contraseña en la App Mobile en todos los dispositivos donde tenga instalada la App.';
+$string['logoutconfirmation'] = '¿Está seguro de querer salir de la App Mobile en sus dispositivos móviles? Al salirse, Usted necesitará re-ingresar su usuario y contraseña en la App Mobile en todos los dispositivos donde tenga instalada la App.';
 $string['mainmenu'] = 'Menú principal';
 $string['managefiletypes'] = 'Gestionar tipos de archivo';
 $string['minimumversion'] = 'Si está especificada una versión de la App (3.8.0 o superior), a cualquier usuario que esté usando una versiónanterior de la app se le pedirá que actualice su app antes de permitirle el acceso al sitio.';
 $string['minimumversion_key'] = 'Versión mínima de App requerida';
 $string['mobileapp'] = 'App Mobile';
-$string['mobileappconnected'] = 'App Mobile conectada';
 $string['mobileappearance'] = 'Apariencia de Mobile';
 $string['mobileappenabled'] = 'Este sitio tiene habilitado el acceso por App Mobile.<br /><a href="{$a}">Descargue la App Mobile</a>.';
 $string['mobileappsubscription'] = 'Suscripción de Moodle App';
@@ -123,18 +125,22 @@ $string['privacy:metadata:core_userkey'] = 'Claves de usuario usadas para crear 
 $string['privacy:metadata:preference:tool_mobile_autologin_request_last'] = 'La fecha de la última solicitud de clave para auto-ingreso. Se requieren 6 minutos entre cada solicitud.';
 $string['qrcodedisabled'] = 'Acceso vía código QR deshabilitado';
 $string['qrcodeformobileappaccess'] = 'Código QR para acceso por dispositivo móvil';
-$string['qrcodeformobileapploginabout'] = 'Escanee el código QR con su APP de dispositivo móvil y usted será ingresado automáticamente. El código QR expirará en {$a} minutos.';
+$string['qrcodeformobileapploginabout'] = 'Escanee el código QR con su APP de dispositivo móvil y usted será ingresado automáticamente. El código QR expirará en {$a}.';
 $string['qrcodeformobileappurlabout'] = 'Escanee el código QR con su APP de dispositivo móvil para ingresar la URL del sitio en su App.';
 $string['qrcodetype'] = 'Acceso por código QR';
-$string['qrcodetype_desc'] = 'Un código QR puede ser proporcionado para usuarios de App mobile para ser escaneado, o donde el sitio está asegurado usando HTTPS, para ingresar al usuario al sitio automáticamente sin tener que introducir su nombre_de_usuario y contraseña.';
+$string['qrcodetype_desc'] = 'Un código QR puede ser proporcionado para usuarios de App mobile para ser escaneado, o donde el sitio está asegurado usando HTTPS, para ingresar al usuario al sitio automáticamente sin tener que introducir su usuario y contraseña.';
 $string['qrcodetypelogin'] = 'código QR con ingreso automático';
 $string['qrcodetypeurl'] = 'código QR con URL del sitio';
-$string['qrsiteadminsnotallowed'] = 'Por razones de seguridad, el ingreso por código QR no está permitido para administradores del sitio o si usted está ingresado como otro usuario.';
+$string['qrkeyttl'] = 'Duración de clave de autenticación QR';
+$string['qrkeyttl_desc'] = 'Lapso de tiempo para el cual es válido un código QR para ingreso automático.';
+$string['qrsameipcheck'] = 'Autenticación QR comprobación de misma IP';
+$string['qrsameipcheck_desc'] = 'Si es que los usuarios deben o no usar la misma red para ambos: generar y escanear un código QR para ingresar. Deshabilítelo solamente en caso de que sus usuarios reporten problemas con el ingreso por QR.';
+$string['qrsiteadminsnotallowed'] = 'Por razones de seguridad, el iniciar sesión por código QR no está permitido para administradores del sitio o si usted ha iniciado sesión como otro usuario.';
 $string['readingthisemailgettheapp'] = '¿Está leyendo  esto en un E-mail? <a href="{$a}">Descargar la App Mobile y recibir notificaciones en su dispositivo móvil</a>.';
 $string['remoteaddons'] = 'Complementos (add-ons) remotos';
-$string['responsivemainmenuitems'] = 'Ítems de menú responsivo';
+$string['responsivemainmenuitems'] = 'Ementos de menú responsivo';
 $string['scanqrcode'] = 'Escanear código QR';
-$string['selfsignedoruntrustedcertificatewarning'] = 'Parace que el certificado HTTPS es auto-firmado o no-confiable. La App Mobile solamente funcianará con sitios confiables.';
+$string['selfsignedoruntrustedcertificatewarning'] = 'Parece que el certificado HTTPS es auto-firmado o no-confiable. La App Mobile solamente funcionará con sitios confiables. Por favor, use cualquier herramienta comprobadora de SSL en línea para diagnosticar el problema. Si estas herramientas indican que su certificado está OK, usted puede ignorar esta advertencia.';
 $string['setuplink'] = 'Página para descargar App';
 $string['setuplink_desc'] = 'URL de página con opciones para descargar la App Mobile desde la App Store y Google Play.. El enlace a la página para descargar la App es mostrado en el pie de la página y en el perfil del usuario. Déjelo vacío para no mostrar un enlace.';
 $string['smartappbanners'] = 'Banners de App';
@@ -147,6 +153,7 @@ $string['subscriptionfeatures'] = 'Características de suscripción';
 $string['subscriptionlimitsurpassed'] = 'Límites de suscripción excedidos';
 $string['subscriptionregister'] = 'Para detalles de los varios planes de App, y para acceder a estadísticas de uso de App Mobile, por favor visite el  <a href="{$a}" target="_blank">Moodle Apps Portal</a>.';
 $string['subscriptionsseemore'] = 'Nota: La información mostrada no está actualizada en tiempo real. Usted podría necesitar salirse y volver a entrar para ver actualizaciones. Para información sobre como mejorar su plan de la App, por favor ingrese al  <a href="{$a}" target="_blank">Moodle Apps Portal</a>.';
+$string['switchaccount'] = 'Cambiar de cuenta';
 $string['typeoflogin'] = 'Tipo de ingreso';
 $string['typeoflogin_desc'] = 'Si el sitio usa un método de autenticación SSO (Single Sign On = Ingreso Único), entonces seleccione via una ventana del navegador o via un navegador incrustado. Un navegador incrustado proporciona una  mejor experiencia del usuario, aunque no funciona con todos los plugins SSO.';
 $string['viewqrcode'] = 'Ver código QR';

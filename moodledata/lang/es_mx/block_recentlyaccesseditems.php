@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_recentlyaccesseditems', language 'es_mx', version '3.10'.
+ * Strings for component 'block_recentlyaccesseditems', language 'es_mx', version '4.2'.
  *
  * @package     block_recentlyaccesseditems
  * @category    string
@@ -25,12 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['noitems'] = 'Sin ítems recientes';
-$string['pluginname'] = 'Ítems accedidos recientemente';
-$string['privacy:metadata:block_recentlyaccesseditemstablesummary'] = 'El bloque de Cursos recientemente accedidos almacena información acerca de ítems a los cuales el usuario ha accedido recientemente';
+$string['moreitems'] = 'Mostrar más elementos';
+$string['noitems'] = 'Sin elementos recientes';
+$string['pluginname'] = 'Elementos accedidos recientemente';
+$string['privacy:metadata:block_recentlyaccesseditemstablesummary'] = 'El bloque de Cursos recientemente accedidos almacena información acerca de elementos a los cuales el usuario ha accedido recientemente';
 $string['privacy:metadata:cmid'] = 'La ID de la actividad o del recurso';
-$string['privacy:metadata:courseid'] = 'Curso al cual pertenece el ítem';
-$string['privacy:metadata:timeaccess'] = 'La hora cuando el usuario accedió por última vez al ítem.';
-$string['privacy:metadata:userid'] = 'La ID del usuario que accedió al ítem';
-$string['privacy:recentlyaccesseditemspath'] = 'Ítems recientemente accedidos';
-$string['recentlyaccesseditems:myaddinstance'] = 'Añadir un nuevo bloque de ítems recientemente accedidos al Tablero';
+$string['privacy:metadata:courseid'] = 'Curso al cual pertenece el elemento';
+$string['privacy:metadata:timeaccess'] = 'La hora cuando el usuario accedió por última vez al elemento.';
+$string['privacy:metadata:userid'] = 'La ID del usuario que accedió al elemento';
+$string['privacy:recentlyaccesseditemspath'] = 'Elementos recientemente accedidos';
+$string['recentlyaccesseditems:myaddinstance'] = 'Añadir un nuevo bloque de elementos recientemente accedidos al Tablero';

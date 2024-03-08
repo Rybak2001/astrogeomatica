@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_fntabs', language 'es_mx', version '3.10'.
+ * Strings for component 'format_fntabs', language 'es_mx', version '4.2'.
  *
  * @package     format_fntabs
  * @category    string
@@ -94,7 +94,7 @@ $string['completiononunenrolment'] = 'Fnalización al des-inscribirse';
 $string['completionsettingslocked'] = 'Configuración de finalización bloqueada';
 $string['completionstartonenrol'] = 'El seguimiento de finalización principia al inscribirse';
 $string['completionstartonenrolhelp'] = 'Empezar a monitorear el progreso de un estudiante hacia la finalización del curso después de la inscripción al curso';
-$string['completiontracking'] = 'Monitoreo de finalización en pestañas';
+$string['completiontracking'] = 'Monitoreo de seguimiento de finalización en pestañas';
 $string['completionusegrade'] = 'Requiere calificación';
 $string['completionusegrade_desc'] = 'El estudiante debe de recibir una calificación para completar esta actividad';
 $string['completionusegrade_help'] = 'Si se habilita, la actividad se considera completa cuando un estudiante recibe una calificación. Íconos de pasar y reprobar pueden mostrarse si se ha configurado una calificación aprobatoria para la actividad.';
@@ -156,7 +156,7 @@ $string['inactiveweek'] = 'Seleccionado e inactivo - D';
 $string['inprogress'] = 'En progreso';
 $string['label_deafulttab_text'] = 'Pestaña por defecto seleccionada';
 $string['loadcolorschema'] = 'Cargar esquema de colores';
-$string['locationoftrackingicons'] = 'Localización de íconos de monitoreo';
+$string['locationoftrackingicons'] = 'Ubicación de íconos de monitoreo';
 $string['mainheading'] = 'Encabezado principal';
 $string['managecolorschemas'] = 'Gestionar esquema de colores';
 $string['manualcompletionby'] = 'Finalización manual por';

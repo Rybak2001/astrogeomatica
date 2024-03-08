@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopform_rubric', language 'es_mx', version '3.10'.
+ * Strings for component 'workshopform_rubric', language 'es_mx', version '4.2'.
  *
  * @package     workshopform_rubric
  * @category    string
@@ -36,7 +36,7 @@ $string['layoutlist'] = 'Lista';
 $string['levelgroup'] = 'Calificación de nivel y definición';
 $string['levels'] = 'Niveles';
 $string['mustbeunique'] = 'Las calificaciones del nivel deben ser únicas dentro de un criterio';
-$string['mustchooseone'] = 'Tiene que seleccionar uno de estos ítems';
+$string['mustchooseone'] = 'Tiene que seleccionar uno de estos elementos';
 $string['mustdefinelevel'] = 'Al menos un nivel es requerido';
 $string['pluginname'] = 'Rúbrica';
 $string['privacy:metadata'] = 'El plugin de Rúbrica solamente almacena los detalles del formato de evaluación. Los datos personales actuales sobre como ha sido llenado el formato son almacenados por el módulo de Taller mismo y están anexos a las evaluaciones exportadas.';

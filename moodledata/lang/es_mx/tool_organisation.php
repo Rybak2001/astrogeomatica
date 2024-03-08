@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_organisation', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_organisation', language 'es_mx', version '4.2'.
  *
  * @package     tool_organisation
  * @category    string
@@ -39,7 +39,6 @@ $string['anyposition'] = 'Cualquiera';
 $string['assfirstchildof'] = 'Como el primer hijo de \'{$a}\'';
 $string['conditioncanallocateprograms'] = 'Puede asignar a programas';
 $string['conditioncanreceivenotifications'] = 'Puede recibir notificaciones';
-$string['conditioncanviewreports'] = 'Puede ver reportes';
 $string['conditionuserdepartment'] = 'Usuario está en departamento';
 $string['conditionuserdepartmentdescription'] = 'Usuario está asignado al departamento  \'{$a->deptname}\'<br />
 Sub-departamentos: {$a->subdeptsinclude}';
@@ -57,6 +56,7 @@ $string['deletedepartment'] = 'Eliminar departamento \'{$a}\'';
 $string['deletedepartmentconfirm'] = '¿Está seguro de querer eliminar el departamento \'{$a}\'?';
 $string['deletedepartmentframework'] = 'Eliminar estructura de departamento \'{$a}\'';
 $string['deletedepartmentframeworkconfirm'] = 'Está seguro de querer eliminar la estructura de departamento \'{$a}\'?';
+$string['deletejob'] = 'Eliminar trabajo';
 $string['deleteposition'] = 'Eliminar posición \'{$a}\'';
 $string['deletepositionconfirm'] = '¿Está seguro de querer eliminar la posición \'{$a}\'?';
 $string['deletepositionframework'] = 'Eliminar estructura de posición \'{$a}\'';
@@ -74,12 +74,9 @@ $string['departmentname'] = 'Nombre';
 $string['departmentnotfound'] = 'Departamento no encontrado';
 $string['departmentrequiredforjobcreate'] = 'El departamento necesita ser creado para proceder con las asignaciones de trabajo';
 $string['departments'] = 'Departamentos';
-$string['details'] = 'Detalles';
 $string['editdepartment'] = 'Editar departamento \'{$a}\'';
 $string['editdepartmentframework'] = 'Editar estructura de departamento \'{$a}\'';
 $string['editdepartmentname'] = 'Editar nombre';
-$string['editjob'] = 'Editar trabajo';
-$string['editjobforuser'] = 'Editar trabajo para \'{$a}\'';
 $string['editposition'] = 'Editar posición \'{$a}\'';
 $string['editpositionframework'] = 'Editar estructura de posición \'{$a}\'';
 $string['editpositionname'] = 'Editar nombre';
@@ -91,7 +88,7 @@ $string['entityposition'] = 'Posición';
 $string['errorcreatingjob'] = 'Ocurrió un error al crear el trabajo. Por favor inténtelo nuevamente.';
 $string['errorinvaliddepartment'] = 'Departamento no válido';
 $string['errorinvalidposition'] = 'Posición no válida';
-$string['errormovehierarchy'] = 'Ocurrió un error al mover la posición o el departamento hacia otra localización jerárquica.';
+$string['errormovehierarchy'] = 'Ocurrió un error al mover la posición o el departamento hacia otra ubicación jerárquica.';
 $string['errorparentnotfound'] = 'Padre no encontrado';
 $string['eventdepartmentcreated'] = 'Departamento creado';
 $string['eventdepartmentdeleted'] = 'Departamento eliminado';
@@ -104,7 +101,6 @@ $string['eventpositiondeleted'] = 'Posición eliminada';
 $string['eventpositionupdated'] = 'Posición actualizada';
 $string['expanddepartmentframework'] = 'Expander estructura de departamento \'{$a}\'';
 $string['expandpositionframework'] = 'Expander estructura de posición \'{$a}\'';
-$string['fullname'] = 'Usuario';
 $string['globalmanagementicons'] = 'Íconos del gestor (mánager)';
 $string['globalmanager'] = 'Mánager (gestor)';
 $string['globalmanager_help'] = 'Una persona con el trabajo de mánager global será considerado un mánager de cualquiera en una posición inferior, sin importar sus departamentos.';
@@ -125,7 +121,6 @@ $string['missingposition'] = 'Falta la posición';
 $string['missingusers'] = 'Falta usuario(s)';
 $string['movedepartmentframework'] = 'Mover estructura de departamento \'{$a}\'';
 $string['movepositionframework'] = 'Mover estructura de posición \'{$a}\'';
-$string['myteams'] = 'Equipos';
 $string['newnamefor'] = 'Nuevo nombre para \'{$a}\'';
 $string['onlycurrent'] = 'Solo actual';
 $string['onlyfuture'] = 'Solo futuro';
@@ -146,6 +141,9 @@ $string['organisation:viewusersreportdept_help'] = 'Jefe de departamento: Ver re
 $string['organisation:viewusersreportglob'] = 'Ver reportes de usuario';
 $string['organisation:viewusersreportglob_help'] = 'Mánager : Ver reportes de usuario';
 $string['organisationadmintab'] = 'Organización';
+$string['orgfiltercustomise'] = 'Personalizar';
+$string['orgfilterdirectreports'] = 'Mostrar solamente mis propios reportes directos';
+$string['orgfiltereverybody'] = 'Mostrar a todos los que reportan a mí';
 $string['orgstructure'] = 'Estructura de organización';
 $string['pluginname'] = 'Estructura de organización';
 $string['position'] = 'Posición';
@@ -175,7 +173,6 @@ $string['reg_wpjobs'] = 'Número de trabajos ({$a})';
 $string['reg_wppositionframeworks'] = 'Número de estructuras de posición ({$a})';
 $string['reg_wppositions'] = 'Número de posiciones ({$a})';
 $string['rolemanager'] = 'Mánager de estructura de organización';
-$string['roleslist'] = 'Roles';
 $string['showjobs'] = 'Mostrar trabajos';
 $string['showpastjobs'] = 'Mostrar trabajos pasados';
 $string['startdate'] = 'Fecha de inicio';

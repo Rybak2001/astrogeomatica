@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_envbar', language 'es_mx', version '3.10'.
+ * Strings for component 'local_envbar', language 'es_mx', version '4.2'.
  *
  * @package     local_envbar
  * @category    string
@@ -28,6 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['addfields'] = 'Añadir otro entorno';
 $string['bgcolour'] = 'Color del fondo';
 $string['cachedef_records'] = 'Los registros de la BasedeDatos de la Barra del entorno';
+$string['checkenvage'] = 'Comprobar edad de refresco del entorno';
 $string['colourerror'] = 'Código HTML de color especificado inválido';
 $string['colourplaceholder'] = 'Código HTML de color; por ejemplo, #fff O #000000';
 $string['configurehere'] = 'Editar Barra-del-Entorno';
@@ -86,6 +87,8 @@ $string['prodwwwrootautobutton'] = 'Auto-llenar';
 $string['prodwwwrootplaceholder'] = '$CFG->wwwroot en producción';
 $string['prodwwwroottext'] = 'wwwroot Producción';
 $string['refreshedago'] = 'Antiguedad {$a}';
+$string['refreshedagoformat'] = '%d %B %Y, %I:%M:%S %p %z';
+$string['refreshedagotitle'] = 'La base de datos de estos sitios fueron copiadas en {$a}';
 $string['refreshednever'] = 'Nunca ha sido refrescado';
 $string['secretkey'] = 'Clave secreta';
 $string['secretkey_help'] = 'La clave secreta es necesaria para permitirle a los entornos hablar entre ellos. Por favor configúrela a alguna cadena de caracteres alfanuméricos aleatorios de su elección y presione el botón para \'Generar\'. Si o se configura una clave secreta, los entornos que no sean de producción no podrán detectar su último tiempo de refresco.';
@@ -98,6 +101,8 @@ $string['showconfiglink'] = 'Mostrar enlace a configuración';
 $string['showconfiglink_desc'] = 'Esta configuración controla si el enlace hacia "Editar configuración" es añadido a la barra del entorno para usuarios que tienen permitido editar la configuración de la barra del entorno.';
 $string['showdebugging'] = 'Mostrar depuración';
 $string['showdebugging_desc'] = 'Esta configuración controla si el estado de la depuración y el enlace para alternarlo son añadidos a envbar para usuarios que tengan permitido editar la configuración de envbar.';
+$string['showrefresh'] = 'Mostrar hora de refresco';
+$string['showrefresh_desc'] = 'Esta configuración controla si se muestra o no la última hora de refresco.';
 $string['showtext'] = 'Texto a mostrar';
 $string['showtextplaceholder'] = 'Por ejemplo: Usted está en un entorno de andamiaje';
 $string['stringseparator'] = 'Separador de cadenas';

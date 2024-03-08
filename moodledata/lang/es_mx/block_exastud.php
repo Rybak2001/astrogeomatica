@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_exastud', language 'es_mx', version '3.10'.
+ * Strings for component 'block_exastud', language 'es_mx', version '4.2'.
  *
  * @package     block_exastud
  * @category    string
@@ -79,7 +79,6 @@ $string['configuration_classes_onlyadmin'] = 'Acceso Admin';
 $string['copy_class_from_last_period'] = 'Copiar Clase del último Período';
 $string['cross_competences_for_head'] = 'Competencias interdisciplinarias';
 $string['de:Bildungsstandards'] = 'Estándares educativos que pueden cumplirse';
-$string['de:Fachbezeichnungen'] = 'Asuntos';
 $string['delete'] = 'Eliminar';
 $string['delete_class_only_without_users'] = 'Solamente pueden ser eliminadas clases sin estudiantes';
 $string['delete_confirmation'] = '¿Realmente desea eliminar "{$a}"?';
@@ -345,6 +344,7 @@ $string['settings_detailed_review_body'] = 'Esta configuración le permite a Ust
 $string['settings_edustandarts'] = 'Estándares educativos que se pueden cumplir';
 $string['settings_edustandarts_description'] = 'Lista separada por comas';
 $string['settings_eval_setup'] = 'Valores de calificación de evaluación';
+$string['settings_eval_setup_link'] = 'Editar';
 $string['settings_exacomp_assessment_categories'] = 'Usar rejilas de competencia para categorías de valoración';
 $string['settings_exacomp_verbeval'] = 'Valoraciones verbalizadas de competencias exabis';
 $string['settings_only_learnsoziale'] = 'Valoración solamente de comportamiento social y aprendizaje';

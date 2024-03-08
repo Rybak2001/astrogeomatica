@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'geogebra', language 'es_mx', version '3.10'.
+ * Strings for component 'geogebra', language 'es_mx', version '4.2'.
  *
  * @package     geogebra
  * @category    string
@@ -35,11 +35,13 @@ $string['availabledate'] = 'Disponible a partir de';
 $string['average'] = 'Promedio';
 $string['choosescripttype'] = 'Escoge el tipo de script (actividad)';
 $string['comment'] = 'Comentario';
+$string['configintro'] = 'Los valores configurados aquí definen las URLs predeterminadas de las cuales cargar GeoGebra.';
 $string['contentheader'] = 'Contenido';
 $string['coursewithoutstudents'] = 'No hay estudiantes inscritos en este curso';
 $string['datestudent'] = 'Última modificación (envío)';
 $string['dateteacher'] = 'Última modificación (calificación)';
 $string['deleteallattempts'] = 'Eliminar todos los intentos';
+$string['deployggb'] = 'URL para distribución GeogGebra';
 $string['description'] = 'Descripción';
 $string['discardchanges'] = 'Volver sin guardar cambios';
 $string['duedate'] = 'Hasta';
@@ -51,6 +53,8 @@ $string['event_course_module_viewed'] = 'Módulo de curso visto';
 $string['event_instances_list_viewed'] = 'Lista de instancias vista';
 $string['expired'] = 'Esta actividad se cerró el {$a} y, por lo tanto, ya no está disponible.';
 $string['extractedfromggb'] = 'Archivos extaridos de ggb';
+$string['fflate'] = 'URL para distribución fflate';
+$string['fflate_desc'] = 'URL para el script fast flate, usado para descomprimir los archivos JavaScript de GeoGebra.';
 $string['filename'] = 'Nombre del archivo';
 $string['filenotfound'] = 'El archivo indicado no existe';
 $string['filetype'] = 'Tipo';
@@ -74,7 +78,9 @@ $string['geogebraurl_help'] = 'Encuentre la construcción en <a href="https://ww
 $string['grade'] = 'Calificación';
 $string['gradeit'] = 'Calificación';
 $string['grademethod'] = 'Método de calificación';
+$string['header_geogebra'] = 'Parámetros de GeoGebra';
 $string['height'] = 'Alto';
+$string['height_help'] = 'VAlor en pixeles';
 $string['highestattempt'] = 'Mejor intento';
 $string['httpnotallowed'] = 'Por el momento, no es posible utilizar archivos remotos';
 $string['interfaceoptionsgrp'] = 'Interfaz del Usuario';
@@ -125,9 +131,10 @@ $string['resultstab'] = 'Resultados';
 $string['resumeattempt'] = 'Continuación de un intento anterior';
 $string['review'] = 'Revisión de';
 $string['reviewtab'] = 'Revisión';
-$string['save'] = 'Guardar';
 $string['savechanges'] = 'Guardar los cambios';
 $string['savewithoutsubmitting'] = 'Guarda sin enviar';
+$string['seed'] = 'Semilla';
+$string['seed_help'] = 'La semilla puede ser un número positivo entre 0 y 99. Si fuera cero una actividad GeoGebra generada usando aleatoriedad será diferente cada recarga. Si no fuera cero, la misma versión aleatorizada es presentada. Usar dos diferentes semilla dará dos versiones aleatorizadas diferentes. Use una semilla de cero para darle a cada estudiante un examen diferente. Use un valor diferente a cero para prácticas guiadas del examen para asegurarse de que todos los estudiantes reciban el mismo examen.';
 $string['settings'] = 'Configuraciones';
 $string['showAlgebraInput'] = 'Muestra la barra de entrada';
 $string['showMenuBar'] = 'Muestra la barra de menú';
@@ -154,3 +161,4 @@ $string['viewattempttab'] = 'Ver Intento';
 $string['viewtab'] = 'Mostrar';
 $string['weight'] = 'Ancho';
 $string['width'] = 'Ancho';
+$string['width_help'] = 'Valor en pixeles. Si fuera vacío o cero, el ancho de la actividad GeoGebra será 100% del contenedor de GeoGebra.';

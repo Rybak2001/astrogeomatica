@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_benchmark', language 'es_mx', version '3.10'.
+ * Strings for component 'report_benchmark', language 'es_mx', version '4.2'.
  *
  * @package     report_benchmark
  * @category    string
@@ -55,6 +55,8 @@ $string['loginusermoreinfo'] = 'Medir el tiempo usado para cargar la página de 
 $string['loginusername'] = 'Tiempo para conectarse para una cuenta de usuario falsa';
 $string['modulename'] = 'Benchmark (Comparativo) de Moodle';
 $string['modulenameplural'] = 'Benchmarks (Comparativos) de Moodle';
+$string['notificatiopagedownloadmoreinfo'] = 'Cargar la página de notificación de interfaz de administración para comprobar la velocidad del servidor web.';
+$string['notificatiopagedownloadname'] = 'Tiempo de carga de la página de notificación de administración';
 $string['over'] = 'Límite crítico';
 $string['pluginname'] = 'Benchmark (Comparativo) de Moodle';
 $string['points'] = '{$a} puntos';
@@ -76,7 +78,7 @@ $string['slowharddrivesolution'] = '<ul><li>Revise el estado del Disco Duro o de
 $string['slowprocessorlabel'] = 'Su procesador parece ser demasiado lento.';
 $string['slowprocessorsolution'] = '<ul><li>Revisar que su configuración del equipo sea lo suficientemente alta para ejecutar Moodle.</li></ul>';
 $string['slowserverlabel'] = 'Su servidor web parece ser demasiado lento.';
-$string['slowserversolution'] = '<ul><li>Configure su Apache en modo <a href="https://httpd.apache.org/docs/2.4/en/mpm.html" target="_blank">multi-processing</a>o active  <a href="https://nginx.org/" target="_blank">NGinx</a>.</li><li>Si su Moodle está instalado  en su computadora, Usted puede intentar desactivar su antivirus en donde se encuentra Moodle. Hágalo con precaución.</li></ul>';
+$string['slowserversolution'] = '<ul><li>Configure su Apache en modo <a href="https://httpd.apache.org/docs/2.4/en/mpm.html" target="_blank">multi-processing</a>o cambie a <a href="https://nginx.org/" target="_blank">NGinx</a>.</li><li>Si su Moodle está instalado  en su computadora, configure cuidadosamente su antivirus para que no revise la instalación de Moodle.</li></ul>';
 $string['slowweblabel'] = 'La página de ingreso está siendo cargada demasiado lenta.';
 $string['slowwebsolution'] = '<ul><li><a href="/admin/purgecaches.php" target="_blank">Purgar la caché de Moodle</a>.</li></ul>';
 $string['start'] = 'Iniciar la revisión';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_pmatchjme', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_pmatchjme', language 'es_mx', version '4.2'.
  *
  * @package     qtype_pmatchjme
  * @category    string
@@ -38,7 +38,11 @@ $string['pluginname_help'] = 'En respuesta a una pregunta (que puede incluir una
 $string['pluginnameadding'] = 'Añadiendo una pregunta de coincidencia de patrón con editor volecular';
 $string['pluginnameediting'] = 'Editando una pregunta de coincidencia de patrón con editor molecular';
 $string['pluginnamesummary'] = 'Permite dibujar una molécula usando el editor molecular. La respuesta se califica al compararla contra varias respuestas modelo, que se describen empleando la sintaxis de coincidencia de patrón de Open University.';
-$string['privacy:metadata'] = 'El plugin de Coincidencia de patrón con editor molecular no almacena ningún dato personal.';
+$string['privacy:metadata'] = 'El plugin del tipo de pregunta de Coincidencia de patrón con editor molecular le permite a los autores configurar opciones predeterminadas como preferencias del usuario.';
+$string['privacy:preference:allowsubscript'] = 'Si es que subíndice es usado para escribir respuesta.';
+$string['privacy:preference:allowsuperscript'] = 'Si es que superíndice es usado para escribir respuesta.';
+$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
+$string['privacy:preference:penalty'] = 'La penalización por cada intento incorrecto cuando las preguntas son ejecutadas usando el comportamiento de \'Interactivo con intentos múltiples\' o \'Modo adaptativo\'.';
 $string['smiles_aromatic_c'] = 'átomos de carbóno aromático';
 $string['smiles_br'] = 'átomos de bromo';
 $string['smiles_c'] = 'átomos de carbono alifático';

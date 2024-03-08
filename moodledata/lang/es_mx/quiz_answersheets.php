@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_answersheets', language 'es_mx', version '3.10'.
+ * Strings for component 'quiz_answersheets', language 'es_mx', version '4.2'.
  *
  * @package     quiz_answersheets
  * @category    string
@@ -92,6 +92,7 @@ $string['gapselect_instruction'] = 'Escriba la letra de la respuesta correspondi
 $string['interactive_content_warning'] = 'Contenido interactivo no está disponible en este formato.';
 $string['match_instruction'] = 'Escriba la letra de la respuesta correspondiente (A, B, C, D, ...) en el espacio proporcionado.';
 $string['multichoice_instruction'] = 'Seleccione la respuesta correcta.';
+$string['no_response_recorded'] = 'Sin respuesta grabada.';
 $string['numerical_instruction'] = 'Escriba su respuesta (en valor numérico) en el espacio proporcionado.';
 $string['ordering_instruction'] = 'Escriba el orden correcto en el espacio proporcionado.';
 $string['oumultiresponse_instruction'] = 'Seleccione la(s) respuesta(s) correcta(s).';
@@ -105,6 +106,7 @@ $string['print'] = 'Imprimir';
 $string['print_header'] = '{$a->courseshortname} {$a->quizname} para {$a->studentname} generada {$a->generatedtime} - {$a->sheettype}';
 $string['print_header_minimised'] = '{$a->courseshortname} {$a->quizname} generada {$a->generatedtime} - {$a->sheettype}';
 $string['privacy:metadata'] = 'El plugin para exportar intentos de examen no almacena ningún dato personal por sí mismo. Proporciona una interfaz adicional para ver y gestionar los datos propiedad de la actividad de examen.';
+$string['response_recorded'] = 'Respuesta grabada: {$a}.';
 $string['review_sheet_label'] = 'Hoja de revisión';
 $string['review_sheet_title'] = '{$a->courseshortname} - {$a->quizname} - Hoja de revisión';
 $string['shortanswer_instruction'] = 'Escriba su respuesta en el espacio proporcionado. Por favor limítese a una oración o dos.';

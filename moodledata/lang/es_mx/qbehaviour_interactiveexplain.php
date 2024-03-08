@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_interactiveexplain', language 'es_mx', version '3.10'.
+ * Strings for component 'qbehaviour_interactiveexplain', language 'es_mx', version '4.2'.
  *
  * @package     qbehaviour_interactiveexplain
  * @category    string
@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Interactivo con explicación';
 $string['privacy:metadata'] = 'El plugin de comportamiento de pregunta Interactivo con explicación no almacena ningún dato personal.';
+$string['responsewithreason'] = 'Retroalimentación con explicación';

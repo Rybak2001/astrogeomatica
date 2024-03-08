@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_compilatio', language 'es_mx', version '3.10'.
+ * Strings for component 'plagiarism_compilatio', language 'es_mx', version '4.2'.
  *
  * @package     plagiarism_compilatio
  * @category    string
@@ -29,19 +29,11 @@ $string['account_expire_soon_title'] = 'Su cuenta de Compilatio.net caduca pront
 $string['activate_compilatio'] = 'Habilitar Compilatio';
 $string['admin_disabled_reports'] = 'El administrador no les permite a los profesores que muestren los reportes de similitud a los estudiantes.';
 $string['admin_goto_helpcenter'] = 'cceder al Compilatio Support Centre para ver artículos relacionados con la administración del plugin para Moodle.';
-$string['allow_teachers_to_show_reports'] = 'Permitirle a profesores mostrar reportes de similitud a sus estudiantes';
+$string['allow_teachers_to_show_reports'] = 'Posibilidad de mostrar reportes de similitud a estudiantes';
 $string['analysing'] = 'Analizando documento';
 $string['analysis_completed'] = 'Análisis completado: {$a} % de similitudes.';
 $string['analysis_date'] = 'Fecha del Análisis (Análisis a_una_hora_fija solamente)';
 $string['analysis_started'] = '{$a} análisis han sido solicitados.';
-$string['analysis_type'] = 'Análisis inicia';
-$string['analysis_type_help'] = '<p>Hay 3 opciones posibles:</p>
-<ul>
-<li><strong>Directo: </strong>El documento es enviado a Compilatio y analizado de inmediato.</li>
-<li><strong>Manual:</strong> El documento es enviado a Compilatio  pero el profesor debe disparar manualmente el análisis de documentos.</li>
-<li><strong>A_una_hora_fija: </strong>El documento es enviado a Compilatio y analizado en la fecha/hora configurada.</li>
-</ul>
-<p>Para habilitar que todos los documentos sean comparados entre ellos, espere hasta que todos los trabajos hayan sido enviados por los estudiantes y entonces dispare el análisis.</p>';
 $string['analysistype_manual'] = 'Manual';
 $string['analysistype_prog'] = 'A_una_hora_fija';
 $string['analyze'] = 'Analizar';
@@ -155,9 +147,6 @@ $string['pluginname'] = 'Plugin de detección de plagio Compilatio';
 $string['previouslysubmitted'] = 'Previamente enviado como';
 $string['privacy:metadata:core_plagiarism'] = 'Este plugin es llamado por el subsistema de plagio de Moodle';
 $string['privacy:metadata:external_compilatio_document:filename'] = 'El nombre del envío';
-$string['privacy:metadata:external_compilatio_report:id'] = 'La ID del reporte de Compilatio';
-$string['privacy:metadata:external_compilatio_report:plagiarism_percent'] = 'El puntaje de similitud del envío';
-$string['privacy:metadata:plagiarism_compilatio_files:similarityscore'] = 'El puntaje de similitud del envío';
 $string['privacy:metadata:plagiarism_compilatio_files:userid'] = 'La ID del usuario Moodle que hizo el envío';
 $string['processing_doc'] = 'Compilatio está analizando este archivo.';
 $string['programmed_analysis_future'] = 'Los documentos serán analizados por Compilatio en {$a}.';
@@ -168,8 +157,6 @@ $string['queued'] = 'Este documento ahora está en cola y va a ser analizado pro
 $string['red_threshold'] = 'rojo en caso contrario';
 $string['report'] = 'reporte';
 $string['reset'] = 'Reiniciar';
-$string['restart_failed_analysis'] = 'Reiniciar análisis interumpido';
-$string['restart_failed_analysis_title'] = 'Reiniciar análisis interumpido :';
 $string['results'] = 'Resultados :';
 $string['saved_config_failed'] = '<strong>La combinación clave API - dirección ingresada es inválida. Compilatio está deshabilitado; por favor inténtelo nuevamente.<br/>
 La página de <a href="autodiagnosis.php">auto-diagnóstico</a> puede ayudarle para configurar este plugin.</strong><br/>
@@ -189,7 +176,6 @@ $string['studentemailcontent'] = 'El archivo que Usted envió a {$a->modulename}
 $string['studentemailsubject'] = 'Archivo procesado por Compilatio';
 $string['students_disclosure'] = 'Declaratoria del estudiante';
 $string['students_disclosure_help'] = 'Este texto será mostrado a todos los estudiantes en la página de subida de archivo.';
-$string['subscription_state'] = '<strong>Su suscripción a  Compilatio.net expirará al final de {$a->end_date}. Este mes, Usted ha analizado el equivalente de {$a->used} documento(s) conteniendo menos de 5,000 palabras.</strong>';
 $string['tabs_title_help'] = 'Ayuda';
 $string['tabs_title_notifications'] = 'Notificaciones';
 $string['tabs_title_stats'] = 'Estadísticas';
@@ -198,7 +184,6 @@ $string['thresholds_description'] = 'Indique el umbral que desea usar, para faci
 $string['thresholds_settings'] = 'Límites :';
 $string['timesubmitted'] = 'Enviado a Compilatio en';
 $string['toolarge'] = 'Este archivo es demasiado grande para que lo procese Compilatio. Tamaño máximo : {$a->Mo} MB';
-$string['trigger_timed_analyses'] = 'Disparar análisis de plagio agendado';
 $string['unextractable'] = 'El contenido de este documento no pudo ser extraido';
 $string['unextractable_files'] = 'Los archivos siguientes no pudieron ser analizados por Compilatio. Ya sea porque no tienen suficientes palabras o el texto no  pudo extraerse :';
 $string['unextractablefile'] = 'Su documento no contiene suficientes palabras, o no puede extraérsele el texto.';

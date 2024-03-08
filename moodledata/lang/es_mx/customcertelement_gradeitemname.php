@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customcertelement_gradeitemname', language 'es_mx', version '3.10'.
+ * Strings for component 'customcertelement_gradeitemname', language 'es_mx', version '4.2'.
  *
  * @package     customcertelement_gradeitemname
  * @category    string

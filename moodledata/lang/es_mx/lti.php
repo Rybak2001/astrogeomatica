@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lti', language 'es_mx', version '3.10'.
+ * Strings for component 'lti', language 'es_mx', version '4.2'.
  *
  * @package     lti
  * @category    string
@@ -87,10 +87,8 @@ $string['configtoolurl'] = 'URL predterminada para la herramienta remota';
 $string['configtypes'] = 'Permitir Aplicaciones LTI (Learning Tools Interoperability = Interoperatividad de Herramientas de Aprendizaje)';
 $string['configured'] = 'Configurado';
 $string['confirmtoolactivation'] = '¿Está Usted seguro de querer activar esta herramienta?';
-$string['contentitem'] = 'Contenido-Ítem Mensaje';
 $string['contentitem_deeplinking'] = 'Soporta Enlazado Profundo (Mensaje de Ítem-Contenido)';
 $string['contentitem_deeplinking_help'] = 'Si se activa, la opción de \'Configurar herramienta desde enlace\' estará disponible al añadir una herramienta externa.';
-$string['contentitem_help'] = 'Si se activa, la opción de \'Configurar herramienta desde enlace\' estará disponible al añadir una herramienta externa.';
 $string['contentitem_multiple_description'] = 'Los elementos siguientes serán añadidos a su curso:';
 $string['contentitem_multiple_graded'] = 'Actividad calificada (Calificaciónmáxima: {$a})';
 $string['course_tool_types'] = 'Herramientas del curso';
@@ -142,6 +140,14 @@ $string['donot'] = 'No enviar';
 $string['donotaccept'] = 'No aceptar';
 $string['donotallow'] = 'No permitir';
 $string['duplicateregurl'] = 'Esta URL de registro ya está en uso';
+$string['dynreg_update_btn_new'] = 'Registrar como una nueva herramienta externa';
+$string['dynreg_update_btn_update'] = 'Actualizar';
+$string['dynreg_update_name'] = 'Nombre de la herramienta';
+$string['dynreg_update_notools'] = 'Sin herramientas en el contexto.';
+$string['dynreg_update_text'] = 'Hay herramientas existentes anexadas al dominio del registro. ¿Desea actualizar una herramienta externa existente o crear una nueva herramienta externa?';
+$string['dynreg_update_url'] = 'URL Base';
+$string['dynreg_update_version'] = 'Versión LTI';
+$string['dynreg_update_warn_dupdomain'] = 'No es recomendable tener múltiples herramientas externas bajo el mismo dominio.';
 $string['editdescription'] = 'Haga clic aquí para darle una descripción a esta herramienta';
 $string['edittype'] = 'Editar herramienta pre-configurada';
 $string['embed'] = 'Incrustado';
@@ -154,7 +160,7 @@ $string['errorbadurl'] = 'La URL no es una URL válida de herramienta o cartucho
 $string['errorincorrectconsumerkey'] = 'La clave del consumidor es incorrecta';
 $string['errorinvaliddata'] = 'Datos inválidos: {$a}';
 $string['errorinvalidmediatype'] = 'Tipo de medio inválido: {$a}';
-$string['errorinvalidresponseformat'] = 'Contenido inválido-formato de respuesta del ítem.';
+$string['errorinvalidresponseformat'] = 'Contenido inválido-formato de respuesta del elemento.';
 $string['errormisconfig'] = 'Herramienta mal configurada. Por favor pídale a su administrador Moodle que arregle la configuración de la herramienta.';
 $string['errortooltypenotfound'] = 'Tipo de herramienta LTI no encontrado.';
 $string['existing_window'] = 'Ventana existente';
@@ -203,10 +209,12 @@ $string['indicator:cognitivedepth'] = 'LTI cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad LTI.';
 $string['indicator:cognitivedepthdef'] = 'LTI cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades LTI durante este intervalo de análisis (Niveles = Sin Ver, Ver, Enviar, Ver retroalimentación)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'LTI social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad LTI.';
 $string['indicator:socialbreadthdef'] = 'LTI social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de LTI durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['initiatelogin'] = 'URL para Iniciar Ingreso';
 $string['initiatelogin_help'] = 'La URL de la herramienta a la cual se envían solicitudes para iniciar un ingreso. Esta URL es requerida antes de que un mensaje pueda ser enviado exitosamente a la herramienta.';
 $string['invalidid'] = 'ID del LTI estaba incorrecta';
@@ -236,7 +244,6 @@ $string['launchinpopup_help'] = 'El contenedor para invocar la herramienta afect
 
 Dependiendo del navegador, se abrirá en una nueva pestaña o una ventana emergente. Es posible que algunos navegadores impidan que se abra la ventana emergente.';
 $string['launchoptions'] = 'Opciones para invocar';
-$string['leaveblank'] = 'Déjelo vacío si no lo necesita';
 $string['lti'] = 'LTI';
 $string['lti:addcoursetool'] = 'Añadir configuraciones de herramientas específicas de curso';
 $string['lti:addinstance'] = 'Añadir una nueva herramienta externa';
@@ -289,8 +296,10 @@ Las herramientas externas difieren se los recursos URL en varias formas:
 * Las herramientas externas soportan leer, actualizar y borrar calificaciones asociadas con la instancia de la actividad
 
 * Las configuraciones de la herramienta externa crean una relación de confianza entre su sitio Moodle y el proveedor de la herramienta, permitiendo la comunicación segura entre ambos';
+$string['modulename_link'] = 'mod/lti/view';
+$string['modulename_shortcut_link'] = 'mod/lti/view/custom';
 $string['modulenameplural'] = 'Herramientas externas';
-$string['modulenamepluralformatted'] = 'Instancias de LTI';
+$string['modulenamepluralformatted'] = 'Herramientas externas';
 $string['name'] = 'Nombre';
 $string['never'] = 'Nunca';
 $string['new_window'] = 'Ventana nueva';
@@ -314,12 +323,8 @@ $string['opensslconfiginvalid'] = 'LTI 1.3 requiere un archivo válido openssl.c
 $string['optionalsettings'] = 'Configuraciones opcionales';
 $string['organization'] = 'Detalles de organización';
 $string['organizationdescr'] = 'Descripción de Organización';
-$string['organizationid'] = 'ID de Organización';
 $string['organizationid_default'] = 'ID predeterminado de la Organización';
 $string['organizationid_default_help'] = 'El valor predeterminado a usar para la ID de la Organización. La ID del sitio identifica a esta instalación de Moodle.';
-$string['organizationid_help'] = 'Un identificador único para esta instancia de Moodle. Típicamente, se emplea el nombre DNS de la organización.
-
-Si este campo se deja en blanco, el nombre del host de este sitio Moodle será usado como valor por defecto.';
 $string['organizationidguid'] = 'ID de la Organización';
 $string['organizationidguid_help'] = 'Un identificador único para esta instancia de Moodle pasado a la herramienta como el Identificador Único Global de la instancia de plataforma.
 
@@ -397,16 +402,16 @@ $string['rejected'] = 'Rechazado';
 $string['resource'] = 'Recurso';
 $string['resourcekey'] = 'Clave de Consumidor';
 $string['resourcekey_admin'] = 'Clave de Consumidor';
-$string['resourcekey_admin_help'] = 'La clave del consumidor puede concebirse como un nombre_de_usuario empleado para autenticar el acceso a la herramienta. Se puede emplear por el proveedor de la herramienta para identificar inequívocamente al sitio Moodle desde donde los usuarios invocan la herramienta.
+$string['resourcekey_admin_help'] = 'La clave del consumidor puede concebirse como un nombre de usuario empleado para autenticar el acceso a la herramienta. Se puede emplear por el proveedor de la herramienta para identificar inequívocamente al sitio Moodle desde donde los usuarios invocan la herramienta.
 
 La clave del consumidor debe ser proporcionada por el proveedor de la herramienta. El método para obtener la clave del consumidor varía entre los proveedores de herramientas. Puede ser un procedimiento automatizado, o puede requerir un diálogo con el proveedor de la herramienta.
 
 Las herramientas que no requieran una comunicación segura con Moodle y que no proporcionan servicios adicionales (como reportar calificaciones) puede ser que no requieran una clave para el recurso.';
 $string['resourcekey_help'] = 'Para herramientas pre-configuradas, no es necesario proporcionar una clave de recurso aquí, dado que la clave del recurso estará dada como parte del proceso de configuración.
 
-Este campo debe llenarse si creamos un enlace hacia el proveedor de la herramienta que no está previamente configurada. Si el proveedor de la herramientase se empleará más de una vez en el curso, el añadir una configuración de la herramienta sería una buena idea.
+Este campo debe llenarse si creamos un enlace hacia el proveedor de la herramienta que no está previamente configurada. Si el proveedor de la herramienta se se empleará más de una vez en el curso, el añadir una configuración de la herramienta sería una buena idea.
 
-La clave del consumidor puede concebirse como un nombre_de_usuario empleado para autenticar el acceso a la herramienta.  Se puede emplear por el proveedor de la herramienta para identificar inequívocamente al sitio Moodle desde donde los usuarios invocan la herramienta.
+La clave del consumidor puede concebirse como un nombre de usuario empleado para autenticar el acceso a la herramienta.  Se puede emplear por el proveedor de la herramienta para identificar inequívocamente al sitio Moodle desde donde los usuarios invocan la herramienta.
 
 La clave del consumidor debe ser proporcionada por el proveedor de la herramienta. El método para obtener la clave del consumidor varía entre los proveedores de herramientas. Puede ser un procedimiento automatizado, o puede requerir un diálogo con el proveedor de la herramienta.
 

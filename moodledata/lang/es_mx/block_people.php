@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_people', language 'es_mx', version '3.10'.
+ * Strings for component 'block_people', language 'es_mx', version '4.2'.
  *
  * @package     block_people
  * @category    string
@@ -31,13 +31,20 @@ $string['people:addinstance'] = 'Añadir un nuevo bloque de Personas';
 $string['people:myaddinstance'] = 'Añadr un nuevo bloque de Personas al Tablero';
 $string['pluginname'] = 'Personas';
 $string['privacy:metadata'] = 'El plugin Personas proporciona funcionalidad extendida a usuarios Moodle, pero no almacena ningún dato personal.';
-$string['resetvisibilityerror'] = 'Órale ... Algo salió mal al actualizar las tablas de la base de datos... <br/> La configuración para "Reiniciar visibilidad" ha sido reiniciada.';
+$string['resetvisibilityerror'] = 'Ups... Algo salió mal al actualizar las tablas de la base de datos... <br/> La configuración para "Reiniciar visibilidad" ha sido reiniciada.';
 $string['resetvisibilitysuccess'] = '¡Éxito! Todas las instancias de "Bloques_de_personas" son visibles (nuevamente). <br/> La configuración para "Reiniciar visibilidad" ha sido reiniciada.';
 $string['setting_hideblock'] = 'Ocultando el bloque';
 $string['setting_hideblock_desc'] = 'Al habilitar esta confdiguración, el bloque puede ser ocultado a los usuarios.<br/>
 Aviso importante:<br/>
 El deshabilitar esta configuración quitará enteramente el mostrar / ocultar el ítem del menú del bloque. Esto significa, que los usuarios ya no pueden ocultar más este bloque; pero por otra parte, los bloques que ya estén ocultos no podrán mostrarse nunca más tampoco. Si Usted quiere habilitar esta característica, considere usar la siguiente función para reiniciar la visibilidad para todas las instancias de "Bloque_personas".';
 $string['setting_hideblockheading'] = 'Ocultando el bloque';
+$string['setting_linkavatar'] = 'Avatar del enlace';
+$string['setting_linkavatar_desc'] = 'Al habilitar esta configuración, se añadirá un enlace hacia la página del usuario del profesor al avatar del profesor. El enlace solamente será añadido si el usuario tiene permitido ver perfiles de usuario.';
+$string['setting_linkingheading'] = 'Enlazando';
+$string['setting_linkmessaging'] = 'Enlace a mensajería';
+$string['setting_linkmessaging_desc'] = 'Al habilitar esta configuración, se añadirá un enlace hacia la página de mensajeria debajo del nombre del profesor. El enlace solamente será añadido si el usuario tiene permitido mensajear al profesor.';
+$string['setting_linkname'] = 'Nombre del enlace';
+$string['setting_linkname_desc'] = 'Al habilitar esta configuración, se añadirá un enlace hacia la página del usuario del profesor al nombre del profesor. El enlace solamente será añadido si el usuario tiene permitido ver perfiles de usuario.';
 $string['setting_linkparticipantspage'] = 'Mostrar elnace hacia la página de participantes';
 $string['setting_linkparticipantspage_desc'] = 'Al habilitar esta configuración, será mostrado un enlace hacia la página de participantes del curso dentro del bloque.';
 $string['setting_multipleroles'] = 'Mostrar roles múltiples';

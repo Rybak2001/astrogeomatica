@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customfield', language 'es_mx', version '3.10'.
+ * Strings for component 'customfield', language 'es_mx', version '4.2'.
  *
  * @package     customfield
  * @category    string
@@ -57,7 +57,7 @@ $string['fieldname'] = 'Nombre';
 $string['fieldnotfound'] = 'Campo no encontrado';
 $string['fieldshortname'] = 'Nombre corto';
 $string['formfieldcheckshortname'] = 'El nombre corto ya existe';
-$string['invalidshortnameerror'] = 'El nombre corto solamente puede contener letras latinas minúsculas (excepto á,é,í,ó,ú,ñ), números y signo de guión bajo (_)';
+$string['invalidshortnameerror'] = 'El nombre corto solamente puede contener letras latinas minúsculas (excepto á,é,í,ó,ú,ñ), números y signo de guion bajo (_)';
 $string['isdataunique'] = 'Datos únicos';
 $string['isdataunique_help'] = 'Esta configuración determina si es que el valor ingresado debería ser único y no ingresado previamente.';
 $string['isfieldrequired'] = 'Obligatorio';
@@ -88,7 +88,7 @@ $string['privacy:metadata:customfield_data:valueformat'] = 'El formato del valor
 $string['privacy:metadata:customfieldpluginsummary'] = 'Campos para varios componentes';
 $string['privacy:metadata:filepurpose'] = 'Archivo anexado a los datos del campo personalizado';
 $string['shortname'] = 'Nombre corto';
-$string['shortname_help'] = 'El nombre corto debe ser único y solamente puede contener letras latinas (excepto á,é,í,ó,ú,ñ), números y caracter de guión bajo (_). No es mostrado en ninguna parte del sitio pero puede ser  usado para sincronización con sistemas externos o en servicios web.';
+$string['shortname_help'] = 'El nombre corto debe ser único y solamente puede contener letras latinas (excepto á,é,í,ó,ú,ñ), números y caracter de guion bajo (_). No es mostrado en ninguna parte del sitio pero puede ser  usado para sincronización con sistemas externos o en servicios web.';
 $string['showdate'] = 'Mostrar fecha';
 $string['specificsettings'] = 'Configuraciones específicas';
 $string['therearenofields'] = 'No hay campos en esta categoría';

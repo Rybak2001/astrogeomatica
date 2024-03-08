@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_user', language 'es_mx', version '3.10'.
+ * Strings for component 'gradereport_user', language 'es_mx', version '4.2'.
  *
  * @package     gradereport_user
  * @category    string
@@ -25,11 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['allusersnum'] = 'Todos los usuarios ({$a})';
 $string['eventgradereportviewed'] = 'Reporte de calificación de usuario visto';
-$string['myself'] = 'Yo Mismo';
-$string['otheruser'] = 'Usuario';
+$string['gotonextreport'] = 'Ir al siguiente reporte del usuario';
+$string['gotopreviousreport'] = 'Ir al anterior reporte del usuario';
 $string['pluginname'] = 'Reporte de usuario';
 $string['privacy:metadata:preference:gradereport_user_view_user'] = 'Si es que se ven reportes del usuario actual o de otro usuario en los reportes del Libro de calificaciones';
-$string['tablesummary'] = 'La tabla está organizada como una lista de ítems calificados, incluyendo categorías de ítems calificados. Cuando los ítems están en una categoría, se indican así.';
-$string['user:view'] = 'Ver su propio reporte de usuario';
-$string['viewas'] = 'Ver reporte como';
+$string['tablesummary'] = 'La tabla está organizada como una lista de elementos calificados, incluyendo categorías de elementos calificados. Cuando los elementos están en una categoría, se indican así.';
+$string['user:view'] = 'Ver reporte de usuario';
+$string['userreport_user'] = 'Reporte del usuario';
+$string['userreportdesc'] = 'Los reportes del usuario incluyen las calificaciones de un usuario, retroalimentación y el total del curso.';
+$string['userreports'] = 'Seleccionar un usuario de arriba para ver su reporte';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_etask', language 'es_mx', version '3.10'.
+ * Strings for component 'format_etask', language 'es_mx', version '4.2'.
  *
  * @package     format_etask
  * @category    string
@@ -31,7 +31,6 @@ $string['deletesection'] = 'Eliminar tópico';
 $string['editsection'] = 'Editar tópico';
 $string['editsectionname'] = 'Editar nombre del tópico/tema';
 $string['hidefromothers'] = 'Ocultar tópico';
-$string['legend'] = 'Letrero';
 $string['newsectionname'] = 'Nuevo nombre para tópico/tema {$a}';
 $string['page-course-view-topics'] = 'Cualquier página principal de curso en formato de tópicos eTask.';
 $string['page-course-view-topics-x'] = 'Cualquier página de curso en formato de tópicos eTask';

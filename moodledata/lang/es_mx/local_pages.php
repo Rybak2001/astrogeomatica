@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_pages', language 'es_mx', version '3.10'.
+ * Strings for component 'local_pages', language 'es_mx', version '4.2'.
  *
  * @package     local_pages
  * @category    string
@@ -37,6 +37,12 @@ $string['cleanurl_enabled_description'] = 'Permitirle a Enlaces el usar una URL 
 $string['custompage_title'] = 'Gestionar Páginas';
 $string['delete'] = 'Eliminar';
 $string['edit'] = 'Editar';
+$string['edit_details'] = 'Detalles';
+$string['edit_head'] = 'Contenido para &lt;head&gt;';
+$string['edit_htmlhead'] = 'HTML &lt;head&gt;';
+$string['edit_navigation'] = 'Navegación';
+$string['edit_ogimage'] = 'Archivo de imagen Open Graph';
+$string['edit_pagedisplay'] = 'Mostrar página';
 $string['email_headers'] = 'Encabezados personalizados para mail PHP';
 $string['email_headers_description'] = 'Ingresar los encabezados del Email a enviar - use {html} para enviar mensajes HTML. Use {From} para configurar una dirección del remitente y use {Reply-to} para habilitar una encabezado para responder';
 $string['emailto_name'] = 'Dirección Email del formato';
@@ -63,6 +69,7 @@ $string['message_copy_description'] = 'Introducir {nombre del campo} del formato
 $string['no'] = 'No';
 $string['noaccess'] = 'Usted no tiene permisos para ver esta página';
 $string['none'] = 'Ninguno';
+$string['numeric'] = 'Numérico';
 $string['page'] = 'Página';
 $string['page_accesslevel'] = 'Capacidad necesaria';
 $string['page_content'] = 'Contenido de la Página';
@@ -87,6 +94,8 @@ $string['pagesplugin'] = 'Plugin Pages (Páginas)';
 $string['pdfmanual'] = 'Manual PDF';
 $string['placeholder_fieldname'] = 'Nombre del Campo';
 $string['placeholder_text'] = 'Texto del remplazable';
+$string['pleasefillin'] = 'Por favor acomplete {$a}';
+$string['pleasefillinnumber'] = 'Por favor de un número para {$a}';
 $string['pleaseselect'] = 'Por favor Elija una opción';
 $string['pluginname'] = 'Páginas';
 $string['pluginsettings'] = 'Configuraciones';
@@ -103,10 +112,14 @@ $string['select_select'] = 'Seleccionar';
 $string['select_text'] = 'Texto';
 $string['select_text_area'] = 'Área de Texto';
 $string['select_yes'] = 'Si';
+$string['setting_additionalhead'] = 'Habilitar HTML adicional en head';
+$string['setting_additionalhead_description'] = 'Permitir que se añada contenido adicional al HTML de &lt;head&gt;';
 $string['show'] = 'Mostrar';
 $string['submit'] = 'Enviar';
+$string['textarea'] = 'Área de Texto';
 $string['type'] = 'Tipo';
 $string['user_copy'] = 'Copiar mensaje a persona';
 $string['user_copy_description'] = 'Seleccionar si la persona que llena el formato deberá recibir un mensaje';
+$string['validemail'] = 'Por favor, ponga una dirección Email válida para {$a}';
 $string['view'] = 'ver';
 $string['yes'] = 'Si';

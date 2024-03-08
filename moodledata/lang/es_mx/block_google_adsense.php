@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_google_adsense', language 'es_mx', version '3.10'.
+ * Strings for component 'block_google_adsense', language 'es_mx', version '4.2'.
  *
  * @package     block_google_adsense
  * @category    string
@@ -29,6 +29,7 @@ $string['ad_channel'] = 'canal';
 $string['ad_client'] = 'ID del editor';
 $string['ad_color_bg'] = 'color del fondo';
 $string['ad_color_border'] = 'color de orilla';
+$string['ad_color_link'] = 'color del enlace';
 $string['ad_color_text'] = 'color del texto';
 $string['ad_color_url'] = 'color de URL';
 $string['ad_format'] = 'formato';

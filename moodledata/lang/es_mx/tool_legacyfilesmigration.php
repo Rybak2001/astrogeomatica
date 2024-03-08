@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_legacyfilesmigration', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_legacyfilesmigration', language 'es_mx', version '4.2'.
  *
  * @package     tool_legacyfilesmigration
  * @category    string
@@ -28,7 +28,23 @@ defined('MOODLE_INTERNAL') || die();
 $string['backtoindex'] = 'Regresar al índice';
 $string['batchmigrate'] = 'Migrar archivos heredados para varios cursos';
 $string['batchoperations'] = 'Operaciones en lote';
+$string['cli2_nolog'] = 'falla sin bitácora, posiblemente no haya archivos antiguos heredados para migrar';
+$string['cli_coursenotfound'] = 'curso no encontrado';
+$string['cli_fail'] = 'legacyfilesmigration falló para el curso {$a}';
+$string['cli_help'] = 'Execucutar migración de legacyfiles para un curso.
+
+sudo -u www-data /usr/bin/php admin/tool/legacyfilesmigration/cli/migrate_legacyfiles.php -c=courseid -u=username [options]
+Opcioness:
+-h, --help                 imprimir esta página de ayuda
+-c, --courseid             requerido, id del curso a tratar
+-u, --username             requerido, username en donde colocar legacyfiles dentro de zona privada de archivos
+-p, --copycoursefiles       opcional, copycoursefiles dentro de zona privada de archivos';
+$string['cli_nocoursetomigrate'] = 'sin cursos con archivos heredado antiguos';
+$string['cli_success'] = 'legacyfilesmigrationexitosa para el curso {$a}';
+$string['cli_usernotfound'] = 'usuario no encontrado';
 $string['confirmbatchmigrate'] = 'Confirmar la migración masiva de cursos';
+$string['copyallcoursefiles'] = 'copiar archivos del curso para todas las filas';
+$string['copycoursefilesforall'] = 'copiar archivos del curso de todas las entradas';
 $string['courseid'] = 'ID del curso';
 $string['coursenotfound'] = 'courso {$a} no encontrado';
 $string['coursidnotcollapse'] = '¡la columna de courseid debe de estar no-colapsada!';
@@ -54,6 +70,7 @@ $string['notsupported'] = 'no soportado';
 $string['owner'] = 'Propietario';
 $string['pluginname'] = 'Migración de archivos heredados';
 $string['preselect_owner'] = 'Preseleccionar y llenar propietario';
+$string['privacy:metadata'] = 'El plugin de la herramienta para migración de archivos no almacena ningún dato personal.';
 $string['select'] = 'Seleccionar';
 $string['supported'] = 'Migrar';
 $string['toollegacyfilesmigrationsettings'] = 'Configuraciones para migración de archivos heredados';

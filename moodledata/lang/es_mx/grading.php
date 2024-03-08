@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'grading', language 'es_mx', version '3.10'.
+ * Strings for component 'grading', language 'es_mx', version '4.2'.
  *
  * @package     grading
  * @category    string
@@ -32,7 +32,7 @@ $string['clicktoclose'] = 'clic para cerrar';
 $string['error:gradingunavailable'] = 'El método de calificación avanzada no está configurado apropiadamente. Por favor, revise todas las opciones de calificación del foro en las configuraciones del foro.';
 $string['error:notinrange'] = 'Calificación inválida \'{$a->grade}\' proporcionada. Las calificaciones deben estar entre 0 y {$a->maxgrade}.';
 $string['exc_gradingformelement'] = 'No es posible crear un elemento  del formato de calificación';
-$string['formnotavailable'] = 'Un método de calificación avanzada fue seleccionado para su uso, pero el formato de calificación aún no está disponible. Usted debería definirlo previamente utilizando un enlace existente en el menú de acciones o en el bloque de administración.';
+$string['formnotavailable'] = 'Un método de calificación avanzada fue seleccionado para su uso, pero el formato de calificación aun necesita ser definido.';
 $string['gradingformunavailable'] = 'Tenga en cuenta que el formato de calificación avanzada no está listo en este momento. Se utilizará el método simple de calificación hasta que el formato tenga un estatus válido';
 $string['gradingmanagement'] = 'Calificación avanzada';
 $string['gradingmanagementtitle'] = 'Calificación avanzada: {$a->component} ({$a->area})';
@@ -51,7 +51,7 @@ $string['manageactionnew'] = 'Defina un nuevo formato de calificación desde cer
 $string['manageactionshare'] = 'Publicar el formato como una nueva plantilla';
 $string['manageactionshareconfirm'] = 'Está a punto de cuardar una copia del formato de calificación \'{$a}\' como una plantilla pública. Otros usuarios de su sitio podrán crear nuevos formatos de calificación para sus actividades a partir de esta plantilla.';
 $string['manageactionsharedone'] = 'El formato se guardó correctamente como plantilla';
-$string['noitemid'] = 'No es posible calificar. El ítem de calificación no existe.';
+$string['noitemid'] = 'No es posible calificar. El elemento de calificación no existe.';
 $string['nosharedformfound'] = 'No se ha encontrado plantilla';
 $string['privacy:metadata:grading_definitions'] = 'Información básica acerca de un formato de método avanzado para calificar definido en una área calificable.';
 $string['privacy:metadata:grading_definitions:areaid'] = 'La ID del área en donde está definido el formato de calificación avanzada.';
@@ -66,7 +66,7 @@ $string['privacy:metadata:grading_definitions:timecreated'] = 'La hora en la cua
 $string['privacy:metadata:grading_definitions:timemodified'] = 'La hora en la cual fue modificada por última vez esta definición de calificación.';
 $string['privacy:metadata:grading_definitions:usercreated'] = 'La ID del usuario que creó la definición de calificación.';
 $string['privacy:metadata:grading_definitions:usermodified'] = 'La ID del usuario que modificó por última vez la definición de calificación.';
-$string['privacy:metadata:grading_instances'] = 'Registro de valoración para un ítem calificable valorado por un evaluador.';
+$string['privacy:metadata:grading_instances'] = 'Registro de valoración para un elemento calificable valorado por un evaluador.';
 $string['privacy:metadata:grading_instances:feedback'] = 'La retroalimentación dada por el usuario.';
 $string['privacy:metadata:grading_instances:feedbackformat'] = 'El formato de la retroalimentación dada por el usuario.';
 $string['privacy:metadata:grading_instances:raterid'] = 'La ID del usuario que valoró la instancia de calificar.';

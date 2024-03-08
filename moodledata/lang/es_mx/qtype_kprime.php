@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_kprime', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_kprime', language 'es_mx', version '4.2'.
  *
  * @package     qtype_kprime
  * @category    string
@@ -33,7 +33,7 @@ $string['deletedchoice'] = 'La opción fue eliminada después que el intento fue
 $string['enterfeedbackhere'] = 'Escriba aquí la retroalimentación.';
 $string['entergeneralfeedbackhere'] = 'Escriba aquí la retroalimentación general.';
 $string['enteroptionhere'] = '';
-$string['enterstemhere'] = 'Escriba aquí el tallo de la pregunta o una parte de una oración.';
+$string['enterstemhere'] = 'Escriba aquí la base de la pregunta, una pregunta o una parte de una oración.';
 $string['false'] = 'Falso';
 $string['feedbackforoption'] = 'Retroalimentación para Opción {$a}';
 $string['generalfeedback'] = 'Retroalimentación general.';
@@ -41,6 +41,7 @@ $string['generalfeedback_help'] = 'Se muestra la misma retroalimentación genera
 $string['maxpoints'] = 'Puntos Máx.';
 $string['mustsupplyresponses'] = 'Usted debe proporcionar valores para todas las respuestas.';
 $string['mustsupplyvalue'] = 'Usted debe proporcionar un valor aquí.';
+$string['numberchoicehaschanged'] = 'El número de opciones ha cambiado No se puede re-calificar el intento de pregunta.';
 $string['oneanswerperrow'] = 'Por favor conteste todas las partes de la  pregunta.';
 $string['optionno'] = 'Opción {$a}';
 $string['optionsandfeedback'] = 'Opciones y Retroalimentación';
@@ -48,7 +49,7 @@ $string['pluginname'] = 'Kprime (ETH)';
 $string['pluginname_help'] = 'Las preguntas Kprime consisten de un tallo del ítem y cuatro opciones correspondientes. Par cada opción, los estudiantes tienen que decidir si es "cierta" o "falsa".';
 $string['pluginnameadding'] = 'Añadiendo una pregunta Kprime';
 $string['pluginnameediting'] = 'Editando una pregunta Kprime';
-$string['pluginnamesummary'] = 'En las preguntas Kprime exactamente cuatro opciones tienen que ser correctamente valoradas como "cierta" o "falsa".';
+$string['pluginnamesummary'] = 'En las preguntas Kprime exactamente cuatro opciones tienen que ser correctamente valoradas como "cierta" o "falsa". El método predeterminado de puntaje es "kprime".';
 $string['privacy:metadata'] = 'El plugin del tipo de pregunta KPrime no almacena ningún dato personal.';
 $string['responsedesc'] = 'El texto usado como valor por defecto para respuesta {$a}.';
 $string['responseno'] = 'Respuesta {$a}';

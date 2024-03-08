@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_unsuproles', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_unsuproles', language 'es_mx', version '4.2'.
  *
  * @package     tool_unsuproles
  * @category    string
@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmdelete'] = '¿Está seguro de que desea eliminar todas las asignaciones de funciones no compatibles para el rol "{$a->role}" en el nivel de contexto "{$a->level}"?';
+$string['confirmdelete'] = '¿Está seguro de que desea eliminar todas las asignaciones no soportadas de rol para el rol "{$a->role}" en el nivel de contexto "{$a->level}"?';
 $string['contextlevel'] = 'Nivel de contexto';
 $string['count'] = 'Número';
-$string['noprolbems'] = 'No se encontraron asignaciones de rol no-soportadas.';
-$string['pluginname'] = 'Asignaciones de rol no-soportadas.';
-$string['privacy:metadata'] = 'El plugin de Asignaciones de rol no soportado no almacena ningún dato personal.';
+$string['noprolbems'] = 'No se encontraron asignaciones no soportadas de rol .';
+$string['pluginname'] = 'Asignaciones no soportadas de rol.';
+$string['privacy:metadata'] = 'El plugin de Asignaciones no soportado de rol no almacena ningún dato personal.';

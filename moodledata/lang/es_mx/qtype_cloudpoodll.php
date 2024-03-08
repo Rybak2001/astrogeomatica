@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_cloudpoodll', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_cloudpoodll', language 'es_mx', version '4.2'.
  *
  * @package     qtype_cloudpoodll
  * @category    string
@@ -38,8 +38,6 @@ $string['audioskin'] = 'Piel de grabadora de audio';
 $string['awsregion'] = 'Región AWS';
 $string['cloudpoodll'] = 'Cloud Poodll';
 $string['credentialsinvalid'] = 'El secreto y usuario API ingresados no pudieron ser usados para obtener acceso. Por favor, revíselos.';
-$string['currentresponse'] = 'Respuesta Actual:<br />';
-$string['currentsubmission'] = 'Envío actual:';
 $string['de-ch'] = 'Alemán (Suizo)';
 $string['de-de'] = 'Alemán (DE)';
 $string['defaultrecorder'] = 'Tipo de grabadora';
@@ -63,8 +61,6 @@ $string['fallbackupload'] = 'Subir';
 $string['fallbackwarning'] = 'Advertencia';
 $string['forever'] = 'Nunca expira';
 $string['formataudio'] = 'Grabación de audio';
-$string['formateditor'] = 'Editor HTML';
-$string['formatupload'] = 'Subir archivo de medio';
 $string['formatvideo'] = 'Grabación de video';
 $string['fr-ca'] = 'Francés (CA)';
 $string['fr-fr'] = 'Francés (FR)';
@@ -80,10 +76,8 @@ $string['language'] = 'Idioma del sujeto';
 $string['london'] = 'Londres, U.K.';
 $string['ms-my'] = 'Malayo';
 $string['mumbai'] = 'Mumbai, India';
-$string['nlines'] = '{$a} líneas';
 $string['noapisecret'] = 'No se introdujo secreto API. El plugin no funcionará correctamente.';
 $string['noapiuser'] = 'No se introdujo usuario API. El plugin no funcionará correctamente.';
-$string['norecording'] = 'no se encontró grabación';
 $string['nosubscriptions'] = 'No hay suscripción actual para este sitio/plugin.';
 $string['notimelimit'] = 'Sin límite de tiempo';
 $string['notokenincache'] = 'Refrescar para ver información de licencia.Póngase en contacto con soporte si hay un problema.';
@@ -104,7 +98,6 @@ $string['recorderaudio'] = 'Grabadora de audio';
 $string['recordertype'] = 'Tipo de grabadora Cloud Poodll';
 $string['recordervideo'] = 'Grabadora de video';
 $string['refreshtoken'] = 'Refrescar información de licencia';
-$string['region'] = 'Región AWS';
 $string['responseformat'] = 'Formato de respuesta';
 $string['ru-ru'] = 'Ruso';
 $string['saopaulo'] = 'Sao Paulo, Brasil';

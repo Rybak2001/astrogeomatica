@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'securepdf', language 'es_mx', version '3.10'.
+ * Strings for component 'securepdf', language 'es_mx', version '4.2'.
  *
  * @package     securepdf
  * @category    string
@@ -25,11 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addsiteaddress'] = 'Añadir nombre del sitio a la imagen';
+$string['addsiteaddress_explain'] = 'Añadir nombre del sitio a cada imagen del PDF';
+$string['addusername'] = 'Añadir nombre_de_usuario a cada imagen';
+$string['addusername_explain'] = 'Añadir nombre_de_usuario a cada imagen del PDF';
+$string['bottom'] = 'Fondo';
 $string['cachedef_pages'] = 'Páginas del caché PDF';
 $string['eventpage_view'] = 'Página vista PDF Seguro';
 $string['imagick_pdf_policy'] = 'Usted debe configurar la política de ImageMagick para permitir la lectura de PDF. Vea https://stackoverflow.com/questions/52703123/override-default-imagemagick-policy-xml';
 $string['imagickrequired'] = 'Se requiere la extensión PHP Imagemagick';
 $string['install_imagick'] = 'PHP-Imagick necesita instalarse, porque en caso contrario ni usted ni los estudiantes podrán ver elcontenido';
+$string['middle'] = 'Enmedio';
 $string['modulename'] = 'PDF Seguro';
 $string['modulename_help'] = 'USe el módulo securepdf para añadir archivos PDF de forma segura a su curso. El estudiante no podrá descargar el PDF. Le será mostrado como una imagen por página -sin poder hacer clic derecho para guardar la imagen';
 $string['modulenameplural'] = 'PDFs Seguros';
@@ -41,3 +47,6 @@ $string['resolution'] = 'Resolución predeterminada de imagen';
 $string['resolution_explain'] = 'Configurar la resolución de la imagen del PDF, porque mientras mayor sea el aumento - la página se cargará más lentamente.';
 $string['securepdf:addinstance'] = 'Añadir un nuevo securepdf';
 $string['securepdf:view'] = 'Ver securepdf';
+$string['top'] = 'Superior';
+$string['usernameposition'] = 'Posición de nombre_de_usuario y nombre del sitio';
+$string['usernameposition_explain'] = 'Configurar la posición de nombre_de_usuario y nombre del sitio en la imagen';

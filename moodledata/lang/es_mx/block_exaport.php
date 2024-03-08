@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_exaport', language 'es_mx', version '3.10'.
+ * Strings for component 'block_exaport', language 'es_mx', version '4.2'.
  *
  * @package     block_exaport
  * @category    string
@@ -382,6 +382,9 @@ $string['resume_institutionaddress'] = 'Dirección de la institución';
 $string['resume_interests'] = 'Intereses';
 $string['resume_interestssaved'] = 'Intereses guardados';
 $string['resume_jobtitle'] = 'título del trabajo';
+$string['resume_linkedin'] = 'Perfil de Linkedln';
+$string['resume_linkedindeleted'] = 'Perfil de Linkedln eliminado';
+$string['resume_linkedinsaved'] = 'Perfil de Linkedln guardado';
 $string['resume_mbrship'] = 'Membresías';
 $string['resume_mbrshipdeleted'] = 'Membresía eliminada';
 $string['resume_mbrshipsaved'] = 'Membresía guardada';

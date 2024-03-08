@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_bcu', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_bcu', language 'es_mx', version '4.2'.
  *
  * @package     theme_bcu
  * @category    string
@@ -29,9 +29,12 @@ $string['activebreadcrumb'] = 'Color del fondo de la ruta de navegación';
 $string['activebreadcrumbdesc'] = 'Configurar el color del fondo de la ruta de navegación activa, y el resto de la barra de la ruta de navegación.';
 $string['alertbox'] = 'Caja de Alerta Superior';
 $string['alertboxdesc'] = 'Caja de Alerta a mostrar en la parte superior de todas las páginas';
+$string['alertdesc'] = 'Mostrar cajas con alertas para advertirle a usuarios sobre acciones, o proporcionar avisos a todos los  usuarios.';
+$string['alertsettings'] = 'Alertas';
+$string['alertsettingsheading'] = 'Personalizar las cajas de alertas que aparecen en la parte superior de la página.';
 $string['backcolor'] = 'Color del Fondo';
 $string['backcolordesc'] = 'Configurar el Color del Fondo';
-$string['blockside'] = 'Localización de los bloques';
+$string['blockside'] = 'Ubicación de los bloques';
 $string['blocksidedesc'] = 'Controlar si es que los bloques aparecen a la izquierda o a la derecha de la página';
 $string['breadcrumb'] = 'Color del  fondo de la ruta de navegación';
 $string['breadcrumbdesc'] = 'Configurar el color del  fondo de la ruta de navegación';
@@ -110,6 +113,7 @@ $string['frontpagerendererdesc'] = 'Configurar la forma en la que las cajas del 
 $string['frontpagerendereroption1'] = 'Mosaicos';
 $string['frontpagerendereroption2'] = 'Mosaicos con sobrepuestos';
 $string['frontpagerendereroption3'] = 'Valores por defecto de Moodle';
+$string['frontpagesettings'] = 'Portada';
 $string['frontpagesettingsheading'] = 'Renderizado de Portada';
 $string['frontpageslidersettings'] = 'Deslizador de Portada';
 $string['fsize'] = 'Tamaño global de Letras';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_boost_campus', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_boost_campus', language 'es_mx', version '4.2'.
  *
  * @package     theme_boost_campus
  * @category    string
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addablockpositionsetting'] = 'Posición del widget "Añadir un bloque"';
+$string['addablockpositionsetting_desc'] = 'Con esta configuración usted puede gestionar donde es que el widget de "Añadir un bloque" debería ser mostrado. Si selecciona "al fondo del cajón de navegación" el widget para añadir nuevos bloques es mostrado en el panel de navegación deslizable izquierdo a semejanza del tema Boost. Si selecciona "Al fondo de la región predeterminada de bloque" el widget para añadir nuevos bloques será mostrado en la región predeterminada de bloque. Por favor tenga en cuenta: Esto tiene el efecto secundario de que este bloque también será mostrado en la región de bloque en las páginas de configuración de la actividad cuando esté activado el modo de edición.';
 $string['addablockwidgetheadingsetting'] = 'Posición del widget "Añadir un bloque"';
 $string['additionallayoutsettings'] = 'Config Diseño Adic';
 $string['additionalresourcesheadingsetting'] = 'Recursos adicionales';
@@ -37,6 +38,17 @@ $string['backgroundimage_desc_note'] = '<br/> Por favor tenga en cuenta que: Est
 $string['backtotop'] = 'Regresar a Superior';
 $string['bcbttbuttonheadingsetting'] = 'Botón "Regresar a superior" de Boost Campus';
 $string['bcbttbuttonsetting'] = 'Botón "Regresar a superior" de Boost Campus';
+$string['bcbttbuttonsetting_desc'] = 'A partir de Moodle 3.9,un botón para "Ir a superior" fue integrado al tema Boost y usualmente eso haría a nuetra solución proporcionada obsoleta,.<br/>
+Sin embargo, la solución en el Moodle estándar todavía tiene algunos problemillas y esta es la razón por la que a nosotros nos gustaría proporcionar el botón de Boost Campus para "Regresar a superior" como una configuración opcional. <br/>
+Si usted habilita esta configuración, el botón estándar para "Ir a superior" ya no será mostrado y en su lugar estará el botón de Boost Campus para "Regresar a superior". Las diferencias son:<br/>
+<ul>
+<li>Deslizamiento suave: El botón de "Regresar a superior" de Boost Campus usa deslizamiento sueve mientras que el botón estándar para "Ir a superior" brinca directamente a la parte superior.</li>
+<li>Implicaciones de URL: El botón para "Regresar a superior" de Boost Campus usa Javascript y no tiene implicación para la URL mientras que el botón estándar para "Ir a superior" añade un "#" al final dela URL cuando se hace clic en el botón. Si usted copia la URL la "#" será copiada también.</li>
+<li>Estilo: El estilo de ambos botones difiere.</li>
+<li>Accesibilidad: El botón para "Regresar a superior" de Boost Campus no está mejorado en términos de accesibilidad mientras que el estándar de "Ir a superior" si lo está.</li>
+</ul>
+Por favor tenga en cuenta:<br/>
+Esta configuración será eliminada tan pronto como la característica estándar se mejorada, por lo que ya no se necesitará más una solución del tema individual.';
 $string['blockcolumnwidthdashboardsetting'] = 'Ancho de columna de bloque en Tablero';
 $string['blockcolumnwidthdashboardsetting_desc'] = 'Con esta configuración Usted puede cambiar el ancho (en pixeles) de la columna del bloque en el Tablero.';
 $string['blockcolumnwidthdefault'] = 'El ancho predeterminado a partir de Moodle 3.6 es de 360 pixeles. Hasta Moodle 3.5 el ancho era  250 pixeles.';
@@ -69,7 +81,7 @@ $string['brandwarningcolorsetting_desc'] = 'Este color es usado por ejemplo, par
 $string['breakpointheadingsetting'] = 'Punto de quiebre';
 $string['breakpointsetting'] = 'Cambiar punto de quiebre';
 $string['breakpointsetting_desc'] = 'En el tema Boost, la columna del bloque derecho se partirá inclusive en dispositivos con un ancho de hasta 1200 pixeles (por ejemplo, la resolución de pantalla ancha del iPad es 1024 pixeles).
-Esto es porque el punto de quiebre está configurado a  <a href="https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints">media-breakpoint-down(lg)</a>. <br/>
+Esto es porque el punto de quiebre está configurado a  <a href="https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints">media-breakpoint-down(lg)</a>. <br/>
 Si Usted piensa que hay espacio suficiente para mostrar el contenido además de la columna de bloques lado a lado en una pantalla con ancho de 992 pixeles y superiores, entonces habilite esta configuración. Cambiará el punto de quiebre a media-breakpoint-down(md). Esto partirá la columna de bloques en pantallas con anchos menores a 992 pixeles.';
 $string['cachedef_imagearea'] = 'Caché para ítems del área_de_imágenes';
 $string['catchcmdarrowdownsetting'] = 'Atajo CMD + Flecha abajo';
@@ -133,6 +145,15 @@ $string['ibcsssetting_nobootstrap'] = 'Si Usted elige la opción \'{$a->bootstra
 $string['imageareaheadingsetting'] = 'Área de imágenes';
 $string['imageareaheadingsetting_desc'] = 'Las configuraciones siguientes le permiten añadir una región adicional para mostrar imágenes, como por ejemplo, logos. Esta región será añadida debajo del pie de página estándar y arriba de la región del pie de página opcional. Si las imágenes son subidas a esta área, serán mostradas en todos los sitios que usen el diseño de dos columnas.';
 $string['imageareaitemsattributessetting'] = 'Atributos adicionales de ítem de área de imagen';
+$string['imageareaitemsattributessetting_desc'] = 'Con esta configuración opcional usted puede añadir atributos adicionales a sus imágenes subidas:
+<ul>
+<li>un enlace</li>
+<li>un atributo alt que describe la imagen</li>
+</ul>
+Cada línea consiste del identificador del archivo (el nombre del archivo), la URL del enlace y el alt-text (texto alterno), separados por el caracter de barra vertical |. Cada declaración de enlace necesita estar escrita en una nueva línea. <br/>
+Por ejemplo:<br/>
+<code>moodle.jpg|https://moodle.org|Logo de Moodle </code><br/><br/>
+Usted puede declarar los atributos adicionales para una cantidad arbitraria de sus imágenes subidas. Los atributos serán añadidos solamente a aquellas imágenes que coincidan su nombre de archivo con el identificador declarado en esta configuración.';
 $string['imageareaitemsmaxheightsetting'] = 'Altura máxima de ítems del área de imágenes';
 $string['imageareaitemsmaxheightsetting_desc'] = 'Con esta configuración Usted puede cambiar la altura en pixeles para sus imágenes subidas. Todas las imágenes tendrán la misma altura máxima y sus anchos serán re-escalados proporcionalmente. El valor por defecto está configurado a 100 pixeles.';
 $string['imageareaitemssetting'] = 'Ítems del área de imágenes';
@@ -147,6 +168,11 @@ $string['login_page'] = 'Página de ingreso';
 $string['loginbackgroundimagesetting'] = 'Imágenes de fondo de página de ingreso';
 $string['loginbackgroundimagesetting_desc'] = 'Las imágenes subidas en esta configuración serán mostradas aleatoriamente en la página de ingreso como imágenes de fondo.';
 $string['loginbackgroundimagetextsetting'] = 'Mostrar texto para imágenes del fondo para ingresar';
+$string['loginbackgroundimagetextsetting_desc'] = 'Con esta configuración opcional usted puede añadir texto, por ejemplo un aviso de Copyright, a sus imágenes de fondo subidas.<br/>
+Cada línea consiste del identificador del archivo (el nombre del archivo) y el texto que debería ser mostrado, separados por un caracter de barra vertical |. Cada declaración necesita estar escrita en una línea nueva. <br/>
+Por ejemplo:<br/>
+background-image-1.jpg|Copyright: CC0<br/>
+Usted puede declarar textos para una cantidad arbitraria de sus imágenes subidas. Los textos serán añadidos solamente a aquellas imágenes que coincida su nombre de archivo con el identificador declarado en esta configuración.';
 $string['loginform'] = 'Formato para ingresar';
 $string['loginform_desc'] = 'Con esta configuración, Usted puede optimizar el formato para ingreso, para que se ajuste a una mayor variedad de imágenes de fondo (si se activa). Esto significa que el formato para ingresar será movido hacia la izquierda de la página para ingresar, se volverá más angosto y tendrá un fondo que permita que resalte la imagen del fondo. El formato para ingreso será colocado a la izquierda, porque muchas imágenes tienen su contenido principal bastante centrado y por esto es que queremos mantener visible este contenido. Tenga en cuenta que Usted también pude desactivar esta configuración si no se han subido imágenes de fondo, por supuesto.';
 $string['loginpagedesignheadingsetting'] = 'Página para ingresar';
@@ -157,12 +183,21 @@ $string['navdrawerheadingsetting'] = 'Menú del cajón de navegación';
 $string['perpetualinfobannerheadingsetting'] = 'Banner de información perpetua';
 $string['perpetualinfobannerheadingsetting_desc'] = 'Las configuraciones siguientes le permiten mostrar algunas informaciones importantes dentro de un banner prominente perpetuo.';
 $string['perpetualinfobannerresetvisiblitysetting'] = 'Reiniciar visibilidad para banner informativo perpetuo';
+$string['perpetualinfobannerresetvisiblitysetting_desc'] = 'Al habilitar esta casilla, la visibilidad de los banners de información perpetuos descartados individualmente será configurada a visible nuevamente.<br/><br/>
+Por favor tenga en cuenta: <br/>
+Después de guardar esta opción, las operaciones de la base de datos para reiniciar la visibilidad serán ejecutadas y esta casilla será des-seleccionada nuevamente. La siguiente vez que se habilite y guarde esta característica, se ejecutarán las operaciones de la base de datos para reiniciar nuevamente la visibilidad.';
 $string['perpibconfirmsetting'] = 'Diálogo de confirmación';
+$string['perpibconfirmsetting_desc'] = 'Cuando usted habilita esta configuración, usted puede mostrar un diálogo de confirmación a un usuario cuando va a descartar el banner de información.
+<br/>El texto es guardado en la cadena de caracteres con el nombre "closingperpetualinfobanner":<br/><br/>
+¿Está seguro de querer descartar esta información? ¡Una vez hecho ya no se verá más!<br/><br/>
+Usted puede sobre-escribir esto dentro de su personalización del idioma si necesita algún otro texto en este diálogo.';
 $string['perpibcontent'] = 'Contenido del banner de información perpetua';
 $string['perpibcontent_desc'] = 'Escriba su información que debería ser mostrada dentro del banner aquí.';
 $string['perpibcsssetting'] = 'Clase CSS Bootstrap para el baner érpetuo d einformación';
 $string['perpibcsssetting_desc'] = 'Con esta configuración Usted puede seleccionar el estilo Bootstrap con el cual debería ser mostrado el banner de información perpetua.';
 $string['perpibdismisssetting'] = 'Banner de información perpetua desechable';
+$string['perpibdismisssetting_desc'] = 'Con esta casilla usted puede hacer el banner descartable permanentemente. Si el usuario hace clic en el botón x, aparecerá un cuadro de diálogo y solamente después de que el usuario haya confirmado este diálogo el banner será ocultado para este usuario een forma permanente.
+<br/><br/>Por favor tenga en cuenta: <br/> Esta configuración no tiene efecto para los banners mostrados en la página para ingresar al sitio. Porque los banners en la página para ingresar al sitio no pueden ser descartados permanentemente, no ofrecemos la posibilidad de descartarlos para nada en la página para ingresar al sitio.';
 $string['perpibenablesetting'] = 'Habilitar banner de información perpetua';
 $string['perpibenablesetting_desc'] = 'Con esta casilla Usted puede decidir si el banner perpetuo de información debería ser mostrado o ser ocultado en las páginas seleccionadas.';
 $string['perpibshowonpagessetting'] = 'Diseños de páginas en las cuales mostrar el banner de información';
@@ -178,6 +213,11 @@ $string['region-footer-right'] = 'Pie de página (derecho)';
 $string['region-side-pre'] = 'Derecha';
 $string['resetperpetualinfobannersuccess'] = '¡Éxito! Todas las instancias del banner perpetuo de información son visibles nuevamente.
 <br/>La configuración "Reiniciar visibilidad para banner perpetuo de información" ha sido reiniciada.';
+$string['resetperpetualinfobannervisibilityerror'] = 'Ups... Algo salió mal al actualizar las tablas de la base de datos. Las preferencias del usuario "theme_boost_campus_infobanner_dismissed" deberían de haber sido reiniciadas en la tabla "user_preferences".
+<br/>Excepción disparada: {$a->message}.
+<br/>Trazado de la Pila:
+<br/>{$a->stacktrace}.
+<br/>La configuración "Reiniciar visibilidad para banner de información perpetua" ha sido reiniciada sin embargo.';
 $string['section0titlesetting'] = 'Título de Sección 0';
 $string['section0titlesetting_desc'] = 'Esta configuración puede cambiar el comportamiento de como Moodle muestra el título para la primera sección del curso. Moodle no lo muestra cuando se configuró el título por defecto para esta sección. Tan pronto como un usuario cambia el título, aparecerá. Con esta configuración (la opción activada), Usted puede lograr un comportamiento consistente al siempre mostrar el título para la sección 0.';
 $string['settingsaddablockpositionbottomblockregion'] = 'Al fondo de la región de bloque predeterminado';
@@ -217,10 +257,16 @@ $string['timedibcsssetting_desc'] = 'Con esta configuración Usted puede selecci
 $string['timedibenablesetting'] = 'Habilitar banner de información controlada por tiempo';
 $string['timedibenablesetting_desc'] = 'Con esta casilla Usted puede decidir si el banner de información controlada por tiempo debería estar visible o estar oculto en las páginas seleccionadas.';
 $string['timedibendsetting'] = 'Hora de fin del banner de información controlada por tiempo';
+$string['timedibendsetting_desc'] = 'Con esta configuración usted puede definir cuando debería ser ocultado el banner controlado por tiempo en las páginas seleccionadas..
+<br/>Por favor ingrese una fecha válida en el formato: YYYY-MM-DD HH:MM:SS. Por ejemplo: "2020-01-07 08:00:00. Por favor ingrese una fecha válida en el formato
+<br/>Si deja esta configuración vacía pero ingresa una fecha para el inicio, el banner no se ocultará después que se haya alcanzado la fecha de inicio.';
 $string['timedibshowonpagessetting'] = 'Diseños de páginas dentro de los cuales mostrar la información del banner';
 $string['timedibshowonpagessetting_desc'] = 'Con esta configuración usted puede seleccionar las páginas en las cuales debería de mostrarse el banner de información controlado por tiempo.
 <br/>¡ Si ambos banners de información están activos en un diseño seleccionado, el banner de información controlado por tiempo siempre aparecerá arriba del banner de información perpetuo !';
 $string['timedibstartsetting'] = 'Hora de inicio del banner de información controlada por tiempo';
+$string['timedibstartsetting_desc'] = 'Con esta configuración usted puede definir cuando debería ser mostrado el banner controlado por tiempo en las páginas seleccionadas.
+<br/>Por favor ingrese una fecha válida en el formato: YYYY-MM-DD HH:MM:SS. Por ejemplo: "2020-01-01 08:00:00". La zona horaria será la zona horaria que usted haya definido en la configuración de "Zona horaria predeterminada".
+<br/>Si deja esta configuración vacía pero ingresa una fecha para el fin, es lo mismo a que ingrese una fecha lejana en el pasado.';
 $string['timedinfobannerheadingsetting'] = 'Banner de información controlada por tiempo';
 $string['timedinfobannerheadingsetting_desc'] = 'Las configuraciones siguientes le permiten mostrar alguna información importante dentro de un banner controlado por tiempo.';
 $string['userdefinedontopsetting'] = 'Página inicial definida por el usuario en parte superior';

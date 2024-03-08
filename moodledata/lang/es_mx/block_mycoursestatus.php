@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_mycoursestatus', language 'es_mx', version '3.10'.
+ * Strings for component 'block_mycoursestatus', language 'es_mx', version '4.2'.
  *
  * @package     block_mycoursestatus
  * @category    string
@@ -28,7 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['cconda'] = 'Condición A - finalización del módulo';
 $string['ccondb'] = 'Condición B - módulo con finalización del curso';
 $string['ccondc'] = 'Condición A - finalización de calificación del curso';
-$string['cname'] = 'Curso:';
 $string['condA'] = 'Elegir al menos una condición:';
 $string['condB'] = 'No elegir más de una condición:';
 $string['creport'] = 'REPORTE DEL CURSO';

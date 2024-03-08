@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_roster', language 'es_mx', version '3.10'.
+ * Strings for component 'report_roster', language 'es_mx', version '4.2'.
  *
  * @package     report_roster
  * @category    string
@@ -42,17 +42,6 @@ currenttime %l:%M %p';
 $string['settings:fields:description'] = 'Una lista de campos de perfil a mostrar en el reporte. Cada identificador de campo debería estar en una línea nueva. \'fullname\' (nombrecompleto) también está soportado.
 
 IMPORTANTE: los campos personalizados del perfil deben ser ingresados como "profile_field_{shortname}".';
-$string['settings:flatnav'] = '¿Mostrar en navegación plana?';
-$string['settings:flatnav:description'] = 'Si se activa, un enlace al reporte de Lista será añadido a la navegación plana de Boost.
-(Bajo temas más antiguos como More (Más), aparecerá en el bloque de Navegación debajo de Curso actual > {coursename})';
-$string['settings:flatnav_position'] = 'Posición en navegación plana';
-$string['settings:flatnav_position:default'] = 'badgesview (Insignias)
-competencies (Competencias)
-grades (Calificaciones)
-participants (Participantes)';
-$string['settings:flatnav_position:description'] = 'Un enlace hacia el reporte será añadido *arriba* del enlace en la parte superior de esta lista.
-Si no es encontrado, se intentará el siguiente en la lista, y así sucesivamente. La primera palabra en cada línea es el identificador del enlace; todo lo que siga es ignorado (para que los identificadores puedan ser etiquetados). Los nodos principales de navegación del curso están incluidos por defecto; los identificadores para nodos adicionales pueden ser obtenidos al buscar en la propiedad `data-key` (clave-de-datos) del `<a>`relevante.';
-$string['settings:headings:flatnav'] = 'Configuraciones de Navegación Plana';
 $string['settings:headings:general'] = 'Configuraciones Generales';
 $string['settings:headings:size'] = 'Configuraciones de Tamaño de Imagen del Usuario';
 $string['settings:size_default'] = 'Tamaño predterminado';

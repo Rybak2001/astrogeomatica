@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'profilefield_o365', language 'es_mx', version '3.10'.
+ * Strings for component 'profilefield_o365', language 'es_mx', version '4.2'.
  *
  * @package     profilefield_o365
  * @category    string
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['connected_link'] = 'Gestionar';
 $string['connected_str'] = 'El usuario está conectado a Office 365.';
+$string['notconnected_link'] = 'Conectar a Office 365';
 $string['notconnected_str'] = 'El usuario NO está conectado a Office 365.';
 $string['pluginname'] = 'Conexión por Office 365';

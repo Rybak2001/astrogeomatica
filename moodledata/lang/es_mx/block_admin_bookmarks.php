@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_admin_bookmarks', language 'es_mx', version '3.10'.
+ * Strings for component 'block_admin_bookmarks', language 'es_mx', version '4.2'.
  *
  * @package     block_admin_bookmarks
  * @category    string
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['admin_bookmarks:addinstance'] = 'Añadir un nuevo bloque de marcadores (bookmarks) del admin';
-$string['admin_bookmarks:myaddinstance'] = 'Añadir un nuevo bloque de marcadores (bookmarks) del admin a la página del Tablero';
-$string['pluginname'] = 'Administrar marcadores';
-$string['privacy:metadata'] = 'El Bloque de marcas de Administración solamente muestra datos almacenados en otros lugares.';
+$string['admin_bookmarks:addinstance'] = 'Añadir un nuevo bloque de Marcadores administrativos';
+$string['admin_bookmarks:myaddinstance'] = 'Añadir un nuevo bloque de Marcadores administrativosa la página del Tablero';
+$string['pluginname'] = 'Marcadores administrativos';
+$string['privacy:metadata'] = 'El Bloque de Marcadores administrativos solamente muestra datos almacenados en otros lugares.';

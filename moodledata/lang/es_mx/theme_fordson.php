@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_fordson', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_fordson', language 'es_mx', version '4.2'.
  *
  * @package     theme_fordson
  * @category    string
@@ -160,7 +160,7 @@ $string['flickr'] = 'URL de Flickr';
 $string['flickrdesc'] = 'Ingrese la URL de su página de Flickr (por ejemplo https://www.flickr.com/groups/unam/)';
 $string['footerbkg'] = 'Color del Fondo del Pie de Página';
 $string['footerbkg_desc'] = 'Color del Fondo del Pie de Página para el fondo de la página.';
-$string['footerdesc'] = 'Los ítems debajo le permiten proporcionar un aspecto característico al pie de página del tema.';
+$string['footerdesc'] = 'Los ítems debajo le permiten proporcionar un marcado personalizado al pie de página del tema.';
 $string['footerheading'] = 'Pie de página';
 $string['footerheadingsocial'] = 'Íconos Sociales';
 $string['footerheadingsub'] = 'Personalizar el pie de página de la página inicial';

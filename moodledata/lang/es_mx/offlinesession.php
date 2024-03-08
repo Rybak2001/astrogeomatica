@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'offlinesession', language 'es_mx', version '3.10'.
+ * Strings for component 'offlinesession', language 'es_mx', version '4.2'.
  *
  * @package     offlinesession
  * @category    string
@@ -25,5 +25,24 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addofflinesession'] = 'Añadir una nueva sesión offline';
+$string['confirmofflinesessiontobedeleted'] = '¿Realmente quiere eliminar esta sesión fuera-de-línea?<br />Hora deinicio: {$a->starttime}<br />Duración: {$a->duration}<br />Descripción: {$a->description}';
+$string['duration'] = 'Duración';
+$string['endtime'] = 'Hora de terminación';
+$string['modulename'] = 'offlinesession';
 $string['modulename_help'] = 'Use el módulo offlinesession para organizar sesiones fuera de línea.
 El módulo offlinesession le permite tener sesiones fuera de línea';
+$string['modulenameplural'] = 'offlinesessions';
+$string['offlinesession'] = 'offlinesession';
+$string['offlinesession:manageall'] = 'Ver sesión offline para todos   los usuarios';
+$string['offlinesessiondataupdated'] = 'Datos de sesión offline actualizados';
+$string['offlinesessionfieldset'] = 'Conjunto de campo de ejemplo  personalizado';
+$string['offlinesessionname'] = 'nombre de offlinesession';
+$string['offlinesessionname_help'] = 'Este es el contenido de la herramientita de ayuda asociada con el campo offlinesessionname. La  sintaxis  Markline está soportada';
+$string['pluginadministration'] = 'administración de offlinesession';
+$string['pluginname'] = 'offlinesession';
+$string['selectanactivity'] = 'Seleccionar una actividad ...';
+$string['starttime'] = 'Hora de inicio';
+$string['unabletoaddofflinesessiondata'] = 'No se pueden añadir datos de sesión offline';
+$string['unabletodeleteofflinesession'] = 'No se puede eliminar sesión offline';
+$string['unabletoupdateofflinesessiondata'] = 'No se pueden actualizar datos de sesión offline';

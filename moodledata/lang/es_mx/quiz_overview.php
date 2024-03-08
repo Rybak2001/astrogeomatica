@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_overview', language 'es_mx', version '3.10'.
+ * Strings for component 'quiz_overview', language 'es_mx', version '4.2'.
  *
  * @package     quiz_overview
  * @category    string
@@ -66,11 +66,13 @@ $string['regradealldrydo'] = 'Recalificar los intentos marcados cuando necesiten
 $string['regradealldrydogroup'] = 'Recalificar intentos ({$a->countregradeneeded}) marcados como necesitados de recalificación en el grupo \'{$a->groupname}';
 $string['regradealldrygroup'] = 'Simulacro de recalificación completa para el grupo \'{$a->groupname}';
 $string['regradeallgroup'] = 'Recalificación completa para el grupo \'{$a->groupname}';
-$string['regradecomplete'] = 'Re-calificar completado exitosamente';
-$string['regradedsuccessfullyxofy'] = 'Se recalificaron exitosamente ({$a->done}/{$a->count})';
+$string['regradecomplete'] = 'Re-calificación completada';
+$string['regradedsuccessfullyxofy'] = 'Se terminó de re-calificar ({$a->done}/{$a->count})';
 $string['regradeheader'] = 'Recalificando';
 $string['regradeselected'] = 'Volver a calificar los intentos seleccionados';
+$string['regradingattemptissue'] = 'Posición {$a->slot}: {$a->reason}';
 $string['regradingattemptxofy'] = 'Recalificando intento ({$a->done}/{$a->count})';
+$string['regradingattemptxofyproblem'] = 'Las siguientes preguntas no se pudieron re-calificar en el intento {$a->attemptnum} por {$a->name} (id {$a->attemptid})';
 $string['regradingattemptxofywithdetails'] = 'Recalificando intento ({$a->done}/{$a->count}) - Intento {$a->attemptnum} por {$a->name} (id {$a->attemptid})';
 $string['show'] = 'Mostrar / descargar';
 $string['showattempts'] = 'Solo mostrar / descargar intentos';

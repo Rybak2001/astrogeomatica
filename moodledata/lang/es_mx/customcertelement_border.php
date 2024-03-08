@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customcertelement_border', language 'es_mx', version '3.10'.
+ * Strings for component 'customcertelement_border', language 'es_mx', version '4.2'.
  *
  * @package     customcertelement_border
  * @category    string
@@ -25,8 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['invalidwidth'] = 'El ancho tiene que ser un número válido mayor de 0.';
 $string['pluginname'] = 'Borde';
 $string['privacy:metadata'] = 'El plugin Border (Borde) no almacena ningún dato personal.';
-$string['width'] = 'Ancho';
-$string['width_help'] = 'Ancho del borde en mm.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_formulas', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_formulas', language 'es_mx', version '4.2'.
  *
  * @package     qtype_formulas
  * @category    string
@@ -35,8 +35,8 @@ debe ser una lista de números, o una lista de cadenas de caracteres, dependiend
 <pre class="prettyprint">123<br>[1, 0, 0, 1]<br>a<br>[1, a, b]<br>"exp(-a t)"<br>["vx t","vy t - 0.5 a t^2"]</pre>';
 $string['answercombinedunitmulti'] = 'Respuesta y unidad para la parte {$a->part}';
 $string['answercombinedunitsingle'] = 'Respuesta y unidad';
-$string['answercoordinatemulti'] = 'Respuesta para parte {$a->part} y coordenada {$a->numanswer}';
-$string['answercoordinatesingle'] = 'Respuesta para coordenada {$a->numanswer}';
+$string['answercoordinatemulti'] = 'Campo de respuesta {$a->numanswer} para parte {$a->part}';
+$string['answercoordinatesingle'] = 'Campo de respuesta {$a->numanswer}';
 $string['answermark'] = 'Puntuación de parte*';
 $string['answermark_help'] = '**Requerido**.
 La puntuación para la respuesta de esta parte, que debería ser un número mayor de 0. La puntuación por defecto de la pregunta completa es la suma de las puntuaciones por defecto de todas sus partes.
@@ -44,6 +44,8 @@ La puntuación para la respuesta de esta parte, que debería ser un número mayo
 Nota: Si se deja vacío este campo de puntuación, se eliminará la parte cuando se guarde exitosamente la pregunta.';
 $string['answermulti'] = 'Respuesta para parte {$a->part}';
 $string['answerno'] = 'Parte {$a}';
+$string['answernotunique'] = 'Hay otras respuestas correctas.';
+$string['answernotunique_help'] = 'Si esta opción está activada, el estudiante verá "Una respuesta correcta es: ..." enlugar de "La respuesta correcta es: ,,," cuando revise su intento.';
 $string['answersingle'] = 'Respuesta';
 $string['answertype'] = 'Tipo de respuesta';
 $string['answertype_help'] = 'Hay cuatro tipos de respuestas.
@@ -53,6 +55,7 @@ Las respuestas de número, numérica y fórmula numérica requieren un número o
 Las respuestas de fórmula algebraica requieren una cadena de caracteres o una lista de cadenas como respuesta.
 
 Los diferentes tipos de respuestas impondrán diferentes restricciones al escribir las respuestas, por lo que los estudiantes necesitarán saber cómo escribirlas. La revisión del formato en el código de la pregunta también les dirá cuando escriban si es que algo está equivocado. Por favor, lea la documentación para los detalles.';
+$string['answertype_link'] = 'https://moodleformulas.org/';
 $string['answerunitmulti'] = 'Unidad para parte {$a->part}';
 $string['answerunitsingle'] = 'Unidad';
 $string['checkvarshdr'] = 'Revisar inicialización de variables';
@@ -66,8 +69,9 @@ $string['correctness'] = 'Criterio para calificar*';
 $string['correctness_help'] = '**Requerida**. Usted puede elegir entre error relativo o error absoluto con rango del error. No puede usarse error relativo para el tipo de respuesta algebraica.
 
 Para la definición precisa del error relativo y del error absoluto hay más de un campo de respuesta; vea la documentación.';
+$string['correctness_link'] = 'https://moodleformulas.org/';
 $string['correctnessexpert'] = 'Experto';
-$string['correctnesssimple'] = 'Simple';
+$string['correctnesssimple'] = 'Modo simplificado';
 $string['defaultanswermark'] = 'Puntuación de parte por defecto';
 $string['defaultanswermark_desc'] = 'Puntuación de parte por defecto para nuevas partes de pregunta';
 $string['defaultanswertype'] = 'Tipo de respuesta por defecto';
@@ -88,6 +92,7 @@ $string['error_forloop'] = 'Error de sintaxis del bucle para (for)';
 $string['error_forloop_expression'] = 'La expresión del bucle para (for) debe ser una lista.';
 $string['error_forloop_var'] = 'La variable del bucle para (for) tiene algunos errores.';
 $string['error_func_param'] = 'Número equivocado o tipo equivocado de parámetros para la función {$a}()';
+$string['error_grading_error'] = '¡Error al calificar! Probablemente resultado de archivo importado incorrecto o corrupción de la base de datos.';
 $string['error_mark'] = 'El puntaje para la respuesta debe tener un valor mayor a 0.';
 $string['error_no_answer'] = 'Se requiere al menos una respuesta.';
 $string['error_placeholder_format'] = 'Formato del sustituible (placeholder) equivocado o caracteres prohibidos.';
@@ -95,6 +100,7 @@ $string['error_placeholder_main_duplicate'] = 'Sustituible (placeholder) duplica
 $string['error_placeholder_missing'] = 'Falta el sustituible (placeholder) en el texto de la pregunta principal.';
 $string['error_placeholder_sub_duplicate'] = 'El sustituible (placeholder) ya ha sido definido en alguna otra parte.';
 $string['error_placeholder_too_long'] = 'La longitud del sustituible (placeholder) está limitada a 40 caracteres.';
+$string['error_question_damaged'] = 'Error: La pregunta está dañada, el número de fragmentos de texto y el número de partes de pregunta no son iguales.';
 $string['error_randvars_set_size'] = 'El número de elementos generables en el conjunto debe de ser mayor a 1.';
 $string['error_randvars_type'] = 'Todos los elementos en el conjunto deben de tener exactamente el mismo tipo y tamaño.';
 $string['error_rule'] = '¡Error de procesamiento de regla!';
@@ -121,8 +127,8 @@ $string['functiontakesatleasttwo'] = 'La función {$a} debe tener al menos dos a
 $string['functiontakesnoargs'] = 'La función {$a} no toma ningun argumento';
 $string['functiontakesonearg'] = 'La función {$a} debe tener exactamente un argumento';
 $string['functiontakesoneortwoargs'] = 'La función {$a} debe tener ya sea uno o dos argumentos';
+$string['functiontakesthreeargs'] = 'La función {$a} debe tener exactamente tres argumentos';
 $string['functiontakestwoargs'] = 'La función {$a} debe tener exactamente dos argumentos';
-$string['globaloptions'] = '[Global] -';
 $string['globalvarshdr'] = 'Variables';
 $string['illegalformulasyntax'] = 'Sintaxis ilegal de fórmula que comienza con \'{$a}\'';
 $string['incorrectfeedback'] = 'Para cualquier respuesta incorrecta';
@@ -133,7 +139,7 @@ $string['modelanswer'] = 'Respuesta modelo';
 $string['none'] = 'Ninguno/Nada';
 $string['number'] = 'Número';
 $string['number_unit'] = 'Número y unidad';
-$string['numdataset'] = 'Numero de conjunto-de-datos';
+$string['numdataset'] = 'Numero de conjuntos-de-datos';
 $string['numeric'] = 'Numérica';
 $string['numeric_unit'] = 'Numérica y unidad';
 $string['numerical_formula'] = 'Fórmula numérica';
@@ -155,6 +161,7 @@ Para preguntas posibles, por favor vaya a <a href="https://moodleformulas.org/">
 Para las opciones en el formato de edición inferior, por favor vaya a /">moodleformulas.org</a>
 
 Para la documentación completa, por favor vaya a <a href="https://moodleformulas.org/">moodleformulas.org</a>';
+$string['pluginname_link'] = 'question/type/formulas';
 $string['pluginnameadding'] = 'Añadiendo una pregunta de fórmulas';
 $string['pluginnameediting'] = 'Editando una pregunta de fórmulas';
 $string['pluginnamesummary'] = 'Tipo de pregunta con valores aleatorios y respuestas múltiples.
@@ -167,8 +174,9 @@ También, <tt> / </tt> puede usarse para exponente inverso. Cualquier permutaci�
 Los estudiantes necesitan usar el mismo formato de escritura. Por ejemplo:
 
 <pre class="prettyprint">1 m<br>0.1 m^2<br>20 m s^(-1)<br>400 kg m/s<br>100 kW</pre>';
+$string['previewerror'] = 'No hay vista previa disponible. Revise su definición de las variables aleatorias, variables globales, variables locales de partes y respuestas. Mensaje del error original:';
 $string['privacy:metadata'] = 'El plugin del tipo de pregunta Formulas no almacena ningún dato personal.';
-$string['qtextpreview'] = 'Previsualizar usando conjunto-de-datos';
+$string['qtextpreview'] = 'Vista previa';
 $string['questiontext'] = 'Texto de la pregunta';
 $string['questiontext_help'] = 'Adicionalmente al texto normal de la pregunta, Usted puede usar aquí variables globales y remplazables (placeholders).
 
@@ -184,15 +192,16 @@ La regla básica son las reglas del \'Sistema Común de Unidades Internacionales
 Esta opción no tiene efecto si no se ha usado una unidad.';
 $string['settingusepopup'] = 'Usar herramientas de ayuda (tooltips)';
 $string['settingusepopup_desc'] = 'Mostrar respuesta correcta y retroalimentación en una herramienta de ayuda (tooltip)';
-$string['subqoptions'] = 'Opciones extra';
+$string['subqoptions'] = 'Configuraciones de unidades';
 $string['subqtext'] = 'Texto de la parte';
-$string['subqtext_help'] = 'Aquí pueden especificarse campos con porción texto y porción respuesta. Los remplazables que pueden usarse para especificar lugares con campos de respuesta son:
+$string['subqtext_help'] = 'Aquí pueden especificarse campos con porción texto y porción respuesta. Los reemplazables que pueden usarse para especificar lugares con campos de respuesta son:
 
 <pre class="prettyprint">{_0}<br>{_1}<br>{_2}<br>...<br>{_u}</pre>
 
-Los <tt> {_0}, {_1}, {_2} </tt> son los campos de escritura para coordenadas y <tt> {_u} </tt> es el campo de escritura para unidad.
+Los <tt> {_0}, {_1}, {_2} </tt> son los diferentes campos de escritura para valores y <tt> {_u} </tt> es el campo de escritura para unidad.
 
-Todos los campos faltantes son anexados automáticamente al final del texto de la parte. Un caso especial es que si <tt> {_0}, {_u} </tt> son especificados consecutivamente, y solamente hay una coordenada y una unidad, como por ejemplo <tt> {_0}{_u} </tt>, estos serán combinados en un único campo de respuesta a escribir para ambos respuesta y unidad.';
+Todos los campos faltantes son anexados automáticamente al final del texto de la parte. Un caso especial es que si <tt> {_0}, {_u} </tt> son especificados consecutivamente, y solamente hay un campo de respuesta y unidad, como por ejemplo <tt> {_0}{_u} </tt>, estos serán combinados en un único campo de respuesta de entrada larga para ambos respuesta y unidad.';
+$string['uniquecorrectansweris'] = 'La respuesta correcta es: {$a}';
 $string['unit'] = 'Unidad';
 $string['unitpenalty'] = 'Deducción por unidad equivocada (0-1)*';
 $string['unitpenalty_help'] = 'Esta opción especifica la puntuación con la que Usted desea penalizar al estudiante por una unidad equivocada.
@@ -205,16 +214,19 @@ $string['vars1'] = 'Variables locales';
 $string['vars1_help'] = 'Usted puede definir aquí variables en la misma forma en que se definen las variables globales al nivel de la pregunta. Las variables aquí definidas pueden usarse en la retroalimentación o en la respuesta de la parte y su espectro de visibilidad está limitado a la parte.';
 $string['vars2'] = 'Calificando variables';
 $string['vars2_help'] = 'Todas las variables locales y las respuestas del alumno pueden usarse aquí. Vea la documentación para usos avanzados.';
-$string['varsdata'] = 'Conjunto-de-datos instancializado';
+$string['vars2_link'] = 'https://moodleformulas.org/';
+$string['varsdata'] = 'Conjuntos-de-datos instancializado';
 $string['varsglobal'] = 'Variables globales';
 $string['varsglobal_help'] = 'Aquí pueden especificarse fórmulas para manipular las variables aleatorias instancializadas (todas las variables aleatorias están disponibles aquí). La lista completa de operadores y funciones matemáticas están dadas en la documentación.
 
 <pre class="prettyprint">a = 1.11111;<br>b = exp(3);<br>c = A + a + b;<br>d = sin(1.5*pi()) + c;<br>e = round(a, 0);<br>f = [0,1,2,3][A];<br>g = ["zero","one","two","three"][A];<br>distance = sqrt(a*a + b*b);</pre>';
+$string['varsglobal_link'] = 'https://moodleformulas.org/';
 $string['varsrandom'] = 'Variables aleatorias';
 $string['varsrandom_help'] = 'Se generan nuevos valores aleatorios para estas variables al inicio de cada intento. Puede hacerse al definir un conjunto de elementos entre los cuales elegir:
 
 <pre class="prettyprint">A = {1,2,3};<br>C = {[1,-1], [2,-2], [3,-3]};<br>E = {10:100:10, 100, 1000};</pre>
 
 Los elementos pueden ser números, cadenas de caracteres o listas de ellos. Al inicio de un intento, se sacará un elemento del conjunto y se asignará a la variable en la izquierda. También, para un conjunto de números, Usted puede usar la notación de rango como por ejemplo 10:100:10 (vea el ejemplo E superior.). </p>';
+$string['varsrandom_link'] = 'https://moodleformulas.org/';
 $string['varsstatistics'] = 'Estadísticas';
 $string['yougotnright'] = 'Usted ha contestado correctamente {$a->num} parte(s) de esta pregunta.';

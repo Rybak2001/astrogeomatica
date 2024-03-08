@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_completionoverview', language 'es_mx', version '3.10'.
+ * Strings for component 'report_completionoverview', language 'es_mx', version '4.2'.
  *
  * @package     report_completionoverview
  * @category    string
@@ -34,8 +34,8 @@ $string['coursetablehead2'] = 'Hora de inicio';
 $string['coursetablehead3'] = 'Calificación final';
 $string['coursetablehead4'] = 'Hora de terminación';
 $string['coursetablehead5'] = 'Email';
-$string['noenrolments'] = 'El seguimiento de finalizacióne stá habilitado pero no hay estudiantes inscritos en este curso.';
-$string['nomodules'] = 'El seguimiento de finalizacióne stá habilitado pero no se han configurado módulos para dar seguimiento a la finalización.';
+$string['noenrolments'] = 'El seguimiento de finalización está habilitado pero no hay estudiantes inscritos en este curso.';
+$string['nomodules'] = 'El seguimiento de finalización  está habilitado pero no se han configurado módulos para dar seguimiento a la finalización.';
 $string['pluginname'] = 'Vista General de finalización del curso';
 $string['selecttext'] = 'Seleccionar curso';
 $string['showbutton'] = 'Mostrar cursos';

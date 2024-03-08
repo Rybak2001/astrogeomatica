@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_pioneer', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_pioneer', language 'es_mx', version '4.2'.
  *
  * @package     theme_pioneer
  * @category    string
@@ -421,7 +421,7 @@ $string['thiscourse'] = 'Este Curso';
 $string['title'] = 'Título';
 $string['togglefptextbox'] = 'Ocultar/Mostrar Caja de Texto';
 $string['togglefptextboxdesc'] = 'Elija si quiere ocultar o mostrar la caja de Texto en la Portada para usuarios que han salido del sitio en la Portada.';
-$string['toggleiconnav'] = 'Localización de Navegación por Íconos';
+$string['toggleiconnav'] = 'Ubicación de la Navegación por Íconos';
 $string['toggleiconnav_desc'] = 'Determinar donde aparecen la caja e íconos de búsqueda de curso.';
 $string['togglemarketing'] = 'Alternar mostrar Bloques Publicitarios';
 $string['togglemarketingdesc'] = 'Elija si quiere ocultar o mostrar los tres bloques publicitarios';
@@ -447,7 +447,7 @@ $string['topicweekcolor'] = 'Fondo de Sección Tópico/Tema y Semana';
 $string['topicweekcolor_desc'] = 'El los formatos de curso de Tópico/Tema y Semanal este es el color del fondo para cada tópico/tema o semana en el curso.';
 $string['toppcourseenable'] = 'Habilitar Carrusel de Cursos Destacados';
 $string['toppcourses'] = 'Carrusel de Cursos destacados';
-$string['toppcoursesdesc'] = 'LÍMITE=10. Usted no puede ingresar más de 10 IDs de cursos. Por favor ponga las IDs de los cursos separadas por comas.';
+$string['toppcoursesdesc'] = 'LÍMITE=10. Usted no puede ingresar más de 10 IDs de cursos. Por favor ponga las IDs de los cursos destacados separadas por comas.';
 $string['toppromotedcoursesheading'] = 'Carrusel de Cursos destacados';
 $string['toppromotedtitledefault'] = 'Cursos destacados';
 $string['toppromotedtitledesc'] = 'Este texto aparece debajo del Título del Curso en el deslizador. "Inscríbase ahora" es un lema ideal.';

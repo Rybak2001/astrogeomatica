@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_facility_to_moodle', language 'es_mx', version '3.10'.
+ * Strings for component 'block_facility_to_moodle', language 'es_mx', version '4.2'.
  *
  * @package     block_facility_to_moodle
  * @category    string
@@ -53,7 +53,7 @@ $string['descfauth'] = 'Forza el tipo de autenticación por defecto al especific
 $string['descfirstyr'] = 'El primer añogrupo inscrito en su escuela (usualmente 7 en Estados Unidos)';
 $string['desciaml'] = 'Permite la habilidad para exportar archivos CSV apropiados para subir a  <a href=\\"https://www.iamlearning.co.uk/\\" target="_blank">I Am Learning</a>';
 $string['desclastyr'] = 'El último añogrupo inscrito en su escuela (usualmente 13 en Estados Unidos)';
-$string['descmanage'] = '<p>El bloque de Facility a Moodle necesita saber la localización de sus usuarios dentro de ActiveDirectory. Por ejemplo...</p><ul><li>BDN Nombre: Año 7</li><li>BDN: ou=2007, ou=Pupilos, ou=Usuarios de Escuela, dc=escuela, dc=co, dc=mexico</li><li>Tipo: Estudiante</li></ul>';
+$string['descmanage'] = '<p>El bloque de Facility a Moodle necesita saber la ubicación de sus usuarios dentro de ActiveDirectory. Por ejemplo...</p><ul><li>BDN Nombre: Año 7</li><li>BDN: ou=2007, ou=Pupilos, ou=Usuarios de Escuela, dc=escuela, dc=co, dc=mexico</li><li>Tipo: Estudiante</li></ul>';
 $string['descmisc'] = 'Las siguientes configuraciones caen en la categoría de \'Misc\'';
 $string['descparaccs'] = 'Las siguientes configuraciones le permiten especificar prefijos y sufijos para los campos de nombres de los Padres dentro de Moodle. Ésto puede hacer la identificación más simple al realizar tareas de gestión de usuarios.';
 $string['descparforce'] = 'Forza a los Padres a que cambien su contraseña generada por defecto en su primer ingreso [RECOMENDADO]';

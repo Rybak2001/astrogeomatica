@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_numerical', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_numerical', language 'es_mx', version '4.2'.
  *
  * @package     qtype_numerical
  * @category    string
@@ -65,10 +65,18 @@ $string['pleaseenterananswer'] = 'Por favor escriba una respuesta.';
 $string['pleaseenteranswerwithoutthousandssep'] = 'Por favor, introduzca su respuesta sin usar el separador para miles de unidades ({$a})';
 $string['pluginname'] = 'Numérica';
 $string['pluginname_help'] = 'Desde la perspectiva del alumno, una pregunta numérica es muy semejante a una pregunta de respuesta corta. La diferencia es que a las respuestas numéricas se les permite tener un margen de error. Esto permite evaluar la respuesta dentro de un rango fijo. Por ejemplo: si la respuesta es 10 y con un margen de error de 2  entonces cualquier número entre 8 y 12 se aceptará como correcto.';
+$string['pluginname_link'] = 'question/type/numerical';
 $string['pluginnameadding'] = 'Agregando una pregunta numérica';
 $string['pluginnameediting'] = 'Editando una pregunta numérica';
 $string['pluginnamesummary'] = 'Permite una respuesta numérica (con posibilidad de especificar las unidades) que es calificada comparándola con distintas respuestas modelo (es posible incluir márgenes de tolerancia).';
-$string['privacy:metadata'] = 'El tipo de pregunta Numérica no almacena ningún dato personal.';
+$string['privacy:metadata'] = 'El tipo de pregunta Numérica les permite a los autores de pregunta configurar opciones predeterminadas como preferencias del usuario.';
+$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
+$string['privacy:preference:multichoicedisplay'] = 'Si es que las unidades son mostradas como el elemento de ingreso de texto, selección de opción múltiple, o un menú desplegable.';
+$string['privacy:preference:penalty'] = 'La penalización para cada intento incorrecto cuando las preguntas son empleadas con el comportamiento \'Interactivo con intentos múltiples\' o el \'Modo adaptativo\'.';
+$string['privacy:preference:unitgradingtypes'] = 'Si es que la penalización unitaria aplica como una fracción (0-1) de la calificación de la respuesta o de la calificación de la pregunta.';
+$string['privacy:preference:unitpenalty'] = '¿Cual fracción (0-1) de la calificación de la respuesta o la calificación de la pregunta debería de aplicar?';
+$string['privacy:preference:unitrole'] = 'Si es que la unidad es esencial, opcional o inesesperada.';
+$string['privacy:preference:unitsleft'] = 'Si es que la unidad se muestra a la izquierda (como $, £) o se muestra a la derecha (como kg, km, cm).';
 $string['relative'] = 'Relativa';
 $string['rightexample'] = 'A la DERECHA, como en  1.00cm o 1.00km';
 $string['selectunit'] = 'Seleccione una unidad';
@@ -76,7 +84,7 @@ $string['selectunits'] = 'Seleccione uidades';
 $string['studentunitanswer'] = 'Las unidades se introducen empleando';
 $string['tolerancetype'] = 'Tipo de tolerancia';
 $string['unit'] = 'Unidad';
-$string['unitappliedpenalty'] = 'Estas marcas incluyen una penalización de {$a} por emplear alguna unidad incorrecta';
+$string['unitappliedpenalty'] = 'Estas calificaciones incluyen una penalización de {$a} por emplear alguna unidad incorrecta';
 $string['unitchoice'] = 'una selección de opción múltiple';
 $string['unitedit'] = 'Editar unidad';
 $string['unitgraded'] = 'Debe darse la unidad, que será calificada';
@@ -101,13 +109,6 @@ $string['unitposition'] = 'Posición de unidad';
 $string['units'] = 'Unidades';
 $string['unitselect'] = 'un menú desplegable';
 $string['unitx'] = 'Unidad {no}';
-$string['validnumberformats'] = 'Formatos de número válidos';
-$string['validnumberformats_help'] = '* números regulares 13500.67, 13 500.67, 13500,67 o 13 500,67
-
-* si usa el Español de México y la configuración de su paquete de idioma (langconfig.php) emplea la coma (,) como separador de miles *siempre* ponga el punto decimal (.) como en 13,500.67 : 13,500.
-
-* para formato exponente, digamos 1.350067 * 10<sup>4</sup>, use 1.350067 E4 : 1.350067 E04';
-$string['validnumbers'] = '13500.67, 13 500.67, 13,500.67, 13500,67, 13 500,67, 1.350067 E4 o 1.350067 E04';
 $string['xmustbenumeric'] = '{$a} debe ser un número.';
 $string['xmustnotbenumeric'] = '{$a} no puede ser un número.';
 $string['youmustenteramultiplierhere'] = 'Debe escribir un multiplicador aquí.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_authornote', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_authornote', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_authornote
  * @category    string
@@ -28,7 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $string['authornote'] = 'Nota de autoría';
 $string['authornote:addinstance'] = 'Puede añadir una instancia';
 $string['authornote:view'] = 'Puede ver el contenido';
+$string['authornotesignal'] = '(esta nota solamente es visible para autores de curso)';
 $string['configtypename'] = 'Habilitar subtipo Nota de autoría';
+$string['family'] = 'meta';
 $string['initiallyvisible'] = 'Inicialmente visible';
 $string['pluginname'] = 'Elemento de curso: Nota de autoría';
 $string['typename'] = 'Nota de autoría';

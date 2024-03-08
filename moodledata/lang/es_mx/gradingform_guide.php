@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_guide', language 'es_mx', version '3.10'.
+ * Strings for component 'gradingform_guide', language 'es_mx', version '4.2'.
  *
  * @package     gradingform_guide
  * @category    string
@@ -100,5 +100,5 @@ $string['score'] = 'puntaje';
 $string['score_help'] = 'Ingresar un puntaje para {$a->criterion} entre 0 y {$a->maxscore}.';
 $string['scoreforcriterion'] = 'puntaje {$a}';
 $string['showmarkerdesc'] = 'Mostrar descripciones de criterio de evaluador';
-$string['showmarkspercriterionstudents'] = 'Mostrar puntos por criterio a los estudiantes';
+$string['showmarkspercriterionstudents'] = 'Mostrar calificaciones por criterio a los estudiantes';
 $string['showstudentdesc'] = 'Mostrar descripciones de criterio de estudiante';

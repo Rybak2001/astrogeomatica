@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'externalcontent', language 'es_mx', version '3.10'.
+ * Strings for component 'externalcontent', language 'es_mx', version '4.2'.
  *
  * @package     externalcontent
  * @category    string
@@ -51,8 +51,6 @@ $string['modulenameplural'] = 'Contenido externo';
 $string['optionsheader'] = 'Mostrar opciones';
 $string['pluginadministration'] = 'Administración del módulo de Contenido externo';
 $string['pluginname'] = 'Contenido externo';
-$string['printheading'] = 'Mostrar nombre de Contenido externo';
-$string['printheadingexplain'] = '¿Mostrar nombre de Contenido externo arriba del contenido?';
 $string['printintro'] = 'Mostrar descripción del contenido de Contenido externo';
 $string['printintroexplain'] = '¿Mostrar descripción del contenido de Contenido externo arriba del contenido?';
 $string['printlastmodified'] = 'Mostrar fecha de última modificación';

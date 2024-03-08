@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_trainingsessions', language 'es_mx', version '3.10'.
+ * Strings for component 'report_trainingsessions', language 'es_mx', version '4.2'.
  *
  * @package     report_trainingsessions
  * @category    string
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['accountstart'] = 'Fecha de creación de cuenta del usario';
 $string['activitytime'] = 'Tiempo en actividades';
 $string['activitytime_help'] = '<p>Este cálculo del tiempo considera todo el tiempo empleado en actividades del curso, dejando afuera el tiempo en el diseño del curso. En ciertos casos (cuando se usa la Revisión del Tiempo de Aprendizaje (no estandard) con asignación estandar del tiempo (http://github.com/vfremaux/moodle-mod_learningtimecheck.git), se usan tiempos estandar adicionales en lugar de tiempos reales extraidos de las bitácoras.</p>';
 $string['addcoursegrade'] = 'Añadirle calificación del curso al reporte';
@@ -32,10 +33,8 @@ $string['addmodulelabel'] = 'Añadir módulo de actividad';
 $string['addmoduletitle'] = 'Añadir un módulo de actividad al que Usted quiere que se le añada calificación en el reporte';
 $string['addtimebonus'] = 'bono por tiempo sobre la calificación global';
 $string['addtimegrade'] = 'Calificación por tiempo';
-$string['advancement'] = 'Avance';
 $string['allcourses'] = 'Todos los cursos';
 $string['allgroups'] = 'Todos los grupos';
-$string['authoritysign'] = 'Autoridad Educativa';
 $string['availableactivities'] = 'Actividades disponibles';
 $string['batchdate'] = 'Fecha de la labor';
 $string['batchdate_help'] = '<p>Esta configuración significa la fecha exacta en la cual será invocado el lote y los documentos serán generados. Si Usted teme que los documentos sean pesados (muchos estudiantes, muchas historias a monitorear), elija una fecha/hora en un período de baja carga de su servidor.</p>';
@@ -54,7 +53,7 @@ Ejemplo :
 $string['calculatedcolumns'] = 'Columnas calculadas (Solamente XLS)';
 $string['checklistadvice'] = 'Efectos secundarios especiales a la terminación';
 $string['chooseagroup'] = 'Elegir un grupo';
-$string['chooseaninstitution'] = 'Elegir una institución';
+$string['cleanoldreports_task'] = 'Quitando reportes antiguos';
 $string['colors'] = 'Colores';
 $string['columnname'] = 'Nombre de columna:';
 $string['connections'] = 'Conexiones';
@@ -67,22 +66,27 @@ $string['coursegrade'] = 'Habilitar';
 $string['courselabel'] = 'como columna:';
 $string['coursename'] = 'Nombre de grupo';
 $string['courseraw'] = 'Lotes';
+$string['courses'] = 'Cursos';
 $string['coursesessions'] = 'Sesiones de trabajo en curso (tiempos estimados reales)';
 $string['coursestart'] = 'Fecha de inicio del curso';
 $string['coursesummary'] = 'Resumen por participante';
 $string['coursetime'] = 'Tiempo en curso (actividades excluídas)';
 $string['coursetime_help'] = '<p>esto resume el tiempo empleado en pantallas generales del curso pero en actividades AFUERA.';
 $string['coursetoolargenotice'] = 'El curso es demasiado grande y no tiene grupos interiores. No puede compilarse.';
-$string['coursetotaltime'] = 'Tiempo total en curso';
-$string['coursetotaltime_help'] = '<p>Esto resume todo el tiempo empleado en el curso o cualquier dependiente del curso.</p>';
+$string['credit'] = 'Créditos:';
 $string['crop'] = 'Quitar sesiones fuera del rango';
 $string['csv'] = 'Texto (CSV)';
 $string['csvoutputtoiso'] = 'Salida ISO CSV';
 $string['csvoutputtoiso_desc'] = 'Si se habilita, el reporte del curso en bruto se generará en codificación ISO-8859-1 para las aplicaciones antiguas concordantes con CSV';
 $string['currentcourse'] = 'Curso actual';
+$string['dates'] = 'Fechas clave';
 $string['debugmode'] = 'Modo depuración activado';
 $string['defaultmeanformula'] = '=AVERAGE({col}{minrow}:{col}{maxrow})';
+$string['defaultstartdate'] = 'Fecha predeterminada de inicio';
+$string['defaultstartdate_desc'] = 'Fecha predeterminada de inicio';
 $string['defaultsumformula'] = '=SUM({col}{minrow}:{col}{maxrow})';
+$string['deleteolderthan'] = 'Más antiguo que';
+$string['deleteolderthan_desc'] = 'Eliminar archivos más antiguos que este valor';
 $string['disabled'] = '|--------- deshabiiitado ------|';
 $string['disablesuspendedenrolments'] = 'Ignorar inscripciones suspendidas';
 $string['disablesuspendedenrolments_desc'] = 'Si se habilita, los estudiantes con inscripciones suspendidas solamente no  aparecerán en reportes';
@@ -93,17 +97,20 @@ $string['discreteforcenumber'] = 'Forzar numérico en discreto';
 $string['discreteforcenumber_desc'] = 'Forzar formato numérico en calificación de tiempo discreto (salida de Excel). Los valores discretos de escala de calificación de tiempo seberían de ser numéricamente interpretables.';
 $string['done'] = 'Realizado:';
 $string['duration'] = 'Duración';
-$string['elapsed'] = 'Tiempo total';
+$string['elapsed'] = 'Tiempo total del curso';
+$string['elapsed_help'] = '<p>Esto resume todo el tiempo empleado en el curso o en cualquier dependencia del curso.</p>';
 $string['elapsedadvice'] = 'El tiempo trasncurrido puede ser diferente del rango de tiempo de sesión debido a tiempos de crédito extra en descansos de sesiones. Refiérase a la configuración del Bloque de Estadísticas de Uso.';
+$string['elapsedinitem'] = 'Tiempo transcurrido';
 $string['elapsedlastweek'] = 'Hora de semana pasada';
 $string['elapsedlastweek_help'] = 'El tiempo de curso extendido calcula el tiempo estrictamente gastado adentro del contexto del curso limitado al rango_de_tiempo de la última semana.';
+$string['elapsedoutofstructure'] = 'Otro tiempo usado en curso';
+$string['elapsedoutofstructure_help'] = 'Tiempo empleado en el entorno del curso, pero no asignable a cualquier "elemento estructural" del curso (sección, página, módulo).';
 $string['email'] = 'Email';
-$string['emulatecommunity'] = 'Emular la versión de la comunidad';
-$string['emulatecommunity_desc'] = 'Si se habilita, el plugin se comportará como la versión pública de la comunidad. ¡ Esto podría perder características !';
 $string['enablecoursescore'] = 'Habilitar puntaje del curso';
 $string['enablelearningtimecheckcoupling'] = 'Habilitar acoplamiento a LTC';
 $string['enablelearningtimecheckcoupling_desc'] = 'Si se habilita, los reportes de sesión usarán filtrado de los días laborables  del Reporte de Revisión del tiempo de Aprendizaje';
 $string['enddate'] = 'Fecha final';
+$string['enroldate'] = 'Fecha de inscripción del usuario';
 $string['enterprisesign'] = 'Empresarial';
 $string['equlearningtime'] = 'Tiempo de entrenamiento equivalente:';
 $string['equlearningtime_help'] = '<p>Tiempo de aprendizaje equivalente resume todo el tiempo empleado en el curso, incluyendo tiempos de asignación estándares di se usa el módulo Learning Time Check checklist (http://github.com/vfremaux/moodle-mod_learningtimecheck.git).</p>';
@@ -111,8 +118,10 @@ $string['errorbadcoursestructure'] = 'Error en estructura de curso : ID malo {$a
 $string['errorbadviewid'] = 'vista de reporte inexistente';
 $string['errorcontinuousscale'] = 'Usted no puede usar escalas como origen de calificación en el modo continuo';
 $string['errorcoursestructurefirstpage'] = 'Error en estructura del curso: fallo al obtener la primera página';
-$string['errorcoursetoolarge'] = 'El curso es demasiado grande. Eligiendo un grupo';
+$string['errorcoursetoolarge'] = 'El curso es demasiado grande (50 máx). Eligiendo un grupo';
 $string['errordiscretenoranges'] = 'Usted debe definir rangos cuando usa el modo discreto';
+$string['errorgrouptoolarge'] = 'El grupo es demasiado grande (50 máx). Considere mejor tener grupos más pequeños para compilar resultados.';
+$string['errornoabsolutepath'] = 'La   ruta debe ser relativa';
 $string['errornotingroup'] = 'Usted no tiene acceso a todos los usuarios y no tiene ninguna membresía de grupo.';
 $string['extelapsed'] = 'Tiempo total (extendido)';
 $string['extelapsed_help'] = 'El tiempo del curso extendido calcula el tiempo estrictamente empleado en el contexto del curso, más el tiempo empleado para llegar al material del curso y un poco del tiempo empleado en pantallas generales del sitio a las que el usuario tienen acceso.';
@@ -120,8 +129,8 @@ $string['extelapsedlastweek'] = 'Tiempo de semana pasada (extendido)';
 $string['extelapsedlastweek_help'] = 'El tiempo de curso extendido calcula el tiempo gastado estrictamente en el contexto del curso, más el tiempo gastado para bajar al material del curso y algun tiempo gastado en pantallas del sitio general a las que el usuario tiene acceso, limitado al rango_de_tiempo de la última semana.';
 $string['exthits'] = 'Aciertos (extendido)';
 $string['exthitslastweek'] = 'Aciertos de la semana pasad (extendido)';
-$string['extother'] = 'Tiempo extra afuera del curso';
-$string['extother_help'] = '<p>Tiempo transcurrido afuera de este curso,pero anexo a estas sesiones del curso. Estos tiempos generalmente son empleados en páginas del usuario, o en entorno global del sitio.</p>';
+$string['extotherelapsed'] = 'Tiempo extra fuera del curso';
+$string['extotherelapsed_help'] = '<p>Tiempo empleado fuera de este curso, pero anexado a sesiones de este curso. Usualmente es tiempo empleado en páginas del usuario, o en el entorno global del sitio.</p>';
 $string['extotherlastweek'] = 'Tiempo extra (semana pasada)';
 $string['extrauserinfo'] = 'Información adicional del usuario en reportes';
 $string['extrauserinfo_desc'] = 'Usted puede añadir opcionalmente datos de campos a la parte de información del usuario';
@@ -129,8 +138,11 @@ $string['fail'] = 'REPRUEBA';
 $string['filetimesuffixformat'] = 'Ymd_His';
 $string['firstaccess'] = 'Primer acceso';
 $string['firstconnection'] = 'Primera conexión';
+$string['firstcourseaccess'] = 'Primer acceso al curso';
+$string['firstcourseaccess_help'] = 'Hora del primer acceso al curso';
 $string['firstenrolldate'] = 'Primera inscripción';
 $string['firstname'] = 'Nombre(s)';
+$string['firstsessiontime'] = 'Primera sesión';
 $string['formulalabel'] = 'Etiqueta de columna';
 $string['from'] = 'Desde';
 $string['generatecsv'] = 'Generar como CSV';
@@ -147,10 +159,14 @@ de lo contrario, el puntaje será la interpolación redondeada linear más cerca
 $string['gradesettings'] = 'Configuraciones de calificación';
 $string['gradexlsformat'] = 'Formato de calificación EXCEL';
 $string['gradexlsformat_desc'] = 'Elegir un formato numérico para calificaciones';
+$string['groups'] = 'Grupos';
+$string['hasdisabledenrolmentsrestriction'] = 'Las inscripciones suspendidas son excluidas.';
 $string['head1application'] = 'Los colores del Encabezado 1 son usados en la fila del encabezado superior cuando es apropiado.';
 $string['head2application'] = 'Los colores del Encabezado 2 son usados en la fila del encabezado normal justo arriba de las columnas de datos. Esto es el caso más común.';
 $string['head3application'] = 'Los colores del Encabezado 3 son usados al final del resumen de tabla, cuando es apropiado.';
 $string['headsection'] = 'Sección encabezado';
+$string['hidedeletedmodules'] = 'Ocultar módulos que están siendo eliminados';
+$string['hidedeletedmodules_desc'] = 'Si se habilita, los módulos con una eliminación en progreso serán marcados y no serán impresos en los reportes.';
 $string['hideemptymodules'] = 'Ocultar módulos vacíos';
 $string['hideemptymodules_desc'] = 'Si se habilita, los módulos vacíos (sin tiempo empleado) no se imprimirán en los reportes.';
 $string['hits'] = 'Aciertos';
@@ -170,6 +186,8 @@ $string['item'] = 'Item';
 $string['items'] = 'Ítems';
 $string['json'] = 'JSON';
 $string['lastaccess'] = 'Último acceso';
+$string['lastcourseaccess'] = 'Último acceso al curso';
+$string['lastcourseaccess_help'] = 'cuando el curso fue accesado por última vez';
 $string['lastlogin'] = 'Úlrimo ingreso';
 $string['lastname'] = 'Apellido(s)';
 $string['layout'] = 'Diseño del documento';
@@ -190,7 +208,10 @@ $string['lineaggregators_help'] = '<p>Definir agregadores como una lista de inte
 Ejemplo : si una salida de Excel tiene 10 columnas y se necesita una suma en la columna 10, entonce
 ingrese : ;;;;;;;;;s
 </p>';
+$string['location'] = 'Ubicación';
 $string['mark'] = 'Marcar sesiones fuera del rango';
+$string['meandaytime'] = 'Tiempo promedio por día';
+$string['meanweektime'] = 'Tiempo promedio por semana';
 $string['modgrade'] = 'Calificación de actividad';
 $string['modulegrade'] = 'Módulo de actividad';
 $string['modulegrades'] = 'Calificaciones de actividad';
@@ -204,6 +225,7 @@ $string['nopermissiontoview'] = 'Usted no tiene suficientes permisos en este cur
 $string['nosessions'] = 'Sin datos mesurables de sesiones';
 $string['nostructure'] = 'No se detectaron estructuras de curso mesurables';
 $string['nothing'] = 'Sin usuarios para compilar';
+$string['nousers'] = 'Sin usuarios aquí';
 $string['now'] = '¡ Ahora !';
 $string['onefulluserpersheet'] = 'Una información de usuario completa por página';
 $string['oneuserperrow'] = 'Una información resumida del usuario por fila en una hoja única';
@@ -211,7 +233,6 @@ $string['othertime'] = 'Otro tiempo';
 $string['othertime_help'] = '<p>El tiempo empleado que no puede asignarse directamente a un módulo de actividad del curso.</p>';
 $string['out'] = 'Tiempo fuera';
 $string['outofgroup'] = 'Sin grupo';
-$string['outofstructure'] = 'Otro tiempo usado en curso';
 $string['output:finalcoursegrade'] = 'Calificación final';
 $string['output:rawcoursegrade'] = 'Calificación cruda del curso';
 $string['output:timebonus'] = 'Bono por tiempo';
@@ -238,15 +259,17 @@ $string['pdfreportinnerheader'] = 'Imagen del encabezado interior del reporte en
 $string['pdfreportinnerheader_desc'] = 'Proporcionar una imagen JPG para la parte del encabezado superior en las páginas interiores (880 pixeles de ancho por hasta 150 pixeles de alto). Si no se proporciona ninguna, se usará nuevamente el encabezado de la primera página.';
 $string['periodshift'] = 'Mover período';
 $string['periodshiftto'] = 'Mofer solamente fecha de "hasta"';
-$string['plugindist'] = 'Distribución de plugin';
 $string['plugindist_desc'] = '<p>Este plugin es la versión comunitaria y es publicado para cualquiera que lo quiera usar tal cual está y revisar la aplicación del núcleo del plugin. Existe una versión "pro" del plugin y es distribuída bajo condiciones para mejorar la alimentación del ciclo de vida, actualización, documentación y mejoras .</p>
 <p>Por favor, contacte a uno de nuestros distribuidores para obtener el soporte de la versión "Pro".</p>
 <p><a href="http://www.mylearningfactory.com/index.php/documentation/Distributeurs?lang=en_utf8">Distribuidores de MyLF</a></p>';
 $string['pluginname'] = 'Sesiones de Entrenamiento';
 $string['printidnumber'] = 'Imprimir Número ID';
 $string['printidnumber_desc'] = 'Si se selecciona, añade IDNumber a reportes';
+$string['printlocation'] = 'Ubicación del entrenamiento';
+$string['printlocation_desc'] = 'La ubicación física del entrenamiento';
 $string['printsessiontotal'] = 'Mostrar el tiempo transcurrido en sesión en general';
 $string['printsessiontotal_desc'] = 'NO mostrar el tiempo total de sesión en la pantalla de reportes de tiempo en sesión .';
+$string['privacy:metadata'] = 'El Reporte Trainingsessions no almacena ningún dato perteneciente a usuarios';
 $string['profileinfotimeformat'] = '%d %B %Y';
 $string['proversionrequired'] = '<p>Usted está intentando usar una característica que solamente está disponible en la versión "Pro" de este plugin. La versión "Pro" de este plugin
 es una versión de pago que nos ayuda a desarrollar el ciclo de desarrollo de este plugini con asuntos de aseguramiento de la calidad, características más avanzadas y soporte completo para nuestros clientes.</p>
@@ -254,9 +277,11 @@ es una versión de pago que nos ayuda a desarrollar el ciclo de desarrollo de es
 <p<La versión Pro version puede obtenerse con nuestros distribuidores:</p>
 
 <p><a href="http://www.mylearningfactory.com/index.php/documentation/Distributeurs?lang=en_utf8">MyLF Distributors</a></p<';
-$string['quickgroupcompile'] = '<h3>Compilación rápida para {$a} usuarios:</h3><p>La Compilación Rápida proporciona un reporte de resumen rápido para grupos menores a 50 usuarios, directamente en el directorio raíz de sus archivos del curso.</p>';
+$string['quickgroupcompile'] = '<h3>Compilación rápida para {$a} usuarios:</h3><p>La Compilación Rápida proporciona un reporte de resumen rápido para grupos menores a 50 usuarios, directamente en el directorio "/quick" del área de archivos de reportes.</p>';
 $string['quickmonthlyreport'] = 'Reportes mensuales rápidos (PDF)';
 $string['range'] = 'Rango';
+$string['readableduration'] = 'Duración';
+$string['real'] = 'Real:';
 $string['recipient'] = 'Destinatario';
 $string['recipient_desc'] = 'Destinatario por defecto de los documentos PDF. Puede ser anulado localmente por cada operador.';
 $string['replay'] = 'Responder mismas configuraciones';
@@ -287,8 +312,18 @@ $string['sessionreporttitle_desc'] = 'Impresa en la primera página de un report
 $string['sessions'] = 'Sesiones de trabajo (tiempos reales estimados)';
 $string['sessionsonly'] = 'Solamente sesiones del usuario';
 $string['sessionstart'] = 'Inicio de sesión';
-$string['showhits'] = 'Mostrar eventos (CSV)';
+$string['showhits'] = 'Mostrar eventos';
 $string['showhits_desc'] = 'Si se configura, el número de aciertos se añadirá a las líneas del CSV';
+$string['showitemfirstaccess'] = 'Mostrar fecha de primer acceso a elementos';
+$string['showitemfirstaccess_desc'] = 'Si se activa, la fecha real del primer acceso al elemento (basado en bitácoras) es mostrado en reportes.';
+$string['showitemlastaccess'] = 'Mostrar fecha de último acceso a elementos';
+$string['showitemlastaccess_desc'] = 'Si se activa, la fecha real del último acceso al elemento (basado en bitácoras) es mostrado en reportes.';
+$string['showmonthlyquickreports'] = 'Mostrar reportes rápidos mensualmente';
+$string['showmonthlyquickreports_desc'] = 'Si se activa, los reportes detallados de usuario muestran reportes parciales mensualmente';
+$string['showsectionsonly'] = 'Mostrar solamente secciones';
+$string['showsectionsonly_desc'] = 'Si se activa, los detalles de los elementos no son mostrados en el reporte. Solamente los elementos de agregación a nivel más bajo.';
+$string['showsessions'] = 'Mostrar detalles de sisión';
+$string['showsessions_desc'] = 'Si se activa, los detalles de sesión serán accesibles en reportes';
 $string['showsseconds'] = 'Mostrar segundos';
 $string['showsseconds_desc'] = 'Mostrar seguindos en expreesión de duración si está habilitado';
 $string['singleexec'] = 'Corrida única';
@@ -324,13 +359,15 @@ $string['timespentlastweek'] = 'Empleado en la semana pasada';
 $string['to'] = 'Hasta';
 $string['todate'] = 'Fecha final';
 $string['tonow'] = 'Hasta ahora';
-$string['toobig'] = '<p>La compilación de grupo es demasiado grande para realizarse en compilación rápida. Le sugerimos que programe un lote con retraso para un momento que no afecte a sus usuarios actualmente trabajando.<br/>Para configurar un lote, preconfigure los parámetros de compilación en ell formato superior, y registre un nuevo lote con la configuración deseada, y configure la hora del lote y el directorio de salida del origen de la localización de almacenamiento de archivo (ruta relativa, ruta absoluta rechazada).</p><p>Usted también puede programar un lote de compilación regular que compilaría cada \\"replaydelay\\"
+$string['toobig'] = '<p>La compilación de grupo es demasiado grande para realizarse en compilación rápida. Le sugerimos que programe un lote con retraso para un momento que no afecte a sus usuarios actualmente trabajando.<br/>Para configurar un lote, pre-configure los parámetros de compilación en el formato superior, y registre un nuevo lote con la configuración deseada, y configure la hora del lote y el directorio de salida del origen de la ubicación del almacenamiento de archivo (ruta relativa, ruta absoluta rechazada).</p><p>Usted también puede programar un lote de compilación regular que compilaría cada \\"replaydelay\\"
 minutos a la salida deseada.</p>';
+$string['total'] = 'Total';
 $string['totalduration'] = 'Duración total';
 $string['totalsessions'] = 'Tiempo total de sesión';
 $string['totalsessiontime'] = 'Tiempo total de trabajo en sesión';
 $string['totalsessiontime_help'] = 'Por favor tenga en cuenta que la lista de sesión cuenta algunas duraciones que pueden estar fuera de este curso. El \'tiempo total de sesión\' usualmente debería ser mayor que el cálculo de \'tiempo en el curso\'';
 $string['totalsitetime'] = 'Tiempo total en el sitio';
+$string['totalwdtime'] = 'Tiempo total WD';
 $string['trainingreports'] = 'Reportes de Entrenamiento';
 $string['trainingsessions'] = 'Sesiones de Entrenamiento';
 $string['trainingsessions:batch'] = 'Puede hacer reportes masivos';
@@ -342,21 +379,27 @@ $string['trainingsessions:viewother'] = 'Puede ver reportes de sesión de entren
 $string['trainingsessions_report_advancement'] = 'Reporte de Progreso';
 $string['trainingsessions_report_connections'] = 'Reporte de Conexión';
 $string['trainingsessions_report_institutions'] = 'Reporte de Institución';
+$string['trainingsessionsdeletionmark'] = 'Eliminación en progreso';
 $string['trainingsessionsreport'] = 'Reporte de Sesiones de Entrenamiento';
 $string['trainingsessionsscores'] = 'Adiciones de puntaje a reportes';
 $string['unvisited'] = 'No-visitado';
 $string['updatefromaccountstart'] = 'Obtener a partir del primer acceso del usuario';
 $string['updatefromcoursestart'] = 'Obtener del principio de curso';
+$string['updatefromcustomdate'] = 'Obtener de fecha personalizada (arriba)';
+$string['updatefromenrolstart'] = 'Obtener de fecha de inscripción del usuario';
 $string['uploadglobals'] = 'Subidas de archivos';
 $string['uploadresult'] = 'Descargar resultados en bruto';
 $string['user'] = 'Por participante';
 $string['userdetail'] = 'Detalle del participante';
+$string['userid'] = 'ID del usuario';
 $string['userlist'] = 'Una fila por participante';
 $string['usersheets'] = 'Una hoja-de-cálculo por participante';
 $string['usersummary'] = 'Resumen del participante';
 $string['visiteditems'] = 'Ítems visitados.';
 $string['weekstartdate'] = 'Inicio de semana';
+$string['workingdays'] = 'Reporte de días trabajados';
 $string['workingsessions'] = 'Sesiones de trabajo';
+$string['workweek'] = 'Semana';
 $string['xls'] = 'XLS';
 $string['xlsadditions'] = 'Adiciones XLS';
 $string['xlsexportlocale'] = 'Locale de Exportación XLS';
@@ -366,4 +409,4 @@ $string['xlsformula'] = 'Fórmula (expresión Excel)';
 $string['xlsmeanformula'] = 'Fórmula XLS Principal';
 $string['xlsmeanformula_desc'] = 'La Fórmula XLS para Media. Usa remplazables {minrow} y {maxrow} para fijar el rango vertical, y {col} como identificador de columna actual. Una referencia de celda puede ser : ${col}$4, $Y${minrow}';
 $string['xlssumformula'] = 'Fórmula de Suma XLS';
-$string['xlssumformula_desc'] = 'Fórmula de Suma XLS. Use remplazables {minrow} y {maxrow} para fijar el rango vertical , y {col} como identificador de columna actual. Una referencia de celda puede ser : ${col}$4, $Y${minrow}';
+$string['xlssumformula_desc'] = 'Fórmula de Suma XLS. Use remplazables {minrow} y {maxrow} para fijar el rango vertical, y {col} como identificador de columna actual. Una referencia de celda puede ser : ${col}$4, $Y${minrow}';

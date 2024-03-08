@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_elegance', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_elegance', language 'es_mx', version '4.2'.
  *
  * @package     theme_elegance
  * @category    string
@@ -105,7 +105,7 @@ $string['fontcolordesc'] = 'Configurar el color perincipal usado en todo el siti
 $string['footnote'] = 'Nota al pie';
 $string['footnotedesc'] = 'Todo lo que añada en esta área-de-texto se mostrará en el pie de página de todo su sitio Moodle.';
 $string['frontpagecontent'] = 'Contenido de la portada';
-$string['frontpagecontentdesc'] = 'Esta localización aparece como resaltada debajo del paso de diapositivas en la portada del sitio.';
+$string['frontpagecontentdesc'] = 'Esta ubicación aparece como resaltada debajo del paso de diapositivas en la portada del sitio.';
 $string['geneicsettings'] = 'Configuraciones Generales';
 $string['googleplus'] = 'URL de Google+';
 $string['googleplusdesc'] = 'Escriba la URL de su perfil de Google+ . (por ejemplo,  https://google.com/+Pukunui/)';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'fileconverter_librelambda', language 'es_mx', version '3.10'.
+ * Strings for component 'fileconverter_librelambda', language 'es_mx', version '4.2'.
  *
  * @package     fileconverter_librelambda
  * @category    string
@@ -31,7 +31,7 @@ $string['privacy:metadata:fileconverter_librelambda:externalpurpose'] = 'La info
 $string['privacy:metadata:fileconverter_librelambda:filecontent'] = 'El contenido del archivo.';
 $string['privacy:metadata:fileconverter_librelambda:filemimetype'] = 'El tipo MIME del archivo.';
 $string['privacy:metadata:fileconverter_librelambda:params'] = 'Los parámetros de consulta pasados a AWS API.';
-$string['provision:bucketcreated'] = 'Se creó {$a->bucket} bucket, en localización {$a->location}';
+$string['provision:bucketcreated'] = 'Se creó {$a->bucket} bucket, en ubicación {$a->location}';
 $string['provision:bucketexists'] = 'Bucket existe';
 $string['provision:creatings3'] = 'Creando recurso S3 Bucket';
 $string['provision:inputbucket'] = 'Bucket de entrada: {$a}';

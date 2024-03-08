@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_pageone', language 'es_mx', version '3.10'.
+ * Strings for component 'block_pageone', language 'es_mx', version '4.2'.
  *
  * @package     block_pageone
  * @category    string
@@ -30,7 +30,7 @@ $string['account_info2'] = 'Funciones';
 $string['account_works'] = 'Ingreso a servidor PageOne';
 $string['action'] = 'Acción';
 $string['add_alpha_tag'] = 'Añadir un nuevo MSISDNs personalizado';
-$string['add_callback'] = 'Añadir SMS Callback';
+$string['add_callback'] = 'Añadir Retrollamada SMS';
 $string['all_course_messages'] = 'Todos los mensajes de usuario para este curso';
 $string['all_messages'] = 'Todos los mensajes de usuario para todos los cursos';
 $string['all_own_messages'] = 'Mensajes para todos mis cursos';
@@ -45,17 +45,17 @@ $string['attachmenterror'] = '¡No es un anexo válido! El archivo siguiente no 
 $string['attachmentoptional'] = ')Opcional - solamente enviado con Emails=';
 $string['available_credit'] = 'Crédito de cuenta disponible';
 $string['blockname'] = 'MoodleMobile';
-$string['callback_added'] = 'El servicio callback (llamar de regreso) ha sido añadido y debería estar enlistado debajo.';
-$string['callback_delay'] = 'Por favor tenga en cuenta que puede haber un breve retraso (~10 minutos) entre el registro de un \'\'callback\'\' para mensajería en 2-sentidos y el que se vuelva activo.';
-$string['callback_instructions'] = 'Para recibir mensajes de texto entrantes y repórtes de entrega de mensajes, Usted necesita registrar un servicio callback con PageOne. La URL callback para este servidor Moodle que debería de enviarse a soporte PageOne es mostrada debajo.';
-$string['callback_ok'] = 'Servicio SMS Callback';
+$string['callback_added'] = 'El servicio de retrollamada  ha sido añadido y debería estar enlistado debajo.';
+$string['callback_delay'] = 'Por favor tenga en cuenta que puede haber un breve retraso (~10 minutos) entre el registro de una retrollamada para mensajería en 2-sentidos y el que se vuelva activa.';
+$string['callback_instructions'] = 'Para recibir mensajes de texto entrantes y repórtes de entrega de mensajes, Usted necesita registrar un servicio de retrollamada con PageOne. La URL de retrollamada para este servidor Moodle que debería de enviarse a soporte PageOne es mostrada debajo.';
+$string['callback_ok'] = 'Servicio Retrollamada SMS';
 $string['callback_ok_des'] = 'necesario para contestaciones de mensaje de texto';
-$string['callback_problem'] = 'Los servicios callback SMS neecesarios para recibir contestaciones a mensajes de texto y para reporte de estado de mensajería mejorada podrían no configurarse automáticamente. Esto es porque, ya sea que el servidor PageOne ha rechazado la solicitud de configuración de callback o porque ya existe un sistema diferente de callbacks.';
-$string['callback_problem_1'] = 'Ingonar cualquier configuración existente y añadir las SMS callbaks para esta instancia Moodle';
-$string['callback_problem_2'] = 'Eliminar todas las callbacks existentes y añadir callbacks SMS a esta instancia Moodle';
-$string['callback_problem_3'] = 'Ver y editar manualmente todos los callbacks SMS registrados';
-$string['callback_reg_error_delivery'] = 'Hubo un error al registrar los callbacks de reportes de entrega';
-$string['callback_reg_error_reply'] = 'Hubo un error al registrar los callbacks de contestaciones de mensaje';
+$string['callback_problem'] = 'Los servicios de retrollamada SMS neecesarios para recibir contestaciones a mensajes de texto y para reporte de estado de mensajería mejorada podrían no configurarse automáticamente. Esto es porque, ya sea que el servidor PageOne ha rechazado la solicitud de configuración de retrollamada o porque ya existe un sistema diferente de retrollamadas.';
+$string['callback_problem_1'] = 'Ingorar cualquier configuración existente y añadir las retrollamadas SMS para esta instancia Moodle';
+$string['callback_problem_2'] = 'Eliminar todas las retrollamadas existentes y añadir retrollamadas SMS a esta instancia Moodle';
+$string['callback_problem_3'] = 'Ver y editar manualmente todas las retrollamadas SMS registradas';
+$string['callback_reg_error_delivery'] = 'Hubo un error al registrar las retrollamadas de reportes de entrega';
+$string['callback_reg_error_reply'] = 'Hubo un error al registrar las retrollamadas de contestaciones de mensaje';
 $string['char_limit_error'] = 'Su mensaje ha excedido el límite de caracteres para un mensaje de texto. Por favor reduzca la longitud de su mensaje.';
 $string['char_limit_mm'] = 'Su mensaje ha excedido el límite de caracteres para un mensaje de texto. El mensaje de texto no fue enviado.';
 $string['check'] = 'Revisar todos';
@@ -71,8 +71,10 @@ $string['config_country_code'] = 'Código para marcar al país';
 $string['config_country_code_help'] = 'El código internacional de marcación para su país, solamente dígitos. Para México ingrese 52. Puede consultarlos en http://www.nationsonline.org/oneworld/international-calling-codes.htm';
 $string['config_default_mbox'] = 'Buzón por defecto para mensajes entrantes';
 $string['config_default_mbox_help'] = 'Esto debería ajustarse a una dirección Email apropiada.';
-$string['config_https'] = 'Usar HTTPS para el callback end point';
-$string['config_https_help'] = 'Configurar a si cuando su servidor Moodle solamente acepta conexiones HTTPS para \'\'callbacks\'\'.';
+$string['config_edit_alpha_link'] = 'Configurar MSISDNs para usuarios individuales';
+$string['config_edit_log_link'] = 'Ver bitácoras de mensaje';
+$string['config_https'] = 'Usar HTTPS para el end point de retrollamada';
+$string['config_https_help'] = 'Configurar a si cuando su servidor Moodle solamente acepta conexiones HTTPS para retrollamadas.';
 $string['config_mobile_find'] = 'Método de identificación del número del teléfono móvil';
 $string['config_mobile_find_always_first'] = 'Parámetro de usuario de Moodle \'Phone\'';
 $string['config_mobile_find_always_second'] = 'Parámetro de usuario de Moodle \'Mobile Phone\'';
@@ -103,7 +105,7 @@ $string['deletefail'] = 'Eliminación Falló';
 $string['deletesuccess'] = 'Eeliminación(es) exitosa';
 $string['domxml_warn'] = 'Advertncia: No pudieron encontrarse las clases PHP DOMXML. Este bloque no funcionará sin ellas. Por favor refiérase al arechivo Readme (Léame) en la descarga del bloque para más información.';
 $string['edit_alpha'] = 'Editar MSISDN personalizado';
-$string['edit_callback'] = 'Editar Callbacks SMS Registrados';
+$string['edit_callback'] = 'Editar Retrollamadas SMS Registradas';
 $string['email'] = 'Texto/Email';
 $string['email_address'] = 'Dirección Email';
 $string['email_found'] = 'Dirección Email encontrada';

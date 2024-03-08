@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_completion', language 'es_mx', version '3.10'.
+ * Strings for component 'availability_completion', language 'es_mx', version '4.2'.
  *
  * @package     availability_completion
  * @category    string
@@ -35,16 +35,16 @@ $string['missing'] = '(Actividad faltante)';
 $string['option_complete'] = 'debe ser calificado como completo';
 $string['option_fail'] = 'debe estar completa con calificación reprobatoria';
 $string['option_incomplete'] = 'no debe estar calificado como completo';
-$string['option_pass'] = 'debe estar completo con calificación aprobatoria';
+$string['option_pass'] = 'debe estar completa con calificación aprobatoria';
 $string['option_previous'] = 'Actividad anterior con finalización';
 $string['pluginname'] = 'Restricción por finalización de actividad';
 $string['privacy:metadata'] = 'El plugin de Restricción por finalización de actividad no almacena ningún dato personal.';
-$string['requires_complete'] = 'La actividad <strong>{$a}</strong> está calificada como completada';
-$string['requires_complete_fail'] = 'La actividad <strong>{$a}</strong>está completada y reprobada';
-$string['requires_complete_pass'] = 'La actividad <strong>{$a}</strong>está completada y pasada';
-$string['requires_incomplete'] = 'La actividad <strong>{$a}</strong>está incompleta';
-$string['requires_not_complete_fail'] = 'La actividad <strong>{$a}</strong>está incompletada y reprobada';
-$string['requires_not_complete_pass'] = 'La actividad <strong>{$a}</strong>está incompletada y pasada';
+$string['requires_complete'] = 'La actividad <strong>{$a}</strong> esté calificada como completada';
+$string['requires_complete_fail'] = 'La actividad <strong>{$a}</strong> esté completada y reprobada';
+$string['requires_complete_pass'] = 'La actividad <strong>{$a}</strong> esté completada y aprobada';
+$string['requires_incomplete'] = 'La actividad <strong>{$a}</strong> esté incompleta';
+$string['requires_not_complete_fail'] = 'La actividad <strong>{$a}</strong> esté incompleta y reprobada';
+$string['requires_not_complete_pass'] = 'La actividad <strong>{$a}</strong> esté incompleta y aprobada';
 $string['requires_previous_complete'] = 'La <strong>actividad anterior con finalización</strong> está marcada como completada';
 $string['requires_previous_complete_fail'] = 'La <strong>actividad anterior con finalización</strong> está completada y reprobada';
 $string['requires_previous_complete_pass'] = 'La <strong>actividad anterior con finalización</strong> está completada y aprobada';

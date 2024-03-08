@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'bim', language 'es_mx', version '3.10'.
+ * Strings for component 'bim', language 'es_mx', version '4.2'.
  *
  * @package     bim
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['allocatedPostStudent'] = 'Asignado';
 $string['allocation_form_change'] = 'Cambiar asignación a';
+$string['bim_marker_show_qs_link'] = 'ver aquí los prompts';
 $string['modulename_help'] = 'El módulo de actividad BIM soporta la gestión (y calificación opcional) de canales (feeds) de estudiante individuales. El uso más común para esto es que cada estudiante use su propio blog alojado-externamente para propósitos de reflexión.</p>
 <p>BIM</p>
 <ul>

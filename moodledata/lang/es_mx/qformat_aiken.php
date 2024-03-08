@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_aiken', language 'es_mx', version '3.10'.
+ * Strings for component 'qformat_aiken', language 'es_mx', version '4.2'.
  *
  * @package     qformat_aiken
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Formato Aiken';
 $string['pluginname_help'] = 'Este es un formato sencillo para importar preguntas de opción múltiple de un archivo de texto.';
+$string['pluginname_link'] = 'qformat/aiken';
 $string['privacy:metadata'] = 'El plugin de Formato de pregunta Aiken no almacena ningún dato personal.';
 $string['questionmissinganswers'] = 'La pregunta debe tener al menos 2 respuestas en la línea {$a}';
 $string['questionnotcomplete'] = 'La pregunta no completada antes de la siguiente pregunta comienza en la línea {$a}';

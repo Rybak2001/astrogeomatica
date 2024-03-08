@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choice', language 'es_mx', version '3.10'.
+ * Strings for component 'choice', language 'es_mx', version '4.2'.
  *
  * @package     choice
  * @category    string
@@ -40,9 +40,7 @@ $string['choice:deleteresponses'] = 'Modificar y eliminar respuestas';
 $string['choice:downloadresponses'] = 'Descargar respuestas';
 $string['choice:readresponses'] = 'Ver respuestas';
 $string['choice:view'] = 'Ver actividad Elección';
-$string['choiceactivityname'] = 'Elección: {$a}';
 $string['choiceclose'] = 'Permitir respuestas hasta';
-$string['choicecloseson'] = 'La elección cierra en {$a}';
 $string['choicefull'] = 'Una o más de las opciones que Usted ha seleccionado ya se han llenado. Su respuesta no ha sido guardada. Por favor, haga otra selección.';
 $string['choicename'] = 'Título de la elección';
 $string['choiceopen'] = 'Permitir respuestas desde';
@@ -53,6 +51,7 @@ $string['choicetext'] = 'Texto de la elección';
 $string['chooseaction'] = 'Elija una acción ...';
 $string['chooseoption'] = 'Elección: {$a}';
 $string['closebeforeopen'] = 'Usted ha especificado una fecha de cierre anterior a la fecha de apertura.';
+$string['completiondetail:submit'] = 'Elija una opción';
 $string['completionsubmit'] = 'Mostrar como completada cuando el usuario hace una elección';
 $string['description'] = 'Descripción';
 $string['deselectalloption'] = 'Des-seleccionar todos "{$a}"';
@@ -67,16 +66,18 @@ $string['eventreportdownloaded'] = 'Reporte de elección descargado';
 $string['eventreportviewed'] = 'Reporte de elección visto';
 $string['expired'] = 'Esta actividad se cerró el {$a}.';
 $string['full'] = '(Lleno)';
-$string['havetologin'] = 'Debe registrarse antes de enviar su elección';
+$string['havetologin'] = 'Debe  iniciar sesión antes de enviar su elección';
 $string['includeinactive'] = 'Incluir respuestas de usuarios inactivos/suspendidos';
 $string['indicator:cognitivedepth'] = 'Elección cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad Elección.';
 $string['indicator:cognitivedepthdef'] = 'Elección cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje de compromiso cognitivo ofrecido por las actividades de Elección durante este intervalo de análisis (Niveles = Sin ver, Ver, Enviar, Ver retroalimentación)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Elección social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad Elección.';
 $string['indicator:socialbreadthdef'] = 'Elección social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de Elección durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['limit'] = 'Límite';
 $string['limita'] = 'Límite: {$a}';
 $string['limitanswers'] = 'Limitar el número de respuestas permitidas';
@@ -96,6 +97,7 @@ Una actividad de elección puede emplearse para
 * Una encuesta rápida para estimular que piensen sobre un tema particular
 * Para evaluar rápidamente que tanto entendieron  los estudiantes
 * Para facilitarles a los estudiantes la toma de decisiones, por ejemplo para votar sobre la dirección que tomará el curso';
+$string['modulename_link'] = 'mod/choice/view';
 $string['modulenameplural'] = 'Elecciones';
 $string['moveselectedusersto'] = 'Mover a los usuarios seleccionados a...';
 $string['multiplenotallowederror'] = 'No están permitidas respuestas múltiples en esta elección';
@@ -114,6 +116,7 @@ $string['options'] = 'Opciones';
 $string['page-mod-choice-x'] = 'Cualquier página del módulo elección';
 $string['pluginadministration'] = 'Administración de la elección';
 $string['pluginname'] = 'Elección';
+$string['previewing'] = 'Esto es solamente una vista previa de las opciones disponibles para esta actividad. Usted podrá marcar una elección cuando abra.';
 $string['previewonly'] = 'Esto es solamente una vista previa de las opciones disponibles para esta actividad. Usted no podrá enviar su elección hasta {$a}.';
 $string['privacy'] = 'Privacidad de los resultados';
 $string['privacy:metadata:choice_answers'] = 'Información acerca de la(s) respuesta(s) elegida(s) por el usuario para una actividad de elección dada';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'unilabel', language 'es_mx', version '3.10'.
+ * Strings for component 'unilabel', language 'es_mx', version '4.2'.
  *
  * @package     unilabel
  * @category    string
@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['autorun'] = 'Correr automáticamente';
+$string['chooseurlfromactivity'] = 'Elegir URL de actividad';
 $string['contentplugins'] = 'Contenido plugins';
 $string['editcontent'] = 'Editar contenido';
 $string['generalsettings'] = 'Configuraciones generales';
@@ -32,6 +34,7 @@ $string['labeltype'] = 'Tipo de etiqueta';
 $string['labeltype_help'] = 'El Tipo de etiqueta define la apariencia del contenido. Cada tipo tiene su propia página de configuración.';
 $string['modulename'] = 'Unilabel';
 $string['modulename_help'] = 'El módulo Unilabel le permite presentar su información en una forma atractiva en la página del curso.';
+$string['modulename_link'] = 'mod/unilabel/view';
 $string['modulenameplural'] = 'Unilabels';
 $string['noconfiguration'] = 'Sin configuración';
 $string['pluginadministration'] = 'Admiistración de Unilabel';

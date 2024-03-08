@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_yumymedia', language 'es_mx', version '3.10'.
+ * Strings for component 'local_yumymedia', language 'es_mx', version '4.2'.
  *
  * @package     local_yumymedia
  * @category    string
@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['access_control'] = 'Control de Acceso';
+$string['access_link'] = 'Acceder';
 $string['access_media_failed_not_owner'] = 'Usted no puede acceder a medios que no son suyos.<br>Si quiere estos medios, póngase en contacto con el administrador del sitio.';
 $string['access_media_not_exist'] = 'Este medio ya no existe';
 $string['access_media_title'] = 'Enlazar y Controlar Acceso';
@@ -39,6 +40,7 @@ $string['category_failed'] = 'No puede configurar categoría raíz del contenido
 $string['category_failed_empty'] = 'Por favor configure categoría raíz en página de configuraciones.';
 $string['category_failed_no_exists'] = 'No hay categoría raíz en servidor Kaltura.';
 $string['check_all'] = 'Revisar todo';
+$string['clip_link'] = 'Clip';
 $string['comma_separated'] = 'Separado_por_comas';
 $string['continue'] = 'Continuar';
 $string['converting'] = 'Medios convirtiendo';
@@ -46,6 +48,7 @@ $string['created_header'] = 'Creado';
 $string['creatorid_header'] = 'ID del creador';
 $string['default_access_control'] = 'Valores por defecto';
 $string['default_access_control_failed'] = 'No se encontró control de acceso por defecto.<br>';
+$string['delete_link'] = 'Eliminar';
 $string['delete_media_complete'] = 'Medio ha sido eliminado.';
 $string['delete_media_confirm'] = '¿Está seguro de querer eliminar este medio?<br>Una vez que se haya realizado esta acción, no puede deshacerse.';
 $string['delete_media_failed'] = 'No se pudo eliminar medios';
@@ -57,6 +60,8 @@ $string['desc_header'] = 'Descripción';
 $string['details'] = 'Detalles del Medio';
 $string['disable_objecturl'] = 'Este subidor requiere el createObjectURL/revokeObjectURL.<br>Sin embargo, su navegador web no soporta estas funciones.<br>Por favor use otro navegador.';
 $string['disable_webrtc'] = 'Este subidor requiere el WebRTC.<br>Sin embargo, su navegador de internet no soporta el WebRTC.<br>Por favor use otro navegador.';
+$string['download_link'] = 'Descargar';
+$string['edit_link'] = 'Editar';
 $string['entryid_header'] = 'ID de entrada';
 $string['error_not_owner'] = 'Usted necesita ser el propietario de este medio.<br>Si Usted es propietario de este medio, póngase en contacto con el administrador del sitio.';
 $string['error_saving'] = 'Hubo un error al guardar las configuraciones.<br>Por favor, póngase en contacto con el administrador del sitio.';
@@ -99,6 +104,7 @@ $string['pc_only'] = 'para PC solamente';
 $string['pc_recommended'] = 'PC recomendada';
 $string['permission_disable'] = 'Usted no tiene permiso para usar kaltura my-media.';
 $string['pluginname'] = 'Mis Medios';
+$string['preview_link'] = 'Previsualizar';
 $string['privacy:metadata'] = 'La Galería de Medios YU Kaltura no almacenan ningún dato personal.';
 $string['problem_viewing'] = 'Hay un problema para mostrar la página. Por favor intente nuevamente o póngase en contacto con el administrador del sitio.';
 $string['progress'] = 'Progreso';
@@ -114,6 +120,7 @@ $string['search_clear'] = 'Borrar';
 $string['search_text_tooltip'] = 'Ingresar nombre o marcas del medio';
 $string['select_file_exp'] = 'Por favor seleccione un archivo de medios.';
 $string['session_failed'] = 'No se puede iniciar sesión nueva kaltura para subir medio.<br>Por favor póngase en contacto con el administrador del sitio.';
+$string['share_link'] = 'Compartir';
 $string['simple_upload'] = 'Suba sus medios';
 $string['site_share'] = 'Compartir con sitio';
 $string['sortby'] = 'Ordenar por';

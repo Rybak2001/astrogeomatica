@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_safeassign', language 'es_mx', version '3.10'.
+ * Strings for component 'plagiarism_safeassign', language 'es_mx', version '4.2'.
  *
  * @package     plagiarism_safeassign
  * @category    string
@@ -28,3 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['privacy:metadata:plagiarism_safeassign_files:similarityscore'] = 'Puntaje de similitud para el archivo enviado.';
 $string['privacy:metadata:plagiarism_safeassign_subm:avgscore'] = 'El puntaje promedio de similitud para todos los archivos enviados.';
 $string['privacy:metadata:plagiarism_safeassign_subm:highscore'] = 'El puntaje más alto de similitud para un archivo enviado.';
+$string['safeassign_link_originality_report'] = 'Ver reporte de originalidad';
+$string['safeassign_notification_grading_link'] = 'Página para Calificar';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'my', language 'es_mx', version '3.10'.
+ * Strings for component 'my', language 'es_mx', version '4.2'.
  *
  * @package     my
  * @category    string
@@ -28,9 +28,11 @@ defined('MOODLE_INTERNAL') || die();
 $string['addpage'] = 'Agregar página';
 $string['alldashboardswerereset'] = 'Todas las páginas del Tablero han sido reiniciadas a sus valores por defecto.';
 $string['allprofileswerereset'] = 'Todas las páginas del perfil han sido reiniciadas a sus valores por defecto.';
+$string['coursemanagementoptions'] = 'Opciones de gestión del curso';
 $string['defaultpage'] = 'Página Mi Moodle por defecto';
 $string['defaultprofilepage'] = 'Página de perfil por defecto';
 $string['delpage'] = 'Eliminar página';
+$string['error:dashboardisdisabled'] = 'El Tablero ha sido deshabilitado por el administrador.';
 $string['managepages'] = 'Gestionar páginas';
 $string['mymoodle'] = 'Tablero';
 $string['nocourses'] = 'No hay información del curso para mostrar.';
@@ -41,4 +43,5 @@ $string['privacy:metadata:core_my:preference:user_home_page_preference'] = 'La p
 $string['reseterror'] = 'Hubo un error al reiniciar su página';
 $string['reseteveryonesdashboard'] = 'Reiniciar el Tablero para todos los usuarios';
 $string['reseteveryonesprofile'] = 'Reiniciar el perfil para todos los usuarios';
-$string['resetpage'] = 'Reiniciar página a versión por defecto';
+$string['resetpage'] = 'Reiniciar página a predeterminada';
+$string['resettingdashboards'] = 'Reiniciando el Tablero del usuario a predeterminado...';

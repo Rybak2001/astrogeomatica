@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_langimport', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_langimport', language 'es_mx', version '4.2'.
  *
  * @package     tool_langimport
  * @category    string
@@ -28,6 +28,10 @@ defined('MOODLE_INTERNAL') || die();
 $string['downloadnotavailable'] = 'No se puede conectar al servidor de descargas. No es posible instalar o actualizar automáticamente los paquetes de idioma. Por favor, descargue los archivos ZIP apropiados desde <a href="{$a->src}">{$a->src}</a> y descomprímalos manualmente a su directorio de datos <code>{$a->dest}</code>';
 $string['install'] = 'Instalar paquete(s) de idioma(s) seleccionado(s)';
 $string['installedlangs'] = 'Paquetes de idioma instalados';
+$string['installfailed'] = '¡Falló la instalación de paquetes de idioma!';
+$string['installfinished'] = 'Terminó la instalación de paquetes de idioma.';
+$string['installpending'] = 'Los siguientes paquetes de idioma serán instalados pronto: {$a}.';
+$string['installscheduled'] = 'Paquetes de idioma agendados para instalación.';
 $string['langimport'] = 'Utilería para importar idioma';
 $string['langimportdisabled'] = 'Se ha deshabilitado la opción de importación de idioma. Deberá actualizar sus paquetes de idioma manualmente en el nivel de sistema de archivos. No olvide purgar la caché de cadenas después de hacerlo.';
 $string['langpackinstalled'] = 'El paquete de idioma \'{$a}\' se ha instalado exitosamente';
@@ -48,7 +52,9 @@ $string['nolangupdateneeded'] = 'Todos los paquetes de idioma están al día: no
 $string['pluginname'] = 'Paquetes de idioma';
 $string['privacy:metadata'] = 'El plugin de los Paquetes de idioma no almacena ningún dato personal.';
 $string['purgestringcaches'] = 'Purgar cachés de cadenas de texto';
+$string['search'] = 'Buscar paquetes de idiomas disponibles';
 $string['selectlangs'] = 'Seleccione idiomas a desinstalar';
 $string['uninstall'] = 'Desinstalar paquete(s) de idioma seleccionado(s)';
 $string['uninstallconfirm'] = 'Está a punto de desinstalar por completo estos paquetes de idioma <strong>{$a}</strong>. ¿Está Usted seguro?';
 $string['updatelangs'] = 'Actualizar todos los paquetes de idioma instalados';
+$string['updatelangsnote'] = 'Actualizar todos los paquetes de idioma instalados al elegir el botón podría tomar mucho tiempo y causar desconexiones. En lugar de esto se recomienda hacer uso del trabajo agendado \'{$a->taskname}\' (que en forma predeterminada se ejecuta cada día).';

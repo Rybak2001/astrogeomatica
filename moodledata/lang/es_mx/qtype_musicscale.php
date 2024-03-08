@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_musicscale', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_musicscale', language 'es_mx', version '4.2'.
  *
  * @package     qtype_musicscale
  * @category    string
@@ -47,7 +47,7 @@ $string['feedbackcorrectanswer'] = 'Su respuesta es correcta.';
 $string['feedbackwronganswer'] = 'La respuesta correcta es:';
 $string['forceclef'] = 'Forzar Clave';
 $string['forceclef_help'] = 'Esto anulará la Clave generada por defecto.';
-$string['instructions'] = '<h5>Instrucciones</h5><p>Mueva su ratón por encima del pentagrama para generar una nota.</p><p>Cuando Usted haya alcanzado la localización para colocarla, haga click izquierdo del ratón para asegurarla.</p><p>Si Usted necesita mover la nota, haga click izquierdo sobre de ella , y muévala hacia la nueva localización; después haga click izquierdo para volverla a asegurar.</p><p>Para añadir accidentales a la nota, haga click derecho con el ratón y aparecerá un menú contextual.';
+$string['instructions'] = '<h5>Instrucciones</h5><p>Mueva su ratón por encima del pentagrama para generar una nota.</p><p>Cuando Usted haya alcanzado la ubicación para colocarla, haga clic izquierdo del ratón para asegurarla.</p><p>Si Usted necesita mover la nota, haga clic izquierdo sobre de ella , y muévala hacia la nueva ubicación; después haga clic izquierdo para volverla a asegurar.</p><p>Para añadir accidentales a la nota, haga clic derecho con el ratón y aparecerá un menú contextual.';
 $string['modescale'] = 'Tipo de escala';
 $string['modescale_harmonic_minor'] = 'Harmónica menor';
 $string['modescale_help'] = 'Especifica el tipo de escala a introducir.';

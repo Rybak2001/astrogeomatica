@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_email', language 'es_mx', version '3.10'.
+ * Strings for component 'auth_email', language 'es_mx', version '4.2'.
  *
  * @package     auth_email
  * @category    string
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['auth_emaildescription'] = 'La confirmación por correo alectrónico es el método de autenticación predeterminado. Cuando el usuario se inscribe, escogiendo su propio nombre_de_usuario y contraseña, se envía un email de confirmación a su dirección de correo electrónico. Este email contiene un enlace seguro a una página donde el usuario puede confirmar su cuenta. Los futuros ingresos comprueban el nombre_de_usuario y contraseña contra los valores guardados en la base de datos de Moodle.';
+$string['auth_emaildescription'] = 'La confirmación por correo electrónico es el método de autenticación predeterminado. Cuando el usuario se inscribe, escogiendo su propio usuario y contraseña, se envía un email de confirmación a su dirección de correo electrónico. Este email contiene un enlace seguro a una página donde el usuario puede confirmar su cuenta. Los futuros ingresos comprueban el usuario y contraseña contra los valores guardados en la base de datos de Moodle.';
 $string['auth_emailnoemail'] = '¡Trató de mandarle un Email pero falló!';
 $string['auth_emailrecaptcha'] = 'Agrega un elemento de formato de confirmación visual o auditiva a la página de acceso para los usuarios auto-registrados vía Email (captcha). Esta opción protege su sitio contra los creadores de spam y contribuye a una buena causa. Vea https://www.google.com/recaptcha para más detalles.';
 $string['auth_emailrecaptcha_key'] = 'Habilitar elemento reCAPTCHA';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_googledocs', language 'es_mx', version '3.10'.
+ * Strings for component 'repository_googledocs', language 'es_mx', version '4.2'.
  *
  * @package     repository_googledocs
  * @category    string
@@ -38,6 +38,7 @@ $string['importformat'] = 'Configurar los formatos por defecto para importar des
 $string['internal'] = 'Internos (archivos guardados en Moodle)';
 $string['issuer'] = 'Servicio OAuth 2';
 $string['issuer_help'] = 'Seleccionar el servicio OAuth 2 que está configurado para hablarle al API de Google Drive. Si el servicio aun no existe, Usted necesitará crearlo.';
+$string['mydrive'] = 'Mi Drive (Mi Disco)';
 $string['oauth2serviceslink'] = '<a href="{$a}" title="Link to OAuth Services configuration">Configuración de servicios OAuth 2</a>';
 $string['owner'] = 'Propiedad de: {$a}';
 $string['pluginname'] = 'Google Drive';
@@ -45,7 +46,8 @@ $string['presentationformat'] = 'Formato por defecto para importar presentación
 $string['privacy:metadata:repository_googledocs'] = 'El plugin del Repositorio Google Drive no almacena ningún dato personal, pero si transmite datos del usuario desde Moodle hacia un sistema remoto.';
 $string['privacy:metadata:repository_googledocs:email'] = 'La dirección de Email del usuario del repositorio Google Drive.';
 $string['privacy:metadata:repository_googledocs:searchtext'] = 'El texto de búsqueda de usuario de repositorio Google Drive.';
-$string['searchfor'] = 'Buscar {$a}';
+$string['searchfor'] = 'Buscar resultados para:';
 $string['servicenotenabled'] = 'Acceso no configurado. Asegúrese de que el servicio de \'Drive API\' esté habilitado.';
+$string['shareddrives'] = 'Drives (Discos) Compartidos';
 $string['spreadsheetformat'] = 'Formato por defecto para importar hoja-de-cálculo';
 $string['supportedreturntypes'] = 'Archivos soportados';

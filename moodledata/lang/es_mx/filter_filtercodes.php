@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_filtercodes', language 'es_mx', version '3.10'.
+ * Strings for component 'filter_filtercodes', language 'es_mx', version '4.2'.
  *
  * @package     filter_filtercodes
  * @category    string
@@ -25,11 +25,26 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['brief'] = 'Corto';
+$string['categorycardshowpic'] = 'Mostrar fondo {categorycards}';
+$string['categorycardshowpic_desc'] = 'Si se habilita,mostrará un color/patrón de fondo para marca (categorycards) similar a las imágenes del curso cuando no se ha especificado una imagen.';
+$string['chartprogressbarlabel'] = '{$a->label}: {$a->value}';
 $string['contentmissing'] = '<h1>Falta contenido.</h1><p>Por favor notifique al webmaster.</p>';
-$string['courseteacherlinktype'] = 'Tipo de enlace del profesor';
-$string['courseteacherlinktype_desc'] = 'Elegir el tipo de anlace para el enlace del profesor en las marcas  {courseteachers}';
-$string['courseteachershowpic'] = 'Mostrar imagen del profesor';
-$string['courseteachershowpic_desc'] = 'Si se habilita, mostrará la imagen del perfil del profesor en las marcas {courseteachers}.';
+$string['coursecardsbyenrol'] = 'Máximo de cartas {coursecardsbyenrol}.';
+$string['coursecardsbyenrol_desc'] = 'Número máximo de tarjetas de curso a mostrar para marca (coursecardsbyenrol). Configurado a cero para ilimitado (no recomendado).';
+$string['coursecardsformat'] = 'Arreglo de tarjetas del curso';
+$string['coursecardsformat_desc'] = 'Mostrar {coursecards}, {coursecardsbyenrol} y {mycoursescards} ya sea:<br>
+<ul>
+<li><strong>Vertical</strong>: Imagen del curso arriba del nombre del curso.</li>
+<li><strong>Horizontal</strong>: Imagen del curso a la izquierda de nombre, categoría y resumen del curso; o</li>
+<li><strong>Lista</strong> en una tabla: Nombre del curso, categoría y resumen.</li>
+</ul>';
+$string['coursecontactlinktype'] = 'Tipo de enlace de contacto';
+$string['coursecontactlinktype_desc'] = 'Elegir el tipo de enlace para el enlace del contacto en marcas (coursecontacts).';
+$string['coursecontactshowdesc'] = 'Mostrar descripción del perfil del contacto.';
+$string['coursecontactshowdesc_desc'] = 'Si se habilita, mostrará la descripción del perfil del contacto en marcas {coursecontacts}.';
+$string['coursecontactshowpic'] = 'Mostrar imagen del contacto';
+$string['coursecontactshowpic_desc'] = 'Si se habilita, mostrará la imagen del perfil del contacto en marcas {coursecontacts}.';
 $string['defaultemail'] = '';
 $string['defaultfirstname'] = '';
 $string['defaultsurname'] = '';
@@ -40,6 +55,8 @@ $string['enable_customnav_description'] = '<strong>Experimental</strong>: Habili
 Nota: Se conoce que esto es compatible con los temas basados en Clean y Boost solamente en Moodle 3.2 a 3.4. No filtra las marcas en la página de Configuraciones de Temas de Moodle.';
 $string['enable_scrape'] = 'Soporte de marca scrape (arañar URL)';
 $string['enable_scrape_description'] = 'Habilitar la marca scrape (arañar URl)';
+$string['enable_sesskey'] = 'Soporte de marca seskey';
+$string['enable_sesskey_description'] = 'Habilitar globalmente la marca seskeyn. Esta característica está deshabilitada en foros aunque estuviera habilitada globalmente.';
 $string['escapebraces'] = 'Tags de escape';
 $string['escapebraces_desc'] = 'Cuando esta opción esté activada, usted podrá mostrar marcas FilterCode sin que sean interpretadas por este filtro al incluir las marcas dentro de  [ paréntesis cuadrados ]. Esto puede ser muy útil cuando se crea documentación para FilterCodes para los profesores y creadores de cursos en su sitio Moodle.<br><br>Ejemplo: [{fullname}] no mostrará el nombre completo del usuario, sino que mostrará la marca {fullname} sin los paréntesis,  en su lugar.';
 $string['filtername'] = 'Códigos de Filtro';
@@ -130,16 +147,20 @@ $string['globaltagnametitle'] = 'Tag: global_';
 $string['hidecompletedcourses'] = 'Ocultar cursos completados';
 $string['hidecompletedcourses_desc'] = 'Habilitar el filtrar evitando curso completados en listados de marcas {mycoursesmenu}';
 $string['ifprofilefiedonlyvisible'] = '{ifprofile_field_} visible solamente .';
-$string['ifprofilefiedonlyvisible_desc'] = 'Restringir la marca {ifprofile_field_...} para solamente acceder a campos visibles del perfil. Los campos ocultos se comportarán como si el campo estuviera vacío. Si se desactiva, esta marca podrá comprobar campos ocultos del usuario.';
+$string['ifprofilefiedonlyvisible_desc'] = 'Cuando se activa, restringe la marca {ifprofile_field_...} para solamente acceder a campos visibles del perfil. Los campos ocultos se comportarán como si el campo estuviera vacío. Si se desactiva, esta marca podrá comprobar campos ocultos del usuario.';
+$string['narrowpage'] = 'Página angosta';
+$string['narrowpage_desc'] = 'Habilite esta opción para optimizar la visualización de la información si Moodle está usando un tema con ancho limitado de página (como Boost en Moodle 4.0+).';
+$string['nocompletedcourses'] = 'Ninguno de los cursos en los que usted está inscrito ha sido marcado como completado.';
 $string['pagebuilder'] = 'Constructor de página';
 $string['pagebuilderlink'] = 'https://www.layoutit.com/build';
 $string['photoeditor'] = 'Editor de foto';
 $string['photoeditorlink'] = 'https://pixlr.com/editor/';
-$string['photoeditorname'] = 'Pixlr';
 $string['pluginname'] = 'Códigos de Filtro';
 $string['privacy:metadata'] = 'El plugin Códigos de Filtro no almacena ningún dato personal acerca de ningún usuario.';
 $string['screenrec'] = 'Grabadora de pantalla';
 $string['screenreclink'] = 'https://screenapp.io/#/recording';
+$string['showhiddenprofilefields'] = 'Mostrar campos de perfil ocultos';
+$string['showhiddenprofilefields_desc'] = 'Habilitar la marca {profile_field_...} para procesar todos los campos de perfil incluyendo los ocultos al usuario.';
 $string['sizeb'] = 'B';
 $string['sizeeb'] = 'EB';
 $string['sizegb'] = 'GB';
@@ -148,3 +169,7 @@ $string['sizemb'] = 'MB';
 $string['sizetb'] = 'TB';
 $string['sizeyb'] = 'YB';
 $string['sizezb'] = 'ZB';
+$string['teamcardsformat'] = 'Formato de tarjetas del equipo';
+$string['teamcardslinktype'] = 'Tipo de enlace del equipo';
+$string['teamcardslinktype_desc'] = 'Elegir el tipo de enlace para el enlace del miembro del equipo en la marca {teamcards} . Nota: La foto será automáticamente enlazada al perfil cuando el usuario es ingresado a pesar de su elección aquí..';
+$string['verbose'] = 'Verboso';

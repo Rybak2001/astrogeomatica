@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_recordrtc', language 'es_mx', version '3.10'.
+ * Strings for component 'tinymce_recordrtc', language 'es_mx', version '4.2'.
  *
  * @package     tinymce_recordrtc
  * @category    string

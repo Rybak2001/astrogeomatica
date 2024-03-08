@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'newsletter', language 'es_mx', version '3.10'.
+ * Strings for component 'newsletter', language 'es_mx', version '4.2'.
  *
  * @package     newsletter
  * @category    string
@@ -106,23 +106,6 @@ $string['mode_group_by_year'] = 'Agrupar ejemplares por año';
 $string['modulename'] = 'Boletín (newsletter)';
 $string['modulename_help'] = 'El módulo de boletín (newsletter) permite publicar boletines en Email.';
 $string['modulenameplural'] = 'Boletines';
-$string['new_user_subscribe_message'] = 'Hola {$a->fullname},
-Usted ha solicitado suscribirse al boletín
-\'{$a->newslettername}\'  en \'{$a->sitename}\'
-usando esta dirección de correo. Se le ha creado una cuenta nueva :
-
-Nombre_de_usuario: {$a->username}
-Contraseña: {$a->password}
-
-Usted puede cambiar los detalles de la cuanta después de confirmarse.
-Para confirmar su nueva cuenta, por favor vaya a:
-
-{$a->link}
-
-En la mayoría de los programas de correo, esto debería de aparecer como un enlace de color azul; simplemente haga click sobre  él . Si esto no funciona, entonces corte la dirección y péguela en su navegador de Internet.
-
-Si requiere ayuda, por favor contacte al administrador del sitio,
-{$a->admin}';
 $string['newsletter'] = 'Boletín';
 $string['newsletter:addinstance'] = 'Añadir un boletín';
 $string['newsletter:createissue'] = 'Crear un ejemplar del boletín';

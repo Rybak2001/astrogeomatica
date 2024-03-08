@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forumng', language 'es_mx', version '3.10'.
+ * Strings for component 'forumng', language 'es_mx', version '4.2'.
  *
  * @package     forumng
  * @category    string
@@ -36,6 +36,7 @@ $string['alert_condition6'] = 'Está en contra de las reglas por alguna otra raz
 $string['alert_conditionmore'] = 'Otra información (opcional)';
 $string['alert_emailsubject'] = 'Alerta F{$a->postid}: {$a->coursename} {$a->forumname}';
 $string['alert_feedback'] = 'Su reporte fue exitosamente enviado. Un miembro del staff investigará este asunto.';
+$string['alert_link'] = 'Reportar publicación';
 $string['alert_linktitle'] = 'Reportar publicación como inaceptable';
 $string['alert_notcurrentpost'] = 'Esta publicación ya ha sido eliminada.';
 $string['alert_pagename'] = 'Reportar una publicación como inaceptable';
@@ -224,7 +225,10 @@ $string['subscribe_confirm_group'] = 'Usted ha sido suscrito al grupo';
 $string['subscribediscussion'] = 'Suscribirse a discusión';
 $string['subscribedthisgroup'] = 'Este grupo';
 $string['subscribers'] = 'Suscriptores';
+$string['subscribestate_info_link'] = 'cambiar';
 $string['subscriptions'] = 'Suscripciones';
+$string['switchto_simple_link'] = 'Cambiar a vista simple.';
+$string['switchto_standard_link'] = 'Cambiar a vista estándar';
 $string['to'] = 'para: {$a}';
 $string['tooltip_show_features'] = 'Mostrar otras opciones';
 $string['undelete'] = 'Des-eliminar';

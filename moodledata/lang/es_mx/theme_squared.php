@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_squared', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_squared', language 'es_mx', version '4.2'.
  *
  * @package     theme_squared
  * @category    string
@@ -42,14 +42,18 @@ $string['bgcolorheading'] = 'Elegir un color del fondo para la categoría debajo
 $string['bgcolorheadingdesc'] = 'Este color de fondo es usado para elementos especiales en páginas dentro de la categoría especificada. Sirve como una guía de color.';
 $string['blockperrowlimit'] = 'Límite para mostrar 2 bloques por fila';
 $string['blockperrowlimitdesc'] = 'Mostrar 2 bloques por fila cuando hay más de x bloques en la página; de lo contrario usar por defecto un bloque por fila';
+$string['cachedef_coursecat'] = 'Usado para almacenar datos para categorías de curso visibles al usuario actual. Ayuda a ojera la lista de categorías.';
+$string['cachedef_fontawesome5iconmapping'] = 'Íconos cachés font Awesome 5';
 $string['catcolorsettings'] = 'Guía de color de categoría de curso y encabezado de curso';
 $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot"><h2>Cuadrado</h2><img src="squared/pix/screenshot.png" /><h2>Acerca de</h2><p>Cuadrado (Squared) es el tema que contiene más cuadros que cualquier otro tema de Moodle. Algunos inclusive dicen que es el tema más bonito para Moodle. <h2>Notas</h2><p>Este tema está construido sobre ambos  Base (Base) y Lienzo (Canvas), por lo tanto aun no es responsivo. Este es el tema oficial de "Onlinecampus Virtuelle PH" www.virtuelle-ph.at. Fue creado por David Bogner <a href="http://www.edulabs.org">www.edulabs.org - E-Learning Solutions</a> y  John Stabinger (programación). El diseño fue creado por <a href="http://contemas.net">Contemas Web Solutions</a> </p> <h3>Software Libre</h3> El tema se le proporciona a Usted gratuitamente, aunque si costó varios miles de Euros. Por ello, si Usted quiere hacer personalizaciones, por favor contáctenos.; especialmente para crear una versión responsiva basada en arranque (bootsrap); nosotros aceptamos cualquier ayuda. Ya estamos trabajando en esto, pero Usted puede acelerar el proceso.</div></div>';
 $string['configtitle'] = 'Tema Cuadrado';
 $string['courseheaderimage'] = 'Imágenes del encabezado del curso';
 $string['courseheaderimagedesc'] = 'Usar una imagen de encabezado del curso de los archivos del resumen del curso para el curso. Si hubiera muchas, entonces nombre la imagen \'course\' para asegurarse de que sea usada.';
 $string['courseheaderimagefallback'] = 'Plan \'B\' para imágenes del encabezado del curso';
+$string['courseheaderimagefallbackdesc'] = 'Si \'Imágenes del encabezado del curso\' está activado, pero no hay una imagen en los archivos del resumen del curso, entonces haga una de dos cosas: Use la imagen en la configuración \'courseheaderimagefallbackimage\' pero si estuviera vacía use una imagen del tema o genere una imagen.';
 $string['courseheaderimagefallbackgenerated'] = 'Usar la imagen generada';
 $string['courseheaderimagefallbackimage'] = 'Imágen del plan \'B\' para encabezado del curso';
+$string['courseheaderimagefallbackimagedesc'] = 'Imagen "plan B" a usar si \'Imágenes del encaabezado del curso\' está activado y \'plan "B" para imágenes del encabezado del curso\' estuviera configurado a "Use la imagen \'courseheaderimagefallbackimage\' o imagen del tema si estuviera vacío".';
 $string['courseheaderimagefallbackthemeimage'] = 'Usar la imagen \'courseheaderimagefallbackimage\' o la imagen del tema si estuviera vacía';
 $string['courseheaderimagehelpheading'] = 'Ayuda de imagen del encabezado del curso';
 $string['customcss'] = 'CSS personalizado';
@@ -89,6 +93,7 @@ $string['hvp'] = 'H5P';
 $string['hvpcustomcss'] = 'CSS Personalizado de H5P';
 $string['hvpcustomcssdesc'] = 'CSS Personalizado para el módulo H5P.';
 $string['hvpfontcss'] = 'CSS para el font H5P';
+$string['hvpfontcssdesc'] = 'CSS del font para el módulo H5P. Ponga aquí las declaraciones \'font-face\' usando la sintaxis \'font:theme\' para la URL y asegúrese de que el archivo del font esté dentro de la carpeta del font del tema. Después aplique con declaraciones  CSS \'font-family\' en la configuración CSS personalizada de H5P.';
 $string['instagramlink'] = 'Enlace hacia su página de Instagram (opcional)';
 $string['instagramlinkdesc'] = 'El enlace debería de verse como este: https://www.instagram.com/sucuenta';
 $string['logo'] = 'Logo';

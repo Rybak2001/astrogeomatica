@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'randomactivity', language 'es_mx', version '3.10'.
+ * Strings for component 'randomactivity', language 'es_mx', version '4.2'.
  *
  * @package     randomactivity
  * @category    string
@@ -32,16 +32,27 @@ $string['applychangesreassign'] = 'Aplicar cambios y re-asignar';
 $string['assignedactivity'] = 'Actividad asignada';
 $string['assignees'] = 'Asignados';
 $string['changesapplied'] = 'Los cambios han sido aplicados';
+$string['completiontrackactivity'] = 'Requerir finalización de actividad asignada';
+$string['completiontrackactivity_desc'] = 'Los estudiantes deben completar esta actividad asignada';
+$string['completiontrackactivity_help'] = 'Si se habilita, esta Actividad Aleatoria intentará monitorear la finalización de actividades asignadas y actualizar automáticamente su estado de finalización de forma apropiada<br>
+<b>Nota:</b> Esto podría anular algunos de los otros métodos de monitoreo de la finalización.';
 $string['continuetoactivity'] = 'Continuar a la actividad';
 $string['duedate'] = 'Fecha esperada';
 $string['duedatefor'] = 'Fecha esperada para {$a}';
+$string['duedatefor_desc'] = '¡Fecha límite para completar y enviar esta actividad!';
+$string['duedateover'] = 'Ya pasó la fecha límite para esta actividad.<br>
+Usted todavía puede acceder a la actividad si lo desea, pero no se registrarán nuevas calificaciones.';
 $string['dynamicdisplay'] = 'Visualización dinámica en página del curso';
 $string['dynamicdisplay_help'] = 'Si se configura a "Si", esta actividad se mostrará en la página del curso como la actividad a la cual apunta. Esto solamente afecta a estudiantes.';
 $string['filters'] = 'Filtros:';
 $string['groupbyseeding'] = 'Agrupar por semilla';
 $string['grouping'] = 'agrupamiento {$a}';
 $string['groupmode'] = 'Modo de grupo';
+$string['groupmode_help'] = 'Esta actividad está configurada para usar grupos. Los miembros del mismo grupo serán asignados a la misma actividad.<br>
+Si está configurado un agrupamiento, entonces solamente  los grupos de este agrupamiento serán considerados.<br>
+Si un usuario no pertenece a ningún grupo, o pertenece a más de un grupo, será asignado individualmente.';
 $string['groupmodedetails'] = 'Modo de grupo ({$a}).';
+$string['invalidsesskeyorpermission'] = 'Esta actividad ha sido impedida por razones de seguridad. Ya sea que usted no tiene los permisos necesarios, o su clave de sesión no pudo ser confirmada.';
 $string['modulename'] = 'Actividad aleatoria';
 $string['modulename_help'] = 'El módulo de Actividad aleatoria le permite al profesor definir un lote de actividades de las cuales los estudiantes sacarán aleatoriamente una para realizar.<br><br>
 La calificación de la actividad será obtenida para cada estudiante y usada como la calificación de la actividad aleatoria.<br>

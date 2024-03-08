@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_xp', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_xp', language 'es_mx', version '4.2'.
  *
  * @package     enrol_xp
  * @category    string
@@ -35,7 +35,6 @@ $string['messageprovider:welcomemessage'] = 'Mensaje de BienVenida a inscripció
 $string['noteaboutexistingenrolment'] = 'Este método de inscripción no tiene efecto cuando el usuario ya está inscrito en el curso, aun y cuando su inscripción esté obsoleta, suspendida o deshabilitada.';
 $string['notethat'] = 'Nota';
 $string['pluginname'] = 'Inscripción a nivel';
-$string['privacy:metadata'] = 'El plugin no almacena ninguna información del usuario.';
 $string['syncpossiblemissing'] = 'Sincronizar y buscar posible inscripciones faltantes.';
 $string['welcomemessage'] = 'Un mensaje de BienVenida';
 $string['welcomemessage_help'] = 'Un mensaje que será enviado a usuarios cuando sean inscritos en el curso. Déjelo vacío si no desea enviar un mensaje.

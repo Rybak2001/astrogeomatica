@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'msteams', language 'es_mx', version '3.10'.
+ * Strings for component 'msteams', language 'es_mx', version '4.2'.
  *
  * @package     msteams
  * @category    string
@@ -40,7 +40,7 @@ $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este 
 $string['invalidstoredurl'] = 'No se puede mostrar este recurso, la URL de la reunión es inválida.';
 $string['invalidurl'] = 'La URL de MS Teams ingresada es inválida';
 $string['meetingsapplink'] = 'URL de App Meetings';
-$string['meetingsapplink_desc'] = 'Esta es la URL de localización de App de reunión';
+$string['meetingsapplink_desc'] = 'Esta es la URL de ubicación de App de reunión';
 $string['modulename'] = 'MS Teams Meeting (Reunión MS Teams)';
 $string['modulename_help'] = 'El módulo MS Teams le permite a un profesor el proporcionar un enlace de invitación a una reunión de MS Teams como un recurso del curso.
 
@@ -54,6 +54,8 @@ $string['pluginname'] = 'MS Teams Meetings (Reuniones MS Teams)';
 $string['printintro'] = 'Mostrar descripción de MS Teams Meeting';
 $string['printintroexplain'] = '¿Mostrar descripción de MS Teams debajo del contenido? Algunos tipos de visualizaciones podrían no mostrar la descripción aunque esté habilitada.';
 $string['privacy:metadata'] = 'El plugin de MS Teams Meeting no almacena ningún dato personal.';
+$string['privacy:metadata:msteamsapp'] = 'La App MS Teams es una herramienta externa para conectar usuarios a O365.';
+$string['privacy:metadata:msteamsapp:userlang'] = 'El idioma del usuario es enviado desde Moodle a la App MS Teams';
 $string['search:activity'] = 'MS Teams (Reuniones MS)';
 $string['serverurl'] = 'URL de MS Teams (Reuniones MS)';
 $string['url'] = 'URL de Reunión';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_cohortauto', language 'es_mx', version '3.10'.
+ * Strings for component 'local_cohortauto', language 'es_mx', version '4.2'.
  *
  * @package     local_cohortauto
  * @category    string
@@ -46,6 +46,7 @@ $string['error_unknown_action'] = 'Acción desconocida de formato: \'{$a}\'';
 $string['heading_cohortname'] = 'Nombre de cohorte';
 $string['heading_component'] = 'Gestionada por';
 $string['heading_count'] = '# Usuarios';
+$string['heading_link'] = 'Enlace';
 $string['label_cohortautotool'] = 'Operaciones de conversión de CohortAuto';
 $string['label_cohortautoview'] = 'Visor de cohorte';
 $string['link'] = 'Enlace';

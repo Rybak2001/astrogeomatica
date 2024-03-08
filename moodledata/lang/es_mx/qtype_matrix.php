@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_matrix', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_matrix', language 'es_mx', version '4.2'.
  *
  * @package     qtype_matrix
  * @category    string
@@ -34,12 +34,14 @@ $string['colsheader'] = 'Columnas de matriz';
 $string['colsheader_desc'] = '<p>TextoCorto será usado cuando esté presente, con el texto más largo como una herramientita.<br />Sea cauteloso acerca de como se mostrará.</p>
 <p>Los estudiantes pueden seleccionar una o varias columnas por fila, dependiendo de como ha sido configurada la pregunta, y cada fila recibe una calificación, definida por uno de los métodos de calificar.</p>
 <p>La calificación final para la pregunta es un promedio de sus calificaciones para cada una de las filas con la excepción del  tipo Kprime, en donde todas las respuestas deben de ser correctas.</p>';
+$string['difference'] = 'Diferencia';
 $string['false'] = 'Falso';
 $string['grademethod'] = 'Método de puntuación';
 $string['grademethod_help'] = '<ul>
-<li><b>Kprime</b>: El estudiante recibe un punto si todas las respuestas son correctas, medio punto si una respuesta está equivocada y las demás están correctas, y cero puntos en otros casos.
-<li><b>Kprime1/0</b>: El estudiante recibe un punto si todas las respuestas son correctas, y cero puntos en otros casos.
-<li><b>Subpuntos</b>: Al estudiante se le otorgan sub-puntos por cada respuesta correcta.
+<li><b>Kprime</b>: El estudiante recibe un punto si todas las respuestas son correctas, medio punto si una respuesta está equivocada y las demás están correctas, y cero puntos en otros casos.</li>
+<li><b>Kprime1/0</b>: El estudiante recibe un punto si todas las respuestas son correctas, y cero puntos en otros casos.</li>
+<li><b>Subpuntoss</b>: Al estudiante se le otorgan subpuntos por cada respuesta correcta.</li>
+<li><b>Diferencia</b>: el estudiante recibe un punto dependiendo de la desviación de su respuesta seleccionada de un valor pre-especificado (respuesta correcta). La fórmula para los puntajes de desviación es : valor de diferencia máxima obtenible – (respuesta del estudiante – respuesta correcta)^2. El puntaje de desviación entonces es transformado a un puntaje de crédito parcial que está entre 0 y 1 donde 1 corresponde a una respuesta correcta.</li>
 </ul>';
 $string['kany'] = 'Kprime (al menos una correcta, ninguna respuesta equivocada)';
 $string['kprime'] = 'Kprime1/0';
@@ -50,6 +52,7 @@ $string['mustdefine1by1'] = 'Usted debe definir cuando menos una matriz de 1 x 1
 $string['oneanswerperrow'] = 'Usted debe proporcionar una respuesta para cada fila';
 $string['pluginname'] = 'Kprime';
 $string['pluginname_help'] = '<p>Las preguntas Kprime consisten de un tronco de pregunta y cuatro oraciones de respuesta correspondientes. Para cada oración de respuesta, los estudiantes tienen que decidir si es acertada o equivocada.</p>';
+$string['pluginname_link'] = 'question/type/matrix';
 $string['pluginnameadding'] = 'Añadiendo una pregunta Kprime';
 $string['pluginnameediting'] = 'Editando una pregunta Kprime';
 $string['pluginnamesummary'] = 'En las preguntas Kprime, tienen que estar valorados como "correcta" o "falsa" exactamente cuatro oraciones .';

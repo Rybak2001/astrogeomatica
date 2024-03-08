@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_database', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_database', language 'es_mx', version '4.2'.
  *
  * @package     enrol_database
  * @category    string
@@ -46,7 +46,7 @@ $string['defaultcategory'] = 'Categoría por defecto del nuevo curso';
 $string['defaultcategory_desc'] = 'Categoría por defecto para cursos de creación automática. Usada cuando no se ha especificado o no se ha encontrado el ID de una nueva categoría.';
 $string['defaultrole'] = 'Rol por defecto';
 $string['defaultrole_desc'] = 'Rol que se asigna por defecto si nigún otro rol se especifica en una tabla externa.';
-$string['ignorehiddencourses'] = 'Pasar por alto cursos ocultos';
+$string['ignorehiddencourses'] = 'Ignorar cursos ocultos';
 $string['ignorehiddencourses_desc'] = 'Si se activa esta opción, los usuarios no serán inscritos en cursos configurados como no disponibles para los estudiantes.';
 $string['localcategoryfield'] = 'Campo de categoría local';
 $string['localcoursefield'] = 'Campo de curso local';
@@ -76,5 +76,5 @@ $string['settingsheaderlocal'] = 'Asignación de campos locales';
 $string['settingsheadernewcourses'] = 'Creación de nuevos cursos';
 $string['settingsheaderremote'] = 'Sincronización de inscripción remota';
 $string['syncenrolmentstask'] = 'Sincronizar trabajos de inscripciones por base de datos externa';
-$string['templatecourse'] = 'Nueva plantilla de curso';
+$string['templatecourse'] = 'Plantilla para nuevo curso';
 $string['templatecourse_desc'] = 'Opcional: los cursos auto-creados pueden copiar sus configuraciones a partir de un curso machote-patrón. Escriba aquí el nombre corto (shortname) del curso machote-patrón.';

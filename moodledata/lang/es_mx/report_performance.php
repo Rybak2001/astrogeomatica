@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_performance', language 'es_mx', version '3.10'.
+ * Strings for component 'report_performance', language 'es_mx', version '4.2'.
  *
  * @package     report_performance
  * @category    string
@@ -32,6 +32,9 @@ $string['check_backup_details'] = 'Al habilitar respaldos automáticos se crear�
 $string['check_cachejs_comment_disable'] = 'Si se habilita, el desempeño al cargar páginas se mejora.';
 $string['check_cachejs_comment_enable'] = 'Si se deshabilita, las páginas pueden cargarse lentamente.';
 $string['check_cachejs_details'] = 'El cachear y comprimir JavaScript  mejoran grandemente el desempeño al cargar páginas. Es altamente reecomendable para sitios en producción.';
+$string['check_dbschema_errors'] = 'El esquema de la base de datos no está alineado.';
+$string['check_dbschema_name'] = 'Revisión del esquema de la base de datos';
+$string['check_dbschema_ok'] = 'El esquema de la base de datos es correcto.';
 $string['check_debugmsg_comment_developer'] = 'Si se configura a cualquier opción que sea diferente de  DESARROLLADOR, el desempeño puede ser mejorado ligeramente.';
 $string['check_debugmsg_comment_nodeveloper'] = 'Si se configura a DESARROLLADOR, el desempeño puede verse afectado ligeramente.';
 $string['check_debugmsg_details'] = 'Raramente hay alguna ventaja en ponerlo en nivel para Desarrollador, a menos que Usted sea un desarrollador, en cuyo caso está fuertemente recomendado.<p>Una vez que tenga el mensaje de error, y lo haya copiado y pegado a algún lado, es ALTAMENTE RECOMENDABLE que configure la depuración (Debug) a NINGUNO. Los mensajes de depuración pueden dar pistas a los hackers acerca de la configuración de su sitio y pueden afectar el desempeño.</p>';

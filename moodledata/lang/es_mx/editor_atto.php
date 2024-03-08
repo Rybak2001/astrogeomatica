@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_atto', language 'es_mx', version '3.10'.
+ * Strings for component 'editor_atto', language 'es_mx', version '4.2'.
  *
  * @package     editor_atto
  * @category    string
@@ -46,6 +46,7 @@ $string['privacy:metadata:database:atto_autosave:drafttext'] = 'El texto que fue
 $string['privacy:metadata:database:atto_autosave:timemodified'] = 'La hora en que fue modificado el contenido.';
 $string['privacy:metadata:database:atto_autosave:userid'] = 'La ID del usuario cuyos datos fueron guardados.';
 $string['recover'] = 'Recuperar';
+$string['richtexteditor'] = 'Editor de texto enriquecido';
 $string['settings'] = 'Configuraciones de barra_de_herramientas Atto';
 $string['subplugintype_atto'] = 'Plugin Atto';
 $string['subplugintype_atto_plural'] = 'Plugins Atto';

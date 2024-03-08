@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_roshnilite', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_roshnilite', language 'es_mx', version '4.2'.
  *
  * @package     theme_roshnilite
  * @category    string
@@ -47,21 +47,27 @@ $string['addressdefault'] = 'Coyoacán, México D.F.';
 $string['addressdesc'] = 'Escriba su dirección aquí';
 $string['addressfontawesomeicon'] = 'Escriba la marca del ícono del Font Awesome para el ícono de dirección';
 $string['addressfontawesomeicondesc'] = 'solamente copie y pegue &lt; i &gt;&lt; / i &gt; tag';
+$string['advancedsettings'] = 'Configuraciones avanzadas';
+$string['backgroundimage'] = 'Imagen del fondo';
+$string['backgroundimage_desc'] = 'La imagen a mostrar como un fondo del sitio. La imagen del fondo que usted suba aquí sobre-escribirá la imagen del fondo en sus archivos de pre-configuraciones del tema.';
+$string['brandcolor'] = 'Color de la marca';
+$string['brandcolor_desc'] = 'El color del acento.';
 $string['choosereadme'] = '<div class="clearfix">
 <div class="well">
-<h2>Roshnilite</h2>
+<h2>Roshni Lite</h2>
 <p><img class=img-polaroid src="roshnilite/pix/screenshot.jpg" /></p>
 </div>
 <div class="well">
 <h3>Padres</h3>
-<p>Este tema está basado en el tema Bootstrap, que fuera creado para Moodle 2.5, con la ayuda de:<br>
+<p>Este tema estuvo anteriormente basado en el tema Bootstrap, que fuera creado para Moodle 2.5, con la ayuda de:<br>
 Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>
 <p>La sección de configuración del tipo de letra (font) está basa en el tema Essential con la ayuda de:<br>
 Julian Ridden, Gareth J. Barnard, David Bezemer.</p>
 <h3>Créditos del tema</h3>
-<p>Autores: Dualcube<br>
+<p>Este tema ahoa ha sido re-desarrollado como un hijo del tema Boost. este tema es compatible con versiones de Moodle comenzando con 3.6.8 a la más reciente 3.8.1</p>
+<p>Autoress: DualCube<br>
 Contacto: admin@dualcube.com<br>
-Sitio web: <a href="https://dualcube.com/">https://dualcube.com/</a>
+Website: <a href="https://dualcube.com/">https://dualcube.com/</a>
 </p>
 </div></div>';
 $string['configtitle'] = 'Roshni Lite';
@@ -79,6 +85,24 @@ $string['faboutsiteimagedesc'] = 'Subir imagen para el primer bloque';
 $string['faboutsitenamedesc'] = 'Escriba el nombre del primer bloque en la sección de \'Acerca de\'.';
 $string['faboutsitetextdesc'] = 'Escriba el sub texto para el primer bloque';
 $string['faboutsiteurldesc'] = 'Escriba la URL destino para elprimer bloque';
+$string['facultycount'] = 'Número de Facultades';
+$string['facultycountdesc'] = 'Seleccionar, del menú desplegable, el número de bloques en la sección de bloque de Facultad. Usted puede añadir hasta 8 bloques.';
+$string['facultyfburl'] = 'Ingresar URL de Facebook de Facultad';
+$string['facultyfburldesc'] = 'Ingresar la URL del Facebook para el bloque de Facultad';
+$string['facultygoogleurl'] = 'Ingresar URL de Google para la Facultad';
+$string['facultygoogleurldesc'] = 'Ingresar la URL de Google para el bloque de Facultad';
+$string['facultyheading'] = 'Nuestras Facultades Superiores';
+$string['facultyimage'] = 'Ingresar URL de imagen de su Facultad';
+$string['facultyimagedesc'] = 'Ingresar URL de imagen de su Facultad';
+$string['facultylnkdnurl'] = 'Ingresar URL de Linkedln de su Facultad';
+$string['facultylnkdnurldesc'] = 'Ingresar la URL de Linkedln para el bloque de su Facultad';
+$string['facultyname'] = 'Ingresar nombre de Facultad';
+$string['facultynamedesc'] = 'Ingresar el texto para la descripción de la Facultad';
+$string['facultysettings'] = 'Configuraciones de Facultad';
+$string['facultysubtext'] = 'Ingresar la descripción de la Facultad';
+$string['facultysubtextdesc'] = 'Ingresar la descripción para el bloque de la Facultad';
+$string['facultytwitterurl'] = 'Ingresar URL de Twitter de Facultad';
+$string['facultytwitterurldesc'] = 'Ingresar la URL de Twitter para el bloque de la Facultad';
 $string['favicon'] = 'Favicon';
 $string['favicondesc'] = 'Por favor suba o escriba la URL del ícono que quiere mostrar en la barra de dirección del navegador, el favicon.';
 $string['five'] = '5';
@@ -98,12 +122,14 @@ $string['fontfilewofftwobody'] = 'Archivo de tipo de letra (font) WOFF2 del Cuer
 $string['fontfilewofftwoheading'] = 'Archivo de tipo de letra (font) WOFF2 del Encabezado';
 $string['fontnamebody'] = 'Elegir Nombre Font BODY';
 $string['fontnamebodydesc'] = 'Usted puede añadir el nombre del tipo de letra (font) para el cuerpo (BODY) de su sitio; por ejemplo el cuerpo del sitio se mostrará en este font.';
-$string['fontnamedefault'] = 'Raleway';
+$string['fontnamedefault'] = '';
 $string['fontnameheading'] = 'Elegir el nombre del tipo de letra (font) del Encabezado';
 $string['fontnameheadingdesc'] = 'Usted puede añadir el nombre del tipo de letra (font) para los encabezados en su sitio; por ejemplo, los encabezados del sitio se moestrarán en este tipo de letra.';
 $string['fontselect'] = 'SeleccionarTipos de letra (Fonts)';
 $string['fontselectdesc'] = 'Usted puede elgir entre los tipos de letra (fonts) \'Estándar\' \' añadir sus tipos de letra personalizados al seleccionar tipos de letra (fonts) \'Personalizado\'.';
 $string['fontsettings'] = 'Configuraciones del tipo de letra (Font)';
+$string['fontsize'] = 'Referencia de tamaño de Font';
+$string['fontsize_desc'] = 'Esto le permite configurar el tamaño predeterminado del font para este tema. No está recomendado configurar esto a más de 24 px ni menos de 13px porque se sabe que causan problemas de visualización con ciertos bloques.';
 $string['fonttypecustom'] = 'Tipo de letra Personalizado';
 $string['fonttypestandard'] = 'Tipo de letra Estándar';
 $string['four'] = '4';
@@ -137,6 +163,8 @@ $string['masonryurl'] = 'Escriba URL mampostería';
 $string['masonryurldesc'] = 'Escriba la URL destino para el bloque mampostería';
 $string['moodlemaincontentinfrontpage'] = 'Habilitar contenido página inicial de Moodle por defecto';
 $string['moodlemaincontentinfrontpagedesc'] = '';
+$string['navbardark'] = 'Usar una Barra de Navegación de estilo oscuro';
+$string['navbardarkdesc'] = 'Alterna entre claro y oscuro  los colores del texto y el fondo para la Barra de Navegación en la parte superior de la página.';
 $string['one'] = '1';
 $string['phone'] = 'Escribir Número de Teléfono';
 $string['phonedefault'] = '+91 33 64578322';
@@ -144,6 +172,15 @@ $string['phonedesc'] = 'Escribir aquí su contacto';
 $string['phonefontawesomeicon'] = 'Escriba la marca del ícono Awesome para el ícono del teléfono';
 $string['phonefontawesomeicondesc'] = 'Simplemente copie y pegue marca  < i >< / i >';
 $string['pluginname'] = 'Roshnilite Lite';
+$string['preset'] = 'Pre-configuración del tema';
+$string['preset_desc'] = 'Elegir una pre-configuración para cambiar ampliamente el aspecto del tema.';
+$string['presetfiles'] = 'Archivos adicionales de pre-configuración del tema';
+$string['presetfiles_desc'] = 'Los archivos de pre-configuración pueden ser usados para alterar dramáticamente la apariencia del tema. Vea <a href="https://docs.moodle.org/dev/Boost_Presets">Boost presets</a> para información sobre crear y compartir sus propios archivos de pre-configuración, y vea el  <a href="https://archive.moodle.net/boost">Repositorio de pre-configuraciones</a> para pre-configuraciones que otors han compartido.';
+$string['privacy:metadata'] = 'El tema Roshnilite no almacena ningún dato personal.';
+$string['rawscss'] = 'SCSS crudo';
+$string['rawscss_desc'] = 'Use este campo para proporcionar código CSS o SCSS que será inyectado al final de la hoja de estilo.';
+$string['rawscsspre'] = 'SCSS crudo inicial';
+$string['rawscsspre_desc'] = 'En este campo usted puede proporcionar código SCSS inicializador. será inyectado antes de todo lo demás. La mayor parte del tiempo usted usará esta configuración para definir variables.';
 $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';
 $string['saboutsiteimagedesc'] = 'Subir imagen para el segundo bloque';
@@ -151,6 +188,7 @@ $string['saboutsitenamedesc'] = 'Escriba el nombre del segundo bloque en la secc
 $string['saboutsitetextdesc'] = 'Escriba el sub texto para el segundo bloque';
 $string['saboutsiteurldesc'] = 'Escriba la URL destino para el segundo bloque';
 $string['seven'] = '7';
+$string['sitetitle'] = 'Título del sitio';
 $string['six'] = '6';
 $string['slideimage'] = 'Suba su imagen para la imagen';
 $string['slideimagedesc'] = 'Por favor suba o escriba la URL de la imagen para la imagen';
@@ -164,7 +202,7 @@ $string['slidertextdefault'] = '<h2>LA TAREA DEL</h2><h1> EDUCADOR MODERNO</h1><
 $string['slidertextdesc'] = 'Escribir un texto descriptivo para su imagen';
 $string['sliderurl'] = 'Enlace para imagen';
 $string['sliderurldefault'] = 'javascript:void(0);';
-$string['sliderurldesc'] = 'Escriba el destino de la enlace a imagen en la diapositiva';
+$string['sliderurldesc'] = 'Escriba solamente el nombre de la página; por ejemplo, si desea ir a la página del Tablero, solamente escriba \'my\' y le re-direccionará a la página del Tablero de su sitio Moodle.';
 $string['socialfontawesomeicon1'] = 'Escriba la marca del ícono del Font Awesome para el ícono social';
 $string['socialfontawesomeicon2'] = 'Escriba la marca del ícono del Font Awesome para el ícono social';
 $string['socialfontawesomeicon3'] = 'Escriba la marca del ícono del Font Awesome para el ícono social';

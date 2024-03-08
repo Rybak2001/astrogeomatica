@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_multimenu', language 'es_mx', version '3.10'.
+ * Strings for component 'datafield_multimenu', language 'es_mx', version '4.2'.
  *
  * @package     datafield_multimenu
  * @category    string
@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['fieldtypelabel'] = 'Campo de menú de selección múltiple';
-$string['pluginname'] = 'Multimenú';
-$string['privacy:metadata'] = 'El componente del campo Menú de selección múltiple no almacena ningún dato personal, usa tablas definidas en mod_data.';
+$string['fieldtypelabel'] = 'Lista de selección múltiple';
+$string['pluginname'] = 'Lista de selección múltiple';
+$string['privacy:metadata'] = 'El componente del campo Lista de selección múltiple no almacena ningún dato personal; usa tablas definidas en mod_data.';

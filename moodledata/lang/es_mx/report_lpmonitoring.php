@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_lpmonitoring', language 'es_mx', version '3.10'.
+ * Strings for component 'report_lpmonitoring', language 'es_mx', version '4.2'.
  *
  * @package     report_lpmonitoring
  * @category    string
@@ -29,6 +29,8 @@ $string['advancedfilter'] = 'Filtro avanzado';
 $string['apply'] = 'Aplicar';
 $string['atleastonecomment'] = 'Planes de aprendizaje con al menos un comentario';
 $string['atleasttwoplans'] = 'Usuarios con al menos dos planes de aprendizaje';
+$string['bordercolour'] = 'Color del borde';
+$string['bordercolourdesc'] = 'El color usado para el borde de la página';
 $string['bulkdefaultrating'] = 'Valoración masiva para todos los estudiantes para todas las competencias';
 $string['colorconfiguration'] = 'Colores de escala de competencias';
 $string['colorsforscale'] = 'Colores para la escala: {$a}';
@@ -38,7 +40,10 @@ $string['comments'] = 'Comentarios';
 $string['commentsedit'] = 'Ver o añadir comentarios';
 $string['commentseditshort'] = 'Ver/Añadir';
 $string['commentsnumber'] = '<strong>({$a})</strong> comentario(s)';
+$string['competencyreports'] = 'Reportes de competencia';
+$string['contd'] = 'cont\'d';
 $string['course'] = 'Curso';
+$string['dategenerated'] = 'Reporte generado: {$a}';
 $string['donotapplybulk'] = 'No valorar masivamente esta competencia';
 $string['emptytemplate'] = 'No se encontraron planes de aprendizaje';
 $string['errormanagetags'] = 'error al enviar el formato de edición de marcas';
@@ -58,17 +63,21 @@ $string['incms'] = 'en actividades';
 $string['incourses'] = 'en cursos';
 $string['invalidframework'] = 'Estructura de competencia inválida';
 $string['invalidscaleconfiguration'] = 'Configuración de escala inválida';
+$string['learningplan'] = 'Plan de aprendizaje';
 $string['learningplancompetencies'] = 'Competencias de plan de aprendizaje: {$a}';
 $string['learningplanswithtag'] = 'Planes de aprendizaje con esa marca';
 $string['linkedcms'] = 'Actividades enlazadas';
 $string['linkedusers'] = 'Usuarios enlazados';
+$string['moodleuserid'] = 'ID de usuario Moodle';
 $string['nextuser'] = 'Siguiente usuario';
+$string['nocompetenciesforusererror'] = 'No se encontraron competencias para ninguno de los planes asociados con el usuario con ID: {$a}.';
 $string['nocompetenciesintemplate'] = 'Ninguna competencia ha sido enlazada con la plantilla del plan de aprendizaje.';
 $string['nodataavailable'] = 'Sin datos disponibles';
 $string['nolearningplanavailable'] = 'Sin plan de aprendizaje disponible';
 $string['nomatchingrecords'] = 'No se encontraron registros coincidentes';
 $string['nopermissionsplanview'] = 'Lo lamento, pero Usted no tienen actualmente permisos para ver el plan de aprendizaje para {$a}';
 $string['nopermissionsusercompetencyview'] = 'Lo sentimos, pero Usted no tienen actualmente permisos para ver la competencia del usuario para {$a}';
+$string['noplansforusererror'] = 'No se encontraron planes para usuario con ID: {$a}.';
 $string['noscaleavailable'] = 'Sin escala disponible';
 $string['notemplateselected'] = 'Sin plantilla seleccionada';
 $string['noticebulkrating'] = 'La valoración de los estudiantes no será afectada, para forzar las valoraciones activa "Forzar valoración de los usuarios que ya fueron valorados"';
@@ -77,12 +86,14 @@ $string['notproficientcompetencies'] = 'Competencias no competentes';
 $string['notrated'] = 'No valorado';
 $string['notratedcompetencies'] = 'Competencias no valoradas';
 $string['nouserselected'] = 'Sin usuario seleccionado';
+$string['pdfreporttitle'] = '{$a} - Resumen de competencias en Moodle';
 $string['plansnumber'] = '<strong>({$a})</strong> plan(es) de aprendizaje';
 $string['pluginname'] = 'Monitoreo de planes de aprendizaje';
 $string['previoususer'] = 'Usuario anterior';
 $string['privacy:metadata'] = 'El plugin Monitoreo de planes de aprendizaje no almacena ninguna información personal.';
 $string['proficient'] = 'Competente';
 $string['proficientcompetencies'] = 'Competencias competentes';
+$string['profilefieldnotuniqueerror'] = 'Error ie get_userid_from_profile_field: encontrados {$a} resultados.';
 $string['rated'] = 'Valorada';
 $string['ratingnumber'] = '<strong>({$a})</strong>valoración';
 $string['resetallratings'] = 'Reiniciar todas las valoraciones';
@@ -102,6 +113,9 @@ $string['selectlearningplantemplate'] = 'elija una plantilla de plan de aprendiz
 $string['selecttag'] = 'Elegir una marca';
 $string['selectuser'] = 'Elija un usuario';
 $string['statslearningplan'] = 'Estadísticas para planes de aprendizaje';
+$string['studentid'] = 'ID del estudiante';
+$string['studentidmapping'] = 'MApeo de ID del estudiante';
+$string['studentidmappingdesc'] = 'Esta configuración hace 2 cosas: 1) salidas como el identificcador del etudiante en el PDF (por ejemplo ID del estudiante) y 2) le dice al servicio web report_lpmonitoring_get_user_pdf que esperar y prueba cuando se encuentra un usuario.';
 $string['successtaskmsg'] = 'Las evaluaciones serán ejecutadas pronto';
 $string['tabdetail'] = 'En los detalles';
 $string['tabreport'] = 'Reporte';
@@ -116,4 +130,7 @@ $string['totalnumberrating'] = 'Número total de valoraciones';
 $string['totalnumberratingincms'] = 'Número total de valoraciones en actividades';
 $string['totalnumberratingincourses'] = 'Número total de valoraciones en cursos';
 $string['totalusers'] = 'Usuarios totales';
+$string['userpdflogo'] = 'Logo PDf del usuario';
+$string['userpdflogodesc'] = 'El logo a usar en el PDF de reporte del usuario';
+$string['userreportpdf'] = 'PDF de reporte del usuario';
 $string['usersfromtemplate'] = 'Usuarios de esta plantilla';

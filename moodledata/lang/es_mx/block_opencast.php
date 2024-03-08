@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_opencast', language 'es_mx', version '3.10'.
+ * Strings for component 'block_opencast', language 'es_mx', version '4.2'.
  *
  * @package     block_opencast
  * @category    string
@@ -62,6 +62,7 @@ $string['deletegroupacldesc'] = 'Usted está a punto de eliminar el acceso a est
 $string['deleteworkflow'] = 'Flujograma a iniciar antes de que el evento sea eliminado';
 $string['deleteworkflowdesc'] = 'Antes de eliminar un video, un flujograma puede ser definido, el cual es llamado para retirar el evento de todos los canales de publicación.';
 $string['deleting'] = 'Va a ser eliminado';
+$string['directaccess_copy_no_link'] = 'Enlace de acceso directo inválido';
 $string['dodeleteaclgroup'] = 'Eliminar acceso a videos de este curso';
 $string['dodeleteevent'] = 'Eliminar video permanentemente';
 $string['duplicateworkflow'] = 'Flujograma para eventos duplicados';

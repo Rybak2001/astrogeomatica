@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'plagiarism_unicheck', language 'es_mx', version '3.10'.
+ * Strings for component 'plagiarism_unicheck', language 'es_mx', version '4.2'.
  *
  * @package     plagiarism_unicheck
  * @category    string
@@ -65,7 +65,7 @@ $string['debugging:filter:perpage'] = 'Por página';
 $string['debugging:filter:timesubmittedfrom'] = 'Enviado desde';
 $string['debugging:filter:timesubmittedto'] = 'Enviado a';
 $string['debugging:filter:title'] = 'Opciones de filtro';
-$string['debugging:statustable:checkcallback_url'] = 'Probar disponibilidad URL callback Servidor Moodle';
+$string['debugging:statustable:checkcallback_url'] = 'Probar disponibilidad URL Retrollamada Servidor Moodle';
 $string['debugging:statustable:checkcallback_urloauth'] = 'Sin verificación OAuth';
 $string['debugging:statustable:checklicense'] = 'Estatus de la licencia';
 $string['debugging:statustable:checkmoodle_adhoc'] = 'Tabla Ad-hoc Análisis Moodle';
@@ -110,7 +110,7 @@ $string['event:api_user_updated'] = 'Usuario actualizado';
 $string['event:archive_files_checked'] = 'Archivos archivados  revisados';
 $string['event:archive_files_unpacked'] = 'Archivos archivados y listos para revisión de similitud';
 $string['event:archive_files_uploaded'] = 'Archivos del archivo subidos';
-$string['event:callback_accepted'] = 'Callback (llamada de retorno) aceptada';
+$string['event:callback_accepted'] = 'Retrollamada aceptada';
 $string['event:error_handled'] = 'Error manejado';
 $string['event:file_similarity_check_completed'] = 'Revisión de similitud completada';
 $string['event:file_similarity_check_failed'] = 'Revisión de similitud falló';
@@ -171,7 +171,7 @@ $string['privacy:metadata:plagiarism_external_unicheck_api:userfirstname'] = 'No
 $string['privacy:metadata:plagiarism_external_unicheck_api:userid'] = 'ID del Usuario';
 $string['privacy:metadata:plagiarism_external_unicheck_api:userlastname'] = 'Apellido(s) del Usuario';
 $string['privacy:metadata:plagiarism_external_unicheck_api:userscope'] = 'Alcance de permisos de usuarios: profesor o estudiante';
-$string['privacy:metadata:plagiarism_unicheck_callback'] = 'Tabla con las callbacks (llamadas de retorno) del servicio Unicheck';
+$string['privacy:metadata:plagiarism_unicheck_callback'] = 'Tabla con las retrollamadas del servicio Unicheck';
 $string['privacy:metadata:plagiarism_unicheck_callback:event_id'] = 'ID de evento de Unicheck';
 $string['privacy:metadata:plagiarism_unicheck_callback:event_type'] = 'Tipo de evento de Unicheck';
 $string['privacy:metadata:plagiarism_unicheck_callback:request_body'] = 'El contenido de recurso brinda toda la información sobre el evento donde se guarda toda la información sobre el recurso de usuario.';
@@ -208,7 +208,7 @@ $string['scoreavailable'] = 'Este archivo ha sido analizado por Unicheck y el in
 $string['scorenotavailableyet'] = 'Este archivo todavía no ha sido analizado por Unicheck.';
 $string['sent_student_report'] = 'Notificar estudiantes vía Email';
 $string['sent_student_report_help'] = 'Los estudiantes recibirán la información sobre los resultados de comprobación por correo electrónico.';
-$string['setting:apicallbackoauthcheck'] = 'Revisar API callbacks usando OAuth';
+$string['setting:apicallbackoauthcheck'] = 'Revisar API retrollamadas usando OAuth';
 $string['setting:apicallbackoauthcheck_help'] = 'El resultado de Unicheck es firmado usando el protocolo OAuth de forma tal que el plugin pueda verificar la solicitud.';
 $string['show_student_report'] = 'Mostrar reportes de similitud a estudiante';
 $string['show_student_report_help'] = 'Los estudiantes solamente ven reportes de similitud  para sus propios envíos y no ven reportes de otros estudiantes.';

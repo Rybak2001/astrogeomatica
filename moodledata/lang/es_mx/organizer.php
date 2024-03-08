@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'organizer', language 'es_mx', version '3.10'.
+ * Strings for component 'organizer', language 'es_mx', version '4.2'.
  *
  * @package     organizer
  * @category    string
@@ -25,9 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['Error'] = 'Error';
-$string['Info'] = 'Información';
-$string['Warning'] = 'Advertencia';
 $string['absolutedeadline'] = 'Fin del registro';
 $string['absolutedeadline_help'] = 'Active esto para definir el tiempo después del cual ya no serán posibles más acciones del estudiante';
 $string['actionlink_delete'] = 'eliminar';
@@ -92,6 +89,16 @@ $string['appointment_reminder_teacher:subject'] = '[{$a->courseid}{$a->coursesho
 $string['appointmentcomments'] = 'Comentarios';
 $string['appointmentcomments_help'] = 'Aquí puede añadirse información adicional acerca de las citas';
 $string['appointmentdatetime'] = 'Fecha y hora';
+$string['appointmentdeleted_notify_student:fullmessage'] = '¡Hola {$a->receivername}!
+
+Su reservación en el curso {$a->courseshortname} en {$a->date} a las {$a->time} 2n {$a->location} fue eliminada.';
+$string['appointmentdeleted_notify_student:group:fullmessage'] = '¡Hola {$a->receivername}!
+
+Su reservación en el curso {$a->courseshortname} en {$a->date} a las {$a->time} 2n {$a->location} fue eliminada.';
+$string['appointmentdeleted_notify_student:group:smallmessage'] = 'Su reservación en {$a->date} a las {$a->time} en el organizador \'{$a->organizername}\' fue eliminada.';
+$string['appointmentdeleted_notify_student:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Reservación eliminada';
+$string['appointmentdeleted_notify_student:smallmessage'] = 'Su reservación en {$a->date} a las {$a->time} en el organizador \'{$a->organizername}\' fue eliminada.';
+$string['appointmentdeleted_notify_student:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Reservación eliminada';
 $string['assign'] = 'Asignar';
 $string['assign_notify_student:fullmessage'] = '¡ Hola {$a->receivername} !
 
@@ -153,6 +160,7 @@ $string['btn_add'] = 'Añadir nuevos espacios';
 $string['btn_assign'] = 'Asignar espacio';
 $string['btn_comment'] = 'Editar comentario';
 $string['btn_delete'] = 'Quitar espacios seleccionados';
+$string['btn_deleteappointment'] = 'Eliminar reservación';
 $string['btn_deletesingle'] = 'Quitar espacio-tiempo seleccionado';
 $string['btn_edit'] = 'Editar espacios seleccionados';
 $string['btn_editsingle'] = 'Editar espacio-tiempo seleccionado';
@@ -168,7 +176,7 @@ $string['btn_remind'] = 'Enviar recordatorio';
 $string['btn_reregister'] = 'Re-registrar';
 $string['btn_save'] = 'Guardar comentario';
 $string['btn_send'] = 'Enviar';
-$string['btn_sendall'] = 'enviar recordatorios a estudiantes sin citas';
+$string['btn_sendall'] = 'Enviar recordatorios a todos los participantes sin suficientes reservaciones';
 $string['btn_start'] = 'Iniciar';
 $string['btn_unqueue'] = 'Quitar de la cola';
 $string['btn_unregister'] = 'Des-registrar';
@@ -190,7 +198,7 @@ $string['configemailteachers_label'] = 'Mandar notificaciones por E-mail a profe
 $string['confighour'] = 'hora';
 $string['confighours'] = 'horas';
 $string['configintro'] = 'Los valores que Usted configure aquí definen los valores por defecto que son usados en el formato de configuración cuando usted crea un nuevo Organizador.';
-$string['configlocationlink'] = 'El enlace hacia un motor de búsqueda usado para mostrar el camino a la localización. Ponga $searchstring en la URL en donde vaya la consulta.';
+$string['configlocationlink'] = 'El enlace hacia un motor de búsqueda usado para mostrar el camino a la ubicación. Ponga $searchstring en la URL en donde vaya la consulta.';
 $string['configlocationslist'] = 'Ubicaciones para campo autocompletar';
 $string['configlocationslist_desc'] = '¡Cada ubicación debe ser insertada en una fila separada!';
 $string['configmaximumgrade'] = 'Configurar el valor por defecto seleccionado en el campo para calificación al crear un nuevo Organizador. Ésta es la máxima calificación que puede asignarse a un estudiante para su cita.';
@@ -229,6 +237,7 @@ $string['day_pl'] = 'días';
 $string['dbid'] = 'ID de BdeD';
 $string['defaultsingleslotprintfields'] = 'Campos de perfil de usuario permitidos para huecos para organizador único';
 $string['delete_organizer_grades'] = 'Eliminando calificaciones de todos los organizadores';
+$string['deleteappointmentheader'] = 'Eliminar esta reservación';
 $string['deleteheader'] = 'Eliminando los siguientes espacios';
 $string['deletekeep'] = 'La cita siguiente será cancelada. Los estudiantes registrados serán notificados y los lugares serán eliminados:';
 $string['deletenoslots'] = 'Sin espacios eliminables seleccionados';
@@ -310,11 +319,11 @@ $string['err_location'] = '¡Usted debe escribir un sitio!';
 $string['err_noslots'] = '¡No se seleccionaron espacios!';
 $string['err_posint'] = '¡Usted debe escribir un número entero positivo!';
 $string['err_startdate'] = '¡ La fecha de inicio no puede ser anterior a la fecha de hoy ({$a->now}) !';
-$string['eval_allow_new_appointments'] = 'Permitir re-programar-cita';
 $string['eval_attended'] = 'Asistida';
 $string['eval_feedback'] = 'Retroalimentación';
 $string['eval_grade'] = 'Calificación';
 $string['eval_header'] = 'Espacios de tiempo seleccionados';
+$string['eval_link'] = 'nueva cita';
 $string['eval_no_participants'] = 'Este espacio no tienen participantes';
 $string['eval_not_occured'] = 'Este espacio aun no ha ocurrido';
 $string['eval_notify_newappointment:student:fullmessage'] = '¡ Hola {$a->receivername} !
@@ -354,6 +363,7 @@ $string['event'] = 'Evento del calendario';
 $string['eventappointmentadded'] = 'El estudiante se registró a un espacio.';
 $string['eventappointmentassigned'] = 'La cita ha sido asignada por un profesor.';
 $string['eventappointmentcommented'] = 'La reservación ha sido comentada.';
+$string['eventappointmentdeleted'] = 'La reservación fue eliminada por el profesor.';
 $string['eventappointmentevaluated'] = 'La reservación ha sido evaulada.';
 $string['eventappointmentlistprinted'] = 'La reservación ha sido impresa.';
 $string['eventappointmentremindersent'] = 'Recordatorio de cita enviado.';
@@ -376,7 +386,7 @@ $string['eventtitle'] = '{$a->coursename} / {$a->organizername}: {$a->appwith}';
 $string['eventwith'] = 'con';
 $string['eventwithout'] = 'con';
 $string['exportsettings'] = 'Exportar configuraciones';
-$string['filtertable'] = '\'Buscando esta tabla\'';
+$string['filtertable'] = '\'Filtrando esta tabla\'';
 $string['filtertable_help'] = 'Buscar estos espacios para frases mutuas aquí.';
 $string['finalgrade'] = 'Este valor ha sido configurado en el Libro de calificaciones y no puede ser cambiado con el Organizador.';
 $string['font_large'] = 'grande';
@@ -398,6 +408,15 @@ $string['gap'] = 'Hueco';
 $string['gap_help'] = 'Define el hueco entre dos citas.';
 $string['grade'] = 'Calificación máxima';
 $string['grade_help'] = 'Define la máxima cantidad de puntos que pueden otorgarse para cualquier cita que pueda ser calificada.';
+$string['gradeaggregationmethod'] = 'Método de agregación';
+$string['gradeaggregationmethod_help'] = 'La agregación determina cómo son combinadas las calificaciones en una categoría, como por ejemplo:
+
+* Media de calificaciones - La suma de todas las calificaciones dividida por el número total de calificaciones
+* Calificación más baja
+* Calificación más alta
+* Natural - La suma de todos los valores de calificación';
+$string['grading_desc_grade'] = 'La calificación está activa.';
+$string['grading_desc_nograde'] = 'La calificación NO está activa.';
 $string['group_registration_notify:student:queue:group:fullmessage'] = '¡ Hola {$a->receivername} !
 
 Como parte del curso {$a->courseid} {$a->coursefullname}, {$a->sendername} ha añadido a su grupo {$a->groupname} a la lista de espera del espacio-tiempo en {$a->date} a las {$a->time} en {$a->location}.
@@ -461,7 +480,7 @@ $string['groupmodeslotgroups'] = 'Creación de grupo para espacio-tiempo vacío'
 $string['groupmodeslotgroupsappointment'] = 'Creación de grupo para espacio-tiempo reservado';
 $string['groupoptions'] = 'Configuraciones del grupo';
 $string['grouporganizer_desc_hasgroup'] = 'Este es un organizador grupal. Al hacer clic en el botón para Registrar lo registrará a Usted y a todos los miembros de su grupo {$a->groupname} a este espacio-tiempo. Todos los miembros del grupo pueden cambiar su registro y comentar el registro.';
-$string['grouporganizer_desc_nogroup'] = 'Este es  un organizador de grupo. Los estudiantes pueden registrar sus grupos a citas. Todos los miembros del grupo pueden cambiar y comentar el registro.';
+$string['grouporganizer_desc_novalidgroup'] = 'Este es un organizador de grupo. ¡Usted no es miembro de un grupo incluido en esta instancia de organizador!';
 $string['grouppicker'] = 'Selector de grupo';
 $string['groupwarning'] = '¡Revise más abajo las opciones de grupo!';
 $string['headerfooter'] = 'Imprimir encabezado/pie de página';
@@ -479,31 +498,52 @@ $string['img_title_pending'] = 'El espacio está pendiente de evaluación';
 $string['includetraineringroups'] = 'Incluir entrenador en el grupo';
 $string['includetraineringroups_help'] = 'Si Usted activa la casilla, no solamente los participantes del espacio-tiempo, sino también sus entrenadores estarán incluidos en los grupos.';
 $string['infobox_app_countdown'] = 'Tiempo restante para la cita: {$a->days} días, {$a->hours} horas, {$a->minutes} minutos, {$a->seconds} segundos';
+$string['infobox_app_inprogress'] = 'La reservación está en progreso';
 $string['infobox_app_occured'] = 'La cita ya ha ocurrido.';
+$string['infobox_appointmentsstatus_pl'] = '{$a->tooless} reservaciones están pendientes. Hay {$a->places} lugares libres en {$a->slots} espacio-tiempos próximos siguientes.';
+$string['infobox_appointmentsstatus_sg'] = '{$a->tooless} reservaciones están pendientes. Hay {$a->places} lugares libres en {$a->slots} espacio-tiempos próximos siguientes.';
+$string['infobox_counter_slotrows'] = 'espacio-tiempos mostrados.';
 $string['infobox_deadline_countdown'] = 'Tiempo restante para la fecha/hora límite: {$a->days} días, {$a->hours} horas, {$a->minutes} minutos, {$a->seconds} segundos';
 $string['infobox_deadline_passed'] = 'Ha pasado la fecha límite del registro. Usted ya no puede cambiar registros.';
 $string['infobox_deadline_passed_slot'] = 'xxx espacios no pudieron crearse porque la fecha límite para registro ha pasado.';
+$string['infobox_deadline_passed_slotphp'] = '{$a->slots} espacio-tiempos NO pudieron ser crados porque la fecha límite para registro ya ha pasado.';
 $string['infobox_deadlines_title'] = 'Fechas límite';
 $string['infobox_description_title'] = 'Descripción del organizador';
 $string['infobox_feedback_title'] = 'Retroalimentación';
 $string['infobox_group'] = 'Mi grupo: {$a->groupname}';
-$string['infobox_hidelegend'] = 'Ocultar letrero';
-$string['infobox_legend_title'] = 'Letrero';
+$string['infobox_link'] = 'Mostrar/Ocultar';
 $string['infobox_messages_title'] = 'Mensajes del sistema';
 $string['infobox_messaging_title'] = '';
+$string['infobox_minmax'] = 'Reservaciones por usuario: Mínimo {$a->min} - Máximo {$a->max}.';
 $string['infobox_mycomments_title'] = 'Mis comentarios';
 $string['infobox_myslot_noslot'] = 'Usted no está registrado a ningún espacio-tiempo  actualmente.';
-$string['infobox_myslot_title'] = 'Mi espacio';
+$string['infobox_myslot_title'] = 'Mis espacios';
+$string['infobox_myslot_userslots_left'] = 'Usted tiene {$a->left} reservaciones restantes.';
+$string['infobox_myslot_userslots_left_group'] = 'Su grupo tiene {$a->left} reservaciones restantes.';
+$string['infobox_myslot_userslots_max_reached'] = 'Usted ha reservado la cantidad máxima de {$a->max} espacio(s).';
+$string['infobox_myslot_userslots_max_reached_group'] = 'Su grupo ha reservado la cantidad máxima de {$a->max} espacio(s).';
+$string['infobox_myslot_userslots_min_not_reached'] = 'Usted NO ha reservado la cantidad requerida de {$a->min} espacio(s).';
+$string['infobox_myslot_userslots_min_not_reached_group'] = 'Su grupo NO ha reservado la cantidad requerida de {$a->min} espacio(s).';
+$string['infobox_myslot_userslots_min_reached'] = 'Usted ha reservado exitosamente la cantidad requerida de {$a->min} espacio(s).';
+$string['infobox_myslot_userslots_min_reached_group'] = 'Su grupo ha reservado exitosamente la cantidad requerida de {$a->min} espacio(s).';
+$string['infobox_myslot_userslots_status'] = '{$a->booked} de {$a->max} espacios reservados.';
 $string['infobox_organizer_expired'] = 'Este organizador caducó en {$a->date} a las {$a->time}';
 $string['infobox_organizer_expires'] = 'Este organizador caducará en {$a->date} a las {$a->time}.';
 $string['infobox_organizer_never_expires'] = 'Este organizador no caduca nunca';
-$string['infobox_showfreeslots'] = 'Espacios libres';
+$string['infobox_registrationstatistic_title'] = 'Resumen';
+$string['infobox_showallparticipants'] = 'Mostrar todos los participantes';
+$string['infobox_showfreeslots'] = 'Espacios libres solamente';
 $string['infobox_showhiddenslots'] = 'Espacios ocultos';
-$string['infobox_showlegend'] = 'Mostrar letrero';
-$string['infobox_showmyslotsonly'] = 'Mis espacios';
-$string['infobox_showregistrationsonly'] = 'Espacios reservados';
-$string['infobox_showslots'] = 'Espacios de tiempo pasado';
+$string['infobox_showmyslotsonly'] = 'Mis espacios solamente';
+$string['infobox_showregistrationsonly'] = 'Espacios reservados solamente';
+$string['infobox_showslots'] = 'También espacios de tiempo pasado';
 $string['infobox_slotoverview_title'] = 'Vista general de espacio-tiempo';
+$string['infobox_slotsviewoptions'] = 'Opciones especiales de filtros';
+$string['infobox_slotsviewoptions_help'] = '¡Estas opciones de filtros son combinadas por conjunciones AND!';
+$string['infobox_statistic_maxreached'] = '{$a->maxreached} de {$a->entries} participantes reservaron la cantidad máxima de {$a->max} espacio-tiempo(s).';
+$string['infobox_statistic_maxreached_group'] = '{$a->maxreached} de {$a->entries} grupos reservaron la cantidad máxima de {$a->max} espacio-tiempo(s).';
+$string['infobox_statistic_minreached'] = '{$a->minreached} de {$a->entries} participantes reservaron la cantidad requerida de {$a->min} espacio-tiempo(s).';
+$string['infobox_statistic_minreached_group'] = '{$a->minreached} de {$a->entries} grupos alcanzaron la cantidad requerida de {$a->min} espacio-tiempo(s).';
 $string['infobox_title'] = 'Caja-de-información';
 $string['introeditor_error'] = '¡Debe darse descripción del organizador!';
 $string['invalidgrouping'] = '¡Usted deb seleccionar un agrupamiento válido!';
@@ -513,58 +553,55 @@ $string['isgrouporganizer_help'] = 'Active esto si quiere que este organizador t
 "Usar grupos existentes": Un único groupmember reserva un espacio-tiempo para el grupo.
 "Creación de grupo por espacio-tiempo vacío": Un grupo de curso es creado por cada nuevo espacio-tiempo.
 "Creación de grupo por espacio-tiempo reservado": Un grupo de curso es creado por cada espacio-tiempo reservado.';
-$string['legend_anonymous'] = 'Espacio anónimo';
-$string['legend_comments'] = 'Comentarios del Estudiante/Profesor';
-$string['legend_due'] = 'Espacio-tiempo le llegó la hora';
-$string['legend_evaluated'] = 'Espacio evaluado';
-$string['legend_feedback'] = 'Retroalimentación del Profesor';
-$string['legend_group_applicant'] = 'Solicitante del grupo';
-$string['legend_halfanonymous'] = 'Solamente visibles participantes de sus propios espacio-tiempos';
-$string['legend_no_participants'] = 'El espacio no tiene participantes';
-$string['legend_not_occured'] = 'La cita todavía no ocurre';
-$string['legend_organizer_expired'] = 'Organizador caduco';
-$string['legend_past_deadline'] = 'Espacio-tiempo pasado de la fecha-hora límite';
-$string['legend_pending'] = 'Espacio pendiente de evaluación';
-$string['legend_section_details'] = 'Íconos de detalles de espacio-tiempo';
-$string['legend_section_status'] = 'Íconos de estatus';
 $string['location'] = 'Lugar';
 $string['location_help'] = 'El sitio en donde tiene lugar el espacio-tiempo.';
 $string['locationlink'] = 'URL del enlace de ubicación del sitio';
 $string['locationlink_help'] = 'Escriba aquí la dirección completa del sitio web al que Usted desea que el enlace de ubicación se refiera. Este sitio debería de contener por lo menos la información acerca de como llegar a la ubicación. Por favor escriba la dirección completa (incluyendo http://)';
 $string['locationlinkenable'] = 'autoenlace de información de ubicación';
-$string['locationmandatory'] = 'La entrada de Localización del espacio es obligatoria';
-$string['locationsettings'] = 'Configuraciones de localización del espacio';
+$string['locationmandatory'] = 'La entrada de Ubicación del espacio es obligatoria';
+$string['locationsettings'] = 'Configuraciones de ubicación del espacio';
 $string['maillink'] = 'El organizador está disponible <a href="{$a}">aquí</a>.';
 $string['maxparticipants'] = 'Máx. participantes';
 $string['maxparticipants_help'] = 'Define el número máximo de estudiantes que se pueden registrar a estos espacio-tiempos. en caso de un organizador de grupo, este número está siempre limitado a uno.';
 $string['message_autogenerated2'] = 'Mensaje auto-generado';
 $string['message_custommessage'] = 'Mensaje personalizado';
 $string['message_custommessage_help'] = 'Use este campopara escribir un texto personal dentro del mensaje auto-generado.';
+$string['message_error_action_notallowed'] = 'Esta acción ya no es posible. ¡Por favor navegue de regreso y refresque su navegador!';
 $string['message_error_groupsynchronization'] = '¡Falló la sincronización de slotgroup!';
 $string['message_error_noactionchosen'] = 'Por favor elija una acción antes de presionar el botón para Iniciar.';
 $string['message_error_slot_full_group'] = '¡ Este espacio de tiempo ya está tomado !';
 $string['message_error_slot_full_single'] = '¡Este espacio-tiempo no tiene lugares libres disponibles!';
 $string['message_error_unknown_unqueue'] = '¡Su entrada en lista de espera no pudo ser quitada! Error desconocido.';
 $string['message_error_unknown_unregister'] = '¡Su registro no pudo ser quitado! Error desconocido.';
-$string['message_info_available'] = 'Hay {$a->freeslots} espacio-tiempos vacíos disponibles para  {$a->notregistered} usuarios sin una cita.';
-$string['message_info_available_group'] = 'Hay {$a->freeslots} There are {$a->freeslots} empty slots available for {$a->notregistered} groups without any appointment. {$a->notregistered} grupos sin una cita.';
+$string['message_info_appointment_deleted'] = 'Su reservación fue eliminada. El participante ha sido notificado.';
+$string['message_info_appointment_deleted_group'] = 'La reservación de un grupo ha sido eliminada. Los participantes han sido notificados.';
+$string['message_info_appointment_not_deleted'] = 'Ocurrió un problema al eliminar la(s) reservación(es).';
+$string['message_info_queued'] = 'Usted fue añadido a una lista de espera de un espacio-tiempo.';
+$string['message_info_queued_group'] = 'Su grupo fue añadido a una lista de espera de un espacio-tiempo.';
+$string['message_info_registered'] = 'Usted fue exitosamente registrado para un espacio-tiempo.';
+$string['message_info_registered_group'] = 'Su grupo fue exitosamente registrado para un espacio-tiempo.';
 $string['message_info_reminders_sent_pl'] = '{$a->count} recordatorios fueron enviados.';
 $string['message_info_reminders_sent_sg'] = '{$a->count} recordatorio fue enviado.';
+$string['message_info_reregistered'] = 'Usted fue exitosamente re-registrado para un espacio-tiempo.';
+$string['message_info_reregistered_group'] = 'Su grupo fue exitosamente re-registrado para un espacio-tiempo.';
 $string['message_info_slots_added_pl'] = '{$a->count} nuevos espacios fueron añadidos';
 $string['message_info_slots_added_sg'] = '{$a->count} nuevo espacio-tiempo añadido.';
-$string['message_info_slots_deleted'] = 'Los siguientes espacio-tiempos fueron eliminados:<br/>
-{$a->deleted} espacio-tiempos eliminados.<br/>
-{$a->notified} usuarios han sido notificados.';
-$string['message_info_slots_deleted_group'] = 'Los siguientes espacio-tiempos fueron eliminados:<br/>
-{$a->deleted} espacio-tiempos eliminados.<br/>
-{$a->notified} usuarios han sido notificados.';
-$string['message_warning_available'] = '<span style="color:red;">Advertencia</span> Hay {$a->freeslots} espacios-tiempos vacíos disponibles para {$a->notregistered} usuarios sin ninguna cita.';
-$string['message_warning_available_group'] = '<span style="color:red;">Advertencia</span> Hay {$a->freeslots} espacios-tiempos vacíos disponibles para {$a->notregistered} grupos sin ninguna cita.';
+$string['message_info_slots_deleted_pl'] = '{$a->deleted} espacio-tiempos fueron eliminados. {$a->notified} participante(s) ha(n) sido notificado(s).';
+$string['message_info_slots_deleted_sg'] = 'Un espacio-tiempo fue eliminado. {$a->notified} participante(s) ha(n) sido notificado(s).';
+$string['message_info_slots_edited_pl'] = '{$a->count} espacio-tiempos fueron editado.';
+$string['message_info_slots_edited_sg'] = '{$a->count} espacio-tiempo fue editado.';
+$string['message_info_slots_evaluated_pl'] = '{$a->count} espacio-tiempos fueron calificados.';
+$string['message_info_slots_evaluated_sg'] = '{$a->count} espacio-tiempo fue calificado.';
+$string['message_info_unqueued'] = 'Usted fue quitado de una lista de espera de un espacio-tiempo.';
+$string['message_info_unqueued_group'] = 'Su grupo fue quitado de una lista de espera de un espacio-tiempo.';
+$string['message_info_unregistered'] = 'Usted se ha des-registrado exitosamente de un espacio-tiempo.';
+$string['message_info_unregistered_group'] = 'Su grupo se ha des-registrado exitosamente de un espacio-tiempo.';
 $string['message_warning_no_slots_added'] = '¡ No se añadieron nuevos espacis !';
 $string['message_warning_no_slots_selected'] = '¡ Usted debe primeramente seleccionar al menos un espacio !';
 $string['message_warning_no_visible_slots_selected'] = '¡Usted debe primeramente seleccionar al menos un espacio-tiempo VISIBLE!';
 $string['messageprovider:appointment_reminder_student'] = 'Recordatorio de cita de Organizador';
 $string['messageprovider:appointment_reminder_teacher'] = 'Recordatorio de cita de Organizador (Profesor)';
+$string['messageprovider:appointmentdeleted_notify_student'] = 'Reservación de organizador eliminada';
 $string['messageprovider:assign_notify_student'] = 'Tarea de organizador por profesor';
 $string['messageprovider:assign_notify_teacher'] = 'Tarea de organizador';
 $string['messageprovider:edit_notify_student'] = 'Cambios del organizador';
@@ -592,6 +629,7 @@ $string['modformwarningsingular'] = '¡ Este campo no puede ser editado porque y
 $string['modulename'] = 'Organizador';
 $string['modulename_help'] = 'Los organizadores habilitan que los profesores hagan citas con estudiantes al crear espacio-tiempos en los cuales los estudiantes se pueden registrar.';
 $string['modulenameplural'] = 'Organizadores';
+$string['monthlyview'] = 'Vista mensual';
 $string['multimember'] = '¡Los usuarios no pueden pertenecer a grupos múltiples dentro del mismo agrupamiento!';
 $string['multimemberspecific'] = '¡El usuario {$a->username} {$a->idnumber} está registrado en más d eun grupo! ({$a->groups})';
 $string['multipleappointmentenddate'] = 'Fecha de término';
@@ -674,6 +712,7 @@ $string['pageorientation'] = 'Orientación de la página';
 $string['participants'] = 'Participante(s)';
 $string['participants_help'] = 'Lista de  participantes que han reservado este espacio-tiempo.';
 $string['pasttimeslotstring'] = 'xxx espacios no pudieron ser creados porque la creación de espacios de tiempo pasado no está permitida.';
+$string['pasttimeslotstringphp'] = '{$a->slots} espacio-tiempos no pudieron ser creados porque la creación de espacio-tiempos pasados no está permitida.could not be created because the creation of past time slots is not allowed.';
 $string['pdf_notactive'] = 'inactivo';
 $string['pdfsettings'] = 'Configuraciones PDF';
 $string['places_inqueue'] = '{$a->inqueue} en lista de espera';
@@ -712,20 +751,17 @@ $string['privacy:metadata:useridqueue'] = 'Identificador del usuario que hizo es
 $string['queue'] = 'Colas de espera';
 $string['queue_help'] = 'Las colas de espera les permiten a los usuarios el que se registren para un espacio-tiempo aunque ya se haya alcanzado el número máximo de participantes.
      Los usuarios son añadidos a una cola de espera y asignados al espacio-tiempo (en orden) tan pronto como un espacio se vuelve disponible.';
-$string['queuebody'] = 'Su registro para un espacio-tiempo ha sido promovido del estatus "lista de espera" al estatus "reservado".';
-$string['queuesubject'] = 'Organizador Moodle: Promovido de la cola';
-$string['recipientname'] = '&lt;nombre del destinatario&gt;';
+$string['recipientname'] = '<nombre del destinatario>';
+$string['reg_not_occured'] = 'Este espacio-tiempo aun no ha ocurrido';
 $string['reg_status'] = 'Estatus del registro';
 $string['reg_status_not_registered'] = 'No registrado';
 $string['reg_status_organizer_expired'] = 'Organizador caducó';
 $string['reg_status_registered'] = 'Registrado';
 $string['reg_status_slot_attended'] = 'Asistido';
-$string['reg_status_slot_attended_reapp'] = 'Asistido, se permitió re-agendar';
 $string['reg_status_slot_available'] = 'Espacio disponible';
 $string['reg_status_slot_expired'] = 'Espacio caducado';
 $string['reg_status_slot_full'] = 'Espacio lleno';
 $string['reg_status_slot_not_attended'] = 'No asistió';
-$string['reg_status_slot_not_attended_reapp'] = 'No asistió, se permite re-agendar';
 $string['reg_status_slot_past_deadline'] = 'Espacio-tiempo pasado de la fecha-hora límite';
 $string['reg_status_slot_pending'] = 'Espacio pendiente de evaluación';
 $string['register_notify_teacher:queue:fullmessage'] = '¡Hola {$a->receivername}!
@@ -799,6 +835,9 @@ $string['register_notify_teacher:unregister:group:subject'] = '[{$a->courseid}{$
 $string['register_notify_teacher:unregister:smallmessage'] = 'El estudiante {$a->sendername} ha sido des-registrado del espacio-tiempo en {$a->date} a las {$a->time} en {$a->location}.';
 $string['register_notify_teacher:unregister:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Estudiante des-registrado';
 $string['register_promotion_student:fullmessage'] = 'Su registro para un espacio-tiempo ha sido promovido del estado de "lista de espera" al estado "reservado".';
+$string['register_promotion_student:group:fullmessage'] = 'El registro de su grupo para un espacio-tiempo ha sido promovido del estado de \'lista de espera\' al estado de \'reservado\'.';
+$string['register_promotion_student:group:smallmessage'] = 'El registro de su grupo para un espacio-tiempo ha sido promovido del estado de \'lista de espera\' al estado de \'reservado\'.';
+$string['register_promotion_student:group:subject'] = 'Moodle Organizer: Grupo promovido desde la cola';
 $string['register_promotion_student:smallmessage'] = 'Su registro para un espacio-tiempo ha sido promovido del estado de "lista de espera" al estado "reservado".';
 $string['register_promotion_student:subject'] = 'Organizador Moodle: Promovido desde la cola';
 $string['register_reminder_student:fullmessage'] = '¡ Hola {$a->receivername} !
@@ -815,21 +854,23 @@ Como parte del curso {$a->courseid} {$a->coursefullname}, su grupo {$a->groupnam
 {$a->custommessage}
 
 Sistema de Mensajería de Moodle';
-$string['register_reminder_student:group:smallmessage'] = 'Por favor registre a su grupo a un nuevo espacio-tiempo.';
+$string['register_reminder_student:group:smallmessage'] = 'Por favor registre a su grupo  a la cantidad solicitada de espacio-tiempo.';
 $string['register_reminder_student:group:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Recordatorio de registro';
-$string['register_reminder_student:smallmessage'] = 'Por favor regístere a un nuevo espacio-tiempo.';
+$string['register_reminder_student:smallmessage'] = 'Por favor regístrese a la cantidad solicitada de espacio-tiempo.';
 $string['register_reminder_student:subject'] = '[{$a->courseid}{$a->courseshortname} / {$a->organizername}] - Recordatorio de registro';
 $string['relative_deadline_before'] = 'antes de la cita';
 $string['relative_deadline_now'] = 'Iniciando ahora';
 $string['relativedeadline'] = 'Fecha límite relativa';
 $string['relativedeadline_help'] = 'Configura la fecha límite para la solicitud para un lapso de tiempo específico anticipadamente. Los estudiantes no podrán cambiar su registro o des-registrarse una vez que haya pasado esta fecha límite.';
-$string['remindall_desc'] = 'Mandar recordatorios a todos los estudiantes sin una cita';
+$string['remindall_desc'] = 'Mandar recordatorios a todos los participantes sin una cita';
+$string['remindallmultiple_desc'] = 'enviar recordatorios a todos los participantes sin suficientes reservaciones';
 $string['requiremodintro'] = 'Requerir descripción de actividad';
 $string['reset_organizer_all'] = 'Eliminando espacio-tiempos, citas y eventos relacionados';
 $string['resetorganizerall'] = 'Borrar todos los datos del organizador (horarios y citas)';
 $string['reviewsubmit'] = 'Revisar espacios de tiempo';
 $string['rewievslotsheader'] = 'Revisar espacios de tiempo';
 $string['search:activity'] = 'Organizador - información de actividad';
+$string['searchfilter'] = 'Buscar / Filtrar';
 $string['sec'] = 'seg';
 $string['sec_pl'] = 'segundos';
 $string['select'] = 'Espacio-tiempos seleccionados';
@@ -837,6 +878,7 @@ $string['select_all_slots'] = 'Selescionar todos los espacios visibles';
 $string['select_help'] = 'Seleccionar uno o más espacio-tiempos con los que quiere trabajar.';
 $string['selectedgrouplist'] = 'Grupos seleccionados';
 $string['selectedslots'] = 'Espacios seleccionados';
+$string['showmore'] = 'Mostrar más';
 $string['signature'] = 'Firma';
 $string['singleslotcommands'] = 'Acción de posición única';
 $string['singleslotcommands_help'] = 'Hacer clic en un botón de acción para trabajar directamente en un espacio-tiempo.';
@@ -866,6 +908,8 @@ $string['slotdeleted_notify_student:subject'] = '[{$a->courseid}{$a->courseshort
 $string['slotdetails'] = 'Detalles del espacio';
 $string['slotfrom'] = 'de';
 $string['slotlistempty'] = 'No se encontraron espacios.';
+$string['slotoptionstable'] = '\'Extendiendo esta tabla\'';
+$string['slotoptionstable_help'] = 'Mostrar espacio-tiempos pasados como espacio-tiempos ocultos también.';
 $string['slotperiodendtime'] = 'Fecha de fin';
 $string['slotperiodheader'] = 'Generar espacio-tiempos para rango de fechas';
 $string['slotperiodheader_help'] = 'Especificar la fecha de inicio y término al cual se aplicarán los tiempos diarios (sección inferior). especificar aquí también si es que el espacio-tiempo será visible para los estudiantes.';
@@ -895,6 +939,7 @@ $string['textsize'] = 'Tamaño_del_texto';
 $string['th_actions'] = 'Acción';
 $string['th_appdetails'] = 'Detalles';
 $string['th_attended'] = 'Att.';
+$string['th_bookings'] = 'Total de Reservaciones';
 $string['th_comments'] = 'Comentario del Participante';
 $string['th_datetime'] = 'Fecha y hora';
 $string['th_datetimedeadline'] = 'Fecha y hora';
@@ -921,6 +966,7 @@ $string['timetemplate'] = '%H:%M';
 $string['title_add'] = 'Añadir nuevos espacios para citas';
 $string['title_comment'] = 'Editar sus comentarios';
 $string['title_delete'] = 'Eliminar espacios de tiempo seleccionados';
+$string['title_delete_appointment'] = 'Eliminar reservación asignada';
 $string['title_edit'] = 'Editar espacios de tiempo seleccionados';
 $string['title_eval'] = 'Evaluar espacios de tiempo seleccionados';
 $string['title_print'] = 'Imprimir espacios';
@@ -934,12 +980,19 @@ $string['trainerid'] = 'Profesor';
 $string['trainerid_help'] = 'Seleccionar al profesor que Usted desea que dirija las citas';
 $string['unavailableslot'] = 'Este espacio está disponible desde';
 $string['unknown'] = 'Desconocido';
+$string['userslots_mingreatermax'] = 'El mínimo de espacio-tiempos es mayor que el máximo';
+$string['userslotsmax'] = 'Máximo de espacio-tiempos por participante o grupo';
+$string['userslotsmax_help'] = 'Cantidad de espacio-tiempos que un participante o grupo tiene permitido reservar.';
+$string['userslotsmin'] = 'Mínimo de espacio-tiempos por participante o grupo';
+$string['userslotsmin_help'] = 'Mínimo de espacio-tiempos que un participante o grupo tiene que reservar.';
 $string['visibility'] = 'Visibilidad de miembros - preconfiguración';
 $string['visibility_all'] = 'Visible';
 $string['visibility_anonymous'] = 'Anónimo(s)';
 $string['visibility_help'] = 'Definición de la opción para visibilidad por defecto con la cual se creará un nuevo espacio-tiempo.<br/><b>Anónimo:</b> Los miembros de este espacio-tiempo siempre son invisibles para todos.<br/><b>Visible:</b> Todos los miembros de este espacio-tiempo siempre son visibles para todos.<br/><b>Visible solamente para miembros del espacio-tiempo:</b> Solamente los miembros del espacio-tiempo pueden verse unos a otros.';
 $string['visibility_slot'] = 'Solamente visible para miembros del espacio';
 $string['visible'] = 'Espacio-tiempo visible';
+$string['waitinglists_desc_active'] = 'Listas de espera están activadas.';
+$string['waitinglists_desc_notactive'] = 'Listas de espera NO están activadas.';
 $string['warning_groupingid'] = 'Modo de grupo habilitado. Usted debe de seleccionar un agrupamiento válido.';
 $string['warninggroupmode'] = '¡Usted debe de habilitar el modo de grupo y seleccionar un agrupamiento para crear un organizador de grupo!';
 $string['warningtext1'] = '¡Los espacio-tiempos seleccionados contienen valores diferentes en este campo!';

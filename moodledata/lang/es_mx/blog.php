@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'blog', language 'es_mx', version '3.10'.
+ * Strings for component 'blog', language 'es_mx', version '4.2'.
  *
  * @package     blog
  * @category    string
@@ -43,6 +43,7 @@ $string['blogaboutthis'] = 'Blog acerca de este {$a->type}';
 $string['blogaboutthiscourse'] = 'Añadir una entrada en el blog de curso';
 $string['blogaboutthismodule'] = 'Añadir una entrada en este asunto {$a}';
 $string['blogadministration'] = 'Administración del blog';
+$string['blogattachment'] = 'Anexo del blog';
 $string['blogdeleteconfirm'] = '¿Eliminar la entrada del Blog \'{$a}\'?';
 $string['blogdisable'] = 'El blog está deshabilitado';
 $string['blogentries'] = 'Entradas del blog';

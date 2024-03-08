@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_mailtest', language 'es_mx', version '3.10'.
+ * Strings for component 'local_mailtest', language 'es_mx', version '4.2'.
  *
  * @package     local_mailtest
  * @category    string
@@ -27,6 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['alwaysshowlog'] = 'Mostrar siempre bitácora de comunicaciones con el servidor de Email, aunque no haya errores.';
 $string['credit'] = 'Michael Milette - <a href="http://www.tngconsulting.ca/">TNG Consulting Inc.</a>';
+$string['divertallemails'] = 'desviar todos los E-mails';
+$string['divertedto'] = 'Desviado a {$a}';
 $string['errorcommunications'] = 'Moodle no pudo comunicarse con su servidor de correo.</p><p><strong>Recomendación:</strong></p><p>Empiece por revisar sus<a href="{$a}" target="_blank">Configuraciones de correo SMTP</a>.</p><p>Si se ven correctas, revise su servidor SMTP o las configuraciones de su cortafuegos (firewall) para asegurarse de que estén configurados para aceptar conexiones SMTP de su servidor web de  Moodle y de su dirección Email de no-contestar (no-reply). Para más ayuda, vea la sección FAQ en la documentación.';
 $string['errorsend'] = 'El mensaje del Email de prueba no pudo entregarse al servidor SMTP. </p><p><strong>Recomendación:</strong></p><p>Revise sus <a href="{$a}" target="blank">Configuraciones del correo</a>. Para mayor información, vea la sección FAQ en la documentación.';
 $string['from'] = '{$a->type}: <strong>{$a->email}</strong> (<a href="{$a->url}">{$a->label}</a>)';
@@ -43,14 +45,15 @@ $string['message'] = '<p>Este es un mensaje de prueba. Por favor no le haga caso
 <li><strong>Versión Moodle:</strong> {$a->release}</li>
 <li><strong>Dirección IP del usuario :</strong> {$a->ip}</li>
 </ul>';
-$string['nologavailable'] = '<p>El escribir a bitácoras no está disponible al usar la función PHP mail() . Sin embargo, Usted puede encontrar bitácoras en su servidor. Los sitios más comunes en Linux incluyem:</p>
+$string['noemailever'] = '<p>Email en este sitio ha sido deshabilitado por medio de  <strong>$CFG-&gt;noemailever = true;</strong>.</p>';
+$string['nologavailable'] = '<p>El escribir a bitácoras no está disponible al usar la función PHP mail() . Sin embargo, Usted puede encontrar bitácoras en su servidor. Los sitios más comunes en Linux incluyen:</p>
 <ul>
 <li>/var/log/maillog</li>
 <li>/var/log/mail.log</li>
 <li>/var/adm/maillog</li>
 <li>/var/adm/syslog/mail.log</li>
 </ul>
-<p>De forma alterna, puede especificarse una localización alterna usando la configuración mail.log en php.ini.</p>';
+<p>De forma alterna, puede especificarse una ubicación alterna usando la configuración mail.log en php.ini.</p>';
 $string['notregistered'] = 'No registrado o no ingresado al sitio.';
 $string['phpmethod'] = 'Método PHP por defecto';
 $string['pluginname'] = 'eMail Test (Prueba de Correo)';
@@ -65,4 +68,5 @@ $string['sentmail'] = 'Moodle entregó exitosamente el mensaje de prueba al serv
 $string['sentmailphp'] = 'El mensaje de prueba de Moodle fue exitosamente aceptado por PHP Mail.';
 $string['smtpmethod'] = 'Hosts SMTP: {$a}';
 $string['toemail'] = 'Para dirección Email';
+$string['winsyslog'] = 'Bitácora de evento en Windows';
 $string['youremail'] = 'Su dirección Email de Usted';

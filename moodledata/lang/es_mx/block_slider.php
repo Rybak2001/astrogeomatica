@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_slider', language 'es_mx', version '3.10'.
+ * Strings for component 'block_slider', language 'es_mx', version '4.2'.
  *
  * @package     block_slider
  * @category    string
@@ -67,6 +67,7 @@ $string['pluginname'] = 'Deslizador (slider)';
 $string['privacy:metadata:block'] = 'El deslizador almacena algunos de sus datos dentro del subsistema d bloque.';
 $string['privacy:metadata:slide_desc'] = 'Descripción de imagen creada por el usuario';
 $string['privacy:metadata:slide_image'] = 'Imagen subida por el usuario';
+$string['privacy:metadata:slide_link'] = 'Enlace a página creado por usuario';
 $string['privacy:metadata:slide_title'] = 'Título de imagen creada por el usuario';
 $string['privacy:metadata:slider_slides'] = 'El bloque deslizador almacena la mayor parte de sus datos dentro de la tabla slider_slides de la base de datos.';
 $string['saved'] = 'Imagen guardada';

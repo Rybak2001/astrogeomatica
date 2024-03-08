@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mindmap', language 'es_mx', version '3.10'.
+ * Strings for component 'mindmap', language 'es_mx', version '4.2'.
  *
  * @package     mindmap
  * @category    string
@@ -33,6 +33,7 @@ $string['convertfromflash'] = 'Convertir a partir de Flash';
 $string['convertinfo'] = 'Por favor revise el contenido antes de guardar.';
 $string['convertjs'] = 'Esta es la nueva vista basada en JS del mapa mental. Usando los datos antiguos de XML de Flash.';
 $string['database'] = 'Base de datos';
+$string['deleteallmindmapscontent'] = 'Eliminar todo el contenido de MapasMentales';
 $string['editable'] = 'Permitirle a los estudiantes editar ester MapaMental';
 $string['ellipse'] = 'Elipse';
 $string['label'] = 'Etiqueta';

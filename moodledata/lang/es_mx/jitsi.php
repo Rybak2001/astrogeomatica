@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'jitsi', language 'es_mx', version '3.10'.
+ * Strings for component 'jitsi', language 'es_mx', version '4.2'.
  *
  * @package     jitsi
  * @category    string
@@ -25,7 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['URLguest'] = 'URL de invitado';
 $string['access'] = 'Acceder';
 $string['accessto'] = 'Acceder a {$a}. Ingrese el nombre que se mostrará.';
 $string['accesstotitle'] = 'Acceder a {$a}';
@@ -53,7 +52,6 @@ $string['entersession'] = 'Ingresar a la sesión';
 $string['finish'] = 'La sesión ha finalizado';
 $string['finishandreturn'] = 'Terminar y Regresar';
 $string['finishandreturnex'] = 'Regresar al curso al terminar la sesión';
-$string['fullscreen'] = 'Pantalla Completa';
 $string['guestform'] = 'Formato para ingresar invitado';
 $string['hasentered'] = 'ha entrado a su sesión Jitsi privada';
 $string['help'] = 'Ayuda';
@@ -72,9 +70,6 @@ $string['jitsi:record'] = 'Grabar sesión';
 $string['jitsi:sharedesktop'] = 'Compartir Escritorio';
 $string['jitsi:view'] = 'Ver Jitsi';
 $string['jitsiname'] = 'Nombre de sesión';
-$string['loginyoutube'] = 'Iniciar sesión con Youtube';
-$string['logoutyoutube'] = 'Cerrar sesión con Youtube';
-$string['mailprivacy'] = 'El correo electrónico sólo se utilizará para la opción Gravatar';
 $string['messageprovider:onprivatesession'] = 'Usuario en sesión privada';
 $string['minpretime'] = 'Minutos para acceder';
 $string['modulename'] = 'Jitsi';
@@ -111,16 +106,12 @@ $string['securitybutton'] = 'Botón de Seguridad';
 $string['securitybuttonex'] = 'Mostrar Botón de Seguridad en sesión';
 $string['separator'] = 'separador';
 $string['separatorex'] = 'definir el campo separador para el nombre de la sesión';
-$string['server'] = 'Servidor Jitsi';
-$string['serverexpl'] = 'URL del servidor Jitsi';
 $string['sessionnamefields'] = 'Campos del nombre de sesión';
 $string['sessionnamefieldsex'] = 'Campos que definen el nombre se sesión';
 $string['showavatars'] = 'Mostrar avatar en Jitsi';
 $string['showavatarsex'] = 'Mostrar el avatar del usuario en Jitsi. Si el usuario no tiene imagen del perfil, esto cargar´la imagen predeterminada del perfil desde Moodle en lugar de las iniciales que Jitsi mostrará cuando no se configura ninguna imagen.';
 $string['simultaneouscameras'] = 'Cámaras simultáneas';
 $string['simultaneouscamerasex'] = 'Número de cámaras simultáneas';
-$string['startstream'] = 'Iniciar transmisión';
-$string['stopstream'] = 'Deterner transmisión';
 $string['streamingandrecording'] = 'Transmisión y grabación';
 $string['streamingbutton'] = 'Transmisión de YouTube';
 $string['streamingbuttonex'] = 'Mostrar opción de transmisión (sólo para moderadores)';

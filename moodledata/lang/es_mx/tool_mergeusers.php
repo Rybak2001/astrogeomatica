@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_mergeusers', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_mergeusers', language 'es_mx', version '4.2'.
  *
  * @package     tool_mergeusers
  * @category    string
@@ -53,6 +53,7 @@ $string['excluded_exceptions_desc'] = 'La experiencia en este tema sugiere
    para excluir todas esas tablas del proceso de fusión (recomendado). <br>
    Si lo prefiere, puede excluir cualquiera de esas tablas e incluirlas en el
    proceso de fusión (no recomendado).';
+$string['exportlogs'] = 'Exportar bitácoras como CSV';
 $string['finishtime'] = 'Terminó de unir a las {$a}';
 $string['form_description'] = '<p>Usted puede buscar usuarios aquí si no conoce el nombre_de_usuario o el número_ID  del usuario. De lo contrario, Usted puede expander el formato para ingresar esa información directamente. Por favor, vea la ayuda en los campos para más información</p>';
 $string['form_header'] = 'Encontrar usuarios a juntar';
@@ -69,6 +70,7 @@ $string['logid'] = 'Para mayores referencias, estos resultados están guardados 
 $string['logko'] = 'Ocurrió algun error:';
 $string['loglist'] = 'Todos estos registros son de acciones de unión realizadas, mostrando si salieron OK:';
 $string['logok'] = 'Aquí están las consultas que han sido enviadas a la BasedeDatos:';
+$string['mergedbyuseridonlog'] = 'Unido por';
 $string['mergeusers'] = 'Unir cuentas de usuarios';
 $string['mergeusers:mergeusers'] = 'Juntar cuentas de usuario';
 $string['mergeusers:view'] = 'Unir Cuentas de Usuarios';
@@ -86,6 +88,7 @@ $string['newuserid'] = 'ID de usuario a conservar';
 $string['newuseridonlog'] = 'Usuario conservado';
 $string['no_saveselection'] = 'Usted no seleccionó ni al usuario viejo ni al nuevo.';
 $string['nologs'] = 'Todavía no hay bitácoras de uniones aun. ¡ Bien por tí !';
+$string['nomergedby'] = 'No grabado';
 $string['olduser'] = 'Usuario a quitar';
 $string['olduserid'] = 'ID de usuario a ser removida';
 $string['olduseridonlog'] = 'Usuario removido';

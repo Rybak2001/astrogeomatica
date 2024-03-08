@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_textarea', language 'es_mx', version '3.10'.
+ * Strings for component 'datafield_textarea', language 'es_mx', version '4.2'.
  *
  * @package     datafield_textarea
  * @category    string
@@ -25,8 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['fieldtypelabel'] = 'Campo de área-de-texto';
+$string['fieldtypelabel'] = 'Área de texto';
 $string['maxbytes'] = 'Tamaño máximo del archivo incrustado (bytes)';
 $string['maxbytes_desc'] = 'Si se pone en cero será ilimitado por defecto';
 $string['pluginname'] = 'Área de texto';
-$string['privacy:metadata'] = 'El componente del campo Área_de_texto no almacena ningún dato personal, usa tablas definidas en mod_data.';
+$string['privacy:metadata'] = 'El componente del campo Área de texto no almacena ningún dato personal, usa tablas definidas en mod_data.';
+$string['sample'] = '<p>Esta es un área de texto. Le permite a los usuarios escribir texto en forma larga que abarca varias líneas.</p><p>Usted puede elegir el tamaño de sus áreas de texto en filas y columnas.</p><p>El texto en una área de texto puede ser formateado, por ejemplo en <b>negritas</b>, y también puede incluir  <a href="#">hypervínculos</a> o imágenes.</p>';

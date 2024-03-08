@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'h5pactivity', language 'es_mx', version '3.10'.
+ * Strings for component 'h5pactivity', language 'es_mx', version '4.2'.
  *
  * @package     h5pactivity
  * @category    string
@@ -30,6 +30,7 @@ $string['answer_checked'] = 'Respuesta revisada';
 $string['answer_correct'] = 'Su respuesta es correcta';
 $string['answer_fail'] = 'Respuesta incorrecta';
 $string['answer_incorrect'] = 'Su respuesta es incorrecta';
+$string['answer_noanswer'] = 'Ninguna';
 $string['answer_pass'] = 'Respuesta correcta';
 $string['answer_text'] = 'Texto de respuesta';
 $string['answer_unchecked'] = 'Respuesta no revisada';
@@ -62,6 +63,8 @@ $string['displayembed'] = 'Incrustar botón';
 $string['displayexport'] = 'Permitir descargar';
 $string['dnduploadh5pactivity'] = 'Añadir una actividad H5P';
 $string['duration'] = 'Duración';
+$string['enablesavestate'] = 'Guardar estado';
+$string['enablesavestate_help'] = 'Guardar automáticamente el estado actual del usuario. el usuario puede regresar después y continuar en donde se quedó.';
 $string['enabletracking'] = 'Habilitar seguimiento de intentos';
 $string['false'] = 'Falso';
 $string['grade_average_attempt'] = 'Calificación promedio';
@@ -74,6 +77,7 @@ $string['grade_grademethod_help'] = 'Al usar calificación con puntos, los sigui
 * Primer intento (todos los demás intentos son ignorados)
 * Último intento (todos los demás intentos son ignorados)
 * No usar intentos para calificar (deshabilitar cálculo de calificación)';
+$string['grade_h5p'] = 'Calificación: {$a}';
 $string['grade_highest_attempt'] = 'Calificación más alta';
 $string['grade_last_attempt'] = 'Último intento';
 $string['grade_manual'] = 'No calcular una calificación';
@@ -91,11 +95,14 @@ $string['modulename'] = 'H5P';
 $string['modulename_help'] = 'H5P es una abreviatura para Paquete HTML5 - contenido interactivo como por ejemplo presentaciones, video y otros multimedios, preguntas, exámenes, juegos y más. La actividad H5P permite que H5P sea subido y añadido a un curso.
 
 Cualquier intento de pregunta es calificado automáticamente, y la calificación es guardada en el Libro de calificaciones.';
+$string['modulename_link'] = 'mod/h5pactivity/view';
 $string['modulenameplural'] = 'H5P';
 $string['myattempts'] = 'Mis intentos';
+$string['newsubmissions'] = 'H5P enviado';
 $string['no_compatible_track'] = 'Esta interacción ({$a}) no proporciona información de seguimiento o el seguimiento
         proporcionado no es compatible con la versión actual de la actividad.';
 $string['noparticipants'] = 'Sin participantes para mostrar';
+$string['opencontentbank'] = '<a href="{$a}" target="_blank">Acceder al archivo H5P file en el banco de contenido</a> (abre en una ventana nueva).';
 $string['outcome'] = 'Resultado';
 $string['package'] = 'Archivo del paquete';
 $string['package_help'] = 'El archivo del paquete es un archivo h5p que contiene contenido H5P interactivo.';
@@ -110,6 +117,7 @@ $string['privacy:metadata:timemodified'] = 'La última hora cuando el elemento f
 $string['privacy:metadata:userid'] = 'La ID del usuario que accedió a la actividad H5P';
 $string['privacy:metadata:xapi_track'] = 'Información de monitoreo del intento';
 $string['privacy:metadata:xapi_track_results'] = 'Información de monitoreo de resultados del intento';
+$string['privacy:metadata:xapisummary'] = 'La actividad H5P contiene información relacionada con el estado de contenido de xAPI almacenado por el usuario.';
 $string['report_viewed'] = 'Reporte visto';
 $string['result_compound'] = 'Puntaje parcial combinado';
 $string['result_fill-in'] = 'Texto a rellenar';
@@ -125,8 +133,11 @@ $string['review_my_attempts'] = 'Ver mis intentos';
 $string['review_none'] = 'Los participantes no pueden revisar sus propios intentos';
 $string['review_on_completion'] = 'Los participantes pueden revisar sus propios intentos';
 $string['review_user_attempts'] = 'Ver intentos del usuario ({$a})';
+$string['savestatefreq'] = 'Frecuencia de guardado del estado';
+$string['savestatefreq_help'] = 'Que tan frecuente (en segundos) es guardado el estado actual del usuario.';
 $string['score'] = 'Puntaje';
 $string['score_out_of'] = '{$a->rawscore} de {$a->maxscore}';
+$string['search:activity'] = 'H5P - información de actividad';
 $string['startdate'] = 'Fecha de inicio';
 $string['statement_received'] = 'Declaración xAPI recibida';
 $string['totalscore'] = 'Puntaje total';

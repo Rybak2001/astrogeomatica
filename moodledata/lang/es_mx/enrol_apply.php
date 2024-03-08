@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_apply', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_apply', language 'es_mx', version '4.2'.
  *
  * @package     enrol_apply
  * @category    string
@@ -65,11 +65,30 @@ $string['defaultperiod_desc'] = 'Tiempo de duración por el que  la inscripción
 $string['defaultperiod_help'] = 'Tiempo de duración por el que  la inscripción es válida, iniciando con el momento en el que el usuario es inscrito. Si se deshabilita, la duración de la inscripción será ilimitada por defecto.';
 $string['editdescription'] = 'Descripción del área_de_texto';
 $string['enrolname'] = 'Confirmación de inscripción a curso';
+$string['enrolperiod'] = 'Duración de inscripción';
+$string['enrolperiod_desc'] = 'Tiempo predeterminado de que la inscripción es válida. Si se configura a cero, la duración de la inscripción será ilimitada de forma predeterminada.';
+$string['enrolperiod_help'] = 'Tiempo que la inscripción es válida, comenzando el momento que el usuario se inscribe a si mismo. Si se deshabilita, la duración de la inscripción será ilimitada.';
 $string['enrolusers'] = 'Inscribir usuarios';
 $string['expiredaction'] = 'Acción de expiración de inscripción';
 $string['expiredaction_help'] = 'Seleccionar acción a realizar cuando expire la inscripción del usuario. Por favor tenga en cuenta que algunos datos del usuario y algunas configuraciones son purgadas del curso durante la des-inscripción (baja) al curso.';
 $string['expiry_desc'] = '';
 $string['expiry_heading'] = 'Configuraciones de expiración';
+$string['expirymessageenrolledbody'] = 'Estimado/a {$a->user},
+
+Esta es una notificación de que su inscripción en el curso \'{$a->course}\' está a punto de expirar en {$a->timeend}.
+
+Si necesita ayuda, póngase en contacto con {$a->enroller}.';
+$string['expirymessageenrolledsubject'] = 'Notificación de expiración de inscripción aplicada';
+$string['expirymessageenrollerbody'] = 'Aplicar inscripción en el curso \'{$a->course}\' expirará dentro de {$a->threshold} para los siguientes usuarios:
+
+    {$a->users}
+
+Para extenderles su inscripción, vaya a {$a->extendurl}';
+$string['expirymessageenrollersubject'] = 'Aplicar notificación de expiración de inscripción';
+$string['expirynotifyall'] = 'Profesor y usuario inscrito';
+$string['expirynotifyenroller'] = 'Profesor solamente';
+$string['group'] = 'Asignación de grupo';
+$string['group_help'] = 'Usted puede asignar ninguno o múltiples grupos';
 $string['mailtoteacher_suject'] = '¡Nueva solicitud de Inscripción!';
 $string['maxenrolled'] = 'Máximos usuarios inscritos';
 $string['maxenrolled_help'] = 'Especificar el número máximo de usuarios que se pueden auto-inscribir, 0 significa sin límite.';
@@ -80,6 +99,7 @@ $string['maxenrolledreached_right'] = 'ya se ha alcanzado';
 $string['messageprovider:application'] = 'Notificaciones de solicitudes de inscripción a curso';
 $string['messageprovider:cancelation'] = 'Notificaciones de cancelación de solicitudes de inscripción a curso';
 $string['messageprovider:confirmation'] = 'Notificaciones de confirmación de solicitudes de inscripción a curso';
+$string['messageprovider:expiry_notification'] = 'Aplicar notificaciones de expiración de inscripción';
 $string['messageprovider:waitinglist'] = 'Notificaciones de diferimiento de solicitudes de inscripción a curso';
 $string['newapplicationnotification'] = 'Hay una nueva solicitud de inscripción a curso que espera su revisión.';
 $string['newenrols'] = 'Permitir solicitud de inscripción a nuevo curso';
@@ -90,9 +110,12 @@ $string['notifycoursebased'] = 'Nueva notificación de solicitud de inscripción
 $string['notifycoursebased_desc'] = 'Valor por defecto para nuevas instancias. Notificar a todos los que tengan la capacidad de \'Gestionar aplicar inscripción\' para el curso correspondiente (por ejemplo, profesores y mánagers)';
 $string['notifyglobal'] = 'Nueva notificación de solicitud de inscripción (global, por ejemplo administradores y mánagers globales)';
 $string['notifyglobal_desc'] = 'Definir quien es notificado acerca de nuevas solicitudes de inscripción para cualquier curso.';
+$string['opt_commentaryzone'] = 'Campo de comentario';
+$string['opt_commentaryzone_help'] = 'Si -> Habilitar el campo de comentario en el formato para inscripción';
 $string['pluginname'] = 'Confirmación de inscripción a curso';
 $string['pluginname_desc'] = 'Con este plugin, los usuarios pueden solicitar ser inscritos en un curso. Un profesor o administrador del sitio tiene entonces que aceptarlos antes de que el usuario sea inscrito.';
 $string['privacy:metadata'] = 'El plugin de confirmación de inscripción no almacena ningún dato personal.';
+$string['sendexpirynotificationstask'] = 'Trabajo de enviar notificaciones de expiración de inscripción';
 $string['show_extra_user_profile'] = 'Mostrar campos extra  de perfil de usuario en pantalla  para inscripción';
 $string['show_standard_user_profile'] = 'Mostrar campos estándar  de perfil de usuario en pantalla  para inscripción';
 $string['status'] = 'Permitir confirmación de inscripción a curso';

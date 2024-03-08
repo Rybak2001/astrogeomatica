@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quizaccess_seb', language 'es_mx', version '3.10'.
+ * Strings for component 'quizaccess_seb', language 'es_mx', version '4.2'.
  *
  * @package     quizaccess_seb
  * @category    string
@@ -33,6 +33,7 @@ $string['cachedef_configkey'] = 'Caché clave config SEB';
 $string['cachedef_quizsettings'] = 'Caché configuraciones examen SEB';
 $string['cantdelete'] = 'La plantilla no puede ser eliminada porque ha sido usada para uno o más exámenes.';
 $string['cantedit'] = 'La plantilla no puede ser editada porque ha sido usada para uno o más exámenes.';
+$string['checkingaccess'] = 'Comprobando acceso a Safe Exam Browser...';
 $string['clientrequiresseb'] = 'Este examen ha sido configurado para usar Safe Exam Browser con configuración del cliente.';
 $string['confirmtemplateremovalquestion'] = '¿Está seguro de querer eliminar esta plantilla?';
 $string['confirmtemplateremovaltitle'] = '¿Confirmar remoción de plantilla?';
@@ -45,6 +46,8 @@ $string['downloadsebconfig'] = 'Descargar archivo de configuración de SEB';
 $string['duplicatetemplate'] = 'Ya existe una plantilla con el mismo nombre.';
 $string['edittemplate'] = 'Editar plantilla';
 $string['enabled'] = 'Habilitado';
+$string['error:ws:nokeyprovided'] = 'Debe proporcionarse al menos una clave de Safe Exam Browser.';
+$string['error:ws:quiznotexists'] = 'No se encontró examen que coincida con ID de módulo de curso: {$a}';
 $string['event:accessprevented'] = 'El acceso al examen fue impedido';
 $string['event:templatecreated'] = 'Plantilla SEB fue creada';
 $string['event:templatedeleted'] = 'Plantilla SEB fue eliminada';
@@ -59,7 +62,7 @@ $string['fileparsefailed'] = 'El archivo subido no pudo ser guardado como un arc
 $string['httplinkbutton'] = 'Descargar configuración';
 $string['invalid_browser_key'] = 'Clave de navegador SEB inválida';
 $string['invalid_config_key'] = 'Clave de configuración de SEB inválida';
-$string['invalidkeys'] = 'La clave de configuración o la clave de examen del navegador no pudieron ser validadas. Por favor asegúrese de que esté usando el Safe Exam Browser con el archivo de configuración correcto.';
+$string['invalidkeys'] = 'Las claves del Safe Exam Browser  no pudieron ser validadas. Compruebe que esté usando Safe Exam Browser con el archivo de configuración correcto.';
 $string['invalidtemplate'] = 'Plantilla de configuración de SEB inválida';
 $string['manage_templates'] = 'Platillas de Safe Exam Browser';
 $string['managetemplates'] = 'Gestionar plantillas';
@@ -175,6 +178,7 @@ $string['seb_use_upload'] = 'Si - Subir mi propia configuración';
 $string['seb_userconfirmquit'] = 'Pedirle al usuario que confirme para abandonar';
 $string['seb_userconfirmquit_help'] = 'Si se habilita, los usuarios tienen que confirmar para abandonar Safe Exam Browser cuando sea detectado un enlace para abandonar.';
 $string['sebdownloadbutton'] = 'Descargar Safe Exam Browser';
+$string['sebkeysvalidationfailed'] = 'Error al validar claves SEB';
 $string['seblinkbutton'] = 'Invocar Safe Exam Browser';
 $string['sebrequired'] = 'Este examen ha sido configurado de forma tal que los estudiantes solamente pueden intentarlo si usan Safe Exam Browser.';
 $string['setting:autoreconfigureseb'] = 'Auto configurar SEB';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_fundamental', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_fundamental', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_fundamental
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configtypename'] = 'Habilitar subtipo Fundamental';
 $string['family'] = 'pedagógico';
+$string['fundamental'] = 'Fundamental';
 $string['fundamental:addinstance'] = 'Puede añadir una instancia';
 $string['fundamental:view'] = 'Puede ver el contenido';
 $string['fundamentaltext'] = 'Fundamental';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_simple_clock', language 'es_mx', version '3.10'.
+ * Strings for component 'block_simple_clock', language 'es_mx', version '4.2'.
  *
  * @package     block_simple_clock
  * @category    string
@@ -30,9 +30,12 @@ $string['before_noon'] = 'am';
 $string['clock_separator'] = ':';
 $string['clock_title_default'] = 'Reloj';
 $string['config_clock_visibility'] = 'Relojes visibles';
-$string['config_clock_visibility_help'] = '<p>Con esta configuración, Usted puede controlar si el Usuario verá:</p> <ul>
-
-<li>hora del servidor,</li> <li>hora de su propia máquina, o</li> <li>ambas.</li> </ul>';
+$string['config_clock_visibility_help'] = '<p>Con esta configuración, Usted puede controlar si el Usuario verá:</p>
+ <ul>
+     <li>hora del servidor,</li>
+     <li>hora de su propia máquina, o</li>
+      <li>ambas.</li>
+</ul>';
 $string['config_day'] = 'Mostrar nombre del día';
 $string['config_day_help'] = '<p>Al mostrar el nombre del día se añade información adicional para estudiantes que pudiesen estar en una zona horaria con un día más temprano o más tarde</p>';
 $string['config_header'] = 'Mostrar encabezado';

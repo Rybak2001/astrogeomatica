@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_self', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_self', language 'es_mx', version '4.2'.
  *
  * @package     enrol_self
  * @category    string
@@ -82,7 +82,7 @@ $string['maxenrolled'] = 'Número máximo de usuarios inscritos';
 $string['maxenrolled_help'] = 'Especifique el número máximo de usuarios que pueden auto-inscribirse. El 0 significa sin límite.';
 $string['maxenrolledreached'] = 'Se alcanzó el número máximo de usuarios permitidos para auto-inscripción.';
 $string['messageprovider:expiry_notification'] = 'Notificaciones de caducidad de auto inscripción';
-$string['newenrols'] = 'Permitir nuevas inscripciones';
+$string['newenrols'] = 'Permitir nuevas auto-inscripciones';
 $string['newenrols_desc'] = 'Les permite a los usuarios auto-inscribirse a nuevos cursos por defecto.';
 $string['newenrols_help'] = 'Esta configuración determina si un usuario puede inscribirse a este curso.';
 $string['nopassword'] = 'No se necesita clave para inscribirse';
@@ -90,6 +90,7 @@ $string['password'] = 'Clave de inscripción (¿# de grupo?)';
 $string['password_help'] = '<p>Una clave de acceso permite que el acceso al curso esté limitado sólo a aquellos que conocen dicha clave. </p> <p>Si el campo se deja en blanco, cualquier usuario puede inscribirse en el curso.</p> <p>Si se especifica una clave de acceso, cualquier usuario que intenta inscribirse en el curso deberá proporcionar la clave. Tenga en cuenta que un usuario sólo tiene que proporcionar la clave de acceso UNA VEZ, cuando se inscribe en el curso.</p>';
 $string['passwordinvalid'] = 'Contraseña de inscripción incorrecta, pruebe de nuevo';
 $string['passwordinvalidhint'] = 'La contraseña de inscripción es incorrecta. Por favor, inténtelo de nuevo<br /> (Una pista: comienza con \'{$a}\')';
+$string['passwordmatchesgroupkey'] = 'La clave de inscripción coincide con una clave existente de inscripción a grupo';
 $string['pluginname'] = 'Auto-inscripción';
 $string['pluginname_desc'] = '<p>El plugin para auto-inscripción permite a los usuarios elegir los cursos en los que quieren participar.</p> <p>Los cursos pueden estar protegidos por una contraseña de acceso.</p> <p> Internamente, la inscripción se realiza a través del plugin para la inscripción manual, que debe estar habilitado en el mismo curso.</p>';
 $string['privacy:metadata'] = 'El plugin de Auto inscripción no almacena ningún dato personal.';
@@ -107,9 +108,9 @@ $string['sendcoursewelcomemessage_help'] = 'Cuando un usuario se inscribe a sí 
 $string['sendexpirynotificationstask'] = 'Trabajo de enviar notificaciones de caducidad de auto-inscripción';
 $string['showhint'] = 'Mostrar pista';
 $string['showhint_desc'] = 'Mostrar la primera letra de la contraseña de acceso de invitados.';
-$string['status'] = 'Permitir inscripciones existentes';
+$string['status'] = 'Conservar activas auto-inscripciones actuales';
 $string['status_desc'] = 'Permitir que los usuarios puedan auto-inscribirse en nuevos cursos.';
-$string['status_help'] = 'Si se habilita al mismo tiempo que se deshabilite el \'Permitir nuevas inscripciones\', solamente los usuarios que se hubieran auto-inscrito previamente pueden acceder al curso. Si se deshabilita, este método de inscripción estaría efectivamente deshabilitado, porque todas las auto-inscripciones existentes estarán suspendidas y los usuarios nuevos no podrán auto-inscribirse.';
+$string['status_help'] = 'Si se configura a No, cualquier participante existente que se haya inscrito él mismo dentro del curso ya NO tendrá acceso.';
 $string['syncenrolmentstask'] = 'Trabajo de sincronizar auto-inscripciones';
 $string['unenrol'] = 'Des-inscribir (dar de baja) usuario';
 $string['unenrolselfconfirm'] = '¿Está seguro que quiere des-inscribirse (darse de baja)  del curso "{$a}"?';

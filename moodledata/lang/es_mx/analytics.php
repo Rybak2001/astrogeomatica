@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'analytics', language 'es_mx', version '3.10'.
+ * Strings for component 'analytics', language 'es_mx', version '4.2'.
  *
  * @package     analytics
  * @category    string
@@ -34,6 +34,8 @@ $string['analyticslogstore'] = 'Almacén de bitácora usado para analítica';
 $string['analyticslogstore_help'] = 'El almacén de bitácora que será usado por la API de analítica para leer la actividad de los usuarios';
 $string['analyticssettings'] = 'Configuraciones de Analítica';
 $string['analyticssiteinfo'] = 'Información del sitio';
+$string['calclifetime'] = 'Conservar cálculos analíticos por';
+$string['configlcalclifetime'] = 'Esto especifica el lapso de tiempo que Usted quiere conservar los datos de los cálculos - esto no eliminará las predicciones, pero elimina los datos usados para generar las predicciones. Usando la opción aquí predeterminada es mejor, ya que mantiene el uso de disco bajo control; sin embargo, si Usted está usando tablas de cálculo para otros propósitos Usted podría desear aumentar este valor.';
 $string['defaultpredictionsprocessor'] = 'Procesador de predicciones por defecto';
 $string['defaultpredictoroption'] = 'Procesador por defecto ({$a})';
 $string['defaulttimesplittingmethods'] = 'Intervalos predeterminados de análisis para evaluación del modelo';
@@ -95,11 +97,11 @@ $string['modeinstructionblendedhybrid'] = 'Mezclado/blended o híbrido';
 $string['modeinstructionfacetoface'] = 'Cara a Cara';
 $string['modeinstructionfullyonline'] = 'Completamente en línea';
 $string['modeloutputdir'] = 'Directorio de salida del modelo';
-$string['modeloutputdirinfo'] = 'Directorio en donde los procesadores de predicción guardan toda la información de la evaluación. Útil para depuración y desarrollo.';
 $string['modeloutputdirwithdefaultinfo'] = 'Directorio donde los procesadores de predicciones almacenan toda la información sobre evaluación. Útil para investigación y depuración. Si estuviera vacío, entonces {$a} será usado como predeterminado';
 $string['modeltimelimit'] = 'Límite de tiempo de análisis por modelo';
 $string['modeltimelimitinfo'] = 'Esta configuración limita el tiempo que cada modelo gasta analizando los contenidos del sitio.';
 $string['neutral'] = 'Neutral';
+$string['neverdelete'] = 'Nunca eliminar cálculos';
 $string['nocourses'] = 'Sin cursos para analizar';
 $string['nodata'] = 'Sin datos para analizar';
 $string['noevaluationbasedassumptions'] = 'Los modelos basados en suposiciones no pueden ser evaluados.';
@@ -120,6 +122,10 @@ $string['percentonline'] = 'Porcentaje en línea';
 $string['percentonline_help'] = 'Si su institución ofrece cursos mezclados (blended) o híbridos, ¿qué porcentaje del trabajo del estudiante es realizado en línea en Moodle? Ingrese un número entre 0 y 100.';
 $string['predictionsprocessor'] = 'Procesador de predicciones';
 $string['predictionsprocessor_help'] = 'Un procesador de predicciones es el \'backend\' de aprendizaje de máquina que procesa los conjuntos_de_datos generados al calcular los indicadores y objetivos de los modelos. El que está especificado aquí será el valor por defecto.';
+$string['privacy:metadata:analytics:analyticsmodels'] = 'Modelos Analíticos';
+$string['privacy:metadata:analytics:analyticsmodels:usermodified'] = 'El usuario que modificó el modelo';
+$string['privacy:metadata:analytics:analyticsmodelslog'] = 'La bitácora usada para Modelos Analíticos';
+$string['privacy:metadata:analytics:analyticsmodelslog:usermodified'] = 'El usuario que modificó la bitácora';
 $string['privacy:metadata:analytics:indicatorcalc'] = 'Cálculos del indicador';
 $string['privacy:metadata:analytics:indicatorcalc:contextid'] = 'El contexto';
 $string['privacy:metadata:analytics:indicatorcalc:endtime'] = 'Hora de terminación de cálculos';
@@ -149,6 +155,7 @@ $string['processingsitecontents'] = 'Procesando contenidos del sitio';
 $string['successfullyanalysed'] = 'Analizado exitosamente';
 $string['timesplittingmethod'] = 'Intervalo de análisis';
 $string['timesplittingmethod_help'] = 'El intervalo de análisis define cuando el sistema calculará predicciones y la porción de las bitácoras de actividad que serán consideradas para esas  predicciones. Por ejemplo, la duración del curso puede ser dividida en partes, con una  predicción generada al final de cada parte.';
+$string['timesplittingmethod_link'] = 'Time_splitting_methods';
 $string['typeinstitution'] = 'Tipo de institución';
 $string['typeinstitutionacademic'] = 'Académica';
 $string['typeinstitutionngo'] = 'Organización No Gubernamental (ONG)';

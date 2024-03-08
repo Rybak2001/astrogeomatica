@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'certificateelement_image', language 'es_mx', version '3.10'.
+ * Strings for component 'certificateelement_image', language 'es_mx', version '4.2'.
  *
  * @package     certificateelement_image
  * @category    string

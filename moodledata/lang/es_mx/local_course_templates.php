@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_course_templates', language 'es_mx', version '3.10'.
+ * Strings for component 'local_course_templates', language 'es_mx', version '4.2'.
  *
  * @package     local_course_templates
  * @category    string
@@ -25,17 +25,21 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addcourse'] = 'Añadir Curso';
+$string['addcourse'] = 'Añadir Curso desde plantilla';
+$string['back'] = 'Regresar';
 $string['choosecategory'] = 'Por favor seleccione su categoría de curso';
 $string['choosetemplate'] = 'Por favor seleccione su plantilla';
+$string['choosetemplatebanner'] = 'Elegir plantilla';
 $string['continue'] = 'Continuar';
 $string['course_templates:edit'] = 'Editar plantilla del curso';
 $string['course_templates:view'] = 'Ver plantilla del curso';
 $string['coursename'] = 'Nombre del curso';
 $string['courseshortname'] = 'Nombre corto del curso';
+$string['createcoursefromtemplate'] = 'Crear un Curso desde plantilla';
 $string['createfailed'] = 'Hubo un problema. ¿Usó un nombre de curso que ya existía? Por favor inténtelo nuevamente.';
 $string['createsuccess'] = 'Crear un curso nuevo exitosamente';
 $string['datetime'] = 'Fecha y hora';
+$string['definesettingsbanner'] = 'Definir Configuraciones';
 $string['enddate'] = 'Fecha de fin';
 $string['endtime'] = 'Hora de fin';
 $string['hiddencategories'] = 'Categorías ocultas';
@@ -45,8 +49,12 @@ $string['jumpto'] = 'saltar a';
 $string['jumpto_coursepage'] = 'Página de curso';
 $string['jumpto_coursesettingspage'] = 'Página de configuraciones del curso';
 $string['location'] = 'Lugar';
+$string['namecategory'] = 'Categoría';
+$string['namecategorydescription'] = 'Por favor elija la categoría que quiere usar para las plantillas del curso.';
 $string['parametererror'] = 'Error de parámetro';
 $string['pluginname'] = 'Plantillas del curso';
+$string['privacy:metadata'] = 'El plugin de plantillas de curso no almacena ningún dato personal.';
+$string['selectcategorybanner'] = 'Seleccionar categoría';
 $string['startdate'] = 'Fecha de inicio';
 $string['starttime'] = 'Hora de inicio';
 $string['useastemplate'] = 'Usar como plantilla';

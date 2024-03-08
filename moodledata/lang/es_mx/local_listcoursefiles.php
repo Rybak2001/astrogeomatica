@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_listcoursefiles', language 'es_mx', version '3.10'.
+ * Strings for component 'local_listcoursefiles', language 'es_mx', version '4.2'.
  *
  * @package     local_listcoursefiles
  * @category    string
@@ -40,7 +40,6 @@ $string['filetype_audio'] = 'Audio';
 $string['filetype_document'] = 'Documento';
 $string['filetype_image'] = 'Imagen';
 $string['filetype_other'] = 'Otro';
-$string['filetype_text'] = 'Texto';
 $string['filetype_video'] = 'Video';
 $string['filter_components'] = 'Componente de filtro';
 $string['filter_filetype'] = 'Tipo de archivo de filtro';

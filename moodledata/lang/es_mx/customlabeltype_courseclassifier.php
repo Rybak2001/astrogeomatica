@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_courseclassifier', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_courseclassifier', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_courseclassifier
  * @category    string
@@ -26,10 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configtypename'] = 'Habilitar subtipo Clasificador de Curso';
+$string['courseclassification'] = 'Clasificación del curso';
 $string['courseclassifier'] = 'Clasificador de curso';
 $string['courseclassifier:addinstance'] = 'Puede añadir una instancia';
 $string['courseclassifier:view'] = 'Puede ver el contenido';
 $string['family'] = 'especial';
+$string['filters'] = 'Filtros del curso';
 $string['fonction'] = 'Función';
 $string['level0'] = 'Clasificación nivel 1';
 $string['level1'] = 'Clasificación nivel 2';
@@ -38,7 +40,6 @@ $string['people'] = 'Personas';
 $string['pluginname'] = 'Elemento de curso : Clasificador de curso';
 $string['showpeople'] = 'Mostrar el selector público';
 $string['status'] = 'Estado del curso';
-$string['statut'] = 'Estado del curso';
 $string['tablecaption'] = 'Subtítulo de la tabla';
 $string['typename'] = 'Clasificador de curso';
 $string['uselevels'] = 'Niveles a utilizar';

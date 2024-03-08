@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_oauth2', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_oauth2', language 'es_mx', version '4.2'.
  *
  * @package     tool_oauth2
  * @category    string
@@ -25,9 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['acceptrisk'] = 'Yo entiendo que deshabilitar la verificación de Email puede ser un problema de seguridad.';
+$string['acceptrisk_help'] = 'Deshabilitar la verificación de Email puede potencialmente permitirle a un usuario autentificarse como otro usuario.';
 $string['authconfirm'] = 'Esta acción le otorgará acceso API permanente a Moodle para la cuenta autenticada. Esto está dirigido para usarse como una cuenta del sistema para gestionar archivos propiedad de Moodle.';
 $string['authconnected'] = 'La cuenta del sistema ahora está conectada para acceso fuera-de-línea';
 $string['authnotconnected'] = 'La cuenta del sistema no fue conectada para acceso fuera-de-línea';
+$string['clever_service'] = 'Inteligente';
 $string['configured'] = 'Configurado';
 $string['configuredstatus'] = 'Configurado';
 $string['connectsystemaccount'] = 'Conectar a una cuenta del sistema';
@@ -39,7 +42,9 @@ $string['createnewgoogleissuer'] = 'Crear nuevo servicio Google';
 $string['createnewissuer'] = 'Crear nuevo servicio personalizado';
 $string['createnewmicrosoftissuer'] = 'Crear nuevo servicio Microsoft';
 $string['createnewnextcloudissuer'] = 'Crear nuevo servicio Nextcloud';
+$string['createnewservice'] = 'Crear nuevo servicio:';
 $string['createnewuserfieldmapping'] = 'Crear mapeo de campo de usuario nuevo para emisor "{$a}"';
+$string['custom_service'] = 'Personalizado';
 $string['deleteconfirm'] = '¿Está Usted seguro de querer eliminar al proveedor de identidad "{$a}"? Cualquier plugin que dependa de este emisor dejará de funcionar.';
 $string['deleteendpointconfirm'] = '¿Está Usted seguro de querer eliminar el endpoint "{$a->endpoint}" para emisor "{$a->issuer}"? Cualquier plugin que dependa de este endpoint dejará de funcionar.';
 $string['deleteuserfieldmappingconfirm'] = '¿Está Usted seguro de querer eliminar el mapeo de campo del usuario para el emisor  "{$a}"?';
@@ -57,8 +62,12 @@ $string['endpointname_help'] = 'Clave usada para buscar este endpoint. Debe de t
 $string['endpointsforissuer'] = 'Endpoints para emisor: {$a}';
 $string['endpointurl'] = 'URL';
 $string['endpointurl_help'] = 'URL para este endpoint. Debe usar protocolo https://';
+$string['facebook_service'] = 'Facebook';
+$string['google_service'] = 'Google';
+$string['imsobv2p1_service'] = 'OpenBadges (InsigniasAbiertas)';
 $string['issueralloweddomains'] = 'Dominios de ingreso';
 $string['issueralloweddomains_help'] = 'Si se pone, esta configuración es una lista separada por comas de dominios a donde estarán restringidos los ingresos  al usar este proveedor.';
+$string['issueralloweddomains_link'] = 'OAuth_2_login_domains';
 $string['issuerbaseurl'] = 'URL de base del servicio';
 $string['issuerbaseurl_help'] = 'URL base a usar para acceder al servicio.';
 $string['issuerclientid'] = 'ID del cliente';
@@ -70,6 +79,8 @@ $string['issuerdisabled'] = 'Emisor de identidad deshabilitado';
 $string['issuerenabled'] = 'Emisor de identidad habilitado';
 $string['issuerimage'] = 'URL del logo';
 $string['issuerimage_help'] = 'Una URL de la imagen usada para mostrar un logo para este emisor. Puede ser mostrada en la página para ingreso.';
+$string['issuerloginpagename'] = 'Nombre mostrado en la página para ingresar';
+$string['issuerloginpagename_help'] = 'Si se especifica, este nombre será usado en la página para ingresar al sitio en lugar del nombre del servicio.';
 $string['issuerloginparams'] = 'Parámetros adicionales incluidos en una solicitud de ingreso.';
 $string['issuerloginparams_help'] = 'Algunos sistemas requieren parámetros adicionales para que una solicitud de ingreso lea el perfil básico del usuario.';
 $string['issuerloginparamsoffline'] = 'Parámetros adicionales incluidos en una solicitud de ingreso para acceso fuera-de-línea.';
@@ -81,13 +92,27 @@ $string['issuerloginscopesoffline_help'] = 'Cada sistema OAuth define una manera
 $string['issuername'] = 'Nombre';
 $string['issuername_help'] = 'Nombre del emisor de identidad. Puede mostrarse en la página para ingresar.';
 $string['issuerrequireconfirmation'] = 'Requerir verificación Email';
-$string['issuerrequireconfirmation_help'] = 'Requerir que todos los usuarios verifiquen su dirección de Email antes de que puedan ingresar con OAuth. Esto aplica a cuentas recien creadas como parte del proceso para ingresar, o cuando una centa Moodle existente está conectada a un ingreso OAuth via direcciones Email coincidentes.';
+$string['issuerrequireconfirmation_help'] = 'Requerir que todos los usuarios verifiquen su dirección de Email antes de que puedan iniciar sesión con OAuth. Esto aplica a cuentas recién creadas como parte del proceso para ingresar, o cuando una cuenta Moodle existente está conectada a un ingreso OAuth vía direcciones Email coincidentes.';
 $string['issuers'] = 'Emisores';
 $string['issuersetup'] = 'Instrucciones detalladas sobre la configuración de los servicios comunes de OAuth 2';
 $string['issuersetuptype'] = 'Instrucciones detalladas acerca de la configuración del proveedor {$a} OAuth 2';
 $string['issuershowonloginpage'] = 'Mostrar en página para ingresar';
-$string['issuershowonloginpage_help'] = 'Si se ha habilitado el plugin de AutenticaciónOAuth 2, este emisor para ingreso será enlistado en la página para ingreso para permitirles a los usuarios el que ingresen con cuentas de este emisor.';
+$string['issuershowonloginpage_help'] = 'Si se ha habilitado el plugin de AutenticaciónOAuth 2, este emisor para ingreso será enlistado en la página para ingreso para permitirles a los usuarios el que inicien sesión con cuentas de este emisor.';
+$string['issuersservicesallow'] = 'Permitir servicios';
+$string['issuersservicesnotallow'] = 'NO permitir servicios';
+$string['issuerusedforinternal'] = 'Servicios internos';
+$string['issuerusedforlogin'] = 'Ingreso';
+$string['issuerusein'] = 'Este servicio será utilizado';
+$string['issuerusein_help'] = 'Los servicios OAuth 2 pueden ser usados para servicios internos, en la página para ingresar, o ambos, si fuera necesario';
+$string['issueruseineverywhere'] = 'Página para ingresar y servicios internos';
+$string['issueruseininternalonly'] = 'Solamente servicios internos';
+$string['issueruseinloginonly'] = 'Solamente página para ingresar';
+$string['linkedin_service'] = 'LinkedIn';
+$string['logindisplay'] = 'Mostrar en página para ingresar como';
 $string['loginissuer'] = 'Permitir ingreso';
+$string['microsoft_service'] = 'Microsoft';
+$string['moodlenet_service'] = 'MoodleNet';
+$string['nextcloud_service'] = 'Nextcloud';
 $string['notconfigured'] = 'No configurado';
 $string['notdiscovered'] = 'El descubrimiento del servicio no fue exitoso';
 $string['notloginissuer'] = 'No permitir ingreso';

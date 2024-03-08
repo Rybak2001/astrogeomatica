@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'folder', language 'es_mx', version '3.10'.
+ * Strings for component 'folder', language 'es_mx', version '4.2'.
  *
  * @package     folder
  * @category    string
@@ -45,10 +45,12 @@ $string['indicator:cognitivedepth'] = 'Carpeta cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en un recurso Carpeta.';
 $string['indicator:cognitivedepthdef'] = 'Carpeta cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por los recursos de Carpeta durante este intervalo de análisis (Niveles = Sin Ver, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Carpeta social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en un recurso Carpeta.';
 $string['indicator:socialbreadthdef'] = 'Carpeta social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por los recursos de Carpeta durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['maxsizetodownload'] = 'Tamaño máximo (MB) de carpeta a descargar';
 $string['maxsizetodownload_help'] = 'El tamaño máximo de la carpeta que puede descargarse como un archivo ZIP. Si se configura a cero el tamaño de la carpeta es ilimitado.';
 $string['modulename'] = 'Carpeta (folder)';
@@ -58,6 +60,7 @@ Una carpeta puede emplearse
 
 * Para una serie de archivos sobre un tópico/tema, por ejemplo una colección de trabajos de fin de curso en formato PDF
 * Para proporcionar un espacio compartido para subir materiales a los profesores en la página del curso (haciendo invisible la carpeta a los alumnos de forma que únicamente la puedan ver los profesores).';
+$string['modulename_link'] = 'mod/feedback/view';
 $string['modulenameplural'] = 'Carpetas (folders)';
 $string['newfoldercontent'] = 'Nuevo contenido de carpeta';
 $string['noautocompletioninline'] = 'No pueden seleccionarse simultáneamente "Finalización automática al ver la actividad" y la opción de "Mostrar en línea"';

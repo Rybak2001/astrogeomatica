@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_radiobutton', language 'es_mx', version '3.10'.
+ * Strings for component 'datafield_radiobutton', language 'es_mx', version '4.2'.
  *
  * @package     datafield_radiobutton
  * @category    string
@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['fieldtypelabel'] = 'Campo de botón de selección';
-$string['pluginname'] = 'Botón de selección';
-$string['privacy:metadata'] = 'El componente de campo de Botón de selección no almacena ningún dato personal. Usa tablas definidas en mod_data.';
+$string['fieldtypelabel'] = 'Botones de opción';
+$string['pluginname'] = 'Botones de opción';
+$string['privacy:metadata'] = 'El componente de campo de Botones de opción no almacena ningún dato personal; usa tablas definidas en mod_data.';

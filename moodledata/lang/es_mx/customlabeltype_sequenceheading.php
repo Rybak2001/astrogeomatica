@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_sequenceheading', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_sequenceheading', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_sequenceheading
  * @category    string
@@ -32,6 +32,7 @@ $string['heading'] = 'Título de Secuencia';
 $string['image'] = 'Imagen chiquita título';
 $string['imageposition'] = 'Posición de imagen';
 $string['imageurl'] = 'URL de imagen alterna';
+$string['imagewidth'] = 'Ancho de imagen';
 $string['left'] = 'Izquierda';
 $string['middle'] = 'Enmedio';
 $string['none'] = 'No visible';
@@ -41,6 +42,16 @@ $string['right'] = 'Derecha';
 $string['sequenceheading:addinstance'] = 'Puede añadir una instancia';
 $string['sequenceheading:view'] = 'Puede ver el contenido';
 $string['shortdesc'] = 'Descripción breve';
+$string['template'] = '<table class="custombox-sequenceheading" width="100%">
+<tr valign="<%%verticalalignoption%%>" class="custombox-icon sequenceheading">
+<%%imageL%%>
+<td>
+<h2 class="custombox-caption sequenceheading"><%%heading%%></h2>
+<p class="sequenceheading"><%%shortdesc%%></p>
+</td>
+<%%imageR%%>
+</tr>
+</table>';
 $string['top'] = 'Superior';
 $string['typename'] = 'Encabezado de Secuencia';
 $string['verticalalign'] = 'Alineación vertical';

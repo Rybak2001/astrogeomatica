@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_rebel', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_rebel', language 'es_mx', version '4.2'.
  *
  * @package     theme_rebel
  * @category    string
@@ -35,9 +35,9 @@ $string['brandcolor'] = 'Color de la marca';
 $string['brandcolor_desc'] = 'El color del acento';
 $string['brandemail'] = 'Email de la organización';
 $string['brandemaildesc'] = 'Dirección Email para la organización que aparece en el pie de página.';
-$string['brandinginfo'] = 'Opciones de marca';
-$string['brandinginfo_desc'] = 'Us elas opciones inferiores para proporcionar su marca a su sitio';
-$string['brandingsettings'] = 'Configuraciones de Marca';
+$string['brandinginfo'] = 'Opciones de Marcado personalizado';
+$string['brandinginfo_desc'] = 'Use las opciones inferiores para proporcionar su marcado personalizado a su sitio';
+$string['brandingsettings'] = 'Configuraciones de Marcado personalizado';
 $string['brandlogo'] = 'Imagen del Logo de la Marca';
 $string['brandlogo_desc'] = 'Esta imagen es mostrada en el área del encabezado y el área del pie. Debería ser un logo de tamaño pequeño.';
 $string['brandorganization'] = 'Nombre de la Organización';

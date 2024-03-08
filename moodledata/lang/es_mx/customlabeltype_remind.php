@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_remind', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_remind', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_remind
  * @category    string
@@ -28,7 +28,22 @@ defined('MOODLE_INTERNAL') || die();
 $string['configtypename'] = 'Habilitar subtipo Recordatorio';
 $string['family'] = 'pedagógico';
 $string['pluginname'] = 'Elemento de curso: Recordatorio';
+$string['remind'] = '¡Recordar esto!';
 $string['remind:addinstance'] = 'Puede añadir una instancia';
 $string['remind:view'] = 'Puede ver el recordatorio';
 $string['remindtext'] = 'Texto recordatorio';
+$string['template'] = '<table class="custombox-remind" cellspacing="0" width="100%">
+<tr valign="top">
+    <td class="custombox-header-thumb remind" style="background-image : url(<%%icon%%>);" width="2%" rowspan="2">
+    </td>
+    <td class="custombox-header-caption remind" width="98%">
+        ¡Recordar !
+    </td>
+</tr>
+<tr valign="top">
+    <td class="custombox-content remindtext">
+        <%%remindtext%%>
+    </td>
+</tr>
+</table>';
 $string['typename'] = 'Recordatorio';

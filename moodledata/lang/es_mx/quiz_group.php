@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'quiz_group', language 'es_mx', version '3.10'.
+ * Strings for component 'quiz_group', language 'es_mx', version '4.2'.
  *
  * @package     quiz_group
  * @category    string
@@ -44,4 +44,4 @@ $string['settings_edited'] = 'El examen ha sido editado con el siguiente agrupam
 $string['title_groupingselect'] = 'Elegir el agrupamiento para el examen';
 $string['titleapply'] = 'Transferir calificaciones de grupo';
 $string['user_notin_grouping'] = 'Usted no pertenece al agrupamiento seleccionado para este Examen de grupo. Por favor contacte al mánager del examen';
-$string['warning_group'] = 'Cuidadol: <ul> <li>El examen de grupo usa un agrupamiento específico. Asegúrese de dar la regla de acceso apropiada en la sección para \'Restringir acceso\' de la página principal de configuración del examen. </li><li/>Si un estudiante está en más de un grupo en el mismo agrupamiento, el sistema solamente considerará su primera afiliación.</li><li>¡No cambie el agrupamiento si ya existen intentos para este examen!</li></ul>';
+$string['warning_group'] = 'Cuidado: <ul> <li>El examen de grupo usa un agrupamiento específico. Asegúrese de dar la regla de acceso apropiada en la sección para \'Restringir acceso\' de la página principal de configuración del examen. </li><li/>Si un estudiante está en más de un grupo en el mismo agrupamiento, el sistema solamente considerará su primera afiliación.</li><li>¡No cambie el agrupamiento si ya existen intentos para este examen!</li></ul>';

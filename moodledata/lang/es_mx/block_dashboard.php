@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_dashboard', language 'es_mx', version '3.10'.
+ * Strings for component 'block_dashboard', language 'es_mx', version '4.2'.
  *
  * @package     block_dashboard
  * @category    string
@@ -63,8 +63,8 @@ $string['configeventmapping'] = 'Mapeo de datos para eventos';
 $string['configexplicitscaling'] = 'Escalamiento explícito';
 $string['configexportcharset'] = 'Conjunto de caracteres para exportaciones CSV';
 $string['configfileformat'] = 'Formato de archivo';
-$string['configfilelocation'] = 'Localización de archivo generado';
-$string['configfilelocationadmin'] = 'Administrar extensión  de localización de archivo generado';
+$string['configfilelocation'] = 'Ubicación del archivo generado';
+$string['configfilelocationadmin'] = 'Administrar extensión  de ubicación de archivo generado';
 $string['configfileoutput'] = 'Campos de salida de archivo';
 $string['configfileoutput_help'] = '<p>El archivo puede usar un conjunto distinto de campo de salida del requerido para visualización. </p>';
 $string['configfileoutputformats'] = 'Formateo de valor del campo';
@@ -94,7 +94,7 @@ $string['configlat'] = 'Latitud';
 $string['configlayout'] = 'Publicar datos';
 $string['configlineartable'] = 'configuraciones de tabla lineal';
 $string['configlng'] = 'Longitud';
-$string['configlocation'] = 'Localización del mapa';
+$string['configlocation'] = 'Ubicación del mapa';
 $string['configlowerbandunit'] = 'Escala de tiempo de banda inferior';
 $string['configmakefile'] = 'Habilitar generación de archivo';
 $string['configmakefile_help'] = '<p>cuando los datos son refrescados en caché, Usted puede elegir generar o no un archivo de salida con datos refrescados</p>';
@@ -214,7 +214,7 @@ $string['from'] = 'de';
 $string['generalparams'] = 'Acceso a configuraciones del tablero';
 $string['generatedexports'] = 'Generar exportaciones';
 $string['globalcron'] = 'Configuraciones globales de cron';
-$string['googlelocationerror'] = 'error de localización de Google';
+$string['googlelocationerror'] = 'Error de ubicación de Google';
 $string['googlemap'] = 'Mapa de Google';
 $string['googleparams'] = 'Configuraciones de GoogleMaps';
 $string['graphparams'] = 'Configuraciones de Gráfica';

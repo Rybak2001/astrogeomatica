@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_erubric', language 'es_mx', version '3.10'.
+ * Strings for component 'gradingform_erubric', language 'es_mx', version '4.2'.
  *
  * @package     gradingform_erubric
  * @category    string
@@ -189,7 +189,7 @@ $string['showremarksstudent'] = 'Mostrar anotaciones a quienes son calificados';
 $string['showscorestudent'] = 'Mostrar puntos para cada nivel a quienes son calificados';
 $string['showscoreteacher'] = 'Mostrar puntos para cada nivel durante la evaluación';
 $string['sortlevelsasc'] = 'Ordenación para niveles';
-$string['sortlevelsasc0'] = 'Descendiente por número de puntos';
+$string['sortlevelsasc0'] = 'Descendente por número de puntos';
 $string['sortlevelsasc1'] = 'Ascendiente por número de puntos';
 $string['studentbenchmarkinfo'] = 'Patrón basal del estudiante';
 $string['studentsbenchmarkinfo'] = 'Patrón basal de los estudiantes';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_lesson_wordimport', language 'es_mx', version '3.10'.
+ * Strings for component 'local_lesson_wordimport', language 'es_mx', version '4.2'.
  *
  * @package     local_lesson_wordimport
  * @category    string
@@ -26,9 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['cannotopentempfile'] = 'No se puede abrir archivo temporal <b>{$a}</b>';
+$string['endjump'] = 'Un salto de "Fin de lección" hacia página de contenido';
 $string['filetoimport'] = 'Archivo a importar';
 $string['filetoimport_help'] = 'Subir archivo <i>.docx</i>guardado desde Microsoft Word o LibreOffice';
+$string['importoptions'] = 'Opciones de creación de botón de navegación de página de contenido';
+$string['importoptions_help'] = 'Activar  las casillas para añadir botones de navegación de "Página anterior" y "Fin de lección". Un botón de navegación de "Página siguiente" es incluido automáticamente en cada página de contenido.';
 $string['pluginname'] = 'Importar/Exportar archivo Microsoft Word (Lección)';
+$string['previousjump'] = 'Añadir salto a "Página anterior" a páginas de contenido';
 $string['privacy:metadata'] = 'La herramienta para importar/exportar archivos Microsoft Wordpara lecciones no almacena ningún dato personal-';
 $string['replaceglesson_help'] = 'Eliminar el contenido actual de la lección antes de importar';
 $string['replacelesson'] = 'Remplazar lección';

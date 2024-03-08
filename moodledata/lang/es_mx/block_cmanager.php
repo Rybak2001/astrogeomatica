@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_cmanager', language 'es_mx', version '3.10'.
+ * Strings for component 'block_cmanager', language 'es_mx', version '4.2'.
  *
  * @package     block_cmanager
  * @category    string
@@ -64,7 +64,7 @@ $string['cannoteditrequest'] = 'Lo sentimos; su cuenta no tiene privilegios sufi
 $string['cannotrequestcourse'] = 'Lo sentimos; su cuenta no tiene privilegios suficientes para solicitar un curso. Usted necesita estar asignado a un rol del sistema con suficientes privilegios.';
 $string['cannotviewconfig'] = 'Lo sentimos; su cuenta no tiene privilegios suficientes para ver la configuración. Usted necesita estar asignado a un rol del sistema con suficientes privilegios.';
 $string['cannotviewrecords'] = 'Lo sentimos; su cuenta no tiene privilegios suficientes para ver registros. Usted necesita estar asignado a un rol del sistema con suficientes privilegios.';
-$string['catlocation'] = 'Localización del Catálogo';
+$string['catlocation'] = 'Ubicación del Catálogo';
 $string['changeshavebeensaved'] = '¡Cambios Guardados!';
 $string['clearHistoryTitle'] = 'Limpiar Historia';
 $string['clearsearch'] = 'Borrar búsqueda';

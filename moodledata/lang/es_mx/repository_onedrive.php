@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_onedrive', language 'es_mx', version '3.10'.
+ * Strings for component 'repository_onedrive', language 'es_mx', version '4.2'.
  *
  * @package     repository_onedrive
  * @category    string
@@ -37,7 +37,7 @@ $string['importskydrivefiles'] = 'Importar archivos desde el repositorio Microso
 $string['internal'] = 'Internos (archivos almacenados en Moodle)';
 $string['issuer'] = 'Servicio OAuth 2';
 $string['issuer_help'] = 'Seleccionar el servicio OAuth 2 que está configurado para hablar a la API OneDrive. Si el servicio aun no existe, Usted necesitará crearlo.';
-$string['mysitenotfound'] = 'Usted nunca ha ingresado con anterioridad a OneDrive. Usted tiene que ingresar a Onedrive al menos una vez antes de que pueda usarse con Moodle.';
+$string['mysitenotfound'] = 'Usted nunca ha ingresado con anterioridad a OneDrive. Usted tiene que  iniciar sesión en Onedrive al menos una vez antes de que pueda usarse con Moodle.';
 $string['oauth2serviceslink'] = '<a href="{$a}" title="Link to OAuth Services configuration">Configuración de servicios OAuth 2</a>';
 $string['onedrive:view'] = 'Ver repositorio OneDrive';
 $string['owner'] = 'Propiedad de: {$a}';
@@ -52,7 +52,7 @@ $string['privacy:metadata:repository_onedrive:searchtext'] = 'La consulta de tex
 $string['removetempaccesstask'] = 'Quitar acceso de escritura temporal de enlaces controlados.';
 $string['searchfor'] = 'Buscar {$a}';
 $string['servicenotenabled'] = 'Acceso no configurado.';
-$string['skydrivefilesexist'] = 'Archivos encontrados en el repositorio Microsoft SkyDrive. Este repositorio se ha hecho obsoleto por Microsoft,; sin embargo, los archivos pueden ser importados hacia el repositorio Microsft OneDrive.';
+$string['skydrivefilesexist'] = 'El repositorio Microsoft SkyDrive está habilitado pero ha sido deprecado. Por favor asegúrese de migrar archivos desde SkyDrive al repositorio OneDrive tan pronto como sea posible.En Moodle 4.0 ya no será posible.';
 $string['skydrivefilesimported'] = 'Todos los archivos fueron importados desde el repositorio Microsoft OneDrive.';
 $string['skydrivefilesnotimported'] = 'Algunos archivos no pudieron ser importados desde el repositorio Microsoft SkyDrive.';
 $string['supportedreturntypes'] = 'Archivos soportados';

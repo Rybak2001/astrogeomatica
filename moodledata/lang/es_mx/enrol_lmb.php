@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_lmb', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_lmb', language 'es_mx', version '4.2'.
  *
  * @package     enrol_lmb
  * @category    string
@@ -31,11 +31,11 @@ $string['assignroles'] = 'Asignar roles';
 $string['authmethod'] = 'Configurar método de autorización a';
 $string['authmethodhelp'] = 'Seleccione en cual método de autorización debería de configurar las cuentas el módulo LMB';
 $string['bannerextractimport'] = 'Importar Banner XML';
-$string['bannerxmlfolder'] = 'Localización de la carpeta Banner XML';
+$string['bannerxmlfolder'] = 'Ubicación de la carpeta Banner XML';
 $string['bannerxmlfoldercomp'] = 'Tratar a la carpeta Banner XML como completa';
 $string['bannerxmlfoldercomphelp'] = 'Si esta opción es seleccionada, entonces las inscripciones faltantes de los archivos extraídos se descartarán.';
 $string['bannerxmlfolderhelp'] = 'La ruta (en el servidor Moodle) al directorio donde se localizará un conjunto de archivos XML.';
-$string['bannerxmllocation'] = 'Localización de archivo Banner XML';
+$string['bannerxmllocation'] = 'Ubicación del archivo Banner XML';
 $string['bannerxmllocationcomp'] = 'Tratar al archivo Banner XML como completo';
 $string['bannerxmllocationcomphelp'] = 'Si esta opción es seleccionada, entonces las inscripciones faltantes de los archivos extraídos serán descartadas.';
 $string['bannerxmllocationhelp'] = 'La ruta (en el servidor Moodle) adonde residen los archivos XML que le gustaría importar.';
@@ -174,8 +174,8 @@ $string['logerrors'] = 'Registrar en bitácora solamente errores';
 $string['logerrorshelp'] = 'Si se activa esta opción, solamente se registrarán los errores en el archivo de bitácora. Si no se activa, se grabarán todos los registros.';
 $string['logpercent'] = 'Registrar en bitácora & completo al correr procesos por lotes.';
 $string['logsettings'] = 'Registrar enbitácora las configuraciones';
-$string['logtolocation'] = 'Localización de salida del archivo de bitácora (dejar vacío para que no registre en bitácora)';
-$string['logtolocationhelp'] = 'Esta es la localización que a Usted le gustaría para que allí se guarde el archivo de bitácora. Esta debe ser una ruta absoluta en el servidor. El archivo especificado ya debería de existir, y necesita ser escribible por el proceso del servidor web.';
+$string['logtolocation'] = 'Ubicación de salida del archivo de bitácora (dejar vacío para que no registre en bitácora)';
+$string['logtolocationhelp'] = 'Esta es la ubicación que a Usted le gustaría para que allí se guarde el archivo de bitácora. Esta debe ser una ruta absoluta en el servidor. El archivo especificado ya debería de existir, y necesita ser escribible por el proceso del servidor web.';
 $string['never'] = 'Nunca';
 $string['nickname'] = 'Usar sobrenombre (apodo)';
 $string['nicknamehelp'] = 'Si el sobrenombre (apodo) fuera XML incluido, usarlo en lugar del nombre propio.';

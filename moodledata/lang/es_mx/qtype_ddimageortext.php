@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddimageortext', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_ddimageortext', language 'es_mx', version '4.2'.
  *
  * @package     qtype_ddimageortext
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoredropzones'] = 'Espacios vacíos para  {no} más zonas para soltar';
-$string['addmoreimages'] = 'Espacios vacíos para  {no} más ítems arrastrables';
+$string['addmoreimages'] = 'Espacios vacíos para  {no} más elementos arrastrables';
 $string['answer'] = 'Respuesta';
 $string['bgimage'] = 'Imagen de fondo';
 $string['blank'] = 'vacío';
@@ -35,20 +35,22 @@ $string['deletedchoice'] = '[opción eliminada]';
 $string['draggableimage'] = 'Imagen arrastrable';
 $string['draggableitem'] = 'Ítem arrastrable';
 $string['draggableitemheader'] = 'Ítem arrastrable {$a}';
-$string['draggableitems'] = 'Ítems arrastrables';
+$string['draggableitems'] = 'Elementos arrastrables';
 $string['draggableitemtype'] = 'Tipo';
 $string['draggableword'] = 'Texto arrastrable';
 $string['dropbackground'] = 'Imagen de fondo hacia adonde arrastrar marcadores';
 $string['dropzone'] = 'Zona para soltar {$a}';
 $string['dropzoneheader'] = 'Zonas para soltar';
 $string['formerror_disallowedtags'] = 'Solamente marcas "{$a}" están permitidas dentro en este texto arrastrable.';
-$string['formerror_multipledraginstance'] = 'Usted ha seleccionado esta imagen {$a} más de una vez como la opción correcta para una zona de soltar, pero no está marcada como un ítem arrastrable ilimitado.';
-$string['formerror_multipledraginstance2'] = 'Usted ha seleccionado esta imagen más de una vez como la opción correcta para una zona de soltar, pero no está marcada como un ítem arrastrable ilimitado.';
+$string['formerror_dragrequired'] = 'Usted debe añadir al menos un elemento arrastrable a esta pregunta.';
+$string['formerror_droprequired'] = 'Usted debe definir al menos una zona para soltar para esta pregunta.';
+$string['formerror_multipledraginstance'] = 'Usted ha seleccionado esta imagen {$a} más de una vez como la opción correcta para una zona para soltar, pero no está marcada como un elemento arrastrable ilimitado.';
+$string['formerror_multipledraginstance2'] = 'Usted ha seleccionado esta imagen más de una vez como la opción correcta para una zona para soltar, pero no está marcada como un elemento arrastrable ilimitado.';
 $string['formerror_noallowedtags'] = 'No están permitidas marcas (tags) HTML en este texto que es el texto alterno para una imagen arrastrable.';
 $string['formerror_nobgimage'] = 'Usted necesita seleccionar una imagen para usarla como el fondo para el área de arrastrar y soltar.';
 $string['formerror_nofile'] = 'Usted necesita subir o seleccionar aquí un archivo a usar.';
 $string['formerror_nofile3'] = 'Usted necesita seleccionar aquí un archivo de imagen, o eliminar la etiqueta asociada y desactivar la casilla de ilimitada.';
-$string['formerror_noimageselected'] = 'Usted necesita seleccionar un ítem para arrastrar que sea la opción correcta para esta zona de soltar.';
+$string['formerror_noimageselected'] = 'Usted necesita seleccionar un elemento arrastrable que sea la opción correcta para esta zona para soltar.';
 $string['formerror_notintxleft'] = 'La coordenada x debe ser un número entero.';
 $string['formerror_notintytop'] = 'La coordenada y debe ser un número entero.';
 $string['formerror_noxleft'] = 'Usted debe proporcionar un valor para la coordenada x para la esquina superior izquierda de esta área de soltar. Usted puede arrastrar y soltar el área de soltar superior para configurar las coordenadas, o puede escribirlas manualmente aquí.';
@@ -56,22 +58,26 @@ $string['formerror_noytop'] = 'Usted debe proporcionar un valor para la coordena
 $string['infinite'] = 'Ilimitado/a';
 $string['label'] = 'Texto';
 $string['nolabel'] = 'Sin texto de etiqueta';
-$string['pleasedraganimagetoeachdropregion'] = 'Su respuesta no está completa; por favor, arrastre un ítem hacia cada zona para soltar.';
+$string['pleasedraganimagetoeachdropregion'] = 'Su respuesta no está completa; por favor, arrastre un elemento hacia cada zona para soltar.';
 $string['pluginname'] = 'Arrastrar y soltar sobre imagen';
-$string['pluginname_help'] = 'Las preguntas de arrastrar y soltar en imagen requieren que el usuario arrastre imágenes o etiquetas de texto y las suelte dentro de zonas para soltar definidas sobre de una imagen de fondo. Los ítems arrastrables pueden agruparse de forma tal que todos los ítems en un grupo particular estén coloreados igualmente que las zonas para soltarlos. Los ítem arrastrables marcados como ilimitados pueden soltarse adentro de más de una zona.';
+$string['pluginname_help'] = 'Las preguntas de arrastrar y soltar en imagen requieren que el usuario arrastre imágenes o etiquetas de texto y las suelte dentro de zonas para soltar definidas sobre de una imagen de fondo. Los elementos arrastrables pueden agruparse de forma tal que todos los elementos en un grupo particular estén coloreados igualmente que las zonas para soltarlos. Los elementos arrastrables marcados como ilimitados pueden soltarse adentro de más de una zona.';
+$string['pluginname_link'] = 'question/type/ddimageortext';
 $string['pluginnameadding'] = 'Añadiendo arrastrar y soltar sobre imagen';
 $string['pluginnameediting'] = 'Editando arrastrar y soltar sobre imagen';
 $string['pluginnamesummary'] = 'Las imágenes o etiquetas de texto son arrastradas y soltadas dentro de zonas para soltar sobre una imagen de fondo.
 
 Nota: Este tipo de pregunta no es accesible para usuarios con discapacidad visual.';
 $string['previewareaheader'] = 'Vista previa';
-$string['previewareamessage'] = 'Seleccione una imagen de fondo, especifique ítems arrastrables y defina las zonas para soltar sobre de la imagen de fondo adonde deben ser arrastrados.';
-$string['privacy:metadata'] = 'El plugin de tipo de pregunta Arrastrar y soltar en imagen no almacena ningún dato personal.';
+$string['previewareamessage'] = 'Seleccione una imagen de fondo, especifique elementos arrastrables y defina las zonas para soltar sobre de la imagen de fondo adonde deben ser arrastrados.';
+$string['privacy:metadata'] = 'El plugin de tipo de pregunta Arrastrar y soltar en imagen les permite a los autores de pregunta configurar las opciones predeterminadas como preferencias del usuario.';
+$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
+$string['privacy:preference:penalty'] = 'La penalización para cada intento incorrecto cuando las preguntas son empleadas usando el comportamiento de \'Interactivo con intentos múltiples\' o el \'Modo adaptativo\'.';
+$string['privacy:preference:shuffleanswers'] = 'Si es que las respuestas deberían o no ser barajadas automáticamente.';
 $string['refresh'] = 'Refrescar vista previa';
-$string['shuffleimages'] = 'Barajar ítems arrastrables cada vez que se intente la pregunta';
+$string['shuffleimages'] = 'Barajar elementos arrastrables cada vez que se intente la pregunta';
 $string['summarisechoice'] = '{$a->no}. {$a->text}';
 $string['summarisechoiceno'] = 'Ítem {$a}';
 $string['summariseplace'] = '{$a->no}. {$a->text}';
-$string['summariseplaceno'] = 'Zona de soltar {$a}';
+$string['summariseplaceno'] = 'Zona para soltar {$a}';
 $string['xleft'] = 'Izquierda';
 $string['ytop'] = 'Superior';

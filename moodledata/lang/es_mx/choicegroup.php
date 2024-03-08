@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'choicegroup', language 'es_mx', version '3.10'.
+ * Strings for component 'choicegroup', language 'es_mx', version '4.2'.
  *
  * @package     choicegroup
  * @category    string
@@ -25,6 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activitydate:closingbeforeopening'] = 'La fecha de apertura debe ser antes que la fecha de cierre';
+$string['activitydate:exceeded'] = 'Fecha esperada excedida.';
+$string['activitydate:hasopened'] = 'Abierto:';
+$string['activitydate:notavailableyet'] = 'Aun no disponible';
+$string['activitydate:willclose'] = 'Cierra:';
+$string['activitydate:willopen'] = 'Abre:';
 $string['add'] = 'Añadir';
 $string['add_group'] = 'Añadir Grupo';
 $string['add_grouping'] = 'Añadir Agrupamiento';
@@ -65,6 +71,7 @@ $string['choicetext'] = 'Texto de selección';
 $string['chooseaction'] = 'Elija una acción';
 $string['choosegroup'] = 'Elija un grupo';
 $string['collapse_all_groupings'] = 'Colapsar todos los Agrupamientos';
+$string['completiondetail:submit'] = 'Elegir un grupo';
 $string['completionsubmit'] = 'Mostrar como completa cuando el usuario haga una selección';
 $string['createdate'] = 'Fecha de creación del grupo';
 $string['defaultsettings'] = 'Configuraciones por defecto';
@@ -99,13 +106,17 @@ $string['limitanswers'] = 'Limitar el número de respuestas permitidas';
 $string['limitanswers_help'] = 'Esta opción le permite limitar el número de participantes que pueden seleccionar cada opción elegible. Cuando se alcanza el límite, nadie más podrá seleccionar esa opción.
 
 Si los límites están deshabilitados, entonces cualquier número de participantes podrá seleccionar cada opción.';
+$string['maxenrollments'] = 'Máx inscripciones';
+$string['maxenrollments_help'] = 'Esta opción permite limitar el número de inscripcionesd de grupo para un participante. Use el valor predeterminado de  **0** para ilimitado.';
 $string['members/'] = 'Miembros';
 $string['members/max'] = 'Miembros / Capacidad';
 $string['modulename'] = 'Selección de grupo';
 $string['modulename_help'] = 'El módulo de selección de Grupo le permite a los estudiantes inscribirse ellos mismos en un grupo dentro de un curso. El profesor puede seleccionar los grupos en los cuales se pueden inscribir los alumnos y el número máximo de estudiantes permitidos en cada grupo.';
+$string['modulename_link'] = 'mod/choicegroup/view';
 $string['modulenameplural'] = 'Selecciones de grupo';
 $string['moveselectedusersto'] = 'Mover usuarios seleccionados a ...';
 $string['multipleenrollmentspossible'] = 'Permitir inscripción a múltiples grupos';
+$string['mustchoosemax'] = 'Usted debe elegir un máximo de {$a} grupos. No se guardó nada.';
 $string['mustchooseone'] = 'Usted debe elegir una respuesta antes de guardar. Nada se guardó.';
 $string['name'] = 'Nombre';
 $string['neverresultsviewable'] = 'Los resultados no son visibles.';
@@ -117,6 +128,7 @@ $string['notenrolledchoose'] = 'Lo siento, solamente los usuarios inscritos pued
 $string['notopenyet'] = 'Lo siento, esta actividad no estará disponible hasta después de {$a}';
 $string['notyetresultsviewable'] = 'Los resultados serán visibles después de que esta actividad haya cerrado.';
 $string['numberofuser'] = 'El número de usuarios';
+$string['onlyactive'] = 'Filtrar datos de respuesta para usuarios con inscripciones expiradas o suspendidas';
 $string['option'] = 'Grupo';
 $string['page-mod-choice-x'] = 'Cualquier página de módulo de selección de grupo';
 $string['pleaseselectonegroup'] = 'Por favor seleccione al menos un grupo del cual elegir.';

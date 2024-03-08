@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_ldap', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_ldap', language 'es_mx', version '4.2'.
  *
  * @package     enrol_ldap
  * @category    string
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['assignrole'] = 'Assignando rol \'{$a->role_shortname}\' al usuario \'{$a->user_username}\' dentro del curso  \'{$a->course_shortname}\' (id {$a->course_id})';
 $string['assignrolefailed'] = 'No se pudo asignar el rol \'{$a->role_shortname}\' al usuario \'{$a->user_username}\' dentro del curso \'{$a->course_shortname}\' (id {$a->course_id})';
 $string['autocreate'] = 'Los cursos pueden crearse automáticamente si existen inscripciones en un curso que aún no existe en Moodle. </p><p>ISi Usted está empleando la creación automática de cursos, se recomienda que remueva las siguientes capacidades: moodle/course:changeidnumber, moodle/course:changeshortname, moodle/course:changefullname and moodle/course:changesummary,
-de los roles relevantes para impedir modificaciones a los cuatro campos del curso especificados arriba (ID number, shortname, fullname and summary).</p>';
+de los roles relevantes para impedir modificaciones a los cuatro campos del curso especificados arriba (número ID, nombre corto, nombre completo y resumen).</p>';
 $string['autocreate_key'] = 'Creación automática';
 $string['autocreation_settings'] = 'Ajustes para la creación automática de cursos';
 $string['autoupdate_settings'] = 'Configuraciones para actualización automática de curso';
@@ -49,7 +49,7 @@ $string['course_fullname'] = 'Opcional: campo LDAP del que conseguir el nombre c
 $string['course_fullname_key'] = 'Nombre completo';
 $string['course_fullname_updateonsync'] = 'Actualizar nombre completo durante el script de sincronización';
 $string['course_fullname_updateonsync_key'] = 'Actualizar nombre completo';
-$string['course_idnumber'] = 'Atributo LDAP del cual se obtiene el número ID (ID number) del curso. Usualmente  <em>cn</em> or <em>uid</em>.';
+$string['course_idnumber'] = 'Atributo LDAP del cual se obtiene el número ID del curso. Usualmente  \'cn\' o \'uid\'.';
 $string['course_idnumber_key'] = 'Número ID';
 $string['course_search_sub'] = 'Buscar membresías al grupo desde subcontextos';
 $string['course_search_sub_key'] = 'Buscar subcontextos';
@@ -86,7 +86,7 @@ $string['group_memberofattribute_key'] = 'Atributo \'Miembro de\'';
 $string['host_url'] = 'Especifique el host LDAP en formato URL, e.g.,  \'ldap://ldap.myorg.com/\'
 or \'ldaps://ldap.myorg.com/';
 $string['host_url_key'] = 'URL del servidor';
-$string['idnumber_attribute'] = 'Si la membresía del grupo contiene nombres distinguidos, especifique el mismo atributo que Usted ha empleado para el mapeo del usuario \'ID Number\'  en las configuraciones de autenticación LDAP.';
+$string['idnumber_attribute'] = 'Si la membresía del grupo contiene nombres distinguidos, especifique el mismo atributo que Usted ha empleado para el mapeo del número ID del usuario en las configuraciones de autenticación LDAP.';
 $string['idnumber_attribute_key'] = 'Atributo de número ID';
 $string['ldap:manage'] = 'Gestionar instancias de inscripción LDAP';
 $string['ldap_encoding'] = 'Especifique la codificación empleada por el servidor LDAP. Muy probablemente es utf-8, MS AD v2 usea codificación de plataforma por defectotales como cp1252, cp1250, etc.';
@@ -123,8 +123,8 @@ $string['unassignrole'] = 'Des-asignando el rol \'{$a->role_shortname}\' al usua
 $string['unassignrolefailed'] = 'No se pudo des-asignar el rol \'{$a->role_shortname}\' al usuario \'{$a->user_username}\' del curso \'{$a->course_shortname}\' (id {$a->course_id})';
 $string['unassignroleid'] = 'Des-asignando rol con ID \'{$a->role_id}\' al usuario con ID \'{$a->user_id}';
 $string['updatelocal'] = 'Actualizar datos locales';
-$string['user_attribute'] = 'Si la membresía del grupo contiene nombres distinguidos, especifique el atributo empleado para nombrar/buscar usuarios. Si Usted está usando autenticación LDAP, este valor debería concordar con el atributo especificado en el mapeo \'ID Number\' en el plugin de autenticación LDAP.';
-$string['user_attribute_key'] = 'ID de atributo de número';
+$string['user_attribute'] = 'Si la membresía del grupo contiene nombres distinguidos, especifique el atributo empleado para nombrar/buscar usuarios. Si Usted está usando autenticación LDAP, este valor debería concordar con el atributo especificado en el mapeo del  \'número ID\' en el plugin de autenticación LDAP.';
+$string['user_attribute_key'] = 'atributo de número ID';
 $string['user_contexts'] = 'Si la membresía del grupo contiene nombres distinguidos, especifique la lista de contextos donde se asignan los usuarios. Separe contextos diferentes con un punto_y_coma \';\'. Por ejemplo: \'ou=users,o=org; ou=others,o=org\'.';
 $string['user_contexts_key'] = 'Contextos';
 $string['user_search_sub'] = 'Si la membresía del grupo contiene nombres distinguidos, especifique si la búsqueda de usuarios también se realiza en sub-contextos.';

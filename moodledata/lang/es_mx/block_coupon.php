@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_coupon', language 'es_mx', version '3.10'.
+ * Strings for component 'block_coupon', language 'es_mx', version '4.2'.
  *
  * @package     block_coupon
  * @category    string
@@ -360,6 +360,8 @@ $string['label:extendperiod'] = 'Período de extensión de inscripción';
 $string['label:extendperiod:desc'] = 'Configurar debajo el período opcional de extensión. Si <i>no</i> estuviera habilitado o estuviera configurado a 0, la inscripción se volverá inscripción indefinida';
 $string['label:extendusers:desc'] = 'Seleccionar debajo uno o más usuarios.<br/>
 Usted solamente verá usuarios que tengan inscripción <i>manual</i>y que tengan la fecha de término configurada en sus inscripciones.';
+$string['label:forceenableemailregistration'] = 'Forzar autoregistro via email.';
+$string['label:forceenableemailregistration_help'] = 'Si está habilitado permitirá a la gente registrarse via autenticación por correo, por más que esté deshabilitado como método de autoregistro.';
 $string['label:forcelogo'] = 'Logotipo forzado';
 $string['label:forcelogo_help'] = 'Seleccionar el logotipo que será forzado a todos los cupones para este usuario';
 $string['label:forcerole'] = 'Rol forzado';
@@ -386,6 +388,9 @@ $string['label:max_coupons_desc'] = 'Cantidad de cupones que pueden crearse en u
 $string['label:no_courses_connected'] = 'No hay cursos conectados a esta cohorte';
 $string['label:no_groups_selected'] = 'Todavía no hay grupos conectados a estos cursos.';
 $string['label:personalsendpdf'] = '¿Enviar PDF con cupones personalizados?';
+$string['label:personalsendpdf_help'] = 'Si está habilitado va a incluir el PDF cuando se envía cupones a receptores personales.<br/>
+Nótese que cuando esté deshabilitado, el e-mail para receptores de cupones personales <i>debería</i> tener un campo de código de cupón/variable plantilla.<br/>
+Si esta variable plantilla no está y el PFD no es enviado, el receptor no sabrá que código de cupón ingresar.';
 $string['label:redirect_url'] = 'URL redirección';
 $string['label:redirect_url_help'] = 'El destino a donde serán enviados los usuarios después de que escriban sus códigos de cupones.';
 $string['label:renderqrcode'] = '¿Usar Código QR?';
@@ -394,6 +399,9 @@ $string['label:selected_cohort'] = 'Cohorte(s) seleccionada(s)';
 $string['label:selected_courses'] = 'Cursos seleccionados';
 $string['label:selected_groups'] = 'Grupo(s) seleccionado(s)';
 $string['label:seperatepersonalcoupontab'] = '¿Añadir pestaña separada de cupón personalizado?';
+$string['label:seperatepersonalcoupontab_help'] = 'Si está habilitado va a incluir una pestaña extra especificamente para cupones personalizados.<br/>
+Obviamente, las pestañas de cupón usadas/no usadas por defecto estarán disponibles sin importar que y los cupones personalizados <i>estarán</i> siempre disponibles en esas pestañas.<br/>
+Por eso, esta configuración no afecta la pestaña de cupones usados/no usados.';
 $string['label:showform'] = 'Opciones del generador';
 $string['label:type_cohorts'] = 'Inscripción en cohorte(s)';
 $string['label:type_course'] = 'Inscripción a curso';

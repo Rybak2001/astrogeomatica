@@ -1,6 +1,0 @@
-s:437:"<p>Esta configuración determina cómo se ven las calificaciones en los reportes del calificador y reportes del usuario.</p>
-
-<ul><li>Letras - Se usan letras o palabras para representar un rango de calificaciones, tal como está definido en 'Letras' en la configuración del Libro de calificaciones</li>
-<li>Porcentaje - Relativo a calificaciones mínima y máxima</li>
-<li>Real - Calificaciones verdaderas o valores de escala</li>
-</ul>";

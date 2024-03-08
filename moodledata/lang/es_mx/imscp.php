@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'imscp', language 'es_mx', version '3.10'.
+ * Strings for component 'imscp', language 'es_mx', version '4.2'.
  *
  * @package     imscp
  * @category    string
@@ -35,10 +35,12 @@ $string['indicator:cognitivedepth'] = 'Paquete de contenido IMS cognitivo';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad de Paquete de contenido IMS.';
 $string['indicator:cognitivedepthdef'] = 'Paq IMS cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por los recursos de Paquete IMS durante este intervalo de análisis (Niveles = Sin Ver, Ver)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'Paquete de contenido IMS social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en un recurso de Paquete de contenido IMS.';
 $string['indicator:socialbreadthdef'] = 'Paq IMS social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por los recursos del Paquete IMS durante este intervalo de análisis (Niveles = Sin participación, Participante solo)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['keepold'] = 'Archivado de paquetes';
 $string['keepoldexplain'] = '¿Cuántos paquetes desea archivar?';
 $string['modulename'] = 'Paquete contenido IMS';
@@ -47,6 +49,7 @@ $string['modulename_help'] = 'Un paquete de contenidos IMS es una colección de 
 El contenido generalmente se muestra en varias páginas, con navegación entre estas páginas. Hay varias opciones para mostrar el contenido en ventana emergente, con un menú de navegación por botones, etc.
 
 Un paquete de contenidos IMS puede usarse para presentar animaciones y contenidos multimedia.';
+$string['modulename_link'] = 'mod/imscp/view';
 $string['modulenameplural'] = 'Paquetes de contenido IMS';
 $string['navigation'] = 'Navegación';
 $string['packagefile'] = 'Archivo de paquete';

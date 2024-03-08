@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'rating', language 'es_mx', version '3.10'.
+ * Strings for component 'rating', language 'es_mx', version '4.2'.
  *
  * @package     rating
  * @category    string
@@ -42,25 +42,25 @@ $string['aggregatetype_help'] = 'El tipo de consolidación define cómo se combi
 Tenga en cuenta que el total no puede exceder la calificación máxima de la actividad.
 
 Si "Sin valuaciones" está seleccionado, entonces la actividad no aparece en el libro de calificaciones.';
-$string['allowratings'] = '¿Permitir que los ítems sean valuados?';
+$string['allowratings'] = '¿Permitir que los elementos sean valuados?';
 $string['allratingsforitem'] = 'Todas las valuaciones (ratings) emitidas';
 $string['capabilitychecknotavailable'] = 'La comprobación de capacidades no está disponible hasta que se guarde la actividad';
 $string['couldnotdeleteratings'] = 'Lo sentimos, no se puede eliminar, puesto que alguien ya lo ha valuado';
-$string['norate'] = 'No se permite valuar (rating) ítems.';
+$string['norate'] = 'No se permite valuar (rating) elementos.';
 $string['noratings'] = 'No se han enviado valuaciones (ratings)';
-$string['noviewanyrate'] = 'Sólo puede consultar los resultados de items que Usted hizo';
-$string['noviewrate'] = 'No tiene la capacidad para ver las valuaciones (rating) de los ítems';
-$string['privacy:metadata:rating'] = 'La valoración ingresada por el usuario es almacenada junto con un mapeo del ítem que fue valorado.';
+$string['noviewanyrate'] = 'Sólo puede consultar los resultados de elementos que Usted hizo';
+$string['noviewrate'] = 'No tiene la capacidad para ver las valuaciones (rating) de los elementos';
+$string['privacy:metadata:rating'] = 'La valoración ingresada por el usuario es almacenada junto con un mapeo del elemento que fue valorado.';
 $string['privacy:metadata:rating:rating'] = 'La valoración numérica que el usuario ingresó.';
 $string['privacy:metadata:rating:timecreated'] = 'La hora en la que se hizo por primera vez la valoración.';
 $string['privacy:metadata:rating:timemodified'] = 'La hora en la que se actualizó por última vez la valoración.';
 $string['privacy:metadata:rating:userid'] = 'El usuario que hizo la valoración.';
 $string['rate'] = 'Valorar';
-$string['ratepermissiondenied'] = 'No tiene permiso para valuar este ítem';
+$string['ratepermissiondenied'] = 'No tiene permiso para valuar este elemento';
 $string['rating'] = 'Valuación (rating)';
 $string['ratinginvalid'] = 'La valuación (rating) es inválida';
 $string['ratings'] = 'Valuaciones (ratings)';
 $string['ratingtime'] = 'Limitar las valuaciones (ratings) a los elementos con fechas en este rango:';
 $string['rolewarning'] = 'Roles con permiso para valuar';
-$string['rolewarning_help'] = 'Para enviar valuaciones (ratings), los usuarios necesitan la capacidad \'moodle/rating:rate\' y cualquier capacidad específica del módulo. Los usuarios asignados a los roles siguientes deberían poder valuar ítems. La lista de roles puede ser modificada a través del enlace a permisos en el menú de acciones o el bloque de Administración, dependiendo del tema.';
+$string['rolewarning_help'] = 'Los roles con permiso para valorar son roles con la capacidad \'moodle/rating:rate\' y cualquier capacidad específica para valorar actividad. Usted puede darles permiso a más roles para valorar vía la página de Permisos.';
 $string['scaleselectionrequired'] = 'Al seleccionar un tipo de agregación de valoraciones Usted debe de seleccionar también el usar una escala o configurar un puntaje máxicmo.';

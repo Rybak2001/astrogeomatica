@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'reader', language 'es_mx', version '3.10'.
+ * Strings for component 'reader', language 'es_mx', version '4.2'.
  *
  * @package     reader
  * @category    string
@@ -582,7 +582,7 @@ $string['logoutrequired'] = 'Usted no puede continuar debido a que actualmente U
 Para continuar, haga clic en el botón inferior para "Salir del sitio" y después vuelva a ingresar como Usted mismo.';
 $string['mainpagesettings'] = 'Configuraciones de la página principal';
 $string['makebookavailable'] = 'Hacer disponibles los libros';
-$string['makebookavailableproblem'] = 'Órale, no se pudo hacer libro disponible en este curso: {$a}';
+$string['makebookavailableproblem'] = 'Ups, no se pudo hacer libro disponible en este curso: {$a}';
 $string['makebookavailablesuccess'] = 'Libro está ahora disponible en este curso: {$a}';
 $string['makenewquizzesavailable'] = 'Hacer los nuevos exámenes disponibles solamente en este curso';
 $string['makenewquizzesavailable2'] = 'Hacer los nuevos exámenes disponibles en todos los cursos en este sitio [configuración por defecto]';
@@ -616,6 +616,7 @@ $string['minquizattemptrate_help'] = 'La tasa mínima a la que los estudiantes p
 $string['minquizattemptratetext'] = 'Por favor tome al menos {$a}. Si Usted baja de esta tasa, se tomará la siguiente acción:';
 $string['modulename'] = 'Lector';
 $string['modulename_help'] = 'El módulo de Lector le permite a los profesores configurar objetivos de lectura para estudiantes, y les permite a los estudiantes demostrar que han cubierto los objetivos de lectura especificados.';
+$string['modulename_link'] = 'mod/reader/view';
 $string['modulenameplural'] = 'Lector';
 $string['morenewattempts'] = '{$a} intentos nuevos más ...';
 $string['move_quizzes'] = 'Mover exámenes';
@@ -717,6 +718,7 @@ $string['quizmanagement'] = 'Gestión del examen';
 $string['quizname'] = 'Nombre del examen';
 $string['quiznotavailable'] = 'Lo sentimos, este examen actualmente no está disponible para Usted';
 $string['quiznotavailableuntil'] = 'El examen no estará disponible hasta después de {$a}';
+$string['quizonmreaderorg'] = '(Examen disponible en mreader.org)';
 $string['quizopenedon'] = 'El examen abrió en {$a}';
 $string['quizsetrate'] = 'Configurar tasa de exámenes de Lectura';
 $string['quizshowhide'] = 'Mostrar / Ocultar exámenes de Reader';

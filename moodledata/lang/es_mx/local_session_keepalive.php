@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_session_keepalive', language 'es_mx', version '3.10'.
+ * Strings for component 'local_session_keepalive', language 'es_mx', version '4.2'.
  *
  * @package     local_session_keepalive
  * @category    string
@@ -36,7 +36,6 @@ $string['setting_keepaliveend_desc'] = 'Con estas dos configuraciones, Usted pue
 $string['setting_keepaliveinterval'] = 'Intervalo de mantener-vivo';
 $string['setting_keepaliveinterval_desc'] = 'Con esta configuración, Usted puede configurar el intervalo (en minutos) en el cual los navegadores  del usuario revisarán si hay escritura del usuario no-enviada y mantendrán viva la sesión si fuera necesario. Aun y cuando esta solicitud fuera muy ligera para el servidor, Usted no debería de configurar el intervalo más corto de lo necesario porque, intervalos innecesariamente cortos, aunados a una gran cantidad de usuarios activos concurrentes, podrían generar una carga adicional perceptible en su servidor. Para configuraciones normales de Moodle,los valores por defecto deberían de estar bien.<br>
 Es mejor configurar el intervalo a la mitad del \'timeout\' de la sesión configurado e en la página de configuración de  {$a->page}  (actualmente configurado a {$a->minutes} minutos). Por ejemplo: Si el \'timeout\' de la sesión está configurado a 120 minutos, configurar el tiempo de mantener-vivo a 60 minutos. Los navegadores de los usuarios entonces realizarán la primera solicitud de mantener-vivo 60 minutos después de la carga de la página, lo que es todavía bastante tiempo antes de que la sesión caduque normalmente.';
-$string['setting_keepaliveintervalpopupnote'] = 'Por favor tenga en cuenta: A partir de Moodle 3.8 en adelante, el núcleo de Moodle muestra una ventana emergente al usuario después de que se haya alcanzado el 90% de la vida de su sesión, para darle la posibilidad de extender su sesión. Este plugin puede co-existir pacíficamente con esta funcionalidad del núcleo de Moodle siempre que Usted configure este valor a considerablemente menos que el 90% del tiempo de vida configurado de la sesión  (lo que significa menos de {$a->minutes} minutos).';
 $string['setting_keepalivestart'] = 'Tiempo de inicio de mantener-vivo';
 $string['setting_keepaliveweekdays'] = 'Días d ela semana de mantener-vivo';
 $string['setting_keepaliveweekdays_desc'] = 'Con esta configuración, puede controlar los días entre semana (de lunes a viernes) cuando debereía de estar activo session keepalive. Por defecto, están habilitados todos los días entre semana. Sin embargo, si Usted está seguro de que nunca necesitará session keepalive entre semana en algunos días laborables, Usted puede deshabilitar estos días entre semana para disminuir la carga del lado del servidor en estos días.';

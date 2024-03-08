@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'scorm', language 'es_mx', version '3.10'.
+ * Strings for component 'scorm', language 'es_mx', version '4.2'.
  *
  * @package     scorm
  * @category    string
@@ -36,7 +36,7 @@ $string['aicchacpkeepsessiondata_desc'] = 'Período de tiempo en días en el que
 $string['aicchacptimeout'] = 'Tiempo de espera agotado  AICC HACP';
 $string['aicchacptimeout_desc'] = 'Período de tiempo en minutos en el que una sesión externa AICC HACP se mantendrá abierta';
 $string['aiccuserid'] = 'AICC pasar ID numérico del usuario';
-$string['aiccuserid_desc'] = 'El estándar AICC para nombres_de_usuario es muy restrictivo comparado con Moodle, y solamente permite caracteres alfanuméricos, guión medio (-) y guión bajo (_). Los puntos, los espacios y el símbolo  de @ no están permitidos. Si se habilita esto, los números ID del usuario son pasados al paquete AICC en lugar de los nombres_de_usuarios.';
+$string['aiccuserid_desc'] = 'El estándar AICC para nombres de usuario es muy restrictivo comparado con Moodle, y solamente permite caracteres alfanuméricos, guion medio (-) y guion bajo (_). Los puntos, los espacios y el símbolo  de @ no están permitidos. Si se habilita esto, los números ID del usuario son pasados al paquete AICC en lugar de los nombres_de_usuarios.';
 $string['aliasonly'] = 'Al seleccionar un archivo imsmanifest.xml file de un repositorio, Usted debe usar un alias/atajo para este archivo.';
 $string['allowapidebug'] = 'Activar depuración y trazado API (ajustar la máscara de captura con apidebugmask)';
 $string['allowtypeaicchacp'] = 'Habilitar AICC HACP externo';
@@ -90,6 +90,11 @@ $string['collapsetocwinsize'] = 'Colapsar Tabla de Contenidos con tamaño de ven
 $string['collapsetocwinsizedesc'] = 'Esta configuración permite especificar el tamaño de ventana, debajo del cual la Tabla de Contenidos debería de colapsar automáticamente.';
 $string['compatibilitysettings'] = 'Configuraciones de compatibilidad';
 $string['completed'] = 'Finalizado';
+$string['completiondetail:allscos'] = 'Hacer todas las partes de esta actividad';
+$string['completiondetail:completionscore'] = 'Recibir un puntaje de {$a} o más';
+$string['completiondetail:completionstatuscompleted'] = 'Completar la actividad';
+$string['completiondetail:completionstatuscompletedorpassed'] = 'Completar y pasar la actividad';
+$string['completiondetail:completionstatuspassed'] = 'Pasar la actividad';
 $string['completionscorerequired'] = 'Requiere puntuación mínima';
 $string['completionscorerequired_help'] = 'Al habilitar esta configuración se le exigirá al usuario que tenga al menos el puntaje mínimo marcado como finalizado en esta actividad SCORM, al igual que cualquier otro requisito de Finalización de Actividad.';
 $string['completionscorerequireddesc'] = 'Puntaje mínimo de {$a} es necesario para finalización';
@@ -130,7 +135,6 @@ $string['displaydesc'] = 'Si se muestra el paquete SCORM en una ventana nueva';
 $string['displaysettings'] = 'Configuración de visualización';
 $string['dnduploadscorm'] = 'Añadir un paquete SCORM';
 $string['domxml'] = 'Biblioteca externa DOMXML';
-$string['duedate'] = 'Vencimiento';
 $string['element'] = 'Elemento';
 $string['enter'] = 'Entrar';
 $string['entercourse'] = 'Introducir el curso SCORM';
@@ -214,10 +218,12 @@ $string['indicator:cognitivedepth'] = 'SCORM cognitiva';
 $string['indicator:cognitivedepth_help'] = 'Este indicador está basado en la profundidad cognitiva alcanzada por el estudiante en una actividad SCORM.';
 $string['indicator:cognitivedepthdef'] = 'SCORM cognitiva';
 $string['indicator:cognitivedepthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso cognitivo ofrecido por las actividades SCORM durante este intervalo de análisis (Niveles = Sin Ver, Ver, Enviar, Ver retroalimentación)';
+$string['indicator:cognitivedepthdef_link'] = 'Learning_analytics_indicators#Cognitive_depth';
 $string['indicator:socialbreadth'] = 'SCORM social';
 $string['indicator:socialbreadth_help'] = 'Este indicador está basado en la amplitud social alcanzada por el estudiante en una actividad SCORM.';
 $string['indicator:socialbreadthdef'] = 'SCORM social';
 $string['indicator:socialbreadthdef_help'] = 'El participante ha alcanzado este porcentaje del compromiso social ofrecido por las actividades de SCORM durante este intervalo de análisis (Niveles = Sin participación, Participante solo, Participante con otros)';
+$string['indicator:socialbreadthdef_link'] = 'Learning_analytics_indicators#Social_breadth';
 $string['info'] = 'Info';
 $string['interactions'] = 'Interacciones';
 $string['invalidactivity'] = 'La actividad SCORM es incorrecta';
@@ -257,6 +263,7 @@ Las actividades SCORM pueden usarse
 
 * Para presentar animaciones y contenido multimedia
 * Como herramienta de evaluación';
+$string['modulename_link'] = 'mod/scorm/view';
 $string['modulenameplural'] = 'Paquetes SCORM';
 $string['myaiccsessions'] = 'Mis sesiones AICC';
 $string['myattempts'] = 'Mis intentos';
@@ -357,7 +364,7 @@ $string['scorm:addinstance'] = 'Añadir un nuevo paquete SCORM';
 $string['scorm:deleteownresponses'] = 'Eliminar sus propios intentos';
 $string['scorm:deleteresponses'] = 'Eliminar intentos SCORM';
 $string['scorm:savetrack'] = 'Guardar seguimientos';
-$string['scorm:skipview'] = 'Pasar por alto revisión';
+$string['scorm:skipview'] = 'Saltarse vista general';
 $string['scorm:viewreport'] = 'Ver reportes';
 $string['scorm:viewscores'] = 'Ver puntuaciones';
 $string['scormclose'] = 'Disponible hasta';
@@ -394,7 +401,7 @@ $string['skipview_help'] = '<p>Si añade un paquete con únicamente un objeto de
        <li>Omitir la página de estructura de contenidos <strong>siempre</strong>.</li>
    </ul>
 </p>';
-$string['skipviewdesc'] = 'Esta preferencia fija el valor por defecto sobre cuándo pasar por alto la estructura de contenido de una página';
+$string['skipviewdesc'] = 'Esta preferencia fija el valor por defecto sobre cuándo saltarse la estructura de contenido para una página';
 $string['slashargs'] = 'ADVERTENCIA: los argumentos \'slash\' están deshabilitados en este sitio y los objetos pueden no funcionar como se espera.';
 $string['stagesize'] = 'Tamaño de marco/ventana';
 $string['stagesize_help'] = '<p>Estos dos parámetros definen la altura y la anchura del marco o ventana en el que se visualizará el objeto de aprendizaje.</p>';

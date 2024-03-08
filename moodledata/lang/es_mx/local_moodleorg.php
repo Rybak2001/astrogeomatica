@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_moodleorg', language 'es_mx', version '3.10'.
+ * Strings for component 'local_moodleorg', language 'es_mx', version '4.2'.
  *
  * @package     local_moodleorg
  * @category    string
@@ -128,6 +128,7 @@ $string['focusbox_future_gdf'] = 'Discusiones de desarrolladores';
 $string['focusbox_future_research'] = 'Investigación Moodle';
 $string['focusbox_future_roadmap'] = 'Plan de desarrollo';
 $string['focusbox_future_text'] = 'Encuentre lo qué sigue y ayude a marcar una diferencia.';
+$string['focusbox_future_ux'] = 'Discusiones sobre experiencia del usuario (UX)';
 $string['focusbox_settingup'] = 'Configuración';
 $string['focusbox_settingup_community'] = 'Soporte comunitario';
 $string['focusbox_settingup_download'] = 'Descarga gratuita';
@@ -146,6 +147,7 @@ $string['focusbox_theproject'] = 'El proyecto Moodle';
 $string['focusbox_theproject_about'] = 'Acerca de Moodle';
 $string['focusbox_theproject_devs'] = 'Desarrolladores';
 $string['focusbox_theproject_hq'] = 'Cuartel General Moodle';
+$string['focusbox_theproject_mua'] = 'Asociación de Usuarios de Moodle';
 $string['focusbox_theproject_partners'] = 'Moodle Partners';
 $string['focusbox_theproject_stats'] = 'Estadísticas';
 $string['focusbox_theproject_text'] = 'Aprenda más sobre el proyecto Moodle y nuestras sociedades colaborativas abiertas.';
@@ -164,6 +166,10 @@ $string['graphusersites'] = 'Comparación de usuarios de Moodle y sitios';
 $string['heroslide_community_description'] = 'Bienvenido a la comunidad Moodle. Descubra el valor de un esfuerzo abierto colaborativo por uno de los equipos de código abierto más grandes del mundo.';
 $string['heroslide_community_headline'] = 'Impulsado por la comunidad, soportado globalmente.';
 $string['heroslide_community_slidecontrol'] = 'Impulsado por una comunidad global';
+$string['heroslide_donate_headline'] = 'Ayúdenos a hacer una diferencia con la educación abierta y de calidad para todos';
+$string['heroslide_getstarted40_description'] = 'Moodle LMS tiene una nueva personalidad y una experiencia del usuario redefinida que mejora la enseñanza en línea y el aprendizaje para educadores, alumnos y administradores.';
+$string['heroslide_getstarted40_headline'] = 'Moodle 4.0 - ¡Nuevo aspecto, mejor experiencia del usuario!';
+$string['heroslide_getstarted40_slidecontrol'] = '¡Moodle 4.0 está aquí!';
 $string['heroslide_getstarted_description'] = 'Moodle es el sistema de gestión del aprendizaje más popular del mundo. ¡Comience a crear su sitio de aprendizaje en línea en minutos!';
 $string['heroslide_getstarted_headline'] = 'Comenzar es fácil';
 $string['heroslide_getstarted_slidecontrol'] = 'Comience hoy mismo';
@@ -171,12 +177,17 @@ $string['heroslide_global_description'] = 'Disponible en más de 100 idiomas, Mo
 $string['heroslide_global_headline'] = 'Impulsando ambientes de aprendizaje en todo el mundo';
 $string['heroslide_global_slidecontrol'] = 'Impulsando ambientes de aprendizaje en todo el mundo';
 $string['heroslide_link_demo'] = 'Demo';
+$string['heroslide_link_donate'] = 'Haga un donativo';
 $string['heroslide_link_features'] = 'Características';
 $string['heroslide_link_forums'] = 'Foros comunitarios';
 $string['heroslide_link_getstarted'] = 'Comience hoy mismo';
+$string['heroslide_link_getstarted40'] = 'Aprenda sobre Moodle 4.0';
 $string['heroslide_link_sites'] = 'Sitios registrados';
 $string['heroslide_link_stats'] = 'Estadísticas';
 $string['heroslide_link_stories'] = 'Lea más';
+$string['heroslide_power40_description'] = '¡Fácil, rápido e intuitivo! Explore la experiencia del usuario mejorada y las nuevas características de Moodle 4.0.';
+$string['heroslide_power40_headline'] = 'Pruebe Moodle 4.0';
+$string['heroslide_power40_slidecontrol'] = 'Pruebe Moodle 4.0';
 $string['heroslide_power_description'] = 'La plataforma para enseñanza gratuita que le ayuda a crear experiencias de aprendizaje y enseñanza en línea efectivas, en un ambiente colaborativo privado.';
 $string['heroslide_power_headline'] = 'Poderoso. Seguro. Código abierto.';
 $string['heroslide_power_slidecontrol'] = 'Plataforma robusta de aprendizaje de código abierto,';
@@ -238,6 +249,8 @@ $string['resources_jobs'] = 'Empleos';
 $string['resources_plugins'] = 'Plugins';
 $string['roadmap'] = 'Mapa del desarrollo de Moodle';
 $string['rssdescription'] = 'Publicaciones recientes, o valuadas como útiles, de foros de moodle.org';
+$string['rssmoodlecommore'] = 'Vea todas las novedades recientes';
+$string['rssmoodlecomtitle'] = 'Novedades recientes';
 $string['rsstitle'] = 'Publicaciones de foros de moodle.org';
 $string['searchmoodleorg'] = 'Buscar en moodle.org';
 $string['securitytitle'] = 'Avisos de seguridad';

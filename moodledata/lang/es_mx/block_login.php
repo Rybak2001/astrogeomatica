@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_login', language 'es_mx', version '3.10'.
+ * Strings for component 'block_login', language 'es_mx', version '4.2'.
  *
  * @package     block_login
  * @category    string
@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['login:addinstance'] = 'Añadir un nuevo bloque de ingreso al sitio';
 $string['pluginname'] = 'Ingresar';
-$string['privacy:metadata'] = 'El bloque de Ingreso al sitio solamente proporciona una manera de ingresar al sitio y no almacena ningún dato por sí mismo.';
+$string['privacy:metadata'] = 'El bloque de Ingreso al sitio (iniciar sesión) solamente proporciona una manera de ingresar al sitio y no almacena ningún dato por sí mismo.';

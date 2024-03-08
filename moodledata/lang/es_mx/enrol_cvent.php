@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_cvent', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_cvent', language 'es_mx', version '4.2'.
  *
  * @package     enrol_cvent
  * @category    string
@@ -58,7 +58,7 @@ $string['password'] = 'Contraseña Cvent';
 $string['password_desc'] = 'La contraseña de su cuenta Cvent';
 $string['pluginname'] = 'Cvent';
 $string['pluginname_desc'] = 'Usted puede usar Cvent (cvent.com) para gestionar sus inscripciones. Usted debe ser un cliente de Cvent y tener acceso API para usar este plugin.';
-$string['search_location'] = 'Prefijo para localización de búsqueda';
+$string['search_location'] = 'Prefijo para ubicación de búsqueda';
 $string['search_location_desc'] = 'El principio del nombre de las locaciones que desea incluir.<br />Por ejemplo: Si tiene tres locaciones en (Ciudad, Ciudadela, Palacio Municipal) y quiere que Moodle obtenga inscripciones  para eventos en la Ciudad y la Ciudadela, escriba aquí \'Ciudad\'.';
 $string['server_settings'] = 'Configuraciones Cvent';
 $string['username'] = 'nombredeusuario Cvent';

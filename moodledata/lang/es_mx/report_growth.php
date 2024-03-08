@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_growth', language 'es_mx', version '3.10'.
+ * Strings for component 'report_growth', language 'es_mx', version '4.2'.
  *
  * @package     report_growth
  * @category    string
@@ -29,6 +29,8 @@ $string['countries'] = 'Países';
 $string['eventreportviewed'] = 'Reporte de crecimiento visto';
 $string['growth'] = 'Crecimiento';
 $string['growth:view'] = 'Ver Reporte de crecimiento';
+$string['growth:viewcategory'] = 'Ver reporte de  crecimiento en nivel categoría';
+$string['growth:viewcourse'] = 'Ver reporte de  crecimiento en un curso';
 $string['mobile'] = 'Dispositivos móviles';
 $string['pluginname'] = 'Reporte de crecimiento';
 $string['privacy:metadata'] = 'El plugin de Reporte de crecimiento  no almacena ningún dato personal.';

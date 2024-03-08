@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_mtf', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_mtf', language 'es_mx', version '4.2'.
  *
  * @package     qtype_mtf
  * @category    string
@@ -53,6 +53,7 @@ $string['mustdeleteextrarows'] = 'El número máximo de opciones en MTF son 5 op
 $string['mustsupplyresponses'] = 'Usted debe proporcionar valores para todas las respuestas.';
 $string['mustsupplyvalue'] = 'Usted debe proporcionar  aquí un valor.';
 $string['notenoughanswers'] = 'Este tipo de pregunta requiere al menos {$a} opciones';
+$string['numberchoicehaschanged'] = 'El número de opciones ha cambiado. No se puede re-calificar el intento de pregunta.';
 $string['numberofrows'] = 'Número de opciones';
 $string['numberofrows_help'] = 'Especificar el número de opciones. Al cambiar a menos opciones, las opciones sobrantes serán eliminadas una vez que el ítem sea guardado.';
 $string['oneanswerperrow'] = 'Por favor responda todas las partes de la pregunta.';

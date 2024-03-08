@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_dataprivacy', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_dataprivacy', language 'es_mx', version '4.2'.
  *
  * @package     tool_dataprivacy
  * @category    string
@@ -145,6 +145,8 @@ $string['effectiveretentionperioduser'] = '{$a} (desde la última vez que el usu
 $string['emailsalutation'] = 'Estimado/a {$a},';
 $string['errorcannotrequestdeleteforother'] = 'Usted no tiene permiso para crear solicitud de eliminación para este usuario.';
 $string['errorcannotrequestdeleteforself'] = 'Usted no tiene permiso para crear solicitud de eliminación para Usted mismo.';
+$string['errorcannotrequestexportforself'] = 'Usted no tiene permiso para crear solicitudes de exportación por usted mismo.';
+$string['errorcontactdpodisabled'] = 'La opción para ponerse en contacto con el oficial de privacidad está deshabilitada';
 $string['errorcontexthasunexpiredchildren'] = 'El contexto "{$a}" todavía tiene subcontextos que aun no han expirado. No se ha marcado ningún contexto para eliminación.';
 $string['errorinvalidrequestcomments'] = 'El campo de comentarios solamente puede contener texto simple.';
 $string['errorinvalidrequestcreationmethod'] = '¡Método inválido de creación de solicitud!';
@@ -169,7 +171,7 @@ $string['explanationtitle'] = 'Íconos usados en esta página y lo que significa
 $string['external'] = 'Adicional';
 $string['externalexplanation'] = 'Un plugin adicional instalado en este sitio.';
 $string['filteroption'] = '{$a->category}: {$a->name}';
-$string['frontpagecourse'] = 'Curso en la Portada';
+$string['frontpagecourse'] = 'Curso en la página de inicio del sitio';
 $string['gdpr_art_6_1_a_description'] = 'El interesado ha dado consentimiento para el procesamiento de sus datos personales para uno o más propósitos específicos.';
 $string['gdpr_art_6_1_a_name'] = 'Consentimiento (GDPR Art. 6.1(a))';
 $string['gdpr_art_6_1_b_description'] = 'El procesamiento es necesario para el desempeño de un contrato para el cual el interesado es una parte, o como parte de la solicitud anterior del interesado para participar en un contrato';
@@ -242,6 +244,8 @@ $string['pluginregistrytitle'] = 'Registro de cumplimiento de privacidad del plu
 $string['privacy'] = 'Privacidad';
 $string['privacy:metadata:preference:tool_dataprivacy_request-filters'] = 'Los filtros aplicados actualmente a la página de solicitudes de datos.';
 $string['privacy:metadata:preference:tool_dataprivacy_request-perpage'] = 'El número de solicitudes de datos que el usuario prefiere ver en una página';
+$string['privacy:metadata:purpose'] = 'Información de propósitos de datos hechos para este sitio.';
+$string['privacy:metadata:purpose:usermodified'] = 'La ID del usuario que modificó el propósito';
 $string['privacy:metadata:request'] = 'Información de las solicitudes de datos personales (solicitudes de acceso y eliminación del interesado) hechas para este sitio.';
 $string['privacy:metadata:request:comments'] = 'Cualquier comentario del usuario que acompañe la solicitud.';
 $string['privacy:metadata:request:dpocomment'] = 'Cualquier comentario hecho por el Oficial de Privacidad del sitio con respecto a la solicitud.';
@@ -280,7 +284,7 @@ $string['requestsdenied'] = 'Las solicitudes han sido denegadas';
 $string['requeststatus'] = 'Estado';
 $string['requestsubmitted'] = 'Su solicitud ha sido enviada al Oficial de Privacidad';
 $string['requesttype'] = 'Tipo';
-$string['requesttype_help'] = 'Seleccionar la razón para ponerse en contacto con el Oficial de Privacidad. Tenga en cuenta que la eliminación de todos los datos personales resultará en que Usted ya no pueda ingresar al sitio.';
+$string['requesttype_help'] = 'Seleccionar la razón para ponerse en contacto con el Oficial de Privacidad. Tenga en cuenta que la eliminación de todos los datos personales resultará en que Usted ya no pueda iniciar sesión en el sitio.';
 $string['requesttypedelete'] = 'Eliminar todos mis datos personales';
 $string['requesttypedeleteshort'] = 'Eliminar';
 $string['requesttypeexport'] = 'Exportar todos mis datos personales';
@@ -302,7 +306,7 @@ $string['requiresattentionexplanation'] = 'Este plugin no implementa la API de p
 $string['resubmitrequest'] = 'Re-enviar solicitud  {$a->type} para {$a->username}';
 $string['resubmitrequestasnew'] = 'Re-enviar como solicitud nueva';
 $string['resubmittedrequest'] = 'La solicitud actual {$a->type} para {$a->username} fue cancelada y re-enviada';
-$string['resultdeleted'] = 'Recientemente solicitó que su cuenta y sus datos personales en {$a} fueran eliminados. Este proceso ha sido completado y Usted ya no podrá ingresar al sitio.';
+$string['resultdeleted'] = 'Recientemente solicitó que su cuenta y sus datos personales en {$a} fueran eliminados. Este proceso ha sido completado y Usted ya no podrá iniciar sesión en el sitio.';
 $string['resultdownloadready'] = 'Su copia de sus datos personales de {$a} que solicitó recientemente, está ahora disponible para descargar desde el enlace siguiente..';
 $string['retentionperiod'] = 'Período de retención';
 $string['retentionperiod_help'] = 'El período de retención especifica el lapso de tiempo que los datos deben conservarse. Cuando el período de retención haya expirado, los datos son señalizados y enlistados para eliminación, esperanco la confirmación administrativa.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'user', language 'es_mx', version '3.10'.
+ * Strings for component 'user', language 'es_mx', version '4.2'.
  *
  * @package     user
  * @category    string
@@ -40,8 +40,8 @@ $string['filtersetmatchdescription'] = 'Como deberían ser combinados múltiples
 $string['filtertype'] = 'Filtrar tipo';
 $string['match'] = 'Coincidir con';
 $string['matchofthefollowing'] = 'de lo siguiente:';
-$string['moodlenetprofile'] = 'Perfil MoodleNet';
-$string['moodlenetprofile_help'] = 'Este campo es para enlazar su perfil de MoodleNet a Moodle. Espera una URI que cumpla con WebFinger';
+$string['moodlenetprofile'] = 'ID de perfil MoodleNet';
+$string['moodlenetprofile_help'] = 'Su ID del perfil de MoodleNet enlaza su perfil MoodleNet con este sitio.';
 $string['placeholdertype'] = 'Escribir...';
 $string['placeholdertypeorselect'] = 'Escribir o seleccionar...';
 $string['privacy:courserequestpath'] = 'Cursos solicitados';
@@ -67,7 +67,7 @@ $string['privacy:metadata:deleted'] = 'Una bandera señalizadora si es que el us
 $string['privacy:metadata:department'] = 'El departamento en donde puede ser encontrado este usuario.';
 $string['privacy:metadata:description'] = 'Detalles generales acerca de este usuario.';
 $string['privacy:metadata:devicename'] = 'El nombre del dispositivo Occam o IPhone, etc...';
-$string['privacy:metadata:devicetablesummary'] = 'Esta tabla almacena información de los dispositivos móviles para enviar notificaciones PUSH.';
+$string['privacy:metadata:devicetablesummary'] = 'Esta tabla almacena información de los dispositivos móviles del usuario para enviar notificaciones PUSH.';
 $string['privacy:metadata:email'] = 'Una dirección email para contacto';
 $string['privacy:metadata:emailstop'] = 'Una preferencia para deshabilitar el que sean enviadas notificaciones al usuario.';
 $string['privacy:metadata:fieldid'] = 'La ID relacionada al campo del usuario personalizado.';
@@ -90,7 +90,7 @@ $string['privacy:metadata:lastaccesstablesummary'] = 'Información acerca de la 
 $string['privacy:metadata:lastip'] = 'La última dirección IP para el usuario.';
 $string['privacy:metadata:lastlogin'] = 'El último ingreso de este usuario.';
 $string['privacy:metadata:lastname'] = 'El apellido (los apellidos) del usuario.';
-$string['privacy:metadata:lastnamephonetic'] = 'Los detalles fonéticos acerca del apellido del usurio.';
+$string['privacy:metadata:lastnamephonetic'] = 'Los detalles fonéticos del apellido del usuario.';
 $string['privacy:metadata:maildigest'] = 'Una configuración para el resumen de Email para este usuario.';
 $string['privacy:metadata:maildisplay'] = 'Una preferencia para el usuario respecto a mostrar su dirección Email a otros usuarios.';
 $string['privacy:metadata:middlename'] = 'El segundo nombre (si tuviera) del usuario';
@@ -102,7 +102,7 @@ $string['privacy:metadata:my_pages'] = 'Páginas del usuario - tablero y perfil.
 $string['privacy:metadata:my_pages:name'] = 'Nombre de página';
 $string['privacy:metadata:my_pages:private'] = 'Si es que la página es o no privada (tablero) o pública (perfil)';
 $string['privacy:metadata:my_pages:userid'] = 'El propietario que es dueño de esta página  o 0 para valores por defecto del sistema';
-$string['privacy:metadata:password'] = 'La contraseña para que este usuario ingrese al sistema.';
+$string['privacy:metadata:password'] = 'La contraseña para que este usuario inicie sesión en el sistema.';
 $string['privacy:metadata:passwordresettablesummary'] = 'Una tabla que monitorea fichas (tokens) de confirmación de reinicio de contraseña';
 $string['privacy:metadata:passwordtablesummary'] = 'Una bitácora rotativa de hashes de contraseñas anteriormente usadas por el usuario.';
 $string['privacy:metadata:phone'] = 'Un número de teléfono para el usuario.';
@@ -133,12 +133,13 @@ $string['privacy:metadata:token'] = 'secreto configurado y enviado por Email al 
 $string['privacy:metadata:trackforums'] = 'Una preferencia para foros y sus seguimientos.';
 $string['privacy:metadata:trustbitmask'] = 'La máscara del bit de confianza (trust bit mask)';
 $string['privacy:metadata:url'] = 'Una URL relacionada con este usurio.';
+$string['privacy:metadata:user_preference:core_user_welcome'] = 'Sello de tiempo puesto en bitácora para cuando el mensaje de BienVenida fue mostrado al usuario por primera vez.';
 $string['privacy:metadata:user_preferences'] = 'Preferencias asociadas con el usuario dado';
 $string['privacy:metadata:user_preferences:name'] = 'Nombre de preferencia';
 $string['privacy:metadata:user_preferences:userid'] = 'La ID del usuario';
 $string['privacy:metadata:user_preferences:value'] = 'Valor de preferencia';
 $string['privacy:metadata:userid'] = 'La ID del usuario enlazado a esta tabla.';
-$string['privacy:metadata:username'] = 'El nombre_de_usuario para este usuario.';
+$string['privacy:metadata:username'] = 'El nombre de usuario para este usuario.';
 $string['privacy:metadata:usertablesummary'] = 'Esta tabla almacena los datos personales principales acerca del usuario.';
 $string['privacy:metadata:uuid'] = 'La UUID del  vendedor del dispositivo';
 $string['privacy:metadata:version'] = 'La versión del dispositivo, 6.1.2, 4.2.2 etc..';
@@ -149,6 +150,12 @@ $string['privacy:privatefilespath'] = 'Archivos privados';
 $string['privacy:profileimagespath'] = 'Imágenes del perfil';
 $string['privacy:sessionpath'] = 'Datos de sesión';
 $string['selectfiltertype'] = 'Seleccionar';
+$string['supportmessagealternative'] = 'En su lugar, usted puede enviar un Email a {$a}';
+$string['supportmessagenotsent'] = 'Desafortunadamente, su mensaje no pudo ser enviado.';
+$string['supportmessagesent'] = 'Su mensaje ha sido enviado.';
+$string['supportmessagesentforloggedoutuser'] = 'Tenga cuidado con este mensaje.  El remitente no estaba ingresado en Moodle, por lo que su identidad no ha sido confirmada.';
 $string['target:upcomingactivitiesdue'] = 'Actividades próximas esperadas';
 $string['target:upcomingactivitiesdue_help'] = 'Esta meta genera recordatorios para actividades próximas esperadas.';
 $string['target:upcomingactivitiesdueinfo'] = 'Aquí están enlistadas todas las intuiciones de las próximas actividades futuras. Estos estudiantes han recibido estas intuiciones directamente.';
+$string['usergroupselectorcount'] = '{$a->fullname} ({$a->groupcount})';
+$string['userprofile'] = 'Perfil del  usuario';

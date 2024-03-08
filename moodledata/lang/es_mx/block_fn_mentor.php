@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_fn_mentor', language 'es_mx', version '3.10'.
+ * Strings for component 'block_fn_mentor', language 'es_mx', version '4.2'.
  *
  * @package     block_fn_mentor
  * @category    string
@@ -55,6 +55,7 @@ $string['clickhere'] = '{$a}';
 $string['close'] = 'Cerrar';
 $string['completed'] = 'Finalizada';
 $string['completed2'] = 'Finalizada - exitosa';
+$string['completionnotenabled'] = '<p>El seguimiento de finalización no está habilitado en este curso.</p>';
 $string['config'] = 'Configurar';
 $string['confirmsend'] = 'Usted está a punto de enviar notificaciones.<br>¿Quiere continuar?';
 $string['consecutive'] = 'Ingresado por {$a} días consecutivos';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mplayer', language 'es_mx', version '3.10'.
+ * Strings for component 'mplayer', language 'es_mx', version '4.2'.
  *
  * @package     mplayer
  * @category    string
@@ -69,7 +69,7 @@ $string['description'] = 'Descripción del Medio';
 $string['displayclick'] = 'Mostrar Click';
 $string['dots'] = 'Puntos';
 $string['duration'] = 'Duración (segundos)';
-$string['embederror1'] = '<h3>¡Órale! Hay un problema.</h3>
+$string['embederror1'] = '<h3>¡Ups! Hay un problema.</h3>
 <h4>Flash Player';
 $string['embederror2'] = 'o más reciente es necesario.</h4>';
 $string['external'] = 'URL externa';

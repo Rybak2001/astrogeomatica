@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_trema', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_trema', language 'es_mx', version '4.2'.
  *
  * @package     theme_trema
  * @category    string
@@ -31,6 +31,8 @@ $string['adminarea'] = 'Solamente los administradores pueden ver bloques en esta
 $string['advancedsettings'] = 'Configuraciones avanzadas';
 $string['alert'] = 'Alerta';
 $string['backgroundcolor'] = 'Color del fondo';
+$string['bodybackgroundcolor'] = 'Color del fondo del cuerpo';
+$string['bodybackgroundcolor_desc'] = 'Color del fondo del cuerpo';
 $string['cachedef_dashboardadmin'] = 'Caché para Tablero administrativo';
 $string['card'] = 'Tarjeta';
 $string['cardicon'] = 'Ícono de tarjeta';
@@ -38,9 +40,11 @@ $string['cardicon_desc'] = 'Vea aquí la lista de todos los ícono s disponibles
 $string['cardiconcolor'] = 'Color del ícono de tarjeta';
 $string['cardlink'] = 'Enlace de tarjeta';
 $string['cardsubtitle'] = 'Subtítulo de tarjeta';
+$string['cardsubtitle_default'] = 'La descripción de esta tarjeta va aquí. Se pueden poner varias líneas de texto en este espacio.';
 $string['cardtitle'] = 'Título de tarjeta';
+$string['cardtitle_default'] = 'Título de la tarjeta';
 $string['carrouselbtnclass'] = 'Clase HTML de botón de Portada';
-$string['carrouselbtnclass_desc'] = 'Usted puede cambiar el estilo del botón al elegir otra clase.';
+$string['carrouselbtnclass_desc'] = 'Usted puede cambiar el estilo del botón al elegir una clase diferente.';
 $string['carrouselbtnhref'] = 'Enlace de botón {$a}';
 $string['carrouselbtnhref_desc'] = 'Enlace de botón para imagen de Portada {$a}';
 $string['carrouselbtntext'] = 'Texto del botón {$a}';
@@ -49,8 +53,36 @@ $string['choosereadme'] = 'Trema está hecho a partir del nuevo tema Boost, usan
 $string['circlescolor'] = 'Ciclar color';
 $string['configtitle'] = 'Trema';
 $string['content'] = 'Contenido';
+$string['courseenrolmentpagecard'] = 'Tarjeta';
+$string['courseenrolmentpageformat'] = 'Formato de página para inscripción al curso';
+$string['courseenrolmentpageformat_desc'] = 'Seleccionar cómo aparecerá la descripción del curso en la página para inscripción al curso.';
+$string['courseenrolmentpagefull'] = 'Página completa';
 $string['coursescards'] = 'Tarjetas de cursos';
 $string['defaultfooter'] = 'Pie de página';
+$string['defaultfooter_default'] = '<div class="row">
+	<div class="col-md-8">
+		<h3 class="-align-center">Soluciones Trema en Tecnología</h3>
+
+	</div>
+	<div class="col-md-4">
+		<h3>Contáctenos</h3>
+
+		<ul class="labeled-icons">
+			<li>
+                <span class="fa fa-globe fa-2x"></span>
+                <a href="https://trema.tech/" target="_blank" style="cursor: pointer;">
+                    <p>https://trema.tech/</p>
+                </a>
+            </li>
+			<li>
+                <span class="fa fa-github fa-2x"></span>
+                <a href="https://github.com/trema-tech/" target="_blank" style="cursor: pointer;">
+                    <p>https://github.com/trema-tech/</p>
+                </a>
+            </li>
+		</ul>
+	</div>
+</div>';
 $string['defaultfooter_desc'] = 'Contenido por defecto del pie de página';
 $string['defaultfrontpagebody'] = 'Cuerpo de Portada';
 $string['defaultfrontpagebody_desc'] = 'Contenido por defecto del cuerpo de Portada';
@@ -61,33 +93,46 @@ $string['enableadmindashboard'] = 'Habilitar Tablero Administrativo';
 $string['enableadmindashboard_desc'] = 'Desactive esto si quiere ocultar el área inferior en el tablero administrativo: <img class="img-responsive" src="{$a}"/>';
 $string['enablefooterinfo'] = 'Habilitar Información del pie de página y de Trema';
 $string['enablefooterinfo_desc'] = 'Desactívelo si desea ocultar el área debajo en el pie de página: <img class="img-responsive" src="{$a}"/>';
+$string['enabletremafooter'] = 'Habilitar pie de página Trema';
+$string['enabletremafooter_desc'] = 'Habilitar pie de página Trema en lugar del popup de Boost';
+$string['enabletremalines'] = 'Habilitar líneas Trema';
+$string['enabletremalines_desc'] = 'Habilitar líneas Trema: <br> <img class="img-responsive" src="{$a}"/>';
 $string['enabletrematopics'] = 'Habilitar Estilo de Curso Trema para Tópicos';
-$string['enabletrematopics_desc'] = 'Habilitar Estilo de Curso Trema para Formato de Curso en Tópicos: <img class="img-responsive" src="{$a}"/>';
+$string['enabletrematopics_desc'] = 'Habilitar Estilo de Curso Trema para Formato de Curso en Tópicos: <br> <img class="img-responsive" src="{$a}"/>';
 $string['favicon'] = 'Favicom personalizado';
 $string['favicon_desc'] = 'Suba su propio favicom. debería ser un archivo .ico';
 $string['footertitle'] = 'Tema Trema';
 $string['frontpagebanner'] = 'Banner de la Portada.';
-$string['frontpagebanner_desc'] = 'Suba la imagen a ser insertada en la portada.Remplazará a la imagen por defecto de un bosque';
+$string['frontpagebanner_desc'] = 'Subir el archivo de la imagen a ser insertada en la portada. Remplazará a la imagen por defecto de un bosque.';
 $string['frontpagebuttonclass'] = 'Clase HTML del botón de Portada';
 $string['frontpagebuttonclass_desc'] = 'Usted puede cambiar el estilo del botón al elegir otra clase.';
 $string['frontpagebuttonhref'] = 'href de botón de protada';
 $string['frontpagebuttonhref_desc'] = 'Elegir el valor del atributo href del botón.';
 $string['frontpagebuttontext'] = 'Texto del botón de Portada';
+$string['frontpagebuttontext_default'] = 'Aprender más';
 $string['frontpagecards'] = 'Tarjetas de la portada';
+$string['frontpagecardssubtitle'] = 'La descripción de la sección de las tarjetas va aquí. Varias líneas de texto pueden ponerse en este espacio.';
+$string['frontpagecardstitle'] = 'Título de sección de tarjetas';
 $string['frontpagecontent'] = 'Contenido de Portada';
 $string['frontpageenablecards'] = 'Habilitar tarjetas de la portada';
 $string['frontpageenablecards_desc'] = 'Desactívelo si desea ocultar el área inferior: <img class="img-responsive" src="{$a}" />';
+$string['frontpageenabledarkoverlay'] = 'Sobrepuesto oscuro de banner de Portada';
+$string['frontpageenabledarkoverlay_desc'] = 'Cuando se habilita, esto aplicará un sobrepuesto oscuro al banner en la Portada.';
 $string['frontpageimage'] = 'Imagen de Portada {$a}';
 $string['frontpageimage_desc'] = 'Imagen {$a} a mostrar en banner de Portada.';
 $string['frontpageimages'] = 'Imágenes de portada';
 $string['frontpagesubtitle'] = 'Subtítulo de Portada.';
+$string['frontpagesubtitle_default'] = 'Este es un subtítulo del banner,<br>con varias líneas de texto.';
 $string['frontpagetitle'] = 'Titulo de Portada.';
+$string['frontpagetitle_default'] = 'Título del banner';
 $string['generalsettings'] = 'Configuraciones Generales';
 $string['image'] = 'Imagen {$a}';
 $string['imagelink'] = 'Enlace de imagen';
-$string['imagelink_desc'] = 'Botón con enlace en imagen {$a}.';
+$string['imagelink_desc'] = 'Botón con un enlace en imagen {$a}.';
 $string['login'] = 'Ingreso';
 $string['loginbackgroundimage'] = 'Imágen del fondo para ingresar';
+$string['loginpagecreatefirst'] = 'Mostrar caja de \'Crear cuenta\' primeramente';
+$string['loginpagecreatefirst_desc'] = 'Si se activa, mostrar primeramente caja de \'Crear cuenta\'. Lo predeterminado es mostrar primeramente la caja para ingresar al sitio.';
 $string['loginpagestyle'] = 'Estilo de página para ingresar';
 $string['numberofcards'] = 'Número de tarjetas';
 $string['numberofimages'] = 'Número de imágenes en banner de Portada';
@@ -109,10 +154,17 @@ $string['rememberusername'] = 'Recordar usuario';
 $string['secondarycolor'] = 'Color secundario';
 $string['secondarycolor_desc'] = 'El color secundario.';
 $string['seemore'] = 'Ver más';
+$string['showcategories'] = 'Mostrar categorías';
+$string['showcategories_desc'] = 'Habilitar el mostrar categorías en la Portada.';
+$string['showehiddencategorycourses'] = 'Mostrar cursos en categorías ocultas';
+$string['showehiddencategorycourses_desc'] = 'Des-seleccione esta opción para ocultar cursos si están en una categoría oculta o debajo de una o más categorías paternas ocultas. Estos cursos continuarán estando disponibles por la URL directa si el usuario tiene la capacidad para ver categorías ocultas o para editar/actualizar el curso.';
 $string['showmycourses'] = 'Mostrar mis cursos';
 $string['showmycourses_desc'] = 'Mostrar usuarios inscritos en Barra de Navegación';
+$string['shownactivitynavigation'] = 'Mostrar navegación por actividad';
+$string['shownactivitynavigation_desc'] = 'Mostrar navegación por actividad en el fondo de las páginas de actividad.';
 $string['styleguide'] = 'Guía de Estilo';
 $string['subtitle'] = 'Subtítulo';
+$string['subtitle_default'] = 'Este es el sub-título predeterminado. Usted puede modificar o quitar esto en las configuraciones del tema Trema.';
 $string['subtitle_desc'] = 'Subtítulo a mostrar en imagen de Portada {$a}';
 $string['summarybutton_text'] = 'Descripción del Curso';
 $string['summarycourselink_text'] = 'Ir al Curso';
@@ -122,3 +174,4 @@ $string['systemsecurity'] = 'Seguridad del Sistema';
 $string['title'] = 'Título';
 $string['title_desc'] = 'Título a mostrar en imagen de Portada {$a}';
 $string['total'] = 'Total';
+$string['totop'] = 'Ir a superior';

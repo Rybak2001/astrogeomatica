@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'webservice', language 'es_mx', version '3.10'.
+ * Strings for component 'webservice', language 'es_mx', version '4.2'.
  *
  * @package     webservice
  * @category    string
@@ -30,6 +30,7 @@ $string['actwebserviceshhdr'] = 'Protocolos activos de servicio web';
 $string['addaservice'] = 'Agregar servicio';
 $string['addcapabilitytousers'] = 'Comprobar capacidades de los usuarios';
 $string['addcapabilitytousersdescription'] = 'Los usuarios deben tener dos capacidades (permisos) - webservice:createtoken y una capacidad que concuerde con los protocolos utilizados, por ejemplo webservice/rest:use, webservice/soap:use. Para lograr esto, fabrique un rol de servicios web con las capacidades apropiadas habilitadas y asígnelo a usuario de servicios web como un rol del sistema.';
+$string['addexternalservice'] = 'Añadir servicio externo';
 $string['addfunction'] = 'Agregar función';
 $string['addfunctionhelp'] = 'Seleccione la función a agregar al servicio.';
 $string['addfunctions'] = 'Agregar funciones';
@@ -61,14 +62,16 @@ $string['default'] = 'Valor por defecto para "{$a}"';
 $string['deleteaservice'] = 'Eliminar servicio';
 $string['deleteservice'] = 'Eliminar el servicio: {$a->name} (id: {$a->id})';
 $string['deleteserviceconfirm'] = 'Eliminar un servicio también eliminará las fichas (tokens) relacionadas con este servicio. ¿Realmente desea eliminar el servicio externo "{$a}"?';
+$string['deletetoken'] = 'Eliminar token';
 $string['deletetokenconfirm'] = '¿Realmente desea eliminar esta ficha (token) para servicio web para <strong>{$a->user}</strong> en el servicio <strong>{$a->service}</strong>?';
+$string['deprecated'] = 'Deprecado';
 $string['disabledwarning'] = 'Todos los protocolos de servicios web están desactivados. El parámetro "Activar servicios Web"  se puede encontrar en "Características avanzadas".';
 $string['doc'] = 'Documentación';
 $string['docaccessrefused'] = 'Usted no está autorizado para ver la documentación de esta ficha (token)';
-$string['documentation'] = 'Documentación de Servicios Web';
 $string['downloadfiles'] = 'Puede descargar archivos';
 $string['downloadfiles_help'] = 'Si se habilita, cualquier usuario puede descargar archivos con su clave de seguridad. Por supuesto que están restringidos a los archivos que se les permite descargar en el sitio.';
 $string['editaservice'] = 'Editar servicio';
+$string['editexternalservice'] = 'Editar servicio externo';
 $string['editservice'] = 'Editar el servicio: {$a->name} (id: {$a->id})';
 $string['enabled'] = 'Habilitado';
 $string['enabledocumentation'] = 'Habilitar documentación del desarrollador';
@@ -122,7 +125,7 @@ $string['loginrequired'] = 'Restringido a usuarios ingresados al sitio';
 $string['manageprotocols'] = 'Administrar protocolos';
 $string['managetokens'] = 'Administrar fichas (tokens)';
 $string['missingcaps'] = 'Capacidades faltantes';
-$string['missingcaps_help'] = 'Lista de capacidades (permisos) requeridas para el servicio que no posee el usuario seleccionado. Las capacidades faltantes deben añadirse al rol del usuario para poder emplear este servicio.';
+$string['missingcaps_help'] = 'Lista de capacidades (permisos) declaradas por el servicio que no posee el usuario. Algunas funcionalidades del servicio podrían no estar disponibles sin estas capacidades.';
 $string['missingpassword'] = 'Falta la contraseña';
 $string['missingrequiredcapability'] = 'La capacidad {$a} es requisito.';
 $string['missingusername'] = 'Falta nombre_de_usuario';
@@ -134,7 +137,7 @@ $string['norequiredcapability'] = 'Sin capacidad requerida';
 $string['notoken'] = 'La lista de fichas (token) está vacía.';
 $string['onesystemcontrolling'] = 'Permitirle a un sistema externo controlar a Moodle con una ficha (token)';
 $string['onesystemcontrollingdescription'] = 'Los pasos siguientes le ayudarán a configurar un servicio web para permitir que un sistema externo interactúe con Moodle. Esto incluye configurar una ficha (token) (clave de seguridad) como método de autenticación.';
-$string['onlyseecreatedtokens'] = 'Cualquier token puede ser eliminado, aunque Usted solamente puede ver fichas (tokens) que Usted  haya creado.';
+$string['onlyseecreatedtokens'] = 'Usted solamente puede ver fichas (tokens) que Usted  haya creado.';
 $string['operation'] = 'Operación';
 $string['optional'] = 'Opcional';
 $string['passwordisexpired'] = 'La contraseña ha expirado.';
@@ -144,22 +147,7 @@ $string['postrestparam'] = 'Código PHP para REST (POST request)';
 $string['potusers'] = 'No hay usuarios autorizados';
 $string['potusersmatching'] = 'No hay usuarios autorizados que coincidan';
 $string['print'] = 'Imprimir todo';
-$string['privacy:metadata:serviceusers'] = 'Una lista de usuarios que pueden usar un determinado servicio externo';
-$string['privacy:metadata:serviceusers:iprestriction'] = 'IP restringidas para utilizar el servicio';
-$string['privacy:metadata:serviceusers:timecreated'] = 'La fecha en la cual fue creado el registro';
-$string['privacy:metadata:serviceusers:userid'] = 'La Id del usuario';
-$string['privacy:metadata:serviceusers:validuntil'] = 'La fecha hasta cuando permanece siendo válida la autorización';
-$string['privacy:metadata:tokens'] = 'Un registro de fichas (tokens) para interactuar con Moodle mediante servicios web o aplicaciones móviles.';
-$string['privacy:metadata:tokens:creatorid'] = 'La ID del usuario que creó el la ficha (token)';
-$string['privacy:metadata:tokens:iprestriction'] = 'IP restringidas para usar esta ficha (token)';
-$string['privacy:metadata:tokens:lastaccess'] = 'La fecha en la cual la ficha (token) fue usada por última vez';
-$string['privacy:metadata:tokens:privatetoken'] = 'Una ficha (token) más privada usado ocasionalmente para validar ciertas operaciones, como SSO (Single Sign-On = Ingeso único )';
-$string['privacy:metadata:tokens:timecreated'] = 'La fecha en la cual fue creada la ficha (token)';
-$string['privacy:metadata:tokens:token'] = 'La ficha (token) del usuario';
-$string['privacy:metadata:tokens:tokentype'] = 'El tipo de ficha (token)';
-$string['privacy:metadata:tokens:userid'] = 'La ID del usuario de quien es la ficha (token)';
-$string['privacy:metadata:tokens:validuntil'] = 'La fecha hasta cuando sigue siendo válida la ficha (token)';
-$string['privacy:request:notexportedsecurity'] = 'No exportado por razones de seguridad';
+$string['privacy:metadata'] = 'La API de Servicio Web no almacena ningún dato';
 $string['protocol'] = 'Protocolo';
 $string['removefunction'] = 'Eliminar';
 $string['removefunctionconfirm'] = '¿Realmente quiere remover la función "{$a->function}" del servicio "{$a->service}"?';
@@ -168,6 +156,7 @@ $string['required'] = 'Requerido';
 $string['requiredcapability'] = 'Capacidad requerida';
 $string['requiredcapability_help'] = 'Si se activa la opción, sólo los usuarios con la capacidad requeridos pueden acceder al servicio.';
 $string['requiredcaps'] = 'Capacidades requeridas';
+$string['resettokencomplete'] = 'El token seleccionado fue reiniciado';
 $string['resettokenconfirm'] = '¿Realmente desea reiniciar esta clave de servicio para <strong>{$a->user}</strong> en el servicio <strong>{$a->service}</strong>?';
 $string['resettokenconfirmsimple'] = '¿Confirma que desea restaurar esta clave? Cualquier enlace guardado que contenga la clave anterior no volverá a funcionar.';
 $string['response'] = 'Respuesta';
@@ -200,7 +189,7 @@ $string['shortnametaken'] = 'El nombre corto ya está empleado por otro servicio
 $string['simpleauthlog'] = 'Ingreso por autenticación simple';
 $string['step'] = 'Paso';
 $string['supplyinfo'] = 'Mayores detalles';
-$string['testauserwithtestclientdescription'] = 'Simula el acceso externo al servicio empleando el servicio web de prueba del cliente. Antes de hacerlo, ingrese (login) como usuario con la capacidad (permiso) moodle/webservice:createtoken y obtenga la clave de seguridad (token) via las configuraciones de Mis preferencias. Usted empleará este token en el cliente de prueba. En el cliente de prueba, también seleccione un protocolo habilitado con autenticación por token. <strong>ADVERTENCIA: ¡Las funciones que Usted pruebe SERÁN EJECUTADAS para este usuario, por lo que debe ser cauteloso con lo que decida probar!</strong>';
+$string['testauserwithtestclientdescription'] = 'Simula el acceso externo al servicio empleando el servicio web de prueba del cliente. Antes de hacerlo, inicie sesión como usuario con la capacidad (permiso) moodle/webservice:createtoken y obtenga la clave de seguridad (token) via las configuraciones de Mis preferencias. Usted empleará este token en el cliente de prueba. En el cliente de prueba, también seleccione un protocolo habilitado con autenticación por token. <strong>ADVERTENCIA: ¡Las funciones que Usted pruebe SERÁN EJECUTADAS para este usuario, por lo que debe ser cauteloso con lo que decida probar!</strong>';
 $string['testclient'] = 'Cliente de prueba de servicio web';
 $string['testclientdescription'] = '* El cliente de prueba de servicios web <strong>ejecuta</strong> las funciones <strong>REALMENTE</strong>. No pruebe funciones que no conozca. <br />* Aún no se han implementado todas las funciones de servicios web en el cliente de prueba <br />* Para revisar que un usuario no puede acccesar algunas funciones, Usted puede probar algunas funciones que Usted no permitió.<br />* Para ver mensajes de error más claros, configure depuración (debugging) a <strong>{$a->mode}</strong> dentro de  {$a->atag}.';
 $string['testwithtestclient'] = 'Comprobar el servicio';
@@ -209,6 +198,9 @@ $string['token'] = 'Ficha (token)';
 $string['tokenauthlog'] = 'Autenticación mediante ficha (token)';
 $string['tokencreatedbyadmin'] = 'Únicamente puede ser restablecido por el administrador (*)';
 $string['tokencreator'] = 'Creador';
+$string['tokenfilter'] = 'Filtro de tokens';
+$string['tokenfilterreset'] = 'Mostrar todos los tokens';
+$string['tokenfiltersubmit'] = 'Mostrar solamente los tokens que coinciden';
 $string['unknownoptionkey'] = 'Clave de opción desconocida ({$a})';
 $string['unnamedstringparam'] = 'Un parámetro de tipo cadena está sin nombre.';
 $string['updateusersettings'] = 'Actualizar';

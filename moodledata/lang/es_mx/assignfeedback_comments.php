@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_comments', language 'es_mx', version '3.10'.
+ * Strings for component 'assignfeedback_comments', language 'es_mx', version '4.2'.
  *
  * @package     assignfeedback_comments
  * @category    string
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['commentinline'] = 'Comentar en línea';
+$string['commentinline'] = 'Comentario en línea';
 $string['commentinline_help'] = 'Si se habilita, el texto del envío será copiado al campo del comentario de retroalimentación al calificar, haciendo más fácil el comentar en línea (tal vez utilizando un color diferente), o el editar el texto original.';
 $string['commentinlinedefault'] = 'Comentar en línea predeterminado';
 $string['commentinlinedefault_help'] = 'Si se configura, esta funcionalidad para comentar en línea estará habilitada por defecto para todas las tareas nuevas.';

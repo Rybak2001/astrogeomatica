@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_calculated', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_calculated', language 'es_mx', version '4.2'.
  *
  * @package     qtype_calculated
  * @category    string
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['additem'] = 'Agregar ítem';
+$string['additem'] = 'Agregar elemento';
 $string['addmoreanswerblanks'] = 'Agregar otra respuesta en blanco.';
 $string['addsets'] = 'Agregar conjunto(s)';
 $string['answerdisplay'] = 'Mostrar siempre';
@@ -50,11 +50,12 @@ $string['correctfeedback'] = 'Para cualquier respuesta correcta';
 $string['dataitemdefined'] = 'con {$a} valores numéricos ya definidos como disponibles';
 $string['datasetrole'] = 'Los comodines <strong>{x..} </strong> se sustituirán por valores numéricos de entre su conjunto de datos';
 $string['decimals'] = 'con {$a}';
-$string['deleteitem'] = 'Eliminar ítem';
-$string['deletelastitem'] = 'Eliminar último ítem';
+$string['deleteitem'] = 'Eliminar elemento';
+$string['deletelastitem'] = 'Eliminar último elemento';
 $string['distributionoption'] = 'Elegir opción de distribución';
 $string['editdatasets'] = 'Editar el conjunto de datos de los comodines';
 $string['editdatasets_help'] = 'Los valores comodín se pueden crear mediante la introducción de un número en cada campo "comodín" y clic en el botón añadir. Para generar automáticamente 10 o más valores, seleccione el número de valores necesarios antes de hacer clic en el botón añadir. Una "distribución uniforme" significa que cualquier valor entre los límites establecidos tiene la misma probabilidad de que se genere;  una "distribución log-uniforme" significa que los valores situados hacia el límite inferior tienen más probabilidad.';
+$string['editdatasets_link'] = 'question/type/calculated';
 $string['existingcategory1'] = 'usará un conjunto de datos compartidos ya existente';
 $string['existingcategory2'] = 'un archivo de un conjunto existente de archivos que también son usados por otras preguntas de esta categoría';
 $string['existingcategory3'] = 'un enlace de un conjunto existente de enlaces que también son usados por otras preguntas de esta categoría';
@@ -72,7 +73,7 @@ $string['hexanotallowed'] = 'El valor en formato hexadecimal {$a->value} del con
 $string['illegalformulasyntax'] = 'sintaxis ilegal de fórmula que empieza con \'{$a}';
 $string['incorrectfeedback'] = 'Para cualquier respuesta incorrecta';
 $string['itemno'] = 'Ítem {$a}';
-$string['itemscount'] = 'Items<br />Frecuencia';
+$string['itemscount'] = 'Elementos<br />Frecuencia';
 $string['itemtoadd'] = 'Item para agregar';
 $string['keptcategory1'] = 'usará el mismo conjunto de datos compartidos que antes';
 $string['keptcategory2'] = 'un archivo de la misma categoria de conjunto de datos reutilizable que antes';
@@ -111,6 +112,7 @@ $string['param'] = 'Parámetro {<strong> {$a} </strong>}';
 $string['partiallycorrectfeedback'] = 'Para cualquier respuesta parcialmente correcta';
 $string['pluginname'] = 'Calculada';
 $string['pluginname_help'] = 'Las preguntas calculadas permiten crear preguntas numéricas utilizando comodines dentro de corchetes { } que se sustituyen por valores concretos cuando se realiza el examen. Por ejemplo, la pregunta "¿Cuál es el área de un rectángulo de longitud {I} y ancho {w}?" tendría como respuesta correcta la fórmual "{l} * {w}" (donde * es el signo de multiplicación).';
+$string['pluginname_link'] = 'question/type/calculated';
 $string['pluginnameadding'] = 'Agregando una pregunta calculada';
 $string['pluginnameediting'] = 'Editando una pregunta calculada';
 $string['pluginnamesummary'] = 'Las preguntas calculadas son similares a preguntas numéricas pero con números seleccionados aleatoriamente de un conjunto cuando se intenta hacer el examen';
@@ -146,7 +148,7 @@ $string['updatetolerancesparam'] = 'Actualizar los parámetros de tolerancia de 
 $string['updatewildcardvalues'] = 'Actualizar los valores de los comodines';
 $string['useadvance'] = 'Utilice el botón avanzar para ver los errores';
 $string['usedinquestion'] = 'Usada en Pregunta';
-$string['wildcard'] = 'Comodín <strong>{$a}</strong>}';
+$string['wildcard'] = 'Comodín {<strong>{$a}</strong>}';
 $string['wildcardparam'] = 'Parámetros de los comodines usados para generar los valores';
 $string['wildcardrole'] = 'Los comodines <strong>{x..} </strong> se sustituirán por un valor numérico de entre los valores generados';
 $string['wildcards'] = 'Comodines {a}...{z}';

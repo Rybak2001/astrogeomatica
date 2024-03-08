@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_gradedist', language 'es_mx', version '3.10'.
+ * Strings for component 'gradereport_gradedist', language 'es_mx', version '4.2'.
  *
  * @package     gradereport_gradedist
  * @category    string
@@ -32,10 +32,10 @@ $string['actualcolumns'] = 'Letras de calificación actuales';
 $string['actualgrade'] = 'Calificación (actual)';
 $string['boundaryerror'] = 'Algunas entradas para las nuevas calificaciones con letras son inválidas. Debe de existir una entrada en cada campo';
 $string['category'] = 'Categoria_de_calificacion';
-$string['changeletters'] = 'Cambiar letras de calificación';
+$string['changeletters'] = 'Guardar letras de calificación cambiadas';
 $string['chart'] = 'Gráfico';
 $string['columns'] = 'Barras';
-$string['confirm'] = 'Cambiar letras de calificación';
+$string['confirm'] = 'Guardar letras de calificación cambiadas';
 $string['confirmationtableviewed'] = 'Tabla de confirmación vista';
 $string['confirmationtableviewed_description'] = 'El usuario con id {$a->userid} vió la tabla de confirmación de distribución de calificación.';
 $string['contextbuttontitle'] = 'Menú contextual de gráfico';

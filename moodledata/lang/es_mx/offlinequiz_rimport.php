@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'offlinequiz_rimport', language 'es_mx', version '3.10'.
+ * Strings for component 'offlinequiz_rimport', language 'es_mx', version '4.2'.
  *
  * @package     offlinequiz_rimport
  * @category    string
@@ -49,14 +49,15 @@ $string['errorpageerror'] = 'Error en página';
 $string['errorpngnotsupported'] = 'Imágenes PNG no soportadas';
 $string['errorresultexists'] = 'Resultado existe';
 $string['errortiffnotsupported'] = 'Imágenes TIFF no soportadas';
+$string['erroruseridviolation'] = 'Se encontraron múltiples usuarios';
 $string['errorusernotincourse'] = 'Usuario no está en curso';
 $string['errorusernotinlist'] = 'Usuario no está en lista';
 $string['idnumber'] = 'Número ID';
-$string['import'] = 'Importar';
-$string['importedon'] = 'Importada en';
-$string['importforms'] = 'Importar formatos de respuesta';
+$string['import'] = 'Evaluar';
+$string['importedon'] = 'Evaluada en';
+$string['importforms'] = 'Subir formatos de respuesta';
 $string['importlisterror'] = 'Lista no detectada';
-$string['importpforms'] = 'Importar lista de participantes';
+$string['importpforms'] = 'Subir listas de participantes';
 $string['newformsinqueue'] = '{$a} formato(s) de respuestas está(n) pendiente(s) de evaluación.';
 $string['pluginname'] = 'Importación de Resultados de Examen_fuera_de_linea';
 $string['privacy:metadata'] = 'Este plugin no almacena ningún dato relacionado de usuario.';

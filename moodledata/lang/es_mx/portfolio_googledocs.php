@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'portfolio_googledocs', language 'es_mx', version '3.10'.
+ * Strings for component 'portfolio_googledocs', language 'es_mx', version '4.2'.
  *
  * @package     portfolio_googledocs
  * @category    string
@@ -30,7 +30,7 @@ $string['noauthtoken'] = 'No se ha recibido una ficha de autenticación (token) 
 $string['nooauthcredentials'] = 'Se requieren credenciales OAuth.';
 $string['nooauthcredentials_help'] = 'Para usar el plugin del portafolio de Google Drive, Usted debe configurar credenciales de OAuth en las configuraciones del portafolio.';
 $string['nosessiontoken'] = 'No existe una ficha (token) de sesión, lo que impide exportar a Google.';
-$string['oauthinfo'] = '<p>Para usar este plugin, Usted debe registrar este sitio con Google, tal como se describe en la documentación <a href="{$a->docsurl}">Google OAuth 2.0 setup</a>.</p><p>Como parte del proceso de registro, Usted deberá introducir la siguiente URL como (URIs de redireccionamiento autorizadas) \'Authorized Redirect URIs\':</p><p>{$a->callbackurl}</p>Una vez registrado, se le proporcionará una ID de cliente y un secreto que podrá entonces emplear para configurar todos los plugins de Google Drive y Picasa.</p>';
+$string['oauthinfo'] = '<p>Para usar este plugin, Usted debe registrar este sitio con Google, tal como se describe en la documentación <a href="{$a->docsurl}">Google OAuth 2.0 setup</a>.</p><p>Como parte del proceso de registro, Usted deberá introducir la siguiente URL como (URIs de redireccionamiento autorizadas) \'Authorized Redirect URIs:</p><p>{$a->callbackurl}</p><p>Una vez registrado, se le proporcionará una ID de cliente y un secreto que podrá entonces emplear para configurar todos los plugins de Google Drive.</p>';
 $string['pluginname'] = 'Google Drive';
 $string['privacy:metadata'] = 'Este plugin envía datos externamente hacia una cuenta enlazada Google. No almacena datos localmente.';
 $string['privacy:metadata:data'] = 'Datos personales pasados a través del subsistema de portafolio.';

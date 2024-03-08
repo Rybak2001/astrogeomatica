@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search_elastic', language 'es_mx', version '3.10'.
+ * Strings for component 'search_elastic', language 'es_mx', version '4.2'.
  *
  * @package     search_elastic
  * @category    string
@@ -32,7 +32,7 @@ $string['aws'] = 'AWS';
 $string['basicsettings'] = 'Configuraciones básicas';
 $string['boostdescription'] = 'Estos ajustes controlan la configuración de impulso para las áreas de búsqueda. Las áreas con valores más altos serán impulsadas más y aparecerán más alto en los resultados de la búsqueda. Un valor de impulso de 20 hará el área ponderada 2 veces más alta que un área con valor de 10';
 $string['boostsettings'] = 'Configuraciones de impulso';
-$string['boostvalue'] = '*** empty string ****';
+$string['boostvalue'] = '';
 $string['boostvalue_help'] = 'Configure el valor con el cual desea impulsar el área de búsqueda en los resultados de búsqueda. Valores más altos de impulso dan más prioridad.';
 $string['enrichdesc'] = 'Búsqueda Global  puede enriquecer los datos indexados usados en la búsqueda al extraer texto y  otros datos de archivos.
 Los datos extraidos de archivos en Moodle son controlados por los siguientes grupos de configuraciones.';

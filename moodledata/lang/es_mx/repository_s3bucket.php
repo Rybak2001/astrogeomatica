@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_s3bucket', language 'es_mx', version '3.10'.
+ * Strings for component 'repository_s3bucket', language 'es_mx', version '4.2'.
  *
  * @package     repository_s3bucket
  * @category    string
@@ -40,6 +40,5 @@ $string['duration_help'] = 'El tiempo después del cual la URL Pre-Firmada deber
 $string['pluginname'] = 'Bucket Amazon S3';
 $string['pluginname_help'] = 'Repositorio bucket AWS S3';
 $string['privacy:metadata'] = 'El plugin del Repositorio AWS S3 Bucket no almacena ningún dato personal, pero si puede transmitir archivos desde Moodle hacia AWS.';
-$string['s3bucket:addinstance'] = 'Añadir una nueva instancia de bucket AWS S3';
 $string['s3bucket:view'] = 'Ver repositorio bucket AWS S3';
 $string['storageclass'] = 'Clase de almacenamiento';

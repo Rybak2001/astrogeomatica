@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_shortanswer', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_shortanswer', language 'es_mx', version '4.2'.
  *
  * @package     qtype_shortanswer
  * @category    string
@@ -39,7 +39,11 @@ $string['notenoughanswers'] = 'Este tipo de pregunta requiere al menos {$a} resp
 $string['pleaseenterananswer'] = 'Por favor ponga una respuesta';
 $string['pluginname'] = 'Respuesta corta';
 $string['pluginname_help'] = 'En respuesta a una pregunta (que puede incluir una imagen) el alumno escribe una palabra o frase corta. Puede haber varias respuestas correctas posibles, cada una con una calificación diferente. Si está activada la opción "Sensible a MAYÚSCULAS/minúsculas" entonces Usted podría obtener puntuaciones diferentes para "Palabra" o "palabra".';
+$string['pluginname_link'] = 'question/type/shortanswer';
 $string['pluginnameadding'] = 'Añadiendo una pregunta de respuesta corta';
 $string['pluginnameediting'] = 'Editando una pregunta de respuesta corta';
 $string['pluginnamesummary'] = 'Permite una respuesta de una o varias palabras que es calificada al compararla contra varias respuestas modelo, que pueden contener comodines.';
-$string['privacy:metadata'] = 'El tipo de pregunta de Respuesta Corta no almacena ningún dato personal.';
+$string['privacy:metadata'] = 'El tipo de pregunta de Respuesta Corta les permite a los autores de pregunta configurar opciones predeterminadas como preferencias del usuario.';
+$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
+$string['privacy:preference:penalty'] = 'La penalización para cada intento incorrecto cuando las preguntas son empleadas con el comportamiento \'Interactivo con intentos múltiples\' o el \'Modo adaptativo\'.';
+$string['privacy:preference:usecase'] = 'Si es que las respuestas deberían ser sensibles a MAYÚSCULAS/minúsculas.';

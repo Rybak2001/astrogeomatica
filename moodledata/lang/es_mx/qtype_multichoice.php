@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_multichoice', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_multichoice', language 'es_mx', version '4.2'.
  *
  * @package     qtype_multichoice
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answerhowmany'] = '¿Una o varias respuestas?';
-$string['answerhowmany_desc'] = 'Si es que el valor por defecto deberá ser una respuesta (por ejemplo botones de selección) o respuestas múltiples (casillas de selección/activación).';
+$string['answerhowmany_desc'] = 'Si es que el valor por defecto deberá ser una respuesta (por ejemplo botones de opción) o respuestas múltiples (casillas de selección/activación).';
 $string['answernumbering'] = '¿Numerar las opciones?';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
@@ -63,16 +63,25 @@ $string['pleaseselectananswer'] = 'Por favor elija una respuesta.';
 $string['pleaseselectatleastoneanswer'] = 'Por favor elija al menos una respuesta.';
 $string['pluginname'] = 'Opción múltiple';
 $string['pluginname_help'] = 'En respuesta a una pregunta (que puede incluir una imagen) el alumno elige entre varias respuestas. Una pregunta de opción múltiple puede tener una o más respuestas correctas.';
+$string['pluginname_link'] = 'question/type/multichoice';
 $string['pluginnameadding'] = 'Agregando pregunta de opción múltiple';
 $string['pluginnameediting'] = 'Editando una pregunta de opción múltiple';
 $string['pluginnamesummary'] = 'Permite seleccionar una o varias respuestas de una lista pre-definida.';
-$string['privacy:metadata'] = 'El tipo de pregunta de Opción Múltiple no almacena ningún dato personal.';
+$string['privacy:metadata'] = 'El tipo de pregunta de Opción Múltiple les permite a los autores de pregunta configurar opciones predeterminadas como preferencias del usuario.';
+$string['privacy:preference:answernumbering'] = 'Cual estilo de numeración debería ser usado (\'1., 2., 3., ...\', \'a., b., c., ... \' etc).';
+$string['privacy:preference:defaultmark'] = 'El puntaje predeterminado configurado para una pregunta dada.';
+$string['privacy:preference:penalty'] = 'La penalización para cada intento incorrecto cuando las preguntas son empleadas con el comportamiento \'Interactivo con intentos múltiples\' o el \'Modo adaptativo\'.';
+$string['privacy:preference:showstandardinstruction'] = 'Si es que se muestran o no las instrucciones estándar.';
+$string['privacy:preference:shuffleanswers'] = 'Si es que la respuesta debería o no ser barajada automáticamente.';
+$string['privacy:preference:single'] = 'Si es que la respuesta es una con botones de opción o múltiple con casillas para seleccionar.';
+$string['regradeissuenumchoiceschanged'] = 'El número de opciones en la pregunta ha cambiado.';
 $string['selectmulti'] = 'Seleccione una o más de una:';
 $string['selectone'] = 'Seleccione una:';
 $string['showstandardinstruction'] = 'Mostrar instrucciones estándar';
-$string['showstandardinstruction_help'] = 'Si es que se muestran o no las instrucciones "Seleccione una:" o "Seleccione una o más:" antes de las respuestas de opción múltiple.';
+$string['showstandardinstruction_desc'] = 'Si se muestran o no las instrucciones "Seleccionar uno" o "Seleccionar uno o más" antes de respuestas de opción múltiple.';
+$string['showstandardinstruction_help'] = 'Si es que se muestran o no las instrucciones "Seleccione una:" o "Seleccione una o más:" antes de las respuestas de opción múltiple. Alternativamente, usted puede incluir instrucciones en el texto de la pregunta.';
 $string['shuffleanswers'] = '¿Barajar las opciones?';
 $string['shuffleanswers_desc'] = 'Si es que las opciones deberían de ser barajadas aleatoriamente para cada intento por defecto.';
-$string['shuffleanswers_help'] = 'Si está activado, el orden de las respuestas varía de forma aleatoria en cada intento, siempre que "Barajar dentro de las preguntas" en la configuración del examen también esté habilitada.';
+$string['shuffleanswers_help'] = 'Si está activado, el orden de las respuestas varía de forma aleatoria en cada intento, siempre que "Ordenar al azar las respuestas" en la configuración del examen también esté habilitada.';
 $string['singleanswer'] = 'Seleccione una respuesta.';
 $string['toomanyselected'] = 'Ha seleccionado demasiadas opciones.';

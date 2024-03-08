@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'repository_xpert_flickr_public', language 'es_mx', version '3.10'.
+ * Strings for component 'repository_xpert_flickr_public', language 'es_mx', version '4.2'.
  *
  * @package     repository_xpert_flickr_public
  * @category    string
@@ -30,7 +30,7 @@ $string['apikey'] = 'Clave API';
 $string['author'] = 'Propietario de Derechos de Autor';
 $string['backtosearch'] = 'Regresar a pantalla de búsqueda';
 $string['cachedef_options'] = 'Opciones usadas para generar aviso de Derechos de Autor (copyright)';
-$string['callbackurl'] = 'URL para callback';
+$string['callbackurl'] = 'URL para retrollamada';
 $string['colour'] = 'Colores de texto y fondo';
 $string['colourblackwhite'] = 'Fondo:Negro, Texto:Blanco';
 $string['colourbluebrown'] = 'Fondo:Azul claro, Texto:Café oscuro';

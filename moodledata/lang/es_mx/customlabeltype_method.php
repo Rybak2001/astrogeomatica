@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_method', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_method', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_method
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configtypename'] = 'Habilitar subtipo Método';
 $string['family'] = 'pedagógico';
+$string['method'] = 'Método';
 $string['method:addinstance'] = 'Puede añadir una instancia';
 $string['method:view'] = 'Puede ver el contenido';
 $string['methodtext'] = 'Texto del método';

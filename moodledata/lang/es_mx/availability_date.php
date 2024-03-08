@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability_date', language 'es_mx', version '3.10'.
+ * Strings for component 'availability_date', language 'es_mx', version '4.2'.
  *
  * @package     availability_date
  * @category    string
@@ -31,6 +31,7 @@ $string['direction_before'] = 'Fecha';
 $string['direction_from'] = 'desde';
 $string['direction_label'] = 'Dirección';
 $string['direction_until'] = 'hasta';
+$string['error_dateconflict'] = 'Conflictos con otras restricciones de fecha';
 $string['full_from'] = 'Es después de <strong>{$a}</strong>';
 $string['full_from_date'] = 'Es para o para después de <strong>{$a}</strong>';
 $string['full_until'] = 'Es antes de <strong>{$a}</strong>';

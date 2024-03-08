@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'availability', language 'es_mx', version '3.10'.
+ * Strings for component 'availability', language 'es_mx', version '4.2'.
  *
  * @package     availability
  * @category    string
@@ -30,11 +30,12 @@ $string['addrestriction'] = 'Añadir restricción...';
 $string['and'] = 'y';
 $string['condition_group'] = 'Conjunto de restricciones';
 $string['condition_group_info'] = 'Añadir un conjunto de restricciones anidadas para aplicar lógica compleja.';
-$string['enableavailability'] = 'Habilitar acceso restringido';
+$string['disabled_verb'] = 'No puede cambiarse porque el conjunto de reglas incluye una regla que contiene datos privados.';
+$string['enableavailability'] = 'Habilitar restricciones de acceso';
 $string['enableavailability_desc'] = 'Si se habilita, se pueden configurar condiciones (basadas en fecha, calificación, o finalización) que controlan si se puede o no acceder a una actividad o recurso.';
 $string['error_list_nochildren'] = 'Los conjuntos de restricciones deben contener al menos una condición.';
-$string['hidden_all'] = 'Completamente oculta si el usuario no cumple con las condiciones';
-$string['hidden_individual'] = 'Completamente oculta si el usuario no cumple con esta condición';
+$string['hidden_all'] = 'Completamente oculta si el estudiante no cumple con las condiciones';
+$string['hidden_individual'] = 'Completamente oculta si el estudiante no cumple con esta condición';
 $string['hidden_marker'] = '(de otra forma, oculto)';
 $string['hide_verb'] = 'Elegir para ocultar';
 $string['invalid'] = 'Por favor, configure';
@@ -65,7 +66,8 @@ $string['privacy:metadata'] = 'El subsistema de Restricción del acceso no almac
 $string['restrictaccess'] = 'Restringir acceso';
 $string['restrictbygroup'] = 'Añadir restricción de acceso por grupo/agrupamiento';
 $string['setheading'] = '{$a->number} Conjunto de {$a->count} restricción(es)';
-$string['show_verb'] = 'Elegir para mostrar los que están tachados';
-$string['shown_all'] = 'Mostrado inactivo en gris si el usuario no cumpliera las condiciones';
-$string['shown_individual'] = 'Mostrado inactivo en gris si el usuario no cumpliera esta condición';
+$string['show_verb'] = 'Elegir para mostrar';
+$string['showmore'] = 'Mostrar más';
+$string['shown_all'] = 'Mostrado si el estudiante no cumple con las condiciones';
+$string['shown_individual'] = 'Mostrado si el estudiante no cumple con esta condición';
 $string['unknowncondition'] = 'Condición desconocida (plugin de condición eliminado)';

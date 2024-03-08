@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_dedication', language 'es_mx', version '3.10'.
+ * Strings for component 'block_dedication', language 'es_mx', version '4.2'.
  *
  * @package     block_dedication
  * @category    string
@@ -25,44 +25,66 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['access_button'] = 'Herramienta dedicación';
-$string['access_info'] = 'Solamente para profesores:';
+$string['admin_filter_courseid'] = 'Nombre del Curso';
+$string['admin_filter_courseid_help'] = 'Filtrar el reporte pro nombre del curso';
+$string['admin_filter_form'] = 'Configuración de Dedicación del curso';
+$string['admin_filter_form_help'] = 'El tiempo es estimado basado en el concepto de Sesión y Duración de la sesión aplicado a entradas de bitácora.
+
+<strong>Clic:</strong> Cada vez que un usuario accede a una página en Moodle una entrada de bitácora es almacenada.
+
+<strong>Sesión:</strong> conjunto de dos o más clics consecutivos enlos cuales el tiempo transcurrido entre cada par de clics consecutivos no sobrepasa un tiempo estimado máximo.
+
+<strong>Duración de sesión:</strong> tiempo transcurrido entre el primer y el último clic de la sesión.
+
+<strong>Tiempo de dedicación:</strong> la suma de todas las duraciones de sesiones para un usuario.';
+$string['admin_filter_form_text'] = 'Seleccionar el rango de fechas y el máximo de tiempo entre clics de la misma sesión.';
+$string['admin_filter_maxtime'] = 'Final del período';
+$string['admin_filter_maxtime_help'] = 'Considerar solamente entradas de bitácora que terminan antes de esta fecha';
+$string['admin_filter_mintime'] = 'Inicio del período';
+$string['admin_filter_mintime_help'] = 'Considerar solamente entradas de bitácora después  de esta fecha';
+$string['admin_filter_submit'] = 'Calcular';
+$string['allloglifetime'] = 'Conservar historia de sesión por';
+$string['averagetimespent'] = '<strong>Tiempo promedio empleado en curso:</strong> {$a}';
+$string['cleanuptask'] = 'Trabajo de limpieza de historia de sesión';
+$string['collect_dedication'] = 'Recolectar datos para bloque de dedicación';
+$string['configallloglifetime'] = 'Esto especifica el tiempo que quiere conservar los datos acerca de la duración de la sesión. Las sesiones que sean más antiguas que esta edad son eliminadas automáticamente.';
 $string['connectionratiorow'] = 'Conexiones diarias';
-$string['dedication:addinstance'] = 'Permitir añadir el bloque de dedicación al curso';
-$string['dedication:use'] = 'Permitir usar Dedicación al curso';
-$string['dedication_estimation'] = 'Tu tiempo estimado de dedicación es';
+$string['dedication:addinstance'] = 'Permitir añadir bloque de dedicación';
+$string['dedication:myaddinstance'] = 'Permitir añadir bloque de dedicación ala página del Tablero';
+$string['dedication:viewreports'] = 'Permitir ver reportes de dedicación';
 $string['dedicationall'] = 'Dedicación de todos los miembros de curso. Elija a cualquier nombre para ver una dedicación al curso detallada.';
-$string['dedicationgroup'] = 'Dedicación de todos los miembros del grupo <em>{$a}</em>. Elija cualquier miembro ara ver detalladamente su dedicación al curso.';
-$string['dedicationrow'] = 'Dedicación al curso';
-$string['form'] = 'Configuración de dedicación al curso';
-$string['form_help'] = 'El tiempo es estimado basándose en los conceptos de Sesión y Duración de la sesión, aplicados a las entradas de bitácora.
-
-<strong>Clic:</strong> Cada vez que un usuario accede a una página en Moodle, se almacena una entrada de bitácora.
-
-<strong>Sesión:</strong> conjunto de dos o más clics conssecutivos en los que el tiempo transcurrido entre dos clics consecutivos no sobrepasa un tiempo máximo establecido.
-
-<strong>Duración de la sesión:</strong> tiempo transcurrido entre el primer y el último clic de la sesión.
-
-<strong>Tiempo de dedicación:</strong> la suma de todas las duraciones de las sesiones para un usuario.';
-$string['form_text'] = 'Seleccionar el rango de fechas y el tiempo máximo entre clics de la misma sesión.';
-$string['limit'] = 'Límite entre clicks (en minutos)';
-$string['limit_help'] = 'El límite entre clicks define si dos clicks son o no parte de la misma sesión';
-$string['maxtime'] = 'Fin del período';
-$string['maxtime_help'] = 'Considerar solamente entradas de la bitácora que terminen antes de esta fecha';
-$string['meandedication'] = '<strong>Dedicación promedio:</strong> {$a}';
-$string['mintime'] = 'Inicio del período';
-$string['mintime_help'] = 'Considerar solamente entradas de bitácora posteriores a esta fecha';
-$string['pagetitle'] = '{$a}: dedicación al curso';
+$string['dedicationrow'] = 'Tiempo empleado en curso';
+$string['enrolmententity'] = 'Inscripción';
+$string['enrolmentmethod'] = 'Método de inscripción';
+$string['entity_dedication'] = 'Dedicación';
+$string['excludesessionslessthan'] = 'Excluir sesiones menores de {$a}';
+$string['group'] = 'Grupo';
+$string['groupentity'] = 'Grupo';
+$string['ignore_sessions_limit'] = 'Ignorar límite de sesión';
+$string['ignore_sessions_limit_desc'] = 'Quitar sesiones más cortas, cualquiera menor de este valor (en minutos) será ignorada en el reporte de dedicación';
+$string['lastupdated'] = 'Última actualización: {$a}';
 $string['period'] = 'Período desde <em>{$a->mintime}</em> hasta <em>{$a->maxtime}</em>';
 $string['perioddiff'] = '<strong>Tiempo transcurrido:</strong> {$a}';
-$string['perioddiffrow'] = 'Tiempo transcurrido';
-$string['pluginname'] = 'Dedicación al curso';
-$string['sessionduration'] = 'Duración';
+$string['pluginname'] = 'Dedicación';
+$string['privacy:metadata'] = 'El plugin del bloque de dedicación almacena tiempos que los usuarios hayan dedicado a cursos.';
+$string['privacy:metadata:block_dedication:courseid'] = 'ID del curso para la dedicación del usuario';
+$string['privacy:metadata:block_dedication:timespent'] = 'Tiempo empleado en el curso';
+$string['privacy:metadata:block_dedication:timestart'] = 'La hora de inicio de los datos recolectados';
+$string['privacy:metadata:block_dedication:userid'] = 'ID del usuario de la dedicación del usuario';
+$string['report_dedication'] = 'Reporte de Dedicación Total';
+$string['report_timespent'] = 'Reporte Tiempoempleado';
+$string['session_limit'] = 'Límite de sesión';
+$string['session_limit_desc'] = 'Límite de sesión para los filtros de la página del reporte';
+$string['sessionduration'] = 'Duración de sesión';
+$string['sessiondurationsum'] = 'Duración de sesión (suma)';
 $string['sessionstart'] = 'Inicio de sesión';
-$string['show_dedication'] = 'Mostrar tiempo de dedicación a estudiantes';
-$string['show_dedication_help'] = 'Por defecto, el tiempo de dedicación solamente puede ser visto por profesores. Esta configuración permite que los estudiantes vean su tiempo de dedicación en el bloque.';
-$string['sincerow'] = 'Desde';
-$string['submit'] = 'Calcular';
-$string['torow'] = 'A';
-$string['totaldedication'] = '<strong>Dedicación total:</strong> {$a}';
+$string['showestimatedtime'] = 'Mostrar tiempo empleado estimado a usuarios';
+$string['showestimatedtime_help'] = 'Esta configuración le permite a los usuarios ver sus tiempos estimados empleados en el bloque.';
+$string['timespent_estimation'] = 'Su tiempo estimado empleado en curso es:';
+$string['timespentincourse'] = 'Tiempo empleado en curso';
+$string['timespentreport'] = 'Reporte completo';
+$string['timespenttasknotrunning'] = 'El trabajo de cálculo del tiempo empleado aun no se ha ejecutado.';
+$string['totaltimespent'] = '<strong>Total de todo el tiempo empleado en el curso:</strong> {$a}';
+$string['user_dedication_datasource'] = 'Dedicación de Usuarios';
 $string['userdedication'] = 'Dedicación detallada al curso de <em>{$a}</em>.';
+$string['viewsessiondurationreport'] = 'Ver reporte de duración de sesión';

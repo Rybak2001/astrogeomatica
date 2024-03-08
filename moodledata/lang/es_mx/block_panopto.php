@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_panopto', language 'es_mx', version '3.10'.
+ * Strings for component 'block_panopto', language 'es_mx', version '4.2'.
  *
  * @package     block_panopto
  * @category    string
@@ -42,8 +42,12 @@ $string['block_global_hostname'] = 'Nombre del Host del Servidor Panopto';
 $string['block_global_hostname_desc'] = 'Ingresar el Nombre Completamente Cualificado de su servidor Panopto.';
 $string['block_global_instance_desc'] = 'Ingrese el nombre de la instancia de la página de su proveedor de Identidad Panopto.';
 $string['block_global_instance_name'] = 'Nombre de Instancia Moodle';
+$string['block_panopto_anyone_view_recorder_links'] = 'Permitir a todos los roles Ver Enlaces par Descargar Grabadora';
+$string['block_panopto_anyone_view_recorder_links_desc'] = 'Cuando se selecciona, los espectadores pueden ver los enlaces para descargar la grabadora. de forma predeterminada, solamente los usuarios con acceso de Creador o aprovisionamiento en una carpeta pueden ver los enlaces para descargar.';
 $string['block_panopto_async_tasks'] = 'Habilitar Trabajos de Sincronizacióon asincrónica (no recomendado)';
 $string['block_panopto_async_tasks_desc'] = 'Habilite esta opción para permitir que los trabajos de ingreso al sitio,  inscripción, des-inscripción (dar de baja), adhesión a categoría y eliminar usuario sucedan asincrónicamente. Si esta opción está deshabilitada, estas operaciones suceden sincrónicamente en el manejador de eventos. Esta opción no está recomendada porque es difícil detectar la falla de manera oportuna.';
+$string['block_panopto_auto_insert_lti_link_to_new_courses'] = 'Automáticamente crea un enlace a herramienta LTI para nuevos cursos';
+$string['block_panopto_auto_insert_lti_link_to_new_courses_desc'] = 'Cuando se selecciona, esto insertará automáticamente un enlace a herramienta de curso para ver carpeta a su servidor Panopto de operación automática dentro de la primera sección disponible de su página de curso Moodle.';
 $string['block_panopto_auto_provision'] = 'Automáticamente aprovisionar cursos recién creados';
 $string['block_panopto_auto_provision_desc'] = 'Habilitar esta opción para aprovisionar automáticamente una carpeta de curso Panopto cuando un curso es creado.';
 $string['block_panopto_auto_sync_imports'] = 'Otorgar permisos automáticamente al importar un curso';

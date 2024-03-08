@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_simplequestion', language 'es_mx', version '3.10'.
+ * Strings for component 'filter_simplequestion', language 'es_mx', version '4.2'.
  *
  * @package     filter_simplequestion
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['answer_question'] = 'Enviar respuesta';
 $string['clean_up_usages'] = 'Limpiar usos antiguos de preguntas para Insertar Pregunta';
+$string['click_link'] = 'Hacer clic en el enlace de pregunta nuevamente para cerrar el marco';
 $string['embed'] = 'incustar';
 $string['filtername'] = 'Insertar pregunta';
 $string['friendlymessage'] = 'Error de programación: no pudo revisarse pregunta';

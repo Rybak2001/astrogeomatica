@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_lagomorph', language 'es_mx', version '3.10'.
+ * Strings for component 'theme_lagomorph', language 'es_mx', version '4.2'.
  *
  * @package     theme_lagomorph
  * @category    string
@@ -39,7 +39,7 @@ $string['imageinfodesc'] = 'Introduzca la URL para una imagen que está almacena
 $string['menuchoice'] = 'Elegir diseño del menú';
 $string['menuchoicedesc'] = 'Elija entre <br />1. El menú standard de Moodle2 (CustomMenu only) - este le proporciona un menú desplegable completo, pero se oculta en las pantallas más pequeñas<br />2. Una barra simple de menú (SelectMenu only), que se convierte en una herramienta de selección para pantallas pequeñas<br />3. Ambos menús (SelectMenu+CustomMenu).';
 $string['menuurl'] = 'URL para archivo del texto del menú';
-$string['menuurldesc'] = 'Un menú horizontal puede prepararse desde un archivo de texto almacenado, por ejemplo, en el bloque del menú principal en la portada del sitio. Cualquier otra localización es adecuada, siempre que esa localización sea accesible a todos sin necesidad de identificarse.<br />El menú debe organizarse como en este ejemplo:<i><br />Google|http://www.google.co.uk;<br />BBC|http://www.bbc.co.uk;<br />BBC Sport|http://www.bbc.co.uk/sport;<br />Moodle|http://moodle.org<br /><br /></i>Nota:<br />1. cada línea termina en punto y coma (;), <b>excepto la última</b><br />2. El menú está limitado a una sola línea (no desplegable) debido a la restricción de convertir el menú a desplegable para pantallas de dispositivos móviles.';
+$string['menuurldesc'] = 'Un menú horizontal puede prepararse desde un archivo de texto almacenado, por ejemplo, en el bloque del menú principal en la portada del sitio. Cualquier otra ubicación es adecuada, siempre que esa ubicación sea accesible a todos sin necesidad de identificarse.<br />El menú debe organizarse como en este ejemplo:<i><br />Google|http://www.google.co.uk;<br />BBC|http://www.bbc.co.uk;<br />BBC Sport|http://www.bbc.co.uk/sport;<br />Moodle|http://moodle.org<br /><br /></i>Nota:<br />1. cada línea termina en punto y coma (;), <b>excepto la última</b><br />2. El menú está limitado a una sola línea (no desplegable) debido a la restricción de convertir el menú a desplegable para pantallas de dispositivos móviles.';
 $string['offblackcolour'] = 'Color negro-deslavado.';
 $string['offblackdesc'] = 'Color negro-deslavado: Por defecto este color se usa para el texto de encabezado.';
 $string['offwhitecolour'] = 'Color blanco-deslavado';
@@ -49,4 +49,4 @@ $string['pgimage_title'] = 'Imagen de página';
 $string['pluginname'] = 'Lagomorfo';
 $string['settingurl'] = 'URL para archivo de texto de configuración';
 $string['settingurldesc'] = 'Muchas de las configuraciones de CSS se pueden almacenar en un archivo de texto. Este archivo puede subirse al sitio
- (por ejemplo el bloque del Menú Principal en la página de portada del sitio) y la URL se introduce aquí.<br />Nota:<br />1. Deben cuidarse las configuraciones de URL en esta manera, porque los recursos almacenados en el sitio Moodle tendrán una URL diferente si se mueven a otro sitio.<br />2. Las configuraciones guardadas en este archivo de texto tendrán preferencia sobre las configuraciones por defecto en el tema, pero serán sobre-escritas por los valores que se introduzcan en la página de configuraciones.<br />3. Esto solamente funciona para las configuraciones de css, otras configuraciones tales como la localización del archivo del texto del menú no serán leídas de este archivo de texto.';
+ (por ejemplo el bloque del Menú Principal en la página de portada del sitio) y la URL se introduce aquí.<br />Nota:<br />1. Deben cuidarse las configuraciones de URL en esta manera, porque los recursos almacenados en el sitio Moodle tendrán una URL diferente si se mueven a otro sitio.<br />2. Las configuraciones guardadas en este archivo de texto tendrán preferencia sobre las configuraciones por defecto en el tema, pero serán sobre-escritas por los valores que se introduzcan en la página de configuraciones.<br />3. Esto solamente funciona para las configuraciones de CSS, otras configuraciones tales como la ubicación del archivo del texto del menú no serán leídas de este archivo de texto.';

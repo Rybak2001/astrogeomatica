@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'autoview', language 'es_mx', version '3.10'.
+ * Strings for component 'autoview', language 'es_mx', version '4.2'.
  *
  * @package     autoview
  * @category    string
@@ -40,7 +40,7 @@ $string['autoviewsummary'] = 'Resumen';
 $string['autoviewtext'] = 'Nombre de Autoview';
 $string['chooseconfig'] = 'Ajustar archivo de configuración';
 $string['closetext'] = 'Cerrar esta ventana';
-$string['config_storage_type'] = 'Localización de Almacen de Archivo de AutoView';
+$string['config_storage_type'] = 'Ubicación de Almacen de Archivo de AutoView';
 $string['configconversionkey'] = 'Clave de acceso para servicio de conversión de documento';
 $string['configconversionkey2'] = 'La clave de acceso para servicio de conversión de documento.';
 $string['configconversionurl'] = 'URL del servicio de conversión de documento.';

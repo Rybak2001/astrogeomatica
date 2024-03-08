@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'es_mx', version '3.10'.
+ * Strings for component 'questionnaire', language 'es_mx', version '4.2'.
  *
  * @package     questionnaire
  * @category    string
@@ -67,6 +67,7 @@ $string['boxesnbmin'] = 'un mínimo de {$a} caja(s).';
 $string['boxesnbreq'] = 'Para esta pregunta Usted debe seleccionar';
 $string['by'] = 'por';
 $string['cannotviewpublicresponses'] = 'Usted no puede ver respuestas a este cuestionario público.';
+$string['centerlabel'] = 'Etiqueta central';
 $string['chart:bipolar'] = 'Barras bipolares';
 $string['chart:hbar'] = 'Barras horizontales';
 $string['chart:radar'] = 'Radar';
@@ -242,13 +243,18 @@ $string['incorrectcourseid'] = 'ID del curso es incorrecta';
 $string['incorrectmodule'] = 'ID del módulo del curso era incorrecta';
 $string['incorrectquestionnaire'] = 'El cuestionario es incorrecto';
 $string['indirectwarnings'] = 'Esta lista muestra las preguntas indirectamente dependientes y las dependencias restantes para preguntas directamente dependientes:';
+$string['invalidincrement'] = 'Tenga en cuenta que los incrementos de valor deben ser menores que el valor máximo. Por ejemplo, en una escala de 1-10, el valor del incremento probablemente sería 1.';
+$string['invalidminmaxrange'] = 'Este tipo de pregunta soporta un rango máximo absoluto de -100 a +100. Nosotros esperamos que la gran mayoría de los diseños de cuestionarios a usar estén en el rango de 1-10 o -10 a +10.';
+$string['invalidrange'] = 'El valor máximo del deslizador debe ser mayor que el valor mínimo del deslizador.';
 $string['invalidresponse'] = 'Se especificó una respuesta no válida';
 $string['invalidresponserecord'] = 'Se especificó un registro de respuesta no válido';
 $string['invalidsectionid'] = 'Se especificó sección de retroalimentación inválida';
+$string['invalidstartingvalue'] = 'El valor inicial debe ser igual o estar entre los valores mínimo y máximo. Por ejemplo, si se usa una escala de 1-10, el valor inicial podría ser 5.';
 $string['invalidsurveyid'] = 'ID del Cuestionario no válida';
 $string['kindofratescale'] = 'Tipo de escalas';
 $string['kindofratescale_help'] = 'Haga clic derecho para ver la documentación Moodle más abajo';
 $string['lastrespondent'] = 'Última persona en responder';
+$string['leftlabel'] = 'Etiqueta izquierda';
 $string['length'] = 'Largo';
 $string['managequestions'] = 'Gestionar preguntas';
 $string['managequestions_help'] = 'En la sección para Gestionar Preguntas, de la página para Editar Preguntas, Usted puede conducir un número de operaciones sobre preguntas de un Cuestionario.(questionnaire).';
@@ -257,6 +263,8 @@ $string['maxdigitsallowed'] = 'Máx dígitos permitidos';
 $string['maxdigitsallowed_help'] = 'Use **Max. dígitos permitidos** para configurar un límite al número de caracteres ingresados para una Pregunta Numérica. ¡Tenga en cuenta que el punto decimal también cuenta como un caracter!';
 $string['maxforcedresponses'] = 'Máx respuestas forzadas';
 $string['maxforcedresponses_help'] = 'Use estos parámetros para forzar a los respondentes a selccionar un mínimo de  **Min.** cajas y un máximo de **Max.** casillas de selección. Para forzar un número exacto de casillas de selección seleccionadas, configure **Min.** y **Max.** al mismo valor. Si solamente desea un solo valor min o max, simplemente deje el otro valor a su configuración por defecto de **0**. Si Usted configura **Min.** o **Max.** a valores diferentes de su valor por defecto de **0**, se mostrará un mensaje de advertencia si el encuestado no cumple con los requisitos. Obviamente, Usted debería de hacer claros los requisitos para el encuestado, ya sea en las instrucciones generales o en el texto de las preguntas relevantes.';
+$string['maxrange'] = 'Rango máximo del deslizador (derecha)';
+$string['maxrange_help'] = 'Configurar el valor máximo del rango del lado derecho. El predeterminado es 100, pero podría ser cualquier número entre 1-100. Si el valor mínimo para el lado izquierdo es un valor negativo, el rango máximo será expresado con un signo positivo (+).';
 $string['maxtextlength'] = 'Máx. longitud texto';
 $string['maxtextlength_help'] = 'Para el tipo de pregunta de Caja de Texto, ingrese la longitud de la Caja de Ingreso y la Longitud Máxima del texto a ser ingresado por el encuestado.
 Los valores por defecto son 20 caracteres para el ancho de la Caja de Ingreso y 25 caracteres para la longitud máxima del texto ingresado.';
@@ -264,6 +272,8 @@ $string['messageprovider:message'] = 'Recordatorio del cuestionario (questionnna
 $string['messageprovider:notification'] = 'Envío de Questionnaire';
 $string['minforcedresponses'] = 'Mín respuestas forzadas';
 $string['minforcedresponses_help'] = 'Use estos parámetros para forzar a los usuarios a responder un mínimo de  **Min.** cajas y un máximo f **Max.** casillas de verificación. Para forzar un número exacto de casillas de elección seleccionadas, configure **Min.** y **Max.**al mismo valor. Si solamente desea un valor mínimo o máximo, entonces dejeel otro valor a su configuración de valor de **0** por defecto. Si configura **Min.** o **Max.** a valores diferentes a su valor por  defecto de **0** , se mostrará un mensaje de advertencia si quien responde no cumple con sus requisitos. Obviamente, Usted debe poner muy claros los requisitos para quien responda en las instrucciones generales de su Cuestionario o en el texto de las preguntas relevantes.';
+$string['minrange'] = 'Rango máximo del deslizador (izquierda)';
+$string['minrange_help'] = 'Configurar el valor mínimo del rango del lado izquierdo. El predeterminado es 1, pero podría ser ta bajo como -100. Si usted usa un número negativo (-100 a -1), el máximo del lado derecho será expresado con un  signo positivo (+)., el rango máximo será expresado con un signo positivo (+).';
 $string['misconfigured'] = 'El curso está mal configurado';
 $string['missingname'] = 'La pregunta {$a} no puede usarse en esta sección de retroalimentación debido a que no tiene un nombre.';
 $string['missingnameandrequired'] = 'La pregunta {$a} no puede usarse en esta sección de retroalimentación debido a que no tiene un nombre y no es obligatoria.';
@@ -491,7 +501,9 @@ $string['resume'] = 'Guardar/Continuar respuestas';
 $string['resume_help'] = 'Configurar esta opción les permite a los usuarios guardar sus respuestas al questionnaire antes de enviarlas. Los usuarios pueden dejar sin terminar el questionnaire y continuarlo desde el punto guardado posteriormente.';
 $string['resumesurvey'] = 'Continuar el cuestionario';
 $string['return'] = 'Regresar';
+$string['rightlabel'] = 'Etiqueta derecha';
 $string['save'] = 'Guardar';
+$string['save_and_exit'] = 'Guardar y salir';
 $string['saveasnew'] = 'Guardar como Pregunta Nueva';
 $string['savedbutnotsubmitted'] = 'Este cuestionario ha sido guardado pero no ha sido enviado.';
 $string['savedprogress'] = 'Su progreso ha sido guardado. Usted podrá regresar en cualquier momento para completar este cuestionario.';
@@ -517,10 +529,16 @@ $string['set'] = 'configurada';
 $string['settings'] = 'Configuraciones';
 $string['settingssaved'] = 'Configuraciones guardadas';
 $string['show_nonrespondents'] = 'No respondentes';
+$string['slider'] = 'Deslizador';
+$string['slider_help'] = 'La pregunta de Deslizador le permite a los respondentes seleccionar un valor de un rango continuo al arrastrar un deslizador entre dos extremos. También se puede configurar un valor central.';
 $string['started'] = 'iniciado';
+$string['startingvalue'] = 'Valor inicial del Deslizador';
+$string['startingvalue_help'] = 'El valor inicial del deslizador especifica en donde debería aparecer primeramente el deslizador para los respondentes. El predeterminado es 1 porque el rango es desconocido. Usted podría querer iniciar en el centro del rango al darle un valor central (un rango de 1-100 tiene un valor central de 50).';
+$string['stepvalue'] = 'Valor de incremento del Deslizador';
+$string['stepvalue_help'] = 'El valor del incremento del deslizador especifica qué tan finamente quiere usted que los respondentes indiquen su respuesta en el rango. La pregunta tiene un rango predeterminado de 1-100, con un incremento de uno, lo que permite que los respondentes den valores de 70, 71, 72, 73, 74, etc. Pero usted podría configurar incrementos de cinco en cinco, permitiendo a los respondentes dar valores de 60, 65, 70, 75, 80, etc, o inclusive podría configurar un rango de 1-10 con incrementos de 1.';
 $string['strfdate'] = '%d/%m/%Y';
 $string['strfdateformatcsv'] = 'd/m/Y H:i:s';
-$string['strictdateformatting'] = 'Ingrese la fecha usando el selector de fecha inferior, o usando el formato \'AAA-MM-DD\'.';
+$string['strictdateformatting'] = 'Ingrese la fecha usando el selector de fecha inferior.';
 $string['subject'] = 'Asunto';
 $string['submissionnotificationhtmlanon'] = 'Hay un nuevo <a href="{$a->submissionurl}">envío</a> al questionnaire  "{$a->name}".';
 $string['submissionnotificationhtmluser'] = '<a href="{$a->profileurl}">{$a->username}</a> tiene un nuevo <a href="{$a->submissionurl}">envío</a> al cuestionario  "{$a->name}" en el curso  "{$a->coursename}".';
@@ -577,7 +595,7 @@ $string['viewbyresponse'] = 'Lista de respuestas';
 $string['viewindividualresponse'] = 'Respuestas individuales';
 $string['viewindividualresponse_help'] = 'Elija los nombres de quienes respondieron en la lista inferior para ver sus respuestas individuales';
 $string['viewresponses'] = 'Todas las respuestass ({$a})';
-$string['viewyourresponses'] = 'Sus respuestas- ver {$a}';
+$string['viewyourresponses'] = 'Ver su(s) respuesta(s)';
 $string['warning'] = 'Advertencia, error encontrado.';
 $string['wronganswers'] = 'Algo está mal con sus respuestas (vea debajo)';
 $string['wrongdateformat'] = 'La fecha introducida: <strong>{$a}</strong> no corresponde al formato mostrado en el ejemplo.';
@@ -586,5 +604,5 @@ $string['wrongformat'] = 'Algo está mal con su respuesta a la pregunta: ';
 $string['wrongformats'] = 'Algo está mal con su respuesta a las preguntas:&nbsp;';
 $string['yesno'] = 'Si/No';
 $string['yesno_help'] = 'Pregunta Si/No simple.';
-$string['yourresponse'] = 'Su respuesta';
-$string['yourresponses'] = 'Sus respuestas';
+$string['yourresponse'] = 'Ver su(s) respuesta(s)';
+$string['yourresponses'] = 'Ver su(s) respuesta(s)';

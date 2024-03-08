@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lifecycle', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_lifecycle', language 'es_mx', version '4.2'.
  *
  * @package     tool_lifecycle
  * @category    string
@@ -51,7 +51,7 @@ $string['backupcreated'] = 'Creado en';
 $string['backupworkflow'] = 'Respaldar Flujograma';
 $string['cannot_trigger_workflow_manually'] = 'El flujograma requerido no pudo ser disparado manualmente.';
 $string['config_backup_path'] = 'Ruta de la carpeta de respaldo de lifecycle';
-$string['config_backup_path_desc'] = 'Esta configuración define la localización del almacenamiento de los respaldos creados por el paso del respaldo.
+$string['config_backup_path_desc'] = 'Esta configuración define la ubicación del almacenamiento de los respaldos creados por el paso del respaldo.
 La ruta tiene que ser especificada como una ruta absoluta en su servidor.';
 $string['config_delay_duration'] = 'Duración predeterminada de un retraso de curso';
 $string['config_delay_duration_desc'] = 'Esta configuración define la duración predeterminada del retraso de un flujograma en caso de que uno de sus procesos sea retrocedido o termine.
@@ -94,6 +94,7 @@ $string['lifecycle_cleanup_task'] = 'Eliminar entradas de retrasos antiguos para
 $string['lifecycle_task'] = 'Correr los procesos del ciclo de vida';
 $string['lifecyclestep'] = 'Procesar paso';
 $string['lifecycletrigger'] = 'Disparador';
+$string['managecourses_link'] = 'Gestionar cursos';
 $string['manual_trigger_process_existed'] = 'Ya existe un flujograma para este curso.';
 $string['manual_trigger_success'] = 'Flujograma iniciado exitosamente.';
 $string['name_until_date'] = '"{$a->name}" hasta {$a->date}';

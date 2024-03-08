@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradingform_rubric', language 'es_mx', version '3.10'.
+ * Strings for component 'gradingform_rubric', language 'es_mx', version '4.2'.
  *
  * @package     gradingform_rubric
  * @category    string
@@ -69,7 +69,7 @@ $string['privacy:metadata:instanceid'] = 'Un identificador relacionado con una c
 $string['privacy:metadata:levelid'] = 'El nivel obtenido en la rúbrica.';
 $string['privacy:metadata:remark'] = 'Comentarios relacionados con el criterio de rúbrica siendo evaluado.';
 $string['regrademessage1'] = 'Usted está a punto de guardar los cambios en una rúbrica que ya ha sido utilizada para calificar. Por favor, indique si las calificaciones existentes deben ser revisadas. Si decide que debe ser así, entonces la rúbrica se ocultará a los estudiantes hasta que su elemento sea recalificado.';
-$string['regrademessage5'] = 'Usted está a punto de guardar cambios significativos a una rúbrica que ya ha sido usada para calificar. El valor del libro de calificaciones no será cambiado, pero la rúbrica se ocultará a los estudiantes hasta que sus items sean re-calificados.';
+$string['regrademessage5'] = 'Usted está a punto de guardar cambios significativos a una rúbrica que ya ha sido usada para calificar. El valor del libro de calificaciones no será cambiado, pero la rúbrica se ocultará a los estudiantes hasta que sus elementos sean re-calificados.';
 $string['regradeoption0'] = 'No marcarla para re-calificar';
 $string['regradeoption1'] = 'Marcarla para re-calificar';
 $string['restoredfromdraft'] = 'NOTA: El último intento de calificar a esta persona no se guardó adecuadamente, por lo que se han restaurado las calificaciones en borrador. Si Usted desea cancelar estos cambios, use el botón inferior  \'Cancelar\'.';
@@ -90,11 +90,11 @@ $string['scoreinputforlevel'] = 'Ingreso de puntaje para nivel {$a}';
 $string['scorepostfix'] = '{$a} puntos';
 $string['showdescriptionstudent'] = 'Mostrar descripción de rúbrica a quienes son calificados';
 $string['showdescriptionteacher'] = 'Mostrar descripción de rúbrica durante la evaluación';
-$string['showremarksstudent'] = 'Mostrar notas-comentarios a quienes son calificados';
+$string['showremarksstudent'] = 'Mostrar comentarios a quienes son calificados';
 $string['showscorestudent'] = 'Mostrar puntos para cada nivel a quienes son calificados';
 $string['showscoreteacher'] = 'Mostrar puntos para cada nivel durante la evaluación';
 $string['sortlevelsasc'] = 'Forma de ordenar para niveles:';
-$string['sortlevelsasc0'] = 'Descendiente por número de puntos';
+$string['sortlevelsasc0'] = 'Descendente por número de puntos';
 $string['sortlevelsasc1'] = 'Ascendente por número de puntos';
 $string['zerolevelsabsent'] = 'Advertencia: El puntaje mínimo posible para esta rúbrica no es de 0; esto puede resultar en calificaciones inesperadas para la actividad. Para evitar esto, cada criterio debería de tener un nivel con 0 puntos.<br>
 Esta advertencia puede ser ignorada si se usa una escala para calificar, y los valores mínimos en la rúbrica corresponden al valor mínimo de la escala.';

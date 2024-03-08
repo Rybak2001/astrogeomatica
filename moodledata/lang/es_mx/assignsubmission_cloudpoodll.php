@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignsubmission_cloudpoodll', language 'es_mx', version '3.10'.
+ * Strings for component 'assignsubmission_cloudpoodll', language 'es_mx', version '4.2'.
  *
  * @package     assignsubmission_cloudpoodll
  * @category    string
@@ -35,15 +35,12 @@ $string['appnotauthorised'] = 'Envío de Tarea  Cloud Poodll NO está autorizado
 $string['ar-ae'] = 'Arábico (Golfo)';
 $string['ar-sa'] = 'Arábico (Moderno Estándar)';
 $string['audiolistdisplay'] = 'Mostrar reproductor de audio (en listas)';
-$string['audioplaceholder'] = '[audio enviado]';
 $string['audiosingledisplay'] = 'Mostrar reproductor de audio (único)';
 $string['awsregion'] = 'Región AWS';
 $string['clicktohide'] = 'Ocultar envío actual';
 $string['clicktoshow'] = 'Mostrar envío actual';
 $string['cloudpoodll'] = 'Cloud Poodll';
 $string['cloudpoodll:use'] = 'Permitir uso de envíos Cloud Poodll';
-$string['cloudpoodllfilename'] = 'cloudpoodll.html';
-$string['cloudpoodllsubmission'] = 'Permitir envío Cloud Poodll';
 $string['credentialsinvalid'] = 'El secreto y usuario API ingresados no se pudieron usar para ganar acceso. Por favor, revíselos.';
 $string['currentsubmission'] = 'Envío Actual:';
 $string['customdivider'] = '---------------{$a->customname} ("{$a->pluginname}")----------------';
@@ -139,23 +136,15 @@ $string['recorderskin'] = 'Cloud Poodll Rec. Piel';
 $string['recordertype'] = 'Cloud Poodll Rec. Tipo';
 $string['recordervideo'] = 'Grabadora de Video';
 $string['refreshtoken'] = 'Refrescar información de licencia';
-$string['region'] = 'Región AWS';
 $string['ru-ru'] = 'Ruso';
 $string['safesave'] = 'Habilitar Guardado Seguro - deshabilita el botón de enviar tarea hasta que la subida de Cloud Poodll esté completa.';
 $string['saopaulo'] = 'Sao Paulo, Brasil';
 $string['setting_audio_heading'] = 'Configuraciones de reproductor de audio';
 $string['setting_audio_heading_details'] = 'Configuraciones que controlan la apariencia del reproductor en las páginas de enlistar y revisar envío';
-$string['setting_snapshot_heading'] = 'Configuraciones de instantánea de imagen';
-$string['setting_snapshot_heading_details'] = 'Configuraciones que controlan la apariencia de la imagen en las páginas de enlistar y revisar envío';
 $string['setting_video_heading'] = 'Configuraciones de reproductor de video';
 $string['setting_video_heading_details'] = 'Configuraciones que controlan la apariencia del reproductor en las páginas de enlistar y revisar envío';
-$string['setting_whiteboard_heading'] = 'Configuraciones de imagen de pizarrón';
-$string['setting_whiteboard_heading_details'] = 'Configuraciones que controlan la apariencia de la imagen en las páginas de enlistar y revisar envío';
 $string['showaudiolightbox'] = 'Mostrar nombredearchivo (cajadeluz)';
-$string['showcurrentsubmission'] = 'Mostrar Envío Actual';
-$string['showcurrentsubmissiondetails'] = 'Mostrar envío previamente grabado en el formato para envío-';
 $string['shownoaudio'] = 'Mostrar nombredearchivo';
-$string['shownoimage'] = 'No mostrar imagen';
 $string['shownovideo'] = 'Mostrar nombre del archivo';
 $string['showvideolightbox'] = 'Mostrar nombredearchivo (cajadeluz)';
 $string['singapore'] = 'Singapur';
@@ -177,7 +166,6 @@ $string['transcribernone'] = 'Sin transcripción';
 $string['transcripttitle'] = 'Transcribir';
 $string['useast1'] = 'Este de EEUU';
 $string['videolistdisplay'] = 'Tamaño de reproductor de video (en listas)';
-$string['videoplaceholder'] = '[video enviado]';
 $string['videosingledisplay'] = 'Tamaño de reproductor de video (único)';
 $string['yes'] = 'si';
 $string['zh-cn'] = 'Chino (Mandarín-Continental)';

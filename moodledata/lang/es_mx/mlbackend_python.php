@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mlbackend_python', language 'es_mx', version '3.10'.
+ * Strings for component 'mlbackend_python', language 'es_mx', version '4.2'.
  *
  * @package     mlbackend_python
  * @category    string
@@ -43,7 +43,7 @@ $string['secure'] = 'Usar HTTPS';
 $string['securedesc'] = 'Si es que se usa HTTP o HTTPS.';
 $string['serversettingsinfo'] = 'Si está habilitado el "Usar un servidor", serán mostradas las configuraciones del servidor.';
 $string['tensorboardinfo'] = 'Invocar TensorBoard desde la línea de comandos al escribir tensorboard --logdir=\'{$a}\' en su servidor web.';
-$string['username'] = 'Nombre_de_usuario';
-$string['usernamedesc'] = 'Cadena de caracteres alfanuméricos usada como un nombre_de_usuario para comunicarse entre su servidor Moodle y el servidor Python.';
+$string['username'] = 'Nombre de usuario';
+$string['usernamedesc'] = 'Cadena de caracteres alfanuméricos usada como un nombre de usuario para comunicarse entre su servidor Moodle y el servidor Python.';
 $string['useserver'] = 'Usar un servidor';
 $string['useserverdesc'] = 'El paquete Python de backend de aprendizaje de máquina no está instalado en el servidor web, sino que está en un servidor diferente.';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_configurable_reports', language 'es_mx', version '3.10'.
+ * Strings for component 'block_configurable_reports', language 'es_mx', version '4.2'.
  *
  * @package     block_configurable_reports
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activitypost'] = 'Publicaciones de actividad';
 $string['activityview'] = 'Vistas de actividad';
+$string['add'] = 'Añadir';
 $string['addreport'] = 'Añadir reporte';
 $string['anyone'] = 'Cualquiera';
 $string['anyone_summary'] = 'Cualquier usuario en el Campus podra ver este reporte';
@@ -46,6 +47,11 @@ $string['ccoursefield'] = 'Condición de campo del curso';
 $string['cellalign'] = 'Alinear celdas';
 $string['cellsize'] = 'Tamaño de celda';
 $string['cellwrap'] = 'Reacomodo de celdas';
+$string['checksql_execution'] = 'Ejecución de SQL Bloque de Reportes Configurable';
+$string['checksql_execution_details'] = 'Al permitir la ejecución de código SQL hay un problema potencial de seguridad con los usuarios que añadan código arbitrario. La ejecución de código SQL debería ser deshabilitada para solamente permitir consultas SQL para leer/recuperar datos. LA ejecución de SQL puede ser deshabilitada en su archivo config.php al configurar $CFG->block_configurable_reports_enable_sql_execution a 0';
+$string['checksql_execution_ok'] = 'La ejecución de SQL está deshabilitada.';
+$string['checksql_execution_warning'] = 'Se recomienda deshabilitar la ejecución de SQL para evitar la ejecución de código SQL arbitrario en su servidor.';
+$string['cohorts'] = 'Cohortes';
 $string['column'] = 'Columna';
 $string['columnandcellproperties'] = 'Propiedades de columna y celda';
 $string['columncalculations'] = 'Cálculos de columna';
@@ -108,6 +114,8 @@ $string['comp_template_help'] = '<p>Usted puede modificar el diseño del reporte
 <p>Para crear una plantilla vea las marcas para reemplazar que puede emplear en el encabezado, pie de paginas y para cada registro del reporte usando los botones de ayuda o la información que se muestra en la misma página</p>
 
 <p>Más ayuda: <a href="http://docs.moodle.org/en/blocks/configurable_reports/" target="_blank">Plugin documentation</a></p>';
+$string['competencyframeworks'] = 'Armazones de Competencia';
+$string['competencytemplates'] = 'Plantillas de Competencia';
 $string['componenthelp'] = 'Ayuda de componente';
 $string['conditionexpr'] = 'Condición';
 $string['conditionexpr_conditions'] = 'Condición';
@@ -182,6 +190,8 @@ $string['dbpassinfo'] = 'Contraseña para BasedeDatos remota (para el usuario de
 $string['dbuser'] = 'Nombre_de_usuario de BasedeDatos';
 $string['dbuserinfo'] = 'Nombre de usuario de BasedeDatos remota (debería de tener privilegios SELECT en la BasedeDatos de arriba)';
 $string['decimals'] = 'Número de decimales';
+$string['description'] = 'Descripción';
+$string['description_help'] = 'Texto usado para describir el filtro que será mostrado en el resumen en la página de filtros.';
 $string['direction'] = 'Instruccion';
 $string['disabled'] = 'Deshabilitado';
 $string['displayglobalreports'] = 'Mostrar reportes globales';
@@ -219,6 +229,12 @@ $string['filter_searchtext'] = 'Buscar texto';
 $string['filter_searchtext_summary'] = 'Filtro de texto libre';
 $string['filtercategories'] = 'Filtrar categorias';
 $string['filtercategories_summary'] = 'Para filtrar por categoría';
+$string['filtercohorts'] = 'Cohortes';
+$string['filtercohorts_summary'] = 'Uso: %%FILTER_COHORTS:prefix_cohort.id%%';
+$string['filtercompetencyframeworks'] = 'Armazones de Competencia';
+$string['filtercompetencyframeworks_summary'] = 'Uso: %%FILTER_COMPETENCYFRAMEWORKS:prefix_competency_framework.id%%';
+$string['filtercompetencytemplates'] = 'Plantillas de Competencia';
+$string['filtercompetencytemplates_summary'] = 'Uso: %%FILTER_COMPETENCYTEMPLATES:prefix_competency_template.id%%';
 $string['filtercoursecategories'] = 'Filtro de cuurso de categoría';
 $string['filtercoursecategories_summary'] = 'Filtrar cursos por su categoría padre';
 $string['filtercoursemodules'] = 'Módulo de curso';
@@ -254,6 +270,9 @@ $string['footer'] = 'Pie de página';
 $string['forcemidnight'] = 'Forzar medianoche';
 $string['fsearchuserfield'] = 'Caja de búsqueda de campo del usuario';
 $string['fuserfield'] = 'Filtro de campo del usuario';
+$string['generalcolorpalette'] = 'Paleta no mapeada';
+$string['generalcolorpalette_help'] = 'Códigos hexadecimales de colores para uso general en la gráfica de pastel. Los códigos deberían estar separados por líneas nuevas en el orden que Usted quiere que sean usados en la gráfica de pastel.';
+$string['generalcolorpaletteheader'] = 'Paleta general de colores';
 $string['global'] = 'Reporte global';
 $string['global_help'] = 'El reporte global puede accesarse desde cualquier curso en la plataforma, simplemente añadiendo &courseid=MY_COURSE_ID en la URL del reporte';
 $string['globalstatsshouldbeenabled'] = 'Las estadisticas del sitio deben estar habilitadas. Vaya a Administración  > Servidor > Estadisticas';
@@ -264,15 +283,22 @@ $string['head_data'] = 'Datos de la gráfica';
 $string['head_size'] = 'Tamaño de la gráfica';
 $string['header'] = 'Encabezado';
 $string['height'] = 'Altura';
+$string['idnumber'] = 'Número ID';
+$string['idnumber_help'] = 'Usado para diferenciar entre filtros del mismo tipo. Sensible a minúsculas/MAYÚSCULAS. Ejemplo de uso: %%FILTER_SEARCHTEXT_username:u.username:~%%';
 $string['importfromrepository'] = 'Importar reporte desde repositorio';
 $string['importreport'] = 'Importar reporte';
 $string['includesubcats'] = 'Incluir subcategorias';
+$string['invalidcolorcode'] = 'Código de color inválido';
 $string['jsordering'] = 'Ordenamiento JavaScript';
 $string['jsordering_help'] = 'El ordenamiento JavaScript le permite ordenar la tabla del reporte sin volver a cargar la página';
+$string['label'] = 'Etiqueta';
 $string['label_field'] = 'Campo de etiqueta';
 $string['label_field_help'] = 'El campo que proporciona nombres para las cosas respresentadas en la gráfica';
+$string['label_help'] = 'Texto que describe el filtro a ser mostrado en la página del reporte.';
 $string['lastexecutiontime'] = 'Tiempo de ejecución = {$a} (Sec)';
 $string['legacylognotenabled'] = 'Las bitácoras antiguas deben estar habilitadas. Vaya a la Administración del sitio / Plugins / Bitácoras / Habilitar bitácora antigua y dentro de la configuración de bitácora active Datos de Bitácora antigua';
+$string['legendheader'] = 'Paleta mapeada';
+$string['legendheaderdesc'] = 'Mapear códigos de color para especificar claves en los letreros del gráfico de pastel.';
 $string['limitcategories'] = 'Limitar categorías en una gráfica';
 $string['line'] = 'Gráfica de lineas';
 $string['linesummary'] = 'Una gráfica de lineas con varias series de datos';
@@ -308,6 +334,9 @@ $string['permissions'] = 'Permisos';
 $string['pie'] = 'Pastel';
 $string['pieareaname'] = 'Nombre';
 $string['pieareavalue'] = 'Valor';
+$string['piechart_add_colors'] = 'Añadir color';
+$string['piechart_label'] = 'Clave - {$a}';
+$string['piechart_label_color'] = 'Color - {$a}';
 $string['piesummary'] = 'Una gráfica de pastel';
 $string['plot'] = 'Graficar - gráficas';
 $string['pluginname'] = 'Reportes configurables';

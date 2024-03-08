@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'antivirus_clamav', language 'es_mx', version '3.10'.
+ * Strings for component 'antivirus_clamav', language 'es_mx', version '4.2'.
  *
  * @package     antivirus_clamav
  * @category    string
@@ -29,7 +29,7 @@ $string['antivirusfailed'] = 'Hubo un problema con la revisión de AntiVirus en 
 $string['clamfailed'] = 'Clam AV no se ha ejecutado. El mensaje de error de retorno es {$a}. Ésta es la salida de Clam:';
 $string['clamfailureonupload'] = 'Cuando falle ClamAV';
 $string['configclamactlikevirus'] = 'Tratar los archivos como si efectivamente fueran virus';
-$string['configclamdonothing'] = 'Tratar los archivos como si estuvieran OK';
+$string['configclamdonothing'] = 'Tratar los archivos como si estuvieran bien';
 $string['configclamfailureonupload'] = 'Si estuviera seleccionado \'Tratar archivos como OK\', los archivos serán movidos a l directorio de destino. Si estuviera seleccionado  \'Rehusar subida, intentar nuevamente\' al usuario se le pedirá que lo intente después nuevamente. Si estuviera seleccionado \'Tratar archivos como virus\' los archivos serán movidos al área de cuarentena, o eliminados. Advertencia: Con esta opción, Si por alguna razón Clam no funcionara (usualmente debido a que Usted ha ingresado una ruta-hacia-Clam inválida), TODOS los archivos que sean subidos serán movidos al área dada de cuarentena, o serán eliminados.';
 $string['configclamtryagain'] = 'Rehusar subida; intentarlo nuevamente';
 $string['errorcantopensocket'] = 'La conexión al socket de dominio Unix resultó en error {$a}';

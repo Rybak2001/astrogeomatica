@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'game', language 'es_mx', version '3.10'.
+ * Strings for component 'game', language 'es_mx', version '4.2'.
  *
  * @package     game
  * @category    string
@@ -57,6 +57,8 @@ $string['common_problems_allowspaces'] = 'Hay palabras que contienen espacios, p
 $string['common_problems_crossword_param1'] = 'El número máximo de columnas/filas es demasiado pequeño';
 $string['common_problems_shortanswer_hangman'] = 'No todos los caracteres están en el idioma del juego';
 $string['completedon'] = 'Completado en';
+$string['completionpass'] = 'Requerir calificación aprobatoria';
+$string['completionpass_help'] = 'Si se habilita, esta actividad es considerada completada cuanto el estudiante recibe una calificación aprobatoria (como se especifica en la sección Calificación de las configuraciones del examen) o mayor.';
 $string['computerepetitions'] = 'Recalcular estadísticas';
 $string['confighangmanimagesets'] = 'Configura cuantos conjuntos de imágenes son usados por el ahorcado';
 $string['confighidebookquiz'] = 'Configura si es que el juego de \'Libro con preguntas\' se muestra o no a los profesores';

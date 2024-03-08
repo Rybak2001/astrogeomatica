@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_analytics', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_analytics', language 'es_mx', version '4.2'.
  *
  * @package     tool_analytics
  * @category    string
@@ -88,7 +88,6 @@ $string['exportmodel'] = 'Exportar configuración';
 $string['exporttrainingdata'] = 'Exportar datos de entrenamiento';
 $string['extrainfo'] = 'Información';
 $string['generalerror'] = 'Error de evaluación. Código de estatus {$a}';
-$string['getpredictions'] = 'Obtener predicciones';
 $string['goodmodel'] = 'Este es un buen modelo a usar para obtener predicciones. Habilítelo para comenzar a obtener predicciones.';
 $string['ignoreversionmismatches'] = 'Ignorar discrepancias de versión';
 $string['ignoreversionmismatchescheckbox'] = 'Ignorar las diferencias entre la versión de este sitio y la versión del sitio original.';
@@ -96,6 +95,7 @@ $string['importedsuccessfully'] = 'El modelo ha sido importado exitosamente.';
 $string['importmodel'] = 'Importar modelo';
 $string['indicators'] = 'Indicadores';
 $string['indicators_help'] = 'Los indicadores son lo que Usted piensa que conducirán a una predicción acertada de la meta.';
+$string['indicators_link'] = 'Indicadores';
 $string['indicatorsnum'] = 'Número de indicadores: {$a}';
 $string['info'] = 'Información';
 $string['insights'] = 'Intuiciones (predicciones)';
@@ -144,6 +144,7 @@ $string['scheduledanalysisresultscli'] = 'Resultados usando el método {$a->name
 $string['selecttimesplittingforevaluation'] = 'Seleccionar el intervalo de análisis que desea usar para evaluar la configuración del modelo.';
 $string['target'] = 'Meta';
 $string['target_help'] = 'La meta es lo que el modelo predice.';
+$string['target_link'] = 'Destinos';
 $string['timesplittingnotdefined'] = 'No está definido el intervalo de análisis.';
 $string['timesplittingnotdefined_help'] = 'Usted necesita seleccionar un intervalo de análisis antes de habilitar este modelo.';
 $string['trainandpredictmodel'] = 'Entrenando modelo y calculando predicciones';

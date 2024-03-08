@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_adaptive', language 'es_mx', version '3.10'.
+ * Strings for component 'qbehaviour_adaptive', language 'es_mx', version '4.2'.
  *
  * @package     qbehaviour_adaptive
  * @category    string
@@ -26,17 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['disregardedwithoutpenalty'] = 'El envío era inválido, y ha sido descartado sin penalización.';
-$string['gradingdetails'] = 'Puntos para este envío:
-{$a->raw}/{$a->max}.';
+$string['gradingdetails'] = 'Calificación para este envío: {$a->raw}/{$a->max}.';
 $string['gradingdetailsadjustment'] = 'Tomando en cuenta los intentos anteriores, esto da
 <strong>{$a->cur}/{$a->max}</strong>.';
 $string['gradingdetailspenalty'] = 'Este envío supone una penalización de {$a}.';
 $string['gradingdetailspenaltytotal'] = 'Total de penalizaciones hasta este momento: {$a}.';
-$string['gradingdetailswithadjustment'] = 'Puntaje para este envío: {$a->raw}/{$a->max}. Tomando en cuenta los intentos anteriores, esto da <strong>{$a->cur}/{$a->max}</strong>.';
-$string['gradingdetailswithadjustmentpenalty'] = 'Puntaje para este envío: {$a->raw}/{$a->max}. Tomando en cuenta los intentos anteriores, esto da <strong>{$a->cur}/{$a->max}</strong>. Este envío trajo una penalización de {$a->penalty}.';
-$string['gradingdetailswithadjustmenttotalpenalty'] = 'Puntaje para este envío: {$a->raw}/{$a->max}. Tomando en cuenta los intentos anteriores, esto da <strong>{$a->cur}/{$a->max}</strong>. Este envío trajo una penalización de {$a->penalty}.  Penalizaciones totales hasta ahora: {$a->totalpenalty}.';
-$string['gradingdetailswithpenalty'] = 'Puntos para este envío: {$a->raw}/{$a->max}. Este envío trajo una penalización de {$a->penalty}.';
-$string['gradingdetailswithtotalpenalty'] = 'Puntos para este envío: {$a->raw}/{$a->max}. Este envío trajo una penalización de {$a->penalty}.  Penalizacioness totales hasta ahora: {$a->totalpenalty}.';
+$string['gradingdetailswithadjustment'] = 'Calificación para este envío: {$a->raw}/{$a->max}. Tomando en cuenta los intentos anteriores, esto da <strong>{$a->cur}/{$a->max}</strong>.';
+$string['gradingdetailswithadjustmentpenalty'] = 'Calificación para este envío: {$a->raw}/{$a->max}. Tomando en cuenta los intentos anteriores, esto da <strong>{$a->cur}/{$a->max}</strong>. Este envío trajo una penalización de {$a->penalty}.';
+$string['gradingdetailswithadjustmenttotalpenalty'] = 'Calificación para este envío: {$a->raw}/{$a->max}. Tomando en cuenta los intentos anteriores, esto da <strong>{$a->cur}/{$a->max}</strong>. Este envío trajo una penalización de {$a->penalty}.  Penalizaciones totales hasta ahora: {$a->totalpenalty}.';
+$string['gradingdetailswithpenalty'] = 'Calificación para este envío: {$a->raw}/{$a->max}. Este envío trajo una penalización de {$a->penalty}.';
+$string['gradingdetailswithtotalpenalty'] = 'Calificación para este envío: {$a->raw}/{$a->max}. Este envío trajo una penalización de {$a->penalty}.  Penalizacioness totales hasta ahora: {$a->totalpenalty}.';
 $string['notcomplete'] = 'Sin finalizar';
 $string['pluginname'] = 'Modo adaptativo';
 $string['privacy:metadata'] = 'El plugin del comportamiento de pregunta de Modo Adaptativo no almacena ningún dato personal.';

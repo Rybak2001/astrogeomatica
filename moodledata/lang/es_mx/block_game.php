@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_game', language 'es_mx', version '3.10'.
+ * Strings for component 'block_game', language 'es_mx', version '4.2'.
  *
  * @package     block_game
  * @category    string
@@ -26,13 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['abbreviate_score'] = 'punt';
+$string['activity_points'] = 'Puntos por completar la actividad';
+$string['activity_points_help'] = '<p>Define cuantos puntos recibirán los estudiantes después de completar esta actividad.</p><p>Usted necesita configurar la finalización de actividad para habilitar este campo.</p>';
 $string['block_game:addinstance'] = 'Añadir un nuevo bloque de Juego';
 $string['block_game:myaddinstance'] = 'Añadir un nuevo bloque de Juego a la página de Mi Moodle';
+$string['cleargametask'] = 'Trabajo para eliminar usuarios eliminados y cursos del bloque juego.';
 $string['config_avatar'] = 'Usar Avatar';
 $string['config_avatar_course'] = 'Permitir cambio de avatar encurso';
 $string['config_avatar_help'] = '<p>Usando Avatar.</p>';
 $string['config_bonus_badge'] = 'Bono por emblema';
-$string['config_bonus_badge_help'] = '<p>Valor de bono por cada insignia de curso  completado.</p>';
+$string['config_bonus_badge_help'] = '<p>Valor de bono por cada insignia.</p>';
 $string['config_bonus_day'] = 'Bono del día';
 $string['config_bonus_day_help'] = '<p>Bono del día de la insignia; configura puntos por días de acceso.</p>';
 $string['config_icons_help'] = '<p>Mostrando los íconos.</p>';
@@ -97,6 +100,9 @@ $string['config_title'] = 'Editar Título';
 $string['config_title_help'] = '<p>Editando el título del bloque.</p>';
 $string['defaultdisplaysettings'] = 'Configuraciones generales del paquete de Juego';
 $string['downloadthis'] = 'Descargar como';
+$string['game:addinstance'] = 'Añadir un nuevo bloque de Juego';
+$string['game:myaddinstance'] = 'Añadir un nuevo bloque de Juego a la página de Mi Moodle';
+$string['game_points'] = 'Puntos del juego';
 $string['game_title_default'] = 'Juego';
 $string['general'] = 'General';
 $string['help'] = 'Ayuda';
@@ -109,8 +115,8 @@ $string['help_avatar_text_course'] = 'El juego le permite elegir o cambiar su av
 - ¡Usted solamente puede cambiar su avatar en la página inicial o la página del Tablero! <br/>
 - ¡El avatar de tono gris solamente estará disponible cuando haya alcanzado el nivel requerido!<br/>';
 $string['help_avatar_titulo'] = 'Acerca del avatar';
-$string['help_bonus_badge_text'] = '<strong>Bonos por insignia</strong> - Cuando complete un curso recibirá una insignia de recompensa. ¡Esta insignia añade un gran bono que se sumará a su puntaje!<br/>';
-$string['help_bonus_badge_text_value'] = 'Cantidad de bono actual por insignia:';
+$string['help_bonus_badge'] = '<strong>Bono por insignia</strong> - Las insignias son usadas para recompensar al usuario por completar una meta o un reto, completar una actividad o un conjunto de actividades, llenar un campo del perfil, completar un curso, entre otras cosas. ¿Cuando usted gane un emblema, será añadido un gran bono a su puntaje!<br/>';
+$string['help_bonus_badge_value'] = 'Cantidad actual de bono por insignia:';
 $string['help_bonus_day_text'] = '<strong>Bonodel día</strong> - ¡Simplemente por acceder al entorno o a su curso Usted recibirá, una vez al día, un bono que será añadido a su puntaj!<br/>';
 $string['help_bonus_day_text_value'] = 'Valor actual del Bono del Día:';
 $string['help_game_title'] = 'Ayuda del juego';
@@ -158,6 +164,7 @@ $string['level_6_required'] = 'Nivel 6 requerido';
 $string['level_7_required'] = 'Nivel 7 requerido';
 $string['level_8_required'] = 'Nivel 8 requerido';
 $string['level_9_required'] = 'Nivel 9 requerido';
+$string['level_max_ok'] = '¡Nivel máximo alcanzado!';
 $string['med'] = 'Promedio';
 $string['name'] = 'Nombre';
 $string['next_level'] = 'Siguiente nivel';

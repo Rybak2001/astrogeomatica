@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_uicustomcss', language 'es_mx', version '3.10'.
+ * Strings for component 'block_uicustomcss', language 'es_mx', version '4.2'.
  *
  * @package     block_uicustomcss
  * @category    string
@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['desc_css'] = 'Escriba solamente CSS válido. No escriba HTML.';
-$string['desc_url'] = 'Escriba la localización http de una hoja de estilo (stylesheet) existente a importar';
+$string['desc_url'] = 'Escriba la ubicación http de una hoja de estilo (stylesheet) existente a importar';
 $string['label_css'] = 'Código CSS';
 $string['label_url'] = 'URL de Hoja_de_estilo CSS';
 $string['pluginname'] = 'CSS Personalizado UI';

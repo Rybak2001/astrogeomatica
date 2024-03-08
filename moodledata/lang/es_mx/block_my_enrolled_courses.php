@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_my_enrolled_courses', language 'es_mx', version '3.10'.
+ * Strings for component 'block_my_enrolled_courses', language 'es_mx', version '4.2'.
  *
  * @package     block_my_enrolled_courses
  * @category    string
@@ -36,4 +36,5 @@ $string['pluginname'] = 'Mis cursos inscritos';
 $string['showcourse'] = 'Mostrar cursos';
 $string['showhide'] = 'Mostrar/Ocultar cursos';
 $string['showhide_page_title'] = 'Mostrar/Ocultar cursos';
+$string['submitandback'] = 'Guardar y Regresar';
 $string['visible_lable'] = 'Cursos visibles';

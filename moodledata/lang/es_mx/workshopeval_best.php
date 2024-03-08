@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'workshopeval_best', language 'es_mx', version '3.10'.
+ * Strings for component 'workshopeval_best', language 'es_mx', version '4.2'.
  *
  * @package     workshopeval_best
  * @category    string

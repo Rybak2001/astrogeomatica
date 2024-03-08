@@ -1,7 +1,0 @@
-s:768:"<p>Los usuarios pueden subirse (y, opcionalmente, inscribirse en cursos) por medio de un archivo de texto simple con terminación .CVS codificado en UTF-8 para permitir eñes y vocales acentuadas en nombre y apellidos - pero NO en el nombre_de_usuario (username) -. El formato del archivo debe ser el siguiente:</p>
-
-<ul><li>Cada línea del archivo contiene solo un registro.</li>
-<li>Cada registro es una serie de datos separados por comas (o por otro delimitador)</li>
-<li>El primer registro contiene una lista de nombres de campo que definen el formato del resto del archivo</li>
-<li>Los nombres de campo necesarios son (así escritos en inglés)  username, password, firstname, lastname, email (nombre-de-usuario, contraseña, nombre, apellidos, correo)</li>
-</ul>";

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'auth_oidc', language 'es_mx', version '3.10'.
+ * Strings for component 'auth_oidc', language 'es_mx', version '4.2'.
  *
  * @package     auth_oidc
  * @category    string
@@ -25,14 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['auth_method_certificate'] = 'Certificado';
+$string['auth_method_secret'] = 'Secreto';
 $string['auth_oidcdescription'] = 'El plugin OpenID Connect proporciona funcionalidad de ingreso-único usando proveedores de identidad configurables.';
-$string['cfg_authendpoint_desc'] = 'La URL del punto-final de Autorización de su proveedor de identidad a usar.';
-$string['cfg_authendpoint_key'] = 'Punto-final de Autorización';
+$string['cfg_authenticationlink_desc'] = '<a href="{$a}" target="_blank">Enlace a configuración de autenticación y IdP</a>';
 $string['cfg_autoappend_key'] = 'Auto-Anexar';
-$string['cfg_clientid_desc'] = 'Su ID de Cliente registrado en el proveedor de identidad';
-$string['cfg_clientid_key'] = 'ID del cliente';
-$string['cfg_clientsecret_desc'] = 'Su Secreto del Cliente registrado en el proveedor de identidad. En algunos proveedores también se le refier como una clave (key).';
-$string['cfg_clientsecret_key'] = 'Secreto del cliente';
 $string['cfg_customicon_key'] = 'Ícono personalizado';
 $string['cfg_debugmode_desc'] = 'Si se habilita, la información se guardará en bitácora de Moodle para poder ayudar a identificar problemas.';
 $string['cfg_debugmode_key'] = 'Grabar mensajes de depuración (debug)';
@@ -61,20 +58,26 @@ $string['cfg_iconalt_user'] = 'Ícono de usuario';
 $string['cfg_iconalt_user2'] = 'Ícono alterno de usuario';
 $string['cfg_iconalt_userlock'] = 'Ícono de usuario con candado';
 $string['cfg_loginflow_authcode'] = 'Flujo de Código de Autorización (recomendado)';
-$string['cfg_loginflow_key'] = 'Método de Autenticación';
+$string['cfg_loginflow_key'] = 'Flujo de Ingreso';
 $string['cfg_loginflow_rocreds'] = 'Otorgamiento de Credenciales de Contraseña al Propietario del Recurso';
 $string['cfg_logoutendpoint_desc'] = 'La URI del endpoint de salida de su proveedor de identidad a ser usada.';
 $string['cfg_logoutendpoint_key'] = 'Endpoint de salida';
-$string['cfg_oidcresource_desc'] = 'El recurso de OpenID Connect para el cual se envía la solicitud.';
-$string['cfg_oidcresource_key'] = 'Recurso';
 $string['cfg_opname_desc'] = 'Esta es una etiqueta de cara al usuario final que identifica el tipo de credenciales que debe usar el usuario para ingresar. Esta etiqueta es usada en las porciones que dan cara al usuario de este plugin para identificar a su proveedor.';
-$string['cfg_opname_key'] = 'Nombre del Proveedor';
+$string['cfg_opname_key'] = 'Proveedor Visualizar Nombre';
 $string['cfg_redirecturi_key'] = 'URL de Redirección';
-$string['cfg_signoffintegration_key'] = 'Ingreso único';
-$string['cfg_tokenendpoint_desc'] = 'La URL del puntofinal de la ficha (token endpoint) de su proveedor de identidad a usar.';
-$string['cfg_tokenendpoint_key'] = 'Puntofinal de la Ficha (Token Endpoint)';
+$string['cfg_signoffintegration_key'] = 'Salida Única (de Moodle a IdP)';
 $string['cfg_userrestrictions_key'] = 'Restricciones del Usuario';
 $string['cfg_userrestrictionscasesensitive_key'] = 'MAYÚSCULAS/minúsculas si importan en Restricciones de Usuario';
+$string['clientauthmethod'] = 'Método de autenticación del cliente';
+$string['clientcert'] = 'Clave pública de certificado del cliente';
+$string['clientid'] = 'ID de aplicación';
+$string['clientid_help'] = 'Su aplicación registrada / ID del cliente en el IdP';
+$string['clientprivatekey'] = 'Clave privada del certificado del cliente';
+$string['clientsecret'] = 'Secreto del cliente';
+$string['clientsecret_help'] = 'Cuando se usa el método de autenticación por  <b>secreto</b>, este es el secreto del cliente en el IdP. En algunos proveedores, también es referido como una clave.';
+$string['delete_token'] = 'Eliminar token';
+$string['delete_token_and_reference'] = 'Eliminar token y referencia';
+$string['error_invalid_client_authentication_method'] = 'Método inválido de autenticación del cliente';
 $string['errorauthdisconnectemptypassword'] = 'La contraseña no puede estar vacía';
 $string['errorauthdisconnectemptyusername'] = 'El nombre_de_usuario no puede estar vacío';
 $string['errorauthdisconnectifmanual'] = 'Si se usa el método de ingreso manual, escriba debajo las credenciales.';
@@ -84,9 +87,8 @@ $string['errorauthdisconnectusernameexists'] = 'Ese nombre_de_usuario ya está t
 $string['errorauthgeneral'] = 'Hubo un problema al ingresarlo. Por favor contacte a su administrador para asistencia.';
 $string['errorauthinvalididtoken'] = 'Se recibió id_token inválido';
 $string['errorauthloginfailednouser'] = 'Ingreso inválido: Usuario no encontrado en Moodle. Si este sitio tiene habilitada la configuración "authpreventaccountcreation" , esto podría significar que Usted necesita que un administrador cree primeramente una cuenta para Usted..';
+$string['errorauthnoaccesstoken'] = 'Token de acceso no recibido';
 $string['errorauthnoauthcode'] = 'No se recibió código de Autorización del servidor de identidad. Las bitácoras de error podrían tener más información';
-$string['errorauthnocreds'] = 'Por favor, configure las credenciales del cliente de OpenID Connect.';
-$string['errorauthnoendpoints'] = 'Por favor, configure los puntosfinales (endpoints) del cliente de OpenID Connect.';
 $string['errorauthnohttpclient'] = 'Por favor configure un cliente HTTP.';
 $string['errorauthnoidtoken'] = 'id_token de OpenID Connect no recibido.';
 $string['errorauthunknownstate'] = 'Estado desconocido.';
@@ -118,9 +120,22 @@ $string['eventuserconnected'] = 'Usuario conectado con OpenID Connect';
 $string['eventusercreated'] = 'Usuario creado con OpenID Connect';
 $string['eventuserdisconnected'] = 'Usuario desconectado con OpenID Connect';
 $string['eventuserloggedin'] = 'Usuario ingresado con OpenID Connect';
+$string['heading_additional_options'] = 'Opciones adicionales';
+$string['heading_basic'] = 'configuraciones básicas';
+$string['heading_debugging'] = 'Depuración';
+$string['heading_display'] = 'Visualizar';
+$string['heading_sign_out'] = 'Integración de la Salida';
+$string['heading_user_restrictions'] = 'Restricciones del usuario';
+$string['idp_type_azuread'] = 'Azure AD (v1.0)';
+$string['idp_type_microsoft'] = 'Microsoft identity platform (v2.0)';
+$string['idp_type_other'] = 'Otro';
+$string['idptype'] = 'Tipo de Proveedor de Identidad (IdP)';
+$string['mismatched'] = 'Discordante';
+$string['na'] = 'n/d';
 $string['oidc:manageconnection'] = 'Permitir Conexión y Desconexión OpenID';
 $string['oidc:manageconnectionconnect'] = 'Permitir Conexión OpenID';
 $string['oidc:manageconnectiondisconnect'] = 'Permitir Desconexión OpenID';
+$string['oidcresource'] = 'Recurso';
 $string['pluginname'] = 'OpenID Connect';
 $string['privacy:metadata:auth_oidc'] = 'Autenticación OpenID Connect';
 $string['privacy:metadata:auth_oidc_prevlogin'] = 'Métodos anteriores de ingreso del usuario para deshacer conexiones Microsoft 365';
@@ -139,6 +154,44 @@ $string['privacy:metadata:auth_oidc_token:token'] = 'El token';
 $string['privacy:metadata:auth_oidc_token:tokenresource'] = 'El recurso del token';
 $string['privacy:metadata:auth_oidc_token:userid'] = 'La ID del usuario del usuario Moodle';
 $string['privacy:metadata:auth_oidc_token:username'] = 'El nombre_de_usuario del usuario Moodle';
+$string['settings_fieldmap_feild_not_mapped'] = '(no mapeado)';
+$string['settings_fieldmap_field_businessPhones'] = 'Teléfono de oficina';
+$string['settings_fieldmap_field_city'] = 'Ciudad';
+$string['settings_fieldmap_field_companyName'] = 'Nombre de Compañía';
+$string['settings_fieldmap_field_country'] = 'País';
+$string['settings_fieldmap_field_department'] = 'Departamento';
+$string['settings_fieldmap_field_displayName'] = 'Mostrar Nombre';
+$string['settings_fieldmap_field_employeeId'] = 'ID del empleado';
+$string['settings_fieldmap_field_extensionattribute'] = 'Atributo de extensión {$a}';
+$string['settings_fieldmap_field_faxNumber'] = 'Número de Fax';
+$string['settings_fieldmap_field_givenName'] = 'Nombre Dado';
+$string['settings_fieldmap_field_groups'] = 'Grupos';
+$string['settings_fieldmap_field_jobTitle'] = 'Título del Trabajo';
+$string['settings_fieldmap_field_mail'] = 'E-mail';
+$string['settings_fieldmap_field_manager'] = 'Nombre del mánager';
+$string['settings_fieldmap_field_manager_email'] = 'E-mail del mánager';
+$string['settings_fieldmap_field_mobile'] = 'Móvil';
+$string['settings_fieldmap_field_mobilePhone'] = 'Teléfono móvil';
+$string['settings_fieldmap_field_objectId'] = 'ID del objeto';
+$string['settings_fieldmap_field_officeLocation'] = 'Oficina';
+$string['settings_fieldmap_field_postalCode'] = 'Código Postal';
+$string['settings_fieldmap_field_preferredLanguage'] = 'Idioma';
+$string['settings_fieldmap_field_preferredName'] = 'Nombre Preferido';
+$string['settings_fieldmap_field_roles'] = 'Roles';
+$string['settings_fieldmap_field_state'] = 'Estado';
+$string['settings_fieldmap_field_streetAddress'] = 'Dirección Postal';
+$string['settings_fieldmap_field_surname'] = 'Apellido(s)';
+$string['settings_fieldmap_field_teams'] = 'Equipos';
+$string['settings_fieldmap_field_telephoneNumber'] = 'Número de Teléfono';
+$string['settings_fieldmap_field_userPrincipalName'] = 'Nombre_de_usuario(UPN)';
+$string['settings_page_application'] = 'IdP y autenticación';
+$string['settings_page_field_mapping'] = 'Mapeos de campo';
+$string['settings_page_other_settings'] = 'Otras opciones';
+$string['settings_section_authentication'] = 'Autenticación';
+$string['settings_section_basic'] = 'Configuraciones básicas';
+$string['settings_section_other_params'] = 'Otros parámetros';
+$string['table_action'] = 'Acción';
+$string['table_matching_details'] = 'Detalles';
 $string['ucp_disconnect_details'] = 'Esto desconectará su cuenta Moodle de {$a}. Usted necesitará crear un nombre_De_usuario y contraseña para ingresar a Moodle.';
 $string['ucp_disconnect_title'] = '{$a} Desconexión';
 $string['ucp_login_start'] = 'Comenzar a usar {$a} para ingresar a Moodle';
@@ -149,3 +202,6 @@ $string['ucp_o365accountconnected'] = 'Esta cuenta de Microsoft 365 ya está con
 $string['ucp_status_disabled'] = 'Deshabilitado';
 $string['ucp_status_enabled'] = 'Habilitado';
 $string['ucp_title'] = 'Gestión de {$a}';
+$string['update_oncreate_and_onlogin'] = 'En creación y en cada ingreso';
+$string['update_oncreate_and_onlogin_and_usersync'] = 'En creación, cada ingreso, y cada ejecución de trabajo de sincronización de usuario';
+$string['update_onlogin_and_usersync'] = 'En cada ingreso, y cada ejecución de trabajo de sincronización de usuario';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'collaborativefolders', language 'es_mx', version '3.10'.
+ * Strings for component 'collaborativefolders', language 'es_mx', version '4.2'.
  *
  * @package     collaborativefolders
  * @category    string
@@ -81,6 +81,7 @@ $string['openinowncloud'] = 'Abrir en {$a}';
 $string['overview'] = 'Vista generañ';
 $string['pluginadministration'] = 'Administración de carpetas colaborativas';
 $string['pluginname'] = 'Carpetas colaborativas';
+$string['privacy:metadata:collaborativefolders_link'] = 'Información acerca de carpetas que han sido compartidas a usuarios';
 $string['privacy:metadata:collaborativefolders_link:cmid'] = 'El módulo del curso con el cual está relacionada esta compartición de carpeta';
 $string['privacy:metadata:collaborativefolders_link:groupid'] = 'El grupo del curso Moodle con el cual está relacionada esta compartición de carpeta';
 $string['privacy:metadata:collaborativefolders_link:link'] = 'El nombre dado a la carpeta cuando fue compartida';

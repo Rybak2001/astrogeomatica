@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'confman', language 'es_mx', version '3.10'.
+ * Strings for component 'confman', language 'es_mx', version '4.2'.
  *
  * @package     confman
  * @category    string
@@ -82,6 +82,7 @@ $string['item:files'] = 'Archivos';
 $string['item:firstname'] = 'Nombre(s)';
 $string['item:invalidvalue'] = '¡Valor dado inválido!';
 $string['item:lastname'] = 'Apellido(s)';
+$string['item:manage_link'] = 'Gestionar Envío';
 $string['item:memo'] = 'Memo';
 $string['item:obsolete'] = 'Fecha límite del envío excedida. ¡Usted no puede enviar/modificar ítems!';
 $string['item:organization'] = 'Organización';

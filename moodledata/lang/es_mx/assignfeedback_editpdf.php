@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_editpdf', language 'es_mx', version '3.10'.
+ * Strings for component 'assignfeedback_editpdf', language 'es_mx', version '4.2'.
  *
  * @package     assignfeedback_editpdf
  * @category    string
@@ -101,7 +101,7 @@ $string['test_empty'] = 'La ruta hacia Ghostscript está vacía - por favor escr
 $string['test_isdir'] = 'La ruta hacia Ghostscript señala a una carpeta; por favor incluya el programa ghostscript dentro de la ruta que especifique';
 $string['test_notestfile'] = 'Falta el PDF de prueba';
 $string['test_notexecutable'] = 'La ruta hacia Ghostscript señala hacia un archivo que no es ejecutable';
-$string['test_ok'] = 'La ruta hacia Ghostscript parece estar OK - por favor revise que Usted pueda ver el mensaje dentro de la imagen inferior';
+$string['test_ok'] = 'La ruta hacia Ghostscript parece estar bien - por favor revise que Usted pueda ver el mensaje dentro de la imagen inferior';
 $string['testgs'] = 'Probar ruta a Ghostscript';
 $string['tool'] = 'Herramienta';
 $string['toolbarbutton'] = '{$a->tool} {$a->shortcut}';

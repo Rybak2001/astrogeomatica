@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'lightboxgallery', language 'es_mx', version '3.10'.
+ * Strings for component 'lightboxgallery', language 'es_mx', version '4.2'.
  *
  * @package     lightboxgallery
  * @category    string
@@ -141,6 +141,7 @@ $string['selectrotation'] = 'Seleccionar ángulo rotación';
 $string['selectthumbpos'] = 'Compensación de miniatura (del centro)';
 $string['setasindex'] = 'Configurar como imágen del índice';
 $string['showall'] = 'Mostrar todo';
+$string['svgzunsupported'] = 'Los archivos comprimidos SVG (.svgz) actualmente no están soportados.';
 $string['tagscurrent'] = 'Marcas actuales';
 $string['tagsdisabled'] = 'El editor de marcas está deshabilitado';
 $string['tagsimport'] = 'Importar marcas';

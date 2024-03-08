@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeimport_direct', language 'es_mx', version '3.10'.
+ * Strings for component 'gradeimport_direct', language 'es_mx', version '4.2'.
  *
  * @package     gradeimport_direct
  * @category    string
@@ -29,4 +29,5 @@ $string['direct:view'] = 'Importar calificaciones de hoja de cálculo';
 $string['pluginname'] = 'Pegar desde hoja de cálculo';
 $string['privacy:metadata'] = 'El plugin para Importar calificación desde hoja de cálculo no almacena ningún dato personal.';
 $string['userdata'] = 'Ayudar a copiar datos a este formato.';
-$string['userdata_help'] = 'Se pueden copiar y pegar las calificaciones desde una hoja de cálculo al libro de calificaciones. La hoja de cálculo debe tener una columna que contenga los datos de identidad de los usuarios - ya sea nombre_de_usuario o número ID, o dirección de Email. Cada columna para importación debe tener un encabezado de la columna.';
+$string['userdata_help'] = 'Se pueden copiar y pegar las calificaciones desde una hoja de cálculo al libro de calificaciones. La hoja de cálculo debe tener una columna que contenga los datos de identidad de los usuarios - ya sea nombre de usuario o número ID, o dirección de Email. Cada columna para importación debe tener un encabezado de la columna.';
+$string['userdata_link'] = 'grade/import/direct/index';

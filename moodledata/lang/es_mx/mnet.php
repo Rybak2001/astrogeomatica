@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'mnet', language 'es_mx', version '3.10'.
+ * Strings for component 'mnet', language 'es_mx', version '4.2'.
  *
  * @package     mnet
  * @category    string
@@ -63,9 +63,9 @@ $string['deleteuserrecord'] = 'SSO ACL: eliminar registro para el usuario \'{$a-
 $string['deletewrongkeyvalue'] = 'Un error ha ocurrido. Si usted no estaba intentando eliminar su clave SSL, entonces es posible que usted haya sido sujeto de un ataque malicioso. Ninguna acción ha sido tomada.';
 $string['deny'] = 'Denegar';
 $string['description'] = 'Descripción';
-$string['duplicate_usernames'] = 'No pudimosl crear un índice en las columnas "mnethostid" y "username" en su tabla de usuarios.<br />Esto puede ocurrir cuando tiene <a href="{$a}" target="_blank">nombres_de_usuarios duplicados en su tabla de usuarios</a>.<br />Su actualización aún debería completarse exitosamente. Haga clic en el vínculo de arriba, y luego aparecerá una ventana nueva con instrucciones para arreglar este problema Usted puede atenderlo al final de la actualización.<br />';
+$string['duplicate_usernames'] = 'No pudimosl crear un índice en las columnas "mnethostid" y "username" en su tabla de usuarios.<br />Esto puede ocurrir cuando tiene <a href="{$a}" target="_blank">nombres de usuarios duplicados en su tabla de usuarios</a>.<br />Su actualización aún debería completarse exitosamente. Haga clic en el vínculo de arriba, y luego aparecerá una ventana nueva con instrucciones para arreglar este problema Usted puede atenderlo al final de la actualización.<br />';
 $string['enabled_for_all'] = '(Este servicio ha sido habilitado para todos los hosts).';
-$string['enterausername'] = 'Por favor escriba un nombre_de_usuario , ó una lista de nombres_de_usuarios separados por comas.';
+$string['enterausername'] = 'Por favor escriba un nombre de usuario , ó una lista de nombres de usuarios separados por comas.';
 $string['error7020'] = 'Este error ocurre por lo general si el sitio remoto ha creado un registro con el wwwroot equivocado, por ejemplo https://yoursite.com en lugar de https://www.yoursite.com. Debería contactar con el administrador del sitio remoto con su wwwroot (tal como se especifica en config.php) pidiéndole que actualice el registro de su servidor.';
 $string['error7022'] = 'El mensaje que ha enviado al sitio remoto ha sido adecuadamente encriptado, pero no firmado. Esto es muy inesperado; Usted probablemente debería informar sobre el error (proporcionando tanta información como le sea posible sobre la versión de la aplicación en cuestión, etc).';
 $string['error7023'] = 'El sitio remoto ha intentado desencriptar su mensaje con todas las claves que tiene registradas para su sitio, pero han fallado. Debería poder solucionar este problema introduciendo a mano las claves del sitio remoto. Es poco probable que esto ocurra a menos que no haya mantenido contacto con el sitio remoto durante varios meses.';
@@ -90,7 +90,7 @@ $string['hideremote'] = 'Ocultar usuarios remotos';
 $string['host'] = 'host';
 $string['hostcoursenotfound'] = 'Host o curso no encontrado';
 $string['hostdeleted'] = 'Ok - host eliminado';
-$string['hostexists'] = 'Ya existe un registro para un host con ese nombre (puede ser eliminado). <a href="{$a}">Haga clic aquí</a>para editar ese registro.';
+$string['hostexists'] = 'Ya existe un registro para un host con ese nombre (pudo haber sido eliminado). <a href="{$a}">Editar el registro</a>';
 $string['hostlist'] = 'Lista de hosts en red';
 $string['hostname'] = 'Nombre del host';
 $string['hostnamehelp'] = 'El nombre completo del dominio del host remoto, por ejemplo www.ejemplo.com';
@@ -118,6 +118,7 @@ $string['is_in_range'] = 'La dirección IP <code>{$a}</code>  representa un host
 $string['ispublished'] = '{$a} ha habilitado este servicio para Usted.';
 $string['issubscribed'] = '{$a} se está suscribiendo a este servicio en su host.';
 $string['keydeleted'] = 'Su clave ha sido exitosamente eliminada y reemplazada.';
+$string['keydeletedcancelled'] = 'No se hicieron cambios a la clave.';
 $string['keymismatch'] = 'La clave pública que usted tiene para este host es diferente a la clave pública que está actualmente publicando. La clave publicada actualmente es:';
 $string['last_connect_time'] = 'Última conexión';
 $string['last_connect_time_help'] = 'La última vez que usted se conectó con este host.';
@@ -137,7 +138,7 @@ $string['mnet_concatenate_strings'] = 'Concatenar (hasta) 3 cadenas de texto y r
 $string['mnet_session_prohibited'] = 'Usuarios de su servidor inicial no tienen actualmente permitido divagar por {$a}.';
 $string['mnetdisabled'] = 'MNet está <strong>deshabilitado</strong>.';
 $string['mnetidprovider'] = 'Provisor de ID MNET';
-$string['mnetidproviderdesc'] = 'Usted puede emplear esta función para obtener un enlace con el que pueda entrar al sitio. Si puede proporcionar la dirección de correo electrónico correcta que coincida con el nombre_de_usuario con el cual Usted intentó entrar previamente.';
+$string['mnetidproviderdesc'] = 'Usted puede emplear esta función para obtener un enlace con el que pueda entrar al sitio. Si puede proporcionar la dirección de correo electrónico correcta que coincida con el nombre de usuario con el cual Usted intentó  iniciar sesión previamente.';
 $string['mnetidprovidermsg'] = 'Usted debería poder ingresar con su proveedor {$a}.';
 $string['mnetidprovidernotfound'] = 'Lo sentimos, no se ha podido encontrar más información.';
 $string['mnetpeers'] = 'Iguales';
@@ -169,7 +170,7 @@ $string['notenoughidpinfo'] = 'Su proveedor de identidad no nos está dando sufi
 $string['notinxmlrpcserver'] = 'Intento de acceder al cliento remoto MNet, no ducante la ejecución del servidor XMLRPC';
 $string['notmoodleapplication'] = 'ADVERTENCIA: Esta no es una aplicación Moodle, por lo que algunos de los métodos de inspección pueden no funcionar adecuadamente.';
 $string['notpermittedtojump'] = 'Usted no tiene permiso para iniciar una sesión remota desde este servidor Moodle.';
-$string['notpermittedtojumpas'] = 'Usted no puede empezar una sesión remota cuando está conectado como otro usuario.';
+$string['notpermittedtojumpas'] = 'Usted no puede empezar una sesión remota cuando ha iniciado sesión como otro usuario.';
 $string['notpermittedtoland'] = 'Usted no tiene permiso para iniciar una sesión remota.';
 $string['off'] = 'apagado';
 $string['on'] = 'encendido';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_planetestream', language 'es_mx', version '3.10'.
+ * Strings for component 'tinymce_planetestream', language 'es_mx', version '4.2'.
  *
  * @package     tinymce_planetestream
  * @category    string
@@ -26,3 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Planet eStream';
+$string['privacy:metadata:tinymce_planetestream'] = 'Para poder integrarse con Planet eStream, debe enviarse información del usuario.';
+$string['privacy:metadata:tinymce_planetestream:email'] = 'Su E-mail es usado para completar la autenticación entre Moodle y Planet eStream.';
+$string['privacy:metadata:tinymce_planetestream:userid'] = 'Su ID de usuario es usada para encontrar su dirección E-mail.';
+$string['privacy:metadata:tinymce_planetestream:userip'] = 'Su dirección IP es usada como una medida de seguridad después de enviar datos entre Moodle yPlante eStream.';

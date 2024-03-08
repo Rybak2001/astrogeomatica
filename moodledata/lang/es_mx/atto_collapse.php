@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_collapse', language 'es_mx', version '3.10'.
+ * Strings for component 'atto_collapse', language 'es_mx', version '4.2'.
  *
  * @package     atto_collapse
  * @category    string
@@ -32,3 +32,4 @@ $string['showfewer'] = 'Mostrar menos botones';
 $string['showgroups'] = 'Mostrar primeros (n) grupos al colapsar.';
 $string['showgroups_desc'] = 'Cuando la barra_de_herramientas está colapsada (lo está por defecto), solamente se mostrarán estos grupos a la vez.';
 $string['showmore'] = 'Mostrar más botones';
+$string['youareonsecondrow'] = 'Usted está ahora en otra fila de la barra de herramientas del editor, donde hay más botones.';

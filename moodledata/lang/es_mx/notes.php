@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'notes', language 'es_mx', version '3.10'.
+ * Strings for component 'notes', language 'es_mx', version '4.2'.
  *
  * @package     notes
  * @category    string
@@ -31,6 +31,7 @@ $string['addbulknotedonesingle'] = 'Nota añadida a 1 persona';
 $string['addbulknotesingle'] = 'Añadir una nota nueva a 1 persona';
 $string['addnewnote'] = 'Añadir una nota nueva';
 $string['addnewnoteselect'] = 'Seleccionar usuarios para escribir anotaciones sobre ellos';
+$string['author'] = 'Autor';
 $string['bynameondate'] = 'por {$a->name} - {$a->date}';
 $string['configenablenotes'] = 'Habilitar guardar anotaciones sobre usuarios individuales.';
 $string['content'] = 'Contenido';
@@ -73,6 +74,7 @@ $string['publishstate_help'] = 'El contexto de la anotación determina quien pue
 * Personal - La anotación solamente es visible para Usted.
 * Curso - La anotación será visible para los profesores de este curso.
 * Sitio - La nota será visible para los profesores en todos los cursos.';
+$string['recipient'] = 'Receptor';
 $string['site'] = 'Sitio';
 $string['sitenotes'] = 'Anotaciones del sitio';
 $string['unknown'] = 'desconocido';

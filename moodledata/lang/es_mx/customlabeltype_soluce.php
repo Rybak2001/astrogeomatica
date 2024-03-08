@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_soluce', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_soluce', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_soluce
  * @category    string
@@ -33,3 +33,4 @@ $string['soluce'] = 'Tutorial paso a paso';
 $string['soluce:addinstance'] = 'Puede añadir una instancia';
 $string['soluce:view'] = 'Puede ver el contenido';
 $string['typename'] = 'Tutorial paso a paso';
+$string['viewdate'] = 'Ver fecha';

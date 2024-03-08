@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_program', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_program', language 'es_mx', version '4.2'.
  *
  * @package     enrol_program
  * @category    string
@@ -28,7 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['canntenrol'] = 'La inscripción está deshabilitada o inactiva';
 $string['canntenrolearly'] = 'Usted aun no puede inscribir; la inscripción inicia en {$a}.';
 $string['canntenrollate'] = 'Usted ya no puede inscribir más, porque la inscripción terminó en {$a}.';
-$string['enrolme'] = 'Inscribirme';
 $string['pluginname'] = 'Inscripción a programa';
 $string['privacy:metadata'] = 'El plugin de inscripción a programa no almacena ningún dato personal acerca de ningún usuario.';
 $string['program:config'] = 'Configurar instancias de Inscripción a programa';

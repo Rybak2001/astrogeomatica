@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_tabs', language 'es_mx', version '3.10'.
+ * Strings for component 'filter_tabs', language 'es_mx', version '4.2'.
  *
  * @package     filter_tabs
  * @category    string
@@ -32,6 +32,7 @@ $string['enableyui'] = 'Habilitar pestañas YUI antiguas';
 $string['filtername'] = 'Pestañas (tabs)';
 $string['pluginname'] = 'Pestañas (tabs)';
 $string['previewheading'] = 'Previsualizar';
+$string['privacy:metadata'] = 'El filtro de Pestañas no almacena ningún dato personal.';
 $string['selecttabs'] = 'Seleccionar tipo de pestaña';
 $string['selecttabs_desc'] = 'Seleccionar pestañas Bootstrap 2 o Bootstrap 4 para usar con temas basados en Bootstrap, o pestañas YUI antiguas.';
 $string['selecttabs_hint'] = 'Versión de Botstrap usada por el tema actual';

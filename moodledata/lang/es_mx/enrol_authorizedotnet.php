@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_authorizedotnet', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_authorizedotnet', language 'es_mx', version '4.2'.
  *
  * @package     enrol_authorizedotnet
  * @category    string
@@ -35,6 +35,7 @@ $string['clientkey'] = 'Clave de cliente de Authorize.net';
 $string['cost'] = 'Costo de inscripción';
 $string['costerror'] = 'El costo de inscripción no es numérico';
 $string['costorkey'] = 'Por favol elija uno de los siguientes métodos de inscripción:';
+$string['create_user_token'] = 'Para hacer que funcionen retrollamadas de Stripe, amablemente habilite el protocolo Moodle REST en su sitio.';
 $string['currency'] = 'Divisa';
 $string['defaultrole'] = 'Asignación de rol por defecto';
 $string['defaultrole_desc'] = 'Seleccionar el rol que será asignado a usuarios durante las inscripciones Authorize.net';

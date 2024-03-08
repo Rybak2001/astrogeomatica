@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'editor_tinymce', language 'es_mx', version '3.10'.
+ * Strings for component 'editor_tinymce', language 'es_mx', version '4.2'.
  *
  * @package     editor_tinymce
  * @category    string
@@ -381,7 +381,7 @@ $string['fullpage_dlg:active_color'] = 'Color activo';
 $string['fullpage_dlg:add'] = 'Agregar nuevo elemento';
 $string['fullpage_dlg:add_base'] = 'Elemento Base';
 $string['fullpage_dlg:add_comment'] = 'Nodo Commentario';
-$string['fullpage_dlg:add_link'] = 'Elemento Link';
+$string['fullpage_dlg:add_link'] = 'Link element';
 $string['fullpage_dlg:add_meta'] = 'Elemento Meta';
 $string['fullpage_dlg:add_script'] = 'Elemento Script';
 $string['fullpage_dlg:add_style'] = 'Elemento Estilo';
@@ -389,7 +389,7 @@ $string['fullpage_dlg:add_title'] = 'Elemento Título';
 $string['fullpage_dlg:advanced_props'] = 'Avanzado';
 $string['fullpage_dlg:advanced_tab'] = 'Avanzado';
 $string['fullpage_dlg:appearance_bgprops'] = 'Propiedades del fondo';
-$string['fullpage_dlg:appearance_linkprops'] = 'Colores del vínculo';
+$string['fullpage_dlg:appearance_linkprops'] = 'Link colors';
 $string['fullpage_dlg:appearance_marginprops'] = 'Márgenes';
 $string['fullpage_dlg:appearance_style'] = 'Propiedades de hoja de estilos y estilo';
 $string['fullpage_dlg:appearance_tab'] = 'Apariencia';
@@ -566,7 +566,7 @@ $string['media_dlg:realmedia'] = 'Real Media';
 $string['media_dlg:rmp_options'] = 'Opciones del reproductor Real media';
 $string['media_dlg:salign'] = 'SAlign';
 $string['media_dlg:scale'] = 'Escala';
-$string['media_dlg:scriptcallbacks'] = 'Script callbacks (llamadas de retorno)';
+$string['media_dlg:scriptcallbacks'] = 'Script retrollamadas';
 $string['media_dlg:shockwave'] = 'Shockwave';
 $string['media_dlg:shockwave_options'] = 'Opciones Shockwave';
 $string['media_dlg:shuffle'] = 'Orden al azar';
@@ -600,7 +600,7 @@ $string['paste:selectall_desc'] = 'Seleccionar todo';
 $string['paste_dlg:text_linebreaks'] = 'Conservar salto de línea';
 $string['paste_dlg:text_title'] = 'Use Ctrl+V en su teclado para pegar el texto en la ventana.';
 $string['paste_dlg:word_title'] = 'Use Ctrl+V en su teclado para pegar el texto en la ventana.';
-$string['pluginname'] = 'Editor TinyMCE HTML';
+$string['pluginname'] = 'Editor TinyMCE HTML (antiguo)';
 $string['preview:preview_desc'] = 'Vista previa';
 $string['print:print_desc'] = 'Imprimir';
 $string['privacy:metadata'] = 'El plugin del editor TinyMCE HTML no almacena ningún dato personal.';

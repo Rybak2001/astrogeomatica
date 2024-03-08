@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_shortmath', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_shortmath', language 'es_mx', version '4.2'.
  *
  * @package     qtype_shortmath
  * @category    string
@@ -49,11 +49,13 @@ $string['filloutoneanswer'] = 'Usted debe proporcionar al menos una respuesta po
 $string['manage_templates'] = 'Gestionar Plantillas';
 $string['manage_templates_link_desc'] = 'Gestor de Plantillas';
 $string['mqbuttongroup'] = 'Crear botón';
+$string['mqcontrolsgroup'] = 'Botón de plantilla';
 $string['new_template'] = 'Nueva plantilla';
 $string['nonetemplate'] = 'Ninguno';
 $string['nonetemplate_desc'] = 'Una plantilla vacía sin botones.';
 $string['pluginname'] = 'ShortMath (MatemáticaCorta)';
 $string['pluginname_help'] = 'Tipo de pregunta de respuesta corta para expresiones matemáticas usando MathQuill, resultando en respuestas LaTex.';
+$string['pluginname_link'] = 'question/type/shortmath';
 $string['pluginnameadding'] = 'Añadiendo una pregunta ShortMath';
 $string['pluginnameediting'] = 'Editando una pregunta ShortMath';
 $string['pluginnamesummary'] = 'Tipo de pregunta de respuesta corta para expresiones matemáticas usando MathQuill, resultando en respuestas LaTex.';
@@ -66,6 +68,8 @@ $string['shortmath:viewall'] = 'Ver todas las plantillas';
 $string['shortmath:viewmine'] = 'Editar sus propias plantillas';
 $string['template'] = 'Plantilla';
 $string['template_editor'] = 'Editor de Plantilla';
+$string['template_editor_link'] = 'Editor de Plantilla';
+$string['template_manager_link'] = '<a href="{$a->link}" class="d-inline-block mb-3">Gestionar plantillas</a>';
 $string['templatebutton'] = 'Botón de plantilla';
 $string['templateconfiguration'] = 'Configuración de plantilla';
 $string['templatedescription'] = 'Descripción';
@@ -76,6 +80,7 @@ $string['templatepreview'] = 'Previsualización de plantilla';
 $string['templatepreview_help'] = 'Aquí puede usted probar los botones creados para esta plantilla. Es solamente para propósitos de pruebas.';
 $string['templatetest'] = 'Probar plantilla';
 $string['templatevalue'] = 'Valor';
+$string['templatevalue_help'] = 'En esta entrada, usted puede especificar un valor para el botón definido en el campo de arriba. Escriba la expresión en el campo para entrada. Al presionar el botón "Añadir", será creado un nuevo botón que produce el valor de acuerdo a esta entrada.';
 $string['testinput'] = 'Probar entrada';
 $string['timecreated'] = 'Hora de creación';
 $string['toolbar'] = 'Barra de herramientas';

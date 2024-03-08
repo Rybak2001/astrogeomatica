@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search_simpledb', language 'es_mx', version '3.10'.
+ * Strings for component 'search_simpledb', language 'es_mx', version '4.2'.
  *
  * @package     search_simpledb
  * @category    string
@@ -34,7 +34,7 @@ $string['privacy:metadata:index:courseid'] = 'ID del curso';
 $string['privacy:metadata:index:description1'] = 'Campo extra de descripción';
 $string['privacy:metadata:index:description2'] = 'Campo extra de descripción';
 $string['privacy:metadata:index:docid'] = 'ID (única) del documento';
-$string['privacy:metadata:index:itemid'] = 'Identificador del ítem (en alcance del área de búsqueda)';
+$string['privacy:metadata:index:itemid'] = 'Identificador del elemento (en alcance del área de búsqueda)';
 $string['privacy:metadata:index:modified'] = 'Hora de última modificación';
 $string['privacy:metadata:index:owneruserid'] = 'ID del usuario propietario del documento';
 $string['privacy:metadata:index:title'] = 'Título';

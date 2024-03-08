@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_sectionheading', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_sectionheading', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_sectionheading
  * @category    string
@@ -31,6 +31,7 @@ $string['heading'] = 'Título de sección';
 $string['image'] = 'Archivo de imagen';
 $string['imageposition'] = 'Posición de imagen';
 $string['imageurl'] = 'URL de imagen alterna';
+$string['imagewidth'] = 'Ancho de imagen';
 $string['left'] = 'Izquierda';
 $string['none'] = 'Sin imagen';
 $string['overimagetext'] = 'Texto sobre imagen';
@@ -39,4 +40,14 @@ $string['right'] = 'Derecha';
 $string['sectionheading:addinstance'] = 'Puede añadir una instancia';
 $string['sectionheading:view'] = 'Puede ver el contenido';
 $string['shortdesc'] = 'Descripción breve';
+$string['template'] = '<table class="custombox-sectionheading" width="100%">
+<tr valign="top" class="custombox-icon sectionheading">
+<%%imageL%%>
+<td>
+<h2 class="custombox-caption sectionheading"><%%heading%%></h2>
+<p class="custombox-description sectionheading"><%%shortdesc%%></p>
+</td>
+<%%imageR%%>
+</tr>
+</table>';
 $string['typename'] = 'Títlo de sección';

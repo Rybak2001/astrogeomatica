@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tool_lp', language 'es_mx', version '3.10'.
+ * Strings for component 'tool_lp', language 'es_mx', version '4.2'.
  *
  * @package     tool_lp
  * @category    string
@@ -32,7 +32,7 @@ $string['addcohortstosync'] = 'Añadir cohortes a sincronizar';
 $string['addcompetency'] = 'Añadir competencia';
 $string['addcoursecompetencies'] = 'Añadir competencias al curso';
 $string['addcrossreferencedcompetency'] = 'Añadir competencia de referencia-cruzada';
-$string['addingcompetencywillresetparentrule'] = 'El añadir una competencia quitará la regla configurada en  \'{$a}\'. ¿ Desea Usted continuar?';
+$string['addingcompetencywillresetparentrule'] = 'El añadir una nueva competencia quitará la regla configurada en  \'{$a}\'. ¿Desea continuar?';
 $string['addnewcompetency'] = 'Añadir nueva competencia';
 $string['addnewcompetencyframework'] = 'Añadir nueva estructura de competencia';
 $string['addnewplan'] = 'Añadir nuevo plan de aprendizaje';
@@ -46,7 +46,7 @@ $string['assigncohorts'] = 'Asignar cohortes';
 $string['averageproficiencyrate'] = 'La tasa de pericia/dominio promedio para planes de aprendizaje completados basados en esta plantilla es {$a} %';
 $string['cancelreviewrequest'] = 'Cancelar solicitud de revisión';
 $string['cannotaddrules'] = 'Esta competencia no puede ser configurada.';
-$string['cannotcreateuserplanswhentemplateduedateispassed'] = 'No se pueden crear nuevos planes de aprendizaje. La fecha de validez de esta plantilla ha expirado o está a punto de expirar.';
+$string['cannotcreateuserplanswhentemplateduedateispassed'] = 'No se pueden crear nuevos planes de aprendizaje. La fecha de entrega de esta plantilla ha expirado o está a punto de expirar.';
 $string['cannotcreateuserplanswhentemplatehidden'] = 'No se pueden crear nuevos planes de aprendizaje mientras esta plantilla esté oculta.';
 $string['category'] = 'Categoría';
 $string['chooserating'] = 'Elija una valoración...';
@@ -96,7 +96,7 @@ $string['deletethisplan'] = 'Eliminar este plan de aprendizaje';
 $string['deletethisuserevidence'] = 'Eliminar esta competencia';
 $string['deleteuserevidence'] = '¿Eliminar la evidencia de aprendizaje previo \'{$a}\'?';
 $string['description'] = 'Descripción';
-$string['duedate'] = 'Fecha prometida/esperada';
+$string['duedate'] = 'Fecha de entrega';
 $string['duedate_help'] = 'La fecha en la que un plan de aprendizaje debería de estar completado.';
 $string['editcompetency'] = 'Editar competencia';
 $string['editcompetencyframework'] = 'Editar estructura de competencia';
@@ -114,7 +114,7 @@ $string['hidden'] = 'Oculto';
 $string['hiddenhint'] = '(oculto)';
 $string['idnumber'] = 'Número ID';
 $string['inheritfromframework'] = 'Heredar de estructura de competencia (por defecto)';
-$string['itemstoadd'] = 'Ítems para añadir';
+$string['itemstoadd'] = 'Elementos para añadir';
 $string['jumptocompetency'] = 'Saltar a competencia';
 $string['jumptouser'] = 'Saltar a usuario';
 $string['learningplancompetencies'] = 'Competencias del plan de aprendizaje';
@@ -166,6 +166,7 @@ $string['nouserevidence'] = 'Todavía no se ha añadido evidencia de aprendizaje
 $string['nouserplans'] = 'Todavía no se han creado planes de aprendizaje.';
 $string['oneplanwascreated'] = 'Se creó un plan de aprendizaje';
 $string['outcome'] = 'Resultado';
+$string['overridegrade'] = 'Anular calificación de competencia existente cuando sea completada.';
 $string['parentcompetency'] = 'Padre';
 $string['parentcompetency_edit'] = 'Editar padre';
 $string['parentcompetency_help'] = 'Definir el padre debajo del cual se añadirá esta competencia. Puede ser, ya sea otra competencia dentro de la misma estructura, o la raíz de la estructura de la competencia para una competencia de nivel superior.';
@@ -199,8 +200,8 @@ $string['savechanges'] = 'Guardar cambios';
 $string['scale'] = 'Escala';
 $string['scale_help'] = 'Una escala determina como se mide la capacidad/pericia/expertez/dominio en una competencia. Después de seleccionar una escala, Usted debe de configurarla.
 
-* El ítem seleccionado como \'Por defecto\' es la valoración dada cuando se completa automáticamente una competencia.
-* El ítem (los items) seleccionado(s) como \'Dominio/pericia\' indica(n) cual(es) valor(es) calificarán las competencias como dominada cuando sean valoradas.';
+* El elemento seleccionado como \'Por defecto\' es la valoración dada cuando se completa automáticamente una competencia.
+* El elemento (los elementos) seleccionado(s) como \'Dominio/pericia\' indica(n) cual(es) valor(es) calificarán las competencias como dominada cuando sean valoradas.';
 $string['scalevalue'] = 'Valor de escala';
 $string['search'] = 'Buscar...';
 $string['selectcohortstosync'] = 'Seleccionar cohortes a sincronizar';
@@ -263,7 +264,7 @@ $string['taxonomy_selected_skill'] = 'Habilidad seleccionada';
 $string['taxonomy_selected_value'] = 'Valor seleccionado';
 $string['template'] = 'Plantilla de plan de aprendizaje';
 $string['templatebased'] = 'Plantilla basada';
-$string['templatecohortnotsyncedwhileduedateispassed'] = 'Las cohortes no serán sincronizadas si ya ha pasada la fecha esperada de la plantilla.';
+$string['templatecohortnotsyncedwhileduedateispassed'] = 'Las cohortes no serán sincronizadas si ya ha pasada la fecha de entrega de la plantilla.';
 $string['templatecohortnotsyncedwhilehidden'] = 'Las cohortes no serán sincronizadas mientras esta plantilla esté oculta.';
 $string['templatecompetencies'] = 'Competencias de plantilla de plan de aprendizaje';
 $string['templatecreated'] = 'Plantilla de plan de aprendizaje creada';

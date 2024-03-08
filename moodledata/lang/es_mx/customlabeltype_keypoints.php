@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_keypoints', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_keypoints', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_keypoints
  * @category    string
@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['completion1'] = 'El estudiante debe haber seleccionado todos los subelementos';
 $string['configtypename'] = 'Habilitar subtipo Puntos Clave';
 $string['family'] = 'pedagógico';
 $string['keypointitem0'] = 'Punto 1';
@@ -47,4 +48,5 @@ $string['keypointnum'] = 'Número de ítems';
 $string['keypoints:addinstance'] = 'Puede añadir una instancia';
 $string['keypoints:view'] = 'Puede ver el contenido';
 $string['pluginname'] = 'Elemento de curso : Puntos Clave';
+$string['remind'] = '¡Recordatorio!';
 $string['typename'] = 'Puntos Clave';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'assignfeedback_cloudpoodll', language 'es_mx', version '3.10'.
+ * Strings for component 'assignfeedback_cloudpoodll', language 'es_mx', version '4.2'.
  *
  * @package     assignfeedback_cloudpoodll
  * @category    string
@@ -86,19 +86,14 @@ $string['privacy:metadata:filepurpose'] = 'Las URLs de grabaciones enviadas.';
 $string['privacy:metadata:transcriptpurpose'] = 'La transcripción para el intento de la tarea.';
 $string['privacy:path'] = 'Texto de Retroalimentación';
 $string['reallydeletefeedback'] = '¿Realmente eliminar esta retroalimentación?';
-$string['recorder'] = 'Tipo de Grabadora';
 $string['recorderaudio'] = 'Grabadora de Audio';
 $string['recorderdisplayname'] = 'Grabadora de retroalimentación';
 $string['recorderskin'] = 'Piel de Grabadora';
 $string['recordertype'] = 'Tipo de Grabadora';
 $string['recordervideo'] = 'Grabadora de Video';
 $string['refreshtoken'] = 'Refrescar información de licencia';
-$string['region'] = 'Región AWS';
 $string['setting_audio_heading'] = 'Configuraciones de reproductor de audio';
-$string['setting_snapshot_heading'] = 'Configuraciones de instantánea de imagen';
 $string['setting_video_heading'] = 'Configuraciones de reproductor de video';
-$string['setting_whiteboard_heading'] = 'Configuraciones de imagen de pizarrón blanco';
-$string['shownoimage'] = 'No mostrar imagen';
 $string['shownovideo'] = 'No mostrar video';
 $string['skin123'] = 'Uno Dos Tres';
 $string['skinbmr'] = 'Rosa Quemada';

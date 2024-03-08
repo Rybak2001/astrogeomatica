@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_reminders', language 'es_mx', version '3.10'.
+ * Strings for component 'local_reminders', language 'es_mx', version '4.2'.
  *
  * @package     local_reminders
  * @category    string
@@ -25,11 +25,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['activityconfduein'] = 'Esperado En';
+$string['activityconfexplicitenable'] = 'Activación Explícita de Recordatorio';
 $string['activityconfnoupcomingactivities'] = 'No hay actividades próximas para este curso.';
 $string['activityconfupcomingactivities'] = 'Actividades Próximas';
 $string['activityconfupcomingactivitiesdesc'] = 'No se enviarán recordatorios para actividades no seleccionadas.';
+$string['activitydueopenahead'] = 'Apertura de Actividad Enviar Antes de:';
+$string['activitydueopenaheaddesc'] = 'Días de anticipación para enviar recordatorios para aperturas de actividad. Esta configuración es válida solamente si las aperturas de actividad están habilitadas para enviar recordatorios desde la configuración de arriba.';
 $string['activityignoreincompletes'] = 'Sin recordatorios una vez completado:';
 $string['activityignoreincompletesdetails'] = 'Si se activa, no se enviarán recordatorios si la actividad está completada por el usuario, <strong>antes</strong> de que la actividad termine.';
+$string['activityopeningseparation'] = 'Separar Aperturas de Actividad';
+$string['activityopeningseparationdesc'] = 'Mostrar aperturas de actividad como entrada separada en la página de configuraciones de recordatorios de curso.';
 $string['activityremindersboth'] = 'Para ambos aperturas y cierres';
 $string['activityremindersonlyclosings'] = 'Solamente para cierres de actividad';
 $string['activityremindersonlyopenings'] = 'Solamente para aperturas de actividad';
@@ -56,6 +62,12 @@ $string['days1'] = '1 Día';
 $string['days3'] = '3 Días';
 $string['days7'] = '7 Días';
 $string['dueheading'] = 'Recordatorios de Eventos de Actividad';
+$string['emailconfigsheading'] = 'Personalización de Email de Recordatorio';
+$string['emailfootercustomname'] = 'Pie de página personalizado de Email';
+$string['emailfooterdefaultname'] = 'Usar pie de página de E mail predeterminado';
+$string['emailfooterdefaultnamedesc'] = 'Si se activa, entonces el pie de página del Email recordatorio predeterminado contendrá un enlace al calendario de Moodle. en caso contrario, el contenido proporcionado en el pie de página personalizado será usado.';
+$string['emailheadercustomname'] = 'Encabezado Personalizado de Email';
+$string['emailheadercustomnamedesc'] = 'Especificar que el contenido del encabezado sea incrustado en cada mensaje E-mail recordatorio. Esto puede ser usado para marcar estos mensajes Email con los colores de su sitio.';
 $string['enabled'] = 'Habilitado';
 $string['enabledaddedevents'] = 'Enviar cuando se Crea Evento';
 $string['enabledaddedeventsdescription'] = 'Indica si es que se envían recordatorios cuando un evento del calendario está siendo creado.';
@@ -67,8 +79,10 @@ $string['enabledforcaleventsdescription'] = 'Habilitar enviar recordatorios para
 $string['enabledoverdue'] = 'Retrasado Habilitado';
 $string['enabledremovedevents'] = 'Enviar cuando se Elimina Evento';
 $string['enabledremovedeventsdescription'] = 'Indica si es que se envían recordatorios cuando un evento del calendario está siendo eliminado.';
+$string['eventtypeclose'] = 'Actividad Cierra en';
 $string['eventtypeexpectcompletionon'] = 'Finalización Esperada';
 $string['eventtypegradingdue'] = 'Falta Calificar';
+$string['eventtypeopen'] = 'Actividad Abre en';
 $string['excludedmodules'] = 'Módulos Excluidos:';
 $string['excludedmodulesdesc'] = 'No se estarán enviando recordatorios si un evento es generado de los módulos arriba seleccionados. Esta configuración es global y aplicable para cualquier tipo de eventos.';
 $string['explaincategoryheading'] = 'Configuraciones de recordatorios para eventos de categoría de curso.';
@@ -126,3 +140,4 @@ $string['siteheading'] = 'Recordatorios de Evento de Sitio';
 $string['taskreminder'] = 'Trabajos de recordatorios';
 $string['titlesubjectprefix'] = 'Recordatorio';
 $string['userheading'] = 'Recordatorios de Evento de Usuario';
+$string['useservertimezone'] = 'Usar Zona Horaria del servidor';

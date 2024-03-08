@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_formule', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_formule', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_formule
  * @category    string
@@ -31,18 +31,5 @@ $string['formule:addinstance'] = 'Puede añadir una instancia';
 $string['formule:view'] = 'Puede ver el contenido';
 $string['formuletext'] = 'Fórmula';
 $string['pluginname'] = 'Elemento de curso: Fórmula';
-$string['template'] = '<table class="custombox-formule" cellspacing="0" width="100%">
-<tr valign="top">
-<td class="custombox-header-thumb formule" style="background-image : url(<%%icon%%>);" width="2%" rowspan="2">
-</td>
-<td class="custombox-header-caption formule" width="98%">
-Statement
-</td>
-</tr>
-<tr valign="top">
-<td class="custombox-content formuletext">
-<%%formuletext%%>
-</td>
-</tr>
-</table>';
+$string['statement'] = 'Fórmula';
 $string['typename'] = 'Fórmula';

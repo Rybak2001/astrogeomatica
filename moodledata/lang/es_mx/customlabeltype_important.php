@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_important', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_important', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_important
  * @category    string
@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configtypename'] = 'Habilitar subtipo Importante';
 $string['family'] = 'genérico';
+$string['important'] = '¡Importante!';
 $string['important:addinstance'] = 'Puede añadir una instancia';
 $string['important:view'] = 'Puede ver el contenido';
 $string['importantnote'] = 'Nota importante';

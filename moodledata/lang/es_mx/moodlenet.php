@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'moodlenet', language 'es_mx', version '3.10'.
+ * Strings for component 'moodlenet', language 'es_mx', version '4.2'.
  *
  * @package     moodlenet
  * @category    string
@@ -29,5 +29,6 @@ $string['modulename'] = 'moodlenet';
 $string['modulenameplural'] = 'moodlenet';
 $string['moodlenet'] = 'MoodleNet';
 $string['moodlenet_desc'] = 'MoodleNet es una plataforma de medios social abierta para educadores, con un enfoque en la administración colaborativa de colecciones de recursos abiertos.';
+$string['moodlenet_shortcut_link'] = 'Enlazar aquí';
 $string['privacy:metadata'] = 'El módulo MoodleNet solamente facilita la comunicación con tool_MoodleNet. No almacena datos.';
 $string['toolmoodlenetrequired'] = 'tool_moodlenet es necesario para interactuar con MoodleNet';

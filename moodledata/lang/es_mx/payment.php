@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'payment', language 'es_mx', version '3.10'.
+ * Strings for component 'payment', language 'es_mx', version '4.2'.
  *
  * @package     payment
  * @category    string
@@ -35,6 +35,7 @@ $string['accountname_help'] = 'Cómo es que esta cuenta será identificada por p
 $string['accountnotavailable'] = 'No disponible';
 $string['createaccount'] = 'Crear cuenta de pagos';
 $string['deleteorarchive'] = 'Eliminar o archivar';
+$string['editpaymentaccount'] = 'Editar cuenta para pago';
 $string['eventaccountcreated'] = 'Cuenta de pagos creada';
 $string['eventaccountdeleted'] = 'Cuenta de pagos eliminada';
 $string['eventaccountupdated'] = 'Cuenta de pagos actualizada';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customlabeltype_unitheading', language 'es_mx', version '3.10'.
+ * Strings for component 'customlabeltype_unitheading', language 'es_mx', version '4.2'.
  *
  * @package     customlabeltype_unitheading
  * @category    string
@@ -31,12 +31,23 @@ $string['heading'] = 'Título de Unidad';
 $string['image'] = 'Archivo de imagen alterna';
 $string['imageposition'] = 'Posición de imagen';
 $string['imageurl'] = 'URL de imagen alterna';
+$string['imagewidth'] = 'Ancho de imagen';
 $string['left'] = 'Izquierda';
 $string['none'] = 'Sin imagen';
 $string['overimagetext'] = 'Texto sobre imagen';
 $string['pluginname'] = 'Elemento de curso: Encabezado de Unidad';
 $string['right'] = 'Derecha';
 $string['shortdesc'] = 'Descripción breve';
+$string['template'] = '<table class="custombox-unitheading" width="100%">
+<tr valign="middle" class="custombox-icon unitheading">
+<%%imageL%%>
+<td>
+<h3 class="custombox-caption unitheading"><%%heading%%></h3>
+<p class="custombox-description unitheading"><%%shortdesc%%></p>
+</td>
+<%%imageR%%>
+</tr>
+</table>';
 $string['typename'] = 'Título de Unidad';
 $string['unitheading:addinstance'] = 'Puede añadir una instancia';
 $string['unitheading:view'] = 'Puede ver el contenido';

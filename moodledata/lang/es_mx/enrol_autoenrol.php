@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'enrol_autoenrol', language 'es_mx', version '3.10'.
+ * Strings for component 'enrol_autoenrol', language 'es_mx', version '4.2'.
  *
  * @package     enrol_autoenrol
  * @category    string
@@ -37,6 +37,8 @@ $string['autoenrol:unenrol'] = 'Usuario puede des-inscribir (dar de baja) usuari
 $string['autoenrol:unenrolself'] = 'Usuario puede des-inscribirse (darse de baja) a sí mismo si fueron inscritos al accesar';
 $string['autounenrolaction'] = 'Acción de auto des-inscribir';
 $string['autounenrolaction_help'] = 'Seleccionar la actividad a realizar cuando  la regla de filtrado de usuarios ya no concuerda más. Por favor tenga en cuenta que algunas configuraciones y datos de usuario son purgados del curso durante la des-inscripción del curso.';
+$string['availabilityplugins'] = 'Plugins de disponibilidad habilitados';
+$string['availabilityplugins_help'] = 'Plugins para seleccionar disponibilidad que pueden ser usados en el filtro de usuarios de Autoinscribir. Use Ctrl+clic o Cmd+clic para selección múltiple.';
 $string['cannotenrol'] = 'Usted no puede inscribirse a este curso usando auto-inscribir.';
 $string['checksync'] = 'Comprobar la sincronización a {$a} usuarios';
 $string['config'] = 'Configuración';
@@ -46,10 +48,11 @@ $string['countlimit_help'] = 'Esta instancia cuenta el número de inscripciones 
 $string['customwelcomemessage'] = 'Mensaje de BienVenida personalizado';
 $string['customwelcomemessage_help'] = 'Puede añadirse un mensaje de BienVenida personalizado como texto simple o como auto-formato Moodle, incluyendo marcas HTML y multi-idioma.
 
-Los siguientes remplazables (asi como están en idioma inglés) pueden ser incluidos en el mensaje:
+Los siguientes reemplazables (así como están en idioma inglés) pueden ser incluidos en el mensaje:
 
 * Nombre del curso {$a->coursename}
 * Enlace a la página del perfil del usuario {$a->profileurl}
+* Enlace a curso {$a->link}
 * Email del usuario {$a->email}
 * Nombre completo del usuario {$a->fullname}';
 $string['defaultrole'] = 'Asignación de rol por defecto';
@@ -59,10 +62,14 @@ $string['editselectedusers'] = 'Editar inscripciones seleccionadas de usuario';
 $string['emptyfield'] = 'No {$a}';
 $string['enrolenddate'] = 'Fecha de término';
 $string['enrolenddate_help'] = 'Si se habilita, los usuarios solamente estarán inscritos hasta esta fecha.';
+$string['enrolme'] = 'Inscribirme';
 $string['enrolperiod'] = 'Duración de la inscripción';
+$string['enrolperiod_desc'] = 'Tiempo predeterminado que la inscripción es válida. Si se configura a cero, la duración de la inscripción será ilimitada de forma predeterminada.';
+$string['enrolperiod_help'] = 'Tiempo predeterminado que la inscripción es válida, comenzando con el momento en que el usuario se inscribe a si mismo. Si se deshabilta, la duración de la inscripción será ilimitada.';
 $string['enrolstartdate'] = 'Fecha de inicio';
 $string['enrolstartdate_help'] = 'Si se habilita, los usuarios estarán inscritos solamente a partir de esta fecha.';
 $string['expiredaction'] = 'Acción al expirar la inscripción';
+$string['expiredaction_help'] = 'Seleccionar acción a realizar cuando expira la inscripción del usuario. Por favor tenga en cuenta que los datos y configuraciones de algunos usuarios son purgados del curso durante la des-inscripción (dar de baja) del curso.';
 $string['expirymessageenrolledbody'] = 'Estimado/s {$a->user},
 
 Esta es una notifiicación de que su inscripción en el curso \'{$a->course}\' está próxima a expirar en  {$a->timeend}.
@@ -88,37 +95,58 @@ $string['g_lang'] = 'Idioma';
 $string['g_none'] = 'Seleccionar...';
 $string['general'] = 'General';
 $string['groupname'] = 'Nombre del grupo';
+$string['groupname_help'] = 'Cuando usted agrupa por Filtro de Usuario solamente será creado un grupo y este será el nombre del grupo.';
 $string['groupon'] = 'Agrupar por';
 $string['groupon_help'] = 'AutoInscribir puede añadir usuarios a un grupo automáticamente cuando son inscritos basados en uno de estos campos de usuario.';
 $string['instancename'] = 'Etiqueta personalizada';
 $string['instancename_help'] = 'Usted puede añadir una etiqueta personalizada paradejar bien claro lo que hace este método de inscripción. Esta opción es más útil cuando existen varias instancias de AutoInscripción en un curso.';
 $string['loginenrol'] = 'Permitir inscripciones al ingresar al sitio';
+$string['loginenrol_desc'] = 'Permitir inscripción al ingresar al sitio podría alentar el desempeño de su sitio. Como alternativa, usted puede usar el trabajo agendado para actualizar inscripciones para todos los cursos o el comando de la interfaz por línea de comandos para cursos específicos.';
 $string['longtimenosee'] = 'des-inscribir inactivos después de';
+$string['longtimenosee_help'] = 'Si los usuarios no han ingresado a un curso por un largo tiempo, entonces ellos son des-inscritos (dados de baja) automáticamente. Este parámetro especifica ese límite de tiempo.';
+$string['m_confirmation'] = 'Confirmación en pantalla de inscripción';
 $string['m_course'] = 'Cargando el curso';
 $string['m_site'] = 'Entrar al Sitio';
 $string['maxenrolled'] = 'Máx usuarios inscritos';
+$string['maxenrolled_help'] = 'Especifica el número máximo de usuarios que se pueden autoinscribir. 0 significa ilimitado.';
+$string['messageprovider:expiry_notification'] = 'Notificaciones de expiración de inscripción por Autoinscripción';
 $string['method'] = 'Inscribir Cuando';
 $string['method_help'] = 'Los usuarios poderosos pueden usar esta configuración para cambiar el comportamiento del plugin, de forma que los usuarios sean inscritos al curso al entrar al sitio, en lugar de esperar a que entren al curso. Esto es útil para cursos que deberían ser visibles por defecto en la lista de "mis cursos" de los usuarios.';
 $string['newenrols'] = 'Permitir nuevas inscripciones';
+$string['newenrols_desc'] = 'Permitirle a usuarios Autoinscribise en cursos nuevos de forma predeterminada.';
+$string['newenrols_help'] = 'Esta configuración determina si es que un usuario se puede inscribir en este curso.';
 $string['nogroupon'] = 'No crear grupos';
 $string['pluginname'] = 'Auto Inscribir';
 $string['pluginname_desc'] = 'El módulo de inscripción automática permite una opción para que a los usuarios que han ingresado al sitio se les otorgue entrada a un curso y sean inscritos en él. Ésto es similar a permitir el acceso a invitados, pero los estudiantes quedarán permanentemente inscritos y por lo tanto, podrán participar en foros y actividades dentro del área.';
+$string['pluginnotenabled'] = 'Plugin de Autoinscripción no habilitado';
 $string['privacy:metadata:core_group'] = 'El plugin Autoenrol (Autoinscribir) puede crear nuevos grupos o usar grupos existentes para añadir participantes que concuerden con el filtro Autoenrol (Autoinscribir).';
 $string['removegroups'] = 'Remover grupos';
 $string['removegroups_desc'] = 'Cuando se elimina una instancia de inscripción, ¿debería de intentarse remover  a los grupos que haya creado?';
 $string['role'] = 'Rol asignado en forma predtterminada';
 $string['role_help'] = 'Los usuarios poderosos pueden usar esta configuración para cambiar el nivel de permiso al que los usuarios son inscritos,';
 $string['selfunenrol'] = 'Habilitar auto des-inscribir';
+$string['selfunenrol_desc'] = 'Permitirle a los usuarios des-inscribirse (darse de baja) de forma predeterminada en nuevas instancias de Autoinscripción';
 $string['selfunenrol_help'] = 'Cuando se configura a Si, los usuarios pueden des-inscribirse ellos mismos.';
 $string['sendcoursewelcomemessage'] = 'Mandar mensaje de BienVenida al curso';
 $string['sendcoursewelcomemessage_help'] = 'Cuando un usuario es auto-inscrito en el curso, se le puede enviar un mensaje de BienVenida. Si se envía desde el contacto del curso (por defecto el profesor), y más de un usuario tienen este rol, el Email es enviado desde el primer usuario que tenga este rol asignado.';
+$string['sendexpirynotificationstask'] = 'Trabajo de enviar notificación de expiración de la inscripción de Autoinscripción';
 $string['softmatch'] = 'Coincidencia Suave';
 $string['softmatch_help'] = 'Cuando se habilita, AutoInscripción inscribirá a un usuario cuando coincida parcialmente con el valor de "Permitir Solamente" en lugar de requirir una coincidencia exacta. Las coincidencias suaves también son sensibles a MAY/minúsculas. El valor de "Filtrar por" será usado para el nombre del grupo.';
 $string['status'] = 'Permitir inscripciones existentes';
+$string['status_desc'] = 'Habilitar método de Autoinscripción en cursos nuevos';
+$string['status_help'] = 'Si se activa junto con \'Permitir nuevas inscripciones\' deshabilitado, solamente los usuarios que Autoinscribieron previamente pueden acceder al curso. Si está deshabilitado, este método de Autoinscripción estará efectivamente deshabilitado, dado que todas las Autoinscripciones están suspendidas y los nuevos usuarios no se pueden Autoinscribir.';
+$string['syncenrolmentstask'] = 'Trabajo de Sincronizar Autoinscripción';
+$string['syncexpirationstask'] = 'Trabajo de comprobar expiración de Autoinscripción';
 $string['unenrolselfconfirm'] = '¿Realmente desea des-inscribirse (darse de baja) a sí mismo del curso "{$a}"? Usted puede volver a visitar el curso para volverse a inscribir, pero se perderá la información de sus calificaciones y envíos de tareas.';
 $string['unenrolusers'] = 'Des-inscribir usuarios';
 $string['userfilter'] = 'Filtro de Usuario';
+$string['userfilter_help'] = 'Cuando se activa, Autoinscripción inscribirá usuarios solamente cuando coincidan con las reglas.';
 $string['warning'] = '¡Precaución!';
 $string['warning_message'] = 'Al añadir este plugin a su curso le permitirá a cualquier usuario registrado de Moodle accesar a su curso. Solamente instale este plugin si quiere permitir acceso abierto a su curso para usuarios que hayan entrado al sitio.';
 $string['welcomemessage'] = 'Mensaje de BienVenida';
 $string['welcometocourse'] = 'BenVenido/a a {$a}';
+$string['welcometocoursetext'] = 'BienVenido a {$a->coursename}!
+
+Si aun no lo ha hecho, le pedimos que edite su página de su perfil para que podamos aprender màs acerca de usted :
+
+  {$a->profileurl}';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'calendartype_thaibuddhist', language 'es_mx', version '3.10'.
+ * Strings for component 'calendartype_thaibuddhist', language 'es_mx', version '4.2'.
  *
  * @package     calendartype_thaibuddhist
  * @category    string
@@ -25,17 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['days'] = '';
-$string['months'] = '';
 $string['name'] = 'Tailandés Budista';
 $string['pluginname'] = 'Tipo de Calendario Budista';
-$string['setting_displaybe'] = 'Mostrar BE';
-$string['setting_displaybe_description'] = 'Mostrar "BE" (Buddhist Era) (por ejemplo 2559BE)';
-$string['setting_force24h'] = 'Forzar uso de sistema de 24 horas';
-$string['setting_force24h_description'] = 'Forzar a todo el sitio a usar de sistema de tiempo de 24 horas';
-$string['setting_rewritethaiformat'] = 'Sobrescribir formato en idioma Tailandés';
-$string['setting_rewritethaiformat_description'] = 'Sobrescribir formato de fecha y hora en idioma Tailandés, lo cual originalmente está configurado en core_langconfig.';
-$string['shortdays'] = '';
-$string['shortmonths'] = '';
-$string['time'] = '{$a}';
-$string['year'] = '{$a}BE';

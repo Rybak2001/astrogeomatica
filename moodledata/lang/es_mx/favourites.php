@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'favourites', language 'es_mx', version '3.10'.
+ * Strings for component 'favourites', language 'es_mx', version '4.2'.
  *
  * @package     favourites
  * @category    string
@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['privacy:metadata:favourite'] = 'Almacena referencias a ítems que han sido destacados.';
-$string['privacy:metadata:favourite:component'] = 'El componente al cual pertenece el ítem destacado. Por ejemplo, core_user.';
-$string['privacy:metadata:favourite:itemid'] = 'El identificador para el ítem que está siendo destacado';
-$string['privacy:metadata:favourite:itemtype'] = 'El tipo del ítem destacado; por ejemplo, curso';
-$string['privacy:metadata:favourite:ordering'] = 'Un número usado para ordenar los ítems destacados del mismo tipo';
-$string['privacy:metadata:favourite:timecreated'] = 'El momento cuando el ítem fue destacado';
-$string['privacy:metadata:favourite:timemodified'] = 'El momento cuando el ítem destacado fue modificado por última vez';
-$string['privacy:metadata:favourite:userid'] = 'La ID del usuario que destacó al ítem';
+$string['privacy:metadata:favourite'] = 'Almacena referencias a elementos que han sido destacados.';
+$string['privacy:metadata:favourite:component'] = 'El componente al cual pertenece el elemento destacado. Por ejemplo, core_user.';
+$string['privacy:metadata:favourite:itemid'] = 'El identificador para el elemento que está siendo destacado';
+$string['privacy:metadata:favourite:itemtype'] = 'El tipo del elemento destacado; por ejemplo, curso';
+$string['privacy:metadata:favourite:ordering'] = 'Un número usado para ordenar los elementos destacados del mismo tipo';
+$string['privacy:metadata:favourite:timecreated'] = 'El momento cuando el elemento fue destacado';
+$string['privacy:metadata:favourite:timemodified'] = 'El momento cuando el elemento destacado fue modificado por última vez';
+$string['privacy:metadata:favourite:userid'] = 'La ID del usuario que destacó al elemento';

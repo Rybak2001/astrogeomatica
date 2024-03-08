@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_randomsamatch', language 'es_mx', version '3.10'.
+ * Strings for component 'qtype_randomsamatch', language 'es_mx', version '4.2'.
  *
  * @package     qtype_randomsamatch
  * @category    string
@@ -30,6 +30,7 @@ $string['nosaincategory'] = 'No existen preguntas de respuesta corta en la categ
 $string['notenoughsaincategory'] = 'Solamente hay {$a->nosaquestions} preguntas de respuesta corta en la categoría que eligió \'{$a->catname}\'. Elija una categoría diferente, haga más preguntas en esta categoría o reduzca la cantidad de preguntas que ha seleccionado.';
 $string['pluginname'] = 'Relacionar aleatoriamente respuestas-cortas';
 $string['pluginname_help'] = 'Desde la perspectiva del estudiante, se parece a una pregunta de relacionar columnas. La diferencia es que la lista de nombres o aseveraciones (preguntas) para relacionar se eligen aleatoriamente de las preguntas de respuesta corta en la categoría actual. Deberían de existir suficientes preguntas de respuestas cortas sin emplear en la categoría, de lo contrario se mostrará un mensaje de error.';
+$string['pluginname_link'] = 'question/type/randomsamatch';
 $string['pluginnameadding'] = 'Añadiendo una pregunta de relacionar aleatoriamente respuesta-corta';
 $string['pluginnameediting'] = 'Editando una pregunta de relacionar aleatoriamente respuesta-corta';
 $string['pluginnamesummary'] = 'Como una pregunta de relacionar columnas, pero creada aleatoriamente a partir de preguntas de respuesta corta en una categoría particular.';

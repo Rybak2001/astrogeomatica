@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'search', language 'es_mx', version '3.10'.
+ * Strings for component 'search', language 'es_mx', version '4.2'.
  *
  * @package     search
  * @category    string
@@ -43,6 +43,7 @@ $string['confirm_delete'] = '¿Está seguro de querer eliminar el índice para {
 $string['confirm_deleteall'] = '¿Está seguro de querer eliminar ahorita todos los contenidos indexados? Hasta que el sitio sea indexado nuevamente, los usuarios no obtendrán resultados de búsquedas.';
 $string['confirm_indexall'] = '¿Está seguro de querer actualizar ahorita contenidos indexados? Si muchos contenidos necesitan indexarse, esto puede tomar mucho tiempo. Para servidores activos, Usted normalmente dejaría la indexación para el trabajo agendado \'Global search indexing\' (Indexación de búsqueda global).';
 $string['confirm_reindexall'] = '¿Está seguro de querer re-indexar ahorita todos los contenidos del sitio? Si su sitio tiene muchos contenidos, esto tomará mucho tiempo, y los usuarios no obtendrán resultados completos de búsquedas hasta que se complete.';
+$string['content:courserole'] = '{$a->role} en {$a->course}';
 $string['core-all'] = 'Todos';
 $string['core-course-content'] = 'Contenido del curso';
 $string['core-courses'] = 'Cursos';
@@ -72,7 +73,7 @@ $string['enteryoursearchquery'] = 'Escriba su búsqueda';
 $string['error_indexing'] = 'Ocurrió un error al indexar';
 $string['errorareanotavailable'] = 'El área de búsqueda {$a} no está disponible.';
 $string['errors'] = 'Errores';
-$string['everywhere'] = 'En cualquier lado donde Usted pueda acceder';
+$string['everywhere'] = 'Cualquier lugar al que pueda acceder';
 $string['filesinindexdirectory'] = 'Archivos en el directorio índice';
 $string['filterheader'] = 'Filtro';
 $string['fromtime'] = 'Modificado después de';
@@ -81,7 +82,7 @@ $string['globalsearchdisabled'] = 'La búsqueda global no está activada.';
 $string['gradualreindex'] = 're-indexar gradual {$a}';
 $string['gradualreindex_confirm'] = '¿Está seguro de querer re-indexar {$a}? Esto podría tardar bastante tiempo, aunque los datos existentes permanecerán disponibles durante la re-indexación.';
 $string['gradualreindex_queued'] = 'Se ha solicitado re-indexado para {$a->name} ({$a->count} contextos). Este re-indexado será efectuada por el trabajo agendado  ‘Global search indexing’ .';
-$string['incourse'] = 'en ourso {$a}';
+$string['incourse'] = 'en curso {$a}';
 $string['index'] = 'Índice';
 $string['indexwhendisabledfullnotice'] = 'Actualmente no está permitida la indexación cuando la búsqueda está deshabilitada. Para habilitarla, por favor vea la configuración  <a href="{$a->url}">searchindexwhendisabled</a>.';
 $string['indexwhendisabledshortnotice'] = 'La indexación no está disponible.';
@@ -106,7 +107,7 @@ $string['priority_reindexing'] = 'Re-indexado';
 $string['privacy:metadata'] = 'El subsistema de búsqueda no almacena ningún dato personal.';
 $string['progress'] = 'Progreso';
 $string['queryerror'] = 'La consulta que Usted proporcionó no pudo ser interpretada por el motor de búsqueda: {$a}';
-$string['queueheading'] = 'Cola adicional de indexado ({$a} ítems)';
+$string['queueheading'] = 'Cola adicional de indexado ({$a} elementos)';
 $string['resultsreturnedfor'] = 'resultados devueltos para';
 $string['runindexer'] = 'Ejecutar indexador (real)';
 $string['runindexertest'] = 'Ejecutar prueba de indexador';
@@ -115,6 +116,7 @@ $string['schemaversionunknown'] = 'El motor de búsqueda no sabe acerca de la ve
 $string['score'] = 'Puntuación';
 $string['search'] = 'Búsqueda';
 $string['search:course'] = 'Cursos';
+$string['search:course_teacher'] = 'Profesor del Curso';
 $string['search:customfield'] = 'Campos personalizados del curso';
 $string['search:message_received'] = 'Mensajes - recibidos';
 $string['search:message_sent'] = 'Mensajes - enviados';
@@ -136,6 +138,7 @@ $string['thesewordsmustappear'] = 'Estas palabras deben aparecer';
 $string['thesewordsmustnotappear'] = 'Estas palabras no deben aparecer';
 $string['title'] = 'Título';
 $string['tofetchtheseresults'] = 'para rendir estos resultados';
+$string['topresults'] = 'Resultados Superiores';
 $string['totalsize'] = 'Tamaño total';
 $string['totime'] = 'Modificado antes de';
 $string['type'] = 'Tipo';

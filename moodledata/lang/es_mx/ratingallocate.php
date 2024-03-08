@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'ratingallocate', language 'es_mx', version '3.10'.
+ * Strings for component 'ratingallocate', language 'es_mx', version '4.2'.
  *
  * @package     ratingallocate
  * @category    string
@@ -26,7 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['algorithm_already_running'] = 'Ya está corriendo otra instancia del algoritmo de asignación. Por favor espere unos pocos minutos y refresque la página.';
+$string['algorithm_now_scheduled_for_cron'] = 'La ejecución del algoritmo de asignación ahora ha sido agendada para ejecutarse por el trabajo Cron. Por favor espere unos cuantos minutos y refresque la página.';
 $string['algorithm_scheduled_for_cron'] = 'La corrida del algoritmo de asignación está agendada para ejecución inmediata por el trabajo del cron. Por favor espere unos pocos minutos y refresque la página.';
+$string['algorithmforcebackground'] = 'Forzar cálculos como trabajo en segundo plano';
 $string['algorithmtimeout'] = 'Caducó el tiempo del algoritmo';
 $string['allocation_manual_explain_all'] = 'Elija una opción para asignarla a un usuario.';
 $string['allocation_manual_explain_only_raters'] = 'Seleccione una opción a ser asignada a un usuario.
@@ -55,12 +57,15 @@ $string['allocations_table_choice'] = 'Elección';
 $string['allocations_table_noallocation'] = 'Sin Asignación';
 $string['allocations_table_users'] = 'Usuarios';
 $string['at_least_one_rateable_choices_needed'] = 'Usted necesita al menos una opción valorable.';
+$string['calendarstart'] = '{$a} abre';
+$string['calendarstop'] = '{$a} cierra';
 $string['choice_active'] = 'La selección está activa';
 $string['choice_active_help'] = 'Solamente las (s)elecciones activas son mostrada al usuario. Las (s)elecciones inactivas no son mostradas.';
 $string['choice_added_notification'] = 'Opción guardada';
 $string['choice_deleted_notification'] = 'La opción "{$a}" fue eliminada';
 $string['choice_deleted_notification_error'] = 'La opción que se pidió eliminar no pudo encontrarse.';
 $string['choice_explanation'] = 'Descripción (opcional)';
+$string['choice_groupselect'] = 'Grupos';
 $string['choice_maxsize'] = 'Máximo número de participantes';
 $string['choice_maxsize_display'] = 'Número máximo de estudiantes';
 $string['choice_table_active'] = 'Activo';
@@ -68,34 +73,76 @@ $string['choice_table_explanation'] = 'Descripción';
 $string['choice_table_maxsize'] = 'Tamaño Máx.';
 $string['choice_table_title'] = 'Título';
 $string['choice_table_tools'] = 'Editar';
+$string['choice_table_usegroups'] = 'Grupos';
 $string['choice_title'] = 'Título';
 $string['choice_title_help'] = 'Título de la elección. * Atención * Todas las elecciones activas se mostrarán mientras estén ordenadas por título.';
+$string['choice_usegroups'] = 'Restringir visibilidad por grupos';
+$string['choice_usegroups_help'] = '* Si se  selecciona, esta opción solamente será visible a los miembros de los grupos especificados.
+* Deshabilitar la restricción significa que esta opción será disponible para cualquiera.
+* Habilitar la restricción sin especificar un solo grupo significa que esta opción *NO ESTARÄ* disponible para cualquiera.';
 $string['choicestatusheading'] = 'Estatus';
+$string['closebeforeopen'] = 'Esta actividad debe terminar después de que inicia.';
+$string['configalgorithmforcebackground'] = 'Aunque fuera disparada manualmente por el usuario, la distribución siempre será calculada en un segundo plano.';
 $string['configalgorithmtimeout'] = 'El tiempo en segundos depués del cual se asume que el algoritmo se pasmó.
 La corrida actual es terminada y se marca como fallida.';
+$string['configdownloaduserfields'] = 'Al descargar una tabla con usuarios en ella, estos campos pueden ser mostrados adicionalmente a los nombres y apellidos de los usuarios.';
+$string['confirm_delete_all_ratings'] = '¿Está seguro de querer eliminar todas la valoraciones que los estudiantes hayan enviado hasta hoy?';
 $string['confirm_start_distribution'] = 'El correr el algoritmo eliminará todas las asignaciones  existentes, si hubiera. ¡Está Usted seguro de continuar?';
 $string['create_moodle_groups'] = 'Crear Grupos a partir de Asignación';
 $string['crontask'] = 'Asignación automatizada para Asignación Justa';
+$string['csvempty'] = 'Archivo CSV está vacío';
+$string['csvupload'] = 'Subir CSV';
+$string['csvupload_explanation'] = 'Subida masiva de opciones vía un archivo CSV';
+$string['csvupload_further_problems'] = '{$a} problemas adicionales encontrados pero no mostrados.';
+$string['csvupload_live_problems'] = 'Problemas encontrados en importación por CSV : {$a}';
+$string['csvupload_live_success'] = 'Importación por CSV exitosal. {$a->importcount} opciones importadas.';
+$string['csvupload_missing_fields'] = 'Columnas faltates en importación por CSV : {$a}';
+$string['csvupload_missing_groups'] = 'Linea {$a->row}: grupo(s) no disponible en curso: [{$a->invalidgroups}]';
+$string['csvupload_test_problems'] = 'Problemas encontrados en prueba de importación CSV: {$a}';
+$string['csvupload_test_success'] = 'Prueba de importación CSV exitosa. {$a->importcount} opciones pudieron ser importadas.';
+$string['csvupload_test_upload'] = 'Subida de prueba';
+$string['csvupload_test_upload_help'] = 'Cuando se activa: probar el archivo CSV subido para detectar problemas en datos, pero no incorporar a la base de datos.';
+$string['csvupload_too_long_title'] = 'Título demasiado largo (> 255 caracteres): {$a}';
+$string['delete_all_ratings'] = 'Eliminar todas las valoraciones de estudiantes';
+$string['delete_all_ratings_explanation'] = 'Eliminar todas las valoraciones que los estudiantes han enviado hasta ahora y todas las asignaciones que pueden haber sido creadas basadas en estas valoraciones. Usar con cuidado.';
 $string['delete_choice'] = 'Eliminar opción';
 $string['delete_rating'] = 'Eliminando valoración';
 $string['deletechoice'] = 'Eliminar Elección';
 $string['deleteconfirm'] = '¿Realmente desea usted eliminar la opción "{$a}"?';
+$string['distribute_unallocated_equally_confirm'] = 'Todo los usuarios actualmente no asignados serán distribuidos a las opciones. Las opciones serán llenadas por igual, para que todas tengan aproximadamente la misma cantidad de lugares restantes.';
+$string['distribute_unallocated_fill_confirm'] = 'Todo los usuarios actualmente no asignados serán distribuidos a las opciones. Cada opción será llenada hasta su máximo antes de asignarle usuarios a la opción siguiente.';
+$string['distributeequally'] = 'Distribuir usuarios no asignados por igual';
+$string['distributefill'] = 'Distribuir usuarios no asignados llenando huecos';
+$string['distributing_unallocated_users_started'] = 'La distribución de usuarios no asignados ha iniciado. Por favor espere un rato y mire la tabla de distribución.';
 $string['distribution_algorithm'] = 'Algoritmo de la Distribución';
+$string['distribution_description'] = 'Distribución de usuarios no asignado';
+$string['distribution_description_help'] = 'Usted puede elegir entre dos algoritmos diferentes para distribuir los usuarios actualmente no asignados.<br/>
+ <i>Distribuir por igual:</i> Los usuarios son distribuidos por igual en todas las opciones respetando el máximo de cada opción.<br/>
+ <i>Llenar opciones:</i> Cada opción es llenada con usuarios primeramente antes de llenar la opción siguiente. Las opciones con menos lugares restantes son llenadas primero.<br/><br/>
+ Las restricciones de grupo serán respetadas.';
 $string['distribution_published'] = 'La asignación/distribución ha sido publicada.';
 $string['distribution_saved'] = 'Distribución guardada (en {$a}s).';
 $string['distribution_table'] = 'Tabla de Distribución';
+$string['distribution_unallocated_already_running'] = 'La distribución de usuarios no asignados actualmente está siendo procesada. Por favor espere un rato y vuelva a cargar la página para comprobar si ya ha terminado.';
 $string['download_problem_mps_format'] = 'Descargar Ecuación (en formato mps/txt)';
+$string['downloaduserfields'] = 'Campos de usuario adicionales para descargar';
 $string['edit_choice'] = 'Editar opción';
 $string['edit_rating'] = 'Editar Valoración';
 $string['err_maximum'] = 'El valor máximo para este campo es {$a}.';
 $string['err_minimum'] = 'El valor mínimo para este campo es {$a}.';
 $string['err_positivnumber'] = 'Usted debe ingresar aquí un número positivo.';
 $string['err_required'] = 'Usted necesita proporcionar un valor para este campo.';
+$string['error_deleting_all_insufficient_permission'] = 'Usted no tiene permiso para hacer eso';
+$string['error_deleting_all_no_rating_possible'] = 'Usted no puede eliminar las valoraciones cuando la fase de valoración ha concluido';
 $string['export_choice_alloc_suffix'] = '- Asignación';
 $string['export_choice_text_suffix'] = '- Texto';
 $string['export_options'] = 'Exportar Opciones';
 $string['filter_hide_users_without_rating'] = 'Ocultar usuarios sin valoraciones';
 $string['filter_show_alloc_necessary'] = 'Ocultar usuarios con asignación';
+$string['filtergroup'] = 'Filtro de grupo';
+$string['filtergroup_help'] = '* Seleccionar un grupo para filtrar participantes del curso de acuerdo a los grupos en donde están, y las opciones de valoración por grupos que tienen la habilidad para acceder a ellas.
+* Solamente grupos usados en la opción de *usar grupos* pueden ser seleccionados.
+* Si está seleccionado *sin grupo* , los usuarios que no estén en ninguno de los grupos usados por una opción son mostrados.';
 $string['filtermanualtabledesc'] = 'Describe los filtros que son aplicados a la tabla del formato de asignación manual.';
 $string['filtertabledesc'] = 'Describe los filtros que son aplicados a la tabla de asignación.';
 $string['groupingname'] = 'Crado desde asignación Justa "{$a}"';
@@ -109,6 +156,8 @@ $string['last_algorithm_run_status_-1'] = 'Fallido';
 $string['last_algorithm_run_status_0'] = 'No iniciado';
 $string['last_algorithm_run_status_1'] = 'Corriendo';
 $string['last_algorithm_run_status_2'] = 'Exitoso';
+$string['log_all_ratings_deleted'] = 'Todas las valoraciones de una instancia de Asignación Justa fueron eliminadas';
+$string['log_all_ratings_deleted_description'] = 'El usuario con id "{$a->userid}" ha eliminado todas las valoraciones para la Asignación Justa con id "{$a->ratingallocateid}".';
 $string['log_allocation_published'] = 'Asignación publicada';
 $string['log_allocation_published_description'] = 'El usuario con id "{$a->userid}" publicó la asignación para Asignación Justa con id "{$a->ratingallocateid}".';
 $string['log_allocation_statistics_viewed'] = 'Estadísticas de asignación vistas';
@@ -166,6 +215,7 @@ $string['no_id_or_m_error'] = 'Usted debe especificar una course_module ID (ID d
 $string['no_rating_given'] = 'No-valorada';
 $string['no_rating_possible'] = '¡Actualmente, no hay valoración posible!';
 $string['no_user_to_allocate'] = 'No hay usuario que pueda asignar';
+$string['openafterclose'] = 'Esta actividad debe iniciar antes de que termine.';
 $string['pluginadministration'] = 'Administración de Asignaciones Justas';
 $string['pluginname'] = 'Asignación Justa';
 $string['privacy:metadata:preference:flextable_filter'] = 'Almacena los filtros que son aplicados a la tabla de asignaciones.';
@@ -204,6 +254,7 @@ $string['rating_is_over_with_allocation'] = 'La valoración ha concluido. Usted 
 $string['rating_raw'] = '{$a}';
 $string['ratingallocate'] = 'Asignación Justa';
 $string['ratingallocate:addinstance'] = 'Añadir nueva instnacia de Asignación Justa';
+$string['ratingallocate:distribute_unallocated'] = 'Habilidad para distribuir automáticamente usuarios no asignados';
 $string['ratingallocate:export_ratings'] = 'Habilidad para exportar las valoraciones de usuario';
 $string['ratingallocate:give_rating'] = 'Crear/editar selección/opción';
 $string['ratingallocate:modify_choices'] = 'Habilidad para modificar, editar o eliminar el conjunto de opciones de una Asignación Justa.';
@@ -211,12 +262,14 @@ $string['ratingallocate:start_distribution'] = 'Iniciar asignación de usuarios 
 $string['ratingallocate:view'] = 'Ver instancias de Asignación Justa';
 $string['ratingallocatename'] = 'Nombre de esta Asignación Justa';
 $string['ratingallocatename_help'] = 'Por favor elija un nombre para esta actividad de Asignación Justa.';
+$string['ratings_and_allocations_deleted'] = 'Valoraciones y asignaciones eliminadas';
 $string['ratings_deleted'] = 'Sus valoraciones han sido eliminadas.';
 $string['ratings_saved'] = 'Sus valoraciones se han guardado.';
 $string['ratings_table'] = 'Valoraciones y Asignaciones';
 $string['ratings_table_sum_allocations'] = 'Número de asignaciones / Máximo';
 $string['ratings_table_sum_allocations_value'] = '{$a->sum} / {$a->max}';
 $string['ratings_table_user'] = 'Usuario';
+$string['remove_ratings_and_allocations'] = 'Eliminar todas las valoraciones y asignaciones';
 $string['reports_group'] = 'Reportes';
 $string['results_not_yet_published'] = 'Los resultados aun no han sido publicados.';
 $string['runalgorithmbycron'] = 'Asignación automática después del períodod de valoración';
@@ -224,10 +277,10 @@ $string['runalgorithmbycron_help'] = 'Corre automáticamente el algoritmo de asi
 $string['saveandcontinue'] = 'Guardar y Continuar';
 $string['saveandnext'] = 'Guaradr y añadir siguiente';
 $string['select_strategy'] = 'Elija la Estrategia para valorar';
-$string['select_strategy_help'] = 'Elija una estrategia para valoración:
+$string['select_strategy_help'] = 'Elija una estrategia de valoración:
 
 * **Aceptar-Rechazar** El usuario puede decidir para cada opción si la acepta o la rechaza
-* **Aceptar-Neutral-Rechazar**  El usuario puede decidir para cada opción si la acepta, la rechaza o ser neutral alrespecto.
+* **Aceptar-Neutral-Rechazar**  El usuario puede decidir para cada opción si la acepta, la rechaza o ser neutral al respecto.
 * **Escala Likert** El usuario puede valorar cada opción con un número de un rango definido. El rango de números puede ser definido individualmente (comenzando con 0). Un número alto corresponde a una preferencia alta.
 * **Dar Puntos** El usuario puede valorar las opciones al asignar un número de puntos. El número máximo de puntos puede ser definido individualmente. Un número alto de puntos corresponde a una preferencia alta.
 * **Rankear Opciones** El usuario tiene que rankear (priorizar) las opciones disponibles. Cuantas opciones necesitan valorarse puede ser definido individualmente.
@@ -238,6 +291,7 @@ $string['show_choices_header'] = 'Lista de todas las opciones';
 $string['show_table'] = 'Mostrar Valoraciones y Asignaciones';
 $string['start_distribution'] = 'Correr Algoritmo de Asignación';
 $string['start_distribution_explanation'] = 'Un algoritmo automaticamente intentará asignar justamente a los usuarios por las valoraciones dadas.';
+$string['strategy_altered_after_preferences'] = 'La estrategia no puede ser cambiada después de que fueron enviadas las preferencias';
 $string['strategy_lickert_max_no'] = 'Solamente puede darle de 0 puntos a un maximo de {$a} (s)elección(es).';
 $string['strategy_lickert_name'] = 'Escala Likert';
 $string['strategy_lickert_rating_biggestwish'] = '{$a} - Altamente apreciado';
@@ -253,11 +307,13 @@ $string['strategy_order_no_choice'] = '{$a}. Opción';
 $string['strategy_order_setting_countoptions'] = 'Número mínimo de campos que se le presentan al usuario para que vote (¡más pequeño o igual al número de opciones!)';
 $string['strategy_order_use_only_once'] = 'Las opciones no pueden ser seleccionadas dos veces y deben ser únicas.';
 $string['strategy_points_explain_distribute_points'] = 'Darle puntos a cada opción, Usted tiene un total de {$a} puntos para distribuir. Debe priorizar la mejor opción con la mayor cantidad de puntos';
+$string['strategy_points_explain_max_per_choice'] = 'Usted como máximo puede asignar {$a} puntos a una sola opción.';
 $string['strategy_points_explain_max_zero'] = 'Usted solamente puede darle 0 puntos a como máximo {$a} opciones';
 $string['strategy_points_illegal_entry'] = 'Los puntos que Usted asigna a una elección deben estar entre 0 y {$a}.';
 $string['strategy_points_incorrect_totalpoints'] = 'Número incorrecto de puntos totales. La suma de todos los puntos debe ser {$a}';
 $string['strategy_points_max_count_zero'] = 'Usted puede darle 0 puntos a cuando máximo {$a} opción(es)';
 $string['strategy_points_name'] = 'Dar Puntos';
+$string['strategy_points_setting_maxperchoice'] = 'Número máximo de puntos que el usuario puede dar a una sola opción';
 $string['strategy_points_setting_maxzero'] = 'Número maximo de opciones a las que el usuario puede darle 0  puntos';
 $string['strategy_points_setting_totalpoints'] = 'Número total de puntos que el usuario puede asignar';
 $string['strategy_settings_default'] = 'Valor por defecto para formato de valoración';
@@ -285,12 +341,17 @@ $string['strategy_yesno_rating_crossout'] = 'Rechazar';
 $string['strategy_yesno_setting_crossout'] = 'Máximo número de opciones que el usuario puede valorar con "Rechazar"';
 $string['strategyname'] = 'La Estrategia es "{$a}"';
 $string['strategyspecificoptions'] = 'Opciones específicas de estrategia';
+$string['success_deleting_all'] = 'Eliminó todas las valoraciones';
 $string['timeremaining'] = 'Tiempo restante';
+$string['title_too_long_error'] = 'El título de la opción tiene demasiados caracteres; solamente están permitidos 255.';
 $string['too_early_to_distribute'] = 'Demasiado pronto para distribuir. Todavía no termina la valoración.';
 $string['too_early_to_rate'] = 'Es demasiado pronto para calificar';
 $string['too_few_choices_to_rate'] = '¡Hay muy pocas opciones para valorar! Los estudiantes tienen que clasificar al menos {$a} opciones!';
 $string['unassigned_users'] = 'Usuarios sin asignar';
 $string['update_filter'] = 'Actualizar Filtro';
+$string['upload_choices'] = 'Subir opciones vía CSV';
+$string['upload_choices_required_fields'] = 'Campos Requeridos';
+$string['userid'] = 'ID del usuario';
 $string['you_are_not_allocated'] = '¡Usted no fue asignado a ninguna opción!';
 $string['your_allocated_choice'] = 'Su Asignación';
 $string['your_rating'] = 'Su Valoración.';

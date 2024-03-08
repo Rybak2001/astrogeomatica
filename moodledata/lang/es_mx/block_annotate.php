@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_annotate', language 'es_mx', version '3.10'.
+ * Strings for component 'block_annotate', language 'es_mx', version '4.2'.
  *
  * @package     block_annotate
  * @category    string
@@ -41,7 +41,7 @@ $string['annotate_api_user_msg'] = 'Email del usuario Annotate con acceso API. A
 $string['annotate_header_config'] = 'Configuraciones del servidor Annotate';
 $string['annotate_header_description'] = 'Aquí puede Usted ingresar los parámetros correctos para conectarse a su servidor Annotate.';
 $string['annotate_moodleId_lbl'] = 'Identificador de Instalación Moodle';
-$string['annotate_moodleId_msg'] = 'Para separar los espacios de trabajo basados en la localización de la instalación Moodle.';
+$string['annotate_moodleId_msg'] = 'Para separar los espacios de trabajo basados en la ubicación de la instalación Moodle.';
 $string['annotate_server_uri_default'] = 'http://localhost/annotate';
 $string['annotate_server_uri_lbl'] = 'URL Servidor Annotate';
 $string['annotate_server_uri_msg'] = 'Configure esto para su servidor Annotate. Para probarlo, si Usted tiene una instalación de Annotate por defecto en el mismo servidor en donde tiene Moodle, intente  "http://localhost/annotate". Si ambos servidores están en la misma sub-red local, Usted puede usar sus direcciones IP locales aquí también, siempre y cuando cada uno esté configurado a saber su propia dirección.';

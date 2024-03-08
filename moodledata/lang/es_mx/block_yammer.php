@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_yammer', language 'es_mx', version '3.10'.
+ * Strings for component 'block_yammer', language 'es_mx', version '4.2'.
  *
  * @package     block_yammer
  * @category    string
@@ -43,7 +43,7 @@ $string['fetch'] = 'Buscar metadatos';
 $string['fetch_desc'] = 'Buscar metadatos de objeto OpenGraph';
 $string['fetch_help'] = 'Buscar metadatos de objeto OpenGraph';
 $string['height'] = 'Altura';
-$string['height_help'] = 'Configurar la altura del canal en pixeles (px). Esto puede ser anulado por el tema o la localización del bloque.';
+$string['height_help'] = 'Configurar la altura del canal en pixeles (px). Esto puede ser anulado por el tema o el acomodo del bloque.';
 $string['hideNetworkName'] = 'Ocultar red en encabezado';
 $string['hideNetworkName_desc'] = 'Ocultar nobre de red en el encabezado.';
 $string['ignore_canonical_url'] = 'Ignorar URL de Canonical';
@@ -76,7 +76,7 @@ $string['private_help'] = 'Marcar como privado';
 $string['prompttext'] = 'Texto del Mensaje';
 $string['prompttext_help'] = 'Se le sugiere que anime a sus usuarios para que publiquen más al proporcionar texto personalizado con marca-de-agua del publicador.';
 $string['scriptsource'] = 'Orígen del \'script\'';
-$string['scriptsource_desc'] = 'La localización del \'script\' para inclustar Yammer. Esto debería dejarse como está por defecto.';
+$string['scriptsource_desc'] = 'La ubicación del \'script\' para inclustar Yammer. Esto debería dejarse como está por defecto.';
 $string['showfooter'] = 'Mostrar pie de página';
 $string['showfooter_desc'] = 'Mostrar el pie de página';
 $string['showheader'] = 'Mostrar encabezado';
@@ -85,7 +85,7 @@ $string['showogpreview'] = 'Mostrar vista previa de OG';
 $string['showogpreview_desc'] = 'Mostrar vista previa del objeto OpenGraph';
 $string['showogpreview_help'] = 'Mostrar una vista previa de Open Graph de la URL destino debajo del nuevo publicador del mensaje, que les proporciona a los usuarios una vista previa del resumen de Open Graph que verán en la conversación que están iniciando.';
 $string['width'] = 'Ancho';
-$string['width_help'] = 'Configurar el ancho del canal en pixeles (px). Esto puede ser anulado por el tema o la localización del bloque.';
+$string['width_help'] = 'Configurar el ancho del canal en pixeles (px). Esto puede ser anulado por el tema o el acomodo del bloque.';
 $string['yammer'] = 'Yammer';
 $string['yammer:addinstance'] = 'Añadir un nuevo bloque Yammer';
 $string['yammer_settings'] = 'Configuraciones de red Yammer';

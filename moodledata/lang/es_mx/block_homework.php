@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_homework', language 'es_mx', version '3.10'.
+ * Strings for component 'block_homework', language 'es_mx', version '4.2'.
  *
  * @package     block_homework
  * @category    string
@@ -253,7 +253,7 @@ $string['onehour'] = '1 hora';
 $string['onlinefilesubs'] = 'Archivo subido';
 $string['onlinetextorfilesubs'] = 'Texto en-línea o archivo subido';
 $string['onlinetextsubs'] = 'Texto en-línea';
-$string['oops'] = 'Órale...';
+$string['oops'] = 'Ups...';
 $string['pageerror'] = 'Lo sentimos, ha habido un problemita: {$a}';
 $string['parentalnotificationerror'] = 'Erroral tratar de notificar a padres: {$a}';
 $string['parentview'] = ', Vista paterna';

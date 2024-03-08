@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'customcertelement_userpicture', language 'es_mx', version '3.10'.
+ * Strings for component 'customcertelement_userpicture', language 'es_mx', version '4.2'.
  *
  * @package     customcertelement_userpicture
  * @category    string
@@ -25,11 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['height'] = 'Altura';
-$string['height_help'] = 'Altura de la imagen en mm. Si fuera igual a cero, será calculada automáticamente.';
-$string['invalidheight'] = 'La altura debe ser un número válido mayor o igual a 0.';
-$string['invalidwidth'] = 'El ancho debe ser un número válido mayor o igual a 0.';
 $string['pluginname'] = 'Imagen del usuario';
 $string['privacy:metadata'] = 'El plugin de imagen del usuario no almacena ningún dato personal.';
-$string['width'] = 'Ancho';
-$string['width_help'] = 'Anchode la imagen en mm. Si fuera igual a cero, será calculada automáticamente';

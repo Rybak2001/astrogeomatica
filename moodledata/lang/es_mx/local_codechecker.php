@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_codechecker', language 'es_mx', version '3.10'.
+ * Strings for component 'local_codechecker', language 'es_mx', version '4.2'.
  *
  * @package     local_codechecker
  * @category    string
@@ -26,11 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['check'] = 'Inspeccionar código';
-$string['clihelp'] = 'Inspeccionar código PHP al comparar con las directrices de codificación de Moodle.
+$string['clihelp'] = 'Comprobar algo del código PHP contra las directrices de codificación de Moodle.
 Opciones:
-  --interactive, -i Se detiene después de cada archivo, permitiendo continuar con el siguiente archivo,
-                         o repetir la revisión contra el mismo.
-  --help, -h        Muestra esta información
+  --interactiva, -i Se detiene después de cada archivo, permitiendo continuar con el siguiente archivo, o repetir la comprobación contra el mismo.
+  -excluir, -e   Excluir archivos con una lista separada por comas de rutas de coincidencia de subcadenas. Los asteriscos están permitidos como comodines en cualquier lugar.
+  --help, -h        Mostrar esta información
 Ejemplo:
   php run.php local/codechecker';
 $string['error_find'] = 'Falló la búsqueda de carpeta';
@@ -57,6 +57,7 @@ $string['path'] = 'Ruta(s) a inspeccionar';
 $string['pluginname'] = 'Inspector de código (code checker)';
 $string['privacy:metadata'] = 'El plugin Code checker no almacena ningún dato personal.';
 $string['recheckfile'] = 'Inspeccionar otra vez solamente este archivo';
+$string['showstandard'] = 'Mostrar estándares phpcs asociados con un problema';
 $string['success'] = '¡Bien hecho!';
 $string['summary'] = 'Total: {$a}';
 $string['wholefile'] = 'Archivo';

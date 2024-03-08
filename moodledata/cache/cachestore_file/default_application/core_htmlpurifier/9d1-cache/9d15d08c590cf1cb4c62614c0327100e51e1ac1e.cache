@@ -1,6 +1,0 @@
-s:658:"<p>Esta configuración determina si es que un estudiante puede hacer intentos adicionales a la tarea. Para cada intento, la calificación y retroalimentación son guardadas, y solamente pueden ser vistas por el profesor y el estudiante. Las opciones disponibles son:</p>
-
-<ul><li>Nunca-Solamente es posible un intento.</li>
-<li>Manualmente -  Envíos adicionales pueden ser permitidos por un profesor.</li>
-<li>Automáticamente hasta pasar - Envíos adicionales están permitidos automáticamente, hasta que el estudiante alcance la calificación necesaria para pasar (aprobar), que está configurada en el libro de calificaciones para esta tarea.</li>
-</ul>";

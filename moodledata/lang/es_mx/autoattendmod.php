@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'autoattendmod', language 'es_mx', version '3.10'.
+ * Strings for component 'autoattendmod', language 'es_mx', version '4.2'.
  *
  * @package     autoattendmod
  * @category    string
@@ -30,6 +30,7 @@ $string['autoattendmod:receivemail'] = 'Recibir notificación Email';
 $string['autoattendmod:view'] = 'Ver módulo';
 $string['autoattendmod:viewreports'] = 'Ver reportes';
 $string['autoattendmod_options'] = 'Opciones del módulo de Auto Asistencia';
+$string['backup_block'] = 'Cuando este curso es respaldado, los datos de asistencia son respaldados que fueron gestionados por el bloque de Autoattendance';
 $string['backup_block_title'] = 'Respaldo de Datos de Asistencia';
 $string['description'] = 'Descripción';
 $string['email_allrep'] = 'Mandar todos los reportes a profesores por Email';

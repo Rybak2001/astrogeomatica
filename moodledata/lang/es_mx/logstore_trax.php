@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'logstore_trax', language 'es_mx', version '3.10'.
+ * Strings for component 'logstore_trax', language 'es_mx', version '4.2'.
  *
  * @package     logstore_trax
  * @category    string
@@ -25,8 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['buffersize'] = 'Tamaño del buffer';
-$string['buffersize_help'] = 'Número de eventos que pueden ser agrupados para ser enviados en una sola solicitud.';
 $string['lrs_endpoint'] = 'Endpoint LRS';
 $string['lrs_endpoint_help'] = 'Esta es la URL que es usada para llamar a los servicios xAPI de su LRS.';
 $string['lrs_password'] = 'Contraseña LRS (HTTP Básico)';

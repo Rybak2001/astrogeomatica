@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_gradebook', language 'es_mx', version '3.10'.
+ * Strings for component 'local_gradebook', language 'es_mx', version '4.2'.
  *
  * @package     local_gradebook
  * @category    string
@@ -44,6 +44,7 @@ $string['element_calculation_novalid'] = 'Elemento inválido seleccionado para a
 $string['generated_calc'] = 'Cálculo generado';
 $string['generated_calc_text'] = 'Si Usted quiere aplicar este cálculo, péguelo tal cual en la caja para  "Cálculo actual" y elija "Guardar cambios"';
 $string['math_sign'] = 'Signo';
+$string['navbar_link'] = 'Configuración avanzada del Libro de calificaciones';
 $string['no_grades_selected'] = 'No has seleccionado ninguna actividad, por favor vuelve atrás y selecciona alguna.';
 $string['op:average'] = 'Promedio';
 $string['op:max'] = 'Máximo';

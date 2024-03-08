@@ -1,0 +1,166 @@
+O:26:"core_cache\version_wrapper":2:{s:4:"data";O:8:"stdClass":9:{s:7:"modinfo";a:34:{i:279;O:8:"stdClass":16:{s:2:"id";s:2:"41";s:2:"cm";s:3:"279";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:1:"9";s:5:"added";s:10:"1662386905";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:27:"Foro de consultas del curso";s:7:"content";s:67:"<div class="no-overflow">Dudas y consultas acerca del módulo</div>";}i:280;O:8:"stdClass":16:{s:2:"id";s:2:"42";s:2:"cm";s:3:"280";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:1:"9";s:5:"added";s:10:"1662414897";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:33:"Presentación de los particpantes";s:7:"content";s:228:"<div class="no-overflow">De forma breve mencione los siguientes aspectos personales:<p></p><ul><li>Profesion</li><li>Lugar de residencia</li><li>Conocimientos de Teledetección</li><li>Conocimientos de SAR</li></ul><p></p></div>";}i:281;O:8:"stdClass":16:{s:2:"id";s:2:"93";s:2:"cm";s:3:"281";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1662416248";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:22:"Biblioteca del módulo";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:282;O:8:"stdClass":16:{s:2:"id";s:2:"94";s:2:"cm";s:3:"282";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1662416248";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:12:"Instaladores";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:283;O:8:"stdClass":16:{s:2:"id";s:2:"95";s:2:"cm";s:3:"283";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1662416248";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:16:"Otros materiales";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:284;O:8:"stdClass":15:{s:2:"id";s:2:"96";s:2:"cm";s:3:"284";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1662435634";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:26:"Clase virtual 1  5/09/2022";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:285;O:8:"stdClass":15:{s:2:"id";s:2:"97";s:2:"cm";s:3:"285";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1662602934";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:26:"Clase Virtual 2  7/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:286;O:8:"stdClass":15:{s:2:"id";s:2:"98";s:2:"cm";s:3:"286";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1662779190";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:26:"Clase Virtual 3  9/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:287;O:8:"stdClass":15:{s:2:"id";s:2:"99";s:2:"cm";s:3:"287";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1663036931";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:27:"Clase Virtual 4  12/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:288;O:8:"stdClass":15:{s:2:"id";s:3:"100";s:2:"cm";s:3:"288";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1663205142";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:27:"Clase Virtual 5  14/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:289;O:8:"stdClass":15:{s:2:"id";s:3:"101";s:2:"cm";s:3:"289";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1663379123";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:27:"Clase Virtual 6  16/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:290;O:8:"stdClass":15:{s:2:"id";s:3:"102";s:2:"cm";s:3:"290";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1663640844";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:28:"Clase Virtual 7   19/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:291;O:8:"stdClass":15:{s:2:"id";s:3:"103";s:2:"cm";s:3:"291";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1663820583";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:27:"Clase Virtual 8  21/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:292;O:8:"stdClass":15:{s:2:"id";s:3:"104";s:2:"cm";s:3:"292";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1663984691";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:27:"Clase virtual 9. 23/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:293;O:8:"stdClass":15:{s:2:"id";s:3:"105";s:2:"cm";s:3:"293";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1664256610";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:28:"Clase virtual  10 26/09/2023";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:294;O:8:"stdClass":16:{s:2:"id";s:3:"106";s:2:"cm";s:3:"294";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1664415216";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:28:"Clase virtual 11  28/09/2022";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:295;O:8:"stdClass":16:{s:2:"id";s:3:"107";s:2:"cm";s:3:"295";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1664588503";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:28:"Clase virtual 12  30/09/2022";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:296;O:8:"stdClass":16:{s:2:"id";s:3:"108";s:2:"cm";s:3:"296";s:3:"mod";s:3:"url";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"73";s:6:"module";s:2:"21";s:5:"added";s:10:"1664587044";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:24:"Asistencia y Comentarios";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:297;O:8:"stdClass":16:{s:2:"id";s:3:"109";s:2:"cm";s:3:"297";s:3:"mod";s:3:"url";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"75";s:6:"module";s:2:"21";s:5:"added";s:10:"1662584118";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:30:"Curso de Python en QGIS gratis";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:298;O:8:"stdClass":16:{s:2:"id";s:3:"110";s:2:"cm";s:3:"298";s:3:"mod";s:3:"url";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"75";s:6:"module";s:2:"21";s:5:"added";s:10:"1662584118";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:35:"Otro curso de Python en QGIS gratis";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:299;O:8:"stdClass":16:{s:2:"id";s:3:"111";s:2:"cm";s:3:"299";s:3:"mod";s:3:"url";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"75";s:6:"module";s:2:"21";s:5:"added";s:10:"1662586391";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:29:"Repositorio oficial de PyQGIS";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:300;O:8:"stdClass":15:{s:2:"id";s:3:"112";s:2:"cm";s:3:"300";s:3:"mod";s:3:"url";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"75";s:6:"module";s:2:"21";s:5:"added";s:10:"1663342509";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:18:"Enlace de interés";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:301;O:8:"stdClass":16:{s:2:"id";s:2:"43";s:2:"cm";s:3:"301";s:3:"mod";s:5:"forum";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"75";s:6:"module";s:1:"9";s:5:"added";s:10:"1663300779";s:7:"visible";s:1:"0";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"0";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:12:"Foro Tarea 1";s:7:"content";s:291:"<div class="no-overflow"><p><p>Identifique la necesidad de automatización de procesos en su
+trabajo, sea básico o complejo. La automatización es requerida cuando se usa SIG,
+determine que pasos serian los mas importantes de su script y descríbalos como
+lista en el foro</p><br></p></div>";}i:302;O:8:"stdClass":17:{s:2:"id";s:2:"45";s:2:"cm";s:3:"302";s:3:"mod";s:6:"assign";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"75";s:6:"module";s:1:"1";s:5:"added";s:10:"1663300874";s:7:"visible";s:1:"0";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"0";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:7:"Tarea 2";s:7:"content";s:200:"<div class="no-overflow"><p></p><p>Busque un geoproceso (función) en ArcPy y su homólogo
+correspondiente en QGIS, copie y coloque la sintaxis de la función para ambos
+casos<br></p><br><p></p></div>";s:10:"customdata";a:2:{s:7:"duedate";s:10:"1702871700";s:24:"allowsubmissionsfromdate";s:10:"1702612800";}}i:303;O:8:"stdClass":15:{s:2:"id";s:3:"113";s:2:"cm";s:3:"303";s:3:"mod";s:3:"url";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"76";s:6:"module";s:2:"21";s:5:"added";s:10:"1663557331";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:18:"Enlace de interés";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:304;O:8:"stdClass":16:{s:2:"id";s:3:"114";s:2:"cm";s:3:"304";s:3:"mod";s:3:"url";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"76";s:6:"module";s:2:"21";s:5:"added";s:10:"1663557331";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:32:"Librerias geoespaciales de R - 2";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:305;O:8:"stdClass":17:{s:2:"id";s:3:"115";s:2:"cm";s:3:"305";s:3:"mod";s:3:"url";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"76";s:6:"module";s:2:"21";s:5:"added";s:10:"1663557331";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:35:"Geocomputacion con R (libro online)";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:306;O:8:"stdClass":16:{s:2:"id";s:3:"116";s:2:"cm";s:3:"306";s:3:"mod";s:3:"url";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"76";s:6:"module";s:2:"21";s:5:"added";s:10:"1663624009";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:9:"R spatial";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:307;O:8:"stdClass":18:{s:2:"id";s:3:"117";s:2:"cm";s:3:"307";s:3:"mod";s:3:"url";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"76";s:6:"module";s:2:"21";s:5:"added";s:10:"1663721127";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"showdescription";s:1:"1";s:18:"deletioninprogress";s:1:"1";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:30:"Instalador de Google Cloud SDK";s:7:"content";s:144:"<div class="no-overflow"><p>Para utilizar RGEE (libreria de Google Earth Engine para R) se debe instalar la aplicacion de Google Cloud</p></div>";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:308;O:8:"stdClass":15:{s:2:"id";s:2:"46";s:2:"cm";s:3:"308";s:3:"mod";s:6:"assign";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"76";s:6:"module";s:1:"1";s:5:"added";s:10:"1663619885";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:7:"Tarea 3";s:10:"customdata";a:2:{s:7:"duedate";s:10:"1703476500";s:24:"allowsubmissionsfromdate";s:10:"1702872000";}}i:311;O:8:"stdClass":15:{s:2:"id";s:1:"7";s:2:"cm";s:3:"311";s:3:"mod";s:8:"resource";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"77";s:6:"module";s:2:"18";s:5:"added";s:10:"1664467363";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:22:"Diapositivas del tema ";s:10:"customdata";a:2:{s:14:"displayoptions";s:28:"a:1:{s:10:"printintro";i:1;}";s:7:"display";i:5;}}i:312;O:8:"stdClass":15:{s:2:"id";s:3:"118";s:2:"cm";s:3:"312";s:3:"mod";s:3:"url";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"77";s:6:"module";s:2:"21";s:5:"added";s:10:"1664836059";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:19:"Google Earth Engine";s:10:"customdata";a:2:{s:7:"display";i:4;s:10:"filtericon";b:1;}}i:309;O:8:"stdClass":15:{s:2:"id";s:2:"47";s:2:"cm";s:3:"309";s:3:"mod";s:6:"assign";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"77";s:6:"module";s:1:"1";s:5:"added";s:10:"1664334309";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";s:0:"";s:4:"name";s:7:"Tarea 4";s:10:"customdata";a:2:{s:7:"duedate";s:10:"1704081300";s:24:"allowsubmissionsfromdate";s:10:"1703563200";}}i:310;O:8:"stdClass":15:{s:2:"id";s:2:"48";s:2:"cm";s:3:"310";s:3:"mod";s:6:"assign";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"77";s:6:"module";s:1:"1";s:5:"added";s:10:"1664335026";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:19:"completionpassgrade";s:1:"0";s:15:"downloadcontent";s:1:"1";s:4:"lang";N;s:4:"name";s:20:"Tarea final de curso";s:10:"customdata";a:2:{s:7:"duedate";s:10:"1704513600";s:24:"allowsubmissionsfromdate";s:10:"1703649600";}}}s:12:"sectioncache";a:5:{i:0;O:8:"stdClass":4:{s:2:"id";s:2:"73";s:4:"name";s:22:"Introducción al Curso";s:7:"summary";s:4657:"<p style="text-align: center;"><b style="font-size: 0.9375rem;">CONTENIDO</b><br></p><p></p><p><b><span lang="ES">Tema 1: Introducción a SAR</span></b></p>
+
+<p><span lang="ES">Introducción a la tecnología SAR.</span></p>
+
+<p><span lang="ES">Definición y conceptos básicos de
+SAR.</span></p>
+
+<p><span lang="ES">Ventajas y limitaciones de SAR en comparación
+con otras tecnologías de sensores remotos.</span></p>
+
+<p><span lang="ES">Aplicaciones y casos de estudio.</span></p>
+
+<p><b><span lang="ES">Tema 2: Principios Básicos de Radar</span></b></p>
+
+<p><span lang="ES" style="font-size: 0.9375rem;">Fundamentos de radar.</span><br></p>
+
+<p><span lang="ES">Propiedades de las ondas
+electromagnéticas.</span></p>
+
+<p><span lang="ES">El proceso de emisión y recepción
+de señales radar.</span></p>
+
+<p><span lang="ES">Tipos de radar.</span></p>
+
+<p><span lang="ES">Radar de apertura sintética (SAR)
+frente a otros tipos de radar.</span></p>
+
+<p><span lang="ES" style="font-size: 0.9375rem;">Interacción de la señal radar con
+la superficie.</span><br></p>
+
+<p><span lang="ES">Reflexión, refracción y dispersión
+en la interacción radar-tierra.</span></p>
+
+<p><b><span lang="ES">Tema 3: Imágenes Sentinel-1 y SNAP</span></b></p>
+
+<p><span lang="ES">Introducción a Sentinel-1 y la
+constelación Copernicus.</span></p>
+
+<p><span lang="ES">Características de los satélites
+Sentinel-1.</span></p>
+
+<p><span lang="ES">Adquisición de datos SAR.</span></p>
+
+<p><span lang="ES">Procesos de adquisición y programación
+de observaciones.</span></p>
+
+<p><span lang="ES" style="font-size: 0.9375rem;">Introducción al software SNAP.</span><br></p>
+
+<p><span lang="ES">Descarga e instalación.</span></p>
+
+<p><span lang="ES" style="font-size: 0.9375rem;">Preparación de datos Sentinel-1
+con SNAP.</span><br></p>
+
+<p><span lang="ES">Descarga y preprocesamiento de
+imágenes.</span></p>
+
+<p><b><span lang="ES">Tema 4: Procesamiento basico de Imágenes
+SAR</span></b></p>
+
+<p><span lang="ES" style="font-size: 0.9375rem;">Preprocesamiento de datos
+Sentinel-1.</span><br></p>
+
+<p><span lang="ES">Calibración y corrección de
+órbita.</span></p>
+
+<p><span lang="ES">Formatos de datos SAR.</span></p>
+
+<p><span lang="ES">Tipos de formatos de datos y su
+importancia.</span></p>
+
+<p><span lang="ES">Filtrado y corrección de ruido.</span></p>
+
+<p><span lang="ES">Eliminación de artefactos y ruido
+en las imágenes.</span></p>
+
+<p><span lang="ES">Georreferenciación y proyecciones.</span></p>
+
+<p><span lang="ES">Proyecciones espaciales y
+georreferenciación de datos SAR.</span></p>
+
+<p><b style="font-size: 0.9375rem;"><span lang="ES">Tema 5: Interpretación de Imágenes SAR</span></b></p>
+
+<p><span lang="ES">Interpretación visual de imágenes
+SAR.</span></p>
+
+<p><span lang="ES">Identificación de objetos y
+características en imágenes SAR.</span></p>
+
+<p><span lang="ES">Extracción de información
+geoespacial.</span></p>
+
+<p><span lang="ES">Técnicas para la identificación de
+características específicas.</span></p>
+
+<p><span lang="ES">Despeje de incertidumbres y
+errores comunes.</span></p>
+
+<p><span lang="ES">&nbsp;</span><!--[endif]--><span lang="ES">Cómo evitar errores en la
+interpretación.</span></p>
+
+<p><span lang="ES">Casos de estudio y aplicaciones
+prácticas.</span></p>
+
+<p><span lang="ES">Ejemplos de interpretación en la
+agricultura y otras áreas.</span></p>
+
+<p><b><span lang="ES">Tema 6: Aplicaciones en Agricultura</span></b></p>
+
+<p><span lang="ES">Agricultura de precisión.</span></p>
+
+<p><span lang="ES">Conceptos básicos y beneficios en
+la agricultura.</span></p>
+
+<p><span lang="ES">Monitoreo de la salud de los
+cultivos.</span></p>
+
+<p><span lang="ES">Uso de imágenes SAR para evaluar
+la salud de los cultivos.</span></p>
+
+<p><span lang="ES">Estimación de biomasa y humedad
+del suelo.</span></p>
+
+<p><span lang="ES">Métodos y técnicas para
+cuantificar la biomasa y la humedad.</span></p>
+
+<p><span lang="ES">Planificación agrícola y gestión
+de recursos.</span></p>
+
+<p><span lang="ES">Cómo utilizar datos SAR en la toma
+de decisiones agrícolas.</span></p>
+
+<p><b><span lang="ES">Tema 7: Ejercicios Prácticos con SNAP</span></b></p>
+
+<p><span lang="ES">Procesamiento de datos SAR en
+SNAP.</span></p>
+
+<p><span lang="ES">Carga, preprocesamiento y
+visualización de imágenes.</span></p>
+
+<p><span lang="ES">Análisis y generación de productos
+en SNAP.</span></p>
+
+<p><span lang="ES">Creación de productos derivados a
+partir de imágenes SAR.</span></p><p></p>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:1;O:8:"stdClass":4:{s:2:"id";s:2:"74";s:4:"name";s:0:"";s:7:"summary";s:205:"<h4><p><span lang="ES">Tema 1: Introducción a SAR</span></p>
+
+<p><span lang="ES">Tema 2: Principios Básicos de Radar</span></p>
+
+<p><span lang="ES">Tema 3: Imágenes Sentinel-1 y SNAP</span></p></h4>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:2;O:8:"stdClass":4:{s:2:"id";s:2:"75";s:4:"name";s:0:"";s:7:"summary";s:456:"<h4>
+    <p><span lang="ES">Tema 4: Procesamientos basicos de Imágenes SAR</span></p>
+
+    <p><span lang="ES">Tema 5: Interpretación de Imágenes SAR</span></p>
+</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FJWzLxdSMyA?si=VcfwZYtTwmLyXt1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:3;O:8:"stdClass":4:{s:2:"id";s:2:"76";s:4:"name";s:0:"";s:7:"summary";s:442:"<h4>
+    <p><span lang="ES">Tema 6: Aplicaciones en Agricultura</span></p>
+
+    <p><span lang="ES">Tema 7: Ejercicios Prácticos con SNAP</span></p>
+</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S_EFDxuQRiI?si=N_6mF3W81HK6EXKC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:4;O:8:"stdClass":4:{s:2:"id";s:2:"77";s:4:"name";s:0:"";s:7:"summary";s:387:"<h4>
+    <p><span lang="ES">Tema 7: Ejercicios Prácticos con SNAP y cierre de curso</span></p>
+</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QK8J8huXzio?si=zkz1NBHUCkpPU7st" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}}s:9:"shortname";s:7:"SAR_v23";s:8:"fullname";s:58:"Fundamentos y aplicaciones de SAR con imágenes Sentinel-1";s:6:"format";s:5:"weeks";s:16:"enablecompletion";s:1:"0";s:9:"groupmode";s:1:"0";s:14:"groupmodeforce";s:1:"0";s:8:"cacherev";s:10:"1700253385";}s:7:"version";i:1700253385;}

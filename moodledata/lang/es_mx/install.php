@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'install', language 'es_mx', version '3.10'.
+ * Strings for component 'install', language 'es_mx', version '4.2'.
  *
  * @package     install
  * @category    string
@@ -42,13 +42,14 @@ $string['chooselanguagehead'] = 'Seleccionar idioma';
 $string['chooselanguagesub'] = 'Por favor, seleccione un idioma para el proceso de instalación. Este idioma se usará también como idioma por defecto del sitio, si bien puede cambiarse más adelante.';
 $string['cliadminemail'] = 'Nuevas direcciones Email de usuario administrador';
 $string['cliadminpassword'] = 'Nueva contraseña de usuario admin';
-$string['cliadminusername'] = 'Nombre_de_usuario de la cuenta del administrador';
+$string['cliadminusername'] = 'Nombre de usuario de la cuenta del administrador';
 $string['clialreadyconfigured'] = 'El archivo de configuración config.php ya existe. Por favor, use admin/cli/install_database.php para instalar Moodle para este sitio';
 $string['clialreadyinstalled'] = 'El archivo de configuración config.php ya existe. Por favor, utilice admin/cli/install_database.php para actualizar Moodle para este sitio.';
 $string['cliinstallfinished'] = 'La instalación se completo exitosamente.';
 $string['cliinstallheader'] = 'Programa de instalación Moodle de línea de comando {$a}';
 $string['climustagreelicense'] = 'En modo no interactivo debe aceptar la licencia al especificar la opción --agree-license';
 $string['cliskipdatabase'] = 'Saltándose la instalación de la BasedeDatos.';
+$string['clisupportemail'] = 'Dirección Email de soporte';
 $string['clitablesexist'] = 'Tablas de base de datos ya existentes, la instalación CLI no puede continuar.';
 $string['compatibilitysettings'] = 'Comprobando sus ajustes PHP...';
 $string['compatibilitysettingshead'] = 'Comprobando sus ajustes PHP...';
@@ -124,7 +125,7 @@ $string['inputdatadirectory'] = 'Directorio de Datos:';
 $string['inputwebadress'] = 'Dirección Web:';
 $string['inputwebdirectory'] = 'Directorio Moodle:';
 $string['installation'] = 'Instalación';
-$string['invaliddbprefix'] = 'Prefijo inválido. El prefijo solamente puede consistir de letras minúsculas y guión bajo.';
+$string['invaliddbprefix'] = 'Prefijo inválido. El prefijo solamente puede consistir de letras minúsculas y guion bajo.';
 $string['langdownloaderror'] = 'El idioma "{$a}" no pudo ser instalado. El proceso de instalación continuará en Inglés.';
 $string['langdownloadok'] = 'El idioma "{$a}" ha sido instalado correctamente. El proceso de instalación continuará en este idioma.';
 $string['memorylimit'] = 'Límite de memoria';
@@ -148,29 +149,29 @@ a, digamos, 40M. Si no lo tiene, pida a su administrador que lo haga por usted.<
 $string['mysqliextensionisnotpresentinphp'] = 'PHP no ha sido configurado adecuadamente con la extensión MySQLi de forma que se pueda comunicar con MySQL. Por favor, compruebe su archivo php.ini o recompile PHP.';
 $string['nativeauroramysql'] = 'Aurora MySQL (native/auroramysql)';
 $string['nativeauroramysqlhelp'] = '<p>La base de datos es donde se almacenan la mayoría de las configuraciones y los datos de Moodle, y debe estar configurada aquí.</p>
-<p>El nombre. nombre_de_usuario y contraseña de la base de datos son campos obligatorios; el prefijo de la tabla es opcional.</p>
-<p>El nombre de la base de datos solamente puede contener caracteres alfanuméricos, el signo de dolar ($) y guión_bajo (_).</p>
+<p>El nombre. nombre de usuario y contraseña de la base de datos son campos obligatorios; el prefijo de la tabla es opcional.</p>
+<p>El nombre de la base de datos solamente puede contener caracteres alfanuméricos, el signo de dolar ($) y guion_bajo (_).</p>
 <p>Si actualmente no existiera la base de datos, y el usuario que Usted especifica tuviera permiso. Mooodle intentará crear una nueva base de datos con los permisos y configuraciones correctos.</p>
 <p>Este manejador no es compatible con el motor antiguo MyISAM.</p>';
 $string['nativemariadb'] = 'MariaDB (native/mariadb)';
 $string['nativemariadbhelp'] = '<p>La BasedeDatos es el lugar en donde se almacenan los datos y configuraciones de Moodle y debe configurarse aquí.</p>
-<p>El nombre de la BasedeDatos, nombre_de_usuario y contraseña son campos obligatorios; el prefijo de la tabla es opcional.</p>
-<p>El nombre de la BasedeDatos solamente puede contener caracteres alfanuméricos, el signo de dolar ($) y el signo de guión_bajo (_).</p>
+<p>El nombre de la BasedeDatos, nombre de usuario y contraseña son campos obligatorios; el prefijo de la tabla es opcional.</p>
+<p>El nombre de la BasedeDatos solamente puede contener caracteres alfanuméricos, el signo de dolar ($) y el signo de guion_bajo (_).</p>
 <p>Si la BasedeDatos no existiera actualmente, y el usuario que Usted especifique tiene permisos, Moodle intentará crear una nueva BasedeDatos con las configuraciones y los permisos correctos.</p>
 <p>Este driver no es compatible con el motor antiguo MyISAM.</p>';
 $string['nativemysqli'] = 'MySQL mejorado (native/mysqli)';
 $string['nativemysqlihelp'] = '<p>La BasedeDatos es el lugar en donde se almacenan los datos y configuraciones de Moodle y debe configurarse aquí.</p>
-<p>El nombre de la BasedeDatos, nombre_de_usuario y contraseña son campos obligatorios; el prefijo de la tabla es opcional.</p>
-<p>El nombre de la BasedeDatos solamente puede contener caracteres alfanuméricos, el signo de dolar ($) y el signo de guión_bajo (_).</p>
+<p>El nombre de la BasedeDatos, nombre de usuario y contraseña son campos obligatorios; el prefijo de la tabla es opcional.</p>
+<p>El nombre de la BasedeDatos solamente puede contener caracteres alfanuméricos, el signo de dolar ($) y el signo de guion_bajo (_).</p>
 <p>Si la BasedeDatos no existiera actualmente, y el usuario que especificó tuviera los permisos, Moodle intentará crear una nueva BasedeDatos con las configuraciones y los  permisos correctos.</p>';
 $string['nativeoci'] = 'Oracle (native/oci)';
-$string['nativeocihelp'] = 'Ahora tiene que configurar la base de datos donde se almacenarán la mayoría de los datos de Moodle. Esta base de datos debe estar creada previamente, al igual que un nombre_de_usuario y su contraseña, para poder acceder a ella. El prefijo de la tabla es obligatorio.';
+$string['nativeocihelp'] = 'Ahora tiene que configurar la base de datos donde se almacenarán la mayoría de los datos de Moodle. Esta base de datos debe estar creada previamente, al igual que un nombre de usuario y su contraseña, para poder acceder a ella. El prefijo de la tabla es obligatorio.';
 $string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
 $string['nativepgsqlhelp'] = '<p>La BasedeDatos es el lugar en donde se almacenan los datos y configuraciones de Moodle y debe configurarse aquí.</p>
-<p>El nombre de la BasedeDatos, nombre_de_usuario,  la contraseña y el prefijo de la tabla  son campos obligatorios.</p>
+<p>El nombre de la BasedeDatos, nombre de usuario,  la contraseña y el prefijo de la tabla  son campos obligatorios.</p>
 <p>La BasedeDatos ya debería de existir y el usuario debe de tener acceso, tanto para lectura como para escritura en ella.</p>';
 $string['nativesqlsrv'] = 'SQL*Server Microsoft (native/sqlsrv)';
-$string['nativesqlsrvhelp'] = 'Ahora tiene que configurar la base de datos donde se almacenarán la mayoría de los datos de Moodle. Esta base de datos debe estar creada previamente, al igual que un nombre_de_usuario y su contraseña, para poder acceder a ella. El prefijo de la tabla es obligatorio.';
+$string['nativesqlsrvhelp'] = 'Ahora tiene que configurar la base de datos donde se almacenarán la mayoría de los datos de Moodle. Esta base de datos debe estar creada previamente, al igual que un nombre de usuario y su contraseña, para poder acceder a ella. El prefijo de la tabla es obligatorio.';
 $string['nativesqlsrvnodriver'] = 'Los manejadores Microsoft del servidor SQL para PHP no están instalados o configurados adecuadamente.';
 $string['ociextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión OCI8 de modo que pueda comunicarse con Oracle. Por favor, compruebe el archivo php.ini o vuelva a compilar PHP.';
 $string['pass'] = 'Correcto';

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_autoattend', language 'es_mx', version '3.10'.
+ * Strings for component 'block_autoattend', language 'es_mx', version '4.2'.
  *
  * @package     block_autoattend
  * @category    string
@@ -93,6 +93,7 @@ $string['attendtable'] = 'Asistencias';
 $string['attendupdated'] = 'La asistencia fue actiualizada exitosamente';
 $string['autoattend'] = 'Auto Asistencia';
 $string['autoattend:addinstance'] = 'Añadir un nuevo bloque de auto asistencia';
+$string['autoattend:myaddinstance'] = 'Añadir un nuevo bloque de auto asistencia';
 $string['autoattend:view'] = 'Ver bloque';
 $string['autoattendblock'] = 'Auto Asistencia';
 $string['calleddate'] = 'Fecha llamada';
@@ -124,6 +125,7 @@ $string['delete'] = 'Eliminar';
 $string['deleteconfirm'] = '¿ Realmente eliminar ?';
 $string['deleteconfirmclasses'] = 'Al menos una o más clases ya han tomado asistencia,<br /> ¿ Realmente las quiere eliminar ?';
 $string['deletedb'] = 'Eliminar datos de sesiones antiguas';
+$string['deletedb_confirm'] = '¿Quiere ejecutar la eliminación de datos de sesiones antiguas?';
 $string['deletedb_confirm_2nd'] = '¿Realmente desea eliminar los datos de sesiones antiguas?';
 $string['deletedb_info'] = 'Hay <strong>{$a->delnum}</strong> datos de sesiones a ser eliminados antes de <strong>{$a->delstr}</strong>.';
 $string['deletedb_title'] = 'Eliminar sesiones antiguas antes de la fecha especificada';
@@ -231,6 +233,7 @@ $string['page_row_size_desc'] = 'Se muestra un encabezado para cada número de l
 $string['period'] = 'Período';
 $string['pleasefeedback'] = 'Por favor, use Retroalimentación';
 $string['pluginname'] = 'Bloque de Auto Asistencia';
+$string['privacy:metadata'] = 'El bloque de Auto Asistencia solamente muestra datos almacenados en otros lugares.';
 $string['recalcgrades'] = 'Recalcular Calificaciones';
 $string['refreshdata'] = 'Resfrescar';
 $string['remarks'] = 'Notas';

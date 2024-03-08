@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_internships', language 'es_mx', version '3.10'.
+ * Strings for component 'block_internships', language 'es_mx', version '4.2'.
  *
  * @package     block_internships
  * @category    string
@@ -33,7 +33,7 @@ $string['checkbox_getupdate'] = 'Obtener';
 $string['companies'] = 'compañías';
 $string['conectivity_error'] = 'Nosotros no  pudimos conectarnos con el servicio web de Internships.com . Por favor revise sus configuraciones y conectividad general de red. Si el problema persiste, por favor contacte a su administrador.';
 $string['email'] = 'Email';
-$string['error_connect1'] = '¡Órale! Algo salió mal.';
+$string['error_connect1'] = '¡Ups! Algo salió mal.';
 $string['error_connect2'] = 'Estamos trabajando árduamente para arreglarlo. Por favor intentelo nuevamente más tarde.';
 $string['error_connect3'] = 'Si continúa viendo este mensaje de error, por favo<a target=\'_blank\' href=\'http://www.internships.com/help\'>contáctenos</a>.';
 $string['error_setting_not_save'] = 'El bloque no puede usarse hasta después de que sea configurado. Por favor elija aquí para configurarlo.';
@@ -47,7 +47,7 @@ $string['internships:addblock'] = 'Añadir bloque de internados (internships).';
 $string['internships:connect'] = 'Conectarse a internados';
 $string['internships_from'] = 'internados de';
 $string['internships_url'] = 'URL de internados';
-$string['internships_url_desc'] = '*** empty string ***';
+$string['internships_url_desc'] = '';
 $string['invalidurl'] = '¡URL de método especificada inválida!';
 $string['lastname'] = 'Apellido';
 $string['pluginname'] = 'Internados';
@@ -57,7 +57,7 @@ $string['second_question'] = '¿Dónde?';
 $string['second_question_default'] = 'Ciudad, Estado, Código Postal';
 $string['subtitle_block'] = '¡Encuentre Su Internado Ahora!';
 $string['webservice_api_url'] = 'URL de servicio web';
-$string['webservice_api_url_desc'] = '*** empty string ***';
+$string['webservice_api_url_desc'] = '';
 $string['webservice_key'] = 'Clave';
 $string['webservice_key_desc'] = 'Nota: La Clave del Consumidor es sensible a minúsculas/MAYÚSCULAS.';
 $string['webservice_secret'] = 'Secreto';

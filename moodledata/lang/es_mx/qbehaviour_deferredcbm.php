@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_deferredcbm', language 'es_mx', version '3.10'.
+ * Strings for component 'qbehaviour_deferredcbm', language 'es_mx', version '4.2'.
  *
  * @package     qbehaviour_deferredcbm
  * @category    string
@@ -41,13 +41,14 @@ $string['cbmgrades_help'] = 'Con Puntaje Basado en Certeza = PBC (Certainty Base
  **Precisión** + **Bono PBC** es una mejor medida del conocimiento que la mera **Precisión**.
 
 Los prejuicios pueden conducir a un bono negativo; una advertencia para revisar con cuidado qué es lo que si se sabe contra lo que no se sabe.';
+$string['cbmgrades_link'] = 'qbehaviour/deferredcbm/certaintygrade';
 $string['cbmmark'] = 'Puntaje PBC {$a}';
 $string['certainty'] = 'Certeza';
 $string['certainty-1'] = 'Sin idea';
 $string['certainty1'] = 'C=1 (Incierto: <67%)';
 $string['certainty2'] = 'C=2 (Medio: >67%)';
 $string['certainty3'] = 'C=3 (Bastante seguro: >80%)';
-$string['certainty_help'] = 'Puntaje Basado en Certeza (PBC) requirere que Usted indique que tan confiable piensa Usted que sea su respuesta. Los niveles disponibles son:
+$string['certainty_help'] = 'Calificación Basado en Certeza (PBC) requirere que Usted indique que tan confiable piensa Usted que sea su respuesta. Los niveles disponibles son:
 
 Nivel  Certeza  | C=1 (Incierto)| C=2 (Med)| C=3 (Muy  seguro)
  ------------------- | ------------ | --------- | ----------------
@@ -55,7 +56,8 @@ Puntaje correct| 1 | 2 | 3
 Puntaje  malo | 0 | -2 | -6
 Probabilid correcto| <67% | 67-80% | >80%
 
-Las mejores puntuaciones se ganan al reconocer la incertidumbre. Por ejemplo, si Usted piensa que hay más de 1 probabilidad entre 3 de estar equivocado, Usted debería de escribir  C=1 y así evitar el riesgo de tener un puntaje negativo.';
+Las mejores calificaciones se ganan al reconocer la incertidumbre. Por ejemplo, si Usted piensa que hay más de 1 probabilidad entre 3 de estar equivocado, Usted debería de escribir  C=1 y así evitar el riesgo de tener un puntaje negativo.';
+$string['certainty_link'] = 'qbehaviour/deferredcbm/certainty';
 $string['certaintyshort-1'] = 'Ni idea';
 $string['certaintyshort1'] = 'C=1';
 $string['certaintyshort2'] = 'C=2';

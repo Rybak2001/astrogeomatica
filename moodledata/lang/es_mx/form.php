@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'form', language 'es_mx', version '3.10'.
+ * Strings for component 'form', language 'es_mx', version '4.2'.
  *
  * @package     form
  * @category    string
@@ -50,7 +50,6 @@ $string['filesofthesetypes'] = 'Tipos de archivos aceptados:';
 $string['filetypesany'] = 'Todos los tipos de archivos';
 $string['filetypesnotall'] = 'Aquí no está permitido seleccionar \'Todos los tipos de archivo\'';
 $string['filetypesnotallowed'] = 'Estos tipos de archivos no están permitidos aquí: {$a}';
-$string['filetypesnotwhitelisted'] = 'Estos tipos de archivos no están permitidos aquí: {$a}';
 $string['filetypesothers'] = 'Otros archivos';
 $string['filetypesunknown'] = 'Tipos de archivo desconocidos: {$a}';
 $string['general'] = 'General';
@@ -64,7 +63,8 @@ $string['mustbeoverriden'] = 'Método de definición de forma abstracta () en cl
 $string['newvaluefor'] = 'Nuevo valor para {$a}';
 $string['nomethodforaddinghelpbutton'] = 'No hay posibilidad de añadir un botón de ayuda al elemento del formato {$a->name} (class {$a->classname})';
 $string['nonexistentformelements'] = 'Intentando añadir botones de ayuda a elementos de formato inexistentes: {$a}';
-$string['noselection'] = 'Sin selección';
+$string['nopermissionform'] = 'Usted no tiene permiso para acceder a este formato.';
+$string['noselection'] = 'Sin seleccionar';
 $string['nosuggestions'] = 'Sin sugerencias';
 $string['novalue'] = 'Nada ingresado';
 $string['novalueclicktoset'] = 'Haga clic para ingresar texto';
@@ -79,11 +79,11 @@ $string['requiredelement'] = 'Campo requerido';
 $string['security'] = 'Seguridad';
 $string['selectallornone'] = 'Seleccionar todos/ninguno';
 $string['selected'] = 'Seleccionados';
-$string['selecteditems'] = 'Ítems seleccionados:';
+$string['selecteditems'] = 'Elementos seleccionados:';
 $string['showadvanced'] = 'Mostrar avanzadas';
 $string['showless'] = 'Mostrar menos...';
 $string['showmore'] = 'Mostrar más...';
-$string['somefieldsrequired'] = 'En este formato hay campos obligatorios {$a}';
+$string['somefieldsrequired'] = '{$a} Requerido';
 $string['suggestions'] = 'Sugerencias';
 $string['time'] = 'Hora';
 $string['timeunit'] = 'Unidad de tiempo';

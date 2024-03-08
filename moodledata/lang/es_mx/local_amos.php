@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_amos', language 'es_mx', version '3.10'.
+ * Strings for component 'local_amos', language 'es_mx', version '4.2'.
  *
  * @package     local_amos
  * @category    string
@@ -37,7 +37,7 @@ $string['amos:manage'] = 'Gestionar portal AMOS';
 $string['amos:stage'] = 'Usar la herramienta de traducción AMOS y preparar las cadenas';
 $string['amos:stash'] = 'Guardar la cadena preparada en espera actual en el almacén persistente';
 $string['amos:usegoogle'] = 'Usar los servicios de traducción de Google';
-$string['applangindexfile'] = 'Localización del archivo LangIndex de App Moodle';
+$string['applangindexfile'] = 'Ubicación del archivo LangIndex de App Moodle';
 $string['applangindexfile_desc'] = 'URL completa de la cual descargar el archivo. Será hecho por un trabajo del cron.';
 $string['commitbutton'] = 'Implantar';
 $string['commitkeepstaged'] = 'Mantener cadenas en \'stage\'';
